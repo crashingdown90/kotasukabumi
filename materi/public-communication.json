@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Komunikasi Publik Pimpinan Daerah",
+    "subtitle": "Membangun Kepercayaan Melalui Dialog Terbuka dan Strategis",
+    "content": "Pimpinan daerah adalah wajah dari pemerintah. Setiap kata, tindakan, dan kebijakan adalah pesan yang dikonsumsi oleh publik.",
+    "type": "title"
+  },
+  {
+    "id": 2,
+    "title": "Urgensi Komunikasi Publik",
+    "subtitle": "Mengapa pimpinan harus mahir berkomunikasi?",
+    "content": "1. Membangun Kepercayaan (Trust Building)\n2. Manajemen Reputasi Institusi\n3. Klarifikasi Kebijakan & Program\n4. Mendorong Partisipasi Masyarakat",
+    "type": "bullets"
+  },
+  {
+    "id": 3,
+    "title": "Strategi Komunikasi Efektif",
+    "subtitle": "Alur penyampaian pesan yang berdampak",
+    "content": "• Analisis Isu: Pahami apa yang sedang dibicarakan publik.\n• Penentuan Tujuan: Apa hasil akhir yang diinginkan?\n• Pengemasan Konten: Gunakan bahasa yang mudah dipahami (Storytelling).",
+    "type": "bullets"
+  },
+  {
+    "id": 4,
+    "title": "Saluran & Media Komunikasi",
+    "subtitle": "Omnichannel untuk jangkauan maksimal",
+    "content": "• Media Sosial: Interaksi langsung dan cepat.\n• Media Arus Utama: Legitimasi dan jangkauan luas.\n• Tatap Muka: Memperkuat kedekatan emosional (Blusukan Digital/Fisik).",
+    "type": "grid"
+  },
+  {
+    "id": 5,
+    "title": "Manajemen Isu & Krisis",
+    "subtitle": "Menghadapi tantangan di era disinformasi",
+    "content": "Kecepatan (Speed) + Akurasi (Accuracy) + Empati (Empathy). Jangan biarkan narasi negatif berkembang tanpa klarifikasi yang tepat.",
+    "type": "highlight"
+  },
+  {
+    "id": 6,
+    "title": "Digital & AI Communication",
+    "subtitle": "Transformasi cara berkomunikasi",
+    "content": "Pemanfaatan data analitik untuk memahami sentimen publik dan AI untuk efisiensi produksi konten informasi publik.",
+    "type": "future"
+  },
+  {
+    "id": 7,
+    "title": "Penutup: Menuju Sukabumi Digital",
+    "subtitle": "Komunikasi adalah kunci kolaborasi",
+    "content": "Mari kita bangun narasi positif untuk kemajuan daerah. Komunikasi yang baik adalah awal dari pelayanan yang hebat.",
+    "type": "closing"
+  }
+]

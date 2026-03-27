@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "title": "Visi Komunikasi Era 5.0",
+    "subtitle": "Transformasi Digital Kepemimpinan H. Ayep Zaki & H. Bobby Maulana",
+    "body": "Membangun Kota Sukabumi yang lebih cerdas, transparan, dan inklusif melalui strategi komunikasi publik yang proaktif, empatik, dan sepenuhnya digerakkan oleh data aktual.",
+    "layout": "hero",
+    "icon": "Globe"
+  },
+  {
+    "id": 2,
+    "title": "Urgensi Keterbukaan Informasi",
+    "subtitle": "Landasan Regulasi & Tanggung Jawab Publik",
+    "body": "<ul><li><b>Amanat UU No. 14 Tahun 2008:</b> Menjamin hak warga negara untuk mengetahui rencana, proses, dan alasan pengambilan kebijakan publik.</li><li><b>Inpres No. 9 Tahun 2015:</b> Pengelolaan Komunikasi Publik yang terintegrasi dan responsif.</li><li><b>Kepercayaan sebagai Mata Uang Utama:</b> Keterbukaan adalah pilar utama menekan disinformasi dan membangun legitimasi kepemimpinan.</li></ul>",
+    "layout": "cards",
+    "icon": "FileText"
+  },
+  {
+    "id": 3,
+    "title": "Tantangan Komunikasi Modern",
+    "subtitle": "Menavigasi Disrupsi Informasi Kota Sukabumi",
+    "body": "<ul><li><b>Kecepatan Arus Informasi:</b> Warga menginginkan respons seketika terhadap isu atau masalah di lapangan.</li><li><b>Polarisasi Opini di Media Sosial:</b> Rentannya masyarakat terhadap gema berita bohong (*echo chambers*).</li><li><b>Kesenjangan Literasi:</b> Tantangan menyampaikan kebijakan kompleks menjadi bahasa yang mudah dipahami seluruh lapisan masyarakat Sukabumi.</li></ul>",
+    "layout": "challenges",
+    "icon": "ShieldAlert"
+  },
+  {
+    "id": 4,
+    "title": "Orkestrasi One-Gate Policy",
+    "subtitle": "Satu Komando, Satu Suara, Satu Narasi untuk Kota Sukabumi",
+    "body": "<ul><li><b>Tim Khusus Komunikasi Strategis:</b> Unit *think-tank* eksklusif di bawah komando langsung Wali Kota — penentu *grand narrative* dan arah besar komunikasi pemerintahan.</li><li><b>Diskominfo sebagai Lengan Eksekutor:</b> Menerima *strategic brief* dari Tim Khusus, lalu memproduksi dan mendistribusikan konten secara teknis dan masif ke semua platform.</li><li><b>Keselarasan Lintas OPD:</b> Satu pintu klarifikasi — seluruh materi sensitif **wajib** mendapat *clearance* dari Tim Khusus sebelum tayang ke publik.</li></ul>",
+    "layout": "orgchart",
+    "icon": "Users"
+  },
+  {
+    "id": 5,
+    "title": "Masterplan Distribusi Konten",
+    "subtitle": "Formula 60-30-10 untuk Engagement Maksimal",
+    "body": "<ul><li><b>60% Edukasi & Capaian:</b> Pembangunan, program strategis, dan pencapaian visi-misi H. Ayep Zaki & H. Bobby Maulana.</li><li><b>30% Informasi Layanan:</b> Prosedur administratif, peringatan dini bencana, pemadaman listrik, dan info cuaca.</li><li><b>10% Interaksi Humanis:</b> Konten ringan, kuis warga, sapa pagi pimpinan, dan apresiasi tokoh lokal Sukabumi.</li></ul>",
+    "layout": "formula",
+    "icon": "BarChart3"
+  },
+  {
+    "id": 6,
+    "title": "Arsitektur Media Sosial Terpusat",
+    "subtitle": "Command Center & Demografi Platform",
+    "body": "<ul><li><b>Instagram:</b> Etalase utama untuk *Visual Storytelling*, infografis elegan, dan pameran pencapaian kota secara estetis.</li><li><b>TikTok & Reels:</b> Pendekatan video kasual dan tren viral untuk penetrasi organik ke audiens Gen Z dan milenial.</li><li><b>Facebook:</b> Komunikasi komunitas lokal, forum aduan RT/RW, dan jangkauan warga senior/keluarga.</li><li><b>YouTube:</b> Dokumenter eksklusif, liputan mendalam (*in-depth reporting*), dan arsip siaran sidang kenegaraan/paripurna.</li><li><b>Twitter / X:</b> Respon cepat (*fast-response*), aduan infrastruktur instan, dan penanganan krisis opini publik.</li></ul>",
+    "layout": "social_synergy",
+    "icon": "Share2"
+  },
+  {
+    "id": 7,
+    "title": "Sinergi Media Massa & Jurnalis",
+    "subtitle": "Kemitraan Strategis Penguatan Narasi Positif",
+    "body": "<ul><li><b>Media Relations Eksekutif:</b> *Coffee morning* rutin antara Wali Kota/Wakil Wali Kota dengan pimpinan redaksi lokal untuk menyamakan frekuensi visi pembangunan.</li><li><b>City Info & Homeless Media:</b> Merangkul akun publik Instagram/TikTok lokal bervolume tinggi (*Sukabumi Update, Sukabumi Today*) sebagai mitra strategis diseminasi non-formal yang langsung menyentuh masyarakat sipil.</li><li><b>Press Briefing Berkala:</b> Keterbukaan data bagi jurnalis untuk menghasilkan liputan mendalam (*in-depth reporting*).</li><li><b>Amplifikasi Berita Nasional:</b> Membawa prestasi dan inovasi unggulan Sukabumi ke panggung pemberitaan nusantara.</li></ul>",
+    "layout": "synergy",
+    "icon": "Star"
+  },
+  {
+    "id": 8,
+    "title": "Pemberdayaan KOL Lokal",
+    "subtitle": "Mengamplifikasi Narasi Melalui Key Opinion Leaders",
+    "body": "<ul><li><b>Pemetaan Kreator:</b> Mengidentifikasi selebgram, YouTuber, seniman, dan tokoh pemuda Sukabumi dengan audiens spesifik.</li><li><b>Co-Creation Konten:</b> Pemerintah tidak hanya menyewa jasa, tetapi berkolaborasi menciptakan konten edukatif bergaya *storytelling* khas anak muda.</li><li><b>Duta Program Spesifik:</b> Menunjuk tokoh lokal sebagai wajah kampanye tematik (misal: Kampanye Tertib Lalin atau Edukasi Persampahan).</li></ul>",
+    "layout": "kol",
+    "icon": "Users"
+  },
+  {
+    "id": 9,
+    "title": "Early Warning System (EWS)",
+    "subtitle": "Sistem Peringatan Dini Krisis & Isu Publik",
+    "body": "Membangun radar digital yang mampu mendeteksi percikan isu negatif sebelum membesar menjadi krisis yang mengancam kredibilitas Pemkot Sukabumi.",
+    "layout": "alert",
+    "icon": "Bell"
+  },
+  {
+    "id": 10,
+    "title": "Mekanisme Pemantauan 24/7",
+    "subtitle": "Mata & Telinga Digital Pemerintahan",
+    "body": "<ul><li><b>Social Media Listening:</b> Penggunaan *tools* AI untuk menyadap percakapan publik di platform terbuka (Twitter/X, Facebook publik).</li><li><b>Pemantauan Grup Komunitas:</b> Observasi pasif pada grup diskusi warga Sukabumi untuk menangkap keluhan akar rumput.</li><li><b>Deteksi Kata Kunci Sensitif:</b> Notifikasi instan jika kata terkait \"Macet\", \"Banjir\", atau \"Pungli\" melonjak tajam.</li></ul>",
+    "layout": "cards",
+    "icon": "Zap"
+  },
+  {
+    "id": 11,
+    "title": "Implementasi Analisis Sentimen",
+    "subtitle": "Mengukur Suhu Opini Publik Secara Real-Time",
+    "body": "<ul><li><b>Sentimen Positif (Apresiasi):</b> Tolok ukur keberhasilan sosialisasi program pembangunan dan layanan publik.</li><li><b>Sentimen Netral (Informatif):</b> Penyebaran informasi standar pemerintah tanpa gejolak opini.</li><li><b>Sentimen Negatif (Keluhan):</b> Sinyal peringatan awal yang memerlukan intervensi komunikasi seketika.</li></ul>",
+    "layout": "sentiment",
+    "icon": "BarChart3"
+  },
+  {
+    "id": 12,
+    "title": "Rekomendasi Kebijakan Berbasis Big Data",
+    "subtitle": "Dari Data Mentah Menjadi Strategi Taktis",
+    "body": "<ul><li><b>Topical Modeling:</b> Visualisasi *Word Cloud* harian untuk melihat isu apa yang paling dominan dibicarakan warga.</li><li><b>Laporan Intelijen Media:</b> Rangkuman harian yang langsung diterima Wali Kota gawai pribadi setiap pukul 06.00 WIB.</li><li><b>Penyesuaian Anggaran Komunikasi:</b> Mengalihkan dana sosialisasi pada program yang sentimennya masih rendah atau tidak tersampaikan dengan baik.</li></ul>",
+    "layout": "bigdata",
+    "icon": "cpu"
+  },
+  {
+    "id": 13,
+    "title": "Protokol Manajemen Krisis",
+    "subtitle": "Menyelamatkan Reputasi Saat Badai Melanda",
+    "body": "Krisis bukanlah akhir, melainkan ujian kepemimpinan. Penanganan yang tepat, transparan, dan cepat akan mengubah krisis menjadi bukti kompetensi pemerintah.",
+    "layout": "hero",
+    "icon": "ShieldAlert"
+  },
+  {
+    "id": 14,
+    "title": "Pembentukan Rapid Response Team",
+    "subtitle": "Gugus Tugas Penanganan Isu Strategis",
+    "body": "<ul><li><b>Komposisi Tim:</b> Terdiri dari Wali Kota/Wakil, Sekda, Kadiskominfo, dan Kepala OPD terkait isu spesifik.</li><li><b>Jalur Komunikasi Khusus:</b> *War Room* fisik dan digital yang selalu siaga 24/7 saat krisis status siaga merah.</li><li><b>Otoritas Komunikasi:</b> Penunjukan juru bicara tunggal (biasanya Wakil Wali Kota) agar pernyataan tidak simpang siur.</li></ul>",
+    "layout": "cards",
+    "icon": "Users"
+  },
+  {
+    "id": 15,
+    "title": "Golden Time Penanganan: < 2 Jam",
+    "subtitle": "Menangkal Narasi Sebelum Viral",
+    "body": "<ul><li><b>Menit 0-30:</b> Deteksi isu via EWS dan verifikasi fakta awal silang ke lapangan/OPD.</li><li><b>Menit 30-60:</b> Pengambilan sikap strategis dan draf rilis pers atau teks takarir darurat.</li><li><b>Menit 60-120:</b> Publikasi klarifikasi awal (*Holding Statement*) yang menyatakan Pemkot mengetahui isu tersebut dan sedang menangani.</li></ul>",
+    "layout": "timeline",
+    "icon": "Zap"
+  },
+  {
+    "id": 16,
+    "title": "Protokol Penanganan Isu Negatif",
+    "subtitle": "SOP Manajemen Krisis Pimpinan (60 Menit)",
+    "body": "<ul><li><b>Deteksi Dini:</b> Radar AI mendeteksi lonjakan percakapan negatif kata kunci Pimpinan.</li><li><b>Verifikasi Fakta:</b> Kroscek lapangan/OPD terkait dalam maksimal 15 menit.</li><li><b>Strategic Briefing:</b> Penyusunan respon (*Holding Statement*) oleh Tim Khusus.</li><li><b>Diseminasi Konten:</b> Publikasi klarifikasi via akun resmi & amplifikasi KOL.</li><li><b>Penetralan Isu:</b> Penenggelaman isu negatif dengan narasi positif masif.</li></ul>",
+    "layout": "crisis_flow",
+    "icon": "ShieldAlert"
+  },
+  {
+    "id": 17,
+    "title": "Simulasi Taktis: Krisis Layanan Publik",
+    "subtitle": "Use-case Implementasi SOP 60 Menit di Lapangan",
+    "body": "<ul><li><b>06:00 (Krisis):</b> Video warga protes jalan rusak di Cikole viral di TikTok, menyebut nama Wali Kota.</li><li><b>06:15 (Verifikasi):</b> Tim Khusus menghubungi Kadis PU; alat berat ternyata sudah dijadwalkan turun siang ini.</li><li><b>07:00 (Diseminasi):</b> Video Wali Kota inspeksi kesiapan alat berat dirilis di Instagram resmi.</li><li><b>07:30 (Penetralan):</b> 5 KOL lokal mem-<i>posting</i> ulang video tersebut dengan narasi \"Gercep Pak Wali\". Krisis padam sebelum media massa menaikkan berita.</li></ul>",
+    "layout": "timeline",
+    "icon": "Zap"
+  },
+  {
+    "id": 18,
+    "title": "Mitigasi Hoaks & Black Campaign",
+    "subtitle": "Langkah Hukum dan Klarifikasi Proporsional",
+    "body": "<ul><li><b>Kanal Klinik Hoaks:</b> Platform resmi di website Pemkot untuk meluruskan disinformasi (Fakta vs Mitos).</li><li><b>Patroli Siber Terpadu:</b> Bekerja sama dengan aparat penegak hukum (Polres Sukabumi Kota) untuk menindak sumber *black campaign* yang berulang.</li><li><b>Edukasi Literasi Massal:</b> Mendorong masyarakat menjadi agen pelapor hoaks berbasis RT/RW.</li></ul>",
+    "layout": "cards",
+    "icon": "ShieldAlert"
+  },
+  {
+    "id": 19,
+    "title": "Teknik Counter-Narrative",
+    "subtitle": "Merebut Kembali Kendali Cerita Melalui 3 Simulasi Masalah",
+    "body": "<ul><li><b>1. Adu Fakta (Jalan Rusak Cikole)</b>\n*Pola Krisis:* Video viral TikTok menyebut Wali Kota abai karena proyek mangkrak 2 minggu.\n*Tindakan 60 Menit:* Rilis infografis resmi di IG @dokpimkotasukabumi berisi SPK, Alasan Teknis (Pengeringan cor beton 14 hari), dan Target Selesai.\n*Amplifikasi:* Di-repost serentak oleh 10 akun Info Lokal Sukabumi pagi harinya.</li><li><b>2. Kesaksian Pihak ke-3 (Fitnah PKH Baros)</b>\n*Pola Krisis:* WA Grup menyebar isu pungutan liar bansos oleh oknum Pemkot.\n*Tindakan 60 Menit:* Wakil Wali Kota turun mendadak ke titik pembagian bersama Tokoh MUI dan membuat video testimoni 1 menit bahwa warga menerima KTP/Uang utuh.\n*Amplifikasi:* Video disebar terstruktur ke seluruh grup WA RT/RW se-Sukabumi.</li><li><b>3. Aksi Nyata: Show, Don't Just Tell (Banjir Ciaul)</b>\n*Pola Krisis:* Keluhan masal di Twitter/X lambannya BPBD dan Wali Kota.\n*Tindakan 60 Menit:* Wali Kota Live Instagram *langsung* dari lokasi genangan banjir saat hujan masih turun, memimpin penyedotan selokan mampet.\n*Amplifikasi:* Potongan Live distrukturkan menjadi Reels bernarasi \"Kepemimpinan Hadir di Tengah Rakyat\" dalam waktu kurang dari 2 jam.</li></ul>",
+    "layout": "crisis_flow",
+    "icon": "Share2"
+  },
+  {
+    "id": 20,
+    "title": "Mitigasi Isu Tematik (Menahun)",
+    "subtitle": "Peta Jalan Tanggap Isu Rutin Kota Sukabumi",
+    "body": "<ul><li><b>Identifikasi Isu Kalender:</b> Memetakan potensi keresahan publik berdasarkan pola musim (PPDB sekolah, fluktuasi harga sembako jelang Idulfitri, atau genangan air saat hujan).</li><li><b>Pre-Emptive Messaging:</b> Distribusi konten edukasi dan mitigasi secara masif dua minggu *sebelum* siklus isu biasanya mencuat ke permukaan.</li><li><b>Posko Digital Terpadu:</b> Membuka kanal pengaduan khusus atau Hotline temporer untuk isu-isu spesifik yang diprediksi akan menjadi sorotan tinggi.</li></ul>",
+    "layout": "calendar",
+    "icon": "ShieldAlert"
+  },
+  {
+    "id": 21,
+    "title": "Pengelolaan Citra Pimpinan",
+    "subtitle": "Membangun Kedekatan Psikologis dengan Warga",
+    "body": "Menciptakan persona H. Ayep Zaki & H. Bobby Maulana yang bukan sekadar pejabat birokrasi, melainkan bapak dan saudara bagi seluruh lapisan masyarakat Sukabumi.",
+    "layout": "focus",
+    "icon": "Star"
+  },
+  {
+    "id": 22,
+    "title": "Strategi Visual Storytelling Humanis",
+    "subtitle": "Dokumentasi di Luar Format Keprotokolan",
+    "body": "<ul><li><b>Behind The Scenes:</b> Menampilkan sisi keseharian Wali Kota dan Wakil Wali Kota yang kasual dan tidak berjarak.</li><li><b>Fokus Pada Interaksi Warga:</b> Foto dan video diutamakan menyorot reaksi kebahagiaan warga (Subjek) daripada pimpinan (Objek).</li><li><b>Micro-Vlog Lapangan:</b> Pembaruan status harian berformat vertikal (*selfie style*) langsung dari titik-titik pembangunan.</li></ul>",
+    "layout": "story",
+    "icon": "Users"
+  },
+  {
+    "id": 23,
+    "title": "Thought Leadership Pimpinan",
+    "subtitle": "Menjadi Titik Acuan Diskusi Regional",
+    "body": "<ul><li><b>Penerbitan Opini:</b> Tulisan buah pikiran H. Ayep Zaki tentang \"Smart City Berbasis Kearifan Lokal\" di koran/media nasional bulanan.</li><li><b>Keynote Speaker Makro:</b> Tampil tidak hanya memotong pita, tetapi mempresentasikan visi tata kelola ekonomi daerah di forum nasional tingkat tinggi.</li><li><b>Program Podcast Eksklusif:</b> \"Duduk Bareng Wali Kota\", bincang interaktif mendalam selama 30 menit setiap bulan bersama pakar.</li></ul>",
+    "layout": "cards",
+    "icon": "GraduationCap"
+  },
+  {
+    "id": 24,
+    "title": "Digitalisasi Layanan: SUPER",
+    "subtitle": "Sukabumi Participatory Responder",
+    "body": "<ul><li><b>Kanolisasi Pengaduan:</b> Integrasi seluruh keluhan warga (jalan rusak, air putus) ke dalam satu dashboard cerdas yang dimonitor pimpinan.</li><li><b>Transparansi Proses:</b> Warga mendapatkan notifikasi di setiap tahap pengerjaan laporannya melalui WhatsApp.</li><li><b>Evaluasi OPD Real-time:</b> Akumulasi respons SUPER menjadi KPI (Key Performance Indicator) bulanan Kepala Dinas.</li></ul>",
+    "layout": "service",
+    "icon": "cpu"
+  },
+  {
+    "id": 25,
+    "title": "Layanan Spesifik: Cetek & Jempol",
+    "subtitle": "Meniadakan Birokrasi Berbelit",
+    "body": "<ul><li><b>Program Cetek:</b> Sinergi Diskominfo and RSUD. Akses layanan kesehatan tingkat pertama yang terotorisasi penuh hanya dengan satu scan e-KTP.</li><li><b>Program Jempol:</b> Strategi \"Jemput Bola\" layanan administrasi langsung ke kantong-kantong pemukiman terjauh menggunakan mobil keliling yang terkoneksi satelit data Disdukcapil.</li></ul>",
+    "layout": "service",
+    "icon": "Zap"
+  },
+  {
+    "id": 26,
+    "title": "Sukabumi Media Training",
+    "subtitle": "Pembekalan Taktis Eksekutif Menghadapi Jurnalis",
+    "body": "<ul><li><b>Simulasi Doorstop Darurat</b>\n*Fokus Latihan:* Latihan intensif (*Pressure Test*) bagi Wali Kota dan Wakil agar terbiasa mengendalikan emosi dan alur diskusi menghadapi cecaran pertanyaan mendadak dari wartawan agar tidak terpancing provokasi.</li><li><b>Penyusunan Holding Statement</b>\n*Aksi Kritis:* Pendampingan langsung untuk merumuskan pernyataan resmi pertama di jam-jam krusial terkait insiden/isu hangat agar tidak ada salah langkah atau blunder komunikasi.</li><li><b>Translasi Bahasa Birokrasi</b>\n*Penyampaian:* Pembekalan cara memaparkan kebijakan yang tidak populer secara empatik dan langsung kepada masyarakat, memastikan narasi Pemkot sinkron dan menenangkan massa.</li></ul>",
+    "layout": "crisis_flow",
+    "icon": "GraduationCap"
+  },
+  {
+    "id": 27,
+    "title": "Spokesperson Tingkat OPD",
+    "subtitle": "Desentralisasi Kewenangan Penjelasan Teknis",
+    "body": "<ul><li><b>Beban Terdistribusi:</b> Memastikan Kepala Dinas mumpuni untuk tampil ke depan layar memberi penjelasan teknis terkait isu dinasnya mendampingi pimpinan.</li><li><b>Buku Saku Komunikasi:</b> Menyediakan FAQ (Frequently Asked Questions) digital bagi ASN yang berhadapan langsung dengan warga setiap harinya.</li></ul>",
+    "layout": "cards",
+    "icon": "Users"
+  },
+  {
+    "id": 28,
+    "title": "Literasi Digital Masyarakat Sukabumi",
+    "subtitle": "Benteng Terakhir Penikmat Informasi",
+    "body": "<ul><li><b>Generasi Cerdas Digital:</b> Sisipan program literasi menggunakan media sosial dan *gaming* ke ekstrakurikuler sekolah di wilayah kewenangan kota.</li><li><b>Kader PKK & Dasawisma sebagai Agen:</b> Melatih kelompok perempuan agar mampu membedakan tautan hoaks penipuan (phishing) yang sering beredar di grup WhatsApp keluarga.</li></ul>",
+    "layout": "cards",
+    "icon": "ShieldAlert"
+  },
+  {
+    "id": 29,
+    "title": "Kunci Eksekusi: Mandat Politik Eksekutif",
+    "subtitle": "Legitimasi Strategi Melalui Surat Keputusan Wali Kota (SK)",
+    "body": "<ul><li><b>Satu Komando (One-Gate):</b> SK mewajibkan seluruh Kepala OPD patuh pada alur instruksi komunikasi yang ditetapkan Tim Khusus.</li><li><b>Gugus Tugas Resmi:</b> Pembentukan \"Tim Transformasi Komunikasi Publik\" sebagai dasar hukum yang mewajibkan kolaborasi lintas dinas.</li><li><b>Akselerasi Anggaran:</b> Landasan legal (*legal standing*) yang kuat untuk pencairan anggaran operasional tanpa benturan birokrasi.</li></ul>",
+    "layout": "challenges",
+    "icon": "Users"
+  },
+  {
+    "id": 30,
+    "title": "Kebutuhan Anggaran & Infrastruktur",
+    "subtitle": "Investasi Taktis Menuju Smart Communication",
+    "body": "<ul><li><b>Pembangunan Command Center:</b> Pengadaan ruang kendali fisik terintegrasi dengan layar pantau analitik media sosial *real-time* 24 jam.</li><li><b>Langganan Tools AI Premium:</b> Pengalokasian dana untuk perangkat lunak *Social Listening* spesifik geolokasi dan sentimen (seperti Awario, Brandwatch, atau Kazee).</li><li><b>Rekrutmen Tim Spesialis Eksternal:</b> Penganggaran honorarium untuk Data Analyst, Social Media Manager, dan Copywriter profesional guna mendampingi tim organik Diskominfo.</li></ul>",
+    "layout": "budget",
+    "icon": "cpu"
+  },
+  {
+    "id": 31,
+    "title": "Indikator Keberhasilan (KPI)",
+    "subtitle": "Matriks Pengukuran Performa Komunikasi",
+    "body": "<ul><li><b>Target Penanganan (*Golden Time*):</b> Penurunan dramatis waktu tanggap awal krisis, dari hitungan hari menjadi di bawah 1 Jam (maksimal 2 jam).</li><li><b>Pertumbuhan Audiens Organik:</b> Kenaikan 25% *followers* dan lonjakan *engagement rate* di semua saluran resmi Pemda (Instagram, TikTok) setiap kuartal.</li><li><b>Dominasi Sentimen Positif:</b> Penekanan *echo chamber* isu negatif dan terjaganya suhu percakapan publik di angka minimal 80% sentimen positif atau netral.</li></ul>",
+    "layout": "kpi_grid",
+    "icon": "Star"
+  },
+  {
+    "id": 32,
+    "title": "Sukabumi Maju: Satu Narasi",
+    "subtitle": "Kepemimpinan Efektif & Transparan Era Baru",
+    "body": "Strategi Komunikasi Publik ini adalah mesin penggerak performa kepemimpinan H. Ayep Zaki & H. Bobby Maulana. Komunikasi bukan sekadar alat pelaporan, melainkan jembatan empati hakiki menuju lompatan kemajuan Kota Sukabumi.",
+    "layout": "closing",
+    "icon": "Star"
+  }
+]

@@ -1,0 +1,484 @@
+{
+  "dokumen_referensi": [
+    {
+      "id": 1,
+      "title": "Dokumen Referensi Strategis",
+      "subtitle": "Landasan Hukum & Peraturan Daerah Kota Sukabumi",
+      "body": "Seluruh kebijakan pembangunan Kota Sukabumi didasarkan pada regulasi yang sah, transparan, dan berorientasi pada kesejahteraan masyarakat. RPJMD 2025-2029 menjadi panduan utama selama masa kepemimpinan H. Ayep Zaki & H. Bobby Maulana.",
+      "layout": "hero",
+      "icon": "FileText"
+    },
+    {
+      "id": 2,
+      "title": "PERDA No. 5 Tahun 2025 — RPJMD",
+      "subtitle": "Rencana Pembangunan Jangka Menengah Daerah 2025–2029",
+      "body": "<ul><li><b>Ditetapkan:</b> 20 Agustus 2025 oleh Wali Kota H. Ayep Zaki. Menjadi instrumen hukum utama pembangunan daerah 5 tahun ke depan.</li><li><b>Visi IMAN:</b> Mewujudkan masyarakat Kota Sukabumi yang Inovatif, Mandiri, Agamis, dan Nasionalis.</li><li><b>6 Misi Utama:</b> Pengembangan SDM berbasis vokasi, peningkatan pelayanan kesehatan, penguatan nilai luhur, persatuan keberagaman, ekonomi kreatif, dan kesejahteraan rakyat.</li><li><b>Sinkronisasi Nasional:</b> Selaras dengan RPJPD 2025-2045, RPJMN 2025-2029, dan Asta Cita Presiden RI.</li></ul>",
+      "layout": "cards",
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": 3,
+      "title": "Gambaran Umum Kota Sukabumi",
+      "subtitle": "Profil Strategis Daerah & Potensi Wilayah",
+      "body": "<ul><li><b>Letak Geografis:</b> Dataran tinggi 584 mdpl di kaki Gunung Gede-Pangrango. Berjarak 120 km dari Jakarta dan 96 km dari Bandung — posisi strategis di jalur lintasan Jabodetabek–Jawa Barat.</li><li><b>Administrasi:</b> 7 Kecamatan, 33 Kelurahan, 357 RW, 1.576 RT. Kota terkecil ketiga di Jawa Barat.</li><li><b>Potensi Ekonomi:</b> Sektor pertanian (34,37% luas wilayah), industri, perdagangan & jasa, dan potensi digital yang terus berkembang.</li><li><b>Infrastruktur:</b> 29 sungai sepanjang 113,8 km. Koneksi Tol Bocimi membuka peluang investasi baru.</li></ul>",
+      "layout": "cards",
+      "icon": "Globe"
+    },
+    {
+      "id": 4,
+      "title": "Hierarki Peraturan Perundangan",
+      "subtitle": "Sinergi Kebijakan Pusat & Daerah",
+      "body": "<ul><li><b>UU No. 23/2014:</b> Tentang Pemerintahan Daerah — koridor utama otonomi dan kewajiban penyusunan RPJMD.</li><li><b>UU No. 25/2004:</b> Sistem Perencanaan Pembangunan Nasional — menjamin keselarasan dokumen pusat dan daerah.</li><li><b>Perpres No. 12/2025:</b> RPJMN 2025-2029 — memuat Asta Cita sebagai misi Presiden yang dipedomani.</li><li><b>Perda RPJMD No. 5/2025:</b> Penjabaran visi-misi Walikota terpilih dalam 5 tahun masa jabatan.</li></ul>",
+      "layout": "orgchart",
+      "icon": "Users"
+    },
+    {
+      "id": 5,
+      "title": "Pengendalian & Evaluasi RPJMD",
+      "subtitle": "Mekanisme Pengawasan Pembangunan Berkelanjutan",
+      "body": "<ul><li><b>Pengendalian Kebijakan:</b> Evaluasi perumusan Visi-Misi, strategi, dan arah kebijakan secara berkala.</li><li><b>Pengendalian Pelaksanaan:</b> Monitoring program pembangunan daerah dan indikasi rencana Program Prioritas.</li><li><b>Evaluasi Hasil:</b> Pengukuran capaian indikator kinerja terhadap Tujuan dan Sasaran yang ditetapkan.</li><li><b>Pelaksana:</b> Perangkat Daerah yang membidangi urusan Perencanaan Pembangunan Daerah (Bappeda).</li></ul>",
+      "layout": "cards",
+      "icon": "ShieldAlert"
+    },
+    {
+      "id": 6,
+      "title": "Penutup: Komitmen Hukum",
+      "subtitle": "Landasan Legal Pembangunan Kota Sukabumi",
+      "body": "PERDA No. 5 Tahun 2025 tentang RPJMD adalah landasan hukum yang kuat untuk seluruh program pembangunan Kota Sukabumi 2025-2029. Setiap Perangkat Daerah wajib menjadikan dokumen ini sebagai pedoman dalam penyusunan Renstra dan RKPD tahunan. Sukabumi Maju, Sukabumi IMAN.",
+      "layout": "closing",
+      "icon": "ShieldCheck"
+    }
+  ],
+  "program_prioritas": [
+    {
+      "id": 1,
+      "title": "Program Prioritas 2025–2029",
+      "subtitle": "Visi Sukabumi Baru: Inovatif, Mandiri, Agamis, Nasionalis (IMAN)",
+      "body": "Komitmen H. Ayep Zaki & H. Bobby Maulana untuk membawa lompatan kemajuan bagi warga Kota Sukabumi melalui program-program taktis yang langsung menyentuh akar rumput dan mewujudkan kesejahteraan masyarakat.",
+      "layout": "hero",
+      "icon": "Star"
+    },
+    {
+      "id": 2,
+      "title": "Pemberdayaan Ekonomi RT/RW",
+      "subtitle": "Ujung Tombak Pembangunan Berbasis Komunitas",
+      "body": "<ul><li><b>Dana Abadi Rp10 Juta/RT:</b> Stimulan ekonomi dan pembangunan lingkungan skala mikro yang langsung dikelola oleh pengurus RT.</li><li><b>Kenaikan Insentif 100%:</b> Apresiasi nyata atas dedikasi Ketua RW dan peningkatan insentif Ketua RT.</li><li><b>Operasional Posyandu:</b> Penguatan dana operasional dan insentif kader LKK agar layanan kesehatan dasar meningkat kualitasnya.</li><li><b>Satu RT Satu Tenaga Kerja:</b> Fasilitasi pemberangkatan tenaga kerja profesional ke luar negeri per RT secara bertahap dan legal.</li></ul>",
+      "layout": "cards",
+      "icon": "Users"
+    },
+    {
+      "id": 3,
+      "title": "Kesehatan & Layanan Publik",
+      "subtitle": "Investasi Masa Depan Sumber Daya Manusia",
+      "body": "<ul><li><b>Puskesmas Gratis & Lengkap:</b> Akses layanan kesehatan cuma-cuma, satu mobil jenazah per Puskesmas, dan layanan *homecare* langsung ke rumah warga.</li><li><b>Sukabumi Menyala dengan IT:</b> Digitalisasi layanan publik mempermudah akses informasi dan administrasi warga dari mana saja.</li><li><b>Cetak Penyalur Kerja:</b> Optimalisasi Balai Latihan Kerja (BLK) untuk mencetak tenaga kerja siap pakai berbasis vokasi.</li></ul>",
+      "layout": "formula",
+      "icon": "GraduationCap"
+    },
+    {
+      "id": 4,
+      "title": "Pendidikan & Kepemudaan",
+      "subtitle": "Investasi Generasi Penerus Bangsa",
+      "body": "<ul><li><b>100 Sarjana per Kecamatan:</b> Program beasiswa penuh untuk putra-putri berprestasi di setiap kecamatan — mencetak pemimpin masa depan.</li><li><b>Beasiswa Disabilitas:</b> Jaminan akses pendidikan layak dan setara bagi seluruh warga penyandang disabilitas.</li><li><b>Anggaran Pemuda 1% APBD:</b> Alokasi khusus untuk pengembangan kreativitas, inovasi, dan organisasi kepemudaan.</li><li><b>Pembangunan Stadion Nasional:</b> Infrastruktur olahraga bertaraf nasional untuk mendukung bakat atlet lokal Sukabumi.</li></ul>",
+      "layout": "cards",
+      "icon": "GraduationCap"
+    },
+    {
+      "id": 5,
+      "title": "Agama & Keharmonisan Sosial",
+      "subtitle": "Penguatan Nilai Luhur dan Ketahanan Keluarga",
+      "body": "<ul><li><b>Insentif Pengurus Rumah Ibadah:</b> Kesejahteraan Marbot masjid, guru ngaji, dan pengurus rumah ibadah lainnya menjadi prioritas.</li><li><b>Penguatan Nazir Wakif:</b> Optimalisasi pengelolaan aset wakaf untuk kepentingan umat dan pemberdayaan ekonomi pesantren.</li><li><b>Konseling Ibu & Anak:</b> Penguatan ketahanan keluarga melalui program pendampingan psikologis khusus bagi keluarga rentan.</li><li><b>Pengembalian Tukin Guru ASN:</b> Memastikan kesejahteraan tenaga pendidik dengan mengembalikan Tunjangan Kinerja penuh.</li></ul>",
+      "layout": "cards",
+      "icon": "Heart"
+    },
+    {
+      "id": 6,
+      "title": "Dukungan & Pengembangan UMKM",
+      "subtitle": "Motor Ekonomi Kreatif Kota Sukabumi",
+      "body": "<ul><li><b>Menata Kebaikan Tech:</b> Kendaraan promosi UKM gratis dan platform digital marketplace untuk memperluas jangkauan pasar pelaku usaha kecil ke tingkat nasional.</li><li><b>Ngobrol Santai Bareng Walikota:</b> Jalur komunikasi langsung dua arah yang inklusif antara pimpinan daerah dan masyarakat pelaku UMKM.</li><li><b>Pelatihan Literasi Digital:</b> Program berkelanjutan bagi pelaku usaha kecil agar mampu memanfaatkan ekosistem digital dalam pemasaran produk.</li></ul>",
+      "layout": "cards",
+      "icon": "Zap"
+    },
+    {
+      "id": 7,
+      "title": "Sukabumi Maju: IMAN Terwujud",
+      "subtitle": "Komitmen Kepemimpinan H. Ayep Zaki & H. Bobby Maulana",
+      "body": "Program-program prioritas ini bukan sekadar janji kampanye, melainkan telah dioperasionalkan di dalam RPJMD 2025-2029 sebagai komitmen hukum yang terukur. Bersama seluruh warga, kita wujudkan Sukabumi yang Inovatif, Mandiri, Agamis, dan Nasionalis.",
+      "layout": "closing",
+      "icon": "Star"
+    }
+  ],
+  "akselerasi_pad": [
+    {
+      "id": 1,
+      "title": "Akselerasi PAD Kota Sukabumi",
+      "subtitle": "Mewujudkan Kemandirian Fiskal & Keuangan Daerah",
+      "body": "Strategi taktis meningkatkan Pendapatan Asli Daerah tanpa membebani masyarakat — melalui optimalisasi aset, digitalisasi sistem perpajakan, penguatan BUMD/BLUD, dan manajemen aset produktif. 🏆 APBD Awards 2024 Kemendagri: Peningkatan PAD Tertinggi Nasional.",
+      "layout": "hero",
+      "icon": "BarChart3"
+    },
+    {
+      "id": 2,
+      "title": "Capaian PAD 2022–2024",
+      "subtitle": "Konsisten di Atas Target — Tren Positif 3 Tahun Berturut-turut",
+      "body": "<ul><li><b>2022 — Rp71,2 Miliar (104,7%):</b> Melebihi target Rp68 M. Strategi intensifikasi pajak hotel & restoran mulai menunjukkan hasil nyata.</li><li><b>2023 — Rp81,2 Miliar (108,3%):</b> Lonjakan signifikan didorong digitalisasi QRIS & Virtual Account. Rekor PAD tertinggi kala itu.</li><li><b>2024 — Rp81 Miliar (108,1%):</b> Mempertahankan hasil & meraih <b>APBD Awards 2024</b> Kemendagri — Peningkatan PAD Tertinggi Nasional. Tapping box hotel/restoran mulai efektif.</li></ul>",
+      "layout": "kpi_grid",
+      "icon": "TrendingUp"
+    },
+    {
+      "id": 3,
+      "title": "Digitalisasi Pajak & Retribusi",
+      "subtitle": "Transparansi 100% — Nol Kebocoran, Nol Manipulasi",
+      "body": "<ul><li><b>Pemutakhiran PBB-P2:</b> Validasi data Pajak Bumi dan Bangunan hingga level RT/RW — mengeliminasi gap data & potensi kebocoran. Integrasi dengan BPN & BPKPD.</li><li><b>E-Retribusi Multi-Channel:</b> Payment gateway QRIS, Virtual Account, m-banking di seluruh titik retribusi: pasar, parkir, objek wisata, terminal.</li><li><b>Tapping Box Hiburan & FnB:</b> Pemasangan alat monitoring transaksi real-time pada hotel, restoran, dan tempat hiburan untuk memastikan omzet terlaporkan secara akurat.</li><li><b>Aplikasi PANTAS:</b> Dashboard monitoring penerimaan pajak & retribusi real-time, dapat diakses oleh pimpinan daerah kapan saja dan di mana saja.</li></ul>",
+      "layout": "sentiment",
+      "icon": "Zap"
+    },
+    {
+      "id": 4,
+      "title": "Inventaris Aset Daerah Strategis",
+      "subtitle": "Peta Aset Kota Sukabumi yang Siap Dimonetisasi",
+      "body": "<ul><li><b>🔴 Eks Terminal Sudirman:</b> Aset premium pusat kota — rencana revitalisasi menjadi Pusat Pariwisata & Sentra UMKM Terpadu. Potensi retribusi & sewa tinggi.</li><li><b>🔴 Pemandian Air Panas Cikundul:</b> Destinasi wisata alam milik daerah — optimalisasi tarif, fasilitas, dan promosi digital untuk mendongkrak PAD wisata.</li><li><b>🔴 Pasar Lembursitu:</b> Pasar modern representatif — aktifasi pedagang melalui subsidi awal sewa + rekayasa rute transportasi angkot/elf.</li><li><b>🟡 Kawasan Industri Cemerlang:</b> Lahan 50 ha di Kecamatan Warudoyong — rencana KSP/investasi industri non-polutan dengan manfaatkan aksesibilitas Tol Bocimi.</li><li><b>🟡 GOR Sukabumi & Lahan Hibah KPK:</b> Aset GOR untuk sport economy & event. Lahan hibah KPK dikelola produktif & transparan untuk pelayanan publik.</li></ul>",
+      "layout": "challenges",
+      "icon": "Database"
+    },
+    {
+      "id": 5,
+      "title": "Peta Aset Tetap Kota Sukabumi",
+      "subtitle": "15+ Kategori Aset yang Tercatat dalam Neraca Daerah BPKAD",
+      "body": "<ul><li><b>Gedung Pemerintahan:</b> Balai Kota, Gedung DPRD, 30+ kantor OPD, Polres, Dinas Kesehatan, BPKAD, Bappeda — tersebar di 7 kecamatan.</li><li><b>Fasilitas Kesehatan:</b> RSUD Al-Mulk (50 TT) + 17 Puskesmas — aset kesehatan primer yang dikelola dengan pola BLUD untuk efisiensi maksimal.</li><li><b>Aset Perdagangan:</b> Pasar Pelita (pusat kota aktif), Pasar Tipar (kawasan timur), Pasar Lembursitu (modern) — tiga pasar daerah strategis.</li><li><b>Infrastruktur Jalan:</b> ±200 km jalan kota + 29 sungai (113,8 km) — aset infrastruktur terbesar dalam neraca daerah.</li><li><b>Aset Digital:</b> Komputer, server, perangkat IT seluruh OPD — aset bergerak yang terus tumbuh seiring digitalisasi pemerintahan.</li></ul>",
+      "layout": "cards",
+      "icon": "Building2"
+    },
+    {
+      "id": 6,
+      "title": "Ekosistem BUMD Kota Sukabumi",
+      "subtitle": "3 BUMD — Pilar Kemandirian Fiskal Daerah",
+      "body": "<ul><li><b>💧 Perumda Tirta Bumi Wibawa (TBW):</b> Air minum — ±21.000 pelanggan, layanan Kota + sebagian Kab. Sukabumi. Sumber: Cigadog, Cigunung, Batu Karut. Target: turunkan NRW, tambah sambungan MBR 2025.</li><li><b>💊 PD Waluya:</b> Farmasi & diversifikasi jasa — dalam proses transformasi menjadi PT Waluya agar lebih profesional & profit-oriented. Target KPI dividen nyata 2026.</li><li><b>🏦 Perumda BPR Kota Sukabumi:</b> Perbankan mikro — KPMM >12% (sehat). Produk: simpanan, kredit UMKM, KPR ASN, pembiayaan proyek rekanan Pemkot. Jl. A. Yani No. 235. Diawasi OJK.</li></ul>",
+      "layout": "orgchart",
+      "icon": "Building2"
+    },
+    {
+      "id": 7,
+      "title": "Ekosistem BLUD Kota Sukabumi",
+      "subtitle": "RSUD Al-Mulk + 17 Puskesmas — Layanan Sehat, Pendapatan Kuat",
+      "body": "<ul><li><b>🏥 RSUD Al-Mulk (Kelas D):</b> 50 tempat tidur (naik dari 30 TT), status BLUD penuh. Layanan: IGD 24 jam, rawat jalan, rawat inap, farmasi, lab, radiologi. Inovasi: CETEK (layanan gratis warga Kota) & siPraja (daftar online). Target 2025: upgrade Kelas C + tambah poli spesialis.</li><li><b>🩺 17 Puskesmas (Sedang Bertransisi BLUD):</b> Mencakup 7 kecamatan — Baros, Cibeureum, Cikole, Citamiang, Gunungpuyuh, Lembursitu, Warudoyong. Sumber pendapatan: Kapitasi BPJS/JKN, retribusi layanan, program Dinkes. Target: akselerasi status BLUD penuh, digitalisasi antrian, telemedisin.</li><li><b>🔬 Laboratorium Kesehatan Daerah:</b> Unit teknis potensial dikembangkan menjadi BLUD mandiri untuk layanan pemeriksaan laboratorium publik dan UMKM pangan.</li></ul>",
+      "layout": "service",
+      "icon": "Heart"
+    },
+    {
+      "id": 8,
+      "title": "Target Kontribusi BUMD & BLUD",
+      "subtitle": "Dari Beban Menjadi Mesin PAD — Target Dividen Rp30 Miliar",
+      "body": "<ul><li><b>Perumda TBW:</b> Target laba bersih Rp8–12 M/tahun dari efisiensi NRW & ekspansi pelanggan. Kontribusi dividen ke PAD 50% dari laba.</li><li><b>PT Waluya (2026):</b> Pasca transformasi menjadi PT — target profitabel dalam 2 tahun dari unit farmasi + jasa. Dividen mulai 2027.</li><li><b>Perumda BPR:</b> Target kredit outstanding tumbuh 15%/tahun. Kontribusi dividen Rp3–5 M/tahun. Ekspansi produk digital banking.</li><li><b>RSUD Al-Mulk BLUD:</b> Target pendapatan fungsional tumbuh 20%/tahun pasca upgrade Kelas C. Surplus BLUD diinvestasikan kembali untuk alat medis.</li></ul>",
+      "layout": "bigdata",
+      "icon": "TrendingUp"
+    },
+    {
+      "id": 9,
+      "title": "Roadmap Fiskal 2025–2029",
+      "subtitle": "Dari Rp81 Miliar Menuju Rp160 Miliar — Sukabumi Mandiri Fiskal",
+      "body": "<ul><li><b>2025 — Rp90 Miliar:</b> E-Retribusi 100% aktif, tapping box penuh, baseline BUMD profitabel, PANTAS real-time.</li><li><b>2026 — Rp105 Miliar:</b> PT Waluya beroperasi, Cikundul premium, ekspansi pelanggan TBW ke Kab. Sukabumi.</li><li><b>2027 — Rp120 Miliar:</b> RSUD naik Kelas C, Terminal Sudirman aktif sebagai pusat ekonomi, BPR digital banking.</li><li><b>2028 — Rp140 Miliar:</b> Kawasan Industri Cemerlang Tahap I, Pasar Lembursitu penuh terisi, wisata Cipelang Herang.</li><li><b>2029 — Rp160 Miliar:</b> Kota Sukabumi Mandiri Fiskal — PAD melampaui 50% total APBD, tidak bergantung dana transfer.</li></ul>",
+      "layout": "timeline",
+      "icon": "Target"
+    },
+    {
+      "id": 10,
+      "title": "Sukabumi: Kota Mandiri Fiskal 2029",
+      "subtitle": "Dari APBD Transfers ke PAD yang Berdaulat",
+      "body": "Dengan sinergi digitalisasi pajak, monetisasi aset strategis, penguatan 3 BUMD + 19 BLUD, dan pengawasan ketat berbasis data — Kota Sukabumi akan mewujudkan kemandirian fiskal sejati pada 2029. Setiap rupiah PAD adalah bukti nyata kemampuan daerah membiayai sendiri kemakmuran warganya. 🏆",
+      "layout": "closing",
+      "icon": "BarChart3"
+    }
+  ],
+  "digitalisasi_spbe": [
+    {
+      "id": 1,
+      "title": "Transformasi Digital SPBE",
+      "subtitle": "Menuju Pemerintahan yang Bersih, Cepat, dan Efisien",
+      "body": "Pemanfaatan teknologi bukan sekadar tren, melainkan instrumen utama untuk efisiensi anggaran dan peningkatan kualitas layanan publik Kota Sukabumi di era Society 5.0.",
+      "layout": "hero",
+      "icon": "Cpu"
+    },
+    {
+      "id": 2,
+      "title": "Efisiensi Satu Layanan Digital Terpadu",
+      "subtitle": "Rasionalisasi Ratusan Aplikasi Menjadi Satu Super-App",
+      "body": "<ul><li><b>Audit & Rasionalisasi Aplikasi:</b> Melakukan audit terhadap ratusan aplikasi Pemkot yang ada dan merampingkannya menjadi satu super-app yang terintegrasi dan mudah digunakan.</li><li><b>Sentralisasi Data (Interoperabilitas):</b> Memastikan seluruh data OPD saling terhubung untuk menghilangkan ego sektoral dan mempermudah layanan warga.</li><li><b>Paperless Office:</b> Digitalisasi administrasi internal untuk mempercepat koordinasi dan mengurangi biaya operasional kertas.</li></ul>",
+      "layout": "service",
+      "icon": "Monitor"
+    },
+    {
+      "id": 3,
+      "title": "Infrastruktur Internet Satu Pintu",
+      "subtitle": "Sentralisasi Bandwidth & Keamanan Siber",
+      "body": "<ul><li><b>Manajemen Bandwidth Terpusat:</b> Pengadaan layanan internet pemerintahan satu pintu untuk efisiensi biaya operasional dan kemudahan pengawasan keamanan siber.</li><li><b>Sukabumi Free Wi-Fi Publik:</b> Perluasan titik akses internet gratis di ruang publik dan balai warga untuk mendukung literasi digital masyarakat.</li><li><b>Keamanan Siber (Cyber Security):</b> Penguatan protokol keamanan data warga dari ancaman serangan siber dan kebocoran informasi sensitif.</li></ul>",
+      "layout": "cards",
+      "icon": "Globe"
+    },
+    {
+      "id": 4,
+      "title": "Pemberdayaan UMKM Digital",
+      "subtitle": "Platform 'Menata Kebaikan Tech' untuk Pasar Nasional",
+      "body": "<ul><li><b>Marketplace Lokal:</b> Platform digital untuk promosi produk UMKM Sukabumi dari tingkat RT/RW hingga ke pasar nasional dan internasional.</li><li><b>Pelatihan Literasi Digital UMKM:</b> Program berkelanjutan bagi pelaku usaha kecil agar mampu mengoptimalkan ekosistem digital dalam pemasaran produk.</li><li><b>Konektivitas Pedagang Pasar:</b> Integrasi pedagang pasar tradisional ke dalam platform pembayaran digital dan pemasaran online.</li></ul>",
+      "layout": "service",
+      "icon": "Smartphone"
+    },
+    {
+      "id": 5,
+      "title": "Penguatan Indeks SPBE",
+      "subtitle": "Target Skor Unggul dari Nilai 3.79 Menuju Puncak",
+      "body": "<ul><li><b>Target Skor Unggul:</b> Melanjutkan capaian indeks SPBE (saat ini 3,79) menuju level predikat *Memuaskan* melalui sistem pemerintahan yang sepenuhnya *paperless* dan terdigitalisasi.</li><li><b>Tata Kelola Data Terpadu:</b> Membangun satu pusat data (data center) daerah yang aman, andal, dan sesuai standar nasional keamanan informasi.</li><li><b>Layanan Publik Berbasis AI:</b> Pemanfaatan kecerdasan buatan untuk otomasi layanan aduan warga dan analisis kebutuhan pembangunan.</li></ul>",
+      "layout": "sentiment",
+      "icon": "Zap"
+    },
+    {
+      "id": 6,
+      "title": "Digitalisasi Literasi & Pendidikan",
+      "subtitle": "Membangun Ekosistem Digital Berbasis Komunitas",
+      "body": "<ul><li><b>Modul Digital Sekolah:</b> Integrasi kurikulum literasi digital di sekolah-sekolah di bawah kewenangan kota untuk mempersiapkan generasi digital.</li><li><b>Grup Siaga RT/RW:</b> Pemanfaatan platform pesan instan (WhatsApp/Telegram) resmi untuk diseminasi informasi pemerintah dan penangkal hoaks di tingkat komunitas.</li><li><b>Ruang Digital Kreatif:</b> Pembangunan co-working space dan studio konten di kelurahan-kelurahan untuk mendukung talenta kreatif lokal.</li></ul>",
+      "layout": "cards",
+      "icon": "Book"
+    },
+    {
+      "id": 7,
+      "title": "Sukabumi Menyala dengan IT",
+      "subtitle": "Smart City Berbasis Kearifan Lokal",
+      "body": "Transformasi digital Kota Sukabumi bukan hanya soal teknologi, tetapi tentang membangun kehidupan yang lebih mudah, lebih cepat, dan lebih transparan bagi seluruh lapisan warga. Pemerintah hadir di genggaman tangan setiap warga.",
+      "layout": "closing",
+      "icon": "Cpu"
+    }
+  ],
+  "media_center": [
+    {
+      "id": 1,
+      "title": "Visi Komunikasi Era 5.0",
+      "subtitle": "Transformasi Digital Kepemimpinan H. Ayep Zaki & H. Bobby Maulana",
+      "body": "Membangun Kota Sukabumi yang lebih cerdas, transparan, dan inklusif melalui strategi komunikasi publik yang proaktif, empatik, dan sepenuhnya digerakkan oleh data aktual.",
+      "layout": "hero",
+      "icon": "Globe"
+    },
+    {
+      "id": 2,
+      "title": "Urgensi Keterbukaan Informasi",
+      "subtitle": "Landasan Regulasi & Tanggung Jawab Publik di Era Digital",
+      "body": "<ul><li><b>UU 14/2008 & PP 61/2010:</b> Fondasi hak konstitusional warga atas informasi publik. Mewajibkan pembentukan PPID sebagai garda terdepan layanan satu pintu.</li><li><b>UU 25/2009 & UU 23/2014:</b> Integrasi transparansi dalam standar pelayanan publik dan kewajiban kepala daerah menyampaikan laporan berkala kepada masyarakat.</li><li><b>Inpres 9/2015 & Permendagri 3/2017:</b> Mandat pengelolaan Komunikasi Publik (GPR) yang terintegrasi dan standarisasi diseminasi narasi tunggal pemerintah.</li><li><b>Perki 1/2021 (SLIP):</b> Pemutakhiran Standar Layanan Informasi Publik — menekankan digitalisasi akses informasi dan jaminan kemudahan bagi disabilitas.</li></ul>",
+      "layout": "cards",
+      "icon": "FileText"
+    },
+    {
+      "id": 3,
+      "title": "Tantangan Komunikasi Modern",
+      "subtitle": "Menavigasi Disrupsi Informasi Kota Sukabumi",
+      "body": "<ul><li><b>Kecepatan Arus Informasi:</b> Warga menginginkan respons seketika terhadap isu atau masalah di lapangan — hitungan menit, bukan hari.</li><li><b>Polarisasi Opini di Media Sosial:</b> Rentannya masyarakat terhadap gema berita bohong (*echo chambers*) dan narasi negatif terorganisir.</li><li><b>Kesenjangan Literasi:</b> Tantangan menyampaikan kebijakan kompleks menjadi bahasa yang mudah dipahami seluruh lapisan masyarakat Sukabumi.</li></ul>",
+      "layout": "challenges",
+      "icon": "ShieldAlert"
+    },
+    {
+      "id": 4,
+      "title": "Orkestrasi One-Gate Policy",
+      "subtitle": "Satu Komando, Satu Suara, Satu Narasi untuk Kota Sukabumi",
+      "body": "<ul><li><b>Tim Khusus Komunikasi Strategis:</b> Unit *think-tank* eksklusif di bawah komando langsung Wali Kota — penentu *grand narrative* dan arah besar komunikasi pemerintahan.</li><li><b>Diskominfo sebagai Lengan Eksekutor:</b> Menerima *strategic brief* dari Tim Khusus, lalu memproduksi dan mendistribusikan konten secara teknis dan masif ke semua platform.</li><li><b>Keselarasan Lintas OPD:</b> Satu pintu klarifikasi — seluruh materi sensitif **wajib** mendapat *clearance* dari Tim Khusus sebelum tayang ke publik.</li></ul>",
+      "layout": "orgchart",
+      "icon": "Users"
+    },
+    {
+      "id": 5,
+      "title": "Masterplan Distribusi Konten",
+      "subtitle": "Formula 60-30-10 untuk Engagement Maksimal",
+      "body": "<ul><li><b>60% Edukasi & Capaian:</b> Pembangunan, program strategis, dan pencapaian visi-misi H. Ayep Zaki & H. Bobby Maulana yang menginspirasi dan informatif.</li><li><b>30% Informasi Layanan:</b> Prosedur administratif, peringatan dini bencana, pemadaman listrik, info cuaca, dan pengumuman resmi pemerintah.</li><li><b>10% Interaksi Humanis:</b> Konten ringan, kuis warga, sapa pagi pimpinan, dan apresiasi tokoh lokal Sukabumi yang mempererat kedekatan.</li></ul>",
+      "layout": "formula",
+      "icon": "BarChart3"
+    },
+    {
+      "id": 6,
+      "title": "Arsitektur Media Sosial Terpusat",
+      "subtitle": "Command Center & Demografi Platform",
+      "body": "<ul><li><b>Instagram:</b> Etalase utama untuk *Visual Storytelling*, infografis elegan, dan pameran pencapaian kota secara estetis.</li><li><b>TikTok & Reels:</b> Video kasual dan tren viral untuk penetrasi organik ke audiens Gen Z dan milenial.</li><li><b>Facebook:</b> Komunikasi komunitas lokal, forum aduan RT/RW, dan jangkauan warga senior/keluarga.</li><li><b>YouTube:</b> Dokumenter eksklusif, liputan mendalam, dan arsip siaran sidang/paripurna.</li><li><b>Twitter/X:</b> Respons cepat, aduan infrastruktur instan, dan penanganan krisis opini publik.</li></ul>",
+      "layout": "cards",
+      "icon": "Share2"
+    },
+    {
+      "id": 7,
+      "title": "Sinergi Media Massa & Jurnalis",
+      "subtitle": "Kemitraan Strategis Penguatan Narasi Positif",
+      "body": "<ul><li><b>Media Relations Eksekutif:</b> *Coffee morning* rutin antara Wali Kota/Wakil dengan pimpinan redaksi lokal untuk menyamakan frekuensi visi pembangunan.</li><li><b>City Info & Homeless Media:</b> Merangkul akun publik Instagram/TikTok lokal bervolume tinggi (*Sukabumi Update, Sukabumi Today*) sebagai mitra strategis diseminasi non-formal.</li><li><b>Press Briefing Berkala:</b> Keterbukaan data bagi jurnalis untuk menghasilkan liputan mendalam (*in-depth reporting*).</li><li><b>Amplifikasi Berita Nasional:</b> Membawa prestasi dan inovasi unggulan Sukabumi ke panggung pemberitaan nusantara.</li></ul>",
+      "layout": "cards",
+      "icon": "Star"
+    },
+    {
+      "id": 8,
+      "title": "Pemberdayaan KOL Lokal",
+      "subtitle": "Mengamplifikasi Narasi Melalui Key Opinion Leaders",
+      "body": "<ul><li><b>Pemetaan Kreator:</b> Mengidentifikasi selebgram, YouTuber, seniman, dan tokoh pemuda Sukabumi dengan audiens spesifik dan relevan.</li><li><b>Co-Creation Konten:</b> Pemerintah tidak hanya menyewa jasa, tetapi berkolaborasi menciptakan konten edukatif bergaya *storytelling* khas anak muda.</li><li><b>Duta Program Spesifik:</b> Menunjuk tokoh lokal sebagai wajah kampanye tematik (misal: Kampanye Tertib Lalin atau Edukasi Persampahan).</li></ul>",
+      "layout": "cards",
+      "icon": "Users"
+    },
+    {
+      "id": 9,
+      "title": "Early Warning System (EWS)",
+      "subtitle": "Sistem Peringatan Dini Krisis & Isu Publik",
+      "body": "Membangun radar digital yang mampu mendeteksi percikan isu negatif sebelum membesar menjadi krisis yang mengancam kredibilitas Pemkot Sukabumi. Setiap detik krusial untuk mengendalikan narasi.",
+      "layout": "hero",
+      "icon": "Bell"
+    },
+    {
+      "id": 10,
+      "title": "Mekanisme Pemantauan 24/7",
+      "subtitle": "Mata & Telinga Digital Pemerintahan",
+      "body": "<ul><li><b>Social Media Listening:</b> Penggunaan *tools* AI untuk menyadap percakapan publik di platform terbuka (Twitter/X, Facebook publik) secara real-time.</li><li><b>Pemantauan Grup Komunitas:</b> Observasi pasif pada grup diskusi warga Sukabumi untuk menangkap keluhan akar rumput sebelum viral.</li><li><b>Deteksi Kata Kunci Sensitif:</b> Notifikasi instan jika kata terkait \"Macet\", \"Banjir\", atau \"Pungli\" melonjak tajam di media sosial.</li></ul>",
+      "layout": "cards",
+      "icon": "Zap"
+    },
+    {
+      "id": 11,
+      "title": "Implementasi Analisis Sentimen",
+      "subtitle": "Mengukur Suhu Opini Publik Secara Real-Time",
+      "body": "<ul><li><b>Sentimen Positif (Apresiasi):</b> Tolok ukur keberhasilan sosialisasi program pembangunan dan layanan publik pemerintah.</li><li><b>Sentimen Netral (Informatif):</b> Penyebaran informasi standar pemerintah tanpa gejolak opini — kondisi ideal yang terus dijaga.</li><li><b>Sentimen Negatif (Keluhan):</b> Sinyal peringatan awal yang memerlukan intervensi komunikasi seketika sebelum membesar.</li></ul>",
+      "layout": "sentiment",
+      "icon": "BarChart3"
+    },
+    {
+      "id": 12,
+      "title": "Rekomendasi Kebijakan Berbasis Big Data",
+      "subtitle": "Dari Data Mentah Menjadi Strategi Taktis",
+      "body": "<ul><li><b>Topical Modeling:</b> Visualisasi *Word Cloud* harian untuk melihat isu apa yang paling dominan dibicarakan warga Sukabumi.</li><li><b>Laporan Intelijen Media:</b> Rangkuman harian yang langsung diterima Wali Kota di gawai pribadi setiap pukul 06.00 WIB.</li><li><b>Penyesuaian Anggaran Komunikasi:</b> Mengalihkan dana sosialisasi pada program yang sentimennya masih rendah atau belum tersampaikan.</li></ul>",
+      "layout": "bigdata",
+      "icon": "Database"
+    },
+    {
+      "id": 13,
+      "title": "Protokol Manajemen Krisis",
+      "subtitle": "Menyelamatkan Reputasi Saat Badai Melanda",
+      "body": "Krisis bukanlah akhir, melainkan ujian kepemimpinan. Penanganan yang tepat, transparan, dan cepat akan mengubah krisis menjadi bukti nyata kompetensi pemerintah Kota Sukabumi di mata publik.",
+      "layout": "hero",
+      "icon": "ShieldAlert"
+    },
+    {
+      "id": 14,
+      "title": "Pembentukan Rapid Response Team",
+      "subtitle": "Gugus Tugas Penanganan Isu Strategis",
+      "body": "<ul><li><b>Komposisi Tim:</b> Terdiri dari Wali Kota/Wakil, Sekda, Kadiskominfo, dan Kepala OPD terkait isu spesifik yang sedang terjadi.</li><li><b>Jalur Komunikasi Khusus:</b> *War Room* fisik dan digital yang selalu siaga 24/7 saat krisis status siaga merah.</li><li><b>Otoritas Komunikasi:</b> Penunjukan juru bicara tunggal (biasanya Wakil Wali Kota) agar pernyataan tidak simpang siur di publik.</li></ul>",
+      "layout": "cards",
+      "icon": "Users"
+    },
+    {
+      "id": 15,
+      "title": "Golden Time Penanganan: < 2 Jam",
+      "subtitle": "Menangkal Narasi Sebelum Viral",
+      "body": "<ul><li><b>Menit 0–30:</b> Deteksi isu via EWS dan verifikasi fakta awal silang ke lapangan/OPD terkait.</li><li><b>Menit 30–60:</b> Pengambilan sikap strategis dan draf rilis pers atau teks takarir darurat oleh Tim Khusus.</li><li><b>Menit 60–120:</b> Publikasi klarifikasi awal (*Holding Statement*) yang menyatakan Pemkot mengetahui isu dan sedang menangani secara serius.</li></ul>",
+      "layout": "timeline",
+      "icon": "Zap"
+    },
+    {
+      "id": 16,
+      "title": "Protokol SOP 60 Menit",
+      "subtitle": "Manajemen Krisis Pimpinan Terstruktur",
+      "body": "<ul><li><b>Deteksi Dini:</b> Radar AI mendeteksi lonjakan percakapan negatif dengan kata kunci Pimpinan dalam hitungan menit.</li><li><b>Verifikasi Fakta:</b> Kroscek lapangan/OPD terkait dalam maksimal 15 menit untuk memastikan kebenaran informasi.</li><li><b>Strategic Briefing:</b> Penyusunan respon (*Holding Statement*) oleh Tim Khusus Komunikasi.</li><li><b>Diseminasi Konten:</b> Publikasi klarifikasi via akun resmi & amplifikasi KOL lokal secara terstruktur.</li><li><b>Penetralan Isu:</b> Penenggelaman isu negatif dengan narasi positif masif di semua platform.</li></ul>",
+      "layout": "timeline",
+      "icon": "ShieldAlert"
+    },
+    {
+      "id": 17,
+      "title": "Teknik Counter-Narrative",
+      "subtitle": "3 Simulasi Nyata Penanganan Krisis Sukabumi",
+      "body": "<ul><li><b>Jalan Rusak Cikole (Adu Fakta):</b> Video viral TikTok → Rilis infografis resmi berisi SPK dan alasan teknis dalam 60 menit → Di-repost 10 akun Info Lokal. Krisis padam.</li><li><b>Fitnah PKH Baros (Kesaksian Pihak ke-3):</b> Isu pungli bansos → Wakil Wali Kota turun mendadak + video testimoni MUI → Disebar ke grup WA RT/RW se-Sukabumi.</li><li><b>Banjir Ciaul — Show, Don't Tell:</b> Keluhan lambannya BPBD → Wali Kota Live Instagram dari lokasi banjir → Dipotong jadi Reels \"Kepemimpinan Hadir\" dalam 2 jam.</li></ul>",
+      "layout": "cards",
+      "icon": "Share2"
+    },
+    {
+      "id": 18,
+      "title": "Mitigasi Hoaks & Black Campaign",
+      "subtitle": "Langkah Hukum dan Klarifikasi Proporsional",
+      "body": "<ul><li><b>Kanal Klinik Hoaks:</b> Platform resmi di website Pemkot untuk meluruskan disinformasi secara faktual (Fakta vs Mitos).</li><li><b>Patroli Siber Terpadu:</b> Bekerja sama dengan Polres Sukabumi Kota untuk menindak sumber *black campaign* yang berulang secara hukum.</li><li><b>Edukasi Literasi Massal:</b> Mendorong masyarakat menjadi agen pelapor hoaks berbasis komunitas RT/RW.</li></ul>",
+      "layout": "cards",
+      "icon": "ShieldAlert"
+    },
+    {
+      "id": 19,
+      "title": "Pengelolaan Citra Pimpinan",
+      "subtitle": "Membangun Kedekatan Psikologis dengan Warga",
+      "body": "Menciptakan persona H. Ayep Zaki & H. Bobby Maulana yang bukan sekadar pejabat birokrasi, melainkan bapak dan saudara bagi seluruh lapisan masyarakat Sukabumi yang selalu hadir dan peduli.",
+      "layout": "hero",
+      "icon": "Star"
+    },
+    {
+      "id": 20,
+      "title": "Strategi Visual Storytelling Humanis",
+      "subtitle": "Dokumentasi di Luar Format Keprotokolan",
+      "body": "<ul><li><b>Behind The Scenes:</b> Menampilkan sisi keseharian Wali Kota dan Wakil Wali Kota yang kasual dan tidak berjarak dari warga.</li><li><b>Fokus Pada Interaksi Warga:</b> Foto dan video diutamakan menyorot reaksi kebahagiaan warga (Subjek) daripada pimpinan (Objek).</li><li><b>Micro-Vlog Lapangan:</b> Pembaruan status harian berformat vertikal (*selfie style*) langsung dari titik-titik pembangunan dan kegiatan.</li></ul>",
+      "layout": "cards",
+      "icon": "Users"
+    },
+    {
+      "id": 21,
+      "title": "Thought Leadership Pimpinan",
+      "subtitle": "Menjadi Titik Acuan Diskusi Regional",
+      "body": "<ul><li><b>Penerbitan Opini:</b> Tulisan H. Ayep Zaki tentang \"Smart City Berbasis Kearifan Lokal\" di media nasional secara bulanan.</li><li><b>Keynote Speaker:</b> Tampil mempresentasikan visi tata kelola ekonomi daerah di forum nasional tingkat tinggi.</li><li><b>Podcast Eksklusif:</b> \"Duduk Bareng Wali Kota\" — bincang interaktif mendalam 30 menit setiap bulan bersama pakar dan tokoh nasional.</li></ul>",
+      "layout": "cards",
+      "icon": "GraduationCap"
+    },
+    {
+      "id": 22,
+      "title": "Digitalisasi Layanan: SUPER",
+      "subtitle": "Sukabumi Participatory Responder",
+      "body": "<ul><li><b>Kanalisasi Pengaduan:</b> Integrasi seluruh keluhan warga (jalan rusak, air putus) ke dalam satu dashboard cerdas yang dimonitor langsung oleh pimpinan.</li><li><b>Transparansi Proses:</b> Warga mendapat notifikasi WhatsApp di setiap tahap pengerjaan laporan mereka secara real-time.</li><li><b>Evaluasi OPD Real-time:</b> Akumulasi respons SUPER menjadi KPI (Key Performance Indicator) bulanan Kepala Dinas.</li></ul>",
+      "layout": "service",
+      "icon": "Smartphone"
+    },
+    {
+      "id": 23,
+      "title": "Layanan Cetek & Jempol",
+      "subtitle": "Meniadakan Birokrasi Berbelit bagi Warga",
+      "body": "<ul><li><b>Program Cetek:</b> Akses layanan kesehatan tingkat pertama yang terotorisasi penuh hanya dengan satu scan e-KTP — tanpa antrean panjang, tanpa birokrasi rumit.</li><li><b>Program Jempol (Jemput Bola):</b> Layanan administrasi langsung ke kantong-kantong pemukiman terjauh menggunakan mobil keliling yang terkoneksi satelit data Disdukcapil.</li></ul>",
+      "layout": "service",
+      "icon": "Zap"
+    },
+    {
+      "id": 24,
+      "title": "Sukabumi Media Training",
+      "subtitle": "Pembekalan Taktis Eksekutif Menghadapi Jurnalis",
+      "body": "<ul><li><b>Simulasi Doorstop Darurat:</b> Latihan intensif (*Pressure Test*) bagi Wali Kota dan Wakil agar terbiasa mengendalikan emosi menghadapi cecaran pertanyaan mendadak wartawan.</li><li><b>Penyusunan Holding Statement:</b> Pendampingan merumuskan pernyataan resmi pertama di jam-jam krusial agar tidak ada blunder komunikasi.</li><li><b>Translasi Bahasa Birokrasi:</b> Pembekalan cara memaparkan kebijakan tidak populer secara empatik agar narasi Pemkot sinkron dan menenangkan massa.</li></ul>",
+      "layout": "cards",
+      "icon": "GraduationCap"
+    },
+    {
+      "id": 25,
+      "title": "Literasi Digital Masyarakat",
+      "subtitle": "Benteng Terakhir Melawan Hoaks & Disinformasi",
+      "body": "<ul><li><b>Generasi Cerdas Digital:</b> Sisipan program literasi via media sosial dan *gaming* ke ekstrakurikuler sekolah di seluruh kecamatan kota.</li><li><b>Kader PKK & Dasawisma sebagai Agen:</b> Melatih kelompok perempuan membedakan tautan hoaks penipuan (phishing) yang beredar di grup WhatsApp keluarga.</li><li><b>Komunitas Relawan Anti-Hoaks:</b> Membentuk jaringan verifikasi informasi berbasis RT/RW yang terintegrasi dengan platform resmi Pemkot.</li></ul>",
+      "layout": "cards",
+      "icon": "ShieldAlert"
+    },
+    {
+      "id": 26,
+      "title": "Kunci Eksekusi: Mandat Politik SK",
+      "subtitle": "Legitimasi Strategi Melalui Surat Keputusan Wali Kota",
+      "body": "<ul><li><b>Satu Komando (One-Gate):</b> SK mewajibkan seluruh Kepala OPD patuh pada alur instruksi komunikasi yang ditetapkan Tim Khusus tanpa pengecualian.</li><li><b>Gugus Tugas Resmi:</b> Pembentukan \"Tim Transformasi Komunikasi Publik\" sebagai dasar hukum yang mewajibkan kolaborasi lintas dinas.</li><li><b>Akselerasi Anggaran:</b> Landasan legal (*legal standing*) kuat untuk pencairan anggaran operasional tanpa benturan birokrasi.</li></ul>",
+      "layout": "cards",
+      "icon": "Users"
+    },
+    {
+      "id": 27,
+      "title": "Investasi Infrastruktur Komunikasi",
+      "subtitle": "Anggaran Taktis Menuju Smart Communication",
+      "body": "<ul><li><b>Command Center Fisik:</b> Pengadaan ruang kendali terintegrasi dengan layar pantau analitik media sosial *real-time* 24 jam non-stop.</li><li><b>Tools AI Premium:</b> Pengalokasian dana untuk *Social Listening* spesifik geolokasi dan sentimen (Awario, Brandwatch, atau Kazee).</li><li><b>Rekrutmen Spesialis Eksternal:</b> Honorarium Data Analyst, Social Media Manager, dan Copywriter profesional untuk mendampingi tim organik Diskominfo.</li></ul>",
+      "layout": "budget",
+      "icon": "Database"
+    },
+    {
+      "id": 28,
+      "title": "Indikator Keberhasilan (KPI)",
+      "subtitle": "Matriks Pengukuran Performa Komunikasi Publik",
+      "body": "<ul><li><b>Target Golden Time < 2 Jam:</b> Penurunan waktu tanggap awal krisis dari hitungan hari menjadi di bawah 1 jam — maksimal 2 jam.</li><li><b>Pertumbuhan Audiens Organik:</b> Kenaikan 25% *followers* dan lonjakan *engagement rate* di semua saluran resmi Pemda setiap kuartal.</li><li><b>Dominasi Sentimen Positif:</b> Penekanan *echo chamber* negatif dan terjaganya suhu percakapan publik di minimal 80% sentimen positif atau netral.</li></ul>",
+      "layout": "kpi_grid",
+      "icon": "Star"
+    },
+    {
+      "id": 29,
+      "title": "Sukabumi Maju: Satu Narasi",
+      "subtitle": "Kepemimpinan Efektif & Transparan Era Baru",
+      "body": "Strategi Komunikasi Publik ini adalah mesin penggerak performa kepemimpinan H. Ayep Zaki & H. Bobby Maulana. Komunikasi bukan sekadar alat pelaporan, melainkan jembatan empati hakiki menuju lompatan kemajuan Kota Sukabumi.",
+      "layout": "closing",
+      "icon": "Star"
+    }
+  ]
+}

@@ -156,7 +156,38 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
         const { label, rest } = parseBoldLabel(item);
         const valMatch = rest.match(/(\d+)/);
         const value = valMatch ? parseInt(valMatch[0]) : 0;
-        return { label: label || `Item ${i+1}`, value, color: colors[i % colors.length], suffix: rest.replace(valMatch ? valMatch[0] : "", "").trim() };
+        
+        let suffix = "";
+        let description = "";
+        
+        if (valMatch) {
+          const afterValue = rest.slice(rest.indexOf(valMatch[0]) + valMatch[0].length).trim();
+          // Detect if suffix is just % or short word like "Miliar"
+          if (afterValue.startsWith("%")) {
+            suffix = "%";
+            description = afterValue.slice(1).trim();
+          } else {
+            const words = afterValue.split(/\s+/);
+            if (words[0] && words[0].length < 10 && words.length > 1) {
+              suffix = words[0];
+              description = words.slice(1).join(" ");
+            } else if (words.length === 1 && words[0].length < 10) {
+              suffix = words[0];
+            } else {
+              description = afterValue;
+            }
+          }
+        } else {
+          description = rest;
+        }
+
+        return { 
+          label: label || `Item ${i+1}`, 
+          value, 
+          color: colors[i % colors.length], 
+          suffix,
+          description
+        };
       });
       const maxValue = Math.max(...data.map(d => d.value), 10);
 
@@ -168,33 +199,34 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
           <div style={{ background: "rgba(255,255,255,0.02)", borderRadius: 24, padding: "2.5rem", border: "1px solid rgba(255,255,255,0.06)", boxShadow: "0 20px 50px rgba(0,0,0,0.3)" }}>
             <div style={{ display: "flex", alignItems: "flex-end", gap: "2.5rem", height: "100%", minHeight: "260px", paddingBottom: "2rem" }}>
               {data.map((d, i) => (
-                <div key={i} data-item={String(i)} style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", gap: "1rem" }}>
+                <div key={i} data-item={String(i)} style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", gap: "0.75rem" }}>
                   <div style={{ position: "relative", width: "100%", height: "200px", display: "flex", alignItems: "flex-end" }}>
                     <div 
                       style={{ 
                         width: "100%", 
-                        height: "0%", // Start at 0 for animation
+                        height: "0%", 
                         animation: `chartGrow 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) ${i * 0.15 + 0.5}s forwards`,
                         background: `linear-gradient(180deg, ${d.color}, ${d.color}cc)`, 
-                        borderRadius: "10px 10px 4px 4px",
+                        borderRadius: "12px 12px 4px 4px",
                         position: "relative",
-                        boxShadow: `0 4px 20px ${d.color}33`,
-                        border: "1px solid rgba(255,255,255,0.1)"
+                        boxShadow: `0 4px 24px ${d.color}33`,
+                        border: "1px solid rgba(255,255,255,0.15)"
                       }}
                       onMouseEnter={(e) => { e.currentTarget.style.filter = "brightness(1.2)"; e.currentTarget.style.transform = "scaleY(1.02)"; }}
                       onMouseLeave={(e) => { e.currentTarget.style.filter = "none"; e.currentTarget.style.transform = "scaleY(1)"; }}
                     >
-                      <div style={{ position: "absolute", top: -35, left: "50%", transform: "translateX(-50%)", fontSize: "1.1rem", fontWeight: 900, color: "white", whiteSpace: "nowrap", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
+                      <div style={{ position: "absolute", top: -35, left: "50%", transform: "translateX(-50%)", fontSize: "1.2rem", fontWeight: 950, color: "white", whiteSpace: "nowrap", textShadow: "0 4px 12px rgba(0,0,0,0.6)" }}>
                         {d.value}{d.suffix}
                       </div>
                     </div>
                   </div>
-                  <div style={{ fontSize: "0.85rem", fontWeight: 700, color: TEXT_MUTED, textAlign: "center", textTransform: "uppercase", letterSpacing: "0.05em", maxWidth: "80px" }}>{d.label}</div>
+                  <div style={{ fontSize: "0.85rem", fontWeight: 800, color: "white", textAlign: "center", textTransform: "uppercase", letterSpacing: "0.08em", marginTop: "0.5rem" }}>{d.label}</div>
+                  {d.description && <div style={{ fontSize: "0.75rem", color: TEXT_MUTED, textAlign: "center", lineHeight: 1.5, maxWidth: "180px" }}>{d.description}</div>}
                 </div>
               ))}
             </div>
             {/* Legend / Info */}
-            <div style={{ marginTop: "1.5rem", paddingTop: "1.5rem", borderTop: "1px solid rgba(255,255,255,0.06)", fontSize: "0.85rem", color: TEXT_SUBTLE, textAlign: "center", fontStyle: "italic" }}>
+            <div style={{ marginTop: "1.5rem", paddingTop: "1.5rem", borderTop: "1px solid rgba(255,255,255,0.1)", fontSize: "0.85rem", color: TEXT_SUBTLE, textAlign: "center", fontStyle: "italic" }}>
               {body.replace(/<ul>.*?<\/ul>/, "").trim() || "Data diolah per Maret 2026. Target fiskal 2029 diproyeksikan tumbuh 12% YoY."}
             </div>
           </div>

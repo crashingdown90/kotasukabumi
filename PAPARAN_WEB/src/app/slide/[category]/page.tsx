@@ -21,6 +21,7 @@ interface Slide {
   body: string;
   layout: string;
   icon?: string;
+  image?: string;
 }
 
 const iconMap: Record<string, any> = {
@@ -302,6 +303,53 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
         </div>
       );
     }
+    // ── FEATURE — image + text layout ──────────────────────────────
+    if (layout === "feature") {
+      return (
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem", alignItems: "center" }}>
+          <div style={{ position: "relative" }}>
+            <div style={{ position:"absolute", inset:-15, borderRadius:32, background:`radial-gradient(circle, ${PRIMARY}22 0%, transparent 70%)`, animation: "orb-pulse 4s ease-in-out infinite" }} />
+            <div style={{ position: "relative", borderRadius: 24, overflow: "hidden", border: "1px solid rgba(255,255,255,0.1)", boxShadow: "0 25px 60px rgba(0,0,0,0.4)" }}>
+              {slide.image ? (
+                <img src={slide.image} alt={title} style={{ width: "100%", height: "auto", display: "block", filter: "brightness(1.1) contrast(1.1)" }} />
+              ) : (
+                <div style={{ width: "100%", height: "300px", background: "rgba(255,255,255,0.03)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <IconComp size={64} color="rgba(255,255,255,0.1)" />
+                </div>
+              )}
+              {/* Scanline effect on image */}
+              <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "2px", background: "rgba(255,255,255,0.1)", animation: "scan-line 4s linear infinite" }} />
+            </div>
+          </div>
+          <div>
+            <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
+            <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.6rem)", fontWeight: 900, color: TEXT_MAIN, lineHeight: 1.1, marginBottom: "1.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
+            <div style={{ fontSize: "1.05rem", color: TEXT_MUTED, lineHeight: 1.8 }}>
+              <InlineText text={body} />
+            </div>
+            {isList && (
+              <div style={{ marginTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+                {items.map((item, i) => {
+                  const { label, rest } = parseBoldLabel(item);
+                  return (
+                    <div key={i} style={{ display: "flex", gap: "0.85rem", alignItems: "flex-start" }}>
+                      <div style={{ marginTop: "0.4rem", width: 18, height: 18, borderRadius: "50%", background: PRIMARY_LIGHT, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                        <div style={{ width: 6, height: 6, borderRadius: "50%", background: PRIMARY }} />
+                      </div>
+                      <p style={{ margin: 0, fontSize: "0.95rem", color: TEXT_MAIN }}>
+                        {label && <strong style={{ color: GOLD }}>{label}: </strong>}
+                        <InlineText text={rest} />
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        </div>
+      );
+    }
+
     if (layout === "hero") {
       return (
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", padding: "2rem 0", gap: "1.5rem" }}>

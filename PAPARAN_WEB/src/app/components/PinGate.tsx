@@ -207,7 +207,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
           color: "#D4AF37",
           marginBottom: "0.5rem",
         }}>
-          RESTRICTED ACCESS
+          AKSES TERBATAS
         </p>
 
         <h1 style={{
@@ -217,7 +217,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
           marginBottom: "0.4rem",
           letterSpacing: "-0.02em",
         }}>
-          Strategic Presentation Portal
+          Portal Paparan Strategis
         </h1>
 
         <p style={{
@@ -226,8 +226,8 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
           marginBottom: "2.5rem",
           lineHeight: 1.5,
         }}>
-          Sukabumi City Government<br />
-          Please enter your security PIN to proceed
+          Pemerintah Kota Sukabumi<br />
+          Silakan masukkan PIN keamanan Anda untuk melanjutkan
         </p>
 
         {/* PIN Inputs */}
@@ -289,17 +289,17 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
         }}>
           {status === "error" && !locked && (
             <p style={{ color: "#EF4444", fontSize: "0.85rem", fontWeight: 600 }}>
-              ❌ Invalid PIN{attempts < 3 ? ` — ${3 - attempts} attempts remaining` : ""}
+              ❌ PIN Salah{attempts < 3 ? ` — ${3 - attempts} percobaan tersisa` : ""}
             </p>
           )}
           {status === "success" && (
             <p style={{ color: "#22C55E", fontSize: "0.85rem", fontWeight: 600 }}>
-              ✅ Access Granted...
+              ✅ Akses Diberikan...
             </p>
           )}
           {locked && (
             <p style={{ color: "#F59E0B", fontSize: "0.85rem", fontWeight: 600 }}>
-              🔒 Security lockout. Try again in {lockTimer}s
+              🔒 Keamanan Terkunci. Tunggu {lockTimer}s
             </p>
           )}
         </div>
@@ -325,7 +325,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
             textTransform: "uppercase",
           }}
         >
-          AUTHENTICATE →
+          VERIFIKASI AKSES →
         </button>
 
         {/* Attempts indicator */}
@@ -362,7 +362,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
             marginBottom: "0.4rem",
             textTransform: "uppercase"
           }}>
-            FOR YOUR EYES ONLY
+            HANYA UNTUK ANDA (FOR YOUR EYES ONLY)
           </p>
           <p style={{
             fontSize: "0.72rem",
@@ -371,7 +371,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
             maxWidth: "300px",
             margin: "0 auto"
           }}>
-            Unauthorized access, duplication, or redistribution of this content is strictly prohibited. Security protocols are active.
+            Akses tidak sah, penggandaan, atau penyebarluasan konten ini sangat dilarang. Protokol keamanan aktif.
           </p>
         </div>
       </div>
@@ -386,7 +386,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
         textAlign: "center",
         letterSpacing: "0.05em",
       }}>
-        © 2026 Sukabumi City Government · CONFIDENTIAL CONTENT
+        © 2026 Pemerintah Kota Sukabumi · KONTEN RAHASIA
       </p>
 
       <style>{`

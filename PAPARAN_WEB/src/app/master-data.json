@@ -480,5 +480,63 @@
       "layout": "closing",
       "icon": "Star"
     }
+  ],
+  "strakom": [
+    {
+      "id": 1,
+      "title": "Visi Komunikasi Strategis",
+      "subtitle": "Informasi Cepat, Akurat, dan Empatik",
+      "body": "Membangun kepercayaan publik (public trust) melalui satu narasi utama yang diorkestrasi secara masif ke seluruh lini media digital dan konvensional.",
+      "layout": "hero",
+      "icon": "Zap"
+    },
+    {
+      "id": 2,
+      "title": "Arsitektur Media & Aset Digital",
+      "subtitle": "Sinergi Aset Personal Pimpinan & Institusional",
+      "body": "<ul><li><b>Tier 1: Core Narrative</b> Akun Media Sosial Wali Kota (H. Ayep Zaki) & Wakil Wali Kota (H. Bobby Maulana) sebagai sumber pesan utama.</li><li><b>Tier 2: Official Hub</b> Diskominfo & Website Resmi Kota Sukabumi sebagai verifikator data.</li><li><b>Tier 3: Institutional Network</b> 30+ Akun Media Sosial OPD, Kecamatan, & Kelurahan yang memperkuat jangkauan.</li><li><b>Tier 4: Public Amplification</b> Media Massa, Influencer Lokal, dan Digital Troopers.</li></ul>",
+      "layout": "cards",
+      "icon": "Users"
+    },
+    {
+      "id": 3,
+      "title": "Protokol Respons Cepat",
+      "subtitle": "The Golden Hour — Penanganan Isu < 60 Menit",
+      "body": "<ul><li><b>Deteksi Dini</b> Sistem monitoring AI mendeteksi isu di media sosial.</li><li><b>Verifikasi Fakta</b> Konfirmasi cepat fakta lapangan ke OPD terkait dalam 15 menit.</li><li><b>Penyusunan Narasi</b> Merumuskan tanggapan solutif dari sudut pandang Pimpinan.</li><li><b>Orkestrasi Aksi</b> Wali Kota/Wakil merilis tanggapan langsung di media sosial pribadi.</li><li><b>Amplifikasi Masif</b> Penyebaran narasi oleh semua akun OPD, Media Massa, dan Digital Troopers.</li></ul>",
+      "layout": "timeline",
+      "icon": "ShieldAlert"
+    },
+    {
+      "id": 4,
+      "title": "Strategi Digital Troopers",
+      "subtitle": "Menjaga Sentimen Positif & Melawan Hoaks",
+      "body": "<ul><li><b>Myth-Busting</b> Menangani hoaks dengan data valid secara organik di kolom komentar publik.</li><li><b>Penyebaran Organik</b> Memastikan narasi pembangunan masuk ke grup-grup diskusi WhatsApp & Facebook warga.</li><li><b>Kontrol Sentimen</b> Menjaga agar diskusi publik tetap konstruktif dan tidak terbelah.</li></ul>",
+      "layout": "cards",
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": 5,
+      "title": "Media Hub & Sinergi Pers",
+      "subtitle": "Kemitraan Strategis Penguatan Jangkauan",
+      "body": "<ul><li><b>Media Online</b> Fokus pada kecepatan update narasi dan dominasi SEO positif regional.</li><li><b>Media Cetak</b> Fokus pada ulasan mendalam (In-depth reporting) keberhasilan program strategis.</li><li><b>Media Massa Elektronik</b> Fokus pada visualisasi keberhasilan infrastruktur dan prestasi daerah.</li></ul>",
+      "layout": "service",
+      "icon": "Globe"
+    },
+    {
+      "id": 6,
+      "title": "Monitoring & Evaluasi",
+      "subtitle": "Alat Ukur Keberhasilan Strategi Komunikasi",
+      "body": "<ul><li><b>Waktu Tanggap</b> Kecepatan respons di bawah 1 jam (Golden Hour).</li><li><b>Tingkat Interaksi</b> Kenaikan 25% keterlibatan publik di kanal media sosial pimpinan.</li><li><b>Skor Sentimen</b> Target dominasi sentimen positif minimal 80% pada isu strategis.</li></ul>",
+      "layout": "kpi_grid",
+      "icon": "BarChart3"
+    },
+    {
+      "id": 7,
+      "title": "Sukabumi: Satu Narasi",
+      "subtitle": "Kepemimpinan Efektif & Terpecaya Era Baru",
+      "body": "Strategi Komunikasi Publik ini adalah mesin penggerak reputasi kepemimpinan H. Ayep Zaki & H. Bobby Maulana. Komunikasi bukan sekadar laporan, melainkan jembatan empati menuju lompatan kemajuan Kota Sukabumi.",
+      "layout": "closing",
+      "icon": "Star"
+    }
   ]
 }

@@ -61,6 +61,16 @@ function IconMedia({ size = 28 }: { size?: number }) {
   );
 }
 
+function IconStrakom({ size = 28 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 28 28" fill="none">
+      <path d="M18 7l-6 5H8v4h4l6 5V7z" fill="rgba(255,255,255,0.15)" stroke="white" strokeWidth="1.8" strokeLinejoin="round"/>
+      <path d="M22 10c1.5 2 1.5 6 0 8" stroke="white" strokeWidth="1.8" strokeLinecap="round" opacity="0.7"/>
+      <path d="M25 7c2.5 4 2.5 10 0 14" stroke="white" strokeWidth="1.6" strokeLinecap="round" opacity="0.4"/>
+    </svg>
+  );
+}
+
 /* ── Particles ───────────────────────────────────────────── */
 function FloatingParticles({ color }: { color: string }) {
   return (
@@ -164,11 +174,23 @@ const MENU_ITEMS = [
     label: "05",
     tag: "MEDIA",
   },
+  {
+    id: "strakom",
+    title: "Strategi Komunikasi (STRAKOM)",
+    desc: "Protokol Respons Cepat & Amplifikasi Isu",
+    Icon: IconStrakom,
+    gradient: "linear-gradient(135deg, #1E1B4B 0%, #8E1540 100%)",
+    glow: "rgba(142,21,64,0.5)",
+    particle: "rgba(196,30,91,0.8)",
+    slug: "strakom",
+    label: "06",
+    tag: "STRATEGI",
+  },
 ];
 
 const STATS = [
   { value: "140+", label: "Slide Paparan" },
-  { value: "5",    label: "Bidang Strategis" },
+  { value: "6",    label: "Bidang Strategis" },
   { value: "2025", label: "Tahun Mulai" },
 ];
 

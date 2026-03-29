@@ -50,7 +50,7 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
   const [searchQuery, setSearchQuery] = useState("");
   const [showSearch, setShowSearch] = useState(false);
 
-  const slides = (masterData as any)[category] || [];
+  const slides: Slide[] = (masterData as any)[category] || [];
   const totalSlides = slides.length;
 
   function navigate(dir: "next" | "prev") {
@@ -738,7 +738,7 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
         </div>
 
         <div className={styles.sidebarList}>
-          {slides.map((s: any, i: number) => {
+          {slides.map((s: Slide, i: number) => {
             const isMatch = !searchQuery || s.title.toLowerCase().includes(searchQuery.toLowerCase()) || s.subtitle.toLowerCase().includes(searchQuery.toLowerCase());
             if (!isMatch) return null;
             return (
@@ -860,7 +860,7 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
             </div>
             
             <div style={{ maxHeight: "60vh", overflowY: "auto", padding: "0.5rem" }}>
-              {slides.map((s: any, i: number) => {
+              {slides.map((s: Slide, i: number) => {
                 const isMatch = !searchQuery || s.title.toLowerCase().includes(searchQuery.toLowerCase()) || s.subtitle.toLowerCase().includes(searchQuery.toLowerCase());
                 if (!isMatch) return null;
                 return (
@@ -891,7 +891,7 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
                   </div>
                 );
               })}
-              {slides.filter(s => s.title.toLowerCase().includes(searchQuery.toLowerCase())).length === 0 && (
+              {slides.filter((s: Slide) => s.title.toLowerCase().includes(searchQuery.toLowerCase())).length === 0 && (
                 <div style={{ padding: "3rem", textAlign: "center", color: TEXT_MUTED }}>
                   No results found for "{searchQuery}"
                 </div>

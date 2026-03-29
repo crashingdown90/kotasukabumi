@@ -9,7 +9,7 @@ import {
   Smartphone, Monitor, Book, Heart, Mic, Coffee, Play, MessageSquare,
   Search, ChevronRight, Camera, Clock, Calendar as CalendarIcon, Quote,
   TrendingUp, Target, Filter, Layers, Radio, AlertTriangle, Award,
-  ChevronDown, ChevronUp, Eye, ThumbsUp, ThumbsDown, Minus,
+  ChevronDown, ChevronUp, Eye, ThumbsUp, ThumbsDown, Minus, Info
 } from "lucide-react";
 import styles from "./slide.module.css";
 import masterData from "../../master-data.json";
@@ -29,7 +29,7 @@ const iconMap: Record<string, any> = {
   GraduationCap, Cpu, MessageSquare, Search, Crown, Lightbulb, Building2,
   ShieldCheck, Database, Smartphone, Monitor, Book, Heart, Mic, Coffee, Play,
   CheckCircle2, ChevronRight, Camera, Clock, Quote, TrendingUp, Target,
-  Filter, Layers, Radio, AlertTriangle, Award, Eye, ThumbsUp, ThumbsDown,
+  Filter, Layers, Radio, AlertTriangle, Award, Eye, ThumbsUp, ThumbsDown, Info
 };
 
 const PRIMARY = "#C41E5B";
@@ -376,6 +376,141 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
             <div style={{ height: 3, width: 16, borderRadius: 2, background: GOLD }} />
             <div style={{ height: 3, width: 8, borderRadius: 2, background: "rgba(255,255,255,0.1)" }} />
           </div>
+        </div>
+      );
+    }
+
+    // ── AUDIENCE_GRID — target segmentation ───────────────────────────
+    if (layout === "audience_grid") {
+      const audienceIcons = [Users, Smartphone, Building2, Globe, Heart, Mic];
+      return (
+        <div>
+          <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
+          <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "2.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>
+            {items.map((item, i) => {
+              const { label, rest } = parseBoldLabel(item);
+              const AIcon = audienceIcons[i % audienceIcons.length];
+              return (
+                <div key={i} data-item={String(i)} style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 24, padding: "1.75rem", position: "relative", overflow: "hidden", transition: "all 0.3s ease" }}>
+                  <div style={{ position: "absolute", top: -10, right: -10, width: "80px", height: "80px", background: `${PRIMARY}10`, borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <AIcon size={40} color={`${PRIMARY}30`} />
+                  </div>
+                  <div style={{ position: "relative", zIndex: 1 }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "1rem" }}>
+                      <div style={{ width: 44, height: 44, borderRadius: 12, background: `linear-gradient(135deg, ${PRIMARY}, #8E1540)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <AIcon size={22} color="white" />
+                      </div>
+                      <h3 style={{ fontSize: "1.1rem", fontWeight: 800, color: "white", margin: 0 }}>{label}</h3>
+                    </div>
+                    <p style={{ fontSize: "0.9rem", color: TEXT_MUTED, lineHeight: 1.6, marginBottom: "1.25rem" }}><InlineText text={rest} /></p>
+                    <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+                      <span style={{ fontSize: "0.65rem", fontWeight: 800, padding: "0.25rem 0.65rem", borderRadius: 99, background: `${GOLD}20`, color: GOLD, border: `1px solid ${GOLD}40`, textTransform: "uppercase" }}>Strategic Priority</span>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    // ── PILLARS — content strategy pillars ────────────────────────────
+    if (layout === "pillars") {
+      const pillarIcons = [Zap, Info, MessageSquare, Lightbulb, Target, Star];
+      return (
+        <div>
+          <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
+          <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "3rem", textAlign: "center", letterSpacing: "-0.02em" }}>{title}</h2>
+          <div style={{ display: "flex", justifyContent: "center", gap: "1.5rem", flexWrap: "wrap" }}>
+            {items.map((item, i) => {
+              const { label, rest } = parseBoldLabel(item);
+              const PIcon = pillarIcons[i % pillarIcons.length];
+              return (
+                <div key={i} data-item={String(i)} style={{ flex: "1 1 240px", maxWidth: "280px", background: "linear-gradient(180deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 32, padding: "2.5rem 1.5rem", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5rem" }}>
+                  <div style={{ width: 80, height: 80, borderRadius: "50%", background: `linear-gradient(135deg, ${PRIMARY}, #C41E5B)`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: `0 15px 35px ${PRIMARY}44` }}>
+                    <PIcon size={36} color="white" />
+                  </div>
+                  <div>
+                    <h3 style={{ fontSize: "1.25rem", fontWeight: 900, color: "white", marginBottom: "0.75rem", letterSpacing: "-0.01em" }}>{label}</h3>
+                    <div style={{ width: 40, height: 3, background: GOLD, margin: "0 auto 1.25rem", borderRadius: 2 }} />
+                    <p style={{ fontSize: "0.9rem", color: TEXT_MUTED, lineHeight: 1.7, margin: 0 }}><InlineText text={rest} /></p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    // ── FLOWCHART — interactive process visualization ─────────────────
+    if (layout === "flowchart") {
+      return (
+        <div style={{ position: "relative" }}>
+          <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
+          <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "3.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
+          
+          <div style={{ display: "flex", flexDirection: "column", gap: "1rem", position: "relative" }}>
+            {items.map((item, i) => {
+              const { label, rest } = parseBoldLabel(item);
+              const isEven = i % 2 === 0;
+              return (
+                <div key={i} data-item={String(i)} style={{ display: "flex", alignItems: "center", gap: "2rem", width: "100%", justifyContent: isEven ? "flex-start" : "flex-end" }}>
+                  <div style={{ 
+                    width: "48%",
+                    background: i === 0 ? `linear-gradient(135deg, ${PRIMARY}, #8E1540)` : "rgba(255,255,255,0.02)", 
+                    border: i === 0 ? "none" : `1px solid ${i === items.length - 1 ? GOLD : "rgba(255,255,255,0.08)"}`,
+                    borderRadius: 24, 
+                    padding: "1.75rem", 
+                    position: "relative",
+                    boxShadow: i === 0 ? `0 20px 50px ${PRIMARY}44` : "0 8px 30px rgba(0,0,0,0.3)",
+                    animation: i === 0 ? "node-pulse 3s infinite" : "none",
+                    zIndex: 2
+                  }}>
+                    {/* Step Number Badge */}
+                    <div style={{ position: "absolute", top: -12, left: 24, background: i === 0 ? GOLD : PRIMARY, color: "white", padding: "2px 14px", borderRadius: 99, fontSize: "0.75rem", fontWeight: 900, boxShadow: "0 4px 12px rgba(0,0,0,0.3)" }}>
+                      STEP {i + 1}
+                    </div>
+
+                    <div style={{ display: "flex", gap: "1.25rem", alignItems: "flex-start" }}>
+                      <div style={{ width: 48, height: 48, borderRadius: 16, background: i === 0 ? "rgba(255,255,255,0.2)" : `${PRIMARY}15`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                        <IconComp size={24} color={i === 0 ? "white" : PRIMARY} />
+                      </div>
+                      <div>
+                        <h4 style={{ margin: "0 0 0.5rem", fontSize: "1.1rem", fontWeight: 900, color: i === 0 ? "white" : GOLD, letterSpacing: "0.01em" }}>{label}</h4>
+                        <p style={{ margin: 0, fontSize: "0.95rem", color: i === 0 ? "rgba(255,255,255,0.85)" : TEXT_MUTED, lineHeight: 1.7 }}><InlineText text={rest} /></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+
+            {/* SVG Animated Connections */}
+            <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none", zIndex: 1 }}>
+              <defs>
+                <linearGradient id="flow-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stopColor={PRIMARY} />
+                  <stop offset="100%" stopColor={GOLD} />
+                </linearGradient>
+              </defs>
+              <path d="M 50% 40 L 50% 95%" stroke="url(#flow-grad)" strokeWidth="2" strokeDasharray="8,8" opacity="0.2" fill="none" />
+              {/* Flowing particles */}
+              <circle r="3" fill={GOLD}>
+                 <animateMotion dur="4s" repeatCount="indefinite" path="M 50% 40 L 50% 95%" />
+              </circle>
+            </svg>
+          </div>
+
+          <style>{`
+            @keyframes node-pulse {
+              0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(196,30,91,0.4); }
+              70% { transform: scale(1.02); box-shadow: 0 0 0 15px rgba(196,30,91,0); }
+              100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(196,30,91,0); }
+            }
+          `}</style>
         </div>
       );
     }

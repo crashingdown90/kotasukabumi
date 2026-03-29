@@ -493,56 +493,90 @@
     },
     {
       "id": 2,
-      "title": "Orkestrasi Aset Digital",
-      "subtitle": "Sinergi Tanpa Batas Antar Kanal",
-      "body": "Mengintegrasikan seluruh aset digital kota dalam satu komando orkestrasi yang masif. Memastikan setiap pesan dari Wali Kota dan Wakil Wali Kota diamplifikasi secara selaras untuk jangkauan maksimal.",
+      "title": "Publikasi Pencapaian",
+      "subtitle": "The Success Storytelling Strategy",
+      "body": "Mengemas setiap capaian pembangunan—mulai dari penghargaan nasional hingga perbaikan fasilitas publik terkecil—menjadi narasi kebanggaan warga yang inspiratif dan emosional.",
       "layout": "feature",
-      "icon": "Users",
-      "image": "/images/strakom_network.png"
+      "icon": "Award",
+      "image": "/images/strakom_achievement.png"
+    },
+    {
+      "id": 21,
+      "title": "Teknik Publikasi Efektif",
+      "subtitle": "Format Narasi Capaian Pimpinan",
+      "body": "<ul><li><b>Before & After Visualization:</b> Menunjukkan perubahan nyata hasil kerja pimpinan di lapangan.</li><li><b>Public Testimonials:</b> Mengangkat suara warga yang merasakan langsung manfaat program pembangunan.</li><li><b>Data-Driven Infographics:</b> Menyederhanakan angka statistik pembangunan (PAD, SPBE) menjadi visual yang dipahami awam.</li><li><b>Massive Seeding:</b> Memastikan rilis berita pencapaian tayang serentak di 50+ media online mitra.</li></ul>",
+      "layout": "audience_grid",
+      "icon": "Layers"
     },
     {
       "id": 3,
-      "title": "Protokol Respons Cepat",
-      "subtitle": "The Golden Hour — Penanganan Isu < 60 Menit",
-      "body": "<ul><li><b>Detection:</b> Sistem monitoring AI mendeteksi letupan isu negatif di media sosial atau grup warga dalam hitungan menit.</li><li><b>Verification:</b> Tim khusus melakukan fakta-verikasi lapangan ke OPD terkait maksimal 15 menit pasca deteksi.</li><li><b>Messaging:</b> Penyusunan respon solutif dan empatik (Holding Statement) oleh Tim Komunikasi Strategis.</li><li><b>Deployment:</b> Narasi dirilis serentak melalui akun Pimpinan, OPD, dan jaringan media mitra.</li><li><b>Amplification:</b> Pasukan Digital Troopers mengawal sentimen positif di kolom komentar untuk menekan narasi negatif.</li></ul>",
-      "layout": "timeline",
+      "title": "Counter Narasi Negatif",
+      "subtitle": "Protokol Klarifikasi & Myth-Busting",
+      "body": "Sistem pertahanan informasi untuk menetralisir hoaks, disinformasi, dan serangan narasi negatif terhadap kebijakan pemerintah secara cepat dan elegan.",
+      "layout": "flowchart",
       "icon": "ShieldAlert"
     },
     {
+      "id": 31,
+      "title": "Alur Klarifikasi Isu",
+      "subtitle": "Sequential Crisis Mitigation",
+      "body": "<ul><li><b>Detection & Leveling:</b> Menentukan urgensi isu (Hijau/Kuning/Merah) berdasarkan volume pembicaraan.</li><li><b>Fact Gathering:</b> Tim teknis mengumpulkan bukti otentik untuk mematahkan narasi negatif.</li><li><b>Creative Clarification:</b> Mengemas fakta menjadi video penjelasan singkat (Video Explainer) pimpinan.</li><li><b>Narrative Flip:</b> Mengalihkan fokus publik dari isu negatif ke solusi atau program kerja yang sedang berjalan.</li></ul>",
+      "layout": "flowchart",
+      "icon": "Radio"
+    },
+    {
       "id": 4,
-      "title": "Media Hub & Sinergi Pers",
-      "subtitle": "Kemitraan Strategis Berbasis Data",
-      "body": "Menjalin kerja sama profesional dengan jaringan media online, cetak, dan televisi. Fokus pada penyebarluasan rilis berita yang faktual untuk membangun opini publik yang sehat dan konstruktif terhadap pembangunan Sukabumi.",
+      "title": "Branding & Elektabilitas",
+      "subtitle": "Kombinasi Citra Formal & Humanis",
+      "body": "Membangun figur pimpinan yang kuat sebagai administrator yang handal (Prestasi) sekaligus sahabat warga yang empatik (Kedekatan/Keluarga).",
       "layout": "feature",
-      "icon": "Globe",
-      "image": "/images/strakom_press.png"
+      "icon": "Crown",
+      "image": "/images/strakom_leadership.png"
+    },
+    {
+      "id": 41,
+      "title": "Pilar Popularitas Digital",
+      "subtitle": "Framework Branding Pimpinan",
+      "body": "<ul><li><b>Pilar Prestasi (Formal):</b> Menampilkan kepemimpinan yang berwibawa, cerdas, dan diakui secara nasional.</li><li><b>Pilar Humanis (Sosial):</b> Menampilkan sisi keluarga, hobi, dan interaksi 'blusukan' digital yang hangat dengan warga.</li><li><b>Pilar Solutif (Aksi):</b> Respon cepat terhadap keluhan warga di kolom komentar untuk menjaga Trust.</li></ul>",
+      "layout": "pillars",
+      "icon": "User"
     },
     {
       "id": 5,
-      "title": "Strategi Digital Troopers",
-      "subtitle": "Menjaga Ekosistem Informasi yang Sehat",
-      "body": "<ul><li><b>Myth-Busting:</b> Melawan persebaran hoaks dan disinformasi secara organik dengan sajian data valid.</li><li><b>Channel Seeding:</b> Memastikan informasi program unggulan pemerintah masuk ke dalam grup diskusi warga secara masif.</li><li><b>Humanist Interaction:</b> Berinteraksi secara personal dan empatik dengan netizen untuk meningkatkan kedekatan pimpinan dengan warga.</li></ul>",
-      "layout": "cards",
-      "icon": "ShieldCheck"
+      "title": "Digital War Room",
+      "subtitle": "Real-Time Sentiment & Narrative Control",
+      "body": "Mengoperasikan pusat kendali informasi yang memantau setiap detik pergerakan opini publik di semua platform digital, memastikan narasi positif tetap dominan.",
+      "layout": "feature",
+      "icon": "Monitor",
+      "image": "/images/strakom_war_room.png"
     },
     {
       "id": 6,
-      "title": "Analisis Sentimen Real-Time",
-      "subtitle": "Mengukur Suhu Opini Publik Seluruh Kanal",
-      "body": "<ul><li><b>Sentimen Positif:</b> Mengukur efektivitas sosialisasi program pembangunan daerah.</li><li><b>Sentimen Netral:</b> Menjaga arus informasi standar tetap stabil dan informatif bagi masyarakat.</li><li><b>Sentimen Negatif:</b> Radar peringatan awal untuk intervensi krisis sebelum isu membesar.</li></ul>",
-      "layout": "sentiment",
-      "icon": "BarChart3"
-    },
-    {
-      "id": 7,
-      "title": "Key Opinion Leaders (KOL)",
-      "subtitle": "Amplifikasi Melalui Tokoh Berpengaruh Lokal",
-      "body": "<ul><li><b>Engagement:</b> Kolaborasi dengan influencer, seniman, dan tokoh pemuda lokal yang militan.</li><li><b>Authenticity:</b> Menyampaikan pesan pembangunan dengan gaya bahasa anak muda yang kasual dan jujur.</li><li><b>Inclusivity:</b> Merangkul komunitas kreatif sebagai agen perpanjangan tangan narasi pemerintah.</li></ul>",
-      "layout": "cards",
+      "title": "Segmentasi Audiens Sukabumi",
+      "subtitle": "Strategi Komunikasi Tepat Sasaran",
+      "body": "Memetakan profil demografis dan digital warga untuk memastikan pesan pembangunan tersampaikan melalui kanal yang paling efektif bagi setiap kelompok masyarakat.",
+      "layout": "audience_grid",
       "icon": "Users"
     },
     {
+      "id": 7,
+      "title": "Kearifan Lokal",
+      "subtitle": "Komunikasi Berbasis Nilai Kasundaan",
+      "body": "Mengedepankan adab dan tata krama dalam setiap interaksi digital. Menggunakan istilah lokal yang akrab di telinga warga untuk membangun kedekatan emosional (Engaging with Heart). <b>Someah, Silih Asah, Silih Asih, Silih Asuh.</b>",
+      "layout": "hero",
+      "icon": "Heart"
+    },
+    {
       "id": 8,
+      "title": "Literasi Digital Warga",
+      "subtitle": "Program 'Sukabumi Tangkis Hoaks'",
+      "body": "Bukan sekadar mengklarifikasi, pemerintah secara aktif memfasilitasi edukasi warga agar cerdas dalam memilah informasi dan tidak mudah terjebak disinformasi.",
+      "layout": "feature",
+      "icon": "GraduationCap",
+      "image": "/images/strakom_literacy.png"
+    },
+    {
+      "id": 9,
       "title": "Monitoring & Evaluasi (KPI)",
       "subtitle": "Target Capaian Komunikasi Sukabumi 2029",
       "body": "<ul><li><b>Respons Isu:</b> Target 100% isu strategis tertangani dalam waktu kurang dari 60 menit.</li><li><b>Indeks Kepercayaan:</b> Peningkatan skor Public Trust terhadap pemerintah kota minimal 25% YoY.</li><li><b>Dominasi Sentimen:</b> Menjaga rata-rata sentimen positif publik tetap di angka minimal 80% di semua lini.</li></ul>",
@@ -550,7 +584,7 @@
       "icon": "Target"
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Sukabumi: Satu Narasi",
       "subtitle": "Membangun Kebanggaan Bersama Warga",
       "body": "Strategi Komunikasi Publik ini bukan hanya soal teknologi, tetapi tentang menyentuh hati setiap warga. Dengan satu narasi yang kuat, kita wujudkan Sukabumi yang lebih baik untuk semua.",

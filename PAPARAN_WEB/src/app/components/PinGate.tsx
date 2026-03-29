@@ -179,18 +179,24 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
       }}>
         {/* Seal / Logo */}
         <div style={{
-          width: "72px",
-          height: "72px",
-          borderRadius: "50%",
-          background: "linear-gradient(135deg, #8E1540, #701032)",
+          width: "100px",
+          height: "100px",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          margin: "0 auto 1.5rem",
-          boxShadow: "0 8px 32px rgba(142, 21, 64, 0.5)",
-          fontSize: "2rem",
+          margin: "0 auto 1.8rem",
+          filter: "drop-shadow(0 12px 24px rgba(0,0,0,0.5))",
         }}>
-          🔐
+          <img 
+            src="/Logo_Sukabumi.png" 
+            alt="Logo Kota Sukabumi" 
+            style={{ 
+              width: "100%", 
+              height: "100%", 
+              objectFit: "contain",
+              animation: "logoFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1)"
+            }} 
+          />
         </div>
 
         <p style={{
@@ -363,6 +369,10 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
           40% { transform: translateX(8px); }
           60% { transform: translateX(-5px); }
           80% { transform: translateX(5px); }
+        }
+        @keyframes logoFadeIn {
+          from { opacity: 0; transform: scale(0.8) translateY(10px); }
+          to { opacity: 1; transform: scale(1) translateY(0); }
         }
       `}</style>
     </div>

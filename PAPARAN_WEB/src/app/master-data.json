@@ -120,8 +120,8 @@
       "id": 2,
       "title": "Capaian PAD 2022–2024",
       "subtitle": "Konsisten di Atas Target — Tren Positif 3 Tahun Berturut-turut",
-      "body": "<ul><li><b>2022 — Rp71,2 Miliar (104,7%):</b> Melebihi target Rp68 M. Strategi intensifikasi pajak hotel & restoran mulai menunjukkan hasil nyata.</li><li><b>2023 — Rp81,2 Miliar (108,3%):</b> Lonjakan signifikan didorong digitalisasi QRIS & Virtual Account. Rekor PAD tertinggi kala itu.</li><li><b>2024 — Rp81 Miliar (108,1%):</b> Mempertahankan hasil & meraih <b>APBD Awards 2024</b> Kemendagri — Peningkatan PAD Tertinggi Nasional. Tapping box hotel/restoran mulai efektif.</li></ul>",
-      "layout": "kpi_grid",
+      "body": "<ul><li><b>2022</b> 71 Miliar (104,7%)</li><li><b>2023</b> 81 Miliar (108,3%)</li><li><b>2024</b> 81 Miliar (108,1%)</li></ul>",
+      "layout": "chart",
       "icon": "TrendingUp"
     },
     {
@@ -135,9 +135,9 @@
     {
       "id": 4,
       "title": "Inventaris Aset Daerah Strategis",
-      "subtitle": "Peta Aset Kota Sukabumi yang Siap Dimonetisasi",
-      "body": "<ul><li><b>🔴 Eks Terminal Sudirman:</b> Aset premium pusat kota — rencana revitalisasi menjadi Pusat Pariwisata & Sentra UMKM Terpadu. Potensi retribusi & sewa tinggi.</li><li><b>🔴 Pemandian Air Panas Cikundul:</b> Destinasi wisata alam milik daerah — optimalisasi tarif, fasilitas, dan promosi digital untuk mendongkrak PAD wisata.</li><li><b>🔴 Pasar Lembursitu:</b> Pasar modern representatif — aktifasi pedagang melalui subsidi awal sewa + rekayasa rute transportasi angkot/elf.</li><li><b>🟡 Kawasan Industri Cemerlang:</b> Lahan 50 ha di Kecamatan Warudoyong — rencana KSP/investasi industri non-polutan dengan manfaatkan aksesibilitas Tol Bocimi.</li><li><b>🟡 GOR Sukabumi & Lahan Hibah KPK:</b> Aset GOR untuk sport economy & event. Lahan hibah KPK dikelola produktif & transparan untuk pelayanan publik.</li></ul>",
-      "layout": "challenges",
+      "subtitle": "Peta Sebaran Aset Kota Sukabumi yang Siap Dimonetisasi",
+      "body": "<ul><li><b>Eks Terminal Sudirman</b> Aset premium pusat kota — rencana revitalisasi menjadi Pusat Pariwisata & Sentra UMKM.</li><li><b>Air Panas Cikundul</b> Destinasi wisata alam milik daerah — optimalisasi fasilitas & promosi digital.</li><li><b>Pasar Lembursitu</b> Pasar modern representatif — aktifasi pedagang & rekayasa rute transportasi.</li><li><b>Industri Cemerlang</b> Lahan 50 ha di Warudoyong — rencana investasi industri non-polutan.</li></ul>",
+      "layout": "map",
       "icon": "Database"
     },
     {
@@ -284,8 +284,8 @@
       "id": 5,
       "title": "Masterplan Distribusi Konten",
       "subtitle": "Formula 60-30-10 untuk Engagement Maksimal",
-      "body": "<ul><li><b>60% Edukasi & Capaian:</b> Pembangunan, program strategis, dan pencapaian visi-misi H. Ayep Zaki & H. Bobby Maulana yang menginspirasi dan informatif.</li><li><b>30% Informasi Layanan:</b> Prosedur administratif, peringatan dini bencana, pemadaman listrik, info cuaca, dan pengumuman resmi pemerintah.</li><li><b>10% Interaksi Humanis:</b> Konten ringan, kuis warga, sapa pagi pimpinan, dan apresiasi tokoh lokal Sukabumi yang mempererat kedekatan.</li></ul>",
-      "layout": "formula",
+      "body": "<ul><li><b>Edukasi</b> 60% Pembangunan & Program Strategis pimpinan (Visi-Misi IMAN).</li><li><b>Layanan</b> 30% Informasi Admin, Peringatan Dini, & Pengumuman Resmi.</li><li><b>Interaksi</b> 10% Konten Humanis, Kuis Warga, & Sapa Pagi Pimpinan.</li></ul>",
+      "layout": "chart",
       "icon": "BarChart3"
     },
     {

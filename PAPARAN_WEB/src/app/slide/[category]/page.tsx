@@ -47,6 +47,8 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
   const [animKey, setAnimKey] = useState(0);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [showSearch, setShowSearch] = useState(false);
 
   const slides = (masterData as any)[category] || [];
   const totalSlides = slides.length;
@@ -81,7 +83,12 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
         e.preventDefault(); navigate("next");
       } else if (e.key === "ArrowLeft" && currentSlide > 0) {
         e.preventDefault(); navigate("prev");
-      } else if (e.key === "Escape") setShowSidebar(false);
+      } else if ((e.key === "k" && (e.metaKey || e.ctrlKey)) || e.key === "/") {
+        e.preventDefault(); setShowSearch(true);
+      } else if (e.key === "Escape") {
+        setShowSidebar(false);
+        setShowSearch(false);
+      }
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -142,7 +149,127 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
     const isList = body.startsWith("<ul>");
     const items = isList ? parseListItems(body) : [];
 
-    // ── HERO ──────────────────────────────────────────────────────────
+    // ── CHART — interactive data visualization ───────────────────────
+    if (layout === "chart") {
+      const colors = [PRIMARY, GOLD, "#10B981", "#3B82F6", "#8B5CF6", "#F59E0B"];
+      const data = items.map((item, i) => {
+        const { label, rest } = parseBoldLabel(item);
+        const valMatch = rest.match(/(\d+)/);
+        const value = valMatch ? parseInt(valMatch[0]) : 0;
+        return { label: label || `Item ${i+1}`, value, color: colors[i % colors.length], suffix: rest.replace(valMatch ? valMatch[0] : "", "").trim() };
+      });
+      const maxValue = Math.max(...data.map(d => d.value), 10);
+
+      return (
+        <div>
+          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
+          <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "2rem", letterSpacing: "-0.01em" }}>{title}</h2>
+          
+          <div style={{ background: "rgba(255,255,255,0.02)", borderRadius: 24, padding: "2.5rem", border: "1px solid rgba(255,255,255,0.06)", boxShadow: "0 20px 50px rgba(0,0,0,0.3)" }}>
+            <div style={{ display: "flex", alignItems: "flex-end", gap: "2.5rem", height: "100%", minHeight: "260px", paddingBottom: "2rem" }}>
+              {data.map((d, i) => (
+                <div key={i} data-item={String(i)} style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", gap: "1rem" }}>
+                  <div style={{ position: "relative", width: "100%", height: "200px", display: "flex", alignItems: "flex-end" }}>
+                    <div 
+                      style={{ 
+                        width: "100%", 
+                        height: "0%", // Start at 0 for animation
+                        animation: `chartGrow 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) ${i * 0.15 + 0.5}s forwards`,
+                        background: `linear-gradient(180deg, ${d.color}, ${d.color}cc)`, 
+                        borderRadius: "10px 10px 4px 4px",
+                        position: "relative",
+                        boxShadow: `0 4px 20px ${d.color}33`,
+                        border: "1px solid rgba(255,255,255,0.1)"
+                      }}
+                      onMouseEnter={(e) => { e.currentTarget.style.filter = "brightness(1.2)"; e.currentTarget.style.transform = "scaleY(1.02)"; }}
+                      onMouseLeave={(e) => { e.currentTarget.style.filter = "none"; e.currentTarget.style.transform = "scaleY(1)"; }}
+                    >
+                      <div style={{ position: "absolute", top: -35, left: "50%", transform: "translateX(-50%)", fontSize: "1.1rem", fontWeight: 900, color: "white", whiteSpace: "nowrap", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
+                        {d.value}{d.suffix}
+                      </div>
+                    </div>
+                  </div>
+                  <div style={{ fontSize: "0.85rem", fontWeight: 700, color: TEXT_MUTED, textAlign: "center", textTransform: "uppercase", letterSpacing: "0.05em", maxWidth: "80px" }}>{d.label}</div>
+                </div>
+              ))}
+            </div>
+            {/* Legend / Info */}
+            <div style={{ marginTop: "1.5rem", paddingTop: "1.5rem", borderTop: "1px solid rgba(255,255,255,0.06)", fontSize: "0.85rem", color: TEXT_SUBTLE, textAlign: "center", fontStyle: "italic" }}>
+              {body.replace(/<ul>.*?<\/ul>/, "").trim() || "Data diolah per Maret 2026. Target fiskal 2029 diproyeksikan tumbuh 12% YoY."}
+            </div>
+          </div>
+          <style>{`
+            @keyframes chartGrow {
+              from { height: 0%; }
+              to { height: var(--h); }
+            }
+          `}</style>
+          {data.map((d, i) => (
+             <style key={i}>{`[data-item="${i}"] > div > div { --h: ${(d.value / maxValue) * 100}%; }`}</style>
+          ))}
+        </div>
+      );
+    }
+
+    // ── MAP — district geographic view ───────────────────────────────
+    if (layout === "map") {
+      const markers = items.map((item, i) => {
+        const { label, rest } = parseBoldLabel(item);
+        // Randomish positions for Sukabumi districts (simplified)
+        const coords = [
+          { x: 35, y: 35 }, { x: 55, y: 30 }, { x: 75, y: 40 },
+          { x: 25, y: 65 }, { x: 45, y: 70 }, { x: 65, y: 80 }, { x: 80, y: 60 }
+        ];
+        return { label, rest, ...coords[i % coords.length], color: i % 2 === 0 ? PRIMARY : GOLD };
+      });
+
+      return (
+        <div style={{ height: "100%" }}>
+          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
+          <h2 style={{ fontSize: "clamp(1.4rem,3vw,1.9rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1rem", letterSpacing: "-0.01em" }}>{title}</h2>
+          
+          <div style={{ display: "grid", gridTemplateColumns: "3fr 2fr", gap: "2rem", alignItems: "start" }}>
+            {/* Map Viz */}
+            <div style={{ background: "rgba(0,0,0,0.2)", borderRadius: 24, border: "1px solid rgba(255,255,255,0.06)", overflow: "hidden", position: "relative", height: "400px", boxShadow: "inset 0 0 40px rgba(0,0,0,0.4)" }}>
+              {/* Decorative grid */}
+              <div style={{ position:"absolute", inset:0, backgroundImage:"radial-gradient(rgba(255,255,255,0.03) 1px, transparent 1px)", backgroundSize:"20px 20px" }} />
+              
+              <svg viewBox="0 0 100 100" style={{ width: "100%", height: "100%", filter: "drop-shadow(0 0 20px rgba(196,30,91,0.1))" }}>
+                {/* Simplified Sukabumi Outline */}
+                <path d="M20,40 C15,20 40,10 60,15 C85,20 95,45 85,75 C75,95 40,95 25,85 C10,75 15,55 20,40 Z" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)" strokeWidth="0.5" />
+                
+                {markers.map((m, i) => (
+                  <g key={i} style={{ cursor: "pointer", transition: "all 0.3s ease" }}>
+                    <circle cx={m.x} cy={m.y} r="2.5" fill={m.color} style={{ animation: `pulse 2s ease ${i * 0.4}s infinite` }} />
+                    <circle cx={m.x} cy={m.y} r="6" fill="transparent" stroke={m.color} strokeWidth="0.3" opacity="0.3" />
+                  </g>
+                ))}
+              </svg>
+
+              {/* District Tooltip (Simulation) */}
+              <div style={{ position: "absolute", bottom: "1.5rem", right: "1.5rem", background: "rgba(15,23,42,0.9)", border: `1px solid ${GOLD}`, padding: "0.75rem 1rem", borderRadius: "12px", backdropFilter: "blur(12px)", animation: "float-up 3s ease-in-out infinite" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.25rem" }}>
+                  <div style={{ width: 8, height: 8, borderRadius: "50%", background: GOLD }} />
+                  <span style={{ fontSize: "0.7rem", fontWeight: 800, color: GOLD, letterSpacing: "0.05em" }}>LIVE INSIGHT</span>
+                </div>
+                <div style={{ fontSize: "0.85rem", color: "white", fontWeight: 600 }}>Cikundul Hot Springs</div>
+                <div style={{ fontSize: "0.7rem", color: TEXT_MUTED }}>Region: Lembursitu</div>
+              </div>
+            </div>
+
+            {/* List side */}
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+              {markers.map((m, i) => (
+                <div key={i} data-item={String(i)} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: 14, padding: "0.85rem 1rem", borderLeft: `4px solid ${m.color}` }}>
+                  <div style={{ fontWeight: 800, fontSize: "0.85rem", color: "white", marginBottom: "0.2rem" }}>{m.label}</div>
+                  <div style={{ fontSize: "0.75rem", color: TEXT_MUTED, lineHeight: 1.5 }}>{m.rest}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      );
+    }
     if (layout === "hero") {
       return (
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", padding: "2rem 0", gap: "1.5rem" }}>
@@ -597,20 +724,38 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
           <span>DAFTAR SLIDE</span>
           <button onClick={() => setShowSidebar(false)} className={styles.sidebarClose}><X size={20} /></button>
         </div>
+        <div style={{ padding: "0 1rem 1rem" }}>
+          <div style={{ position: "relative", marginBottom: "1rem" }}>
+            <Search size={14} style={{ position: "absolute", left: "0.75rem", top: "50%", transform: "translateY(-50%)", color: TEXT_MUTED }} />
+            <input 
+              type="text" 
+              placeholder="Cari slide..." 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              style={{ width: "100%", padding: "0.6rem 0.6rem 0.6rem 2.2rem", borderRadius: "10px", border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.05)", color: "white", fontSize: "0.85rem", outline: "none" }}
+            />
+          </div>
+        </div>
+
         <div className={styles.sidebarList}>
-          {slides.map((s: any, i: number) => (
-            <button key={s.id} onClick={() => jumpToSlide(i)} className={`${styles.sidebarItem} ${currentSlide === i ? styles.sidebarItemActive : ""}`}>
-              <span className={styles.sidebarNum}>{String(i + 1).padStart(2, "0")}</span>
-              <span className={styles.sidebarTitle}>{s.title}</span>
-            </button>
-          ))}
+          {slides.map((s: any, i: number) => {
+            const isMatch = !searchQuery || s.title.toLowerCase().includes(searchQuery.toLowerCase()) || s.subtitle.toLowerCase().includes(searchQuery.toLowerCase());
+            if (!isMatch) return null;
+            return (
+              <button key={s.id} onClick={() => jumpToSlide(i)} className={`${styles.sidebarItem} ${currentSlide === i ? styles.sidebarItemActive : ""}`}>
+                <span className={styles.sidebarNum}>{String(i + 1).padStart(2, "0")}</span>
+                <span className={styles.sidebarTitle}>{s.title}</span>
+              </button>
+            );
+          })}
         </div>
       </aside>
 
       {/* Header */}
       <header className={styles.formalHeader}>
         <div className={styles.headerLeft}>
-          <button onClick={() => setShowSidebar(true)} className={styles.menuBtn} title="Daftar Slide"><Menu size={20} /></button>
+          <button onClick={() => setShowSidebar(true)} className={styles.menuBtn} title="Daftar Slide (Menu)"><Menu size={20} /></button>
+          <button onClick={() => setShowSearch(true)} className={styles.menuBtn} style={{ marginLeft: "-0.5rem" }} title="Pencarian Cepat (Cmd+K)"><Search size={18} /></button>
           <div className={styles.logoPlaceholder}>
             <Link href="/" style={{ display: "flex", alignItems: "center", gap: "0.4rem", color: PRIMARY, fontWeight: 700, fontSize: "0.9rem" }}>
               <ArrowLeft size={16} />Beranda
@@ -691,7 +836,82 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
         <span>Slide {currentSlide + 1} dari {totalSlides}</span>
       </footer>
 
+      {/* Search Overlay (Command Menu) */}
+      {showSearch && (
+        <div 
+          onClick={() => setShowSearch(false)}
+          style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.85)", backdropFilter: "blur(12px)", zIndex: 10000, display: "flex", alignItems: "start", justifyContent: "center", padding: "10vh 1rem" }}
+        >
+          <div 
+            onClick={(e) => e.stopPropagation()}
+            style={{ width: "100%", maxWidth: "600px", background: "#0F172A", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "20px", boxShadow: "0 50px 100px rgba(0,0,0,0.8)", overflow: "hidden", animation: "modalIn 0.3s cubic-bezier(0.16, 1, 0.3, 1)" }}
+          >
+            <div style={{ display: "flex", alignItems: "center", padding: "1.25rem", borderBottom: "1px solid rgba(255,255,255,0.06)", gap: "0.75rem" }}>
+              <Search size={22} color={GOLD} />
+              <input 
+                autoFocus
+                type="text" 
+                placeholder="Type to search slides..." 
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                style={{ flex: 1, background: "none", border: "none", color: "white", fontSize: "1.1rem", outline: "none" }}
+              />
+              <div style={{ background: "rgba(255,255,255,0.08)", padding: "4px 8px", borderRadius: "6px", fontSize: "0.75rem", color: TEXT_MUTED }}>ESC</div>
+            </div>
+            
+            <div style={{ maxHeight: "60vh", overflowY: "auto", padding: "0.5rem" }}>
+              {slides.map((s: any, i: number) => {
+                const isMatch = !searchQuery || s.title.toLowerCase().includes(searchQuery.toLowerCase()) || s.subtitle.toLowerCase().includes(searchQuery.toLowerCase());
+                if (!isMatch) return null;
+                return (
+                  <div 
+                    key={s.id}
+                    onClick={() => { jumpToSlide(i); setShowSearch(false); }}
+                    style={{ 
+                      padding: "1rem 1.25rem", 
+                      borderRadius: "12px", 
+                      cursor: "pointer", 
+                      background: currentSlide === i ? "rgba(196,30,91,0.15)" : "transparent",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "1rem",
+                      transition: "background 0.2s ease"
+                    }}
+                    onMouseEnter={(e) => e.currentTarget.style.background = "rgba(255,255,255,0.05)"}
+                    onMouseLeave={(e) => e.currentTarget.style.background = currentSlide === i ? "rgba(196,30,91,0.15)" : "transparent"}
+                  >
+                    <div style={{ width: "24px", height: "24px", borderRadius: "6px", background: "rgba(255,255,255,0.08)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.75rem", color: GOLD, fontWeight: 700 }}>
+                      {i + 1}
+                    </div>
+                    <div style={{ flex: 1 }}>
+                      <div style={{ color: "white", fontWeight: 600, fontSize: "0.95rem" }}>{s.title}</div>
+                      <div style={{ color: TEXT_MUTED, fontSize: "0.75rem" }}>{s.subtitle}</div>
+                    </div>
+                    <ChevronRight size={16} color={TEXT_SUBTLE} />
+                  </div>
+                );
+              })}
+              {slides.filter(s => s.title.toLowerCase().includes(searchQuery.toLowerCase())).length === 0 && (
+                <div style={{ padding: "3rem", textAlign: "center", color: TEXT_MUTED }}>
+                  No results found for "{searchQuery}"
+                </div>
+              )}
+            </div>
+            
+            <div style={{ padding: "1rem", background: "rgba(0,0,0,0.2)", borderTop: "1px solid rgba(255,255,255,0.04)", fontSize: "0.75rem", color: TEXT_SUBTLE, display: "flex", gap: "1.5rem" }}>
+              <span><span style={{ color: TEXT_MUTED }}>↑↓</span> Navigate</span>
+              <span><span style={{ color: TEXT_MUTED }}>Enter</span> Select</span>
+              <span><span style={{ color: TEXT_MUTED }}>ESC</span> Close</span>
+            </div>
+          </div>
+        </div>
+      )}
+
       <style>{`
+        @keyframes modalIn {
+          from { opacity: 0; transform: scale(0.95) translateY(20px); }
+          to { opacity: 1; transform: scale(1) translateY(0); }
+        }
         @keyframes slideInRight {
           from { opacity: 0; transform: translateX(60px) scale(0.97); }
           to   { opacity: 1; transform: translateX(0) scale(1); }
@@ -748,3 +968,4 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
     </main>
   );
 }
+

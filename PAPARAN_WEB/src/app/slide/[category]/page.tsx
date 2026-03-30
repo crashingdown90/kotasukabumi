@@ -2,44 +2,77 @@
 
 import { useState, useEffect, use } from "react";
 import Link from "next/link";
-import {
-  Globe, FileText, ShieldAlert, Users, BarChart3, Share2, Star, Bell, Zap,
-  GraduationCap, Cpu, ArrowLeft, ArrowRight, Maximize, Minimize, Menu, X,
-  Crown, Lightbulb, Building2, CheckCircle2, Database, ShieldCheck,
-  Smartphone, Monitor, Book, Heart, Mic, Coffee, Play, MessageSquare,
-  Search, ChevronRight, Camera, Clock, Calendar as CalendarIcon, Quote,
-  TrendingUp, Target, Filter, Layers, Radio, AlertTriangle, Award,
-  ChevronDown, ChevronUp, Eye, ThumbsUp, ThumbsDown, Minus, Info
-} from "lucide-react";
+import { FileText, Search, X, ChevronRight, BarChart3, TrendingUp, Zap, Database, Building2, Heart, Target, AlertTriangle, Menu, Layers } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import styles from "./slide.module.css";
 import masterData from "../../master-data.json";
 
+// Components & UI
+import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED } from "./components/Constants";
+import { ProgressBar, FloatingNav } from "./components/SlideUI";
+import VideoBackground from "./components/VideoBackground";
+
+// Layouts
+import LayoutChart from "./layouts/LayoutChart";
+import LayoutMap from "./layouts/LayoutMap";
+import LayoutFlowchart from "./layouts/LayoutFlowchart";
+import LayoutPillars from "./layouts/LayoutPillars";
+import LayoutAudienceGrid from "./layouts/LayoutAudienceGrid";
+import { LayoutHero, LayoutClosing, LayoutCards, LayoutResources } from "./layouts/LayoutBasic";
+import LayoutFeature from "./layouts/LayoutFeature";
+import LayoutOrgChart from "./layouts/LayoutOrgChart";
+import { LayoutTimeline, LayoutKPIGrid, LayoutSentiment } from "./layouts/LayoutAdvanced";
+import { LayoutService, LayoutBigData, LayoutChallenges, LayoutBudget } from "./layouts/LayoutTechnical";
+import LayoutBenchmarking from "./layouts/LayoutBenchmarking";
+import LayoutSection from "./layouts/LayoutSection";
+import LayoutOneGate from "./layouts/LayoutOneGate";
+import LayoutHierarchy from "./layouts/LayoutHierarchy";
+import LayoutTeam from "./layouts/LayoutTeam";
+import LayoutSNA from "./layouts/LayoutSNA";
+import LayoutTrendChart from "./layouts/LayoutTrendChart";
+import LayoutMatrix from "./layouts/LayoutMatrix";
+import LayoutImmersive from "./layouts/LayoutImmersive";
+import LayoutSplit from "./layouts/LayoutSplit";
+import LayoutReputationShield from "./layouts/LayoutReputationShield";
+import LayoutInstitutionalMandate from "./layouts/LayoutInstitutionalMandate";
+import LayoutAccountabilityDashboard from "./layouts/LayoutAccountabilityDashboard";
+import LayoutSentimentPremium from "./layouts/LayoutSentimentPremium";
+import LayoutNewsRadar from "./layouts/LayoutNewsRadar";
+import LayoutGoldenTime from "./layouts/LayoutGoldenTime";
+import LayoutCommandMatrix from "./layouts/LayoutCommandMatrix";
+import LayoutActionPlan from "./layouts/LayoutActionPlan";
+import LayoutCrisisMatrix from "./layouts/LayoutCrisisMatrix";
+import LayoutStakeholderNetwork from "./layouts/LayoutStakeholderNetwork";
+import LayoutSocialMedia from "./layouts/LayoutSocialMedia";
+import LayoutKOL from "./layouts/LayoutKOL";
+import LayoutCyberWatch from "./layouts/LayoutCyberWatch";
+import LayoutRapidResponse from "./layouts/LayoutRapidResponse";
+import LayoutCrisisSOP from "./layouts/LayoutCrisisSOP";
+import LayoutSocialHub from "./layouts/LayoutSocialHub";
+import LayoutCommFlow from "./layouts/LayoutCommFlow";
+import LayoutCrisisMitigation from "./layouts/LayoutCrisisMitigation";
+import LayoutMediaTraining from "./layouts/LayoutMediaTraining";
+import LayoutInvestment from "./layouts/LayoutInvestment";
+import LayoutKPIMatrix from "./layouts/LayoutKPIMatrix";
+
 interface Slide {
   id: number;
+  section?: string;
   title: string;
   subtitle: string;
   body: string;
   layout: string;
   icon?: string;
   image?: string;
+  features?: {title: string, desc: string}[];
+  metrics?: {label: string, value: string, unit?: string, trend?: string}[];
+  highlights?: string[];
 }
 
-const iconMap: Record<string, any> = {
-  Globe, FileText, ShieldAlert, Users, BarChart3, Share2, Star, Bell, Zap,
-  GraduationCap, Cpu, MessageSquare, Search, Crown, Lightbulb, Building2,
-  ShieldCheck, Database, Smartphone, Monitor, Book, Heart, Mic, Coffee, Play,
-  CheckCircle2, ChevronRight, Camera, Clock, Quote, TrendingUp, Target,
-  Filter, Layers, Radio, AlertTriangle, Award, Eye, ThumbsUp, ThumbsDown, Info
-};
 
-const PRIMARY = "#C41E5B";
-const GOLD = "#D4AF37";
-const PRIMARY_LIGHT = "rgba(196,30,91,0.18)";
-const DARK_CARD = "rgba(255,255,255,0.04)";
-const DARK_BORDER = "rgba(255,255,255,0.08)";
-const TEXT_MAIN = "rgba(255,255,255,0.92)";
-const TEXT_MUTED = "rgba(255,255,255,0.5)";
-const TEXT_SUBTLE = "rgba(255,255,255,0.3)";
+const iconMap: Record<string, any> = {
+  FileText, Search
+};
 
 export default function SlidePage({ params }: { params: Promise<{ category: string }> }) {
   const { category } = use(params);
@@ -50,9 +83,14 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
   const [animKey, setAnimKey] = useState(0);
   const [searchQuery, setSearchQuery] = useState("");
   const [showSearch, setShowSearch] = useState(false);
+  const [activeStep, setActiveStep] = useState(0);
 
   const slides: Slide[] = (masterData as any)[category] || [];
   const totalSlides = slides.length;
+
+  useEffect(() => {
+    setActiveStep(0);
+  }, [currentSlide]);
 
   function navigate(dir: "next" | "prev") {
     setDirection(dir);
@@ -66,6 +104,7 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
     setAnimKey((k) => k + 1);
     setCurrentSlide(index);
     setShowSidebar(false);
+    setShowSearch(false);
   }
 
   function toggleFullscreen() {
@@ -104,7 +143,8 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
   if (slides.length === 0) {
     return (
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "100vh", gap: "1rem" }}>
-        <h1>Kategori tidak ditemukan</h1>
+        <VideoBackground />
+        <h1 style={{ color: "white" }}>Kategori tidak ditemukan</h1>
         <Link href="/" style={{ color: PRIMARY, fontWeight: 600 }}>← Kembali</Link>
       </div>
     );
@@ -112,1075 +152,223 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
 
   const slide = slides[currentSlide];
   const progress = ((currentSlide + 1) / totalSlides) * 100;
-  const IconComp = iconMap[slide.icon || "FileText"] || FileText;
 
-  // ── Parse list items from <ul>…</ul> HTML ──
-  function parseListItems(html: string): string[] {
-    return html
-      .replace(/^<ul>|<\/ul>$/g, "")
-      .split("</li>")
-      .map((s) => s.replace(/^<li>/, "").trim())
-      .filter(Boolean);
-  }
-
-  function parseBoldLabel(text: string): { label: string; rest: string } {
-    const m = text.match(/^<b>(.*?)<\/b>([\s\S]*)/);
-    if (m) return { label: m[1].replace(/<.*?>/g, ""), rest: m[2].trim().replace(/^:\s*/, "") };
-    const m2 = text.match(/^\*\*(.*?)\*\*([\s\S]*)/);
-    if (m2) return { label: m2[1], rest: m2[2].trim().replace(/^:\s*/, "") };
-    return { label: "", rest: text };
-  }
-
-  function InlineText({ text }: { text: string }) {
-    const parts = text.split(/(\*\*.*?\*\*|\*.*?\*)/g);
-    return (
-      <span>
-        {parts.map((p, i) => {
-          if (p.startsWith("**") && p.endsWith("**")) return <strong key={i}>{p.slice(2, -2)}</strong>;
-          if (p.startsWith("*") && p.endsWith("*")) return <em key={i}>{p.slice(1, -1)}</em>;
-          return p;
-        })}
-      </span>
-    );
-  }
-
-  // ── VISUAL RENDERERS per layout ──────────────────────────────────
   function renderSlideBody(slide: Slide) {
-    const { layout, body, title, subtitle } = slide;
-    const isList = body.startsWith("<ul>");
-    const items = isList ? parseListItems(body) : [];
+    const { layout } = slide;
+    const logo = (category === "media_center" || category === "strakom") 
+      ? "/smc_official_logo.png" 
+      : "/Logo_Sukabumi.png";
+    const props = { ...slide, logo, IconComp: FileText }; // Simplified for now
 
-    // ── CHART — interactive data visualization ───────────────────────
-    if (layout === "chart") {
-      const colors = [PRIMARY, GOLD, "#10B981", "#3B82F6", "#8B5CF6", "#F59E0B"];
-      const data = items.map((item, i) => {
-        const { label, rest } = parseBoldLabel(item);
-        const valMatch = rest.match(/(\d+)/);
-        const value = valMatch ? parseInt(valMatch[0]) : 0;
-        
-        let suffix = "";
-        let description = "";
-        
-        if (valMatch) {
-          const afterValue = rest.slice(rest.indexOf(valMatch[0]) + valMatch[0].length).trim();
-          // Detect if suffix is just % or short word like "Miliar"
-          if (afterValue.startsWith("%")) {
-            suffix = "%";
-            description = afterValue.slice(1).trim();
-          } else {
-            const words = afterValue.split(/\s+/);
-            if (words[0] && words[0].length < 10 && words.length > 1) {
-              suffix = words[0];
-              description = words.slice(1).join(" ");
-            } else if (words.length === 1 && words[0].length < 10) {
-              suffix = words[0];
-            } else {
-              description = afterValue;
-            }
-          }
-        } else {
-          description = rest;
-        }
-
-        return { 
-          label: label || `Item ${i+1}`, 
-          value, 
-          color: colors[i % colors.length], 
-          suffix,
-          description
-        };
-      });
-      const maxValue = Math.max(...data.map(d => d.value), 10);
-
-      return (
-        <div>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "2rem", letterSpacing: "-0.01em" }}>{title}</h2>
-          
-          <div style={{ background: "rgba(255,255,255,0.02)", borderRadius: 24, padding: "2.5rem", border: "1px solid rgba(255,255,255,0.06)", boxShadow: "0 20px 50px rgba(0,0,0,0.3)" }}>
-            <div style={{ display: "flex", alignItems: "flex-end", gap: "2.5rem", height: "100%", minHeight: "260px", paddingBottom: "2rem" }}>
-              {data.map((d, i) => (
-                <div key={i} data-item={String(i)} style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", gap: "0.75rem" }}>
-                  <div style={{ position: "relative", width: "100%", height: "200px", display: "flex", alignItems: "flex-end" }}>
-                    <div 
-                      style={{ 
-                        width: "100%", 
-                        height: "0%", 
-                        animation: `chartGrow 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) ${i * 0.15 + 0.5}s forwards`,
-                        background: `linear-gradient(180deg, ${d.color}, ${d.color}cc)`, 
-                        borderRadius: "12px 12px 4px 4px",
-                        position: "relative",
-                        boxShadow: `0 4px 24px ${d.color}33`,
-                        border: "1px solid rgba(255,255,255,0.15)"
-                      }}
-                      onMouseEnter={(e) => { e.currentTarget.style.filter = "brightness(1.2)"; e.currentTarget.style.transform = "scaleY(1.02)"; }}
-                      onMouseLeave={(e) => { e.currentTarget.style.filter = "none"; e.currentTarget.style.transform = "scaleY(1)"; }}
-                    >
-                      <div style={{ position: "absolute", top: -35, left: "50%", transform: "translateX(-50%)", fontSize: "1.2rem", fontWeight: 950, color: "white", whiteSpace: "nowrap", textShadow: "0 4px 12px rgba(0,0,0,0.6)" }}>
-                        {d.value}{d.suffix}
-                      </div>
-                    </div>
-                  </div>
-                  <div style={{ fontSize: "0.85rem", fontWeight: 800, color: "white", textAlign: "center", textTransform: "uppercase", letterSpacing: "0.08em", marginTop: "0.5rem" }}>{d.label}</div>
-                  {d.description && <div style={{ fontSize: "0.75rem", color: TEXT_MUTED, textAlign: "center", lineHeight: 1.5, maxWidth: "180px" }}>{d.description}</div>}
-                </div>
-              ))}
-            </div>
-            {/* Legend / Info */}
-            <div style={{ marginTop: "1.5rem", paddingTop: "1.5rem", borderTop: "1px solid rgba(255,255,255,0.1)", fontSize: "0.85rem", color: TEXT_SUBTLE, textAlign: "center", fontStyle: "italic" }}>
-              {body.replace(/<ul>.*?<\/ul>/, "").trim() || "Data diolah per Maret 2026. Target fiskal 2029 diproyeksikan tumbuh 12% YoY."}
-            </div>
-          </div>
-          <style>{`
-            @keyframes chartGrow {
-              from { height: 0%; }
-              to { height: var(--h); }
-            }
-          `}</style>
-          {data.map((d, i) => (
-             <style key={i}>{`[data-item="${i}"] > div > div { --h: ${(d.value / maxValue) * 100}%; }`}</style>
-          ))}
-        </div>
-      );
+    switch (layout) {
+      case "hero": return <LayoutHero {...props} />;
+      case "closing": return <LayoutClosing {...props} />;
+      case "chart": return <LayoutChart {...props} />;
+      case "benchmarking": return <LayoutBenchmarking {...props} />;
+      case "map": return <LayoutMap {...props} />;
+      case "flowchart": return <LayoutFlowchart {...props} activeStep={activeStep} setActiveStep={setActiveStep} IconComp={FileText} />;
+      case "pillars": return <LayoutPillars {...props} />;
+      case "audience_grid": return <LayoutAudienceGrid {...props} />;
+      case "feature": return <LayoutFeature {...props} />;
+      case "orgchart": return <LayoutOrgChart {...props} />;
+      case "timeline": return <LayoutTimeline {...props} />;
+      case "kpi_grid": return <LayoutKPIGrid {...props} />;
+      case "sentiment": return <LayoutSentiment {...props} />;
+      case "service": return <LayoutService {...props} />;
+      case "bigdata": return <LayoutBigData {...props} />;
+      case "challenges": return <LayoutChallenges {...props} />;
+      case "budget": return <LayoutBudget {...props} />;
+      case "resources": return <LayoutResources {...props} />;
+      case "section": return <LayoutSection {...props} />;
+      case "one_gate": return <LayoutOneGate {...props} />;
+      case "hierarchy": return <LayoutHierarchy {...props} />;
+      case "team": return <LayoutTeam {...props} />;
+      case "sna": return <LayoutSNA {...props} />;
+      case "trend_chart": return <LayoutTrendChart {...props} />;
+      case "matrix": return <LayoutMatrix {...props} />;
+      case "immersive": return <LayoutImmersive {...props} />;
+      case "split": return <LayoutSplit {...props} />;
+      case "reputation_shield": return <LayoutReputationShield {...props} />;
+      case "institutional_mandate": return <LayoutInstitutionalMandate {...props} />;
+      case "accountability_dashboard": return <LayoutAccountabilityDashboard {...props} />;
+      case "sentiment_premium": return <LayoutSentimentPremium {...props} />;
+      case "news_radar": return <LayoutNewsRadar {...props} />;
+      case "golden_time": return <LayoutGoldenTime {...props} />;
+      case "command_matrix": return <LayoutCommandMatrix {...props} />;
+      case "action_plan": return <LayoutActionPlan {...props} />;
+      case "crisis_matrix": return <LayoutCrisisMatrix {...props} />;
+      case "stakeholder_network": return <LayoutStakeholderNetwork {...props} />;
+      case "social_media": return <LayoutSocialMedia {...props} />;
+      case "kol": return <LayoutKOL {...props} />;
+      case "cyber_watch": return <LayoutCyberWatch {...props} />;
+      case "rapid_response": return <LayoutRapidResponse {...props} />;
+      case "crisis_sop": return <LayoutCrisisSOP {...props} />;
+      case "social_hub": return <LayoutSocialHub {...props} />;
+      case "comm_flow": return <LayoutCommFlow {...props} />;
+      case "crisis_mitigation": return <LayoutCrisisMitigation {...props} />;
+      case "media_training": return <LayoutMediaTraining {...props} />;
+      case "investment": return <LayoutInvestment {...props} />;
+      case "kpi_matrix": return <LayoutKPIMatrix {...props} />;
+      case "cards":
+      case "spokesperson":
+        return <LayoutCards {...props} />;
+      default:
+        return <LayoutFeature {...props} />;
     }
-
-    // ── MAP — district geographic view ───────────────────────────────
-    if (layout === "map") {
-      const markers = items.map((item, i) => {
-        const { label, rest } = parseBoldLabel(item);
-        // Randomish positions for Sukabumi districts (simplified)
-        const coords = [
-          { x: 35, y: 35 }, { x: 55, y: 30 }, { x: 75, y: 40 },
-          { x: 25, y: 65 }, { x: 45, y: 70 }, { x: 65, y: 80 }, { x: 80, y: 60 }
-        ];
-        return { label, rest, ...coords[i % coords.length], color: i % 2 === 0 ? PRIMARY : GOLD };
-      });
-
-      return (
-        <div style={{ height: "100%" }}>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,1.9rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1rem", letterSpacing: "-0.01em" }}>{title}</h2>
-          
-          <div style={{ display: "grid", gridTemplateColumns: "3fr 2fr", gap: "2rem", alignItems: "start" }}>
-            {/* Map Viz */}
-            <div style={{ background: "rgba(0,0,0,0.2)", borderRadius: 24, border: "1px solid rgba(255,255,255,0.06)", overflow: "hidden", position: "relative", height: "400px", boxShadow: "inset 0 0 40px rgba(0,0,0,0.4)" }}>
-              {/* Decorative grid */}
-              <div style={{ position:"absolute", inset:0, backgroundImage:"radial-gradient(rgba(255,255,255,0.03) 1px, transparent 1px)", backgroundSize:"20px 20px" }} />
-              
-              <svg viewBox="0 0 100 100" style={{ width: "100%", height: "100%", filter: "drop-shadow(0 0 20px rgba(196,30,91,0.1))" }}>
-                {/* Simplified Sukabumi Outline */}
-                <path d="M20,40 C15,20 40,10 60,15 C85,20 95,45 85,75 C75,95 40,95 25,85 C10,75 15,55 20,40 Z" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)" strokeWidth="0.5" />
-                
-                {markers.map((m, i) => (
-                  <g key={i} style={{ cursor: "pointer", transition: "all 0.3s ease" }}>
-                    <circle cx={m.x} cy={m.y} r="2.5" fill={m.color} style={{ animation: `pulse 2s ease ${i * 0.4}s infinite` }} />
-                    <circle cx={m.x} cy={m.y} r="6" fill="transparent" stroke={m.color} strokeWidth="0.3" opacity="0.3" />
-                  </g>
-                ))}
-              </svg>
-
-              {/* District Tooltip (Simulation) */}
-              <div style={{ position: "absolute", bottom: "1.5rem", right: "1.5rem", background: "rgba(15,23,42,0.9)", border: `1px solid ${GOLD}`, padding: "0.75rem 1rem", borderRadius: "12px", backdropFilter: "blur(12px)", animation: "float-up 3s ease-in-out infinite" }}>
-                <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.25rem" }}>
-                  <div style={{ width: 8, height: 8, borderRadius: "50%", background: GOLD }} />
-                  <span style={{ fontSize: "0.7rem", fontWeight: 800, color: GOLD, letterSpacing: "0.05em" }}>LIVE INSIGHT</span>
-                </div>
-                <div style={{ fontSize: "0.85rem", color: "white", fontWeight: 600 }}>Cikundul Hot Springs</div>
-                <div style={{ fontSize: "0.7rem", color: TEXT_MUTED }}>Region: Lembursitu</div>
-              </div>
-            </div>
-
-            {/* List side */}
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-              {markers.map((m, i) => (
-                <div key={i} data-item={String(i)} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: 14, padding: "0.85rem 1rem", borderLeft: `4px solid ${m.color}` }}>
-                  <div style={{ fontWeight: 800, fontSize: "0.85rem", color: "white", marginBottom: "0.2rem" }}>{m.label}</div>
-                  <div style={{ fontSize: "0.75rem", color: TEXT_MUTED, lineHeight: 1.5 }}>{m.rest}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      );
-    }
-    // ── FEATURE — image + text layout ──────────────────────────────
-    if (layout === "feature") {
-      return (
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem", alignItems: "center" }}>
-          <div style={{ position: "relative" }}>
-            <div style={{ position:"absolute", inset:-15, borderRadius:32, background:`radial-gradient(circle, ${PRIMARY}22 0%, transparent 70%)`, animation: "orb-pulse 4s ease-in-out infinite" }} />
-            <div style={{ position: "relative", borderRadius: 24, overflow: "hidden", border: "1px solid rgba(255,255,255,0.1)", boxShadow: "0 25px 60px rgba(0,0,0,0.4)" }}>
-              {slide.image ? (
-                <img src={slide.image} alt={title} style={{ width: "100%", height: "auto", display: "block", filter: "brightness(1.1) contrast(1.1)" }} />
-              ) : (
-                <div style={{ width: "100%", height: "300px", background: "rgba(255,255,255,0.03)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                  <IconComp size={64} color="rgba(255,255,255,0.1)" />
-                </div>
-              )}
-              {/* Scanline effect on image */}
-              <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "2px", background: "rgba(255,255,255,0.1)", animation: "scan-line 4s linear infinite" }} />
-            </div>
-          </div>
-          <div>
-            <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-            <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.6rem)", fontWeight: 900, color: TEXT_MAIN, lineHeight: 1.1, marginBottom: "1.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
-            <div style={{ fontSize: "1.05rem", color: TEXT_MUTED, lineHeight: 1.8 }}>
-              <InlineText text={body} />
-            </div>
-            {isList && (
-              <div style={{ marginTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
-                {items.map((item, i) => {
-                  const { label, rest } = parseBoldLabel(item);
-                  return (
-                    <div key={i} style={{ display: "flex", gap: "0.85rem", alignItems: "flex-start" }}>
-                      <div style={{ marginTop: "0.4rem", width: 18, height: 18, borderRadius: "50%", background: PRIMARY_LIGHT, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-                        <div style={{ width: 6, height: 6, borderRadius: "50%", background: PRIMARY }} />
-                      </div>
-                      <p style={{ margin: 0, fontSize: "0.95rem", color: TEXT_MAIN }}>
-                        {label && <strong style={{ color: GOLD }}>{label}: </strong>}
-                        <InlineText text={rest} />
-                      </p>
-                    </div>
-                  );
-                })}
-              </div>
-            )}
-          </div>
-        </div>
-      );
-    }
-
-    if (layout === "hero") {
-      return (
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", padding: "2rem 0", gap: "1.5rem" }}>
-          <div style={{ position:"relative" }}>
-            {/* Glow ring behind icon */}
-            <div style={{ position:"absolute", inset:-12, borderRadius:"50%", background:"radial-gradient(circle,rgba(196,30,91,0.3) 0%,transparent 70%)", animation:"orb-pulse 3s ease-in-out infinite" }} />
-            <div style={{ width:96, height:96, borderRadius:"50%", background:`linear-gradient(135deg, ${PRIMARY}, #8E1540)`, display:"flex", alignItems:"center", justifyContent:"center", animation:"icon-glow 3s ease-in-out infinite", position:"relative" }}>
-              <IconComp size={44} color="white" />
-            </div>
-          </div>
-          <div>
-            <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.2em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>
-              {subtitle}
-            </p>
-            <h1 style={{ fontSize: "clamp(1.8rem, 4vw, 3rem)", fontWeight: 900, color: TEXT_MAIN, lineHeight: 1.15, marginBottom: "1.25rem", letterSpacing: "-0.02em", fontFamily: "'Plus Jakarta Sans',sans-serif" }}>
-              {title}
-            </h1>
-            <p style={{ fontSize: "1.05rem", color: TEXT_MUTED, maxWidth: 640, margin: "0 auto", lineHeight: 1.7 }}>
-              {body}
-            </p>
-          </div>
-          <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
-            <div style={{ height: 3, width: 40, borderRadius: 2, background: PRIMARY }} />
-            <div style={{ height: 3, width: 16, borderRadius: 2, background: GOLD }} />
-            <div style={{ height: 3, width: 8, borderRadius: 2, background: "rgba(255,255,255,0.1)" }} />
-          </div>
-        </div>
-      );
-    }
-
-    // ── AUDIENCE_GRID — target segmentation ───────────────────────────
-    if (layout === "audience_grid") {
-      const audienceIcons = [Users, Smartphone, Building2, Globe, Heart, Mic];
-      return (
-        <div>
-          <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "2.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              const AIcon = audienceIcons[i % audienceIcons.length];
-              return (
-                <div key={i} data-item={String(i)} style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 24, padding: "1.75rem", position: "relative", overflow: "hidden", transition: "all 0.3s ease" }}>
-                  <div style={{ position: "absolute", top: -10, right: -10, width: "80px", height: "80px", background: `${PRIMARY}10`, borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <AIcon size={40} color={`${PRIMARY}30`} />
-                  </div>
-                  <div style={{ position: "relative", zIndex: 1 }}>
-                    <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "1rem" }}>
-                      <div style={{ width: 44, height: 44, borderRadius: 12, background: `linear-gradient(135deg, ${PRIMARY}, #8E1540)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
-                        <AIcon size={22} color="white" />
-                      </div>
-                      <h3 style={{ fontSize: "1.1rem", fontWeight: 800, color: "white", margin: 0 }}>{label}</h3>
-                    </div>
-                    <p style={{ fontSize: "0.9rem", color: TEXT_MUTED, lineHeight: 1.6, marginBottom: "1.25rem" }}><InlineText text={rest} /></p>
-                    <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
-                      <span style={{ fontSize: "0.65rem", fontWeight: 800, padding: "0.25rem 0.65rem", borderRadius: 99, background: `${GOLD}20`, color: GOLD, border: `1px solid ${GOLD}40`, textTransform: "uppercase" }}>Strategic Priority</span>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // ── PILLARS — content strategy pillars ────────────────────────────
-    if (layout === "pillars") {
-      const pillarIcons = [Zap, Info, MessageSquare, Lightbulb, Target, Star];
-      return (
-        <div>
-          <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "3rem", textAlign: "center", letterSpacing: "-0.02em" }}>{title}</h2>
-          <div style={{ display: "flex", justifyContent: "center", gap: "1.5rem", flexWrap: "wrap" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              const PIcon = pillarIcons[i % pillarIcons.length];
-              return (
-                <div key={i} data-item={String(i)} style={{ flex: "1 1 240px", maxWidth: "280px", background: "linear-gradient(180deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 32, padding: "2.5rem 1.5rem", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5rem" }}>
-                  <div style={{ width: 80, height: 80, borderRadius: "50%", background: `linear-gradient(135deg, ${PRIMARY}, #C41E5B)`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: `0 15px 35px ${PRIMARY}44` }}>
-                    <PIcon size={36} color="white" />
-                  </div>
-                  <div>
-                    <h3 style={{ fontSize: "1.25rem", fontWeight: 900, color: "white", marginBottom: "0.75rem", letterSpacing: "-0.01em" }}>{label}</h3>
-                    <div style={{ width: 40, height: 3, background: GOLD, margin: "0 auto 1.25rem", borderRadius: 2 }} />
-                    <p style={{ fontSize: "0.9rem", color: TEXT_MUTED, lineHeight: 1.7, margin: 0 }}><InlineText text={rest} /></p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // ── FLOWCHART — interactive process visualization ─────────────────
-    if (layout === "flowchart") {
-      return (
-        <div style={{ position: "relative" }}>
-          <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "3.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
-          
-          <div style={{ display: "flex", flexDirection: "column", gap: "1rem", position: "relative" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              const isEven = i % 2 === 0;
-              return (
-                <div key={i} data-item={String(i)} style={{ display: "flex", alignItems: "center", gap: "2rem", width: "100%", justifyContent: isEven ? "flex-start" : "flex-end" }}>
-                  <div style={{ 
-                    width: "48%",
-                    background: i === 0 ? `linear-gradient(135deg, ${PRIMARY}, #8E1540)` : "rgba(255,255,255,0.02)", 
-                    border: i === 0 ? "none" : `1px solid ${i === items.length - 1 ? GOLD : "rgba(255,255,255,0.08)"}`,
-                    borderRadius: 24, 
-                    padding: "1.75rem", 
-                    position: "relative",
-                    boxShadow: i === 0 ? `0 20px 50px ${PRIMARY}44` : "0 8px 30px rgba(0,0,0,0.3)",
-                    animation: i === 0 ? "node-pulse 3s infinite" : "none",
-                    zIndex: 2
-                  }}>
-                    {/* Step Number Badge */}
-                    <div style={{ position: "absolute", top: -12, left: 24, background: i === 0 ? GOLD : PRIMARY, color: "white", padding: "2px 14px", borderRadius: 99, fontSize: "0.75rem", fontWeight: 900, boxShadow: "0 4px 12px rgba(0,0,0,0.3)" }}>
-                      STEP {i + 1}
-                    </div>
-
-                    <div style={{ display: "flex", gap: "1.25rem", alignItems: "flex-start" }}>
-                      <div style={{ width: 48, height: 48, borderRadius: 16, background: i === 0 ? "rgba(255,255,255,0.2)" : `${PRIMARY}15`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-                        <IconComp size={24} color={i === 0 ? "white" : PRIMARY} />
-                      </div>
-                      <div>
-                        <h4 style={{ margin: "0 0 0.5rem", fontSize: "1.1rem", fontWeight: 900, color: i === 0 ? "white" : GOLD, letterSpacing: "0.01em" }}>{label}</h4>
-                        <p style={{ margin: 0, fontSize: "0.95rem", color: i === 0 ? "rgba(255,255,255,0.85)" : TEXT_MUTED, lineHeight: 1.7 }}><InlineText text={rest} /></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-
-            {/* SVG Animated Connections */}
-            <svg style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none", zIndex: 1 }}>
-              <defs>
-                <linearGradient id="flow-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-                  <stop offset="0%" stopColor={PRIMARY} />
-                  <stop offset="100%" stopColor={GOLD} />
-                </linearGradient>
-              </defs>
-              <path d="M 50% 40 L 50% 95%" stroke="url(#flow-grad)" strokeWidth="2" strokeDasharray="8,8" opacity="0.2" fill="none" />
-              {/* Flowing particles */}
-              <circle r="3" fill={GOLD}>
-                 <animateMotion dur="4s" repeatCount="indefinite" path="M 50% 40 L 50% 95%" />
-              </circle>
-            </svg>
-          </div>
-
-          <style>{`
-            @keyframes node-pulse {
-              0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(196,30,91,0.4); }
-              70% { transform: scale(1.02); box-shadow: 0 0 0 15px rgba(196,30,91,0); }
-              100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(196,30,91,0); }
-            }
-          `}</style>
-        </div>
-      );
-    }
-
-    // ── CARDS — visual icon cards ─────────────────────────────────────
-    if (layout === "cards" || layout === "kol" || layout === "spokesperson") {
-      const icons = [Globe, FileText, ShieldCheck, Zap, Star, Target, Layers, CheckCircle2];
-      return (
-        <div>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1.5rem", letterSpacing: "-0.02em", fontFamily: "'Plus Jakarta Sans',sans-serif" }}>{title}</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(220px,1fr))", gap: "1rem" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              const CardIcon = icons[i % icons.length];
-              return (
-                <div key={i} data-item={String(i)} style={{ background: DARK_CARD, border: `1px solid ${DARK_BORDER}`, borderRadius: 16, padding: "1.25rem", display: "flex", flexDirection: "column", gap: "0.6rem", transition: "transform 0.2s, box-shadow 0.2s" }}
-                  onMouseEnter={e => { (e.currentTarget as HTMLElement).style.transform = "translateY(-3px)"; (e.currentTarget as HTMLElement).style.boxShadow = "0 8px 28px rgba(142,21,64,0.12)"; }}
-                  onMouseLeave={e => { (e.currentTarget as HTMLElement).style.transform = ""; (e.currentTarget as HTMLElement).style.boxShadow = "0 4px 16px rgba(0,0,0,0.06)"; }}
-                >
-                  <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
-                    <div style={{ width: 36, height: 36, borderRadius: 10, background: PRIMARY_LIGHT, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-                      <CardIcon size={18} color={PRIMARY} />
-                    </div>
-                    {label && <span style={{ fontWeight: 700, fontSize: "0.9rem", color: GOLD }}>{label}</span>}
-                  </div>
-                  {rest && <p style={{ fontSize: "0.85rem", color: TEXT_MUTED, lineHeight: 1.65, margin: 0 }}><InlineText text={rest} /></p>}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // ── ORGCHART — decision flow ──────────────────────────────────────
-    if (layout === "orgchart") {
-      return (
-        <div>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,1.9rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1.5rem", letterSpacing: "-0.01em", fontFamily: "'Plus Jakarta Sans',sans-serif" }}>{title}</h2>
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 0 }}>
-            {/* Top node */}
-            <div style={{ background: `linear-gradient(135deg,${PRIMARY},#8E1540)`, color: "white", borderRadius: 16, padding: "0.9rem 2rem", fontWeight: 800, fontSize: "0.95rem", boxShadow: `0 8px 32px rgba(142,21,64,0.45)`, textAlign: "center", border: "1px solid rgba(255,255,255,0.15)" }}>
-              🏛️ Wali Kota Sukabumi
-            </div>
-            {/* Arrow down */}
-            <div style={{ width: 2, height: 28, background: `linear-gradient(${PRIMARY},${GOLD})` }} />
-            {/* Middle row */}
-            <div style={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", gap: "1rem", alignItems: "center", width: "100%" }}>
-              {items.slice(0, 1).map((item, i) => {
-                const { label, rest } = parseBoldLabel(item);
-                return (
-                  <div key={i} data-item={String(i)} style={{ background: "rgba(255,255,255,0.03)", border: `1px solid ${PRIMARY}`, borderRadius: 14, padding: "0.85rem 1rem", textAlign: "center", boxShadow: "0 8px 24px rgba(0,0,0,0.15)" }}>
-                    <p style={{ fontWeight: 800, fontSize: "0.85rem", color: PRIMARY, margin: "0 0 0.25rem", letterSpacing: "0.02em" }}>{label || "Pimpinan"}</p>
-                    {rest && <p style={{ fontSize: "0.78rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.5 }}><InlineText text={rest} /></p>}
-                  </div>
-                );
-              })}
-              {/* Center arrow down */}
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
-                <div style={{ width: 2, height: 32, background: GOLD, opacity: 0.6 }} />
-                <ChevronRight size={16} color={GOLD} style={{ transform: "rotate(90deg)" }} />
-              </div>
-              {items.slice(1, 2).map((item, i) => {
-                const { label, rest } = parseBoldLabel(item);
-                return (
-                  <div key={i} data-item={String(i+1)} style={{ background: "rgba(255,255,255,0.03)", border: `1px solid ${GOLD}`, borderRadius: 14, padding: "0.85rem 1rem", textAlign: "center", boxShadow: "0 8px 24px rgba(0,0,0,0.15)" }}>
-                    <p style={{ fontWeight: 800, fontSize: "0.85rem", color: GOLD, margin: "0 0 0.25rem", letterSpacing: "0.02em" }}>{label || "Instansi"}</p>
-                    {rest && <p style={{ fontSize: "0.78rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.5 }}><InlineText text={rest} /></p>}
-                  </div>
-                );
-              })}
-            </div>
-            {/* Bottom node */}
-            {items[2] && (
-              <>
-                <div style={{ width: 2, height: 24, background: "rgba(255,255,255,0.1)" }} />
-                <div style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.15)", borderRadius: 14, padding: "0.85rem 1.5rem", width: "75%", textAlign: "center", backdropFilter: "blur(8px)" }}>
-                  {(() => { const { label, rest } = parseBoldLabel(items[2]); return (
-                    <>
-                      <p style={{ fontWeight: 800, fontSize: "0.85rem", color: TEXT_MAIN, margin: "0 0 0.2rem" }}>{label || "Unit Pelaksana"}</p>
-                      {rest && <p style={{ fontSize: "0.78rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.5 }}><InlineText text={rest} /></p>}
-                    </>
-                  ); })()}
-                </div>
-              </>
-            )}
-          </div>
-        </div>
-      );
-    }
-
-    // ── FORMULA — percentage donut bars ───────────────────────────────
-    if (layout === "formula") {
-      const pcts = [60, 30, 10];
-      const colors = [PRIMARY, GOLD, "#9CA3AF"];
-      const icons2 = [TrendingUp, Share2, Heart];
-      return (
-        <div>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1.5rem", letterSpacing: "-0.01em", fontFamily: "'Plus Jakarta Sans',sans-serif" }}>{title}</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "1.25rem" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              const Ic2 = icons2[i % 3];
-              return (
-                <div key={i} data-item={String(i)} style={{ background: "rgba(255,255,255,0.03)", borderRadius: 24, padding: "1.5rem 1rem", textAlign: "center", border: i === 0 ? `1.5px solid ${PRIMARY}` : i === 1 ? `1.5px solid ${GOLD}` : `1.5px solid rgba(255,255,255,0.1)`, boxShadow: "0 8px 32px rgba(0,0,0,0.25)", backdropFilter: "blur(8px)" }}>
-                  {/* Big pct ring */}
-                  <div style={{ position: "relative", width: 80, height: 80, margin: "0 auto 1.25rem" }}>
-                    <svg viewBox="0 0 80 80" style={{ transform: "rotate(-90deg)", width: "100%", height: "100%" }}>
-                      <circle cx="40" cy="40" r="34" fill="none" stroke="rgba(255,255,255,0.05)" strokeWidth="8" />
-                      <circle cx="40" cy="40" r="34" fill="none" stroke={colors[i % 3]} strokeWidth="8"
-                        strokeDasharray={`${2 * Math.PI * 34 * pcts[i] / 100} ${2 * Math.PI * 34 * (1 - pcts[i] / 100)}`}
-                        strokeLinecap="round" style={{ transition: "stroke-dasharray 1.5s ease" }} />
-                    </svg>
-                    <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
-                      <span style={{ fontWeight: 900, fontSize: "1.3rem", color: colors[i % 3], lineHeight: 1 }}>{pcts[i]}%</span>
-                    </div>
-                  </div>
-                  <div style={{ width: 36, height: 36, borderRadius: "50%", background: i === 0 ? `${PRIMARY}22` : i === 1 ? `${GOLD}22` : "rgba(255,255,255,0.05)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 0.75rem", border: "1px solid rgba(255,255,255,0.1)" }}>
-                    <Ic2 size={16} color={colors[i % 3]} />
-                  </div>
-                  <p style={{ fontWeight: 800, fontSize: "0.9rem", color: colors[i % 3], margin: "0 0 0.4rem", letterSpacing: "0.012em" }}>{label}</p>
-                  <p style={{ fontSize: "0.8rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.6 }}><InlineText text={rest} /></p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // ── SENTIMENT — gauge bars ────────────────────────────────────────
-    if (layout === "sentiment") {
-      const sentColors = ["#10B981", "#D4AF37", "#EF4444"];
-      const sentIcons = [ThumbsUp, Minus, ThumbsDown];
-      const sentPcts = [80, 15, 5];
-      return (
-        <div>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1.5rem", letterSpacing: "-0.01em", fontFamily: "'Plus Jakarta Sans',sans-serif" }}>{title}</h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              const SIcon = sentIcons[i % 3];
-              return (
-                <div key={i} data-item={String(i)} style={{ background: "rgba(255,255,255,0.03)", borderRadius: 18, padding: "1.25rem 1.75rem", border: "1px solid rgba(255,255,255,0.08)", boxShadow: "0 8px 32px rgba(0,0,0,0.2)" }}>
-                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "0.85rem" }}>
-                    <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-                      <div style={{ width: 40, height: 40, borderRadius: 12, background: `${sentColors[i % 3]}15`, display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid ${sentColors[i % 3]}40` }}>
-                        <SIcon size={20} color={sentColors[i % 3]} />
-                      </div>
-                      <span style={{ fontWeight: 800, fontSize: "1rem", color: TEXT_MAIN, letterSpacing: "0.01em" }}>{label}</span>
-                    </div>
-                    <span style={{ fontWeight: 900, fontSize: "1.2rem", color: sentColors[i % 3], fontFamily: "monospace" }}>{sentPcts[i]}%</span>
-                  </div>
-                  {/* Progress bar */}
-                  <div style={{ height: 10, borderRadius: 6, background: "rgba(255,255,255,0.05)", overflow: "hidden", border: "1px solid rgba(255,255,255,0.05)" }}>
-                    <div style={{ height: "100%", width: `${sentPcts[i]}%`, borderRadius: 6, background: `linear-gradient(90deg, ${sentColors[i % 3]}, ${sentColors[i % 3]}BB)`, transition: "width 1.5s cubic-bezier(0.34, 1.56, 0.64, 1)", boxShadow: `0 0 12px ${sentColors[i % 3]}50` }} />
-                  </div>
-                  {rest && <p style={{ fontSize: "0.85rem", color: TEXT_MUTED, margin: "0.75rem 0 0", lineHeight: 1.65 }}><InlineText text={rest} /></p>}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // ── TIMELINE — step flow ──────────────────────────────────────────
-    if (layout === "timeline") {
-      return (
-        <div>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1.5rem", letterSpacing: "-0.01em" }}>{title}</h2>
-          <div style={{ position: "relative", paddingLeft: "3rem" }}>
-            {/* Vertical line with gradient glow */}
-            <div style={{ position: "absolute", left: "1.1rem", top: 8, bottom: 8, width: 2, background: `linear-gradient(${PRIMARY},${GOLD})`, borderRadius: 1, boxShadow: `0 0 10px ${PRIMARY}44` }} />
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              return (
-                <div key={i} data-item={String(i)} style={{ position: "relative", marginBottom: i < items.length - 1 ? "1.5rem" : 0, display: "flex", gap: "1rem", alignItems: "flex-start" }}>
-                  {/* Circle node */}
-                  <div style={{ position: "absolute", left: "-2.35rem", top: 0, width: 40, height: 40, borderRadius: "50%", background: i === 0 ? PRIMARY : i === items.length - 1 ? GOLD : "#1A1A2E", border: `3px solid ${i === 0 ? PRIMARY : GOLD}`, display: "flex", alignItems: "center", justifyContent: "center", zIndex: 2, boxShadow: `0 0 15px ${i === 0 ? PRIMARY : GOLD}33`, flexShrink: 0 }}>
-                    <span style={{ fontWeight: 900, fontSize: "0.85rem", color: "white" }}>{i + 1}</span>
-                  </div>
-                  <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: 18, padding: "1.25rem 1.5rem", border: `1px solid ${i === 0 ? `${PRIMARY}40` : "rgba(255,255,255,0.08)"}`, flex: 1, boxShadow: "0 8px 32px rgba(0,0,0,0.15)", backdropFilter: "blur(4px)" }}>
-                    {label && <p style={{ fontWeight: 800, fontSize: "1rem", color: i === 0 ? PRIMARY : GOLD, margin: "0 0 0.35rem", letterSpacing: "0.01em" }}>{label}</p>}
-                    {rest && <p style={{ fontSize: "0.9rem", color: TEXT_MAIN, margin: 0, lineHeight: 1.7, opacity: 0.85 }}><InlineText text={rest} /></p>}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // ── BIGDATA — metric cards with icons ─────────────────────────────
-    if (layout === "bigdata") {
-      const metricIcons = [Database, BarChart3, TrendingUp, Target, Filter];
-      return (
-        <div>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1.5rem", letterSpacing: "-0.01em" }}>{title}</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(200px,1fr))", gap: "1.25rem" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              const MI = metricIcons[i % metricIcons.length];
-              const isDark = i % 2 === 0;
-              return (
-                <div key={i} data-item={String(i)} style={{ background: isDark ? `linear-gradient(145deg, ${PRIMARY}, #8E1540)` : "rgba(255,255,255,0.03)", borderRadius: 24, padding: "1.75rem", color: "white", border: isDark ? "none" : `1px solid rgba(255,255,255,0.1)`, boxShadow: isDark ? `0 12px 32px rgba(142,21,64,0.3)` : "0 8px 24px rgba(0,0,0,0.15)", display:"flex", flexDirection:"column", justifyContent:"space-between", height:"100%" }}>
-                  <div style={{ width: 52, height: 52, borderRadius: 14, background: isDark ? "rgba(255,255,255,0.15)" : `${PRIMARY}18`, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "1.5rem" }}>
-                    <MI size={30} color={isDark ? "white" : PRIMARY} />
-                  </div>
-                  <div>
-                    <p style={{ fontWeight: 900, fontSize: "1.1rem", margin: "0 0 0.6rem", color: isDark ? "white" : GOLD, letterSpacing: "-0.01em" }}>{label}</p>
-                    <p style={{ fontSize: "0.85rem", margin: 0, lineHeight: 1.65, color: isDark ? "rgba(255,255,255,0.8)" : TEXT_MUTED }}><InlineText text={rest} /></p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // ── KPI_GRID — big number cards ───────────────────────────────────
-    if (layout === "kpi_grid") {
-      const kpiIcons = [Clock, TrendingUp, Target];
-      return (
-        <div>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1.5rem" }}>{title}</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(240px,1fr))", gap: "1.25rem", marginBottom: "1.25rem" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              const KI = kpiIcons[i % 3];
-              // Try to extract big number if present
-              const numMatch = rest.match(/(\d+%|\d+ Miliar|\d+,\d+%|≥ \d+%|⭐)/);
-              const bigNum = numMatch ? numMatch[0] : "";
-              const restText = bigNum ? rest.replace(bigNum, "").trim() : rest;
-
-              return (
-                <div key={i} data-item={String(i)} style={{ background: i === 0 ? `linear-gradient(145deg,${PRIMARY},#8E1540)` : i === 1 ? `linear-gradient(145deg,#312E81, #1E1B4B)` : `linear-gradient(145deg,${GOLD},#927210)`, borderRadius: 24, padding: "1.75rem", textAlign: "center", color: "white", boxShadow: "0 12px 32px rgba(0,0,0,0.25)", border: "1px solid rgba(255,255,255,0.1)" }}>
-                  <KI size={32} color="rgba(255,255,255,0.8)" style={{ marginBottom: "0.75rem" }} />
-                  {bigNum && <div style={{ fontSize: "2.5rem", fontWeight: 900, lineHeight: 1, marginBottom: "0.5rem", letterSpacing: "-0.03em", textShadow: "0 4px 12px rgba(0,0,0,0.2)" }}>{bigNum}</div>}
-                  <p style={{ fontWeight: 800, fontSize: "1rem", color: "white", margin: "0 0 0.5rem", letterSpacing: "0.01em" }}>{label}</p>
-                  <p style={{ fontSize: "0.85rem", opacity: 0.8, margin: 0, lineHeight: 1.6 }}><InlineText text={restText} /></p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // ── SERVICE — horizontal service rows ────────────────────────────
-    if (layout === "service") {
-      const svcIcons = [Smartphone, Monitor, Globe, Zap, MessageSquare, CheckCircle2];
-      return (
-        <div>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1.5rem" }}>{title}</h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              const SI = svcIcons[i % svcIcons.length];
-              return (
-                <div key={i} data-item={String(i)} style={{ display: "flex", alignItems: "flex-start", gap: "1.25rem", background: "rgba(255,255,255,0.03)", borderRadius: 16, padding: "1.1rem 1.5rem", border: `1px solid rgba(255,255,255,0.08)`, transition: "transform 0.2s, background 0.2s" }}
-                  onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = "rgba(255,255,255,0.06)"; (e.currentTarget as HTMLElement).style.transform = "translateX(8px)"; }}
-                  onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = "rgba(255,255,255,0.03)"; (e.currentTarget as HTMLElement).style.transform = ""; }}
-                >
-                  <div style={{ width: 48, height: 48, borderRadius: 14, background: i % 2 === 0 ? `${PRIMARY}22` : `${GOLD}22`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, border: `1px solid ${i % 2 === 0 ? PRIMARY : GOLD}44` }}>
-                    <SI size={22} color={i % 2 === 0 ? "#FF4D8D" : GOLD} />
-                  </div>
-                  <div style={{ flex: 1 }}>
-                    {label && <p style={{ fontWeight: 800, fontSize: "1rem", color: i % 2 === 0 ? "white" : GOLD, margin: "0 0 0.3rem", letterSpacing: "0.01em" }}>{label}</p>}
-                    {rest && <p style={{ fontSize: "0.88rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.65 }}><InlineText text={rest} /></p>}
-                  </div>
-                  <div style={{ height: 48, display: "flex", alignItems: "center" }}>
-                    <ChevronRight size={18} color={TEXT_SUBTLE} />
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // ── BUDGET — cost breakdown bars ─────────────────────────────────
-    if (layout === "budget") {
-      const budgetIcons = [Monitor, Layers, Users, Database];
-      return (
-        <div>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1.5rem" }}>{title}</h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              const BI = budgetIcons[i % budgetIcons.length];
-              const widths = [85, 65, 50, 40];
-              return (
-                <div key={i} data-item={String(i)} style={{ background: "rgba(255,255,255,0.03)", borderRadius: 18, padding: "1.25rem 1.75rem", border: "1px solid rgba(255,255,255,0.08)", boxShadow: "0 8px 16px rgba(0,0,0,0.1)" }}>
-                  <div style={{ display: "flex", alignItems: "center", gap: "0.85rem", marginBottom: "0.75rem" }}>
-                    <div style={{ width: 38, height: 38, borderRadius: 10, background: `${PRIMARY}22`, display: "flex", alignItems: "center", justifyContent: "center" }}>
-                      <BI size={18} color={PRIMARY} />
-                    </div>
-                    <p style={{ fontWeight: 800, fontSize: "1rem", color: TEXT_MAIN, margin: 0 }}>{label}</p>
-                  </div>
-                  <div style={{ height: 10, borderRadius: 5, background: "rgba(255,255,255,0.05)", overflow: "hidden", marginBottom: "0.75rem", border: "1px solid rgba(255,255,255,0.05)" }}>
-                    <div style={{ height: "100%", width: `${widths[i % 4]}%`, borderRadius: 5, background: `linear-gradient(90deg,${PRIMARY},${GOLD})`, boxShadow: `0 0 10px ${PRIMARY}44` }} />
-                  </div>
-                  {rest && <p style={{ fontSize: "0.88rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.65 }}><InlineText text={rest} /></p>}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // ── CHALLENGES — orange warning cards ────────────────────────────
-    if (layout === "challenges") {
-      const chalIcons = [AlertTriangle, Radio, Layers, ShieldAlert];
-      return (
-        <div>
-          <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1.5rem" }}>{title}</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(240px,1fr))", gap: "1.25rem" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              const CI = chalIcons[i % chalIcons.length];
-              const isWarning = label.includes("🔴") || label.includes("Penting") || label.includes("Prioritas");
-              return (
-                <div key={i} data-item={String(i)} style={{ background: isWarning ? "rgba(196,30,91,0.06)" : "rgba(212,175,55,0.06)", borderRadius: 20, padding: "1.5rem", border: `1px solid ${isWarning ? PRIMARY : GOLD}44`, display: "flex", flexDirection: "column", gap: "0.75rem", boxShadow: "0 8px 24px rgba(0,0,0,0.15)" }}>
-                  <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-                    <div style={{ width: 44, height: 44, borderRadius: 12, background: isWarning ? `${PRIMARY}22` : `${GOLD}22`, display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid ${isWarning ? PRIMARY : GOLD}33` }}>
-                      <CI size={22} color={isWarning ? PRIMARY : GOLD} />
-                    </div>
-                    {label && <span style={{ fontWeight: 900, fontSize: "1rem", color: isWarning ? "white" : GOLD, margin: 0, letterSpacing: "0.01em" }}>{label}</span>}
-                  </div>
-                  {rest && <p style={{ fontSize: "0.88rem", color: TEXT_MAIN, opacity: 0.8, margin: 0, lineHeight: 1.65 }}><InlineText text={rest} /></p>}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      );
-    }
-
-    // ── CLOSING ───────────────────────────────────────────────────────
-    if (layout === "closing") {
-      return (
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", padding: "2rem 0", gap: "1.5rem" }}>
-          <div style={{ display: "flex", gap: "0.75rem" }}>
-            {[...Array(3)].map((_, i) => (
-              <Star key={i} size={32} fill={GOLD} color={GOLD} style={{ animation: `pulse 1.5s ease ${i * 0.3}s infinite`, filter: `drop-shadow(0 0 10px ${GOLD}55)` }} />
-            ))}
-          </div>
-          <div data-item="0">
-            <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.25em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-            <h1 style={{ fontSize: "clamp(2rem, 5vw, 3.2rem)", fontWeight: 900, color: "white", lineHeight: 1.15, marginBottom: "1.5rem", letterSpacing: "-0.02em", textShadow: "0 4px 20px rgba(0,0,0,0.3)" }}>{title}</h1>
-            <p style={{ fontSize: "1.1rem", color: TEXT_MUTED, maxWidth: 640, margin: "0 auto", lineHeight: 1.8 }}>{body}</p>
-          </div>
-          <div style={{ display: "flex", gap: "1.25rem", alignItems: "center" }} data-item="1">
-            <div style={{ height: 4, width: 80, borderRadius: 2, background: PRIMARY, boxShadow: `0 0 10px ${PRIMARY}66` }} />
-            <div style={{ height: 4, width: 30, borderRadius: 2, background: GOLD, boxShadow: `0 0 10px ${GOLD}66` }} />
-            <div style={{ height: 4, width: 12, borderRadius: 2, background: "rgba(255,255,255,0.1)" }} />
-          </div>
-          <div data-item="2" style={{ marginTop: "1rem", padding: "0.85rem 2.5rem", borderRadius: 50, border: `1px solid ${PRIMARY}55`, background: "rgba(196,30,91,0.1)", boxShadow: `0 8px 32px ${PRIMARY}15` }}>
-            <p style={{ fontWeight: 800, color: "white", fontSize: "0.95rem", margin: 0, letterSpacing: "0.05em" }}>SUKABUMI IMAN · 2025–2029</p>
-          </div>
-        </div>
-      );
-    }
-
-    // ── DEFAULT fallback — clean list ─────────────────────────────────
-    return (
-      <div>
-        <p style={{ fontSize: "0.7rem", fontWeight: 800, letterSpacing: "0.18em", color: GOLD, textTransform: "uppercase", marginBottom: "0.4rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.4rem,3vw,2rem)", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1.5rem" }}>{title}</h2>
-        {isList ? (
-          <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-            {items.map((item, i) => {
-              const { label, rest } = parseBoldLabel(item);
-              return (
-                <div key={i} data-item={String(i)} style={{ display: "flex", gap: "1rem", alignItems: "flex-start", background: "rgba(255,255,255,0.02)", padding: "1rem", borderRadius: 12, border: "1px solid rgba(255,255,255,0.05)" }}>
-                  <div style={{ width: 32, height: 32, borderRadius: "50%", background: `${PRIMARY}22`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, border: `1px solid ${PRIMARY}44` }}>
-                    <span style={{ fontWeight: 900, fontSize: "0.8rem", color: "white" }}>{i + 1}</span>
-                  </div>
-                  <div>
-                    {label && <span style={{ fontWeight: 800, color: GOLD, fontSize: "0.95rem" }}>{label}: </span>}
-                    <span style={{ color: TEXT_MAIN, opacity: 0.85, lineHeight: 1.7, fontSize: "0.95rem" }}><InlineText text={rest} /></span>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        ) : (
-          <p style={{ color: TEXT_MAIN, opacity: 0.8, lineHeight: 1.8, fontSize: "1.05rem", background: "rgba(255,255,255,0.03)", padding: "1.5rem", borderRadius: 16, border: "1px solid rgba(255,255,255,0.05)" }}><InlineText text={body} /></p>
-        )}
-      </div>
-    );
   }
 
-  const animationStyle: React.CSSProperties = {
-    animation: `${direction === "next" ? "slideInRight" : "slideInLeft"} 0.4s cubic-bezier(0.34,1.2,0.64,1) both`,
-  };
+  const filteredSlides = slides.filter(s => 
+    s.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+    s.body.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   return (
-    <main className={styles.container} style={isFullscreen ? { position: "fixed", inset: 0, zIndex: 9999, background: "var(--bg-color)" } : {}}>
-      {/* Progress bar */}
-      <div className={styles.progressContainer}>
-        <div className={styles.progressBar} style={{ width: `${progress}%` }} />
-      </div>
+    <main style={{ position: "fixed", inset: 0, color: TEXT_MAIN, overflow: "hidden", fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
+      <VideoBackground />
+      <ProgressBar progress={progress} />
 
-      {/* Sidebar overlay */}
-      {showSidebar && <div className={styles.sidebarOverlay} onClick={() => setShowSidebar(false)} />}
-
-      {/* Sidebar */}
-      <aside className={`${styles.sidebar} ${showSidebar ? styles.sidebarOpen : ""}`}>
-        <div className={styles.sidebarHeader}>
-          <span>DAFTAR SLIDE</span>
-          <button onClick={() => setShowSidebar(false)} className={styles.sidebarClose}><X size={20} /></button>
-        </div>
-        <div style={{ padding: "0 1rem 1rem" }}>
-          <div style={{ position: "relative", marginBottom: "1rem" }}>
-            <Search size={14} style={{ position: "absolute", left: "0.75rem", top: "50%", transform: "translateY(-50%)", color: TEXT_MUTED }} />
-            <input 
-              type="text" 
-              placeholder="Cari slide..." 
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              style={{ width: "100%", padding: "0.6rem 0.6rem 0.6rem 2.2rem", borderRadius: "10px", border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.05)", color: "white", fontSize: "0.85rem", outline: "none" }}
-            />
-          </div>
-        </div>
-
-        <div className={styles.sidebarList}>
-          {slides.map((s: Slide, i: number) => {
-            const isMatch = !searchQuery || s.title.toLowerCase().includes(searchQuery.toLowerCase()) || s.subtitle.toLowerCase().includes(searchQuery.toLowerCase());
-            if (!isMatch) return null;
-            return (
-              <button key={s.id} onClick={() => jumpToSlide(i)} className={`${styles.sidebarItem} ${currentSlide === i ? styles.sidebarItemActive : ""}`}>
-                <span className={styles.sidebarNum}>{String(i + 1).padStart(2, "0")}</span>
-                <span className={styles.sidebarTitle}>{s.title}</span>
-              </button>
-            );
-          })}
-        </div>
-      </aside>
-
-      {/* Header */}
-      <header className={styles.formalHeader}>
-        <div className={styles.headerLeft}>
-          <button onClick={() => setShowSidebar(true)} className={styles.menuBtn} title="Daftar Slide (Menu)"><Menu size={20} /></button>
-          <button onClick={() => setShowSearch(true)} className={styles.menuBtn} style={{ marginLeft: "-0.5rem" }} title="Pencarian Cepat (Cmd+K)"><Search size={18} /></button>
-          <div className={styles.logoPlaceholder}>
-            <Link href="/" style={{ display: "flex", alignItems: "center", gap: "0.4rem", color: PRIMARY, fontWeight: 700, fontSize: "0.9rem" }}>
-              <ArrowLeft size={16} />Beranda
-            </Link>
-          </div>
-          <div className={styles.headerText}>
-            <span className={styles.orgName}>Kota Sukabumi</span>
-            <span className={styles.docTitle}>{category.replace(/_/g, " ").toUpperCase()}</span>
-          </div>
-        </div>
-        <div className={styles.headerRight}>
-          <span className={styles.slideNumberBadge}>{currentSlide + 1} / {totalSlides}</span>
-          <button onClick={toggleFullscreen} className={styles.fullscreenBtn}>
-            {isFullscreen ? <Minimize size={20} /> : <Maximize size={20} />}
-          </button>
-        </div>
-      </header>
-
-      {/* Slide area */}
-      <div style={{ position: "relative", zIndex: 1, padding: "5rem 1.5rem 5rem", minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
-        {/* Ambient orb behind card */}
-        <div style={{ position:"fixed", bottom:"-20%", right:"-10%", width:"50vw", height:"50vw", borderRadius:"50%", background:"radial-gradient(circle,rgba(212,175,55,0.07) 0%,transparent 70%)", pointerEvents:"none", animation:"orb-pulse 8s ease-in-out 2s infinite" }} />
-        <div
+      {/* Main Content Area */}
+      <AnimatePresence mode="wait">
+        <motion.div 
           key={animKey}
-          style={{
-            ...animationStyle,
-            background: "rgba(13,18,37,0.85)",
-            backdropFilter: "blur(24px)",
-            WebkitBackdropFilter: "blur(24px)",
-            borderRadius: 24,
-            padding: "clamp(1.75rem,4vw,2.75rem)",
-            width: "100%",
-            maxWidth: "920px",
-            boxShadow: "0 32px 80px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.07)",
-            border: "1px solid rgba(255,255,255,0.07)",
-            position: "relative",
-            overflow: "hidden",
-          }}
+          initial={{ opacity: 0, x: direction === "next" ? 80 : -80, scale: 0.98 }}
+          animate={{ opacity: 1, x: 0, scale: 1 }}
+          exit={{ opacity: 0, x: direction === "next" ? -80 : 80, scale: 1.02 }}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          style={{ height: "100%", width: "100%", padding: "clamp(2rem, 5vh, 4rem) clamp(1rem, 6vw, 8vw) 8rem", overflowY: "auto", overflowX: "hidden" }}
         >
-          {/* Top accent bar with glow */}
-          <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 3, background: `linear-gradient(90deg,${PRIMARY},${GOLD})`, boxShadow: `0 0 20px rgba(212,175,55,0.4)` }} />
-          {/* Scan line effect */}
-          <div style={{ position:"absolute", left:0, right:0, height:1, background:"linear-gradient(90deg,transparent,rgba(196,30,91,0.15),transparent)", animation:"scan-line 5s linear infinite", zIndex:2 }} />
-          {/* Shimmer sweep on card entry */}
-          <div key={`shimmer-${animKey}`} style={{ position:"absolute", top:0, bottom:0, width:"30%", background:"linear-gradient(90deg,transparent,rgba(255,255,255,0.03),transparent)", animation:"shimmer-sweep 0.8s ease forwards", zIndex:2, pointerEvents:"none" }} />
-
           {renderSlideBody(slide)}
+        </motion.div>
+      </AnimatePresence>
 
-          {/* Page watermark */}
-          <div style={{ position: "absolute", bottom: "1rem", right: "1.5rem", fontSize: "6rem", fontWeight: 900, color: "rgba(255,255,255,0.03)", lineHeight: 1, userSelect: "none", fontFamily: "'Plus Jakarta Sans',sans-serif" }}>
-            {String(currentSlide + 1).padStart(2, "0")}
+      <FloatingNav 
+        current={currentSlide} 
+        total={totalSlides} 
+        onPrev={() => navigate("prev")} 
+        onNext={() => navigate("next")} 
+        onSidebar={() => setShowSidebar(true)} 
+        onSearch={() => setShowSearch(true)}
+        isFullscreen={isFullscreen}
+        onFullscreen={toggleFullscreen}
+      />
+
+      {/* ── EXPANDED SIDEBAR ───────────────────────────────────── */}
+      {showSidebar && (
+        <div style={{ position: "fixed", inset: 0, zIndex: 2000, display: "flex" }}>
+          <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.6)", backdropFilter: "blur(12px)" }} onClick={() => setShowSidebar(false)} />
+          <div style={{ position: "relative", width: "400px", maxWidth: "90vw", height: "100%", background: "rgba(8, 12, 24, 0.98)", borderLeft: "1px solid rgba(255,255,255,0.08)", padding: "2.5rem 1.5rem", display: "flex", flexDirection: "column", gap: "2rem", boxShadow: "-20px 0 60px rgba(0,0,0,0.8)", marginLeft: "auto" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+              <h3 style={{ fontSize: "1.1rem", fontWeight: 800, color: GOLD, margin: 0, textTransform: "uppercase", letterSpacing: "0.1em" }}>Dashboard Index</h3>
+              <button onClick={() => setShowSidebar(false)} style={{ background: "rgba(255,255,255,0.05)", border: "none", color: "white", padding: "0.6rem", borderRadius: "50%" }} className="card-hover"><X size={20} /></button>
+            </div>
+            
+            <div style={{ flex: 1, overflowY: "auto", display: "flex", flexDirection: "column", gap: "1.5rem", paddingRight: "0.5rem" }} className="custom-scroll">
+              {Object.entries(
+                slides.reduce((acc: Record<string, Slide[]>, s) => {
+                  const sec = s.section || "UMUM";
+                  if (!acc[sec]) acc[sec] = [];
+                  acc[sec].push(s);
+                  return acc;
+                }, {})
+              ).map(([section, sectionSlides]) => (
+                <div key={section} style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+                  <div style={{ fontSize: "0.65rem", fontWeight: 900, color: GOLD, letterSpacing: "0.2em", textTransform: "uppercase", marginBottom: "0.25rem", paddingLeft: "0.5rem", borderLeft: `2px solid ${GOLD}` }}>
+                    {section}
+                  </div>
+                  {sectionSlides.map((s) => {
+                    const idx = slides.indexOf(s);
+                    const isActive = idx === currentSlide;
+                    return (
+                      <button 
+                        key={idx} 
+                        onClick={() => jumpToSlide(idx)} 
+                        style={{ 
+                          display: "flex", 
+                          gap: "1rem", 
+                          alignItems: "center", 
+                          padding: "0.85rem 1rem", 
+                          borderRadius: 16, 
+                          border: isActive ? `1.5px solid ${GOLD}` : "1px solid rgba(255,255,255,0.04)", 
+                          background: isActive ? "rgba(212,175,55,0.08)" : "rgba(255,255,255,0.02)", 
+                          textAlign: "left", 
+                          transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)" 
+                        }} 
+                        className="card-hover"
+                      >
+                        <div style={{ 
+                          width: 28, 
+                          height: 28, 
+                          borderRadius: 8, 
+                          background: isActive ? GOLD : "rgba(255,255,255,0.04)", 
+                          color: isActive ? "black" : TEXT_MUTED, 
+                          display: "flex", 
+                          alignItems: "center", 
+                          justifyContent: "center", 
+                          fontSize: "0.7rem", 
+                          fontWeight: 900, 
+                          flexShrink: 0 
+                        }}>
+                          {idx + 1}
+                        </div>
+                        <div style={{ flex: 1, minWidth: 0 }}>
+                          <div style={{ 
+                            fontSize: "0.85rem", 
+                            fontWeight: isActive ? 800 : 600, 
+                            color: isActive ? "white" : TEXT_MAIN, 
+                            overflow: "hidden", 
+                            textOverflow: "ellipsis", 
+                            whiteSpace: "nowrap" 
+                          }}>
+                            {s.title}
+                          </div>
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
-      {/* Navigation */}
-      <div className={styles.nav}>
-        <button onClick={() => navigate("prev")} disabled={currentSlide === 0} className={`${styles.btn} ${currentSlide > 0 ? styles.primaryBtn : ""}`} style={currentSlide === 0 ? { opacity: 0.4, cursor: "not-allowed" } : {}}>
-          <ArrowLeft size={18} />Prev
-        </button>
-
-        <div style={{ display: "flex", gap: "0.35rem", alignItems: "center" }}>
-          {slides.slice(0, Math.min(totalSlides, 20)).map((_: any, i: number) => (
-            <div key={i} onClick={() => jumpToSlide(i)} style={{ width: currentSlide === i ? 24 : 8, height: 8, borderRadius: 4, background: currentSlide === i ? PRIMARY : "#D1D5DB", cursor: "pointer", transition: "all 0.3s ease" }} />
-          ))}
-          {totalSlides > 20 && <span style={{ fontSize: "0.75rem", color: "#9CA3AF", marginLeft: "0.25rem" }}>+{totalSlides - 20}</span>}
-        </div>
-
-        <button onClick={() => navigate("next")} disabled={currentSlide === totalSlides - 1} className={`${styles.btn} ${currentSlide < totalSlides - 1 ? styles.primaryBtn : ""}`} style={currentSlide === totalSlides - 1 ? { opacity: 0.4, cursor: "not-allowed" } : {}}>
-          Next<ArrowRight size={18} />
-        </button>
-      </div>
-
-      {/* Footer */}
-      <footer className={styles.formalFooter}>
-        <span>© 2026 Pemerintah Kota Sukabumi</span>
-        <span>Portal Paparan Strategis</span>
-        <span>Slide {currentSlide + 1} dari {totalSlides}</span>
-      </footer>
-
-      {/* Search Overlay (Command Menu) */}
+      {/* ── QUICK JUMP SEARCH ──────────────────────────────────── */}
       {showSearch && (
-        <div 
-          onClick={() => setShowSearch(false)}
-          style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.85)", backdropFilter: "blur(12px)", zIndex: 10000, display: "flex", alignItems: "start", justifyContent: "center", padding: "10vh 1rem" }}
-        >
-          <div 
-            onClick={(e) => e.stopPropagation()}
-            style={{ width: "100%", maxWidth: "600px", background: "#0F172A", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "20px", boxShadow: "0 50px 100px rgba(0,0,0,0.8)", overflow: "hidden", animation: "modalIn 0.3s cubic-bezier(0.16, 1, 0.3, 1)" }}
-          >
-            <div style={{ display: "flex", alignItems: "center", padding: "1.25rem", borderBottom: "1px solid rgba(255,255,255,0.06)", gap: "0.75rem" }}>
-              <Search size={22} color={GOLD} />
-              <input 
-                autoFocus
-                type="text" 
-                placeholder="Type to search slides..." 
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                style={{ flex: 1, background: "none", border: "none", color: "white", fontSize: "1.1rem", outline: "none" }}
-              />
-              <div style={{ background: "rgba(255,255,255,0.08)", padding: "4px 8px", borderRadius: "6px", fontSize: "0.75rem", color: TEXT_MUTED }}>ESC</div>
+        <div style={{ position: "fixed", inset: 0, zIndex: 3000, display: "flex", alignItems: "center", justifyContent: "center", padding: "1.5rem" }}>
+          <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.85)", backdropFilter: "blur(16px)" }} onClick={() => setShowSearch(false)} />
+          <div style={{ position: "relative", width: "100%", maxWidth: "650px", background: "rgba(13, 18, 37, 0.98)", border: `1px solid rgba(212,175,55,0.3)`, borderRadius: 28, padding: "1.75rem", boxShadow: `0 40px 100px rgba(0,0,0,0.8)` }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "1.25rem", borderBottom: `1px solid rgba(255,255,255,0.1)`, paddingBottom: "1.25rem", marginBottom: "1.25rem" }}>
+              <Search size={26} color={GOLD} />
+              <input autoFocus placeholder="Search slides... (ESC to close)" style={{ flex: 1, background: "transparent", border: "none", outline: "none", color: "white", fontSize: "1.3rem", fontWeight: 600, width: "100%" }} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} onKeyDown={(e) => { if(e.key === "Enter" && filteredSlides[0]) jumpToSlide(slides.indexOf(filteredSlides[0])); }} />
             </div>
-            
-            <div style={{ maxHeight: "60vh", overflowY: "auto", padding: "0.5rem" }}>
-              {slides.map((s: Slide, i: number) => {
-                const isMatch = !searchQuery || s.title.toLowerCase().includes(searchQuery.toLowerCase()) || s.subtitle.toLowerCase().includes(searchQuery.toLowerCase());
-                if (!isMatch) return null;
-                return (
-                  <div 
-                    key={s.id}
-                    onClick={() => { jumpToSlide(i); setShowSearch(false); }}
-                    style={{ 
-                      padding: "1rem 1.25rem", 
-                      borderRadius: "12px", 
-                      cursor: "pointer", 
-                      background: currentSlide === i ? "rgba(196,30,91,0.15)" : "transparent",
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "1rem",
-                      transition: "background 0.2s ease"
-                    }}
-                    onMouseEnter={(e) => e.currentTarget.style.background = "rgba(255,255,255,0.05)"}
-                    onMouseLeave={(e) => e.currentTarget.style.background = currentSlide === i ? "rgba(196,30,91,0.15)" : "transparent"}
-                  >
-                    <div style={{ width: "24px", height: "24px", borderRadius: "6px", background: "rgba(255,255,255,0.08)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.75rem", color: GOLD, fontWeight: 700 }}>
-                      {i + 1}
-                    </div>
-                    <div style={{ flex: 1 }}>
-                      <div style={{ color: "white", fontWeight: 600, fontSize: "0.95rem" }}>{s.title}</div>
-                      <div style={{ color: TEXT_MUTED, fontSize: "0.75rem" }}>{s.subtitle}</div>
-                    </div>
-                    <ChevronRight size={16} color={TEXT_SUBTLE} />
-                  </div>
-                );
-              })}
-              {slides.filter((s: Slide) => s.title.toLowerCase().includes(searchQuery.toLowerCase())).length === 0 && (
-                <div style={{ padding: "3rem", textAlign: "center", color: TEXT_MUTED }}>
-                  No results found for "{searchQuery}"
-                </div>
-              )}
-            </div>
-            
-            <div style={{ padding: "1rem", background: "rgba(0,0,0,0.2)", borderTop: "1px solid rgba(255,255,255,0.04)", fontSize: "0.75rem", color: TEXT_SUBTLE, display: "flex", gap: "1.5rem" }}>
-              <span><span style={{ color: TEXT_MUTED }}>↑↓</span> Navigate</span>
-              <span><span style={{ color: TEXT_MUTED }}>Enter</span> Select</span>
-              <span><span style={{ color: TEXT_MUTED }}>ESC</span> Close</span>
+            <div style={{ maxHeight: "450px", overflowY: "auto", display: "flex", flexDirection: "column", gap: "0.6rem" }} className="custom-scroll">
+              {filteredSlides.map((s, i) => (
+                <button key={i} onClick={() => jumpToSlide(slides.indexOf(s))} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1.25rem", borderRadius: 16, border: "1px solid rgba(255,255,255,0.04)", background: "rgba(255,255,255,0.02)", textAlign: "left", transition: "all 0.2s" }} className="card-hover">
+                   <div style={{ fontSize: "1.05rem", fontWeight: 750, color: "white" }}>{s.title}</div>
+                   <ChevronRight size={20} color={GOLD} />
+                </button>
+              ))}
+              {filteredSlides.length === 0 && <div style={{ padding: "3rem", textAlign: "center", color: TEXT_MUTED, fontSize: "1.1rem" }}>No results found for "{searchQuery}"</div>}
             </div>
           </div>
         </div>
       )}
 
       <style>{`
-        @keyframes modalIn {
-          from { opacity: 0; transform: scale(0.95) translateY(20px); }
-          to { opacity: 1; transform: scale(1) translateY(0); }
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 10px; }
+        .grid-responsive { display: grid; gap: 1.5rem; }
+        @media (max-width: 900px) {
+           .grid-responsive { grid-template-columns: 1fr !important; }
+           .feature-grid { grid-template-columns: 1fr !important; }
+           .flex-responsive { flex-direction: column !important; }
         }
-        @keyframes slideInRight {
-          from { opacity: 0; transform: translateX(60px) scale(0.97); }
-          to   { opacity: 1; transform: translateX(0) scale(1); }
+        @media (max-width: 600px) {
+           main { padding-bottom: 9rem; }
+           h1 { font-size: 1.8rem !important; }
+           h2 { font-size: 1.5rem !important; }
         }
-        @keyframes slideInLeft {
-          from { opacity: 0; transform: translateX(-60px) scale(0.97); }
-          to   { opacity: 1; transform: translateX(0) scale(1); }
-        }
-        @keyframes stagger-in {
-          from { opacity:0; transform: translateY(20px); }
-          to   { opacity:1; transform: translateY(0); }
-        }
-        @keyframes pulse {
-          0%,100% { opacity:1; transform:scale(1); }
-          50%      { opacity:0.7; transform:scale(1.1); }
-        }
-        @keyframes icon-glow {
-          0%,100% { box-shadow: 0 0 20px rgba(196,30,91,0.4), 0 8px 32px rgba(142,21,64,0.3); }
-          50%      { box-shadow: 0 0 40px rgba(196,30,91,0.7), 0 12px 48px rgba(142,21,64,0.5); }
-        }
-        @keyframes spin-slow {
-          from { transform: rotate(0deg); }
-          to   { transform: rotate(360deg); }
-        }
-        @keyframes orb-pulse {
-          0%,100% { transform: scale(1); opacity:0.5; }
-          50%      { transform: scale(1.1); opacity:0.7; }
-        }
-        @keyframes shimmer-sweep {
-          0%   { transform: translateX(-100%) skewX(-12deg); }
-          100% { transform: translateX(400%) skewX(-12deg); }
-        }
-        @keyframes scan-line {
-          0%   { top: -2px; }
-          100% { top: 102%; }
-        }
-        @keyframes progress-fill {
-          from { width: 0%; }
-          to   { width: 100%; }
-        }
-        @keyframes float-up {
-          0%,100% { transform: translateY(0); }
-          50%      { transform: translateY(-6px); }
-        }
-        [data-item] { animation: stagger-in 0.4s cubic-bezier(0.34,1.2,0.64,1) both; }
-        [data-item="0"] { animation-delay: 0.05s; }
-        [data-item="1"] { animation-delay: 0.12s; }
-        [data-item="2"] { animation-delay: 0.19s; }
-        [data-item="3"] { animation-delay: 0.26s; }
-        [data-item="4"] { animation-delay: 0.33s; }
-        [data-item="5"] { animation-delay: 0.40s; }
-        [data-item="6"] { animation-delay: 0.47s; }
       `}</style>
     </main>
   );
 }
-

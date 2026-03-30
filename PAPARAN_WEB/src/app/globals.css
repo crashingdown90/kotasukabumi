@@ -30,9 +30,9 @@
   --border-glow: rgba(142, 21, 64, 0.2);
 
   /* Typography */
-  --text-main: #0F172A;
-  --text-muted: #64748B;
-  --text-subtle: #94A3B8;
+  --text-main: #FFFFFF;
+  --text-muted: rgba(255, 255, 255, 0.75);
+  --text-subtle: rgba(255, 255, 255, 0.55);
 
   /* Font */
   --font-display: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
@@ -126,13 +126,20 @@ button {
   50%       { transform: scale(1.15); opacity: 0.6; }
 }
 
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(32px); }
-  to   { opacity: 1; transform: translateY(0); }
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(50px) scale(0.98); }
+  to   { opacity: 1; transform: translateX(0) scale(1); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-50px) scale(0.98); }
+  to   { opacity: 1; transform: translateX(0) scale(1); }
 }
 
 .animate-fade { animation: globalFadeIn 0.6s cubic-bezier(0.34, 1.2, 0.64, 1) forwards; }
-.animate-up   { animation: slideUp 0.5s cubic-bezier(0.34, 1.2, 0.64, 1) forwards; }
+.animate-up   { animation: slideUp 0.6s cubic-bezier(0.34, 1.2, 0.64, 1) forwards; }
+.animate-next { animation: slideInRight 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) forwards; }
+.animate-prev { animation: slideInLeft 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) forwards; }
 
 /* ── SCROLLBAR ──────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 6px; }

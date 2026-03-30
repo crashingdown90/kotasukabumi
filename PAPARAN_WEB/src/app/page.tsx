@@ -3,7 +3,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
-import { ArrowRight, Shield, Lock, TrendingUp } from "lucide-react";
+import { ArrowRight, Shield, Lock, TrendingUp, Presentation, CheckSquare, Calendar } from "lucide-react";
+import masterData from "./master-data.json";
+
+/* ── Calculate Dynamic Stats ───────────────────────────── */
+const categories = Object.keys(masterData);
+const totalSlides = categories.reduce((acc, cat) => acc + (masterData as any)[cat].length, 0);
 
 /* ── Custom SVG Icons per kategori ──────────────────────── */
 function IconReferensi({ size = 28 }: { size?: number }) {
@@ -67,6 +72,35 @@ function IconStrakom({ size = 28 }: { size?: number }) {
       <path d="M18 7l-6 5H8v4h4l6 5V7z" fill="rgba(255,255,255,0.15)" stroke="white" strokeWidth="1.8" strokeLinejoin="round"/>
       <path d="M22 10c1.5 2 1.5 6 0 8" stroke="white" strokeWidth="1.8" strokeLinecap="round" opacity="0.7"/>
       <path d="M25 7c2.5 4 2.5 10 0 14" stroke="white" strokeWidth="1.6" strokeLinecap="round" opacity="0.4"/>
+    </svg>
+  );
+}
+
+function IconBranding({ size = 28 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 28 28" fill="none">
+      <path d="M14 2l4 8 8 2-6 6 2 8-8-4-8 4 2-8-6-6 8-2 4-8z" stroke="white" strokeWidth="1.8" fill="rgba(212,175,55,0.2)"/>
+      <circle cx="14" cy="13" r="3" stroke="white" strokeWidth="1.5"/>
+    </svg>
+  );
+}
+
+function IconInvestasi({ size = 28 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 28 28" fill="none">
+      <circle cx="14" cy="14" r="10" stroke="white" strokeWidth="1.8" fill="rgba(34,197,94,0.1)"/>
+      <path d="M14 8v12M10 12l4-4 4 4" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M10 20h8" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+    </svg>
+  );
+}
+
+function IconTechnopark({ size = 28 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 28 28" fill="none">
+      <rect x="6" y="6" width="16" height="16" rx="4" stroke="white" strokeWidth="1.8" fill="rgba(168,85,247,0.1)"/>
+      <path d="M14 6L18 2M14 6L10 2M14 22V26M6 14L2 18M6 14L2 10M22 14L26 18M22 14L26 10" stroke="white" strokeWidth="1.6" strokeLinecap="round"/>
+      <circle cx="14" cy="14" r="3" fill="white"/>
     </svg>
   );
 }
@@ -186,12 +220,48 @@ const MENU_ITEMS = [
     label: "06",
     tag: "STRATEGI",
   },
+  {
+    id: "branding",
+    title: "Political Branding",
+    desc: "Persona & Sinergi Duo Dinamis Pemimpin",
+    Icon: IconBranding,
+    gradient: "linear-gradient(135deg, #D4AF37 0%, #8E1540 100%)",
+    glow: "rgba(212,175,55,0.4)",
+    particle: "rgba(212,175,55,0.8)",
+    slug: "political_branding",
+    label: "07",
+    tag: "BRANDING",
+  },
+  {
+    id: "investasi",
+    title: "Investasi Daerah",
+    desc: "Potensi Strategis & Optimalisasi Asset Daerah",
+    Icon: IconInvestasi,
+    gradient: "linear-gradient(135deg, #0D4F3C 0%, #22C55E 100%)",
+    glow: "rgba(34,197,94,0.4)",
+    particle: "rgba(34,197,94,0.8)",
+    slug: "investasi_daerah",
+    label: "08",
+    tag: "INVESTASI",
+  },
+  {
+    id: "technopark",
+    title: "Sukabumi Technopark",
+    desc: "Pusat Inovasi, Startup & Akademi Digital",
+    Icon: IconTechnopark,
+    gradient: "linear-gradient(135deg, #7B2FBE 0%, #3D1A6B 100%)",
+    glow: "rgba(123,47,190,0.5)",
+    particle: "rgba(168,85,247,0.8)",
+    slug: "sukabumi_technopark",
+    label: "09",
+    tag: "INOVASI",
+  },
 ];
 
 const STATS = [
-  { value: "140+", label: "Slide Paparan" },
-  { value: "6",    label: "Bidang Strategis" },
-  { value: "2025", label: "Tahun Mulai" },
+  { value: `${totalSlides}`, label: "Slide Paparan", icon: Presentation },
+  { value: `${categories.length}`, label: "Bidang Strategis", icon: CheckSquare },
+  { value: "2025", label: "Tahun Mulai", icon: Calendar },
 ];
 
 export default function Home() {
@@ -356,7 +426,7 @@ export default function Home() {
             <Image src="/Foto Walikota_Wakil.png" alt="Kepala Daerah" width={700} height={520} priority style={{ width:"100%", height:"auto", display:"block", filter:"contrast(1.04) saturate(0.95)" }} />
             <div style={{ position:"absolute", bottom:0, left:0, right:0, height:"45%", background:"linear-gradient(transparent,rgba(6,10,20,0.85))" }} />
             <div style={{ position:"absolute", bottom:"1.25rem", left:"1.25rem", right:"1.25rem", display:"flex", gap:"0.65rem" }}>
-              {["H. Ayep Zaki, S.E — Wali Kota","H. Bobby Maulana — Wakil Wali Kota"].map((n, i) => (
+              {["H. Ayep Zaki, S.E — Wali Kota","Bobby Maulana — Wakil Wali Kota"].map((n, i) => (
                 <div key={i} style={{ flex:1, padding:"0.5rem 0.8rem", borderRadius:10, background:"rgba(6,10,20,0.75)", backdropFilter:"blur(12px)", border:"1px solid rgba(255,255,255,0.09)" }}>
                   <p style={{ fontSize:"0.7rem", fontWeight:700, color:"white", lineHeight:1.35 }}>{n}</p>
                 </div>

@@ -32,18 +32,21 @@ export default function LayoutOneGate({ title, subtitle, body, image }: LayoutPr
             
             {/* Input Pills (Left side of funnel) */}
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem", position: "absolute", left: 0, width: "30%", zIndex: 5 }}>
-              {items.slice(0, 2).map((item, i) => (
-                <motion.div 
-                  key={i}
-                  initial={{ x: -30, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  transition={{ delay: 0.1 * i }}
-                  style={{ ...GLASS_DARK, padding: "1rem", borderRadius: 16, borderLeft: `4px solid ${colors[i]}`, textAlign: "right" }}
-                >
-                  <div style={{ fontWeight: 850, color: "white", fontSize: "0.85rem", marginBottom: "0.25rem" }}>{parseBoldLabel(item).label}</div>
-                  <div style={{ fontSize: "0.7rem", color: TEXT_MUTED }}>{parseBoldLabel(item).rest.slice(0, 60)}...</div>
-                </motion.div>
-              ))}
+              {items.slice(0, 2).map((item, i) => {
+                const { label, rest } = parseBoldLabel(item);
+                return (
+                  <motion.div 
+                    key={i}
+                    initial={{ x: -30, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ delay: 0.1 * i }}
+                    style={{ ...GLASS_DARK, padding: "1rem", borderRadius: 16, borderLeft: `4px solid ${colors[i]}`, textAlign: "right" }}
+                  >
+                    <div style={{ fontWeight: 850, color: "white", fontSize: "0.85rem", marginBottom: "0.25rem" }}>{label}</div>
+                    <div style={{ fontSize: "0.7rem", color: TEXT_MUTED }}>{rest.slice(0, 60)}...</div>
+                  </motion.div>
+                );
+              })}
             </div>
 
             {/* Central Node */}
@@ -69,18 +72,21 @@ export default function LayoutOneGate({ title, subtitle, body, image }: LayoutPr
 
             {/* Output Pills (Right side) */}
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem", position: "absolute", right: 0, width: "30%", zIndex: 5 }}>
-              {items.slice(3, 5).map((item, i) => (
-                <motion.div 
-                  key={i}
-                  initial={{ x: 30, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  transition={{ delay: 0.1 * (i + 3) }}
-                  style={{ ...GLASS_DARK, padding: "1rem", borderRadius: 16, borderRight: `4px solid ${colors[i+3]}`, textAlign: "left" }}
-                >
-                  <div style={{ fontWeight: 850, color: "white", fontSize: "0.85rem", marginBottom: "0.25rem" }}>{parseBoldLabel(item).label}</div>
-                  <div style={{ fontSize: "0.7rem", color: TEXT_MUTED }}>{parseBoldLabel(item).rest.slice(0, 60)}...</div>
-                </motion.div>
-              ))}
+              {items.slice(3, 5).map((item, i) => {
+                const { label, rest } = parseBoldLabel(item);
+                return (
+                  <motion.div 
+                    key={i}
+                    initial={{ x: 30, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ delay: 0.1 * (i + 3) }}
+                    style={{ ...GLASS_DARK, padding: "1rem", borderRadius: 16, borderRight: `4px solid ${colors[i+3] || colors[0]}`, textAlign: "left" }}
+                  >
+                    <div style={{ fontWeight: 850, color: "white", fontSize: "0.85rem", marginBottom: "0.25rem" }}>{label}</div>
+                    <div style={{ fontSize: "0.7rem", color: TEXT_MUTED }}>{rest.slice(0, 60)}...</div>
+                  </motion.div>
+                );
+              })}
             </div>
 
             {/* Connecting Lines / Arrows */}
@@ -93,8 +99,14 @@ export default function LayoutOneGate({ title, subtitle, body, image }: LayoutPr
           </div>
 
           <div style={{ ...GLASS_DARK, padding: "1.5rem", borderRadius: 24, borderLeft: `6px solid ${GOLD}` }}>
-             <h4 style={{ margin: 0, color: GOLD, fontSize: "1.1rem", fontWeight: 900, marginBottom: "0.5rem" }}>{parseBoldLabel(items[2]).label}</h4>
-             <p style={{ margin: 0, fontSize: "0.9rem", color: "white", opacity: 0.8, lineHeight: 1.5 }}><InlineText text={parseBoldLabel(items[2]).rest} /></p>
+             {items[2] ? (
+               <>
+                 <h4 style={{ margin: 0, color: GOLD, fontSize: "1.1rem", fontWeight: 900, marginBottom: "0.5rem" }}>{parseBoldLabel(items[2]).label}</h4>
+                 <p style={{ margin: 0, fontSize: "0.9rem", color: "white", opacity: 0.8, lineHeight: 1.5 }}><InlineText text={parseBoldLabel(items[2]).rest} /></p>
+               </>
+             ) : (
+               <p style={{ margin: 0, fontSize: "0.9rem", color: TEXT_MUTED }}>{body.replace(/<.*?>/g, "").slice(0, 100)}...</p>
+             )}
           </div>
         </div>
 

@@ -54,6 +54,15 @@ import LayoutCrisisMitigation from "./layouts/LayoutCrisisMitigation";
 import LayoutMediaTraining from "./layouts/LayoutMediaTraining";
 import LayoutInvestment from "./layouts/LayoutInvestment";
 import LayoutKPIMatrix from "./layouts/LayoutKPIMatrix";
+import LayoutStrategicPipeline from "./layouts/LayoutStrategicPipeline";
+import LayoutSWOT from "./layouts/LayoutSWOT";
+import LayoutMasterNarrative from "./layouts/LayoutMasterNarrative";
+import LayoutMicroSegmentation from "./layouts/LayoutMicroSegmentation";
+import LayoutRoadmap from "./layouts/LayoutRoadmap";
+import LayoutFeedbackLoop from "./layouts/LayoutFeedbackLoop";
+import LayoutOPDSync from "./layouts/LayoutOPDSync";
+import LayoutCaseStudy from "./layouts/LayoutCaseStudy";
+import LayoutHeroStrakom from "./layouts/LayoutHeroStrakom";
 
 interface Slide {
   id: number;
@@ -64,7 +73,7 @@ interface Slide {
   layout: string;
   icon?: string;
   image?: string;
-  features?: {title: string, desc: string}[];
+  features?: any[];
   metrics?: {label: string, value: string, unit?: string, trend?: string}[];
   highlights?: string[];
 }
@@ -176,6 +185,14 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
       case "sentiment": return <LayoutSentiment {...props} />;
       case "service": return <LayoutService {...props} />;
       case "bigdata": return <LayoutBigData {...props} />;
+      case "swot": return <LayoutSWOT {...props} />;
+      case "master_narrative": return <LayoutMasterNarrative {...props} />;
+      case "micro_segmentation": return <LayoutMicroSegmentation {...props} />;
+      case "roadmap": return <LayoutRoadmap {...props} />;
+      case "feedback_loop": return <LayoutFeedbackLoop {...props} />;
+      case "opd_sync": return <LayoutOPDSync {...props} />;
+      case "case_study": return <LayoutCaseStudy {...props} />;
+      case "hero_strakom": return <LayoutHeroStrakom {...props} />;
       case "challenges": return <LayoutChallenges {...props} />;
       case "budget": return <LayoutBudget {...props} />;
       case "resources": return <LayoutResources {...props} />;
@@ -209,6 +226,7 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
       case "media_training": return <LayoutMediaTraining {...props} />;
       case "investment": return <LayoutInvestment {...props} />;
       case "kpi_matrix": return <LayoutKPIMatrix {...props} />;
+      case "strategic_pipeline": return <LayoutStrategicPipeline {...props} />;
       case "cards":
       case "spokesperson":
         return <LayoutCards {...props} />;

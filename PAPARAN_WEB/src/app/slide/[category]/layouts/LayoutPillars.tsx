@@ -65,7 +65,13 @@ export default function LayoutPillars({ title, subtitle, body, features, highlig
             <motion.div 
               key={i} 
               variants={itemVariant}
-              whileHover={{ scale: 1.04, y: -5, borderColor: `${GOLD}55`, backgroundColor: "rgba(255,255,255,0.08)" }}
+              whileHover={{ 
+                scale: 1.04, 
+                y: -5, 
+                borderColor: `${GOLD}55`, 
+                backgroundColor: "rgba(255,255,255,0.08)",
+                boxShadow: `0 20px 60px ${PRIMARY}22`
+              }}
               style={{ 
                 ...GLASS_DARK,
                 flex: "1 1 240px", 
@@ -79,11 +85,16 @@ export default function LayoutPillars({ title, subtitle, body, features, highlig
                 gap: "1.5rem",
                 border: "1px solid rgba(255,255,255,0.05)",
                 position: "relative",
-                overflow: "hidden"
+                overflow: "hidden",
+                transition: "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)"
               }}
             >
-              <div style={{ position: "absolute", top: 0, left: "10%", right: "10%", height: "3px", background: `linear-gradient(90deg, transparent, ${PRIMARY}, transparent)` }} />
-              <div style={{ width: 80, height: 80, borderRadius: "50%", background: `linear-gradient(135deg, ${PRIMARY}, #C41E5B)`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: `0 15px 35px ${PRIMARY}44`, border: `2px solid ${GOLD}44` }}>
+              {/* Background Glow */}
+              <div style={{ position: "absolute", top: "-50%", left: "-50%", width: "200%", height: "200%", background: `radial-gradient(circle at center, ${PRIMARY}11 0%, transparent 60%)`, zIndex: 0, opacity: 0.5 }} />
+              
+              <div style={{ position: "absolute", top: 0, left: "10%", right: "10%", height: "3px", background: `linear-gradient(90deg, transparent, ${PRIMARY}, transparent)`, zIndex: 1 }} />
+              
+              <div style={{ width: 80, height: 80, borderRadius: "24px", background: `linear-gradient(135deg, ${PRIMARY}, #C41E5B)`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: `0 15px 35px ${PRIMARY}44`, border: `2px solid ${GOLD}22`, zIndex: 1, transform: "rotate(-5deg)" }}>
                 <PIcon size={36} color="white" />
               </div>
               <div style={{ zIndex: 1 }}>

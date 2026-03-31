@@ -1,6 +1,7 @@
 import React from "react";
 
 export function parseBoldLabel(text: string): { label: string; rest: string } {
+  if (!text) return { label: "", rest: "" };
   const m = text.match(/^<b>(.*?)<\/b>([\s\S]*)/);
   if (m) return { label: m[1].replace(/<.*?>/g, ""), rest: m[2].trim().replace(/^:\s*/, "") };
   const m2 = text.match(/^\*\*(.*?)\*\*([\s\S]*)/);

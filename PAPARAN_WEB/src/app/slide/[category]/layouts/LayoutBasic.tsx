@@ -52,7 +52,7 @@ const AnimatedLogo = ({ src, size = 80 }: { src: string; size?: number }) => {
           overflow: "hidden", 
           border: `3px solid ${PRIMARY}`, 
           boxShadow: `0 0 30px ${PRIMARY}55, inset 0 0 20px ${PRIMARY}44`, 
-          background: "rgba(0,0,0,0.6)", 
+          background: "rgba(255,255,255,0.7)", 
           display: "flex", 
           alignItems: "center", 
           justifyContent: "center", 
@@ -104,19 +104,19 @@ export function LayoutHero({ title, subtitle, body, logo }: LayoutProps) {
           initial={{ opacity: 0, width: 0 }}
           animate={{ opacity: 1, width: "auto" }}
           transition={{ delay: 0.4, duration: 0.6 }}
-          style={{ display: "inline-flex", alignItems: "center", gap: "0.8rem", background: "rgba(0,0,0,0.5)", border: `1px solid ${PRIMARY}55`, padding: "0.8rem 2rem", borderRadius: 12, marginBottom: "2.5rem", backdropFilter: "blur(10px)", boxShadow: `0 0 20px ${PRIMARY}22`, borderTop: `4px solid ${PRIMARY}` }}
+          style={{ display: "inline-flex", alignItems: "center", gap: "0.8rem", background: "rgba(255,255,255,0.6)", border: `1px solid ${PRIMARY}55`, padding: "0.8rem 2rem", borderRadius: 12, marginBottom: "2.5rem", backdropFilter: "blur(10px)", boxShadow: `0 0 20px ${PRIMARY}22`, borderTop: `4px solid ${PRIMARY}` }}
         >
           <div style={{ width: 8, height: 8, borderRadius: "50%", background: PRIMARY }}>
             <motion.div animate={{ scale: [1, 2, 1], opacity: [1, 0, 1] }} transition={{ repeat: Infinity, duration: 2 }} style={{ width: "100%", height: "100%", borderRadius: "50%", background: PRIMARY }} />
           </div>
-          <span style={{ fontSize: "0.9rem", fontWeight: 950, letterSpacing: "0.3em", color: "white", textTransform: "uppercase" }}>{subtitle}</span>
+          <span style={{ fontSize: "0.9rem", fontWeight: 950, letterSpacing: "0.3em", color: TEXT_MAIN, textTransform: "uppercase" }}>{subtitle}</span>
         </motion.div>
       </div>
 
       <h1 style={{
         fontSize: "clamp(2.5rem, 6.5vw, 5.5rem)",
         fontWeight: 1000,
-        color: "white",
+        color: TEXT_MAIN,
         lineHeight: 1,
         marginBottom: "2.5rem",
         letterSpacing: "-0.05em",
@@ -176,7 +176,7 @@ export function LayoutClosing({ title, subtitle, body, logo }: LayoutProps) {
         <div style={{ position: "absolute", top: isMobile ? 10 : 30, right: isMobile ? 10 : 40, zIndex: 10 }}>
           <div style={{ display: "flex", alignItems: "center", gap: "1.25rem" }}>
             <div style={{ textAlign: "right" }}>
-              <div style={{ fontSize: "0.6rem", fontWeight: 950, color: "white", letterSpacing: "0.2em", opacity: 0.5 }}>PEMERINTAH KOTA</div>
+              <div style={{ fontSize: "0.6rem", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "0.2em", opacity: 0.5 }}>PEMERINTAH KOTA</div>
               <div style={{ fontSize: "0.9rem", fontWeight: 1000, color: GOLD, letterSpacing: "0.1em" }}>SUKABUMI</div>
             </div>
             <AnimatedLogo src={logo || "/Logo_Sukabumi.png"} size={isMobile ? 40 : 60} />
@@ -186,7 +186,7 @@ export function LayoutClosing({ title, subtitle, body, logo }: LayoutProps) {
         <h2 style={{
           fontSize: isMobile ? "2.2rem" : "clamp(2.8rem, 6.5vw, 4.8rem)",
           fontWeight: 1000,
-          color: "white",
+          color: TEXT_MAIN,
           marginBottom: "2.5rem",
           letterSpacing: "-0.04em",
           lineHeight: 1,
@@ -225,7 +225,7 @@ export function LayoutClosing({ title, subtitle, body, logo }: LayoutProps) {
 
           <div style={{ textAlign: isMobile ? "center" : "left" }}>
             <div style={{ fontSize: "0.75rem", color: TEXT_MUTED, fontWeight: 900, letterSpacing: "0.15em", marginBottom: "0.5rem" }}>APPROVED BY AUTHORITY</div>
-            <div style={{ fontSize: "1.15rem", color: "white", fontWeight: 1000 }}>Pemerintah Kota Sukabumi</div>
+            <div style={{ fontSize: "1.15rem", color: TEXT_MAIN, fontWeight: 1000 }}>Pemerintah Kota Sukabumi</div>
           </div>
         </div>
 
@@ -254,7 +254,7 @@ export function LayoutResources({ title, subtitle, body }: LayoutProps) {
       style={{ height: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center" }}
     >
       <p style={{ fontSize: "0.85rem", fontWeight: 900, letterSpacing: "0.25em", color: GOLD, textTransform: "uppercase", marginBottom: "1.25rem" }}>{subtitle}</p>
-      <h2 style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)", fontWeight: 950, color: "white", marginBottom: "4rem", letterSpacing: "-0.03em" }}>{title}</h2>
+      <h2 style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)", fontWeight: 950, color: TEXT_MAIN, marginBottom: "4rem", letterSpacing: "-0.03em" }}>{title}</h2>
 
       <div style={{ display: "flex", gap: "2.5rem", flexWrap: "wrap", justifyContent: "center" }}>
         {/* PDF Link */}
@@ -267,7 +267,7 @@ export function LayoutResources({ title, subtitle, body }: LayoutProps) {
             <FileDown size={36} color={GOLD} />
           </div>
           <div>
-            <div style={{ fontWeight: 900, fontSize: "1.25rem", color: "white", marginBottom: "0.5rem", letterSpacing: "0.02em" }}>PDF RESMI (HD)</div>
+            <div style={{ fontWeight: 900, fontSize: "1.25rem", color: TEXT_MAIN, marginBottom: "0.5rem", letterSpacing: "0.02em" }}>PDF RESMI (HD)</div>
             <div style={{ fontSize: "0.85rem", color: TEXT_MUTED, fontWeight: 500 }}>Download Salinan Perda Asli</div>
           </div>
         </motion.a>
@@ -282,7 +282,7 @@ export function LayoutResources({ title, subtitle, body }: LayoutProps) {
             <Eye size={36} color={PRIMARY} />
           </div>
           <div>
-            <div style={{ fontWeight: 900, fontSize: "1.25rem", color: "white", marginBottom: "0.5rem", letterSpacing: "0.02em" }}>FULL MARKDOWN</div>
+            <div style={{ fontWeight: 900, fontSize: "1.25rem", color: TEXT_MAIN, marginBottom: "0.5rem", letterSpacing: "0.02em" }}>FULL MARKDOWN</div>
             <div style={{ fontSize: "0.85rem", color: TEXT_MUTED, fontWeight: 500 }}>Lihat Versi Text (Digital)</div>
           </div>
         </motion.a>
@@ -304,7 +304,7 @@ export function LayoutCards({ title, subtitle, body, features, highlights }: Lay
   return (
     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.2em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-      <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 900, color: "white", marginBottom: "2.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
+      <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "2.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
 
       {body && (!features && !highlights) && !body.trim().startsWith("<ul") && (
         <div style={{ fontSize: "1.1rem", color: TEXT_MUTED, marginBottom: "2rem", lineHeight: 1.6, maxWidth: "800px" }}>

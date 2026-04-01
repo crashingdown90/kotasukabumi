@@ -87,7 +87,7 @@ export default function LayoutKPIMatrix({ title, subtitle, features }: LayoutPro
       {/* HEADER */}
       <div style={{ textAlign: "center" }}>
         <p style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.6rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 950, color: "white", letterSpacing: "-0.04em", margin: 0 }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.04em", margin: 0 }}>{title}</h2>
       </div>
 
       {/* KPI GRID MATRIX */}
@@ -126,7 +126,7 @@ export default function LayoutKPIMatrix({ title, subtitle, features }: LayoutPro
                    <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1.25rem 1.5rem", background: "rgba(255,255,255,0.03)", borderRadius: 18, border: "1px solid rgba(255,255,255,0.03)" }}>
                       <div style={{ fontSize: "0.9rem", color: TEXT_MAIN, fontWeight: 600 }}>{item.label}</div>
                       <div style={{ display: "flex", alignItems: "baseline", gap: "4px" }}>
-                         <span style={{ fontSize: "1.2rem", fontWeight: 1000, color: "white" }}>{item.target}</span>
+                         <span style={{ fontSize: "1.2rem", fontWeight: 1000, color: TEXT_MAIN }}>{item.target}</span>
                          <span style={{ fontSize: "0.7rem", fontWeight: 800, color: cat.color }}>{item.unit}</span>
                       </div>
                    </div>
@@ -146,7 +146,7 @@ export default function LayoutKPIMatrix({ title, subtitle, features }: LayoutPro
         >
            <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
               <div style={{ width: 12, height: 12, borderRadius: "50%", background: "#10B981", boxShadow: "0 0 10px #10B981" }} />
-              <div style={{ fontSize: "0.8rem", fontWeight: 800, color: "white" }}>ALL SYSTEMS OPERATIONAL</div>
+              <div style={{ fontSize: "0.8rem", fontWeight: 800, color: TEXT_MAIN }}>ALL SYSTEMS OPERATIONAL</div>
            </div>
            <div style={{ display: "flex", gap: "3rem" }}>
               <div style={{ textAlign: "center" }}>

@@ -25,7 +25,7 @@ export default function LayoutSentimentPremium({ title, subtitle, body }: Layout
     <div style={{ height: "100%", display: "flex", flexDirection: "column", gap: "2rem", animation: "animate-up 0.8s ease-out" }}>
       <div>
         <p style={{ fontSize: "0.8rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.7rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
       </div>
 
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem", flex: 1, minHeight: 0 }}>
@@ -36,7 +36,7 @@ export default function LayoutSentimentPremium({ title, subtitle, body }: Layout
           <div style={{ flex: 1.2, ...GLASS_DARK, borderRadius: 32, position: "relative", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "2rem", border: "1px solid rgba(255,255,255,0.05)" }}>
             <div style={{ position: "absolute", top: 24, left: 24, display: "flex", alignItems: "center", gap: "0.8rem" }}>
                <Target size={20} color={GOLD} />
-               <div style={{ fontSize: "0.75rem", fontWeight: 900, color: "white", letterSpacing: "0.1em" }}>TARGET SENTIMEN POSITIF: 85%</div>
+               <div style={{ fontSize: "0.75rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.1em" }}>TARGET SENTIMEN POSITIF: 85%</div>
             </div>
 
             {/* Gauge Simulation */}
@@ -67,7 +67,7 @@ export default function LayoutSentimentPremium({ title, subtitle, body }: Layout
                
                {/* Center Value */}
                <div style={{ position: "absolute", bottom: "10%", left: "50%", transform: "translateX(-50%)", textAlign: "center" }}>
-                  <div style={{ fontSize: "3.5rem", fontWeight: 1000, color: "white", lineHeight: 1 }}>72%</div>
+                  <div style={{ fontSize: "3.5rem", fontWeight: 1000, color: TEXT_MAIN, lineHeight: 1 }}>72%</div>
                   <div style={{ fontSize: "0.8rem", fontWeight: 900, color: "#10B981", letterSpacing: "0.2em", marginTop: "0.5rem" }}>SENTIMENT RATIO</div>
                </div>
             </div>
@@ -93,7 +93,7 @@ export default function LayoutSentimentPremium({ title, subtitle, body }: Layout
              </div>
              <div>
                 <div style={{ fontSize: "0.75rem", fontWeight: 900, color: GOLD, letterSpacing: "0.1em", marginBottom: "0.2rem" }}>OPTIMISME PUBLIK</div>
-                <div style={{ fontSize: "1.2rem", fontWeight: 950, color: "white" }}>Meningkat 12% dibanding bulan lalu</div>
+                <div style={{ fontSize: "1.2rem", fontWeight: 950, color: TEXT_MAIN }}>Meningkat 12% dibanding bulan lalu</div>
              </div>
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function LayoutSentimentPremium({ title, subtitle, body }: Layout
                       <LabelIcon size={22} color={color} />
                    </div>
                    <div style={{ flex: 1 }}>
-                      <div style={{ fontSize: "1.1rem", fontWeight: 900, color: "white", marginBottom: "0.3rem" }}>{label}</div>
+                      <div style={{ fontSize: "1.1rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.3rem" }}>{label}</div>
                       <p style={{ fontSize: "0.9rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.5, fontWeight: 500 }}>
                          <InlineText text={rest} />
                       </p>

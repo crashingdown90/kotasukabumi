@@ -31,7 +31,7 @@ export default function LayoutFeedbackLoop({ title, subtitle, body, features }: 
       {/* HEADER SECTION */}
       <div>
         <p style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.03em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.03em" }}>{title}</h2>
         <p style={{ fontSize: "1rem", color: TEXT_MUTED, maxWidth: "700px", marginTop: "1rem" }}>{body}</p>
       </div>
 
@@ -100,7 +100,7 @@ export default function LayoutFeedbackLoop({ title, subtitle, body, features }: 
                     <Icon size={32} color={i % 2 === 0 ? "white" : PRIMARY} />
                   </div>
                   <div style={{ ...GLASS_DARK, padding: "1.25rem", borderRadius: 20, border: "1px solid rgba(255,255,255,0.1)" }}>
-                     <h3 style={{ margin: 0, color: "white", fontSize: "1rem", fontWeight: 900, marginBottom: "0.25rem" }}>{step.title}</h3>
+                     <h3 style={{ margin: 0, color: TEXT_MAIN, fontSize: "1rem", fontWeight: 900, marginBottom: "0.25rem" }}>{step.title}</h3>
                      <p style={{ margin: 0, color: TEXT_MUTED, fontSize: "0.8rem", fontWeight: 700 }}>{step.desc}</p>
                   </div>
                </motion.div>

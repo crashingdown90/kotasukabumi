@@ -30,7 +30,7 @@ export default function LayoutAccountabilityDashboard({ title, subtitle, body, i
     <div style={{ height: "100%", display: "flex", flexDirection: "column", gap: "1.5rem", animation: "animate-up 0.8s ease-out" }}>
       <div>
         <p style={{ fontSize: "0.8rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 2.6rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 2.6rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
       </div>
 
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: "1.2fr 0.8fr", gap: "2rem", flex: 1, minHeight: 0 }}>
@@ -41,7 +41,7 @@ export default function LayoutAccountabilityDashboard({ title, subtitle, body, i
           {/* Top Panel: Metrics */}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1rem" }}>
              {[
-               { label: "TOTAL LAPORAN (SUPER)", value: "2.348", color: "white" },
+               { label: "TOTAL LAPORAN (SUPER)", value: "2.348", color: TEXT_MAIN },
                { label: "LAPORAN TERTANGANI", value: "1.812", color: "#10B981" },
                { label: "DLM PROSES (SLA)", value: "536", color: GOLD }
              ].map((stat, i) => (
@@ -64,11 +64,11 @@ export default function LayoutAccountabilityDashboard({ title, subtitle, body, i
              
              {/* Live Indicators Overlay */}
              <div style={{ position: "absolute", top: 20, right: 20, display: "flex", gap: "0.5rem" }}>
-                <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", background: "rgba(0,0,0,0.6)", padding: "0.4rem 0.8rem", borderRadius: 10, border: "1px solid rgba(255,255,255,0.1)" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", background: "rgba(255,255,255,0.7)", padding: "0.4rem 0.8rem", borderRadius: 10, border: "1px solid rgba(255,255,255,0.1)" }}>
                    <div style={{ width: 8, height: 8, borderRadius: "50%", background: "#10B981" }}>
                       <motion.div animate={{ scale: [1, 2, 1], opacity: [1, 0, 1] }} transition={{ repeat: Infinity, duration: 2 }} style={{ width: "100%", height: "100%", borderRadius: "50%", background: "#10B981" }} />
                    </div>
-                   <span style={{ fontSize: "0.6rem", fontWeight: 900, color: "white", letterSpacing: "0.1em" }}>SYSTEM ONLINE</span>
+                   <span style={{ fontSize: "0.6rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.1em" }}>SYSTEM ONLINE</span>
                 </div>
              </div>
           </div>
@@ -119,7 +119,7 @@ export default function LayoutAccountabilityDashboard({ title, subtitle, body, i
                       <Icon size={20} color={color} />
                    </div>
                    <div>
-                      <div style={{ fontSize: "1rem", fontWeight: 900, color: "white", marginBottom: "0.25rem" }}>{label}</div>
+                      <div style={{ fontSize: "1rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.25rem" }}>{label}</div>
                       <p style={{ fontSize: "0.85rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.5, fontWeight: 500 }}>
                          <InlineText text={rest} />
                       </p>
@@ -140,7 +140,7 @@ export default function LayoutAccountabilityDashboard({ title, subtitle, body, i
                 <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.75rem" }}>
                    <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
                       <span style={{ fontSize: "0.75rem", fontWeight: 900, color: TEXT_MUTED }}>{i + 1}</span>
-                      <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "white" }}>{opd.name}</span>
+                      <span style={{ fontSize: "0.85rem", fontWeight: 700, color: TEXT_MAIN }}>{opd.name}</span>
                    </div>
                    <div style={{ fontSize: "0.85rem", fontWeight: 950, color: opd.color }}>{opd.rate}</div>
                 </div>

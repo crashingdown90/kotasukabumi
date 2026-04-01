@@ -66,7 +66,7 @@ export default function LayoutChart({ title, subtitle, body, metrics, features, 
     <motion.div initial="hidden" animate="show" variants={container} style={{ height: "100%", display: "flex", flexDirection: "column" }}>
       <div style={{ marginBottom: "2rem" }}>
         <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.6rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", fontWeight: 900, color: "white", letterSpacing: "-0.02em", margin: 0 }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "-0.02em", margin: 0 }}>{title}</h2>
         {body && !body.trim().startsWith("<ul") && (
            <p style={{ marginTop: "1rem", fontSize: "1.05rem", color: TEXT_MUTED, lineHeight: 1.6, maxWidth: "80%" }}>{body.replace(/<ul>.*?<\/ul>/, "").trim()}</p>
         )}
@@ -93,7 +93,7 @@ export default function LayoutChart({ title, subtitle, body, metrics, features, 
                     return (
                       <div style={{ ...GLASS_DARK, padding: "1.2rem", borderRadius: 16, border: `1px solid ${d.color}aa`, boxShadow: "0 20px 50px rgba(0,0,0,0.6)" }}>
                         <p style={{ color: d.color, fontWeight: 900, marginBottom: "0.4rem", fontSize: "0.95rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>{d.name}</p>
-                        <p style={{ color: "white", fontSize: "2rem", fontWeight: 900, lineHeight: 1 }}>{d.value}<span style={{ fontSize: "1rem", color: TEXT_MUTED, marginLeft: 2 }}>{d.suffix}</span></p>
+                        <p style={{ color: TEXT_MAIN, fontSize: "2rem", fontWeight: 900, lineHeight: 1 }}>{d.value}<span style={{ fontSize: "1rem", color: TEXT_MUTED, marginLeft: 2 }}>{d.suffix}</span></p>
                         {d.description && <p style={{ color: TEXT_MUTED, fontSize: "0.85rem", marginTop: "0.5rem", maxWidth: "200px" }}>{d.description}</p>}
                       </div>
                     );
@@ -144,7 +144,7 @@ export default function LayoutChart({ title, subtitle, body, metrics, features, 
                   </div>
                   <div>
                     <div style={{ color: matchMetric.color, fontSize: "0.75rem", fontWeight: 900, marginBottom: "0.2rem", textTransform: "uppercase", letterSpacing: "0.1em" }}>{label}</div>
-                    {metrics && data[i] && <div style={{ fontSize: "1.4rem", fontWeight: 900, color: "white", marginBottom: "0.4rem", letterSpacing: "-0.02em" }}>{data[i].value}{data[i].suffix}</div>}
+                    {metrics && data[i] && <div style={{ fontSize: "1.4rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.4rem", letterSpacing: "-0.02em" }}>{data[i].value}{data[i].suffix}</div>}
                     <div style={{ fontSize: "0.9rem", color: TEXT_MUTED, lineHeight: 1.6 }}>{rest}</div>
                   </div>
                 </div>

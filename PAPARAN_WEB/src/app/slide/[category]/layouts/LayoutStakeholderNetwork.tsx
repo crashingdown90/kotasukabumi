@@ -19,7 +19,7 @@ export default function LayoutStakeholderNetwork({ title, subtitle, body }: Layo
     <div style={{ height: "100%", display: "flex", flexDirection: "column", gap: "2rem", animation: "animate-up 0.8s ease-out" }}>
       <div>
         <p style={{ fontSize: "0.80rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.6rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
       </div>
 
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem", flex: 1, minHeight: 0 }}>
@@ -74,7 +74,7 @@ export default function LayoutStakeholderNetwork({ title, subtitle, body }: Layo
                    transition={{ duration: 3 + i, repeat: Infinity }}
                    style={{ 
                       position: "absolute", width: 60, height: 60, borderRadius: 16, 
-                      background: "rgba(0,0,0,0.6)", border: `1px solid ${color}44`,
+                      background: "rgba(255,255,255,0.7)", border: `1px solid ${color}44`,
                       display: "flex", alignItems: "center", justifyContent: "center", zIndex: 5
                    }}
                  >
@@ -102,7 +102,7 @@ export default function LayoutStakeholderNetwork({ title, subtitle, body }: Layo
                    borderLeft: `5px solid ${color}`, position: "relative"
                 }}
               >
-                <div style={{ fontSize: "1.1rem", fontWeight: 900, color: "white", marginBottom: "0.25rem" }}>{label}</div>
+                <div style={{ fontSize: "1.1rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.25rem" }}>{label}</div>
                 <p style={{ fontSize: "0.85rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.5, fontWeight: 500 }}>
                    <InlineText text={rest} />
                 </p>

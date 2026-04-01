@@ -46,7 +46,7 @@ export default function LayoutRapidResponse({ title, subtitle, body, features }:
               </motion.div>
               <span style={{ fontSize: "0.75rem", fontWeight: 900, letterSpacing: "0.22em", color: "#EF4444", textTransform: "uppercase" }}>{subtitle}</span>
             </motion.div>
-            <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 3rem)", fontWeight: 950, color: "white", letterSpacing: "-0.03em", margin: "0 0 1rem 0" }}>{title}</h2>
+            <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 3rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em", margin: "0 0 1rem 0" }}>{title}</h2>
             {body && <p style={{ fontSize: "1.05rem", color: TEXT_MUTED, lineHeight: 1.6, maxWidth: "800px", margin: 0 }}>{body}</p>}
          </div>
       </div>
@@ -67,7 +67,7 @@ export default function LayoutRapidResponse({ title, subtitle, body, features }:
                  <div style={{ width: 50, height: 50, borderRadius: 16, background: `rgba(255,183,3,0.1)`, display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid ${GOLD}44` }}>
                    <Users size={24} color={GOLD} />
                  </div>
-                 <h3 style={{ fontSize: "1.4rem", fontWeight: 900, color: "white", margin: 0 }}>{komando.title}</h3>
+                 <h3 style={{ fontSize: "1.4rem", fontWeight: 900, color: TEXT_MAIN, margin: 0 }}>{komando.title}</h3>
               </div>
               
               <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: "1.5rem" }}>
@@ -77,19 +77,19 @@ export default function LayoutRapidResponse({ title, subtitle, body, features }:
                  <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
                     <div style={{ display: "flex", alignItems: "center", gap: "1rem", background: "rgba(255,255,255,0.03)", padding: "1rem", borderRadius: 16, border: "1px solid rgba(255,255,255,0.05)" }}>
                        <div style={{ width: 40, height: 40, borderRadius: 12, background: "rgba(255,183,3,0.2)", display: "flex", alignItems: "center", justifyContent: "center" }}><Hexagon size={20} color={GOLD} /></div>
-                       <div><div style={{ fontSize: "0.8rem", color: TEXT_MUTED, fontWeight: 700 }}>Panglima Krisis</div><div style={{ fontSize: "1.1rem", color: "white", fontWeight: 900 }}>Wali Kota / Wakil</div></div>
+                       <div><div style={{ fontSize: "0.8rem", color: TEXT_MUTED, fontWeight: 700 }}>Panglima Krisis</div><div style={{ fontSize: "1.1rem", color: TEXT_MAIN, fontWeight: 900 }}>Wali Kota / Wakil</div></div>
                     </div>
                     
                     <div style={{ display: "flex", alignItems: "center", gap: "1rem", background: "rgba(255,255,255,0.03)", padding: "1rem", borderRadius: 16, border: "1px solid rgba(255,255,255,0.05)", marginLeft: "1.5rem" }}>
                        <div style={{ width: 40, height: 40, borderRadius: 12, background: "rgba(33,150,243,0.2)", display: "flex", alignItems: "center", justifyContent: "center" }}><Hexagon size={20} color="#2196F3" /></div>
-                       <div><div style={{ fontSize: "0.8rem", color: TEXT_MUTED, fontWeight: 700 }}>Koordinator Operasional</div><div style={{ fontSize: "1.1rem", color: "white", fontWeight: 900 }}>Sekretaris Daerah (Sekda)</div></div>
+                       <div><div style={{ fontSize: "0.8rem", color: TEXT_MUTED, fontWeight: 700 }}>Koordinator Operasional</div><div style={{ fontSize: "1.1rem", color: TEXT_MAIN, fontWeight: 900 }}>Sekretaris Daerah (Sekda)</div></div>
                     </div>
 
                     <div style={{ display: "flex", alignItems: "center", gap: "1.25rem", background: `linear-gradient(135deg, rgba(225,48,108,0.2) 0%, rgba(225,48,108,0.05) 100%)`, padding: "1.5rem", borderRadius: 20, border: `1px solid rgba(225,48,108,0.5)`, marginLeft: "3rem", boxShadow: "0 8px 32px rgba(225,48,108,0.25)", position: "relative" }}>
                        <div style={{ width: 50, height: 50, borderRadius: 14, background: `rgba(225,48,108,0.3)`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 0 20px rgba(225,48,108,0.4)" }}><Zap size={28} color="#E1306C" /></div>
                        <div>
                           <div style={{ fontSize: "0.85rem", color: "#E1306C", fontWeight: 950, letterSpacing: "0.1em", marginBottom: "4px" }}>ORKESTRATOR UTAMA KEDARURATAN INFORMASI</div>
-                          <div style={{ fontSize: "1.3rem", color: "white", fontWeight: 950, letterSpacing: "-0.02em" }}>Tim Khusus Sukabumi Media Center (SMC)</div>
+                          <div style={{ fontSize: "1.3rem", color: TEXT_MAIN, fontWeight: 950, letterSpacing: "-0.02em" }}>Tim Khusus Sukabumi Media Center (SMC)</div>
                        </div>
                        <motion.div animate={{ opacity: [0.3, 0.6, 0.3] }} transition={{ duration: 2, repeat: Infinity }} style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, borderRadius: 20, border: "2px solid rgba(225,48,108,0.3)" }} />
                     </div>
@@ -97,11 +97,11 @@ export default function LayoutRapidResponse({ title, subtitle, body, features }:
                     <div style={{ display: "flex", gap: "1rem", marginLeft: "1.5rem" }}>
                        <div style={{ display: "flex", alignItems: "center", gap: "1rem", background: "rgba(255,255,255,0.03)", padding: "1rem", borderRadius: 16, border: "1px solid rgba(255,255,255,0.05)", flex: 1 }}>
                           <div style={{ width: 40, height: 40, borderRadius: 12, background: "rgba(16,185,129,0.2)", display: "flex", alignItems: "center", justifyContent: "center" }}><Hexagon size={20} color="#10B981" /></div>
-                          <div><div style={{ fontSize: "0.8rem", color: TEXT_MUTED, fontWeight: 700 }}>Komandan Taktis</div><div style={{ fontSize: "1rem", color: "white", fontWeight: 900 }}>Kadiskominfo</div></div>
+                          <div><div style={{ fontSize: "0.8rem", color: TEXT_MUTED, fontWeight: 700 }}>Komandan Taktis</div><div style={{ fontSize: "1rem", color: TEXT_MAIN, fontWeight: 900 }}>Kadiskominfo</div></div>
                        </div>
                        <div style={{ display: "flex", alignItems: "center", gap: "1rem", background: "rgba(255,255,255,0.03)", padding: "1rem", borderRadius: 16, border: "1px solid rgba(255,255,255,0.05)", flex: 1 }}>
                           <div style={{ width: 40, height: 40, borderRadius: 12, background: "rgba(16,185,129,0.2)", display: "flex", alignItems: "center", justifyContent: "center" }}><Hexagon size={20} color="#10B981" /></div>
-                          <div><div style={{ fontSize: "0.8rem", color: TEXT_MUTED, fontWeight: 700 }}>Ahli Teknis</div><div style={{ fontSize: "1rem", color: "white", fontWeight: 900 }}>Kepala OPD Terkait</div></div>
+                          <div><div style={{ fontSize: "0.8rem", color: TEXT_MUTED, fontWeight: 700 }}>Ahli Teknis</div><div style={{ fontSize: "1rem", color: TEXT_MAIN, fontWeight: 900 }}>Kepala OPD Terkait</div></div>
                        </div>
                     </div>
                  </div>
@@ -125,13 +125,13 @@ export default function LayoutRapidResponse({ title, subtitle, body, features }:
               {jalur.metric && (
                  <div style={{ background: "#EF4444", padding: "4px 12px", borderRadius: 12, display: "flex", alignItems: "center", gap: "6px" }}>
                     <motion.div animate={{ opacity: [1, 0, 1] }} transition={{ duration: 1, repeat: Infinity }} style={{ width: 6, height: 6, borderRadius: "50%", background: "white" }} />
-                    <span style={{ fontSize: "0.75rem", fontWeight: 900, color: "white", letterSpacing: "0.05em", textTransform: "uppercase" }}>{jalur.metric}</span>
+                    <span style={{ fontSize: "0.75rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.05em", textTransform: "uppercase" }}>{jalur.metric}</span>
                  </div>
               )}
            </div>
            
            <div style={{ position: "relative", zIndex: 1, flex: 1, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-              <h3 style={{ fontSize: "1.2rem", fontWeight: 900, color: "white", marginBottom: "0.5rem" }}>{jalur.title}</h3>
+              <h3 style={{ fontSize: "1.2rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.5rem" }}>{jalur.title}</h3>
               <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.6, margin: 0 }}>
                  <InlineText text={jalur.desc} />
               </p>
@@ -156,7 +156,7 @@ export default function LayoutRapidResponse({ title, subtitle, body, features }:
            </div>
            
            <div style={{ position: "relative", zIndex: 1, flex: 1, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-              <h3 style={{ fontSize: "1.2rem", fontWeight: 900, color: "white", marginBottom: "0.5rem" }}>{otoritas.title}</h3>
+              <h3 style={{ fontSize: "1.2rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.5rem" }}>{otoritas.title}</h3>
               <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.6, margin: 0 }}>
                  <InlineText text={otoritas.desc} />
               </p>

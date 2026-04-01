@@ -48,7 +48,7 @@ export default function LayoutRoadmap({ title, subtitle, body, features }: Layou
            <div style={{ padding: "4px 12px", background: GOLD, borderRadius: 6, color: "black", fontSize: "0.7rem", fontWeight: 1000, letterSpacing: "0.1em" }}>STRATEGIC TIMELINE</div>
            <p style={{ fontSize: "0.85rem", fontWeight: 950, letterSpacing: "0.25em", color: PRIMARY, textTransform: "uppercase", margin: 0 }}>{subtitle}</p>
         </div>
-        <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 3rem)", fontWeight: 1000, color: "white", margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 3rem)", fontWeight: 1000, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
         <p style={{ fontSize: "1.05rem", color: TEXT_MUTED, maxWidth: "900px", marginTop: "1rem", lineHeight: 1.6, fontWeight: 500, borderLeft: `3px solid ${GOLD}44`, paddingLeft: "1.5rem" }}>{body}</p>
       </motion.div>
 
@@ -86,12 +86,12 @@ export default function LayoutRoadmap({ title, subtitle, body, features }: Layou
                    background: isActive ? "rgba(255,255,255,0.04)" : GLASS_DARK.background,
                    position: "relative"
                  }}>
-                    <h3 style={{ margin: 0, color: "white", fontSize: "1.2rem", fontWeight: 1000, marginBottom: "0.5rem", letterSpacing: "-0.01em" }}>{event.title}</h3>
+                    <h3 style={{ margin: 0, color: TEXT_MAIN, fontSize: "1.2rem", fontWeight: 1000, marginBottom: "0.5rem", letterSpacing: "-0.01em" }}>{event.title}</h3>
                     <h4 style={{ margin: 0, color: isActive ? "white" : TEXT_MUTED, fontSize: "0.85rem", fontWeight: 700, marginBottom: "1rem", opacity: isActive ? 1 : 0.7, lineHeight: 1.4 }}>{event.desc}</h4>
                     
                     <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
                        {event.points?.map((pt, j) => (
-                         <div key={j} style={{ display: "flex", alignItems: "flex-start", gap: "0.5rem", fontSize: "0.75rem", color: "white", fontWeight: 500, lineHeight: 1.4 }}>
+                         <div key={j} style={{ display: "flex", alignItems: "flex-start", gap: "0.5rem", fontSize: "0.75rem", color: TEXT_MAIN, fontWeight: 500, lineHeight: 1.4 }}>
                             <ChevronRight size={14} color={isActive ? GOLD : isDone ? PRIMARY : TEXT_MUTED} style={{ marginTop: 2, flexShrink: 0 }} /> 
                             <span style={{ opacity: 0.9 }}>{pt}</span>
                          </div>
@@ -116,12 +116,12 @@ export default function LayoutRoadmap({ title, subtitle, body, features }: Layou
                  paddingBottom: !isTop ? "20px" : "0",
                  zIndex: 2
                }}>
-                  <div style={{ color: "white", fontWeight: 1000, fontSize: "clamp(1.5rem, 2vw, 2.2rem)", letterSpacing: "0.05em", lineHeight: 1, textAlign: "center", textShadow: "0 4px 10px rgba(0,0,0,0.8)" }}>{event.year}</div>
+                  <div style={{ color: TEXT_MAIN, fontWeight: 1000, fontSize: "clamp(1.5rem, 2vw, 2.2rem)", letterSpacing: "0.05em", lineHeight: 1, textAlign: "center", textShadow: "0 4px 10px rgba(0,0,0,0.8)" }}>{event.year}</div>
                   <div style={{ 
                     marginTop: "0.75rem", padding: "4px 12px", borderRadius: 20, 
                     background: isDone ? `${PRIMARY}44` : isActive ? `${GOLD}44` : "rgba(0,0,0,0.4)",
                     border: `1px solid ${isDone ? PRIMARY : isActive ? GOLD : "rgba(255,255,255,0.1)"}`,
-                    color: "white",
+                    color: TEXT_MAIN,
                     fontSize: "0.65rem", fontWeight: 900, textTransform: "uppercase", letterSpacing: "0.05em", whiteSpace: "nowrap", backdropFilter: "blur(5px)"
                   }}>
                     {isDone ? "Target Achieved" : isActive ? "Active Phase" : "Future Horizon"}
@@ -194,13 +194,13 @@ export default function LayoutRoadmap({ title, subtitle, body, features }: Layou
         transition={{ delay: 1.5 }}
         style={{ display: "flex", justifyContent: "center", gap: "4rem", marginTop: "auto", paddingBottom: "1rem", zIndex: 10 }}
       >
-         <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "0.7rem", fontWeight: 900, color: "white", opacity: 0.8 }}>
+         <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "0.7rem", fontWeight: 900, color: TEXT_MAIN, opacity: 0.8 }}>
             <div style={{ width: 10, height: 10, borderRadius: "50%", background: PRIMARY, boxShadow: `0 0 10px ${PRIMARY}` }} /> LEGACY ACHIEVED
          </div>
-         <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "0.7rem", fontWeight: 900, color: "white", opacity: 0.8 }}>
+         <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "0.7rem", fontWeight: 900, color: TEXT_MAIN, opacity: 0.8 }}>
             <div style={{ width: 10, height: 10, borderRadius: "50%", background: GOLD, boxShadow: `0 0 20px ${GOLD}` }} /> ACTIVE STRATEGIC FOCUS
          </div>
-         <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "0.7rem", fontWeight: 900, color: "white", opacity: 0.8 }}>
+         <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "0.7rem", fontWeight: 900, color: TEXT_MAIN, opacity: 0.8 }}>
             <div style={{ width: 10, height: 10, borderRadius: "50%", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)" }} /> FUTURE HORIZON
          </div>
       </motion.div>

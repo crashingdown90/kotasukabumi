@@ -102,14 +102,14 @@ export default function LayoutHeroStrakom({ title, subtitle, body, logo }: Layou
            <div style={{ width: 6, height: 6, borderRadius: "50%", background: GOLD }}>
              <motion.div animate={{ scale: [1, 2, 1], opacity: [1, 0, 1] }} transition={{ repeat: Infinity, duration: 2 }} style={{ width: "100%", height: "100%", borderRadius: "50%", background: GOLD }} />
            </div>
-           <span style={{ fontSize: "0.8rem", fontWeight: 950, letterSpacing: "0.4em", color: "white", textTransform: "uppercase" }}>{subtitle}</span>
+           <span style={{ fontSize: "0.8rem", fontWeight: 950, letterSpacing: "0.4em", color: TEXT_MAIN, textTransform: "uppercase" }}>{subtitle}</span>
         </motion.div>
 
         {/* MAIN TITLE WITH ADVANCED ANIMATION */}
         <h1 style={{ 
           fontSize: "clamp(3rem, 8vw, 6.5rem)", 
           fontWeight: 1000, 
-          color: "white", 
+          color: TEXT_MAIN, 
           lineHeight: 0.9, 
           marginBottom: "2.5rem",
           letterSpacing: "-0.05em",

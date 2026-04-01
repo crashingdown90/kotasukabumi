@@ -56,10 +56,10 @@ export default function LayoutHierarchy({ title, subtitle, body }: LayoutProps) 
     <div style={{ height: "100%", display: "flex", flexDirection: "column", animation: "animate-up 0.8s ease-out" }}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.7rem" }}>{subtitle}</p>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: "3rem" }}>
-        <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.6rem)", fontWeight: 950, color: "white", letterSpacing: "-0.03em", margin: 0 }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.6rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em", margin: 0 }}>{title}</h2>
         <div style={{ padding: "0.75rem 1.5rem", borderRadius: 16, background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", gap: "1rem" }}>
            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Coat_of_arms_of_Sukabumi.png" alt="Sukabumi" style={{ width: 28, height: 35, objectFit: "contain" }} />
-           <div style={{ fontSize: "0.7rem", fontWeight: 900, color: "white", textTransform: "uppercase", letterSpacing: "0.1em" }}>PEMERINTAH KOTA SUKABUMI</div>
+           <div style={{ fontSize: "0.7rem", fontWeight: 900, color: TEXT_MAIN, textTransform: "uppercase", letterSpacing: "0.1em" }}>PEMERINTAH KOTA SUKABUMI</div>
         </div>
       </div>
 
@@ -82,7 +82,7 @@ export default function LayoutHierarchy({ title, subtitle, body }: LayoutProps) 
                 {/* Level Tag */}
                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "right", paddingRight: "1rem", borderRight: `2px solid ${lvl.color}33` }}>
                   <span style={{ fontSize: "0.6rem", fontWeight: 900, color: lvl.color, letterSpacing: "0.2em" }}>{lvl.category}</span>
-                  <span style={{ fontSize: "1.2rem", fontWeight: 950, color: "white" }}>{lvl.id}</span>
+                  <span style={{ fontSize: "1.2rem", fontWeight: 950, color: TEXT_MAIN }}>{lvl.id}</span>
                 </div>
 
                 {/* Main Card */}
@@ -95,7 +95,7 @@ export default function LayoutHierarchy({ title, subtitle, body }: LayoutProps) 
                     <lvl.icon size={28} color={lvl.color} />
                   </div>
                   <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: "1.1rem", fontWeight: 900, color: "white", marginBottom: "0.25rem" }}>{lvl.label}</div>
+                    <div style={{ fontSize: "1.1rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.25rem" }}>{lvl.label}</div>
                     <div style={{ fontSize: "0.85rem", color: GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "0.5rem" }}>{lvl.desc}</div>
                     {itemContent && (
                        <p style={{ fontSize: "0.85rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.5, opacity: 0.8 }}>

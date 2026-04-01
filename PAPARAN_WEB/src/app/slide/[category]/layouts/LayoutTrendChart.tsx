@@ -31,7 +31,7 @@ export default function LayoutTrendChart({ title, subtitle, body }: LayoutProps)
     if (active && payload && payload.length) {
       return (
         <div style={{ background: "rgba(10, 15, 30, 0.95)", border: `1px solid ${PRIMARY}`, padding: "1rem", borderRadius: "12px", boxShadow: `0 10px 20px rgba(0,0,0,0.5)` }}>
-          <p style={{ color: "white", fontWeight: 900, marginBottom: "0.5rem" }}>T+{label}</p>
+          <p style={{ color: TEXT_MAIN, fontWeight: 900, marginBottom: "0.5rem" }}>T+{label}</p>
           <p style={{ color: PRIMARY, fontSize: "0.85rem", margin: 0 }}>Volume Isu: {payload[0].value}</p>
           <p style={{ color: "#10B981", fontSize: "0.85rem", margin: 0 }}>Sentimen (+): {payload[1].value}%</p>
         </div>
@@ -44,12 +44,12 @@ export default function LayoutTrendChart({ title, subtitle, body }: LayoutProps)
     <div style={{ height: "100%", display: "flex", flexDirection: "column", animation: "animate-up 0.8s ease-out" }}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.7rem" }}>{subtitle}</p>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: "3rem" }}>
-         <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.6rem)", fontWeight: 950, color: "white", letterSpacing: "-0.03em", margin: 0 }}>{title}</h2>
+         <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.6rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em", margin: 0 }}>{title}</h2>
          <div style={{ display: "flex", gap: "1.5rem" }}>
-           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.8rem", color: "white", fontWeight: 700 }}>
+           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.8rem", color: TEXT_MAIN, fontWeight: 700 }}>
              <div style={{ width: 12, height: 12, borderRadius: 2, background: PRIMARY }} /> Viralitas Isu
            </div>
-           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.8rem", color: "white", fontWeight: 700 }}>
+           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.8rem", color: TEXT_MAIN, fontWeight: 700 }}>
              <div style={{ width: 12, height: 12, borderRadius: 2, background: "#10B981" }} /> Sentimen Positif
            </div>
          </div>
@@ -115,7 +115,7 @@ export default function LayoutTrendChart({ title, subtitle, body }: LayoutProps)
                    {isCritical && <BellRing size={16} color={PRIMARY} />}
                    <div style={{ fontSize: "1.1rem", fontWeight: 900, color: isCritical ? PRIMARY : GOLD, textTransform: "uppercase" }}>{label}</div>
                  </div>
-                 <p style={{ fontSize: "0.95rem", color: "white", fontWeight: 500, margin: 0, lineHeight: 1.5 }}><InlineText text={rest} /></p>
+                 <p style={{ fontSize: "0.95rem", color: TEXT_MAIN, fontWeight: 500, margin: 0, lineHeight: 1.5 }}><InlineText text={rest} /></p>
                </motion.div>
              );
            })}

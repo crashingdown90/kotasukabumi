@@ -25,7 +25,7 @@ export default function LayoutMap({ title, subtitle, body }: LayoutProps) {
     >
       <div style={{ marginBottom: "2.5rem" }}>
         <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.6rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", fontWeight: 950, color: "white", letterSpacing: "-0.03em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
       </div>
       
       <div style={{ display: "grid", gridTemplateColumns: "3fr 2fr", gap: "2.5rem", flex: 1, minHeight: 0 }} className="feature-grid">
@@ -64,7 +64,7 @@ export default function LayoutMap({ title, subtitle, body }: LayoutProps) {
               />
               <span style={{ fontSize: "0.8rem", fontWeight: 900, color: GOLD, letterSpacing: "0.15em" }}>LIVE GEOSPATIAL</span>
             </div>
-            <div style={{ fontSize: "1.1rem", color: "white", fontWeight: 900 }}>Kota Sukabumi Area</div>
+            <div style={{ fontSize: "1.1rem", color: TEXT_MAIN, fontWeight: 900 }}>Kota Sukabumi Area</div>
             <div style={{ fontSize: "0.8rem", color: TEXT_MUTED, fontWeight: 500 }}>Ref: GIS Data Center 2026</div>
           </motion.div>
         </motion.div>
@@ -80,7 +80,7 @@ export default function LayoutMap({ title, subtitle, body }: LayoutProps) {
               whileHover={{ x: 8, backgroundColor: "rgba(255,255,255,0.03)" }}
               style={{ ...GLASS_DARK, borderRadius: 20, padding: "1.4rem 1.8rem", borderLeft: `6px solid ${m.color}`, border: "1px solid rgba(255,255,255,0.05)", cursor: "default" }}
             >
-              <div style={{ fontWeight: 900, fontSize: "1.1rem", color: "white", marginBottom: "0.4rem", letterSpacing: "0.01em" }}>{m.label}</div>
+              <div style={{ fontWeight: 900, fontSize: "1.1rem", color: TEXT_MAIN, marginBottom: "0.4rem", letterSpacing: "0.01em" }}>{m.label}</div>
               <div style={{ fontSize: "0.9rem", color: TEXT_MUTED, lineHeight: 1.7, fontWeight: 500 }}>{m.rest}</div>
             </motion.div>
           ))}

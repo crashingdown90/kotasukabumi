@@ -20,7 +20,7 @@ export default function LayoutCommandMatrix({ title, subtitle, body }: LayoutPro
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
         <div>
           <p style={{ fontSize: "0.80rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.6rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
+          <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
         </div>
       </div>
 
@@ -62,7 +62,7 @@ export default function LayoutCommandMatrix({ title, subtitle, body }: LayoutPro
                        </div>
                        <div>
                           <div style={{ fontSize: "0.75rem", fontWeight: 800, color: TEXT_MUTED, letterSpacing: "0.1em", marginBottom: "0.2rem" }}>LEVEL {4 - i}</div>
-                          <div style={{ fontSize: "1.1rem", fontWeight: 900, color: "white" }}>{label}</div>
+                          <div style={{ fontSize: "1.1rem", fontWeight: 900, color: TEXT_MAIN }}>{label}</div>
                        </div>
                        
                        {/* Connection Line */}

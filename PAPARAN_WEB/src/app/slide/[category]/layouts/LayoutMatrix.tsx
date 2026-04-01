@@ -30,7 +30,7 @@ export default function LayoutMatrix({ title, subtitle, body }: LayoutProps) {
   return (
     <div style={{ height: "100%", display: "flex", flexDirection: "column", animation: "animate-up 0.8s ease-out" }}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.7rem" }}>{subtitle}</p>
-      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.6rem)", fontWeight: 950, color: "white", marginBottom: "3rem", letterSpacing: "-0.03em" }}>{title}</h2>
+      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.6rem)", fontWeight: 950, color: TEXT_MAIN, marginBottom: "3rem", letterSpacing: "-0.03em" }}>{title}</h2>
 
       <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: "2rem" }}>
         
@@ -73,7 +73,7 @@ export default function LayoutMatrix({ title, subtitle, body }: LayoutProps) {
                    <div style={{ width: 44, height: 44, borderRadius: 12, background: "rgba(0,0,0,0.4)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
                       <LIcon size={24} color={level.color} />
                    </div>
-                   <div style={{ fontSize: "1.1rem", fontWeight: 900, color: "white", letterSpacing: "-0.01em" }}>{parts[0]}</div>
+                   <div style={{ fontSize: "1.1rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "-0.01em" }}>{parts[0]}</div>
                  </div>
 
                  <div style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.6, fontWeight: 500 }}>
@@ -88,7 +88,7 @@ export default function LayoutMatrix({ title, subtitle, body }: LayoutProps) {
                  </div>
 
                  <div style={{ textAlign: "right" }}>
-                    <div style={{ display: "inline-flex", padding: "0.4rem 1rem", borderRadius: 100, background: "rgba(0,0,0,0.5)", border: `1px solid ${level.color}55`, fontSize: "0.75rem", fontWeight: 900, color: level.color }}>
+                    <div style={{ display: "inline-flex", padding: "0.4rem 1rem", borderRadius: 100, background: "rgba(255,255,255,0.6)", border: `1px solid ${level.color}55`, fontSize: "0.75rem", fontWeight: 900, color: level.color }}>
                        {parts[3]}
                     </div>
                  </div>

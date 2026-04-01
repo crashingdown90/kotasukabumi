@@ -29,7 +29,7 @@ export default function LayoutBenchmarking({ title, subtitle, body }: any) {
     >
       <div style={{ marginBottom: "2rem" }}>
         <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.2em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 900, color: "white", letterSpacing: "-0.02em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "-0.02em" }}>{title}</h2>
       </div>
 
       <div style={{ flex: 1, ...GLASS_DARK, borderRadius: 32, padding: "2rem", border: "1px solid rgba(255,255,255,0.05)", minHeight: "400px" }}>
@@ -51,7 +51,7 @@ export default function LayoutBenchmarking({ title, subtitle, body }: any) {
                   return (
                     <div style={{ ...GLASS_DARK, padding: "1rem", borderRadius: 12, border: `1px solid ${GOLD}44`, boxShadow: "0 10px 30px rgba(0,0,0,0.5)" }}>
                       <p style={{ color: GOLD, fontWeight: 900, marginBottom: "0.25rem", fontSize: "0.9rem" }}>{payload[0].payload.name}</p>
-                      <p style={{ color: "white", fontSize: "0.85rem" }}>{payload[0].payload.originalText}</p>
+                      <p style={{ color: TEXT_MAIN, fontSize: "0.85rem" }}>{payload[0].payload.originalText}</p>
                     </div>
                   );
                 }

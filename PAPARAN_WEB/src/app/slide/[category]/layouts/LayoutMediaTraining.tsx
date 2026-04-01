@@ -31,7 +31,7 @@ export default function LayoutMediaTraining({ title, subtitle, body }: LayoutPro
       {/* HEADER */}
       <div style={{ textAlign: "center" }}>
         <p style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.25em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 950, color: "white", letterSpacing: "-0.04em", display: "flex", alignItems: "center", justifyContent: "center", gap: "15px" }}>
+        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.04em", display: "flex", alignItems: "center", justifyContent: "center", gap: "15px" }}>
            <GraduationCap size={42} color={GOLD} /> 
            {title}
         </h2>
@@ -77,7 +77,7 @@ export default function LayoutMediaTraining({ title, subtitle, body }: LayoutPro
                </div>
 
                <div style={{ ...GLASS_DARK, padding: "1.75rem", borderRadius: 28, border: `1px solid ${GOLD}22`, textAlign: "center", width: "100%" }}>
-                  <h3 style={{ fontSize: "1.1rem", fontWeight: 900, color: "white", marginBottom: "1rem" }}>{label}</h3>
+                  <h3 style={{ fontSize: "1.1rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "1rem" }}>{label}</h3>
                   <p style={{ fontSize: "0.85rem", color: TEXT_MUTED, lineHeight: 1.6, marginBottom: "1.5rem" }}>{description}</p>
                   
                   <div style={{ height: 1, background: "rgba(255,183,3,0.15)", marginBottom: "1.25rem" }} />
@@ -88,13 +88,13 @@ export default function LayoutMediaTraining({ title, subtitle, body }: LayoutPro
                         <Target size={14} color={GOLD} />
                         <span style={{ fontSize: "0.7rem", fontWeight: 900, color: GOLD, textTransform: "uppercase", letterSpacing: "0.1em" }}>Target Skill</span>
                      </div>
-                     <div style={{ fontSize: "0.8rem", color: "white", fontWeight: 600 }}>{skillsMatch ? skillsMatch[1] : "Strategic Articulation"}</div>
+                     <div style={{ fontSize: "0.8rem", color: TEXT_MAIN, fontWeight: 600 }}>{skillsMatch ? skillsMatch[1] : "Strategic Articulation"}</div>
                      
                      <div style={{ display: "flex", alignItems: "center", gap: "8px", marginTop: "5px" }}>
                         <CheckCircle2 size={14} color="#10B981" />
                         <span style={{ fontSize: "0.7rem", fontWeight: 900, color: "#10B981", textTransform: "uppercase", letterSpacing: "0.1em" }}>Expected Outcome</span>
                      </div>
-                     <div style={{ fontSize: "0.8rem", color: "white", fontWeight: 600 }}>{outcomeMatch ? outcomeMatch[1] : "Public Trust Enhancement"}</div>
+                     <div style={{ fontSize: "0.8rem", color: TEXT_MAIN, fontWeight: 600 }}>{outcomeMatch ? outcomeMatch[1] : "Public Trust Enhancement"}</div>
                   </div>
                </div>
             </motion.div>
@@ -117,7 +117,7 @@ export default function LayoutMediaTraining({ title, subtitle, body }: LayoutPro
            <div style={{ width: 1, height: 40, background: "rgba(255,255,255,0.1)" }} />
            <div style={{ textAlign: "center" }}>
               <div style={{ fontSize: "0.65rem", color: TEXT_MUTED, fontWeight: 900, letterSpacing: "0.1em" }}>SIMULATION MODE</div>
-              <div style={{ fontSize: "1.25rem", fontWeight: 1000, color: "white" }}>FULL INTENSITY</div>
+              <div style={{ fontSize: "1.25rem", fontWeight: 1000, color: TEXT_MAIN }}>FULL INTENSITY</div>
            </div>
            <div style={{ width: 1, height: 40, background: "rgba(255,255,255,0.1)" }} />
            <div style={{ display: "flex", gap: "5px" }}>

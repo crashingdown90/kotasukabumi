@@ -8,31 +8,35 @@
   /* Core Palette */
   --primary: #8E1540;
   --primary-hover: #701032;
-  --primary-glow: rgba(142, 21, 64, 0.25);
-  --primary-glass: rgba(142, 21, 64, 0.08);
+  --primary-glow: rgba(142, 21, 64, 0.15);
+  --primary-glass: rgba(142, 21, 64, 0.05);
   --gold: #D4AF37;
-  --gold-light: rgba(212, 175, 55, 0.12);
-  --gold-glow: rgba(212, 175, 55, 0.3);
+  --gold-light: rgba(212, 175, 55, 0.1);
+  --gold-glow: rgba(212, 175, 55, 0.2);
 
-  /* Dark Executive Theme */
-  --dark-900: #080C18;
-  --dark-800: #0D1225;
-  --dark-700: #121933;
-  --dark-600: #1A2340;
-  --dark-500: #24304F;
-  --dark-400: #2E3D60;
+  /* Executive Light Theme Palette */
+  --slate-900: #0F172A;
+  --slate-800: #1E293B;
+  --slate-700: #334155;
+  --slate-600: #475569;
+  --slate-500: #64748B;
+  --slate-400: #94A3B8;
+  --slate-300: #CBD5E1;
+  --slate-200: #E2E8F0;
+  --slate-100: #F1F5F9;
+  --slate-50: #F8FAFC;
 
   /* Surfaces */
   --bg-color: #F8FAFC;
   --surface: #FFFFFF;
   --surface-elevated: #FFFFFF;
   --border-light: rgba(226, 232, 240, 0.8);
-  --border-glow: rgba(142, 21, 64, 0.2);
+  --border-glow: rgba(142, 21, 64, 0.12);
 
   /* Typography */
-  --text-main: #FFFFFF;
-  --text-muted: rgba(255, 255, 255, 0.75);
-  --text-subtle: rgba(255, 255, 255, 0.55);
+  --text-main: #0F172A;
+  --text-muted: #64748B;
+  --text-subtle: #94A3B8;
 
   /* Font */
   --font-display: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
@@ -41,8 +45,8 @@
   /* Shadows */
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
   --shadow-md: 0 4px 16px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04);
-  --shadow-lg: 0 16px 48px rgba(0,0,0,0.12), 0 4px 16px rgba(0,0,0,0.06);
-  --shadow-glow: 0 8px 32px rgba(142, 21, 64, 0.2);
+  --shadow-lg: 0 20px 50px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.03);
+  --shadow-glow: 0 8px 32px rgba(142, 21, 64, 0.08);
 
   /* Radius */
   --radius-xs: 8px;
@@ -76,7 +80,7 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
   color: var(--text-main);
-  font-weight: 800;
+  font-weight: 850;
   line-height: 1.2;
 }
 
@@ -88,6 +92,8 @@ a {
 button {
   font-family: var(--font-body);
   cursor: pointer;
+  border: none;
+  background: none;
 }
 
 /* ── GRADIENT UTILITIES ─────────────────────────────────── */
@@ -122,8 +128,8 @@ button {
 }
 
 @keyframes orb-pulse {
-  0%, 100% { transform: scale(1); opacity: 0.4; }
-  50%       { transform: scale(1.15); opacity: 0.6; }
+  0%, 100% { transform: scale(1); opacity: 0.15; }
+  50%       { transform: scale(1.1); opacity: 0.25; }
 }
 
 @keyframes slideInRight {
@@ -144,21 +150,23 @@ button {
 /* ── SCROLLBAR ──────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: rgba(142,21,64,0.3); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: rgba(142,21,64,0.5); }
+::-webkit-scrollbar-thumb { background: rgba(142,21,64,0.15); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(142,21,64,0.3); }
 
 /* ── GLASS CARD ─────────────────────────────────────────── */
 .glass {
   background: rgba(255,255,255,0.7);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.5);
+  border: 1px solid rgba(255,255,255,0.6);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.04);
 }
 
 .glass-dark {
-  background: rgba(8,12,24,0.7);
+  background: rgba(15, 23, 42, 0.85); /* For specific dark elements if needed */
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.08);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
 }
 
 /* ── CARD HOVER ─────────────────────────────────────────── */

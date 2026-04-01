@@ -54,7 +54,7 @@ export default function LayoutMasterNarrative({ title, subtitle, body, features 
 
       <div style={{ zIndex: 1, marginBottom: "2rem" }}>
         <p style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.03em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.03em" }}>{title}</h2>
         <p style={{ fontSize: "1.1rem", color: TEXT_MUTED, maxWidth: "700px", marginTop: "1rem", lineHeight: 1.6 }}>
            <InlineText text={body} />
         </p>
@@ -75,7 +75,7 @@ export default function LayoutMasterNarrative({ title, subtitle, body, features 
           }}
         >
           <Target size={48} color="white" />
-          <div style={{ color: "white", fontWeight: 950, fontSize: "1.5rem", textAlign: "center", marginTop: "0.5rem", letterSpacing: "0.1em" }}>IMAN</div>
+          <div style={{ color: TEXT_MAIN, fontWeight: 950, fontSize: "1.5rem", textAlign: "center", marginTop: "0.5rem", letterSpacing: "0.1em" }}>IMAN</div>
           <div style={{ color: GOLD, fontSize: "0.6rem", fontWeight: 900, letterSpacing: "0.2em", textTransform: "uppercase" }}>MASTER DNA</div>
           
           {/* Rotating Rings */}
@@ -137,7 +137,7 @@ export default function LayoutMasterNarrative({ title, subtitle, body, features 
                     <Icon size={32} color={activeIndex === i ? PRIMARY : GOLD} />
                   </div>
                   <div style={{ marginTop: "1rem", textAlign: "center" }}>
-                    <div style={{ color: "white", fontWeight: 900, fontSize: "1.1rem", textShadow: "0 2px 10px rgba(0,0,0,0.5)" }}>{pillar.title}</div>
+                    <div style={{ color: TEXT_MAIN, fontWeight: 900, fontSize: "1.1rem", textShadow: "0 2px 10px rgba(0,0,0,0.5)" }}>{pillar.title}</div>
                     <div style={{ color: TEXT_MUTED, fontSize: "0.75rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em" }}>{pillar.desc}</div>
                   </div>
                </motion.div>
@@ -169,12 +169,12 @@ export default function LayoutMasterNarrative({ title, subtitle, body, features 
                     </div>
                     <div>
                        <div style={{ fontSize: "0.7rem", fontWeight: 900, color: GOLD, letterSpacing: "0.15em" }}>TACTICAL SUB-NARRATIVE</div>
-                       <h4 style={{ fontSize: "1.5rem", fontWeight: 950, color: "white", margin: 0 }}>{pillars[activeIndex].title}</h4>
+                       <h4 style={{ fontSize: "1.5rem", fontWeight: 950, color: TEXT_MAIN, margin: 0 }}>{pillars[activeIndex].title}</h4>
                     </div>
                  </div>
                  <button 
                    onClick={() => setActiveIndex(null)}
-                   style={{ background: "rgba(255,255,255,0.05)", border: "none", color: "white", padding: "0.5rem", borderRadius: "50%", cursor: "pointer" }}
+                   style={{ background: "rgba(255,255,255,0.05)", border: "none", color: TEXT_MAIN, padding: "0.5rem", borderRadius: "50%", cursor: "pointer" }}
                  >
                    <X size={20} />
                  </button>
@@ -190,7 +190,7 @@ export default function LayoutMasterNarrative({ title, subtitle, body, features 
                   {pillars[activeIndex].points?.map((pt, j) => (
                     <div key={j} style={{ display: "flex", alignItems: "center", gap: "0.75rem", background: "rgba(255,255,255,0.03)", padding: "1rem", borderRadius: 16, border: "1px solid rgba(255,255,255,0.05)" }}>
                        <ChevronRight size={16} color={GOLD} />
-                       <span style={{ fontSize: "0.95rem", color: "white", fontWeight: 600 }}>{pt}</span>
+                       <span style={{ fontSize: "0.95rem", color: TEXT_MAIN, fontWeight: 600 }}>{pt}</span>
                     </div>
                   ))}
                </div>

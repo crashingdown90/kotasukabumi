@@ -36,7 +36,7 @@ export default function LayoutReputationShield({ title, subtitle, body }: Layout
     <div style={{ height: "100%", display: "flex", flexDirection: "column", gap: "2rem", animation: "animate-up 0.8s ease-out" }}>
       <div>
         <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.7rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
       </div>
 
       <div style={{ display: "grid", gridTemplateColumns: "1.1fr 0.9fr", gap: "2.5rem", flex: 1, minHeight: 0 }}>
@@ -55,7 +55,7 @@ export default function LayoutReputationShield({ title, subtitle, body }: Layout
             background: "radial-gradient(circle at center, rgba(142, 21, 64, 0.15) 0%, rgba(8, 12, 24, 0.9) 100%)"
           }}>
             <div style={{ position: "absolute", top: 24, left: 24, zIndex: 10, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-              <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "rgba(0,0,0,0.5)", padding: "0.5rem 1rem", borderRadius: 12, border: "1px solid rgba(255,255,255,0.1)", fontSize: "0.7rem", fontWeight: 900, color: GOLD, letterSpacing: "0.1em" }}>
+              <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "rgba(255,255,255,0.6)", padding: "0.5rem 1rem", borderRadius: 12, border: "1px solid rgba(255,255,255,0.1)", fontSize: "0.7rem", fontWeight: 900, color: GOLD, letterSpacing: "0.1em" }}>
                 <Network size={16} /> RADAR REPUTASI EKSEKUTIF
               </div>
               <div style={{ fontSize: "0.65rem", color: "rgba(255,255,255,0.5)", fontWeight: 700, marginLeft: "0.5rem" }}>
@@ -98,7 +98,7 @@ export default function LayoutReputationShield({ title, subtitle, body }: Layout
                </div>
                <div style={{ textAlign: "right" }}>
                   <div style={{ fontSize: "0.6rem", fontWeight: 900, color: TEXT_MUTED }}>ACCURACY</div>
-                  <div style={{ fontSize: "1.2rem", fontWeight: 950, color: "white" }}>99.8%</div>
+                  <div style={{ fontSize: "1.2rem", fontWeight: 950, color: TEXT_MAIN }}>99.8%</div>
                </div>
             </div>
 
@@ -111,7 +111,7 @@ export default function LayoutReputationShield({ title, subtitle, body }: Layout
                  <div style={{ width: 100, height: 100, borderRadius: "50%", background: "rgba(212, 175, 55, 0.1)", border: `2px solid ${GOLD}`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: `0 0 40px ${GOLD}33` }}>
                     <Shield size={50} color={GOLD} />
                  </div>
-                 <div style={{ fontSize: "0.8rem", fontWeight: 900, color: "white", letterSpacing: "0.2em" }}>SMC DEFENSE SYSTEM</div>
+                 <div style={{ fontSize: "0.8rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.2em" }}>SMC DEFENSE SYSTEM</div>
                </motion.div>
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function LayoutReputationShield({ title, subtitle, body }: Layout
           {/* Bottom: Statistics Chart */}
           <div style={{ flex: 0.8, ...GLASS_DARK, borderRadius: 28, padding: "1.5rem", border: "1px solid rgba(255,255,255,0.05)" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
-               <h4 style={{ margin: 0, fontSize: "0.9rem", fontWeight: 800, color: "white", display: "flex", alignItems: "center", gap: "0.6rem" }}>
+               <h4 style={{ margin: 0, fontSize: "0.9rem", fontWeight: 800, color: TEXT_MAIN, display: "flex", alignItems: "center", gap: "0.6rem" }}>
                  <TrendingUp size={18} color={GOLD} /> Public Trust Index Projection
                </h4>
                <div style={{ fontSize: "0.75rem", fontWeight: 900, color: GOLD }}>TARGET 2029: 85%</div>
@@ -171,7 +171,7 @@ export default function LayoutReputationShield({ title, subtitle, body }: Layout
                       {idx < 2 && <div style={{ width: 2, flex: 1, height: 30, background: `linear-gradient(to bottom, ${step.color}44, transparent)` }} />}
                     </div>
                     <div style={{ flex: 1, paddingTop: "0.2rem" }}>
-                      <div style={{ fontSize: "0.95rem", fontWeight: 850, color: "white", marginBottom: "0.2rem" }}>{step.title}</div>
+                      <div style={{ fontSize: "0.95rem", fontWeight: 850, color: TEXT_MAIN, marginBottom: "0.2rem" }}>{step.title}</div>
                       <div style={{ fontSize: "0.8rem", color: TEXT_MUTED, lineHeight: 1.4 }}>{step.desc}</div>
                     </div>
                   </div>
@@ -189,7 +189,7 @@ export default function LayoutReputationShield({ title, subtitle, body }: Layout
                  whileHover={{ x: 5, backgroundColor: "rgba(255,255,255,0.03)" }}
                  style={{ ...GLASS_DARK, borderRadius: 20, padding: "1.25rem", borderLeft: `4px solid ${i === 0 ? PRIMARY : i === 1 ? GOLD : "#10B981"}` }}
                >
-                 <div style={{ fontSize: "1rem", fontWeight: 900, color: "white", marginBottom: "0.4rem" }}>{label}</div>
+                 <div style={{ fontSize: "1rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.4rem" }}>{label}</div>
                  <p style={{ fontSize: "0.85rem", color: TEXT_MUTED, fontWeight: 500, margin: 0, lineHeight: 1.5 }}><InlineText text={rest} /></p>
                </motion.div>
              );

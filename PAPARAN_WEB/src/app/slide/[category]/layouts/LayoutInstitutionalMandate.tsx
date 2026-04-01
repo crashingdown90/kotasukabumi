@@ -21,11 +21,11 @@ export default function LayoutInstitutionalMandate({ title, subtitle, body, imag
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div>
           <p style={{ fontSize: "0.8rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.7rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
+          <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
         </div>
         <div style={{ padding: "0.8rem 1.5rem", borderRadius: 16, background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", gap: "1rem" }}>
             <Gavel size={20} color={GOLD} />
-            <div style={{ fontSize: "0.7rem", fontWeight: 900, color: "white", textTransform: "uppercase", letterSpacing: "0.15em" }}>Legitimasi Hukum Utama</div>
+            <div style={{ fontSize: "0.7rem", fontWeight: 900, color: TEXT_MAIN, textTransform: "uppercase", letterSpacing: "0.15em" }}>Legitimasi Hukum Utama</div>
         </div>
       </div>
 
@@ -61,12 +61,12 @@ export default function LayoutInstitutionalMandate({ title, subtitle, body, imag
               }}
             >
               <Scale size={60} color={GOLD} strokeWidth={1.5} />
-              <div style={{ fontSize: "1.1rem", fontWeight: 950, color: "white", marginTop: "1rem", letterSpacing: "0.1em", textAlign: "center" }}>
+              <div style={{ fontSize: "1.1rem", fontWeight: 950, color: TEXT_MAIN, marginTop: "1rem", letterSpacing: "0.1em", textAlign: "center" }}>
                  MANDAT<br/>HUKUM
               </div>
               <div style={{ position: "absolute", bottom: -50, width: "150%", textAlign: "center" }}>
                  <div style={{ fontSize: "0.7rem", fontWeight: 900, color: TEXT_MUTED, letterSpacing: "0.2em", marginBottom: "0.5rem" }}>NOMOR REGISTRASI NEGARA</div>
-                 <div style={{ fontSize: "1rem", fontWeight: 950, color: "white", fontFamily: "monospace", textShadow: `0 0 10px ${GOLD}44` }}>180.45/Kep.210-Huk/2026</div>
+                 <div style={{ fontSize: "1rem", fontWeight: 950, color: TEXT_MAIN, fontFamily: "monospace", textShadow: `0 0 10px ${GOLD}44` }}>180.45/Kep.210-Huk/2026</div>
               </div>
             </motion.div>
 
@@ -114,7 +114,7 @@ export default function LayoutInstitutionalMandate({ title, subtitle, body, imag
                       <Icon size={24} color={color} />
                    </div>
                    <div style={{ flex: 1 }}>
-                      <div style={{ fontSize: "1.2rem", fontWeight: 900, color: "white", marginBottom: "0.6rem", letterSpacing: "-0.01em" }}>{label}</div>
+                      <div style={{ fontSize: "1.2rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.6rem", letterSpacing: "-0.01em" }}>{label}</div>
                       <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.6, fontWeight: 500 }}>
                          <InlineText text={rest} />
                       </p>

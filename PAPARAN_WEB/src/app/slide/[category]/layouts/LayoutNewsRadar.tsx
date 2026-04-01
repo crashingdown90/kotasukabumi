@@ -29,7 +29,7 @@ export default function LayoutNewsRadar({ title, subtitle, body }: LayoutProps) 
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
         <div>
           <p style={{ fontSize: "0.8rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.7rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
+          <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
         </div>
         
         <div style={{ display: "flex", gap: "1rem" }}>
@@ -37,7 +37,7 @@ export default function LayoutNewsRadar({ title, subtitle, body }: LayoutProps) 
               <div style={{ width: 8, height: 8, borderRadius: "50%", background: "#10B981" }}>
                  <motion.div animate={{ scale: [1, 2, 1], opacity: [1, 0, 1] }} transition={{ repeat: Infinity, duration: 2 }} style={{ width: "100%", height: "100%", borderRadius: "50%", background: "#10B981" }} />
               </div>
-              <span style={{ fontSize: "0.65rem", fontWeight: 900, color: "white", letterSpacing: "0.15em" }}>AI RADAR ONLINE</span>
+              <span style={{ fontSize: "0.65rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.15em" }}>AI RADAR ONLINE</span>
            </div>
         </div>
       </div>
@@ -56,7 +56,7 @@ export default function LayoutNewsRadar({ title, subtitle, body }: LayoutProps) 
                 <div style={{ position: "relative", width: 220, height: 220, display: "flex", alignItems: "center", justifyContent: "center" }}>
                    <motion.div animate={{ rotate: 360 }} transition={{ duration: 15, repeat: Infinity, ease: "linear" }} style={{ position: "absolute", inset: 0, border: `2px dashed ${GOLD}22`, borderRadius: "50%" }} />
                    <motion.div animate={{ rotate: -360 }} transition={{ duration: 10, repeat: Infinity, ease: "linear" }} style={{ position: "absolute", inset: 20, border: `2px solid ${PRIMARY}33`, borderRadius: "50%", borderTopColor: PRIMARY }} />
-                   <div style={{ width: 140, height: 140, borderRadius: "50%", background: "rgba(0,0,0,0.5)", border: "1px solid rgba(255,255,255,0.05)", display: "flex", alignItems: "center", justifyContent: "center", position: "relative", zIndex: 10 }}>
+                   <div style={{ width: 140, height: 140, borderRadius: "50%", background: "rgba(255,255,255,0.6)", border: "1px solid rgba(255,255,255,0.05)", display: "flex", alignItems: "center", justifyContent: "center", position: "relative", zIndex: 10 }}>
                       <Radio size={50} color={GOLD} />
                    </div>
                    
@@ -68,7 +68,7 @@ export default function LayoutNewsRadar({ title, subtitle, body }: LayoutProps) 
                    />
                 </div>
                 <div style={{ textAlign: "center" }}>
-                   <div style={{ fontSize: "2.2rem", fontWeight: 1000, color: "white", marginBottom: "0.25rem", letterSpacing: "-0.04em" }}>2.500+ <span style={{ color: GOLD }}>Percakapan</span></div>
+                   <div style={{ fontSize: "2.2rem", fontWeight: 1000, color: TEXT_MAIN, marginBottom: "0.25rem", letterSpacing: "-0.04em" }}>2.500+ <span style={{ color: GOLD }}>Percakapan</span></div>
                    <div style={{ fontSize: "0.85rem", fontWeight: 800, color: TEXT_MUTED, letterSpacing: "0.15em" }}>MONITORED HOURLY IN SUKABUMI</div>
                 </div>
              </div>
@@ -89,7 +89,7 @@ export default function LayoutNewsRadar({ title, subtitle, body }: LayoutProps) 
           </div>
 
           {/* NEWS TICKER (Scrolling) */}
-          <div style={{ ...GLASS_DARK, borderRadius: 20, padding: "1rem 2rem", background: "rgba(0,0,0,0.6)", border: `1px solid ${GOLD}22`, overflow: "hidden", display: "flex", alignItems: "center", gap: "2rem" }}>
+          <div style={{ ...GLASS_DARK, borderRadius: 20, padding: "1rem 2rem", background: "rgba(255,255,255,0.7)", border: `1px solid ${GOLD}22`, overflow: "hidden", display: "flex", alignItems: "center", gap: "2rem" }}>
              <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", whiteSpace: "nowrap", borderRight: "1px solid rgba(255,255,255,0.1)", paddingRight: "1.5rem" }}>
                 <Monitor size={20} color={GOLD} />
                 <span style={{ fontSize: "0.75rem", fontWeight: 950, color: GOLD, letterSpacing: "0.1em" }}>LIVE FEED</span>
@@ -98,7 +98,7 @@ export default function LayoutNewsRadar({ title, subtitle, body }: LayoutProps) 
                 <motion.div 
                   animate={{ x: [0, -1000] }} 
                   transition={{ repeat: Infinity, duration: 40, ease: "linear" }}
-                  style={{ display: "flex", gap: "4rem", fontSize: "0.9rem", color: "white", fontWeight: 800, whiteSpace: "nowrap" }}
+                  style={{ display: "flex", gap: "4rem", fontSize: "0.9rem", color: TEXT_MAIN, fontWeight: 800, whiteSpace: "nowrap" }}
                 >
                    {newsTicks.map((tick, i) => (
                      <div key={i} style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
@@ -139,7 +139,7 @@ export default function LayoutNewsRadar({ title, subtitle, body }: LayoutProps) 
                       <Icon size={24} color={color} />
                    </div>
                    <div style={{ flex: 1 }}>
-                      <div style={{ fontSize: "1.15rem", fontWeight: 900, color: "white", marginBottom: "0.4rem" }}>{label}</div>
+                      <div style={{ fontSize: "1.15rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.4rem" }}>{label}</div>
                       <p style={{ fontSize: "0.9rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.5, fontWeight: 500 }}>
                          <InlineText text={rest} />
                       </p>
@@ -151,7 +151,7 @@ export default function LayoutNewsRadar({ title, subtitle, body }: LayoutProps) 
           
           <div style={{ marginTop: "1rem", ...GLASS_DARK, borderRadius: 24, padding: "1.5rem", borderLeft: "5px solid #10B981" }}>
              <div style={{ fontSize: "0.75rem", fontWeight: 900, color: "#10B981", letterSpacing: "0.15em", marginBottom: "0.5rem" }}>COMMAND CENTER KPI</div>
-             <div style={{ fontSize: "1.3rem", fontWeight: 1000, color: "white", marginBottom: "0.2rem" }}>94% Akurasi Prediksi</div>
+             <div style={{ fontSize: "1.3rem", fontWeight: 1000, color: TEXT_MAIN, marginBottom: "0.2rem" }}>94% Akurasi Prediksi</div>
              <div style={{ fontSize: "0.85rem", color: TEXT_MUTED }}>Deep Learning Model: Transformer architecture</div>
           </div>
         </div>

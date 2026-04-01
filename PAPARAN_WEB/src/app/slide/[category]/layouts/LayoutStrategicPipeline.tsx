@@ -42,7 +42,7 @@ export default function LayoutStrategicPipeline({ title, subtitle, body, feature
       {/* HEADER */}
       <div style={{ marginBottom: isMobile ? "2rem" : "3rem", maxWidth: "800px" }}>
         <p style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.6rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)", fontWeight: 950, color: "white", letterSpacing: "-0.03em", margin: "0 0 1rem" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em", margin: "0 0 1rem" }}>{title}</h2>
         <div style={{ color: TEXT_MUTED, fontSize: "1.1rem", lineHeight: 1.6 }}>
            <InlineText text={body} />
         </div>
@@ -118,7 +118,7 @@ export default function LayoutStrategicPipeline({ title, subtitle, body, feature
                   <NodeIcon size={28} color="white" />
                 </div>
                 
-                <h4 style={{ fontSize: "1.1rem", fontWeight: 900, color: "white", marginBottom: "0.5rem" }}>{node.title}</h4>
+                <h4 style={{ fontSize: "1.1rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.5rem" }}>{node.title}</h4>
                 <p style={{ fontSize: "0.85rem", color: TEXT_MUTED, lineHeight: 1.5, margin: 0 }}>{node.desc}</p>
                 
                 <div style={{ marginTop: "1rem", display: "flex", justifyContent: "center" }}>

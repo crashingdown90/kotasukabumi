@@ -41,7 +41,7 @@ export default function LayoutSplit({ title, subtitle, body, image }: LayoutProp
             {subtitle}
           </p>
           
-          <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 3rem)", fontWeight: 950, color: "white", marginBottom: "2.5rem", letterSpacing: "-0.03em", lineHeight: 1.1 }}>
+          <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 3rem)", fontWeight: 950, color: TEXT_MAIN, marginBottom: "2.5rem", letterSpacing: "-0.03em", lineHeight: 1.1 }}>
             {title}
           </h2>
           

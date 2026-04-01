@@ -63,6 +63,12 @@ import LayoutFeedbackLoop from "./layouts/LayoutFeedbackLoop";
 import LayoutOPDSync from "./layouts/LayoutOPDSync";
 import LayoutCaseStudy from "./layouts/LayoutCaseStudy";
 import LayoutHeroStrakom from "./layouts/LayoutHeroStrakom";
+import LayoutSOCSHero from "./layouts/LayoutSOCSHero";
+import LayoutSOCSArchitecture from "./layouts/LayoutSOCSArchitecture";
+import LayoutSOCSTopology from "./layouts/LayoutSOCSTopology";
+import LayoutSOCSFlowchart from "./layouts/LayoutSOCSFlowchart";
+import LayoutSOCSDashboard from "./layouts/LayoutSOCSDashboard";
+import LayoutSOCSChannels from "./layouts/LayoutSOCSChannels";
 
 interface Slide {
   id: number;
@@ -193,6 +199,12 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
       case "opd_sync": return <LayoutOPDSync {...props} />;
       case "case_study": return <LayoutCaseStudy {...props} />;
       case "hero_strakom": return <LayoutHeroStrakom {...props} />;
+      case "socs_hero": return <LayoutSOCSHero {...props} />;
+      case "socs_architecture": return <LayoutSOCSArchitecture {...props} />;
+      case "socs_topology": return <LayoutSOCSTopology {...props} />;
+      case "socs_flowchart": return <LayoutSOCSFlowchart {...props} />;
+      case "socs_dashboard": return <LayoutSOCSDashboard {...props} />;
+      case "socs_channels": return <LayoutSOCSChannels {...props} />;
       case "challenges": return <LayoutChallenges {...props} />;
       case "budget": return <LayoutBudget {...props} />;
       case "resources": return <LayoutResources {...props} />;
@@ -241,7 +253,7 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
   );
 
   return (
-    <main style={{ position: "fixed", inset: 0, color: TEXT_MAIN, overflow: "hidden", fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
+    <main style={{ position: "fixed", inset: 0, color: "var(--text-main)", overflow: "hidden", fontFamily: "var(--font-display)" }}>
       <VideoBackground />
       <ProgressBar progress={progress} />
 
@@ -273,11 +285,11 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
       {/* ── EXPANDED SIDEBAR ───────────────────────────────────── */}
       {showSidebar && (
         <div style={{ position: "fixed", inset: 0, zIndex: 2000, display: "flex" }}>
-          <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.6)", backdropFilter: "blur(12px)" }} onClick={() => setShowSidebar(false)} />
-          <div style={{ position: "relative", width: "400px", maxWidth: "90vw", height: "100%", background: "rgba(8, 12, 24, 0.98)", borderLeft: "1px solid rgba(255,255,255,0.08)", padding: "2.5rem 1.5rem", display: "flex", flexDirection: "column", gap: "2rem", boxShadow: "-20px 0 60px rgba(0,0,0,0.8)", marginLeft: "auto" }}>
+          <div style={{ position: "absolute", inset: 0, background: "rgba(255,255,255,0.4)", backdropFilter: "blur(12px)" }} onClick={() => setShowSidebar(false)} />
+          <div style={{ position: "relative", width: "400px", maxWidth: "90vw", height: "100%", background: "rgba(255, 255, 255, 0.95)", borderLeft: "1px solid rgba(15,23,42,0.08)", padding: "2.5rem 1.5rem", display: "flex", flexDirection: "column", gap: "2rem", boxShadow: "-20px 0 60px rgba(0,0,0,0.05)", marginLeft: "auto" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <h3 style={{ fontSize: "1.1rem", fontWeight: 800, color: GOLD, margin: 0, textTransform: "uppercase", letterSpacing: "0.1em" }}>Dashboard Index</h3>
-              <button onClick={() => setShowSidebar(false)} style={{ background: "rgba(255,255,255,0.05)", border: "none", color: "white", padding: "0.6rem", borderRadius: "50%" }} className="card-hover"><X size={20} /></button>
+              <h3 style={{ fontSize: "1.1rem", fontWeight: 800, color: "var(--primary)", margin: 0, textTransform: "uppercase", letterSpacing: "0.1em" }}>Dashboard Index</h3>
+              <button onClick={() => setShowSidebar(false)} style={{ background: "rgba(15,23,42,0.05)", border: "none", color: "var(--text-main)", padding: "0.6rem", borderRadius: "50%" }} className="card-hover"><X size={20} /></button>
             </div>
             
             <div style={{ flex: 1, overflowY: "auto", display: "flex", flexDirection: "column", gap: "1.5rem", paddingRight: "0.5rem" }} className="custom-scroll">
@@ -306,8 +318,8 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
                           alignItems: "center", 
                           padding: "0.85rem 1rem", 
                           borderRadius: 16, 
-                          border: isActive ? `1.5px solid ${GOLD}` : "1px solid rgba(255,255,255,0.04)", 
-                          background: isActive ? "rgba(212,175,55,0.08)" : "rgba(255,255,255,0.02)", 
+                          border: isActive ? `1.5px solid var(--primary)` : "1px solid rgba(15,23,42,0.04)", 
+                          background: isActive ? "var(--primary-glass)" : "rgba(255,255,255,0.5)", 
                           textAlign: "left", 
                           transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)" 
                         }} 
@@ -332,7 +344,7 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
                           <div style={{ 
                             fontSize: "0.85rem", 
                             fontWeight: isActive ? 800 : 600, 
-                            color: isActive ? "white" : TEXT_MAIN, 
+                            color: isActive ? "var(--primary)" : "var(--text-main)", 
                             overflow: "hidden", 
                             textOverflow: "ellipsis", 
                             whiteSpace: "nowrap" 
@@ -353,20 +365,21 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
       {/* ── QUICK JUMP SEARCH ──────────────────────────────────── */}
       {showSearch && (
         <div style={{ position: "fixed", inset: 0, zIndex: 3000, display: "flex", alignItems: "center", justifyContent: "center", padding: "1.5rem" }}>
-          <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.85)", backdropFilter: "blur(16px)" }} onClick={() => setShowSearch(false)} />
-          <div style={{ position: "relative", width: "100%", maxWidth: "650px", background: "rgba(13, 18, 37, 0.98)", border: `1px solid rgba(212,175,55,0.3)`, borderRadius: 28, padding: "1.75rem", boxShadow: `0 40px 100px rgba(0,0,0,0.8)` }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "1.25rem", borderBottom: `1px solid rgba(255,255,255,0.1)`, paddingBottom: "1.25rem", marginBottom: "1.25rem" }}>
-              <Search size={26} color={GOLD} />
-              <input autoFocus placeholder="Search slides... (ESC to close)" style={{ flex: 1, background: "transparent", border: "none", outline: "none", color: "white", fontSize: "1.3rem", fontWeight: 600, width: "100%" }} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} onKeyDown={(e) => { if(e.key === "Enter" && filteredSlides[0]) jumpToSlide(slides.indexOf(filteredSlides[0])); }} />
+          <div style={{ position: "absolute", inset: 0, background: "rgba(248,250,252,0.85)", backdropFilter: "blur(16px)" }} onClick={() => setShowSearch(false)} />
+          <div style={{ position: "relative", width: "100%", maxWidth: "650px", background: "rgba(255, 255, 255, 0.98)", border: `1px solid rgba(142,21,64,0.2)`, borderRadius: 28, padding: "1.75rem", boxShadow: `0 40px 100px rgba(0,0,0,0.1)` }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "1.25rem", borderBottom: `1px solid rgba(15,23,42,0.1)`, paddingBottom: "1.25rem", marginBottom: "1.25rem" }}>
+              <Search size={26} color="var(--primary)" />
+              <input autoFocus placeholder="Search slides... (ESC to close)" style={{ flex: 1, background: "transparent", border: "none", outline: "none", color: "var(--text-main)", fontSize: "1.3rem", fontWeight: 600, width: "100%" }} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} onKeyDown={(e) => { if(e.key === "Enter" && filteredSlides[0]) jumpToSlide(slides.indexOf(filteredSlides[0])); }} />
             </div>
             <div style={{ maxHeight: "450px", overflowY: "auto", display: "flex", flexDirection: "column", gap: "0.6rem" }} className="custom-scroll">
               {filteredSlides.map((s, i) => (
-                <button key={i} onClick={() => jumpToSlide(slides.indexOf(s))} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1.25rem", borderRadius: 16, border: "1px solid rgba(255,255,255,0.04)", background: "rgba(255,255,255,0.02)", textAlign: "left", transition: "all 0.2s" }} className="card-hover">
-                   <div style={{ fontSize: "1.05rem", fontWeight: 750, color: "white" }}>{s.title}</div>
-                   <ChevronRight size={20} color={GOLD} />
+                <button key={i} onClick={() => jumpToSlide(slides.indexOf(s))} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1.25rem", borderRadius: 16, border: "1px solid rgba(15,23,42,0.04)", background: "rgba(15,23,42,0.02)", textAlign: "left", transition: "all 0.2s" }} className="card-hover">
+                   <div style={{ fontSize: "1.05rem", fontWeight: 750, color: "var(--text-main)" }}>{s.title}</div>
+                   <ChevronRight size={20} color="var(--primary)" />
                 </button>
               ))}
               {filteredSlides.length === 0 && <div style={{ padding: "3rem", textAlign: "center", color: TEXT_MUTED, fontSize: "1.1rem" }}>No results found for "{searchQuery}"</div>}
+              {filteredSlides.length === 0 && <div style={{ padding: "3rem", textAlign: "center", color: "var(--text-muted)", fontSize: "1.1rem" }}>No results found for "{searchQuery}"</div>}
             </div>
           </div>
         </div>
@@ -374,7 +387,7 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
 
       <style>{`
         ::-webkit-scrollbar { width: 4px; }
-        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 10px; }
+        ::-webkit-scrollbar-thumb { background: rgba(15,23,42,0.15); border-radius: 10px; }
         .grid-responsive { display: grid; gap: 1.5rem; }
         @media (max-width: 900px) {
            .grid-responsive { grid-template-columns: 1fr !important; }

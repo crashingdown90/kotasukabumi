@@ -30,7 +30,7 @@ export default function LayoutCrisisMitigation({ title, subtitle, body }: Layout
       {/* HEADER */}
       <div style={{ textAlign: "center" }}>
         <p style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.25em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 950, color: "white", letterSpacing: "-0.04em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.04em" }}>{title}</h2>
       </div>
 
       {/* TOP DASHBOARD (INTEL) */}
@@ -51,7 +51,7 @@ export default function LayoutCrisisMitigation({ title, subtitle, body }: Layout
         >
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "1.5rem" }}>
              <Users size={20} color={PRIMARY} />
-             <span style={{ fontSize: "0.9rem", fontWeight: 900, color: "white", letterSpacing: "0.1em" }}>BUZZER CLUSTER DETECTION</span>
+             <span style={{ fontSize: "0.9rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.1em" }}>BUZZER CLUSTER DETECTION</span>
           </div>
           
           <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: "10px" }}>
@@ -81,7 +81,7 @@ export default function LayoutCrisisMitigation({ title, subtitle, body }: Layout
         >
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "1.5rem" }}>
              <Activity size={20} color={GOLD} />
-             <span style={{ fontSize: "0.9rem", fontWeight: 900, color: "white", letterSpacing: "0.1em" }}>TRAFFIC ANOMALY ANALYSIS</span>
+             <span style={{ fontSize: "0.9rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.1em" }}>TRAFFIC ANOMALY ANALYSIS</span>
           </div>
           
           <div style={{ flex: 1, position: "relative", padding: "10px 0" }}>
@@ -95,7 +95,7 @@ export default function LayoutCrisisMitigation({ title, subtitle, body }: Layout
              </div>
              <div style={{ textAlign: "center", padding: "10px", background: "rgba(255,255,255,0.03)", borderRadius: 12 }}>
                 <div style={{ fontSize: "0.6rem", color: TEXT_MUTED }}>AUTHORS</div>
-                <div style={{ fontSize: "1.1rem", fontWeight: 900, color: "white" }}>882</div>
+                <div style={{ fontSize: "1.1rem", fontWeight: 900, color: TEXT_MAIN }}>882</div>
              </div>
           </div>
         </motion.div>
@@ -145,7 +145,7 @@ function BuzzerItem({ user, risk, probability }: any) {
     <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 14px", background: "rgba(255,255,255,0.03)", borderRadius: 12, border: "1px solid rgba(255,255,255,0.05)" }}>
        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
           <div style={{ width: 6, height: 6, borderRadius: "50%", background: isHigh ? "#EF4444" : "#F59E0B" }} />
-          <span style={{ fontSize: "0.8rem", fontWeight: 800, color: "white" }}>{user}</span>
+          <span style={{ fontSize: "0.8rem", fontWeight: 800, color: TEXT_MAIN }}>{user}</span>
        </div>
        <div style={{ display: "flex", gap: "10px" }}>
           <span style={{ fontSize: "0.65rem", fontWeight: 900, color: isHigh ? "#EF4444" : "#F59E0B", background: isHigh ? "#EF444415" : "#F59E0B15", padding: "2px 6px", borderRadius: 4 }}>{risk} RISK</span>

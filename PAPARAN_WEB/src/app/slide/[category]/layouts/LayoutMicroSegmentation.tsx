@@ -38,12 +38,12 @@ export default function LayoutMicroSegmentation({ title, subtitle, body, feature
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
         <div>
           <p style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.03em" }}>{title}</h2>
+          <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.03em" }}>{title}</h2>
           <p style={{ fontSize: "1rem", color: TEXT_MUTED, maxWidth: "700px", marginTop: "0.5rem" }}><InlineText text={body} /></p>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: "10px", ...GLASS_DARK, padding: "10px 20px", borderRadius: 12, border: "1px solid rgba(255,255,255,0.1)" }}>
            <Target size={18} color={PRIMARY} />
-           <span style={{ fontSize: "0.7rem", fontWeight: 900, color: "white", letterSpacing: "0.1em" }}>MICRO-PENETRATION ACTIVE</span>
+           <span style={{ fontSize: "0.7rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.1em" }}>MICRO-PENETRATION ACTIVE</span>
         </div>
       </div>
 
@@ -95,7 +95,7 @@ export default function LayoutMicroSegmentation({ title, subtitle, body, feature
                   <Icon size={24} color="white" />
                 </div>
                 <div>
-                   <h3 style={{ fontSize: "1.1rem", fontWeight: 900, color: "white", margin: 0 }}>{persona.title}</h3>
+                   <h3 style={{ fontSize: "1.1rem", fontWeight: 900, color: TEXT_MAIN, margin: 0 }}>{persona.title}</h3>
                    <div style={{ fontSize: "0.7rem", fontWeight: 800, color: GOLD, textTransform: "uppercase", letterSpacing: "0.1em" }}>{persona.desc}</div>
                 </div>
               </div>
@@ -103,19 +103,19 @@ export default function LayoutMicroSegmentation({ title, subtitle, body, feature
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px" }}>
                  <div style={{ background: "rgba(0,0,0,0.3)", padding: "10px", borderRadius: 12, border: "1px solid rgba(255,255,255,0.03)" }}>
                     <div style={{ fontSize: "0.6rem", fontWeight: 900, color: TEXT_MUTED, marginBottom: "4px" }}>CORE CHANNEL</div>
-                    <div style={{ fontSize: "0.85rem", fontWeight: 800, color: "white", display: "flex", alignItems: "center", gap: "5px" }}>
+                    <div style={{ fontSize: "0.85rem", fontWeight: 800, color: TEXT_MAIN, display: "flex", alignItems: "center", gap: "5px" }}>
                        <Radio size={12} color={GOLD} /> {persona.channel}
                     </div>
                  </div>
                  <div style={{ background: "rgba(0,0,0,0.3)", padding: "10px", borderRadius: 12, border: "1px solid rgba(255,255,255,0.03)" }}>
                     <div style={{ fontSize: "0.6rem", fontWeight: 900, color: TEXT_MUTED, marginBottom: "4px" }}>TONALITY</div>
-                    <div style={{ fontSize: "0.85rem", fontWeight: 800, color: "white" }}>{persona.tone}</div>
+                    <div style={{ fontSize: "0.85rem", fontWeight: 800, color: TEXT_MAIN }}>{persona.tone}</div>
                  </div>
               </div>
 
               <div style={{ background: `${PRIMARY}11`, padding: "10px 15px", borderRadius: 15, borderLeft: `4px solid ${PRIMARY}` }}>
                  <div style={{ fontSize: "0.6rem", fontWeight: 900, color: PRIMARY, letterSpacing: "0.1em", marginBottom: "2px" }}>STRATEGIC AIM</div>
-                 <div style={{ fontSize: "0.9rem", fontWeight: 700, color: "white" }}>{persona.goal}</div>
+                 <div style={{ fontSize: "0.9rem", fontWeight: 700, color: TEXT_MAIN }}>{persona.goal}</div>
               </div>
 
               {/* TARGET LOCK INDICATOR */}

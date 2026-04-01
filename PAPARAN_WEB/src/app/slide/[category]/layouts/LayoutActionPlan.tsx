@@ -19,7 +19,7 @@ export default function LayoutActionPlan({ title, subtitle, body }: LayoutProps)
     <div style={{ height: "100%", display: "flex", flexDirection: "column", gap: "2rem", animation: "animate-up 0.8s ease-out" }}>
       <div>
         <p style={{ fontSize: "0.85rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.6rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(2rem, 4.5vw, 3.2rem)", fontWeight: 1000, color: "white", margin: 0, letterSpacing: "-0.04em", lineHeight: 1.1 }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(2rem, 4.5vw, 3.2rem)", fontWeight: 1000, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.04em", lineHeight: 1.1 }}>{title}</h2>
       </div>
 
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: "1fr", gap: "2rem", flex: 1, minHeight: 0 }}>
@@ -59,13 +59,13 @@ export default function LayoutActionPlan({ title, subtitle, body }: LayoutProps)
 
                        <div style={{ 
                           display: "inline-block", padding: "0.4rem 1rem", 
-                          background: color, borderRadius: 10, color: "white", 
+                          background: color, borderRadius: 10, color: TEXT_MAIN, 
                           fontSize: "0.85rem", fontWeight: 1000, marginBottom: "1rem" 
                        }}>
                           {['T-60', 'T-45', 'T-30', 'T-00'][i]}
                        </div>
 
-                       <div style={{ fontSize: "1.25rem", fontWeight: 950, color: "white", marginBottom: "0.6rem" }}>{label}</div>
+                       <div style={{ fontSize: "1.25rem", fontWeight: 950, color: TEXT_MAIN, marginBottom: "0.6rem" }}>{label}</div>
                        <p style={{ fontSize: "0.9rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.5, fontWeight: 500 }}>
                           <InlineText text={rest} />
                        </p>
@@ -82,7 +82,7 @@ export default function LayoutActionPlan({ title, subtitle, body }: LayoutProps)
                  </div>
                  <div>
                     <div style={{ fontSize: "0.7rem", fontWeight: 950, color: GOLD, letterSpacing: "0.15em" }}>OPERATIONAL STATUS</div>
-                    <div style={{ fontSize: "1rem", fontWeight: 900, color: "white" }}>READY FOR ESCALATION</div>
+                    <div style={{ fontSize: "1rem", fontWeight: 900, color: TEXT_MAIN }}>READY FOR ESCALATION</div>
                  </div>
               </div>
               
@@ -93,7 +93,7 @@ export default function LayoutActionPlan({ title, subtitle, body }: LayoutProps)
               </div>
               
               <div style={{ display: "flex", gap: "0.75rem" }}>
-                 <div style={{ padding: "0.5rem 1.25rem", borderRadius: 10, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.02)", fontSize: "0.75rem", fontWeight: 900, color: "white" }}>
+                 <div style={{ padding: "0.5rem 1.25rem", borderRadius: 10, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.02)", fontSize: "0.75rem", fontWeight: 900, color: TEXT_MAIN }}>
                     LEVEL 4 CRISIS
                  </div>
               </div>

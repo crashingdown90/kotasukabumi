@@ -43,7 +43,7 @@ export default function LayoutAudienceGrid({ title, subtitle, body }: LayoutProp
                   <div style={{ width: 44, height: 44, borderRadius: 12, background: `linear-gradient(135deg, ${PRIMARY}, #8E1540)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
                     <AIcon size={22} color="white" />
                   </div>
-                  <h3 style={{ fontSize: "1.1rem", fontWeight: 800, color: "white", margin: 0 }}>{label}</h3>
+                  <h3 style={{ fontSize: "1.1rem", fontWeight: 800, color: TEXT_MAIN, margin: 0 }}>{label}</h3>
                 </div>
                 <p style={{ fontSize: "0.9rem", color: TEXT_MUTED, lineHeight: 1.6, marginBottom: "1.25rem" }}><InlineText text={rest} /></p>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>

@@ -793,5 +793,220 @@
       "layout": "closing",
       "icon": "Star"
     }
+  ],
+  "digitalisasi_chatbot": [
+    {
+      "id": 1,
+      "title": "Chatbot & AI Assistant",
+      "subtitle": "Informasi & Layanan Publik yang Selalu Siap Membantu",
+      "body": "Pemanfaatan kecerdasan buatan untuk merespon pertanyaan warga secara cepat, 24/7, melalui berbagai kanal komunikasi.",
+      "layout": "hero",
+      "icon": "Cpu"
+    },
+    {
+      "id": 2,
+      "title": "Solusi Masa Depan",
+      "subtitle": "Kecerdasan Buatan untuk Kota Sukabumi",
+      "body": "Implementasi chatbot berbasis AI untuk mempermudah akses informasi publik tanpa hambatan waktu.",
+      "layout": "closing",
+      "icon": "Zap"
+    }
+  ],
+  "digitalisasi_integrasi": [
+    {
+      "id": 1,
+      "title": "Integrasi Data (Interoperabilitas)",
+      "subtitle": "Sinergi Data Lintas OPD untuk Pelayanan Satu Pintu",
+      "body": "Menghubungkan berbagai sistem informasi perangkat daerah untuk menciptakan satu sumber data tunggal yang akurat.",
+      "layout": "hero",
+      "icon": "Database"
+    },
+    {
+      "id": 2,
+      "title": "Sinergi Nasional",
+      "subtitle": "Mewujudkan Satu Data Kota Sukabumi",
+      "body": "Harmonisasi data daerah dengan standar nasional untuk mendukung pengambilan kebijakan berbasis bukti (evidence-based policy).",
+      "layout": "closing",
+      "icon": "ShieldCheck"
+    }
+  ],
+  "digitalisasi_aduan": [
+    {
+      "id": 1,
+      "section": "PENDAHULUAN",
+      "title": "Sukabumi Omnichannel Complaint System",
+      "subtitle": "Akselerasi Layanan Aduan Publik Kota Sukabumi",
+      "body": "Sistem pengelolaan aduan terpadu (SOCS) yang dibangun oleh Bidang Aptika Diskominfo sebagai Local Hub yang terintegrasi penuh dengan platform nasional SP4N-LAPOR!, memastikan setiap aspirasi warga ditangani cepat, transparan, dan terukur.",
+      "layout": "socs_hero",
+      "icon": "Bell"
+    },
+    {
+      "id": 2,
+      "section": "PENDAHULUAN",
+      "title": "Analisis Permasalahan & Urgensi",
+      "subtitle": "Mengapa SOCS Dibutuhkan Kota Sukabumi",
+      "body": "<ul><li><b>Hambatan Prosedur Nasional:</b> Aplikasi SP4N-LAPOR! pusat sering dipersepsikan kaku dan tidak familiar oleh mayoritas warga Sukabumi.</li><li><b>Micro-Accessibility Gap:</b> Warga sudah terbiasa menyampaikan aspirasi via WhatsApp dan Instagram — kanal yang belum terintegrasi ke sistem resmi.</li><li><b>Speed of Trust:</b> Ekspektasi masyarakat terhadap respon pemerintah adalah hitungan jam, bukan hari. Gap ini menciptakan ketidakpercayaan.</li><li><b>Data Terfragmentasi:</b> Aduan yang masuk melalui berbagai kanal tidak terpusat, sehingga sulit dianalisis oleh pimpinan untuk pengambilan kebijakan.</li></ul>",
+      "layout": "challenges",
+      "icon": "ShieldAlert"
+    },
+    {
+      "id": 3,
+      "section": "LANDASAN HUKUM",
+      "title": "Landasan Hukum & Regulasi",
+      "subtitle": "Kerangka Legalitas Operasional SOCS",
+      "body": "<ul><li><b>UU No. 25/2009 — Pelayanan Publik:</b> Mewajibkan penyelenggara menyediakan sarana pengaduan yang mudah diakses dan menugaskan pelaksana yang kompeten.</li><li><b>Perpres No. 95/2018 — SPBE:</b> Mensyaratkan digitalisasi layanan pemerintah yang terpadu dan efisien dalam satu ekosistem terintegrasi.</li><li><b>Perpres No. 76/2013 — Pengelolaan Pengaduan:</b> Mengatur standar tata cara pengelolaan pengaduan secara terintegrasi antar instansi.</li><li><b>Permen PANRB No. 62/2018 — SP4N:</b> Pedoman teknis integrasi sistem pengaduan daerah ke platform nasional SP4N-LAPOR!.</li><li><b>UU No. 27/2022 — PDP:</b> Mewajibkan enkripsi dan kontrol akses data pribadi pelapor sebagai Penyelenggara Sistem Elektronik (PSE).</li><li><b>Perpres No. 39/2019 — Satu Data Indonesia:</b> Basis kewenangan Diskominfo sebagai Walidata yang menjamin standarisasi dan interoperabilitas data daerah.</li></ul>",
+      "layout": "cards",
+      "icon": "FileText"
+    },
+    {
+      "id": 4,
+      "section": "PERAN DISKOMINFO",
+      "title": "Peran Strategis Diskominfo",
+      "subtitle": "Walidata Daerah & Penyelenggara Layanan Aduan",
+      "body": "<ul><li><b>Walidata Daerah (Perpres 39/2019):</b> Menjamin standarisasi format data aduan dari seluruh kanal dan memastikan interoperabilitas dengan sistem nasional SP4N-LAPOR!.</li><li><b>Penyelenggara SPBE (Perpres 95/2018):</b> Menyediakan infrastruktur server (PDD), keamanan siber, dan konektivitas API 24/7 sebagai backbone operasional sistem.</li><li><b>Koordinator Lintas OPD:</b> Menjadi pusat hub yang mendistribusikan aduan ke dinas-dinas teknis sesuai klasifikasi dan memantau kepatuhan SLA respon mereka.</li><li><b>In-House Developer:</b> Bidang Aptika membangun, memelihara, dan mengembangkan fitur sistem SOCS secara mandiri tanpa ketergantungan vendor eksternal.</li></ul>",
+      "layout": "orgchart",
+      "icon": "Database"
+    },
+    {
+      "id": 5,
+      "section": "KANAL PELAPORAN",
+      "title": "Daftar Kanal Pelaporan (5 Kategori)",
+      "subtitle": "Multichannel Integrated — No Wrong Door Policy",
+      "body": "<ul><li><b>📱 WhatsApp Business API (Primary):</b> Chatbot klasifikasi mandiri. Warga kirim pesan → foto → GPS. Sistem terbitkan Nomor Tiket otomatis tanpa install aplikasi.</li><li><b>🌐 Media Sosial (IG / X / FB):</b> Instagram API Messenger auto-convert DM ke tiket. X/Twitter untuk deteksi isu viral real-time. Facebook untuk komunitas warga dewasa.</li><li><b>💻 Web E-Form & Mapping App:</b> Portal formal untuk lampiran PDF (pungli/perizinan). Participatory Mapping App untuk aduan berbasis peta GPS presisi per-kelurahan.</li><li><b>📞 Voice & Legacy (112 / SMS):</b> Call Center 112 aktif 24/7 dengan operator transkrip ke tiket. SMS Gateway untuk warga di zona blank spot internet.</li><li><b>🏢 Mobi Desk (Tatap Muka Offline):</b> Petugas lapangan input aduan lisan warga. Warga tetap terima update status via WA/SMS otomatis.</li></ul>",
+      "layout": "socs_channels",
+      "icon": "Globe"
+    },
+    {
+      "id": 6,
+      "section": "ARSITEKTUR SISTEM",
+      "title": "Arsitektur Teknologi SOCS",
+      "subtitle": "4-Layer Microservices Architecture",
+      "body": "SOCS dibangun di atas arsitektur Microservices berlapis yang memisahkan zona publik, keamanan, aplikasi, dan data — sesuai standar SPBE dan BSSN. Setiap layer memiliki firewall dan akses kontrol mandiri.",
+      "layout": "socs_architecture",
+      "icon": "Cpu"
+    },
+    {
+      "id": 7,
+      "section": "ARSITEKTUR SISTEM",
+      "title": "Topologi Infrastruktur PDD",
+      "subtitle": "Pusat Data Daerah Diskominfo — 4 Security Zone",
+      "body": "Seluruh sistem SOCS di-host di Pusat Data Daerah (PDD) Diskominfo Kota Sukabumi dengan topologi jaringan bertingkat yang memisahkan Internet Zone, DMZ, Application Zone, dan Data Zone — sesuai standar keamanan BSSN.",
+      "layout": "socs_topology",
+      "icon": "Shield"
+    },
+    {
+      "id": 8,
+      "section": "ALUR KERJA",
+      "title": "Alur Penanganan Aduan (End-to-End)",
+      "subtitle": "6 Tahap dari Ingress hingga Sinkronisasi Nasional",
+      "body": "Setiap laporan yang masuk melalui kanal manapun mengikuti alur standar yang sama — dari penerimaan otomatis hingga sinkronisasi data ke platform SP4N-LAPOR! nasional — menjamin konsistensi dan keterlacakan (traceability) penuh.",
+      "layout": "socs_flowchart",
+      "icon": "Zap"
+    },
+    {
+      "id": 9,
+      "section": "DASHBOARD",
+      "title": "Dashboard Monitoring & Executive Overview",
+      "subtitle": "Pusat Komando Data Real-Time untuk Pimpinan",
+      "body": "Dashboard SOCS adalah instrumen Pusat Kendali Strategis (Command Center) yang menyajikan intelijen operasional bagi Walikota dan Sekda untuk pengambilan keputusan berbasis data — bukan sekadar penampil angka.",
+      "layout": "socs_dashboard",
+      "icon": "BarChart3"
+    },
+    {
+      "id": 10,
+      "section": "INTEGRASI SP4N",
+      "title": "Integrasi Teknis SP4N-LAPOR!",
+      "subtitle": "Bi-Directional Sync dengan Platform Nasional",
+      "body": "<ul><li><b>Outbound (Push) Sync:</b> Setiap aduan valid yang diverifikasi admin Diskominfo dikirim otomatis ke database SP4N-LAPOR! nasional via REST API. Format: JSON/HTTPS TLS 1.3.</li><li><b>Inbound (Pull) Sync:</b> Laporan yang masuk via aplikasi LAPOR! pusat dan ditujukan ke Kota Sukabumi ditarik otomatis ke dashboard SOCS.</li><li><b>Status Webhook:</b> Perubahan status di sistem nasional memicu webhook → update status lokal → notifikasi WA/SMS ke warga secara otomatis.</li><li><b>Otentikasi:</b> API Key + Bearer Token (JWT) yang diterbitkan Kemen PANRB khusus untuk akun instansi Pemerintah Kota Sukabumi.</li><li><b>Data Mapping:</b> Tabel penyelarasan ID_Kategori_Lokal ↔ ID_Kategori_Nasional dan ID_OPD_Lokal ↔ ID_Unit_Nasional untuk konsistensi statistik.</li><li><b>Queue Management:</b> Message Queue (RabbitMQ) menjamin data tetap terkirim ke pusat meskipun server nasional sedang maintenance.</li></ul>",
+      "layout": "cards",
+      "icon": "Database"
+    },
+    {
+      "id": 11,
+      "section": "TATAKELOLA DATA",
+      "title": "Tatakelola Data & Keamanan Pribadi",
+      "subtitle": "Standar UU PDP, BSSN, dan Komdigi",
+      "body": "<ul><li><b>Data yang Wajib Disimpan:</b> Nama lengkap, Nomor HP/WA, NIK (opsional), Substansi aduan, Foto/video bukti, Timestamp, Koordinat GPS, Kanal asal laporan.</li><li><b>Enkripsi AES-256:</b> Semua data pribadi pelapor dienkripsi di database (at rest). Transit menggunakan HTTPS/TLS 1.3.</li><li><b>Privacy by Design:</b> Fitur Anonim dan Rahasia wajib tersedia untuk aduan sensitif (korupsi/pungli). Identitas pelapor tidak terekspos ke OPD.</li><li><b>Audit Log Immutable:</b> Setiap akses admin ke data pelapor dicatat secara permanen dan tidak dapat diubah (standar BSSN).</li><li><b>Kedaulatan Data:</b> Seluruh data tersimpan di server fisik PDD Diskominfo Kota Sukabumi. Zero data ke cloud asing.</li></ul>",
+      "layout": "service",
+      "icon": "Shield"
+    },
+    {
+      "id": 12,
+      "section": "IMPLEMENTASI",
+      "title": "Rencana Implementasi (4 Bulan)",
+      "subtitle": "Metodologi Agile In-House Development — Bidang Aptika",
+      "body": "<ul><li><b>Bulan 1 — Persiapan & Desain:</b> Pembentukan tim teknis Aptika, KAK finalisasi, audit infrastruktur PDD, koordinasi teknis API SP4N-LAPOR! ke Kemen PANRB (audiensi formal).</li><li><b>Bulan 2 — Core Development:</b> Pembangunan modul WhatsApp API Hub, engine tiket otomatis, dan Dashboard Monitoring versi alpha.</li><li><b>Bulan 3 — Integrasi & Testing:</b> Integrasi Media Sosial (IG/X), uji coba sinkronisasi ke SP4N Staging, Penetration Testing oleh pihak independen, dan Stress Test kapasitas.</li><li><b>Bulan 4 — Pilot & Launching:</b> Pilot di 3 OPD (Dinas PU, Dishub, Satpol PP). Bimtek admin OPD se-kota. Grand Launching + kampanye publik QR Code.</li></ul>",
+      "layout": "timeline",
+      "icon": "Calendar"
+    },
+    {
+      "id": 13,
+      "section": "ANGGARAN",
+      "title": "Estimasi Anggaran Optimal",
+      "subtitle": "In-House Development — Efisiensi Maksimal",
+      "body": "<ul><li><b>SDM & Infrastruktur Server:</b> Menggunakan tenaga ahli Bidang Aptika yang sudah ada + PDD Diskominfo yang sudah beroperasi. Biaya: Rp 0 (Optimalisasi Aset).</li><li><b>Lisensi API WhatsApp Business:</b> Biaya sesi per percakapan ke Meta. Estimasi: Rp 30jt – 45jt / tahun (tergantung volume aduan).</li><li><b>Security Penetration Testing:</b> Audit keamanan oleh pihak ketiga independen sesuai standar BSSN. Estimasi: Rp 20jt – 30jt sekali.</li><li><b>Pelatihan & Sosialisasi (Bimtek):</b> Operasional pelatihan admin OPD dan kampanye publik. Estimasi: Rp 15jt – 25jt.</li></ul>",
+      "layout": "budget",
+      "icon": "BarChart3",
+      "metrics": [
+        { "label": "SDM & Infrastruktur", "value": "Rp 0", "trend": "In-House / PDD" },
+        { "label": "Lisensi API WA", "value": "Rp 30-45jt", "trend": "Per Tahun" },
+        { "label": "Audit Keamanan", "value": "Rp 20-30jt", "trend": "Sekali" },
+        { "label": "TOTAL ESTIMASI", "value": "Rp 65-100jt", "trend": "Jauh di Bawah Pengadaan Eksternal" }
+      ]
+    },
+    {
+      "id": 14,
+      "section": "MITIGASI RISIKO",
+      "title": "Mitigasi Risiko & Strategi Sosialisasi",
+      "subtitle": "Perlindungan Sistem & Akselerasi Adopsi Publik",
+      "body": "<ul><li><b>Anti-Hoax (Geo-Tagging):</b> Foto bukti di-validasi dengan koordinat GPS timestamp untuk mencegah foto lama atau rekayasa. API pihak ketiga diblok jika terindikasi palsu.</li><li><b>Spam Protection:</b> Rate-limiting per nomor WA (maksimal 5 laporan/hari). NIK pelapor dicek keunikannya sebelum tiket diterbitkan.</li><li><b>Disaster Recovery:</b> Backup harian (aturan 3-2-1). Hot-standby server di lokasi yang berbeda di dalam PDD untuk menjamin uptime 99.9%.</li><li><b>Kampanye Digital:</b> QR Code Lapor Sukabumi di seluruh kantor pelayanan, halte Trans Kota, dan taman kota. Sosialisasi via grup WhatsApp RW resmi.</li><li><b>Kolaborasi KOL Lokal:</b> Influencer dan komunitas lokal Sukabumi diedukasi untuk memandu warga menggunakan kanal resmi — bukan medsos informal.</li></ul>",
+      "layout": "challenges",
+      "icon": "ShieldAlert"
+    },
+    {
+      "id": 15,
+      "section": "PENUTUP",
+      "title": "Sukabumi SOCS: Kedaulatan Digital Warga",
+      "subtitle": "Membangun Kepercayaan Publik Melalui Transparansi & Kecepatan",
+      "body": "SOCS adalah bukti konkret komitmen Pemerintah Kota Sukabumi: setiap warga berhak mendapat jawaban. Dengan membangun sistem ini secara In-House oleh Bidang Aptika, Sukabumi menjadi pelopor layanan aduan omnichannel yang sovereign, efisien, dan benar-benar berpihak kepada rakyat.",
+      "layout": "closing",
+      "icon": "Bell"
+    }
+  ],
+  "digitalisasi_smartcity": [
+    {
+      "id": 1,
+      "title": "Implementasi Smart City",
+      "subtitle": "Membangun Ekosistem Kota Cerdas yang Berkelanjutan",
+      "body": "Integrasi teknologi informasi ke dalam infrastruktur kota untuk meningkatkan kualitas hidup dan efisiensi manajemen urban.",
+      "layout": "hero",
+      "icon": "Globe"
+    },
+    {
+      "id": 2,
+      "title": "Sukabumi Masa Depan",
+      "subtitle": "Kota Cerdas, Warga Bahagia",
+      "body": "Inovasi berkelanjutan dalam transportasi, lingkungan, dan energi untuk masa depan Sukabumi yang gemilang.",
+      "layout": "closing",
+      "icon": "Star"
+    }
+  ],
+  "digitalisasi_superapp": [
+    {
+      "id": 1,
+      "title": "Super App Sukabumi",
+      "subtitle": "Segala Layanan Publik dalam Satu Genggaman",
+      "body": "Portal layanan terpadu yang menyatukan ratusan aplikasi OPD menjadi satu pintu akses bagi seluruh warga.",
+      "layout": "hero",
+      "icon": "Smartphone"
+    },
+    {
+      "id": 2,
+      "title": "Efisiensi Mutlak",
+      "subtitle": "Pemerintah Hadir di Smartphone Anda",
+      "body": "Mempermudah administrasi, pembayaran pajak, dan informasi kota tanpa perlu berpindah-pindah platform.",
+      "layout": "closing",
+      "icon": "Zap"
+    }
   ]
 }

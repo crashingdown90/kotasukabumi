@@ -40,7 +40,7 @@ export default function LayoutSocialMedia({ title, subtitle, body, features, hig
     <motion.div initial="hidden" animate="show" variants={container} style={{ height: "100%", display: "flex", flexDirection: "column" }}>
       <div style={{ textAlign: "center", marginBottom: "3rem" }}>
         <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.6rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 900, color: "white", letterSpacing: "-0.02em", margin: 0 }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "-0.02em", margin: 0 }}>{title}</h2>
       </div>
 
       <div style={{ 

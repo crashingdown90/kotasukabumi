@@ -28,7 +28,7 @@ export default function LayoutSNA({ title, subtitle, body }: LayoutProps) {
   return (
     <div style={{ height: "100%", display: "flex", flexDirection: "column", animation: "animate-up 0.8s ease-out" }}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.7rem" }}>{subtitle}</p>
-      <h2 style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 950, color: "white", marginBottom: "2rem", letterSpacing: "-0.03em" }}>{title}</h2>
+      <h2 style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 950, color: TEXT_MAIN, marginBottom: "2rem", letterSpacing: "-0.03em" }}>{title}</h2>
 
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: "1.2fr 0.8fr", gap: "2rem", flex: 1, minHeight: 0 }}>
         
@@ -36,15 +36,15 @@ export default function LayoutSNA({ title, subtitle, body }: LayoutProps) {
         <div style={{ ...GLASS_DARK, borderRadius: 32, position: "relative", overflow: "hidden", display: "flex", flexDirection: "column", border: "1px solid rgba(255,255,255,0.05)" }}>
           
           <div style={{ position: "absolute", top: 20, left: 20, zIndex: 10 }}>
-            <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "rgba(0,0,0,0.5)", padding: "0.4rem 0.8rem", borderRadius: 8, border: "1px solid rgba(255,255,255,0.1)", fontSize: "0.6rem", fontWeight: 900, color: "white", letterSpacing: "0.1em" }}>
+            <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "rgba(255,255,255,0.6)", padding: "0.4rem 0.8rem", borderRadius: 8, border: "1px solid rgba(255,255,255,0.1)", fontSize: "0.6rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.1em" }}>
               <Network size={14} color={GOLD} /> LIVE SNA SIMULATION
             </div>
           </div>
           
           {/* Legend */}
-          <div style={{ position: "absolute", bottom: 20, left: 20, zIndex: 10, display: "flex", gap: "1rem", background: "rgba(0,0,0,0.6)", padding: "0.5rem 1rem", borderRadius: 12, border: "1px solid rgba(255,255,255,0.05)", backdropFilter: "blur(10px)" }}>
-             <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: "0.65rem", color: "white", fontWeight: 800 }}><div style={{ width: 8, height: 8, borderRadius: "50%", background: PRIMARY, boxShadow: `0 0 8px ${PRIMARY}` }}/> Hoaks / Negatif</div>
-             <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: "0.65rem", color: "white", fontWeight: 800 }}><div style={{ width: 8, height: 8, borderRadius: "50%", background: "#10B981", boxShadow: `0 0 8px #10B981` }}/> Strategic Counter-Narrative</div>
+          <div style={{ position: "absolute", bottom: 20, left: 20, zIndex: 10, display: "flex", gap: "1rem", background: "rgba(255,255,255,0.7)", padding: "0.5rem 1rem", borderRadius: 12, border: "1px solid rgba(255,255,255,0.05)", backdropFilter: "blur(10px)" }}>
+             <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: "0.65rem", color: TEXT_MAIN, fontWeight: 800 }}><div style={{ width: 8, height: 8, borderRadius: "50%", background: PRIMARY, boxShadow: `0 0 8px ${PRIMARY}` }}/> Hoaks / Negatif</div>
+             <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: "0.65rem", color: TEXT_MAIN, fontWeight: 800 }}><div style={{ width: 8, height: 8, borderRadius: "50%", background: "#10B981", boxShadow: `0 0 8px #10B981` }}/> Strategic Counter-Narrative</div>
              <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: "0.65rem", color: TEXT_MUTED, fontWeight: 800 }}><div style={{ width: 8, height: 8, borderRadius: "50%", background: "rgba(255,255,255,0.2)" }}/> Warga Net</div>
           </div>
 
@@ -110,7 +110,7 @@ export default function LayoutSNA({ title, subtitle, body }: LayoutProps) {
            <div style={{ ...GLASS_DARK, borderRadius: 24, padding: "2rem", border: `1px solid ${PRIMARY}44`, background: `linear-gradient(135deg, rgba(20,20,30,0.8), rgba(142,21,64,0.1))` }}>
               <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "1rem" }}>
                 <Zap size={24} color={PRIMARY} />
-                <h3 style={{ fontSize: "1.2rem", fontWeight: 900, color: "white", margin: 0, letterSpacing: "-0.01em" }}>Viralitas Eksponensial</h3>
+                <h3 style={{ fontSize: "1.2rem", fontWeight: 900, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.01em" }}>Viralitas Eksponensial</h3>
               </div>
               <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.6, margin: 0 }}>
                 Dalam Social Network Analysis (SNA), satu "Super Spreader" dapat menginfeksi ribuan *node* organik hanya dalam hitungan menit jika dibiarkan dalam ruang kosong (Information Void).
@@ -126,7 +126,7 @@ export default function LayoutSNA({ title, subtitle, body }: LayoutProps) {
                  style={{ ...GLASS_DARK, borderRadius: 20, padding: "1.5rem", borderLeft: `4px solid ${GOLD}` }}
                >
                  <div style={{ fontSize: "1.05rem", fontWeight: 900, color: GOLD, marginBottom: "0.5rem" }}>{label}</div>
-                 <p style={{ fontSize: "0.95rem", color: "white", fontWeight: 500, margin: 0, lineHeight: 1.5 }}><InlineText text={rest} /></p>
+                 <p style={{ fontSize: "0.95rem", color: TEXT_MAIN, fontWeight: 500, margin: 0, lineHeight: 1.5 }}><InlineText text={rest} /></p>
                </motion.div>
              );
            })}

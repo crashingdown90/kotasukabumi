@@ -66,7 +66,7 @@ export default function LayoutSWOT({ title, subtitle, body, features }: LayoutPr
           animate={{ x: 0, opacity: 1 }}
         >
           <p style={{ fontSize: "0.85rem", fontWeight: 950, letterSpacing: "0.3em", color: PRIMARY, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 1000, color: "white", margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
+          <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 1000, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
           <div style={{ height: 4, width: 80, background: GOLD, marginTop: "1rem", borderRadius: 2 }} />
         </motion.div>
         
@@ -80,7 +80,7 @@ export default function LayoutSWOT({ title, subtitle, body, features }: LayoutPr
            </div>
            <div>
               <div style={{ fontSize: "0.6rem", fontWeight: 950, color: TEXT_MUTED, letterSpacing: "0.1em" }}>AUDIT STATUS</div>
-              <div style={{ fontSize: "0.9rem", fontWeight: 1000, color: "white" }}>VERIFIED v2.5</div>
+              <div style={{ fontSize: "0.9rem", fontWeight: 1000, color: TEXT_MAIN }}>VERIFIED v2.5</div>
            </div>
         </motion.div>
       </div>
@@ -181,7 +181,7 @@ export default function LayoutSWOT({ title, subtitle, body, features }: LayoutPr
               </div>
 
               <div style={{ flex: 1, zIndex: 1 }}>
-                 <h3 style={{ fontSize: "1.45rem", fontWeight: 1000, color: "white", marginBottom: "0.75rem", letterSpacing: "-0.02em" }}>{label}</h3>
+                 <h3 style={{ fontSize: "1.45rem", fontWeight: 1000, color: TEXT_MAIN, marginBottom: "0.75rem", letterSpacing: "-0.02em" }}>{label}</h3>
                  <p style={{ fontSize: "1rem", color: TEXT_MAIN, lineHeight: 1.8, fontWeight: 500, margin: 0, opacity: 0.95 }}>
                     <InlineText text={rest} />
                  </p>
@@ -211,7 +211,7 @@ export default function LayoutSWOT({ title, subtitle, body, features }: LayoutPr
                 display: "flex", alignItems: "center", gap: "0.75rem"
               }}>
                  <Zap size={14} color={config.color} />
-                 <span style={{ fontSize: "0.75rem", fontWeight: 800, color: "white", opacity: 0.8 }}>
+                 <span style={{ fontSize: "0.75rem", fontWeight: 800, color: TEXT_MAIN, opacity: 0.8 }}>
                     {index < 2 ? "INTERNAL RESPONSE ACTIVE" : "EXTERNAL MONITORING ON"}
                  </span>
                  <motion.div 

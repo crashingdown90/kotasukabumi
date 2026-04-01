@@ -47,7 +47,7 @@ export default function LayoutGoldenTime({ title, subtitle, body, features }: La
               <Timer size={14} color={GOLD} />
               <span style={{ fontSize: "0.75rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase" }}>{subtitle}</span>
             </motion.div>
-            <h2 style={{ fontSize: "clamp(1.5rem, 3.5vw, 3rem)", fontWeight: 950, color: "white", letterSpacing: "-0.04em", margin: 0 }}>{title}</h2>
+            <h2 style={{ fontSize: "clamp(1.5rem, 3.5vw, 3rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.04em", margin: 0 }}>{title}</h2>
          </div>
          <div style={{ textAlign: "right" }}>
             <div style={{ fontSize: "0.9rem", fontWeight: 900, color: "#EF4444", display: "flex", alignItems: "center", gap: "8px", justifyContent: "flex-end", marginBottom: "0.5rem" }}>
@@ -89,7 +89,7 @@ export default function LayoutGoldenTime({ title, subtitle, body, features }: La
                  
                  <div style={{ flex: 1 }}>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: "0.5rem" }}>
-                       <h3 style={{ fontSize: "1.35rem", fontWeight: 900, color: "white", margin: 0 }}>{item.title}</h3>
+                       <h3 style={{ fontSize: "1.35rem", fontWeight: 900, color: TEXT_MAIN, margin: 0 }}>{item.title}</h3>
                        <span style={{ fontSize: "0.9rem", fontWeight: 900, color, letterSpacing: "0.05em" }}>{item.metric}</span>
                     </div>
                     <p style={{ fontSize: "1rem", color: TEXT_MUTED, lineHeight: 1.6, margin: 0 }}>
@@ -121,7 +121,7 @@ export default function LayoutGoldenTime({ title, subtitle, body, features }: La
               
               <div style={{ textAlign: "center", zIndex: 1, position: "relative" }}>
                  <Clock size={40} color={GOLD} style={{ margin: "0 auto 1rem" }} />
-                 <div style={{ fontSize: "3.5rem", fontWeight: 950, color: "white", lineHeight: 0.9 }}>120</div>
+                 <div style={{ fontSize: "3.5rem", fontWeight: 950, color: TEXT_MAIN, lineHeight: 0.9 }}>120</div>
                  <div style={{ fontSize: "0.85rem", fontWeight: 900, color: GOLD, letterSpacing: "0.2em", marginTop: 8 }}>MINUTES LIMIT</div>
                  <div style={{ height: "4px", width: "40px", background: GOLD, margin: "1.5rem auto" }} />
                  <div style={{ fontSize: "0.7rem", color: TEXT_MUTED, fontWeight: 700, letterSpacing: "0.1em" }}>MAXIMUM RESPONSE SLA</div>
@@ -140,7 +140,7 @@ export default function LayoutGoldenTime({ title, subtitle, body, features }: La
                  <Zap size={24} color={PRIMARY} />
               </div>
               <div>
-                 <div style={{ fontSize: "1rem", fontWeight: 950, color: "white", marginBottom: "0.4rem", letterSpacing: "0.02em" }}>DOKTRIN AMBANG KRISIS</div>
+                 <div style={{ fontSize: "1rem", fontWeight: 950, color: TEXT_MAIN, marginBottom: "0.4rem", letterSpacing: "0.02em" }}>DOKTRIN AMBANG KRISIS</div>
                  <p style={{ fontSize: "0.85rem", color: TEXT_MUTED, lineHeight: 1.6, margin: 0 }}>Publik akan mengisi ketidaktahuan dengan rumor jika otoritas diam lebih dari 120 menit. <b style={{ color: GOLD }}>Holding Statement</b> adalah kunci kedaulatan informasi.</p>
               </div>
            </div>

@@ -30,7 +30,7 @@ export default function LayoutCrisisMatrix({ title, subtitle, body }: LayoutProp
     <div style={{ height: "100%", display: "flex", flexDirection: "column", gap: "2rem", animation: "animate-up 0.8s ease-out" }}>
       <div>
         <p style={{ fontSize: "0.8rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.7rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.04em" }}>{title}</h2>
       </div>
 
       <div style={{ flex: 1, display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1.5rem" }}>
@@ -59,7 +59,7 @@ export default function LayoutCrisisMatrix({ title, subtitle, body }: LayoutProp
             <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: "1.5rem" }}>
                <div>
                   <div style={{ fontSize: "0.7rem", fontWeight: 900, color: TEXT_MUTED, letterSpacing: "0.1em", marginBottom: "0.4rem" }}>INDIKATOR & THRESHOLD</div>
-                  <div style={{ fontSize: "1.1rem", fontWeight: 800, color: "white", lineHeight: 1.4 }}>{node.indicators}</div>
+                  <div style={{ fontSize: "1.1rem", fontWeight: 800, color: TEXT_MAIN, lineHeight: 1.4 }}>{node.indicators}</div>
                   <div style={{ fontSize: "0.9rem", fontWeight: 700, color: node.color, marginTop: "0.5rem" }}>{node.threshold}</div>
                </div>
 
@@ -67,12 +67,12 @@ export default function LayoutCrisisMatrix({ title, subtitle, body }: LayoutProp
 
                <div>
                   <div style={{ fontSize: "0.7rem", fontWeight: 900, color: TEXT_MUTED, letterSpacing: "0.1em", marginBottom: "0.4rem" }}>INTERVENSI TAKTIS</div>
-                  <div style={{ fontSize: "1rem", fontWeight: 700, color: "white" }}>{node.action}</div>
+                  <div style={{ fontSize: "1rem", fontWeight: 700, color: TEXT_MAIN }}>{node.action}</div>
                </div>
 
                <div style={{ marginTop: "auto", padding: "1rem", borderRadius: 16, background: "rgba(0,0,0,0.3)", border: "1px solid rgba(255,255,255,0.05)" }}>
                   <div style={{ fontSize: "0.6rem", fontWeight: 900, color: GOLD, letterSpacing: "0.15em", marginBottom: "0.3rem" }}>AUTHORITY LEVEL</div>
-                  <div style={{ fontSize: "0.95rem", fontWeight: 900, color: "white", display: "flex", alignItems: "center", gap: "0.6rem" }}>
+                  <div style={{ fontSize: "0.95rem", fontWeight: 900, color: TEXT_MAIN, display: "flex", alignItems: "center", gap: "0.6rem" }}>
                      <User size={14} color={GOLD} />
                      {node.authority}
                   </div>

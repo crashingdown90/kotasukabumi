@@ -29,7 +29,7 @@ export default function LayoutPillars({ title, subtitle, body, features, highlig
   return (
     <motion.div initial="hidden" animate="show" variants={container}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: "white", marginBottom: "2rem", letterSpacing: "-0.02em" }}>{title}</h2>
+      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "2rem", letterSpacing: "-0.02em" }}>{title}</h2>
       
       {body && (!features && !highlights) && !body.trim().startsWith("<ul") && (
         <div style={{ fontSize: "1.2rem", color: TEXT_MUTED, marginBottom: "3rem", lineHeight: 1.6, maxWidth: "800px" }}>
@@ -98,7 +98,7 @@ export default function LayoutPillars({ title, subtitle, body, features, highlig
                 <PIcon size={36} color="white" />
               </div>
               <div style={{ zIndex: 1 }}>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 900, color: "white", marginBottom: "0.75rem", letterSpacing: "-0.01em" }}>{label}</h3>
+                <h3 style={{ fontSize: "1.25rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.75rem", letterSpacing: "-0.01em" }}>{label}</h3>
                 <div style={{ width: 40, height: 3, background: GOLD, margin: "0 auto 1.25rem", borderRadius: 2 }} />
                 <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.7, margin: 0 }}><InlineText text={rest} /></p>
               </div>

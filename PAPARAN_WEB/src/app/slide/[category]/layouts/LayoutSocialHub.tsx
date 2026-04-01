@@ -62,7 +62,7 @@ export default function LayoutSocialHub({ title, subtitle, body, features, highl
       {/* HEADER */}
       <div style={{ textAlign: "center", marginBottom: "2rem", zIndex: 10 }}>
         <p style={{ fontSize: "0.7rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: "white", letterSpacing: "-0.02em", margin: 0 }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.02em", margin: 0 }}>{title}</h2>
       </div>
 
       {/* HUB VISUALIZATION CONTAINER */}
@@ -114,7 +114,7 @@ export default function LayoutSocialHub({ title, subtitle, body, features, highl
            <motion.div animate={{ rotate: 360 }} transition={{ duration: 10, repeat: Infinity, ease: "linear" }} style={{ position: "absolute", inset: -10, border: "2px dashed rgba(255,255,255,0.05)", borderRadius: "50%" }} />
            <ShieldCheck size={isMobile ? 32 : 40} color={PRIMARY} />
            <div style={{ fontSize: isMobile ? "0.55rem" : "0.65rem", fontWeight: 950, color: TEXT_MUTED, marginTop: "10px", letterSpacing: "0.1em" }}>CENTRAL CORE</div>
-           <div style={{ fontSize: isMobile ? "0.8rem" : "0.95rem", fontWeight: 900, color: "white" }}>SMC HUB</div>
+           <div style={{ fontSize: isMobile ? "0.8rem" : "0.95rem", fontWeight: 900, color: TEXT_MAIN }}>SMC HUB</div>
         </motion.div>
 
         {/* Symmetrical Grid Implementation - Conditional for Mobile */}
@@ -189,7 +189,7 @@ function PlatformCard({ item, color, Icon, i, isMobile }: any) {
           <div style={{ width: 40, height: 40, borderRadius: 12, background: `${color}15`, display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid ${color}33` }}>
              <Icon size={20} color={color} />
           </div>
-          <h4 style={{ fontSize: isMobile ? "1rem" : "1.1rem", fontWeight: 900, color: "white", margin: 0 }}>{item.title}</h4>
+          <h4 style={{ fontSize: isMobile ? "1rem" : "1.1rem", fontWeight: 900, color: TEXT_MAIN, margin: 0 }}>{item.title}</h4>
        </div>
        <p style={{ fontSize: isMobile ? "0.8rem" : "0.85rem", color: TEXT_MUTED, lineHeight: 1.5, margin: 0 }}>{item.desc}</p>
        

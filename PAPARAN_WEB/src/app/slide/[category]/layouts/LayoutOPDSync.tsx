@@ -33,7 +33,7 @@ export default function LayoutOPDSync({ title, subtitle, body, features }: Layou
       {/* HEADER SECTION */}
       <div>
         <p style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.03em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.03em" }}>{title}</h2>
         <p style={{ fontSize: "1.1rem", color: TEXT_MUTED, maxWidth: "800px", marginTop: "1rem" }}>{body}</p>
       </div>
 
@@ -51,7 +51,7 @@ export default function LayoutOPDSync({ title, subtitle, body, features }: Layou
           }}
         >
           <LayoutGrid size={50} color="white" />
-          <div style={{ color: "white", fontWeight: 950, fontSize: "1.1rem", textAlign: "center", marginTop: "0.5rem", letterSpacing: "0.1em" }}>STRATEGIC<br/>CLEARANCE HUB</div>
+          <div style={{ color: TEXT_MAIN, fontWeight: 950, fontSize: "1.1rem", textAlign: "center", marginTop: "0.5rem", letterSpacing: "0.1em" }}>STRATEGIC<br/>CLEARANCE HUB</div>
           <div style={{ color: GOLD, fontSize: "0.6rem", fontWeight: 900, letterSpacing: "0.15em", textTransform: "uppercase" }}>ONE VOICE POLICY</div>
         </motion.div>
 
@@ -112,7 +112,7 @@ export default function LayoutOPDSync({ title, subtitle, body, features }: Layou
                     <Icon size={28} color={GOLD} />
                   </div>
                   <div>
-                    <h3 style={{ margin: 0, color: "white", fontSize: "0.95rem", fontWeight: 900, marginBottom: "0.25rem" }}>{cl.title}</h3>
+                    <h3 style={{ margin: 0, color: TEXT_MAIN, fontSize: "0.95rem", fontWeight: 900, marginBottom: "0.25rem" }}>{cl.title}</h3>
                     <p style={{ margin: 0, color: TEXT_MUTED, fontSize: "0.65rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em" }}>{cl.desc}</p>
                   </div>
                </motion.div>

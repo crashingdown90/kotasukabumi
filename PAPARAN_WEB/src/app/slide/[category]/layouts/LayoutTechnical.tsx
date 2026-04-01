@@ -21,7 +21,7 @@ export function LayoutService({ title, subtitle, body }: LayoutProps) {
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: "white", marginBottom: "2.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
+      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "2.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
       
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem", position: "relative" }}>
         {items.map((item, i) => {
@@ -37,7 +37,7 @@ export function LayoutService({ title, subtitle, body }: LayoutProps) {
                 <div style={{ width: 48, height: 48, borderRadius: 14, background: PRIMARY_LIGHT, display: "flex", alignItems: "center", justifyContent: "center" }}>
                    <SIcon size={24} color={PRIMARY} />
                 </div>
-                <h3 style={{ fontSize: "1.15rem", fontWeight: 900, color: "white", margin: 0 }}>{label}</h3>
+                <h3 style={{ fontSize: "1.15rem", fontWeight: 900, color: TEXT_MAIN, margin: 0 }}>{label}</h3>
               </div>
               <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.6, margin: 0 }}><InlineText text={rest} /></p>
             </motion.div>
@@ -72,7 +72,7 @@ export function LayoutBigData({ title, subtitle, body, metrics, features, highli
     <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }} style={{ height: "100%", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
       <div>
         <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: "white", letterSpacing: "-0.02em", margin: 0 }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "-0.02em", margin: 0 }}>{title}</h2>
       </div>
       
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: "1.25fr 0.75fr", gap: "2.5rem", flex: 1, minHeight: 0 }}>
@@ -104,7 +104,7 @@ export function LayoutBigData({ title, subtitle, body, metrics, features, highli
                 <div style={{ width: 12, height: 12, borderRadius: "50%", background: "#10B981", boxShadow: "0 0 10px #10B981" }} />
                 <div style={{ fontSize: "0.85rem", fontWeight: 900, color: "#10B981", letterSpacing: "0.1em" }}>REAL-TIME DATA STREAM</div>
               </div>
-              <div style={{ fontSize: "2.5rem", fontWeight: 950, color: "white", marginBottom: "1.5rem", letterSpacing: "-0.03em", lineHeight: 1 }}>Strategic Insights Engine</div>
+              <div style={{ fontSize: "2.5rem", fontWeight: 950, color: TEXT_MAIN, marginBottom: "1.5rem", letterSpacing: "-0.03em", lineHeight: 1 }}>Strategic Insights Engine</div>
               <p style={{ fontSize: "1.25rem", color: TEXT_MUTED, lineHeight: 1.8, marginBottom: 0, maxWidth: "600px" }}>{body ? body.replace(/<ul>.*?<\/ul>/, "").trim() : "Menganalisis anomali percakapan dan aliran data statistik secara instan untuk pengambilan keputusan pimpinan yang presisi."}</p>
            </div>
            
@@ -126,7 +126,7 @@ export function LayoutBigData({ title, subtitle, body, metrics, features, highli
               )) : (
                 <>
                   <div>
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} style={{ fontSize: "2.8rem", fontWeight: 950, color: "white", letterSpacing: "-0.02em" }}>2.5k+</motion.div>
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} style={{ fontSize: "2.8rem", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.02em" }}>2.5k+</motion.div>
                     <div style={{ fontSize: "0.75rem", color: GOLD, fontWeight: 900, letterSpacing: "0.1em" }}>SAMPEL DATA/HARI</div>
                   </div>
                   <div style={{ width: "2px", background: "rgba(255,255,255,0.1)" }} />
@@ -162,7 +162,7 @@ export function LayoutBigData({ title, subtitle, body, metrics, features, highli
                 style={{ ...GLASS_DARK, borderRadius: 24, padding: "1.5rem", borderRight: `5px solid ${GOLD}`, cursor: "default" }}
               >
                 <div style={{ fontSize: "1.1rem", fontWeight: 900, color: GOLD, marginBottom: "0.5rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>{label}</div>
-                <p style={{ fontSize: "0.95rem", color: "white", fontWeight: 500, margin: 0, lineHeight: 1.5 }}><InlineText text={rest} /></p>
+                <p style={{ fontSize: "0.95rem", color: TEXT_MAIN, fontWeight: 500, margin: 0, lineHeight: 1.5 }}><InlineText text={rest} /></p>
               </motion.div>
             );
           }) : null}
@@ -201,7 +201,7 @@ export function LayoutChallenges({ title, subtitle, body }: LayoutProps) {
   return (
     <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: "white", marginBottom: "2.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
+      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "2.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
       
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem" }}>
         {items.map((item, i) => {
@@ -217,7 +217,7 @@ export function LayoutChallenges({ title, subtitle, body }: LayoutProps) {
                 <ShieldAlert size={28} color={PRIMARY} />
               </div>
               <div>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 900, color: "white", marginBottom: "0.6rem" }}>{label}</h3>
+                <h3 style={{ fontSize: "1.25rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.6rem" }}>{label}</h3>
                 <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.7, margin: 0 }}><InlineText text={rest} /></p>
               </div>
             </motion.div>
@@ -235,7 +235,7 @@ export function LayoutBudget({ title, subtitle, body }: LayoutProps) {
   return (
     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: "white", marginBottom: "3.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
+      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.4rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "3.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
       
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))", gap: "2rem" }}>
         {items.map((item, i) => {
@@ -251,7 +251,7 @@ export function LayoutBudget({ title, subtitle, body }: LayoutProps) {
               </div>
               <div style={{ flex: 1 }}>
                 <h3 style={{ fontSize: "0.85rem", fontWeight: 900, color: GOLD, marginBottom: "0.4rem", textTransform: "uppercase", letterSpacing: "0.15em" }}>{label}</h3>
-                <p style={{ fontSize: "1.2rem", color: "white", fontWeight: 800, margin: 0 }}><InlineText text={rest} /></p>
+                <p style={{ fontSize: "1.2rem", color: TEXT_MAIN, fontWeight: 800, margin: 0 }}><InlineText text={rest} /></p>
               </div>
             </motion.div>
           );

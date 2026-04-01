@@ -20,7 +20,7 @@ export default function LayoutOneGate({ title, subtitle, body, image }: LayoutPr
     <div style={{ height: "100%", display: "flex", flexDirection: "column", gap: "2rem", animation: "animate-up 0.8s ease-out" }}>
       <div>
         <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.7rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 950, color: "white", marginBottom: "0.5rem", letterSpacing: "-0.03em" }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 950, color: TEXT_MAIN, marginBottom: "0.5rem", letterSpacing: "-0.03em" }}>{title}</h2>
       </div>
 
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: image ? "1.2fr 0.8fr" : "1fr", gap: "2.5rem", flex: 1, minHeight: 0 }}>
@@ -42,7 +42,7 @@ export default function LayoutOneGate({ title, subtitle, body, image }: LayoutPr
                     transition={{ delay: 0.1 * i }}
                     style={{ ...GLASS_DARK, padding: "1rem", borderRadius: 16, borderLeft: `4px solid ${colors[i]}`, textAlign: "right" }}
                   >
-                    <div style={{ fontWeight: 850, color: "white", fontSize: "0.85rem", marginBottom: "0.25rem" }}>{label}</div>
+                    <div style={{ fontWeight: 850, color: TEXT_MAIN, fontSize: "0.85rem", marginBottom: "0.25rem" }}>{label}</div>
                     <div style={{ fontSize: "0.7rem", color: TEXT_MUTED }}>{rest.slice(0, 60)}...</div>
                   </motion.div>
                 );
@@ -60,7 +60,7 @@ export default function LayoutOneGate({ title, subtitle, body, image }: LayoutPr
               }}
             >
               <ShieldCheck size={50} color="white" />
-              <div style={{ color: "white", fontWeight: 950, fontSize: "1rem", textAlign: "center", marginTop: "0.75rem", letterSpacing: "0.1em" }}>ONE-GATE<br/>CLEARANCE</div>
+              <div style={{ color: TEXT_MAIN, fontWeight: 950, fontSize: "1rem", textAlign: "center", marginTop: "0.75rem", letterSpacing: "0.1em" }}>ONE-GATE<br/>CLEARANCE</div>
               
               {/* Spinning Ring */}
               <motion.div 
@@ -82,7 +82,7 @@ export default function LayoutOneGate({ title, subtitle, body, image }: LayoutPr
                     transition={{ delay: 0.1 * (i + 3) }}
                     style={{ ...GLASS_DARK, padding: "1rem", borderRadius: 16, borderRight: `4px solid ${colors[i+3] || colors[0]}`, textAlign: "left" }}
                   >
-                    <div style={{ fontWeight: 850, color: "white", fontSize: "0.85rem", marginBottom: "0.25rem" }}>{label}</div>
+                    <div style={{ fontWeight: 850, color: TEXT_MAIN, fontSize: "0.85rem", marginBottom: "0.25rem" }}>{label}</div>
                     <div style={{ fontSize: "0.7rem", color: TEXT_MUTED }}>{rest.slice(0, 60)}...</div>
                   </motion.div>
                 );
@@ -102,7 +102,7 @@ export default function LayoutOneGate({ title, subtitle, body, image }: LayoutPr
              {items[2] ? (
                <>
                  <h4 style={{ margin: 0, color: GOLD, fontSize: "1.1rem", fontWeight: 900, marginBottom: "0.5rem" }}>{parseBoldLabel(items[2]).label}</h4>
-                 <p style={{ margin: 0, fontSize: "0.9rem", color: "white", opacity: 0.8, lineHeight: 1.5 }}><InlineText text={parseBoldLabel(items[2]).rest} /></p>
+                 <p style={{ margin: 0, fontSize: "0.9rem", color: TEXT_MAIN, opacity: 0.8, lineHeight: 1.5 }}><InlineText text={parseBoldLabel(items[2]).rest} /></p>
                </>
              ) : (
                <p style={{ margin: 0, fontSize: "0.9rem", color: TEXT_MUTED }}>{body.replace(/<.*?>/g, "").slice(0, 100)}...</p>
@@ -118,7 +118,7 @@ export default function LayoutOneGate({ title, subtitle, body, image }: LayoutPr
                <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(8,12,24,0.9) 0%, transparent 40%)" }} />
                <div style={{ position: "absolute", bottom: 20, left: 20, right: 20 }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
-                     <div style={{ color: "white", fontSize: "0.65rem", fontWeight: 900, letterSpacing: "0.1em" }}>COMMAND CENTER<br/>VERIFIED SYSTEM</div>
+                     <div style={{ color: TEXT_MAIN, fontSize: "0.65rem", fontWeight: 900, letterSpacing: "0.1em" }}>COMMAND CENTER<br/>VERIFIED SYSTEM</div>
                      <CheckCircle2 color="#22C55E" size={24} />
                   </div>
                </div>
@@ -127,7 +127,7 @@ export default function LayoutOneGate({ title, subtitle, body, image }: LayoutPr
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
                <div style={{ ...GLASS_DARK, padding: "1rem", borderRadius: 20, textAlign: "center" }}>
                   <div style={{ fontSize: "0.6rem", fontWeight: 900, color: TEXT_MUTED }}>INPUT SOURCES</div>
-                  <div style={{ fontSize: "1.5rem", fontWeight: 950, color: "white" }}>31+ OPD</div>
+                  <div style={{ fontSize: "1.5rem", fontWeight: 950, color: TEXT_MAIN }}>31+ OPD</div>
                </div>
                <div style={{ ...GLASS_DARK, padding: "1rem", borderRadius: 20, textAlign: "center" }}>
                   <div style={{ fontSize: "0.6rem", fontWeight: 900, color: TEXT_MUTED }}>SYNC RATE</div>

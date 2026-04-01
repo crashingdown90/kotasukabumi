@@ -38,7 +38,7 @@ export default function LayoutCyberWatch({ title, subtitle, body, features }: La
            <div style={{ width: 8, height: 8, borderRadius: "50%", background: PRIMARY, boxShadow: `0 0 10px ${PRIMARY}` }} />
            <span style={{ fontSize: "0.75rem", fontWeight: 900, letterSpacing: "0.22em", color: PRIMARY, textTransform: "uppercase" }}>{subtitle}</span>
          </motion.div>
-         <h2 style={{ fontSize: "clamp(2rem, 4vw, 3rem)", fontWeight: 950, color: "white", letterSpacing: "-0.03em", margin: "0 0 1rem 0" }}>{title}</h2>
+         <h2 style={{ fontSize: "clamp(2rem, 4vw, 3rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em", margin: "0 0 1rem 0" }}>{title}</h2>
          {body && (
             <p style={{ fontSize: "1.05rem", color: TEXT_MUTED, lineHeight: 1.6, maxWidth: "800px", margin: 0 }}>
                {body}
@@ -84,7 +84,7 @@ export default function LayoutCyberWatch({ title, subtitle, body, features }: La
               {/* Overlay Badge */}
               <div style={{ position: "absolute", bottom: -20, background: "rgba(0,0,0,0.8)", padding: "10px 24px", borderRadius: 30, border: `1px solid ${PRIMARY}55`, backdropFilter: "blur(10px)", zIndex: 20, display: "flex", gap: 10, alignItems: "center", boxShadow: `0 10px 30px rgba(0,0,0,0.5)` }}>
                  <Radar size={20} color={PRIMARY} />
-                 <span style={{ fontSize: "0.85rem", fontWeight: 900, color: "white", letterSpacing: "0.1em" }}>ACTIVE CYBER PATROL</span>
+                 <span style={{ fontSize: "0.85rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.1em" }}>ACTIVE CYBER PATROL</span>
               </div>
            </div>
         </motion.div>
@@ -117,7 +117,7 @@ export default function LayoutCyberWatch({ title, subtitle, body, features }: La
                     </div>
                     <div style={{ flex: 1 }}>
                        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.5rem" }}>
-                          <h3 style={{ fontSize: "1.1rem", fontWeight: 900, color: "white", margin: 0 }}>{item.title}</h3>
+                          <h3 style={{ fontSize: "1.1rem", fontWeight: 900, color: TEXT_MAIN, margin: 0 }}>{item.title}</h3>
                           {item.metric && (
                              <div style={{ background: `${highlightColor}22`, padding: "4px 10px", borderRadius: 12, fontSize: "0.7rem", color: highlightColor, fontWeight: 900, letterSpacing: "0.05em" }}>
                                {item.metric}

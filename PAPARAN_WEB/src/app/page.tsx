@@ -192,7 +192,7 @@ const MENU_ITEMS = [
     gradient: "linear-gradient(135deg, #0D4F3C 0%, #1A8B6A 100%)",
     glow: "rgba(26,139,106,0.5)",
     particle: "rgba(46,204,113,0.8)",
-    slug: "digitalisasi_spbe",
+    slug: "digitalisasi",
     label: "04",
     tag: "DIGITAL",
   },
@@ -274,7 +274,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main style={{ minHeight: "100vh", background: "#060A14", color: "white", fontFamily: "'Plus Jakarta Sans','Inter',sans-serif", position: "relative", overflowX: "hidden" }}>
+    <main style={{ minHeight: "100vh", background: "var(--bg-color)", color: "var(--text-main)", fontFamily: "var(--font-display)", position: "relative", overflowX: "hidden" }}>
 
       {/* ── GLOBAL KEYFRAMES ─────────────────────────────── */}
       <style>{`
@@ -316,27 +316,27 @@ export default function Home() {
       {/* ── AMBIENT BACKGROUND ───────────────────────────── */}
       <div style={{ position:"fixed", inset:0, pointerEvents:"none", zIndex:0 }}>
         {/* Orbs */}
-        <div style={{ position:"absolute", top:"-25%", left:"-10%", width:"80vw", height:"80vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(142,21,64,0.16) 0%, transparent 65%)", animation:"orb-drift 12s ease-in-out infinite" }} />
-        <div style={{ position:"absolute", bottom:"-20%", right:"-5%", width:"65vw", height:"65vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(212,175,55,0.09) 0%, transparent 65%)", animation:"orb-drift 16s ease-in-out 3s infinite reverse" }} />
-        <div style={{ position:"absolute", top:"40%", left:"55%", width:"45vw", height:"45vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(74,30,107,0.1) 0%, transparent 70%)", animation:"orb-drift 10s ease-in-out 1.5s infinite" }} />
+        <div style={{ position:"absolute", top:"-25%", left:"-10%", width:"80vw", height:"80vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(142,21,64,0.04) 0%, transparent 65%)", animation:"orb-drift 12s ease-in-out infinite" }} />
+        <div style={{ position:"absolute", bottom:"-20%", right:"-5%", width:"65vw", height:"65vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(212,175,55,0.03) 0%, transparent 65%)", animation:"orb-drift 16s ease-in-out 3s infinite reverse" }} />
+        <div style={{ position:"absolute", top:"40%", left:"55%", width:"45vw", height:"45vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(74,30,107,0.02) 0%, transparent 70%)", animation:"orb-drift 10s ease-in-out 1.5s infinite" }} />
         {/* Dot grid */}
-        <div style={{ position:"absolute", inset:0, backgroundImage:"radial-gradient(rgba(255,255,255,0.035) 1px, transparent 1px)", backgroundSize:"28px 28px" }} />
+        <div style={{ position:"absolute", inset:0, backgroundImage:"radial-gradient(rgba(15, 23, 42, 0.04) 1px, transparent 1px)", backgroundSize:"28px 28px" }} />
         {/* Horizontal scan line */}
-        <div style={{ position:"absolute", left:0, right:0, height:1, background:"linear-gradient(90deg, transparent, rgba(212,175,55,0.08), transparent)", animation:"scan-line 8s linear infinite" }} />
+        <div style={{ position:"absolute", left:0, right:0, height:1, background:"linear-gradient(90deg, transparent, rgba(142,21,64,0.06), transparent)", animation:"scan-line 8s linear infinite" }} />
       </div>
 
       {/* ── NAV ──────────────────────────────────────────── */}
-      <nav style={{ position:"sticky", top:0, zIndex:100, padding:"0 5%", height:68, display:"flex", alignItems:"center", justifyContent:"space-between", background:"rgba(6,10,20,0.8)", backdropFilter:"blur(24px)", borderBottom:"1px solid rgba(255,255,255,0.05)" }}>
+      <nav style={{ position:"sticky", top:0, zIndex:100, padding:"0 5%", height:68, display:"flex", alignItems:"center", justifyContent:"space-between", background:"rgba(248,250,252,0.8)", backdropFilter:"blur(24px)", borderBottom:"1px solid rgba(15,23,42,0.05)" }}>
         <div style={{ display:"flex", alignItems:"center", gap:"0.75rem" }}>
           {/* Animated logo ring */}
           <div style={{ position:"relative", width:40, height:40, display:"flex", alignItems:"center", justifyContent:"center" }}>
-            <div style={{ position:"absolute", inset:-3, borderRadius:"50%", background:"linear-gradient(135deg,#8E1540,#D4AF37,#8E1540)", backgroundSize:"200%", animation:"spin-slow 6s linear infinite", opacity:0.6 }} />
-            <div style={{ position:"absolute", inset:1, borderRadius:"50%", background:"#06091A" }} />
+            <div style={{ position:"absolute", inset:-3, borderRadius:"50%", background:"linear-gradient(135deg,#8E1540,#D4AF37,#8E1540)", backgroundSize:"200%", animation:"spin-slow 6s linear infinite", opacity:0.4 }} />
+            <div style={{ position:"absolute", inset:1, borderRadius:"50%", background:"#FFFFFF" }} />
             <Image src="/Logo_Sukabumi.png" alt="Logo" width={26} height={26} style={{ objectFit:"contain", position:"relative", zIndex:1 }} />
           </div>
           <div>
-            <p style={{ fontWeight:800, fontSize:"0.95rem", color:"white", lineHeight:1.1, letterSpacing:"-0.01em" }}>Kota Sukabumi</p>
-            <p style={{ fontSize:"0.62rem", color:"rgba(212,175,55,0.75)", fontWeight:700, letterSpacing:"0.12em", textTransform:"uppercase" }}>Portal Strategis</p>
+            <p style={{ fontWeight:800, fontSize:"0.95rem", color:"var(--text-main)", lineHeight:1.1, letterSpacing:"-0.01em" }}>Kota Sukabumi</p>
+            <p style={{ fontSize:"0.62rem", color:"var(--primary)", fontWeight:700, letterSpacing:"0.12em", textTransform:"uppercase" }}>Portal Strategis</p>
           </div>
         </div>
         <div style={{ display:"flex", alignItems:"center", gap:"1rem" }}>
@@ -346,11 +346,11 @@ export default function Home() {
               <div style={{ position:"absolute", inset:0, borderRadius:"50%", background:"#22C55E" }} />
               <div style={{ position:"absolute", inset:-2, borderRadius:"50%", border:"1.5px solid #22C55E", animation:"pulse-ring 2s ease-out infinite" }} />
             </div>
-            <span style={{ fontSize:"0.7rem", color:"rgba(255,255,255,0.35)", fontWeight:600 }}>Live</span>
+            <span style={{ fontSize:"0.7rem", color:"var(--text-subtle)", fontWeight:600 }}>Live</span>
           </div>
-          <div style={{ display:"flex", alignItems:"center", gap:"0.5rem", padding:"0.35rem 0.9rem", borderRadius:99, background:"rgba(142,21,64,0.12)", border:"1px solid rgba(142,21,64,0.25)" }}>
+          <div style={{ display:"flex", alignItems:"center", gap:"0.5rem", padding:"0.35rem 0.9rem", borderRadius:99, background:"rgba(142,21,64,0.05)", border:"1px solid rgba(142,21,64,0.15)" }}>
             <Lock size={11} color="#D4AF37" />
-            <span style={{ fontSize:"0.68rem", fontWeight:800, color:"rgba(255,255,255,0.5)", letterSpacing:"0.1em", textTransform:"uppercase" }}>Akses Terbatas</span>
+            <span style={{ fontSize:"0.68rem", fontWeight:800, color:"var(--text-muted)", letterSpacing:"0.1em", textTransform:"uppercase" }}>Akses Terbatas</span>
           </div>
         </div>
       </nav>
@@ -370,18 +370,18 @@ export default function Home() {
 
           {/* Headline */}
           <div style={{ display:"flex", flexDirection:"column", gap:"0.2rem" }}>
-            <h1 style={{ fontSize:"clamp(2.2rem,4vw,3.6rem)", fontWeight:900, lineHeight:1.06, letterSpacing:"-0.03em", color:"white" }}>
+            <h1 style={{ fontSize:"clamp(2.2rem,4vw,3.6rem)", fontWeight:900, lineHeight:1.06, letterSpacing:"-0.03em", color:"var(--text-main)" }}>
               Portal Paparan
             </h1>
             <h1 style={{ fontSize:"clamp(2.2rem,4vw,3.6rem)", fontWeight:900, lineHeight:1.06, letterSpacing:"-0.03em", background:"linear-gradient(135deg,#C41E5B,#8E1540 30%,#D4AF37 70%,#F0D060)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text" }}>
               Strategis
             </h1>
-            <h1 style={{ fontSize:"clamp(2.2rem,4vw,3.6rem)", fontWeight:900, lineHeight:1.06, letterSpacing:"-0.03em", color:"rgba(255,255,255,0.35)", WebkitTextFillColor:"rgba(255,255,255,0.35)" }}>
+            <h1 style={{ fontSize:"clamp(2.2rem,4vw,3.6rem)", fontWeight:900, lineHeight:1.06, letterSpacing:"-0.03em", color:"var(--text-subtle)", WebkitTextFillColor:"rgba(15,23,42,0.12)" }}>
               Sukabumi 2025–2029
             </h1>
           </div>
 
-          <p style={{ fontSize:"1rem", color:"rgba(255,255,255,0.45)", lineHeight:1.8, maxWidth:500 }}>
+          <p style={{ fontSize:"1rem", color:"var(--text-muted)", lineHeight:1.8, maxWidth:500 }}>
             Pusat data terintegrasi RPJMD, program unggulan, strategi fiskal, transformasi digital, dan komunikasi publik Kota Sukabumi.
           </p>
 
@@ -396,20 +396,20 @@ export default function Home() {
               Mulai Eksplorasi
               <ArrowRight size={17} />
             </Link>
-            <div style={{ display:"inline-flex", alignItems:"center", gap:"0.6rem", padding:"0.85rem 1.4rem", borderRadius:14, background:"rgba(255,255,255,0.04)", border:"1px solid rgba(255,255,255,0.09)", color:"rgba(255,255,255,0.55)", fontSize:"0.88rem", fontWeight:600 }}>
+            <div style={{ display:"inline-flex", alignItems:"center", gap:"0.6rem", padding:"0.85rem 1.4rem", borderRadius:14, background:"rgba(15,23,42,0.03)", border:"1px solid rgba(15,23,42,0.08)", color:"var(--text-muted)", fontSize:"0.88rem", fontWeight:600 }}>
               <Shield size={15} color="#D4AF37" />
               Data Resmi & Tervalidasi
             </div>
           </div>
 
           {/* Stats with counter animation */}
-          <div style={{ display:"flex", gap:"2.5rem", paddingTop:"1.25rem", borderTop:"1px solid rgba(255,255,255,0.06)" }}>
+          <div style={{ display:"flex", gap:"2.5rem", paddingTop:"1.25rem", borderTop:"1px solid rgba(15,23,42,0.06)" }}>
             {STATS.map((s, i) => (
               <div key={i} style={{ animation: mounted ? `slide-up-in 0.5s cubic-bezier(0.34,1.2,0.64,1) ${0.2 + i * 0.1}s both` : "none" }}>
-                <p style={{ fontSize:"clamp(1.4rem,2.5vw,1.9rem)", fontWeight:900, color:"white", letterSpacing:"-0.03em", lineHeight:1 }}>
+                <p style={{ fontSize:"clamp(1.4rem,2.5vw,1.9rem)", fontWeight:900, color:"var(--text-main)", letterSpacing:"-0.03em", lineHeight:1 }}>
                   {mounted ? <AnimatedNumber target={s.value} /> : "0"}
                 </p>
-                <p style={{ fontSize:"0.75rem", color:"rgba(255,255,255,0.35)", fontWeight:500, marginTop:"0.2rem" }}>{s.label}</p>
+                <p style={{ fontSize:"0.75rem", color:"var(--text-subtle)", fontWeight:500, marginTop:"0.2rem" }}>{s.label}</p>
               </div>
             ))}
           </div>
@@ -427,21 +427,21 @@ export default function Home() {
             <div style={{ position:"absolute", bottom:0, left:0, right:0, height:"45%", background:"linear-gradient(transparent,rgba(6,10,20,0.85))" }} />
             <div style={{ position:"absolute", bottom:"1.25rem", left:"1.25rem", right:"1.25rem", display:"flex", gap:"0.65rem" }}>
               {["H. Ayep Zaki, S.E — Wali Kota","Bobby Maulana — Wakil Wali Kota"].map((n, i) => (
-                <div key={i} style={{ flex:1, padding:"0.5rem 0.8rem", borderRadius:10, background:"rgba(6,10,20,0.75)", backdropFilter:"blur(12px)", border:"1px solid rgba(255,255,255,0.09)" }}>
-                  <p style={{ fontSize:"0.7rem", fontWeight:700, color:"white", lineHeight:1.35 }}>{n}</p>
+                <div key={i} style={{ flex:1, padding:"0.5rem 0.8rem", borderRadius:10, background:"rgba(255,255,255,0.85)", backdropFilter:"blur(12px)", border:"1px solid rgba(15,23,42,0.08)" }}>
+                  <p style={{ fontSize:"0.7rem", fontWeight:800, color:"var(--text-main)", lineHeight:1.35 }}>{n}</p>
                 </div>
               ))}
             </div>
           </div>
 
           {/* Floating badge */}
-          <div style={{ position:"absolute", top:"-1.25rem", right:"-1.25rem", background:"rgba(13,18,37,0.9)", backdropFilter:"blur(16px)", border:"1px solid rgba(212,175,55,0.25)", borderRadius:16, padding:"0.7rem 1rem", display:"flex", alignItems:"center", gap:"0.6rem", boxShadow:"0 8px 32px rgba(0,0,0,0.5)", zIndex:20 }}>
+          <div style={{ position:"absolute", top:"-1.25rem", right:"-1.25rem", background:"rgba(255,255,255,0.92)", backdropFilter:"blur(16px)", border:"1px solid rgba(212,175,55,0.4)", borderRadius:16, padding:"0.7rem 1rem", display:"flex", alignItems:"center", gap:"0.6rem", boxShadow:"0 8px 32px rgba(0,0,0,0.08)", zIndex:20 }}>
             <div style={{ width:32, height:32, borderRadius:9, background:"linear-gradient(135deg,#A07820,#D4AF37)", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
-              <TrendingUp size={15} color="#06091A" />
+              <TrendingUp size={15} color="white" />
             </div>
             <div>
-              <p style={{ fontSize:"0.65rem", color:"rgba(255,255,255,0.4)", fontWeight:600 }}>RPJMD</p>
-              <p style={{ fontSize:"0.8rem", color:"#D4AF37", fontWeight:800 }}>Aktif 2025</p>
+              <p style={{ fontSize:"0.65rem", color:"var(--text-subtle)", fontWeight:600 }}>RPJMD</p>
+              <p style={{ fontSize:"0.8rem", color:"#8E1540", fontWeight:800 }}>Aktif 2025</p>
             </div>
           </div>
 
@@ -453,7 +453,7 @@ export default function Home() {
       </section>
 
       {/* ── DIVIDER ──────────────────────────────────────── */}
-      <div style={{ position:"relative", zIndex:1, margin:"0 5%", height:1, background:"linear-gradient(90deg,transparent,rgba(255,255,255,0.06),transparent)" }} />
+      <div style={{ position:"relative", zIndex:1, margin:"0 5%", height:1, background:"linear-gradient(90deg,transparent,rgba(15,23,42,0.06),transparent)" }} />
 
       {/* ── MENU SECTION ─────────────────────────────────── */}
       <section id="menu" style={{ position:"relative", zIndex:1, padding:"4.5rem 5% 5.5rem" }}>
@@ -461,10 +461,10 @@ export default function Home() {
           <p style={{ fontSize:"0.68rem", fontWeight:900, letterSpacing:"0.2em", textTransform:"uppercase", color:"#D4AF37", marginBottom:"0.65rem" }}>
             ✦ NAVIGASI KONTEN ✦
           </p>
-          <h2 style={{ fontSize:"clamp(1.7rem,3vw,2.5rem)", fontWeight:900, color:"white", letterSpacing:"-0.02em", marginBottom:"0.65rem" }}>
+          <h2 style={{ fontSize:"clamp(1.7rem,3vw,2.5rem)", fontWeight:900, color:"var(--text-main)", letterSpacing:"-0.02em", marginBottom:"0.65rem" }}>
             Menu Paparan Strategis
           </h2>
-          <p style={{ fontSize:"0.95rem", color:"rgba(255,255,255,0.35)", maxWidth:480, margin:"0 auto", lineHeight:1.75 }}>
+          <p style={{ fontSize:"0.95rem", color:"var(--text-muted)", maxWidth:480, margin:"0 auto", lineHeight:1.75 }}>
             Pilih kategori untuk mengakses paparan interaktif lengkap.
           </p>
         </div>
@@ -475,13 +475,13 @@ export default function Home() {
             return (
               <Link
                 key={item.id}
-                href={`/slide/${item.slug}`}
-                style={{ position:"relative", overflow:"hidden", display:"flex", alignItems:"center", gap:"1.25rem", padding:"1.4rem 1.5rem", borderRadius:20, background: isHov ? "rgba(255,255,255,0.055)" : "rgba(255,255,255,0.025)", border: `1px solid ${isHov ? "rgba(255,255,255,0.12)" : "rgba(255,255,255,0.06)"}`, transition:"all 0.35s cubic-bezier(0.34,1.2,0.64,1)", textDecoration:"none", animation: mounted ? `slide-up-in 0.5s cubic-bezier(0.34,1.2,0.64,1) ${index * 0.07 + 0.1}s both` : "none", transform: isHov ? "translateY(-5px)" : "none", boxShadow: isHov ? `0 20px 60px rgba(0,0,0,0.3), 0 0 0 1px ${item.glow}` : "none" }}
+                href={item.slug === "digitalisasi" ? "/digitalisasi" : `/slide/${item.slug}`}
+                style={{ position:"relative", overflow:"hidden", display:"flex", alignItems:"center", gap:"1.25rem", padding:"1.4rem 1.5rem", borderRadius:20, background: isHov ? "rgba(255,255,255,0.8)" : "rgba(255,255,255,0.5)", border: `1px solid ${isHov ? "rgba(142,21,64,0.15)" : "rgba(15,23,42,0.06)"}`, transition:"all 0.35s cubic-bezier(0.34,1.2,0.64,1)", textDecoration:"none", animation: mounted ? `slide-up-in 0.5s cubic-bezier(0.34,1.2,0.64,1) ${index * 0.07 + 0.1}s both` : "none", transform: isHov ? "translateY(-5px)" : "none", boxShadow: isHov ? `0 20px 40px rgba(0,0,0,0.05), 0 0 0 1px ${item.glow}33` : "none" }}
                 onMouseEnter={() => setHovered(item.id)}
                 onMouseLeave={() => setHovered(null)}
               >
                 {/* Shimmer on hover */}
-                {isHov && <div style={{ position:"absolute", top:0, bottom:0, width:"35%", background:"linear-gradient(90deg,transparent,rgba(255,255,255,0.06),transparent)", animation:"shimmer-sweep 1.2s ease forwards" }} />}
+                {isHov && <div style={{ position:"absolute", top:0, bottom:0, width:"35%", background:"linear-gradient(90deg,transparent,rgba(142,21,64,0.03),transparent)", animation:"shimmer-sweep 1.2s ease forwards" }} />}
 
                 {/* Particles on hover */}
                 {isHov && <FloatingParticles color={item.particle} />}
@@ -490,7 +490,7 @@ export default function Home() {
                 <div style={{ position:"absolute", bottom:0, left:0, right:0, height:2, background:item.gradient, opacity: isHov ? 0.9 : 0.3, transition:"opacity 0.3s", boxShadow: isHov ? `0 0 16px ${item.glow}` : "none" }} />
 
                 {/* Number */}
-                <div style={{ position:"absolute", top:"1rem", right:"1.2rem", fontSize:"0.62rem", fontWeight:900, color:"rgba(255,255,255,0.12)", letterSpacing:"0.06em" }}>
+                <div style={{ position:"absolute", top:"1rem", right:"1.2rem", fontSize:"0.62rem", fontWeight:900, color:"rgba(15,23,42,0.06)", letterSpacing:"0.06em" }}>
                   {item.label}
                 </div>
 
@@ -500,25 +500,24 @@ export default function Home() {
                   {isHov && (
                     <div style={{ position:"absolute", inset:-6, borderRadius:20, border:`1.5px solid ${item.glow}`, animation:"pulse-ring 1s ease-out infinite" }} />
                   )}
-                  <div style={{ width:58, height:58, borderRadius:17, background:item.gradient, display:"flex", alignItems:"center", justifyContent:"center", boxShadow: isHov ? `0 8px 32px ${item.glow}, 0 0 0 1px rgba(255,255,255,0.1)` : `0 6px 20px ${item.glow}55`, transition:"all 0.3s", transform: isHov ? "scale(1.08)" : "scale(1)" }}>
+                  <div style={{ width:58, height:58, borderRadius:17, background:item.gradient, display:"flex", alignItems:"center", justifyContent:"center", boxShadow: isHov ? `0 8px 32px ${item.glow}66, 0 0 0 1px rgba(255,255,255,0.3)` : `0 6px 20px ${item.glow}33`, transition:"all 0.3s", transform: isHov ? "scale(1.08)" : "scale(1)" }}>
                     <item.Icon size={26} />
                   </div>
                 </div>
 
-                {/* Text */}
                 <div style={{ flex:1, minWidth:0 }}>
                   <div style={{ display:"flex", alignItems:"center", gap:"0.5rem", marginBottom:"0.3rem" }}>
-                    <h3 style={{ fontWeight:800, fontSize:"0.97rem", color:"white", lineHeight:1.25, letterSpacing:"-0.01em" }}>{item.title}</h3>
-                    <span style={{ fontSize:"0.58rem", fontWeight:800, padding:"0.2rem 0.5rem", borderRadius:4, background:`${item.glow}30`, color: isHov ? "white" : "rgba(255,255,255,0.4)", letterSpacing:"0.1em", textTransform:"uppercase", border:`1px solid ${item.glow}50`, transition:"all 0.3s", flexShrink:0 }}>
+                    <h3 style={{ fontWeight:800, fontSize:"0.97rem", color:"var(--text-main)", lineHeight:1.25, letterSpacing:"-0.01em" }}>{item.title}</h3>
+                    <span style={{ fontSize:"0.58rem", fontWeight:800, padding:"0.2rem 0.5rem", borderRadius:4, background:`${item.glow}15`, color: isHov ? "var(--primary)" : "var(--text-subtle)", letterSpacing:"0.1em", textTransform:"uppercase", border:`1px solid ${item.glow}30`, transition:"all 0.3s", flexShrink:0 }}>
                       {item.tag}
                     </span>
                   </div>
-                  <p style={{ fontSize:"0.8rem", color:"rgba(255,255,255,0.38)", lineHeight:1.55 }}>{item.desc}</p>
+                  <p style={{ fontSize:"0.8rem", color:"var(--text-muted)", lineHeight:1.55 }}>{item.desc}</p>
                 </div>
 
                 {/* Arrow */}
-                <div style={{ width:34, height:34, borderRadius:"50%", background: isHov ? item.gradient : "rgba(255,255,255,0.05)", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0, transition:"all 0.3s", transform: isHov ? "translateX(3px)" : "none", boxShadow: isHov ? `0 4px 16px ${item.glow}` : "none" }}>
-                  <ArrowRight size={15} color={isHov ? "white" : "rgba(255,255,255,0.3)"} />
+                <div style={{ width:34, height:34, borderRadius:"50%", background: isHov ? item.gradient : "rgba(15,23,42,0.04)", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0, transition:"all 0.3s", transform: isHov ? "translateX(3px)" : "none", boxShadow: isHov ? `0 4px 16px ${item.glow}66` : "none" }}>
+                  <ArrowRight size={15} color={isHov ? "white" : "var(--text-subtle)"} />
                 </div>
               </Link>
             );
@@ -527,20 +526,20 @@ export default function Home() {
       </section>
 
       {/* ── FOOTER ───────────────────────────────────────── */}
-      <footer style={{ position:"relative", zIndex:1, padding:"1.75rem 5%", borderTop:"1px solid rgba(255,255,255,0.05)", display:"flex", justifyContent:"space-between", alignItems:"center", flexWrap:"wrap", gap:"0.75rem" }}>
+      <footer style={{ position:"relative", zIndex:1, padding:"1.75rem 5%", borderTop:"1px solid rgba(15,23,42,0.05)", display:"flex", justifyContent:"space-between", alignItems:"center", flexWrap:"wrap", gap:"0.75rem" }}>
         <div style={{ display:"flex", alignItems:"center", gap:"0.5rem" }}>
           <div style={{ position:"relative", width:8, height:8 }}>
             <div style={{ position:"absolute", inset:0, borderRadius:"50%", background:"#22C55E" }} />
             <div style={{ position:"absolute", inset:-2, borderRadius:"50%", border:"1.5px solid #22C55E", animation:"pulse-ring 2.5s ease-out infinite" }} />
           </div>
-          <span style={{ fontSize:"0.75rem", color:"rgba(255,255,255,0.25)", fontWeight:500 }}>Sistem aktif & beroperasi</span>
+          <span style={{ fontSize:"0.75rem", color:"var(--text-subtle)", fontWeight:500 }}>Sistem aktif & beroperasi</span>
         </div>
-        <p style={{ fontSize:"0.75rem", color:"rgba(255,255,255,0.18)" }}>
+        <p style={{ fontSize:"0.75rem", color:"var(--text-subtle)", opacity:0.6 }}>
           © 2026 Pemerintah Kota Sukabumi · Tim Transformasi Digital
         </p>
         <div style={{ display:"flex", alignItems:"center", gap:"0.4rem" }}>
-          <div style={{ width:6, height:6, borderRadius:"50%", background:"rgba(142,21,64,0.8)" }} />
-          <span style={{ fontSize:"0.68rem", color:"rgba(255,255,255,0.2)", fontWeight:700, letterSpacing:"0.08em" }}>RAHASIA</span>
+          <div style={{ width:6, height:6, borderRadius:"50%", background:"rgba(142,21,64,0.4)" }} />
+          <span style={{ fontSize:"0.68rem", color:"var(--text-subtle)", fontWeight:700, letterSpacing:"0.08em", opacity:0.5 }}>RAHASIA</span>
         </div>
       </footer>
 

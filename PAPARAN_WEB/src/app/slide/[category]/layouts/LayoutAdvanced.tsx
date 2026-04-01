@@ -17,7 +17,7 @@ export function LayoutTimeline({ title, subtitle, body }: LayoutProps) {
   return (
     <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-      <h2 style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", fontWeight: 900, color: "white", marginBottom: "3rem", letterSpacing: "-0.03em" }}>{title}</h2>
+      <h2 style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "3rem", letterSpacing: "-0.03em" }}>{title}</h2>
       
       <div style={{ position: "relative", display: "flex", flexDirection: "column", gap: "2rem" }}>
         {/* Connection Line */}
@@ -53,7 +53,7 @@ export function LayoutKPIGrid({ title, subtitle, body }: LayoutProps) {
   return (
     <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-      <h2 style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", fontWeight: 900, color: "white", marginBottom: "3.5rem", letterSpacing: "-0.03em" }}>{title}</h2>
+      <h2 style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", fontWeight: 900, color: TEXT_MAIN, marginBottom: "3.5rem", letterSpacing: "-0.03em" }}>{title}</h2>
       
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
         {items.map((item, i) => {
@@ -68,7 +68,7 @@ export function LayoutKPIGrid({ title, subtitle, body }: LayoutProps) {
               whileHover={{ y: -12, backgroundColor: "rgba(142,21,64,0.08)" }}
               style={{ ...GLASS_DARK, borderRadius: 32, padding: "2.5rem", textAlign: "center", position: "relative", border: "1px solid rgba(255,255,255,0.06)", cursor: "default" }}
             >
-               <div style={{ position: "absolute", top: -18, left: "50%", transform: "translateX(-50%)", background: `linear-gradient(135deg, ${PRIMARY}, #8E1540)`, borderRadius: 99, padding: "6px 20px", fontSize: "0.7rem", fontWeight: 900, color: "white", letterSpacing: "0.15em", boxShadow: "0 10px 25px rgba(142,21,64,0.4)" }}>
+               <div style={{ position: "absolute", top: -18, left: "50%", transform: "translateX(-50%)", background: `linear-gradient(135deg, ${PRIMARY}, #8E1540)`, borderRadius: 99, padding: "6px 20px", fontSize: "0.7rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.15em", boxShadow: "0 10px 25px rgba(142,21,64,0.4)" }}>
                 KPI TARGET
                </div>
                
@@ -84,7 +84,7 @@ export function LayoutKPIGrid({ title, subtitle, body }: LayoutProps) {
                     />
                   </svg>
                   <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
-                    <span style={{ fontSize: "1.4rem", fontWeight: 950, color: "white" }}>{percentage}%</span>
+                    <span style={{ fontSize: "1.4rem", fontWeight: 950, color: TEXT_MAIN }}>{percentage}%</span>
                   </div>
                </div>
 
@@ -113,7 +113,7 @@ export function LayoutSentiment({ title, subtitle, body }: LayoutProps) {
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "3rem" }}>
         <div>
           <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-          <h2 style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", fontWeight: 900, color: "white", letterSpacing: "-0.03em", margin: 0 }}>{title}</h2>
+          <h2 style={{ fontSize: "clamp(1.8rem, 4.5vw, 3rem)", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "-0.03em", margin: 0 }}>{title}</h2>
         </div>
         
         {/* Sentiment Gauge Meter */}
@@ -171,7 +171,7 @@ export function LayoutSentiment({ title, subtitle, body }: LayoutProps) {
                 </div>
                 <div style={{ fontWeight: 900, fontSize: "0.85rem", color: lvl.color, letterSpacing: "0.15em", textTransform: "uppercase" }}>{lvl.type}</div>
               </div>
-              <div style={{ fontSize: "1.5rem", fontWeight: 900, color: "white", lineHeight: 1.25 }}>{label}</div>
+              <div style={{ fontSize: "1.5rem", fontWeight: 900, color: TEXT_MAIN, lineHeight: 1.25 }}>{label}</div>
               <p style={{ fontSize: "1rem", color: TEXT_MUTED, lineHeight: 1.7, margin: 0 }}><InlineText text={rest} /></p>
             </motion.div>
           );

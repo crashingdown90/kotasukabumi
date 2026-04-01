@@ -29,7 +29,7 @@ export default function LayoutOrgChart({ title, subtitle, body, features, highli
     <motion.div initial="hidden" animate="show" variants={container} style={{ height: "100%", display: "flex", flexDirection: "column" }}>
       <div style={{ textAlign: "center", marginBottom: "2rem" }}>
         <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.6rem,3.5vw,2.2rem)", fontWeight: 900, color: "white", letterSpacing: "-0.01em", margin: 0 }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.6rem,3.5vw,2.2rem)", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "-0.01em", margin: 0 }}>{title}</h2>
       </div>
       
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 0, flex: 1, position: "relative" }}>
@@ -41,7 +41,7 @@ export default function LayoutOrgChart({ title, subtitle, body, features, highli
             transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
             style={{ 
               background: `linear-gradient(135deg, ${PRIMARY}, #C41E5B)`, 
-              color: "white", 
+              color: TEXT_MAIN, 
               borderRadius: 30, 
               padding: "1rem 3rem", 
               fontWeight: 950, 
@@ -129,7 +129,7 @@ export default function LayoutOrgChart({ title, subtitle, body, features, highli
                   <motion.div key={i} whileHover={{ y: -5, backgroundColor: "rgba(255,255,255,0.06)" }} style={{ ...GLASS_DARK, borderRadius: 20, padding: "1.5rem", textAlign: "center", border: "1px solid rgba(255,255,255,0.1)", position: "relative" }}>
                     <div style={{ position: "absolute", top: 0, left: "20%", right: "20%", height: "2px", background: `linear-gradient(90deg, transparent, ${GOLD}, transparent)` }} />
                     <Component size={24} color={GOLD} style={{ margin: "0 auto 0.75rem", opacity: 0.8 }} />
-                    <p style={{ fontWeight: 900, fontSize: "0.95rem", color: "white", margin: "0 0 0.5rem", letterSpacing: "0.02em" }}>{label}</p>
+                    <p style={{ fontWeight: 900, fontSize: "0.95rem", color: TEXT_MAIN, margin: "0 0 0.5rem", letterSpacing: "0.02em" }}>{label}</p>
                     {rest && <p style={{ fontSize: "0.85rem", color: TEXT_MUTED, margin: 0, lineHeight: 1.6 }}><InlineText text={rest} /></p>}
                   </motion.div>
                 );

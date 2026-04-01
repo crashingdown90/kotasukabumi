@@ -30,7 +30,7 @@ export default function LayoutSection({ title, subtitle, body, IconComp }: Layou
            <span style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.3em", color: GOLD, textTransform: "uppercase" }}>{subtitle}</span>
         </div>
         
-        <h1 style={{ fontSize: "clamp(3rem, 7vw, 6rem)", fontWeight: 950, color: "white", lineHeight: 1, letterSpacing: "-0.04em", margin: "0 0 2rem" }}>
+        <h1 style={{ fontSize: "clamp(3rem, 7vw, 6rem)", fontWeight: 950, color: TEXT_MAIN, lineHeight: 1, letterSpacing: "-0.04em", margin: "0 0 2rem" }}>
           {title.split(":").map((part, i) => (
             <span key={i} style={{ display: "block", color: i === 0 ? GOLD : "white", opacity: i === 0 ? 0.8 : 1 }}>
               {part.trim()}

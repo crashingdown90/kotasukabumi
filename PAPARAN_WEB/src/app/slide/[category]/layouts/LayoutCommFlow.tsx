@@ -29,7 +29,7 @@ export default function LayoutCommFlow({ title, subtitle, body }: LayoutProps) {
       {/* HEADER */}
       <div style={{ textAlign: "center", marginBottom: isMobile ? "1.5rem" : "2rem" }}>
         <p style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.6rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: "white", letterSpacing: "-0.03em", margin: 0 }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em", margin: 0 }}>{title}</h2>
         <div style={{ marginTop: "1rem", color: TEXT_MUTED, fontSize: "1rem", maxWidth: "800px", margin: "1rem auto 0" }}>{body}</div>
       </div>
 
@@ -119,12 +119,12 @@ export default function LayoutCommFlow({ title, subtitle, body }: LayoutProps) {
           initial={{ opacity: 0, x: 20 }} 
           animate={{ opacity: 1, x: 0 }} 
           transition={{ delay: 2 }}
-          style={{ position: "absolute", bottom: 30, right: 30, background: "rgba(0,0,0,0.6)", padding: "1.25rem", borderRadius: 20, border: `1px solid ${GOLD}33`, backdropFilter: "blur(10px)", display: "flex", alignItems: "center", gap: "12px" }}
+          style={{ position: "absolute", bottom: 30, right: 30, background: "rgba(255,255,255,0.7)", padding: "1.25rem", borderRadius: 20, border: `1px solid ${GOLD}33`, backdropFilter: "blur(10px)", display: "flex", alignItems: "center", gap: "12px" }}
         >
            <Activity size={24} color={GOLD} className="pulsate" />
            <div>
               <div style={{ fontSize: "0.6rem", color: TEXT_MUTED, fontWeight: 800, letterSpacing: "0.1em" }}>COMMUNICATION STATUS</div>
-              <div style={{ fontSize: "0.9rem", color: "white", fontWeight: 900 }}>TERHUBUNG & AKTIF</div>
+              <div style={{ fontSize: "0.9rem", color: TEXT_MAIN, fontWeight: 900 }}>TERHUBUNG & AKTIF</div>
            </div>
         </motion.div>
       )}
@@ -165,7 +165,7 @@ function NodeComponent({ tier, title, subtitle, Icon, color, details, isMain = f
          </div>
          <div>
             <div style={{ fontSize: "0.65rem", fontWeight: 900, color: color, textTransform: "uppercase", letterSpacing: "0.1em" }}>{title}</div>
-            <div style={{ fontSize: isMain ? "1.1rem" : "1rem", fontWeight: 950, color: "white" }}>{subtitle}</div>
+            <div style={{ fontSize: isMain ? "1.1rem" : "1rem", fontWeight: 950, color: TEXT_MAIN }}>{subtitle}</div>
          </div>
        </div>
 

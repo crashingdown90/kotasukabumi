@@ -46,7 +46,7 @@ export default function LayoutCrisisSOP({ title, subtitle, body, features }: Lay
               <Settings size={14} color="#10B981" />
               <span style={{ fontSize: "0.75rem", fontWeight: 900, letterSpacing: "0.22em", color: "#10B981", textTransform: "uppercase" }}>{subtitle}</span>
             </motion.div>
-            <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 3rem)", fontWeight: 950, color: "white", letterSpacing: "-0.04em", margin: 0 }}>{title}</h2>
+            <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 3rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.04em", margin: 0 }}>{title}</h2>
             {body && <p style={{ fontSize: "1rem", color: TEXT_MUTED, maxWidth: "700px", marginTop: "0.75rem" }}>{body}</p>}
          </div>
          <div style={{ textAlign: "right" }}>
@@ -94,7 +94,7 @@ export default function LayoutCrisisSOP({ title, subtitle, body, features }: Lay
                   <Icon size={22} color={accent} />
                </div>
 
-               <h3 style={{ fontSize: "1.15rem", fontWeight: 900, color: "white", marginBottom: "0.5rem" }}>{item.title}</h3>
+               <h3 style={{ fontSize: "1.15rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.5rem" }}>{item.title}</h3>
                
                {/* Owner Label */}
                <div style={{ display: "flex", alignItems: "center", gap: "6px", marginBottom: "1rem" }}>

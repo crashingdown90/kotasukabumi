@@ -84,7 +84,7 @@ export default function LayoutImmersive({ title, subtitle, body, image }: Layout
              </p>
           </div>
           
-          <h2 style={{ fontSize: "clamp(2rem, 4.5vw, 3.5rem)", fontWeight: 950, color: "white", marginBottom: "2rem", letterSpacing: "-0.03em", lineHeight: 1.1 }}>
+          <h2 style={{ fontSize: "clamp(2rem, 4.5vw, 3.5rem)", fontWeight: 950, color: TEXT_MAIN, marginBottom: "2rem", letterSpacing: "-0.03em", lineHeight: 1.1 }}>
             {title}
           </h2>
           
@@ -93,9 +93,9 @@ export default function LayoutImmersive({ title, subtitle, body, image }: Layout
             dangerouslySetInnerHTML={{ __html: body }}
           />
           
-          <div style={{ marginTop: "3rem", display: "inline-flex", alignItems: "center", gap: "1rem", padding: "0.75rem 1.5rem", borderRadius: 100, background: "rgba(0,0,0,0.5)", border: `1px solid ${PRIMARY}55` }}>
+          <div style={{ marginTop: "3rem", display: "inline-flex", alignItems: "center", gap: "1rem", padding: "0.75rem 1.5rem", borderRadius: 100, background: "rgba(255,255,255,0.6)", border: `1px solid ${PRIMARY}55` }}>
              <Activity size={16} color={PRIMARY} />
-             <span style={{ fontSize: "0.75rem", fontWeight: 900, color: "white", letterSpacing: "0.15em" }}>LIVE MONITORING PROTOCOL</span>
+             <span style={{ fontSize: "0.75rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.15em" }}>LIVE MONITORING PROTOCOL</span>
           </div>
         </motion.div>
 

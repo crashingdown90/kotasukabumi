@@ -18,7 +18,7 @@ export default function LayoutTeam({ title, subtitle, body }: LayoutProps) {
   return (
     <div style={{ height: "100%", display: "flex", flexDirection: "column", animation: "animate-up 0.8s ease-out" }}>
       <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.7rem" }}>{subtitle}</p>
-      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.6rem)", fontWeight: 950, color: "white", marginBottom: "3rem", letterSpacing: "-0.03em" }}>{title}</h2>
+      <h2 style={{ fontSize: "clamp(1.6rem, 3.2vw, 2.6rem)", fontWeight: 950, color: TEXT_MAIN, marginBottom: "3rem", letterSpacing: "-0.03em" }}>{title}</h2>
 
       <div className="grid-responsive" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))", gap: "1.5rem", flex: 1 }}>
         {items.map((item, i) => {
@@ -42,7 +42,7 @@ export default function LayoutTeam({ title, subtitle, body }: LayoutProps) {
               </div>
 
               <div>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 900, color: "white", marginBottom: "0.4rem", letterSpacing: "-0.01em" }}>{label}</h3>
+                <h3 style={{ fontSize: "1.25rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.4rem", letterSpacing: "-0.01em" }}>{label}</h3>
                 <div style={{ width: 40, height: 2, background: GOLD, marginBottom: "1.25rem" }} />
                 <p style={{ fontSize: "0.92rem", color: TEXT_MUTED, lineHeight: 1.6, margin: 0, fontWeight: 500 }}>
                   <InlineText text={rest} />

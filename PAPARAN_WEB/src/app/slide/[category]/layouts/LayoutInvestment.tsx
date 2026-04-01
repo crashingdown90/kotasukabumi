@@ -34,7 +34,7 @@ export default function LayoutInvestment({ title, subtitle, body }: LayoutProps)
       {/* HEADER */}
       <div style={{ textAlign: "center" }}>
         <p style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.6rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: "white", letterSpacing: "-0.03em", margin: 0 }}>{title}</h2>
+        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em", margin: 0 }}>{title}</h2>
       </div>
 
       {/* INVESTMENT PILLARS */}
@@ -78,7 +78,7 @@ export default function LayoutInvestment({ title, subtitle, body }: LayoutProps)
                   <Icon size={32} color={color} />
                </div>
 
-               <h3 style={{ fontSize: "1.35rem", fontWeight: 900, color: "white", marginBottom: "0.75rem", letterSpacing: "-0.01em" }}>{label}</h3>
+               <h3 style={{ fontSize: "1.35rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.75rem", letterSpacing: "-0.01em" }}>{label}</h3>
                
                <div style={{ height: 1, width: "40px", background: color, marginBottom: "1.5rem" }} />
 
@@ -132,7 +132,7 @@ function StatItem({ icon: Icon, label, value, color }: any) {
        <Icon size={24} color={color} />
        <div>
           <div style={{ fontSize: "0.6rem", color: TEXT_MUTED, fontWeight: 900, letterSpacing: "0.15em", textTransform: "uppercase" }}>{label}</div>
-          <div style={{ fontSize: "1.1rem", color: "white", fontWeight: 950 }}>{value}</div>
+          <div style={{ fontSize: "1.1rem", color: TEXT_MAIN, fontWeight: 950 }}>{value}</div>
        </div>
     </div>
   );

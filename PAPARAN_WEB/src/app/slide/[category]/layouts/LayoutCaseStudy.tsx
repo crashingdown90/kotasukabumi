@@ -32,12 +32,12 @@ export default function LayoutCaseStudy({ title, subtitle, body, features }: Lay
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
         <div>
           <p style={{ fontSize: "0.8rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.5rem" }}>TACTICAL CASE STUDY</p>
-          <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: "white", margin: 0, letterSpacing: "-0.03em" }}>{title}</h2>
+          <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 950, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.03em" }}>{title}</h2>
           <p style={{ fontSize: "1.1rem", color: TEXT_MUTED, maxWidth: "700px", marginTop: "1rem" }}><InlineText text={body} /></p>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: "10px", ...GLASS_DARK, padding: "10px 20px", borderRadius: 12, border: "1px solid rgba(255,255,255,0.1)" }}>
            <CheckCircle2 size={18} color="#10B981" />
-           <span style={{ fontSize: "0.7rem", fontWeight: 900, color: "white", letterSpacing: "0.1em" }}>CASE VERIFIED & AUDITED</span>
+           <span style={{ fontSize: "0.7rem", fontWeight: 900, color: TEXT_MAIN, letterSpacing: "0.1em" }}>CASE VERIFIED & AUDITED</span>
         </div>
       </div>
 
@@ -54,7 +54,7 @@ export default function LayoutCaseStudy({ title, subtitle, body, features }: Lay
               <AlertTriangle size={32} color="#EF4444" />
            </div>
            <h3 style={{ margin: 0, color: "#EF4444", fontSize: "1.2rem", fontWeight: 950 }}>{caseSteps[0].title}</h3>
-           <p style={{ margin: 0, color: "white", fontSize: "1rem", lineHeight: 1.6, fontWeight: 600 }}><InlineText text={caseSteps[0].desc} /></p>
+           <p style={{ margin: 0, color: TEXT_MAIN, fontSize: "1rem", lineHeight: 1.6, fontWeight: 600 }}><InlineText text={caseSteps[0].desc} /></p>
         </motion.div>
 
         {/* Step 2: Action */}
@@ -68,7 +68,7 @@ export default function LayoutCaseStudy({ title, subtitle, body, features }: Lay
               <Lightbulb size={32} color={PRIMARY} />
            </div>
            <h3 style={{ margin: 0, color: GOLD, fontSize: "1.2rem", fontWeight: 950 }}>{caseSteps[1].title}</h3>
-           <p style={{ margin: 0, color: "white", fontSize: "1rem", lineHeight: 1.6, fontWeight: 700 }}><InlineText text={caseSteps[1].desc} /></p>
+           <p style={{ margin: 0, color: TEXT_MAIN, fontSize: "1rem", lineHeight: 1.6, fontWeight: 700 }}><InlineText text={caseSteps[1].desc} /></p>
            <div style={{ marginTop: "auto", display: "flex", alignItems: "center", gap: "0.5rem", color: GOLD, fontWeight: 900, fontSize: "0.7rem", letterSpacing: "0.1em" }}>
               EXECUTION IN PROGRESS <ArrowRight size={12} />
            </div>
@@ -85,7 +85,7 @@ export default function LayoutCaseStudy({ title, subtitle, body, features }: Lay
               <TrendingUp size={32} color="#10B981" />
            </div>
            <h3 style={{ margin: 0, color: "#10B981", fontSize: "1.2rem", fontWeight: 950 }}>{caseSteps[2].title}</h3>
-           <p style={{ margin: 0, color: "white", fontSize: "1rem", lineHeight: 1.6, fontWeight: 600 }}><InlineText text={caseSteps[2].desc} /></p>
+           <p style={{ margin: 0, color: TEXT_MAIN, fontSize: "1rem", lineHeight: 1.6, fontWeight: 600 }}><InlineText text={caseSteps[2].desc} /></p>
            
            <div style={{ marginTop: "auto", background: "rgba(16, 185, 129, 0.1)", padding: "1.5rem", borderRadius: 20, textAlign: "center", border: "1px solid rgba(16, 185, 129, 0.2)" }}>
               <div style={{ fontSize: "1.8rem", fontWeight: 950, color: "#10B981" }}>{caseSteps[2].metric?.split(":")[1] || "N/A"}</div>

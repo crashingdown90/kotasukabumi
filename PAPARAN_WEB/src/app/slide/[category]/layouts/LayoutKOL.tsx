@@ -38,7 +38,7 @@ export default function LayoutKOL({ title, subtitle, body, features, highlights 
          >
            <span style={{ fontSize: "0.75rem", fontWeight: 900, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase" }}>{subtitle}</span>
          </motion.div>
-         <h2 style={{ fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 950, color: "white", letterSpacing: "-0.03em", margin: "0 0 1rem 0" }}>{title}</h2>
+         <h2 style={{ fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em", margin: "0 0 1rem 0" }}>{title}</h2>
          {body && !body.trim().startsWith("<ul") && (
             <p style={{ fontSize: "1.05rem", color: TEXT_MUTED, lineHeight: 1.6, maxWidth: "700px", margin: "0 auto" }}>{body.replace(/<ul>.*?<\/ul>/, "").trim()}</p>
          )}
@@ -98,13 +98,13 @@ export default function LayoutKOL({ title, subtitle, body, features, highlights 
                     </div>
                     {metric && (
                        <div style={{ textAlign: "right" }}>
-                          <div style={{ fontSize: "1.4rem", fontWeight: 950, color: "white", lineHeight: 1 }}>{metric}</div>
+                          <div style={{ fontSize: "1.4rem", fontWeight: 950, color: TEXT_MAIN, lineHeight: 1 }}>{metric}</div>
                           {sub && <div style={{ fontSize: "0.75rem", color: cColor, fontWeight: 800, textTransform: "uppercase", marginTop: 4 }}>{sub}</div>}
                        </div>
                     )}
                  </div>
 
-                 <h3 style={{ fontSize: "1.3rem", fontWeight: 900, color: "white", marginBottom: "0.75rem", letterSpacing: "0.01em" }}>{label}</h3>
+                 <h3 style={{ fontSize: "1.3rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.75rem", letterSpacing: "0.01em" }}>{label}</h3>
                  <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.6, flex: 1, margin: 0 }}>
                     <InlineText text={rest} />
                  </p>

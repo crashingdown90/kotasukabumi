@@ -9,7 +9,7 @@ interface LayoutProps {
   body: string;
   activeStep: number;
   setActiveStep: (i: number) => void;
-  IconComp: any;
+  IconComp: React.ElementType;
 }
 
 export default function LayoutFlowchart({ title, subtitle, body, activeStep, setActiveStep, IconComp }: LayoutProps) {

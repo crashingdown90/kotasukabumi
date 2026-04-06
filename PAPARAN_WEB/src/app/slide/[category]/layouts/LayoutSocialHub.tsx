@@ -1,14 +1,20 @@
 import React from "react";
-import { Camera, MonitorPlay, MessageCircle, Users, Smartphone, Globe, Activity, ShieldCheck } from "lucide-react";
-import { motion } from "framer-motion";
-import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, DARK_CARD } from "../components/Constants";
-import { parseBoldLabel, InlineText, parseListItems } from "../components/Shared";
+
+import { Camera, MonitorPlay, MessageCircle, Users, Smartphone, Globe, ShieldCheck } from "lucide-react";
+import { motion, Variants } from "framer-motion";
+import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";
+import { InlineText, parseListItems } from "../components/Shared";
+
+interface Item {
+  title: string;
+  desc: string;
+}
 
 interface LayoutProps {
   title: string;
   subtitle: string;
   body: string;
-  features?: {title: string, desc: string}[];
+  features?: Item[];
   highlights?: string[];
 }
 
@@ -22,7 +28,7 @@ export default function LayoutSocialHub({ title, subtitle, body, features, highl
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  const items = features || (highlights ? (highlights as any[]).map(h => (typeof h === 'string' ? { title: h, desc: h } : h)) : (typeof body === 'string' && body.includes('<li>') ? parseListItems(body) : []));
+  const items: Item[] = features || (highlights ? (highlights as string[]).map(h => ({ title: h, desc: h })) : (typeof body === 'string' && body.includes('<li>') ? parseListItems(body).map(li => ({ title: li, desc: li })) : []));
   
   // Mapping brand colors & icons
   const getBrand = (name: string) => {
@@ -40,7 +46,7 @@ export default function LayoutSocialHub({ title, subtitle, body, features, highl
     show: { opacity: 1, transition: { staggerChildren: 0.1, delayChildren: 0.2 } }
   };
 
-  const centerNode = {
+  const centerNode: Variants = {
     hidden: { scale: 0, opacity: 0 },
     show: { scale: 1, opacity: 1, transition: { type: "spring", damping: 15 } }
   };
@@ -97,7 +103,7 @@ export default function LayoutSocialHub({ title, subtitle, body, features, highl
 
         {/* CENTRAL HUB CORE */}
         <motion.div 
-          variants={centerNode as any}
+          variants={centerNode}
           style={{ 
             zIndex: 10,
             width: isMobile ? 140 : 180, 
@@ -137,7 +143,7 @@ export default function LayoutSocialHub({ title, subtitle, body, features, highl
              gap: isMobile ? "1rem" : "0",
              width: "100%" 
            }}>
-              {items.slice(0, isMobile ? 5 : 3).map((item: any, i: number) => (
+              {items.slice(0, isMobile ? 5 : 3).map((item, i) => (
                 <PlatformCard key={i} item={item} color={getBrand(item.title).color} Icon={getBrand(item.title).Icon} i={i} isMobile={isMobile} />
               ))}
            </div>
@@ -166,12 +172,20 @@ export default function LayoutSocialHub({ title, subtitle, body, features, highl
   );
 }
 
-function PlatformCard({ item, color, Icon, i, isMobile }: any) {
+interface PlatformCardProps {
+  item: Item;
+  color: string;
+  Icon: React.ElementType;
+  i: number;
+  isMobile: boolean;
+}
+
+function PlatformCard({ item, color, Icon, i, isMobile }: PlatformCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.8, y: isMobile ? 20 : (i < 3 ? -30 : 30) }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
-      transition={{ delay: 0.3 + i * 0.1, type: "spring" } as any}
+      transition={{ delay: 0.3 + i * 0.1, type: "spring" }}
       whileHover={!isMobile ? { y: i < 3 ? -5 : 5, scale: 1.02, boxShadow: `0 0 30px ${color}33` } : {}}
       style={{
         ...GLASS_DARK,

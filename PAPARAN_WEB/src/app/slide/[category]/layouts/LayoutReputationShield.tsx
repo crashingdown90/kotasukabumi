@@ -1,9 +1,12 @@
 import React, { useMemo } from "react";
+import { Slide, Metric, Feature } from "../components/SlideTypes";
+
 import { motion } from "framer-motion";
 import { Shield, Zap, TrendingUp, Network, Search, AlertTriangle, CheckCircle2 } from "lucide-react";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";
 import { parseBoldLabel, InlineText, parseListItems } from "../components/Shared";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area } from 'recharts';
+import { getStaticRandom, RANDOM_POOL_XY, RANDOM_POOL_DUR, RANDOM_POOL_SIZE } from "../components/PurityUtils";
 
 interface LayoutProps {
   title: string;
@@ -25,9 +28,15 @@ export default function LayoutReputationShield({ title, subtitle, body }: Layout
   const nodes = useMemo(() => {
     const list = [];
     for (let i = 0; i < 30; i++) {
-       const x = 15 + Math.random() * 70;
-       const y = 15 + Math.random() * 70;
-       list.push({ id: i, x, y, size: 2 + Math.random() * 4 });
+       const x = 15 + getStaticRandom(i, RANDOM_POOL_XY) * 70;
+       const y = 15 + getStaticRandom(i, RANDOM_POOL_XY) * 70;
+       list.push({ 
+         id: i, 
+         x, 
+         y, 
+         size: 2 + getStaticRandom(i, RANDOM_POOL_SIZE) * 4,
+         duration: 2 + getStaticRandom(i, RANDOM_POOL_DUR) * 3
+       });
     }
     return list;
   }, []);
@@ -78,7 +87,7 @@ export default function LayoutReputationShield({ title, subtitle, body }: Layout
                  <motion.circle 
                    key={`c-${i}`} cx={`${n.x}%`} cy={`${n.y}%`} r={n.size} 
                    fill={i % 4 === 0 ? PRIMARY : "rgba(255,255,255,0.2)"}
-                   animate={{ opacity: [0.2, 0.8, 0.2] }} transition={{ duration: 2 + Math.random() * 3, repeat: Infinity }}
+                   animate={{ opacity: [0.2, 0.8, 0.2] }} transition={{ duration: n.duration, repeat: Infinity }}
                  />
                ))}
                

@@ -1,4 +1,6 @@
 "use client";
+import { Slide, Metric, Feature } from "../components/SlideTypes";
+
 
 import React from "react";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from "recharts";

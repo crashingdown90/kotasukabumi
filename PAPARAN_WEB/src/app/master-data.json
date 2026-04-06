@@ -192,7 +192,7 @@
   "digitalisasi_spbe": [
     {
       "id": 1,
-      "title": "Transformasi Digital SPBE",
+      "title": "Transformasi Digital",
       "subtitle": "Menuju Pemerintahan yang Bersih, Cepat, and Efisien",
       "body": "Pemanfaatan teknologi bukan sekadar tren, melainkan instrumen utama untuk efisiensi anggaran and peningkatan kualitas layanan publik Kota Sukabumi di era Society 5.0.",
       "layout": "hero",
@@ -224,9 +224,9 @@
     },
     {
       "id": 5,
-      "title": "Penguatan Indeks SPBE",
+      "title": "Penguatan Indeks Digitalisasi",
       "subtitle": "Target Skor Unggul dari Nilai 3.79 Menuju Puncak",
-      "body": "<ul><li><b>Target Skor Unggul:</b> Melanjutkan capaian indeks SPBE (saat ini 3,79) menuju level predikat *Memuaskan* melalui sistem pemerintahan yang sepenuhnya *paperless* and terdigitalisasi.</li><li><b>Tata Kelola Data Terpadu:</b> Membangun satu pusat data (data center) daerah yang aman, andal, and sesuai standar nasional keamanan informasi.</li><li><b>Layanan Publik Berbasis AI:</b> Pemanfaatan kecerdasan buatan untuk otomasi layanan aduan warga and analisis kebutuhan pembangunan.</li></ul>",
+      "body": "<ul><li><b>Target Skor Unggul:</b> Melanjutkan capaian indeks Digitalisasi (saat ini 3,79) menuju level predikat *Memuaskan* melalui sistem pemerintahan yang sepenuhnya *paperless* and terdigitalisasi.</li><li><b>Tata Kelola Data Terpadu:</b> Membangun satu pusat data (data center) daerah yang aman, andal, and sesuai standar nasional keamanan informasi.</li><li><b>Layanan Publik Berbasis AI:</b> Pemanfaatan kecerdasan buatan untuk otomasi layanan aduan warga and analisis kebutuhan pembangunan.</li></ul>",
       "layout": "sentiment",
       "icon": "Zap"
     },
@@ -260,7 +260,7 @@
       "id": 2,
       "title": "Urgensi Keterbukaan Informasi",
       "subtitle": "Landasan Regulasi & Tanggung Jawab Publik di Era Digital",
-      "body": "<ul><li><b>UU 14/2008 & PP 61/2010:</b> Fondasi hak konstitusional warga atas informasi publik. Mewajibkan pembentukan PPID sebagai garda terdepan layanan satu pintu.</li><li><b>UU 25/2009 & UU 23/2014:</b> Integrasi transparansi dalam standar pelayanan publik and kewajiban kepala daerah menyampaikan laporan berkala kepada masyarakat.</li><li><b>Inpres 9/2015 & Permendagri 3/2017:</b> Mandat pengelolaan Komunikasi Publik (GPR) yang terintegrasi and standarisasi diseminasi narasi tunggal pemerintah.</li><li><b>Perki 1/2021 (SLIP):</b> Pemutakhiran Standar Layanan Informasi Publik — menekankan digitalisasi akses informasi and jaminan kemudahan bagi disabilitas.</li><li><b>Perpres SPBE (95/2018 & 82/2023):</b> Arah kebijakan Kementerian Digital untuk perwujudan ekosistem Sistem Pemerintahan Berbasis Elektronik (SPBE) & GovTech untuk layanan publik terpadu.</li><li><b>UU ITE (1/2024) & Permenkominfo 8/2019:</b> Pedoman jaminan tata kelola sistem informasi pemerintahan yang aman and kewajiban penyelenggaraan urusan konkuren komunikasi publik bagi daerah.</li></ul>",
+      "body": "<ul><li><b>UU 14/2008 & PP 61/2010:</b> Fondasi hak konstitusional warga atas informasi publik. Mewajibkan pembentukan PPID sebagai garda terdepan layanan satu pintu.</li><li><b>UU 25/2009 & UU 23/2014:</b> Integrasi transparansi dalam standar pelayanan publik and kewajiban kepala daerah menyampaikan laporan berkala kepada masyarakat.</li><li><b>Inpres 9/2015 & Permendagri 3/2017:</b> Mandat pengelolaan Komunikasi Publik (GPR) yang terintegrasi and standarisasi diseminasi narasi tunggal pemerintah.</li><li><b>Perki 1/2021 (SLIP):</b> Pemutakhiran Standar Layanan Informasi Publik — menekankan digitalisasi akses informasi and jaminan kemudahan bagi disabilitas.</li><li><b>Perpres Digitalisasi (95/2018 & 82/2023):</b> Arah kebijakan Kementerian Digital untuk perwujudan ekosistem Digitalisasi & GovTech untuk layanan publik terpadu.</li><li><b>UU ITE (1/2024) & Permenkominfo 8/2019:</b> Pedoman jaminan tata kelola sistem informasi pemerintahan yang aman and kewajiban penyelenggaraan urusan konkuren komunikasi publik bagi daerah.</li></ul>",
       "layout": "cards",
       "icon": "FileText"
     },
@@ -608,7 +608,7 @@
           "points": [
             "Otomatisasi Analisis Sentimen Berbasis AI-Generative untuk respon krisis instan.",
             "Integrasi Aspirasi Warga ke Kebijakan Strategis melalui Citizen Feedback Loop.",
-            "Pencapaian Benchmark GovTech Nasional dangan skor SPBE di atas rata-rata."
+            "Pencapaian Benchmark GovTech Nasional dangan skor Digitalisasi di atas rata-rata."
           ] 
         },
         { 
@@ -854,7 +854,7 @@
       "section": "LANDASAN HUKUM",
       "title": "Landasan Hukum & Regulasi",
       "subtitle": "Kerangka Legalitas Operasional SOCS",
-      "body": "<ul><li><b>UU No. 25/2009 — Pelayanan Publik:</b> Mewajibkan penyelenggara menyediakan sarana pengaduan yang mudah diakses dan menugaskan pelaksana yang kompeten.</li><li><b>Perpres No. 95/2018 — SPBE:</b> Mensyaratkan digitalisasi layanan pemerintah yang terpadu dan efisien dalam satu ekosistem terintegrasi.</li><li><b>Perpres No. 76/2013 — Pengelolaan Pengaduan:</b> Mengatur standar tata cara pengelolaan pengaduan secara terintegrasi antar instansi.</li><li><b>Permen PANRB No. 62/2018 — SP4N:</b> Pedoman teknis integrasi sistem pengaduan daerah ke platform nasional SP4N-LAPOR!.</li><li><b>UU No. 27/2022 — PDP:</b> Mewajibkan enkripsi dan kontrol akses data pribadi pelapor sebagai Penyelenggara Sistem Elektronik (PSE).</li><li><b>Perpres No. 39/2019 — Satu Data Indonesia:</b> Basis kewenangan Diskominfo sebagai Walidata yang menjamin standarisasi dan interoperabilitas data daerah.</li></ul>",
+      "body": "<ul><li><b>UU No. 25/2009 — Pelayanan Publik:</b> Mewajibkan penyelenggara menyediakan sarana pengaduan yang mudah diakses dan menugaskan pelaksana yang kompeten.</li><li><b>Perpres No. 95/2018 — Digitalisasi:</b> Mensyaratkan digitalisasi layanan pemerintah yang terpadu dan efisien dalam satu ekosistem terintegrasi.</li><li><b>Perpres No. 76/2013 — Pengelolaan Pengaduan:</b> Mengatur standar tata cara pengelolaan pengaduan secara terintegrasi antar instansi.</li><li><b>Permen PANRB No. 62/2018 — SP4N:</b> Pedoman teknis integrasi sistem pengaduan daerah ke platform nasional SP4N-LAPOR!.</li><li><b>UU No. 27/2022 — PDP:</b> Mewajibkan enkripsi dan kontrol akses data pribadi pelapor sebagai Penyelenggara Sistem Elektronik (PSE).</li><li><b>Perpres No. 39/2019 — Satu Data Indonesia:</b> Basis kewenangan Diskominfo sebagai Walidata yang menjamin standarisasi dan interoperabilitas data daerah.</li></ul>",
       "layout": "cards",
       "icon": "FileText"
     },
@@ -863,7 +863,7 @@
       "section": "PERAN DISKOMINFO",
       "title": "Peran Strategis Diskominfo",
       "subtitle": "Walidata Daerah & Penyelenggara Layanan Aduan",
-      "body": "<ul><li><b>Walidata Daerah (Perpres 39/2019):</b> Menjamin standarisasi format data aduan dari seluruh kanal dan memastikan interoperabilitas dengan sistem nasional SP4N-LAPOR!.</li><li><b>Penyelenggara SPBE (Perpres 95/2018):</b> Menyediakan infrastruktur server (PDD), keamanan siber, dan konektivitas API 24/7 sebagai backbone operasional sistem.</li><li><b>Koordinator Lintas OPD:</b> Menjadi pusat hub yang mendistribusikan aduan ke dinas-dinas teknis sesuai klasifikasi dan memantau kepatuhan SLA respon mereka.</li><li><b>In-House Developer:</b> Bidang Aptika membangun, memelihara, dan mengembangkan fitur sistem SOCS secara mandiri tanpa ketergantungan vendor eksternal.</li></ul>",
+      "body": "<ul><li><b>Walidata Daerah (Perpres 39/2019):</b> Menjamin standarisasi format data aduan dari seluruh kanal dan memastikan interoperabilitas dengan sistem nasional SP4N-LAPOR!.</li><li><b>Penyelenggara Digitalisasi (Perpres 95/2018):</b> Menyediakan infrastruktur server (PDD), keamanan siber, and konektivitas API 24/7 sebagai backbone operasional sistem.</li><li><b>Koordinator Lintas OPD:</b> Menjadi pusat hub yang mendistribusikan aduan ke dinas-dinas teknis sesuai klasifikasi and memantau kepatuhan SLA respon mereka.</li><li><b>In-House Developer:</b> Bidang Aptika membangun, memelihara, and mengembangkan fitur sistem SOCS secara mandiri tanpa ketergantungan vendor eksternal.</li></ul>",
       "layout": "orgchart",
       "icon": "Database"
     },
@@ -881,7 +881,7 @@
       "section": "ARSITEKTUR SISTEM",
       "title": "Arsitektur Teknologi SOCS",
       "subtitle": "4-Layer Microservices Architecture",
-      "body": "SOCS dibangun di atas arsitektur Microservices berlapis yang memisahkan zona publik, keamanan, aplikasi, dan data — sesuai standar SPBE dan BSSN. Setiap layer memiliki firewall dan akses kontrol mandiri.",
+      "body": "SOCS dibangun di atas arsitektur Microservices berlapis yang memisahkan zona publik, keamanan, aplikasi, dan data — sesuai standar Digitalisasi dan BSSN. Setiap layer memiliki firewall dan akses kontrol mandiri.",
       "layout": "socs_architecture",
       "icon": "Cpu"
     },

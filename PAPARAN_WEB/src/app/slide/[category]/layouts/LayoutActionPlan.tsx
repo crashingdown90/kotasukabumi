@@ -89,7 +89,7 @@ export default function LayoutActionPlan({ title, subtitle, body }: LayoutProps)
               <div style={{ width: 2, height: 40, background: "rgba(255,255,255,0.05)" }} />
               
               <div style={{ flex: 1, fontSize: "0.95rem", color: TEXT_MUTED, fontWeight: 600, fontStyle: "italic" }}>
-                 "KEPEMIMPINAN DALAM KRISIS ADALAH TENTANG KEHADIRAN, KEJERNIHAN, DAN KECEPATAN NARASI."
+                 &quot;KEPEMIMPINAN DALAM KRISIS ADALAH TENTANG KEHADIRAN, KEJERNIHAN, DAN KECEPATAN NARASI.&quot;
               </div>
               
               <div style={{ display: "flex", gap: "0.75rem" }}>

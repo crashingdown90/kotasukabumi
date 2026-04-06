@@ -1,6 +1,6 @@
 import React from "react";
 import { ShieldAlert, Users, RadioTower, Mic, Siren, Hexagon, ArrowRight, Zap } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";
 import { InlineText } from "../components/Shared";
 
@@ -19,7 +19,7 @@ export default function LayoutRapidResponse({ title, subtitle, body, features }:
     show: { opacity: 1, transition: { staggerChildren: 0.15 } }
   };
 
-  const itemFade = {
+  const itemFade: Variants = {
     hidden: { opacity: 0, y: 30 },
     show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 80, damping: 15 } }
   };
@@ -56,7 +56,7 @@ export default function LayoutRapidResponse({ title, subtitle, body, features }:
         
         {/* LEFT BLOCK: STRUKTUR KOMANDO (Spans 2 rows) */}
         <motion.div 
-           variants={itemFade as any}
+           variants={itemFade}
            style={{ ...GLASS_DARK, borderRadius: 24, padding: "2.5rem", gridRow: "span 2", position: "relative", overflow: "hidden", border: `1px solid rgba(255,255,255,0.05)` }}
         >
            {/* Decorator Lines */}
@@ -111,7 +111,7 @@ export default function LayoutRapidResponse({ title, subtitle, body, features }:
 
         {/* TOP RIGHT BLOCK: JALUR KOMUNIKASI KHUSUS */}
         <motion.div 
-           variants={itemFade as any}
+           variants={itemFade}
            whileHover={{ scale: 1.02 }}
            style={{ ...GLASS_DARK, borderRadius: 24, padding: "2rem", display: "flex", flexDirection: "column", border: `1px solid rgba(239,68,68,0.2)`, boxShadow: `0 10px 40px rgba(239,68,68,0.08)`, position: "relative", overflow: "hidden" }}
         >
@@ -140,7 +140,7 @@ export default function LayoutRapidResponse({ title, subtitle, body, features }:
 
         {/* BOTTOM RIGHT BLOCK: OTORITAS KOMUNIKASI (SINGLE VOICE) */}
         <motion.div 
-           variants={itemFade as any}
+           variants={itemFade}
            whileHover={{ scale: 1.02 }}
            style={{ ...GLASS_DARK, borderRadius: 24, padding: "2rem", display: "flex", flexDirection: "column", border: `1px solid ${PRIMARY}33`, position: "relative", overflow: "hidden" }}
         >

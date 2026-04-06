@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Network, Search, Zap, CheckCircle } from "lucide-react";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";
 import { parseBoldLabel, InlineText, parseListItems } from "../components/Shared";
+import { getStaticRandom, RANDOM_POOL_XY, RANDOM_POOL_DUR } from "../components/PurityUtils";
 
 interface LayoutProps {
   title: string;
@@ -17,10 +18,17 @@ export default function LayoutSNA({ title, subtitle, body }: LayoutProps) {
   const nodes = useMemo(() => {
     const list = [];
     for (let i = 0; i < 40; i++) {
-       const x = 10 + Math.random() * 80; // 10% to 90%
-       const y = 10 + Math.random() * 80; // 10% to 90%
+       const x = 10 + getStaticRandom(i, RANDOM_POOL_XY) * 80; // 10% to 90%
+       const y = 10 + getStaticRandom(i + 40, RANDOM_POOL_XY) * 80; // 10% to 90%
        // Initially, nodes closer to left (x < 50) are "infected" (Red), nodes closer to right are "neutral" (Gray)
-       list.push({ id: i, x, y, isRed: x < 50 });
+       list.push({ 
+         id: i, 
+         x, 
+         y, 
+         isRed: x < 50,
+         size: getStaticRandom(i, RANDOM_POOL_XY) > 0.8 ? 6 : 3,
+         duration: 2 + getStaticRandom(i, RANDOM_POOL_DUR)
+       });
     }
     return list;
   }, []);
@@ -86,9 +94,9 @@ export default function LayoutSNA({ title, subtitle, body }: LayoutProps) {
             {/* Nodes */}
             {nodes.map((node, i) => (
                <motion.circle 
-                 key={`node-${i}`} cx={`${node.x}%`} cy={`${node.y}%`} r={Math.random() > 0.8 ? 6 : 3} 
+                 key={`node-${i}`} cx={`${node.x}%`} cy={`${node.y}%`} r={node.size} 
                  fill={node.isRed ? PRIMARY : "rgba(255,255,255,0.2)"}
-                 animate={{ scale: [1, 1.2, 1] }} transition={{ duration: 2 + Math.random(), repeat: Infinity }}
+                 animate={{ scale: [1, 1.2, 1] }} transition={{ duration: node.duration, repeat: Infinity }}
                />
             ))}
             
@@ -113,7 +121,7 @@ export default function LayoutSNA({ title, subtitle, body }: LayoutProps) {
                 <h3 style={{ fontSize: "1.2rem", fontWeight: 900, color: TEXT_MAIN, margin: 0, letterSpacing: "-0.01em" }}>Viralitas Eksponensial</h3>
               </div>
               <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.6, margin: 0 }}>
-                Dalam Social Network Analysis (SNA), satu "Super Spreader" dapat menginfeksi ribuan *node* organik hanya dalam hitungan menit jika dibiarkan dalam ruang kosong (Information Void).
+                Dalam Social Network Analysis (SNA), satu &quot;Super Spreader&quot; dapat menginfeksi ribuan *node* organik hanya dalam hitungan menit jika dibiarkan dalam ruang kosong (Information Void).
               </p>
            </div>
 

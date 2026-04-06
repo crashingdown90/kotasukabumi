@@ -105,27 +105,6 @@ function IconTechnopark({ size = 28 }: { size?: number }) {
   );
 }
 
-/* ── Particles ───────────────────────────────────────────── */
-function FloatingParticles({ color }: { color: string }) {
-  return (
-    <div style={{ position: "absolute", inset: 0, overflow: "hidden", pointerEvents: "none", borderRadius: "inherit" }}>
-      {[...Array(6)].map((_, i) => (
-        <div key={i} style={{
-          position: "absolute",
-          width: 3 + (i % 3),
-          height: 3 + (i % 3),
-          borderRadius: "50%",
-          background: color,
-          opacity: 0.3,
-          left: `${15 + i * 14}%`,
-          top: `${20 + ((i * 17) % 60)}%`,
-          animation: `particle-float ${3 + i * 0.5}s ease-in-out ${i * 0.4}s infinite`,
-        }} />
-      ))}
-    </div>
-  );
-}
-
 /* ── Animated counter ────────────────────────────────────── */
 function AnimatedNumber({ target, suffix = "" }: { target: string; suffix?: string }) {
   const [display, setDisplay] = useState("0");
@@ -133,13 +112,21 @@ function AnimatedNumber({ target, suffix = "" }: { target: string; suffix?: stri
 
   useEffect(() => {
     const num = parseInt(target.replace(/\D+/, ""));
-    if (isNaN(num)) { setDisplay(target); return; }
+    if (isNaN(num)) {
+       setTimeout(() => setDisplay(target), 0);
+       return;
+    }
+    
     let start = 0;
     const step = Math.ceil(num / 40);
     const timer = setInterval(() => {
       start += step;
-      if (start >= num) { setDisplay(target); clearInterval(timer); }
-      else setDisplay(target.replace(/\d+/, String(start)));
+      if (start >= num) {
+        setDisplay(target);
+        clearInterval(timer);
+      } else {
+        setDisplay(target.replace(/\d+/, String(start)));
+      }
     }, 40);
     return () => clearInterval(timer);
   }, [target]);
@@ -186,7 +173,7 @@ const MENU_ITEMS = [
   },
   {
     id: "digitalisasi",
-    title: "Digitalisasi SPBE",
+    title: "Digitalisasi",
     desc: "Transformasi Layanan Terpadu Digital",
     Icon: IconDigitalisasi,
     gradient: "linear-gradient(135deg, #0D4F3C 0%, #1A8B6A 100%)",
@@ -315,42 +302,28 @@ export default function Home() {
 
       {/* ── AMBIENT BACKGROUND ───────────────────────────── */}
       <div style={{ position:"fixed", inset:0, pointerEvents:"none", zIndex:0 }}>
-        {/* Orbs */}
-        <div style={{ position:"absolute", top:"-25%", left:"-10%", width:"80vw", height:"80vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(142,21,64,0.04) 0%, transparent 65%)", animation:"orb-drift 12s ease-in-out infinite" }} />
-        <div style={{ position:"absolute", bottom:"-20%", right:"-5%", width:"65vw", height:"65vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(212,175,55,0.03) 0%, transparent 65%)", animation:"orb-drift 16s ease-in-out 3s infinite reverse" }} />
-        <div style={{ position:"absolute", top:"40%", left:"55%", width:"45vw", height:"45vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(74,30,107,0.02) 0%, transparent 70%)", animation:"orb-drift 10s ease-in-out 1.5s infinite" }} />
-        {/* Dot grid */}
-        <div style={{ position:"absolute", inset:0, backgroundImage:"radial-gradient(rgba(15, 23, 42, 0.04) 1px, transparent 1px)", backgroundSize:"28px 28px" }} />
-        {/* Horizontal scan line */}
-        <div style={{ position:"absolute", left:0, right:0, height:1, background:"linear-gradient(90deg, transparent, rgba(142,21,64,0.06), transparent)", animation:"scan-line 8s linear infinite" }} />
+        {/* Subtle Gradient Spot */}
+        <div style={{ position:"absolute", top:"-10%", right:"-5%", width:"50vw", height:"50vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(142,21,64,0.03) 0%, transparent 70%)" }} />
+        {/* Dot grid — Cleaner */}
+        <div style={{ position:"absolute", inset:0, backgroundImage:"radial-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px)", backgroundSize:"32px 32px" }} />
       </div>
 
       {/* ── NAV ──────────────────────────────────────────── */}
-      <nav style={{ position:"sticky", top:0, zIndex:100, padding:"0 5%", height:68, display:"flex", alignItems:"center", justifyContent:"space-between", background:"rgba(248,250,252,0.8)", backdropFilter:"blur(24px)", borderBottom:"1px solid rgba(15,23,42,0.05)" }}>
-        <div style={{ display:"flex", alignItems:"center", gap:"0.75rem" }}>
-          {/* Animated logo ring */}
-          <div style={{ position:"relative", width:40, height:40, display:"flex", alignItems:"center", justifyContent:"center" }}>
-            <div style={{ position:"absolute", inset:-3, borderRadius:"50%", background:"linear-gradient(135deg,#8E1540,#D4AF37,#8E1540)", backgroundSize:"200%", animation:"spin-slow 6s linear infinite", opacity:0.4 }} />
-            <div style={{ position:"absolute", inset:1, borderRadius:"50%", background:"#FFFFFF" }} />
-            <Image src="/Logo_Sukabumi.png" alt="Logo" width={26} height={26} style={{ objectFit:"contain", position:"relative", zIndex:1 }} />
+      <nav style={{ position:"sticky", top:0, zIndex:100, padding:"0 6%", height:72, display:"flex", alignItems:"center", justifyContent:"space-between", background:"rgba(255,255,255,0.9)", backdropFilter:"blur(16px)", borderBottom:"1px solid var(--border-refined)", boxShadow:"0 1px 3px rgba(0,0,0,0.02)" }}>
+        <div style={{ display:"flex", alignItems:"center", gap:"1rem" }}>
+          <div style={{ position:"relative", width:42, height:42, display:"flex", alignItems:"center", justifyContent:"center" }}>
+            <div style={{ position:"absolute", inset:0, borderRadius:"10px", background:"var(--slate-50)", border:"1px solid var(--slate-200)" }} />
+            <Image src="/Logo_Sukabumi.png" alt="Logo" width={28} height={28} style={{ objectFit:"contain", position:"relative", zIndex:1 }} />
           </div>
           <div>
-            <p style={{ fontWeight:800, fontSize:"0.95rem", color:"var(--text-main)", lineHeight:1.1, letterSpacing:"-0.01em" }}>Kota Sukabumi</p>
-            <p style={{ fontSize:"0.62rem", color:"var(--primary)", fontWeight:700, letterSpacing:"0.12em", textTransform:"uppercase" }}>Portal Strategis</p>
+            <p style={{ fontWeight:800, fontSize:"1.05rem", color:"var(--text-main)", lineHeight:1, letterSpacing:"-0.02em" }}>Kota Sukabumi</p>
+            <p style={{ fontSize:"0.65rem", color:"var(--primary)", fontWeight:700, letterSpacing:"0.15em", textTransform:"uppercase", marginTop:"2px" }}>Portal Strategis Pemerintah</p>
           </div>
         </div>
-        <div style={{ display:"flex", alignItems:"center", gap:"1rem" }}>
-          {/* Live indicator */}
-          <div style={{ display:"flex", alignItems:"center", gap:"0.4rem" }}>
-            <div style={{ position:"relative", width:8, height:8 }}>
-              <div style={{ position:"absolute", inset:0, borderRadius:"50%", background:"#22C55E" }} />
-              <div style={{ position:"absolute", inset:-2, borderRadius:"50%", border:"1.5px solid #22C55E", animation:"pulse-ring 2s ease-out infinite" }} />
-            </div>
-            <span style={{ fontSize:"0.7rem", color:"var(--text-subtle)", fontWeight:600 }}>Live</span>
-          </div>
-          <div style={{ display:"flex", alignItems:"center", gap:"0.5rem", padding:"0.35rem 0.9rem", borderRadius:99, background:"rgba(142,21,64,0.05)", border:"1px solid rgba(142,21,64,0.15)" }}>
-            <Lock size={11} color="#D4AF37" />
-            <span style={{ fontSize:"0.68rem", fontWeight:800, color:"var(--text-muted)", letterSpacing:"0.1em", textTransform:"uppercase" }}>Akses Terbatas</span>
+        <div style={{ display:"flex", alignItems:"center", gap:"1.25rem" }}>
+          <div style={{ display:"flex", alignItems:"center", gap:"0.5rem", padding:"0.4rem 1rem", borderRadius:99, background:"var(--slate-50)", border:"1px solid var(--slate-200)" }}>
+            <Lock size={12} color="var(--gold-dark)" />
+            <span style={{ fontSize:"0.7rem", fontWeight:700, color:"var(--text-muted)", letterSpacing:"0.05em", textTransform:"uppercase" }}>Akses Terbatas</span>
           </div>
         </div>
       </nav>
@@ -361,44 +334,38 @@ export default function Home() {
         {/* Left */}
         <div style={{ display:"flex", flexDirection:"column", gap:"1.75rem", animation: mounted ? "slide-up-in 0.7s cubic-bezier(0.34,1.2,0.64,1) both" : "none" }}>
           {/* Badge */}
-          <div style={{ display:"inline-flex", alignItems:"center", gap:"0.5rem", padding:"0.4rem 1rem 0.4rem 0.45rem", borderRadius:99, background:"rgba(212,175,55,0.08)", border:"1px solid rgba(212,175,55,0.2)", width:"fit-content" }}>
-            <div style={{ width:22, height:22, borderRadius:"50%", background:"rgba(212,175,55,0.15)", display:"flex", alignItems:"center", justifyContent:"center" }}>
-              <TrendingUp size={11} color="#D4AF37" />
-            </div>
-            <span style={{ fontSize:"0.7rem", fontWeight:800, color:"#D4AF37", letterSpacing:"0.12em", textTransform:"uppercase" }}>Layanan Informasi Publik Digital</span>
+          <div style={{ display:"inline-flex", alignItems:"center", gap:"0.6rem", padding:"0.5rem 1.2rem", borderRadius:99, background:"var(--slate-50)", border:"1px solid var(--slate-200)", width:"fit-content" }}>
+            <div style={{ width:10, height:10, borderRadius:"50%", background:"var(--gold)" }} />
+            <span style={{ fontSize:"0.75rem", fontWeight:800, color:"var(--text-main)", letterSpacing:"0.1em", textTransform:"uppercase" }}>Layanan Informasi Publik Digital</span>
           </div>
 
           {/* Headline */}
-          <div style={{ display:"flex", flexDirection:"column", gap:"0.2rem" }}>
-            <h1 style={{ fontSize:"clamp(2.2rem,4vw,3.6rem)", fontWeight:900, lineHeight:1.06, letterSpacing:"-0.03em", color:"var(--text-main)" }}>
-              Portal Paparan
+          <div style={{ display:"flex", flexDirection:"column", gap:"0.5rem" }}>
+            <h1 style={{ fontSize:"clamp(2.5rem,5vw,4.2rem)", fontWeight:900, lineHeight:1, letterSpacing:"-0.04em", color:"var(--text-main)" }}>
+              Portal Paparan <br />
+              <span style={{ color:"var(--primary)" }}>Strategis</span>
             </h1>
-            <h1 style={{ fontSize:"clamp(2.2rem,4vw,3.6rem)", fontWeight:900, lineHeight:1.06, letterSpacing:"-0.03em", background:"linear-gradient(135deg,#C41E5B,#8E1540 30%,#D4AF37 70%,#F0D060)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text" }}>
-              Strategis
-            </h1>
-            <h1 style={{ fontSize:"clamp(2.2rem,4vw,3.6rem)", fontWeight:900, lineHeight:1.06, letterSpacing:"-0.03em", color:"var(--text-subtle)", WebkitTextFillColor:"rgba(15,23,42,0.12)" }}>
-              Sukabumi 2025–2029
-            </h1>
+            <h2 style={{ fontSize:"clamp(1.2rem,2vw,1.6rem)", fontWeight:600, color:"var(--text-muted)", letterSpacing:"-0.01em" }}>
+              Pemerintah Kota Sukabumi 2025–2029
+            </h2>
           </div>
 
-          <p style={{ fontSize:"1rem", color:"var(--text-muted)", lineHeight:1.8, maxWidth:500 }}>
-            Pusat data terintegrasi RPJMD, program unggulan, strategi fiskal, transformasi digital, dan komunikasi publik Kota Sukabumi.
+          <p style={{ fontSize:"1.05rem", color:"var(--text-muted)", lineHeight:1.7, maxWidth:540 }}>
+            Pusat sinkronisasi data strategis, pencapaian RPJMD, dan transformasi tata kelola digital untuk mewujudkan Sukabumi yang unggul dan inovatif.
           </p>
 
           {/* CTAs */}
-          <div style={{ display:"flex", gap:"0.85rem", flexWrap:"wrap" }}>
-            <Link href="#menu" style={{ position:"relative", overflow:"hidden", display:"inline-flex", alignItems:"center", gap:"0.7rem", padding:"0.85rem 1.65rem", borderRadius:14, background:"linear-gradient(135deg,#8E1540,#C41E5B)", color:"white", fontWeight:700, fontSize:"0.92rem", boxShadow:"0 8px 32px rgba(142,21,64,0.45)", transition:"all 0.3s", textDecoration:"none" }}
-              onMouseEnter={e => { const el = e.currentTarget as HTMLElement; el.style.transform="translateY(-2px)"; el.style.boxShadow="0 16px 48px rgba(142,21,64,0.55)"; }}
-              onMouseLeave={e => { const el = e.currentTarget as HTMLElement; el.style.transform=""; el.style.boxShadow="0 8px 32px rgba(142,21,64,0.45)"; }}
+          <div style={{ display:"flex", gap:"1rem", flexWrap:"wrap", marginTop:"0.5rem" }}>
+            <Link href="#menu" style={{ display:"inline-flex", alignItems:"center", gap:"0.8rem", padding:"1rem 2rem", borderRadius:14, background:"var(--primary)", color:"white", fontWeight:700, fontSize:"1rem", boxShadow:"var(--shadow-md)", transition:"all 0.3s", textDecoration:"none" }}
+              onMouseEnter={e => { const el = e.currentTarget as HTMLElement; el.style.transform="translateY(-2px)"; el.style.boxShadow="var(--shadow-lg)"; el.style.background="var(--primary-hover)"; }}
+              onMouseLeave={e => { const el = e.currentTarget as HTMLElement; el.style.transform=""; el.style.boxShadow="var(--shadow-md)"; el.style.background="var(--primary)"; }}
             >
-              {/* Shimmer sweep */}
-              <div style={{ position:"absolute", top:0, bottom:0, width:"40%", background:"linear-gradient(90deg,transparent,rgba(255,255,255,0.15),transparent)", animation:"shimmer-sweep 2.5s ease infinite" }} />
               Mulai Eksplorasi
-              <ArrowRight size={17} />
+              <ArrowRight size={18} />
             </Link>
-            <div style={{ display:"inline-flex", alignItems:"center", gap:"0.6rem", padding:"0.85rem 1.4rem", borderRadius:14, background:"rgba(15,23,42,0.03)", border:"1px solid rgba(15,23,42,0.08)", color:"var(--text-muted)", fontSize:"0.88rem", fontWeight:600 }}>
-              <Shield size={15} color="#D4AF37" />
-              Data Resmi & Tervalidasi
+            <div style={{ display:"inline-flex", alignItems:"center", gap:"0.75rem", padding:"1rem 1.75rem", borderRadius:14, background:"white", border:"1px solid var(--border-refined)", color:"var(--text-main)", fontSize:"0.95rem", fontWeight:600, boxShadow:"var(--shadow-sm)" }}>
+              <Shield size={18} color="var(--gold)" />
+              Data Resmi Tervalidasi
             </div>
           </div>
 
@@ -416,39 +383,32 @@ export default function Home() {
         </div>
 
         {/* Right — photo */}
-        <div style={{ position:"relative", animation: mounted ? "slide-up-in 0.8s cubic-bezier(0.34,1.2,0.64,1) 0.15s both" : "none" }}>
-          {/* Animated glow ring */}
-          <div style={{ position:"absolute", inset:-24, borderRadius:"50%", background:"radial-gradient(circle,rgba(142,21,64,0.22) 0%,transparent 65%)", animation:"glow-breathe 4s ease-in-out infinite" }} />
-          {/* Outer dashed orbit */}
-          <div style={{ position:"absolute", inset:-16, borderRadius:"50%", border:"1px dashed rgba(212,175,55,0.12)", animation:"spin-slow 20s linear infinite" }} />
+        <div style={{ position:"relative", animation: mounted ? "slide-up-in 1s cubic-bezier(0.2, 0.8, 0.2, 1) 0.2s both" : "none" }}>
+          {/* Subtle Outer Frame */}
+          <div style={{ position:"absolute", inset:-12, borderRadius:32, border:"1px solid var(--slate-200)", opacity:0.5 }} />
 
-          <div style={{ position:"relative", zIndex:1, borderRadius:28, overflow:"hidden", background:"linear-gradient(135deg,rgba(142,21,64,0.08),rgba(13,18,37,0.4))", border:"1px solid rgba(255,255,255,0.07)", boxShadow:"0 32px 80px rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.07)" }}>
-            <Image src="/Foto Walikota_Wakil.png" alt="Kepala Daerah" width={700} height={520} priority style={{ width:"100%", height:"auto", display:"block", filter:"contrast(1.04) saturate(0.95)" }} />
-            <div style={{ position:"absolute", bottom:0, left:0, right:0, height:"45%", background:"linear-gradient(transparent,rgba(6,10,20,0.85))" }} />
-            <div style={{ position:"absolute", bottom:"1.25rem", left:"1.25rem", right:"1.25rem", display:"flex", gap:"0.65rem" }}>
+          <div style={{ position:"relative", zIndex:1, borderRadius:24, overflow:"hidden", border:"1px solid var(--border-refined)", boxShadow:"var(--shadow-lg)" }}>
+            <Image src="/Foto Walikota_Wakil.png" alt="Kepala Daerah" width={700} height={520} priority style={{ width:"100%", height:"auto", display:"block" }} />
+            <div style={{ position:"absolute", bottom:0, left:0, right:0, height:"30%", background:"linear-gradient(transparent, rgba(0,0,0,0.7))" }} />
+            <div style={{ position:"absolute", bottom:"1.5rem", left:"1.5rem", right:"1.5rem", display:"flex", gap:"0.75rem" }}>
               {["H. Ayep Zaki, S.E — Wali Kota","Bobby Maulana — Wakil Wali Kota"].map((n, i) => (
-                <div key={i} style={{ flex:1, padding:"0.5rem 0.8rem", borderRadius:10, background:"rgba(255,255,255,0.85)", backdropFilter:"blur(12px)", border:"1px solid rgba(15,23,42,0.08)" }}>
-                  <p style={{ fontSize:"0.7rem", fontWeight:800, color:"var(--text-main)", lineHeight:1.35 }}>{n}</p>
+                <div key={i} style={{ flex:1, padding:"0.6rem 1rem", borderRadius:12, background:"rgba(255,255,255,0.95)", border:"1px solid var(--slate-200)", textAlign:"center" }}>
+                  <p style={{ fontSize:"0.75rem", fontWeight:800, color:"var(--text-main)" }}>{n}</p>
                 </div>
               ))}
             </div>
           </div>
 
-          {/* Floating badge */}
-          <div style={{ position:"absolute", top:"-1.25rem", right:"-1.25rem", background:"rgba(255,255,255,0.92)", backdropFilter:"blur(16px)", border:"1px solid rgba(212,175,55,0.4)", borderRadius:16, padding:"0.7rem 1rem", display:"flex", alignItems:"center", gap:"0.6rem", boxShadow:"0 8px 32px rgba(0,0,0,0.08)", zIndex:20 }}>
-            <div style={{ width:32, height:32, borderRadius:9, background:"linear-gradient(135deg,#A07820,#D4AF37)", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
-              <TrendingUp size={15} color="white" />
+          {/* Floating badge — Formal */}
+          <div style={{ position:"absolute", top:"-1rem", right:"-1rem", background:"white", border:"1.5px solid var(--gold)", borderRadius:16, padding:"0.8rem 1.2rem", display:"flex", alignItems:"center", gap:"0.75rem", boxShadow:"var(--shadow-md)", zIndex:20 }}>
+            <div style={{ width:36, height:36, borderRadius:10, background:"var(--gold-light)", display:"flex", alignItems:"center", justifyContent:"center" }}>
+              <TrendingUp size={18} color="var(--gold-dark)" />
             </div>
             <div>
-              <p style={{ fontSize:"0.65rem", color:"var(--text-subtle)", fontWeight:600 }}>RPJMD</p>
-              <p style={{ fontSize:"0.8rem", color:"#8E1540", fontWeight:800 }}>Aktif 2025</p>
+              <p style={{ fontSize:"0.6rem", color:"var(--text-subtle)", fontWeight:700, textTransform:"uppercase", letterSpacing:"0.05em" }}>RPJMD TA.</p>
+              <p style={{ fontSize:"0.9rem", color:"var(--primary)", fontWeight:800 }}>2025–2029</p>
             </div>
           </div>
-
-          {/* Corner accent dots */}
-          {[[-8,"-8"], ["-8","calc(100% - 8px)"]].map(([t, b], i) => (
-            <div key={i} style={{ position:"absolute", top:i === 0 ? -8 : undefined, bottom: i === 1 ? -8 : undefined, left:-8, width:16, height:16, borderRadius:"50%", background:"rgba(212,175,55,0.4)", boxShadow:"0 0 12px rgba(212,175,55,0.4)" }} />
-          ))}
         </div>
       </section>
 
@@ -469,55 +429,64 @@ export default function Home() {
           </p>
         </div>
 
-        <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit,minmax(340px,1fr))", gap:"1rem", maxWidth:1160, margin:"0 auto" }}>
+        <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))", gap:"1.25rem", maxWidth:1200, margin:"0 auto" }}>
           {MENU_ITEMS.map((item, index) => {
             const isHov = hovered === item.id;
             return (
               <Link
                 key={item.id}
                 href={item.slug === "digitalisasi" ? "/digitalisasi" : `/slide/${item.slug}`}
-                style={{ position:"relative", overflow:"hidden", display:"flex", alignItems:"center", gap:"1.25rem", padding:"1.4rem 1.5rem", borderRadius:20, background: isHov ? "rgba(255,255,255,0.8)" : "rgba(255,255,255,0.5)", border: `1px solid ${isHov ? "rgba(142,21,64,0.15)" : "rgba(15,23,42,0.06)"}`, transition:"all 0.35s cubic-bezier(0.34,1.2,0.64,1)", textDecoration:"none", animation: mounted ? `slide-up-in 0.5s cubic-bezier(0.34,1.2,0.64,1) ${index * 0.07 + 0.1}s both` : "none", transform: isHov ? "translateY(-5px)" : "none", boxShadow: isHov ? `0 20px 40px rgba(0,0,0,0.05), 0 0 0 1px ${item.glow}33` : "none" }}
+                style={{ 
+                  position:"relative", 
+                  display:"flex", 
+                  flexDirection:"column",
+                  gap:"1.5rem", 
+                  padding:"1.75rem", 
+                  borderRadius:20, 
+                  background: isHov ? "white" : "rgba(255,255,255,0.6)", 
+                  border: `1px solid ${isHov ? "var(--primary)" : "var(--border-refined)"}`, 
+                  transition:"all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1)", 
+                  textDecoration:"none", 
+                  animation: mounted ? `slide-up-in 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) ${index * 0.05 + 0.3}s both` : "none", 
+                  transform: isHov ? "translateY(-4px)" : "none", 
+                  boxShadow: isHov ? "var(--shadow-lg)" : "var(--shadow-sm)" 
+                }}
                 onMouseEnter={() => setHovered(item.id)}
                 onMouseLeave={() => setHovered(null)}
               >
-                {/* Shimmer on hover */}
-                {isHov && <div style={{ position:"absolute", top:0, bottom:0, width:"35%", background:"linear-gradient(90deg,transparent,rgba(142,21,64,0.03),transparent)", animation:"shimmer-sweep 1.2s ease forwards" }} />}
-
-                {/* Particles on hover */}
-                {isHov && <FloatingParticles color={item.particle} />}
-
-                {/* Animated glow bottom border on hover */}
-                <div style={{ position:"absolute", bottom:0, left:0, right:0, height:2, background:item.gradient, opacity: isHov ? 0.9 : 0.3, transition:"opacity 0.3s", boxShadow: isHov ? `0 0 16px ${item.glow}` : "none" }} />
-
-                {/* Number */}
-                <div style={{ position:"absolute", top:"1rem", right:"1.2rem", fontSize:"0.62rem", fontWeight:900, color:"rgba(15,23,42,0.06)", letterSpacing:"0.06em" }}>
-                  {item.label}
-                </div>
-
-                {/* Icon box with glow ring */}
-                <div style={{ position:"relative", flexShrink:0 }}>
-                  {/* Pulse ring */}
-                  {isHov && (
-                    <div style={{ position:"absolute", inset:-6, borderRadius:20, border:`1.5px solid ${item.glow}`, animation:"pulse-ring 1s ease-out infinite" }} />
-                  )}
-                  <div style={{ width:58, height:58, borderRadius:17, background:item.gradient, display:"flex", alignItems:"center", justifyContent:"center", boxShadow: isHov ? `0 8px 32px ${item.glow}66, 0 0 0 1px rgba(255,255,255,0.3)` : `0 6px 20px ${item.glow}33`, transition:"all 0.3s", transform: isHov ? "scale(1.08)" : "scale(1)" }}>
+                {/* Formal Icon Section */}
+                <div style={{ display:"flex", justifyContent:"space-between", alignItems:"flex-start" }}>
+                  <div style={{ 
+                    width:54, 
+                    height:54, 
+                    borderRadius:14, 
+                    background:item.gradient, 
+                    display:"flex", 
+                    alignItems:"center", 
+                    justifyContent:"center", 
+                    boxShadow: isHov ? `0 8px 20px ${item.glow}44` : "none",
+                    transition:"transform 0.4s ease"
+                  }}>
                     <item.Icon size={26} />
                   </div>
-                </div>
-
-                <div style={{ flex:1, minWidth:0 }}>
-                  <div style={{ display:"flex", alignItems:"center", gap:"0.5rem", marginBottom:"0.3rem" }}>
-                    <h3 style={{ fontWeight:800, fontSize:"0.97rem", color:"var(--text-main)", lineHeight:1.25, letterSpacing:"-0.01em" }}>{item.title}</h3>
-                    <span style={{ fontSize:"0.58rem", fontWeight:800, padding:"0.2rem 0.5rem", borderRadius:4, background:`${item.glow}15`, color: isHov ? "var(--primary)" : "var(--text-subtle)", letterSpacing:"0.1em", textTransform:"uppercase", border:`1px solid ${item.glow}30`, transition:"all 0.3s", flexShrink:0 }}>
-                      {item.tag}
-                    </span>
+                  <div style={{ fontSize:"0.65rem", fontWeight:900, color:"var(--slate-300)", letterSpacing:"0.1em" }}>
+                    {item.label}
                   </div>
-                  <p style={{ fontSize:"0.8rem", color:"var(--text-muted)", lineHeight:1.55 }}>{item.desc}</p>
                 </div>
 
-                {/* Arrow */}
-                <div style={{ width:34, height:34, borderRadius:"50%", background: isHov ? item.gradient : "rgba(15,23,42,0.04)", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0, transition:"all 0.3s", transform: isHov ? "translateX(3px)" : "none", boxShadow: isHov ? `0 4px 16px ${item.glow}66` : "none" }}>
-                  <ArrowRight size={15} color={isHov ? "white" : "var(--text-subtle)"} />
+                <div style={{ flex:1 }}>
+                  <div style={{ display:"flex", alignItems:"center", gap:"0.6rem", marginBottom:"0.5rem" }}>
+                    <h3 style={{ fontWeight:800, fontSize:"1.05rem", color:"var(--text-main)", letterSpacing:"-0.01em" }}>{item.title}</h3>
+                  </div>
+                  <p style={{ fontSize:"0.88rem", color:"var(--text-muted)", lineHeight:1.6 }}>{item.desc}</p>
+                </div>
+
+                {/* Footer Link */}
+                <div style={{ display:"flex", alignItems:"center", gap:"0.5rem", marginTop:"0.5rem" }}>
+                   <span style={{ fontSize:"0.7rem", fontWeight:800, color: isHov ? "var(--primary)" : "var(--text-subtle)", letterSpacing:"0.05em", textTransform:"uppercase", transition:"color 0.3s" }}>
+                     Buka Detail Paparan
+                   </span>
+                   <ArrowRight size={14} color={isHov ? "var(--primary)" : "var(--text-subtle)"} style={{ transition:"transform 0.4s", transform: isHov ? "translateX(4px)" : "none" }} />
                 </div>
               </Link>
             );

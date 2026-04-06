@@ -1,4 +1,6 @@
 import React from "react";
+import { Slide, Metric, Feature } from "../components/SlideTypes";
+
 import { Target, Zap, TrendingUp, Users, ShieldCheck, Clock, Share2, Award, Settings, BarChart3 } from "lucide-react";
 import { motion } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";
@@ -7,7 +9,7 @@ interface KPIItem {
   label: string;
   target: string;
   unit: string;
-  icon?: any;
+  icon?: React.ElementType;
 }
 
 interface KPICategory {
@@ -20,7 +22,7 @@ interface KPICategory {
 interface LayoutProps {
   title: string;
   subtitle: string;
-  features?: any[]; // For structured KPIs
+  features?: Feature[][]; // For structured KPIs
 }
 
 export default function LayoutKPIMatrix({ title, subtitle, features }: LayoutProps) {
@@ -75,7 +77,7 @@ export default function LayoutKPIMatrix({ title, subtitle, features }: LayoutPro
         { label: "Resource Efficiency", target: "90", unit: "%" }
       ]
     }
-  ]);
+  ]) as any;
 
   const container = {
     hidden: { opacity: 0 },

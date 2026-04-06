@@ -1,6 +1,6 @@
 import React from "react";
 import { Timer, Search, Zap, Send, CheckCircle2, AlertCircle, Clock } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";
 import { InlineText } from "../components/Shared";
 
@@ -23,7 +23,7 @@ export default function LayoutGoldenTime({ title, subtitle, body, features }: La
     show: { opacity: 1, transition: { staggerChildren: 0.2 } }
   };
 
-  const itemFade = {
+  const itemFade: Variants = {
     hidden: { opacity: 0, x: -30 },
     show: { opacity: 1, x: 0, transition: { type: "spring", stiffness: 80, damping: 15 } }
   };
@@ -70,7 +70,7 @@ export default function LayoutGoldenTime({ title, subtitle, body, features }: La
             return (
               <motion.div 
                 key={i} 
-                variants={itemFade as any}
+                variants={itemFade}
                 whileHover={{ x: 10, backgroundColor: "rgba(255,255,255,0.03)" }}
                 style={{ 
                   ...GLASS_DARK, 

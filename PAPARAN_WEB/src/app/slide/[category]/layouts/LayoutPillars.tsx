@@ -1,6 +1,7 @@
 import React from "react";
+
 import { Zap, Info, MessageSquare, Lightbulb, Target, Star } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";
 import { parseBoldLabel, InlineText, parseListItems } from "../components/Shared";
 
@@ -21,7 +22,7 @@ export default function LayoutPillars({ title, subtitle, body, features, highlig
     show: { opacity: 1, transition: { staggerChildren: 0.15 } }
   };
   
-  const itemVariant: any = {
+  const itemVariant: Variants = {
     hidden: { opacity: 0, y: 30, scale: 0.95 },
     show: { opacity: 1, y: 0, scale: 1, transition: { type: "spring", stiffness: 100, damping: 15 } }
   };
@@ -44,7 +45,7 @@ export default function LayoutPillars({ title, subtitle, body, features, highlig
       )}
       
       <div className="flex-responsive" style={{ display: "flex", flexWrap: "wrap", gap: "1.5rem" }}>
-        {items.map((item: any, i: number) => {
+        {items.map((item, i: number) => {
           let label = "";
           let rest = "";
           
@@ -52,12 +53,12 @@ export default function LayoutPillars({ title, subtitle, body, features, highlig
             const parsed = parseBoldLabel(item);
             label = parsed.label;
             rest = parsed.rest;
-          } else if (item.title) {
-            label = item.title;
-            rest = item.desc;
+          } else if ((item as any).title) {
+            label = (item as any).title;
+            rest = (item as any).desc;
           } else {
             label = `Pilar ${i+1}`;
-            rest = item;
+            rest = item as unknown as string;
           }
 
           const PIcon = pillarIcons[i % pillarIcons.length];

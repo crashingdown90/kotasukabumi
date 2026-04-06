@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, DIGITAL_GLOW } from "../components/Constants";
+import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";
 import { ShieldCheck, Zap, Globe, Target } from "lucide-react";
 
 interface LayoutProps {

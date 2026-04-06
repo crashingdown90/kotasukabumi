@@ -1,0 +1,579 @@
+
+> website@0.1.0 lint
+> eslint
+
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/components/PinGate.tsx
+   28:9   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/components/PinGate.tsx:28:9
+  26 |       const isUnlocked = sessionStorage.getItem(SESSION_KEY) === "true";
+  27 |       if (isUnlocked) {
+> 28 |         setUnlocked(true);
+     |         ^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  29 |       }
+  30 |     } catch (err) {
+  31 |       console.error("Session check failed", err);  react-hooks/set-state-in-effect
+   42:7   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/components/PinGate.tsx:42:7
+  40 |       }, 1000);
+  41 |     } else if (locked && lockTimer === 0) {
+> 42 |       setLocked(false);
+     |       ^^^^^^^^^ Avoid calling setState() directly within an effect
+  43 |       setAttempts(0);
+  44 |       setStatus("idle");
+  45 |     }                                                                       react-hooks/set-state-in-effect
+   56:6   warning  React Hook useEffect has a missing dependency: 'inputRefs'. Either include it or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      react-hooks/exhaustive-deps
+  104:38  warning  'pinArray' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  193:11  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           @next/next/no-img-element
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/digitalisasi/page.tsx
+  76:5  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/digitalisasi/page.tsx:76:5
+  74 |
+  75 |   useEffect(() => {
+> 76 |     setMounted(true);
+     |     ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  77 |   }, []);
+  78 |
+  79 |   return (  react-hooks/set-state-in-effect
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/page.tsx
+   11:74  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @typescript-eslint/no-explicit-any
+  109:35  warning  'suffix' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+  116:8   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/page.tsx:116:8
+  114 |     const num = parseInt(target.replace(/\D+/, ""));
+  115 |     if (isNaN(num)) {
+> 116 |        setDisplay(target);
+      |        ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  117 |        return;
+  118 |     }
+  119 |       react-hooks/set-state-in-effect
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/components/HUDComponents.tsx
+  53:10  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/components/HUDComponents.tsx:53:10
+  51 |     return [...Array(12)].map((_, i) => ({
+  52 |       id: i,
+> 53 |       x: Math.random() * 100 + "%",
+     |          ^^^^^^^^^^^^^ Cannot call impure function
+  54 |       y: Math.random() * 100 + "%",
+  55 |       duration: 5 + Math.random() * 10,
+  56 |       delay: Math.random() * 10  react-hooks/purity
+  54:10  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/components/HUDComponents.tsx:54:10
+  52 |       id: i,
+  53 |       x: Math.random() * 100 + "%",
+> 54 |       y: Math.random() * 100 + "%",
+     |          ^^^^^^^^^^^^^ Cannot call impure function
+  55 |       duration: 5 + Math.random() * 10,
+  56 |       delay: Math.random() * 10
+  57 |     }));                                    react-hooks/purity
+  55:21  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/components/HUDComponents.tsx:55:21
+  53 |       x: Math.random() * 100 + "%",
+  54 |       y: Math.random() * 100 + "%",
+> 55 |       duration: 5 + Math.random() * 10,
+     |                     ^^^^^^^^^^^^^ Cannot call impure function
+  56 |       delay: Math.random() * 10
+  57 |     }));
+  58 |   }, []);                            react-hooks/purity
+  56:14  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/components/HUDComponents.tsx:56:14
+  54 |       y: Math.random() * 100 + "%",
+  55 |       duration: 5 + Math.random() * 10,
+> 56 |       delay: Math.random() * 10
+     |              ^^^^^^^^^^^^^ Cannot call impure function
+  57 |     }));
+  58 |   }, []);
+  59 |                                                                       react-hooks/purity
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/components/SlideUI.tsx
+  4:10  warning  'GOLD' is defined but never used        @typescript-eslint/no-unused-vars
+  4:16  warning  'PRIMARY' is defined but never used     @typescript-eslint/no-unused-vars
+  4:25  warning  'TEXT_MUTED' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/components/VideoBackground.tsx
+  6:10  warning  'PRIMARY' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutAccountabilityDashboard.tsx
+   3:27  warning  'CheckSquare' is defined but never used                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+   3:51  warning  'Users' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   3:65  warning  'ArrowUpRight' is defined but never used                                                                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+   6:27  warning  'XAxis' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   6:34  warning  'YAxis' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   6:41  warning  'CartesianGrid' is defined but never used                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+   6:56  warning  'Tooltip' is defined but never used                                                                                                                                                                                                                                                      @typescript-eslint/no-unused-vars
+  58:17  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutActionPlan.tsx
+  3:10  warning  'Zap' is defined but never used            @typescript-eslint/no-unused-vars
+  3:28  warning  'CheckCircle2' is defined but never used   @typescript-eslint/no-unused-vars
+  3:42  warning  'MessageSquare' is defined but never used  @typescript-eslint/no-unused-vars
+  3:57  warning  'AlertTriangle' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutAdvanced.tsx
+  2:10  warning  'Star' is defined but never used           @typescript-eslint/no-unused-vars
+  4:60  warning  'PRIMARY_LIGHT' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutBasic.tsx
+    3:96  warning  'ArrowRight' is defined but never used    @typescript-eslint/no-unused-vars
+   14:13  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  235:27  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutBenchmarking.tsx
+   6:16  warning  'PRIMARY' is defined but never used       @typescript-eslint/no-unused-vars
+   9:71  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  62:33  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  76:23  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutCaseStudy.tsx
+  21:50  warning  'subtitle' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutChart.tsx
+   24:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   36:29  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   63:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  111:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  121:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutCommFlow.tsx
+    2:48  warning  'Zap' is defined but never used              @typescript-eslint/no-unused-vars
+    2:89  warning  'MessageSquare' is defined but never used    @typescript-eslint/no-unused-vars
+    3:18  warning  'AnimatePresence' is defined but never used  @typescript-eslint/no-unused-vars
+  140:89  error    Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  192:22  warning  'direction' is defined but never used        @typescript-eslint/no-unused-vars
+  192:52  error    Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutCommandMatrix.tsx
+    3:25  warning  'Radio' is defined but never used                                @typescript-eslint/no-unused-vars
+    3:42  warning  'ChevronDown' is defined but never used                          @typescript-eslint/no-unused-vars
+  119:16  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  119:86  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutCrisisMatrix.tsx
+  3:10  warning  'AlertCircle' is defined but never used     @typescript-eslint/no-unused-vars
+  3:47  warning  'Users' is defined but never used           @typescript-eslint/no-unused-vars
+  3:54  warning  'Globe' is defined but never used           @typescript-eslint/no-unused-vars
+  3:76  warning  'Megaphone' is defined but never used       @typescript-eslint/no-unused-vars
+  5:10  warning  'parseBoldLabel' is defined but never used  @typescript-eslint/no-unused-vars
+  5:26  warning  'InlineText' is defined but never used      @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutCrisisMitigation.tsx
+    2:30  warning  'TrendingUp' is defined but never used       @typescript-eslint/no-unused-vars
+    2:42  warning  'AlertTriangle' is defined but never used    @typescript-eslint/no-unused-vars
+    3:18  warning  'AnimatePresence' is defined but never used  @typescript-eslint/no-unused-vars
+    4:60  warning  'DARK_BORDER' is defined but never used      @typescript-eslint/no-unused-vars
+    5:10  warning  'InlineText' is defined but never used       @typescript-eslint/no-unused-vars
+  112:28  error    Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  142:50  error    Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  158:37  error    Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  211:49  error    Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutCrisisSOP.tsx
+   4:10  warning  'PRIMARY' is defined but never used       @typescript-eslint/no-unused-vars
+   4:19  warning  'GOLD' is defined but never used          @typescript-eslint/no-unused-vars
+   5:10  warning  'InlineText' is defined but never used    @typescript-eslint/no-unused-vars
+  74:37  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutCyberWatch.tsx
+    2:62  warning  'Lock' is defined but never used          @typescript-eslint/no-unused-vars
+  102:39  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutFeature.tsx
+  11:13  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  36:13  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  63:31  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutFeedbackLoop.tsx
+  3:48  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+  3:60  warning  'Share2' is defined but never used      @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutFlowchart.tsx
+  12:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutGoldenTime.tsx
+   2:36  warning  'CheckCircle2' is defined but never used  @typescript-eslint/no-unused-vars
+  14:61  warning  'body' is defined but never used          @typescript-eslint/no-unused-vars
+  73:39  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutHeroStrakom.tsx
+   2:18  warning  'useScroll' is defined but never used     @typescript-eslint/no-unused-vars
+   2:29  warning  'useTransform' is defined but never used  @typescript-eslint/no-unused-vars
+   4:48  warning  'GLASS_DARK' is defined but never used    @typescript-eslint/no-unused-vars
+   4:60  warning  'DIGITAL_GLOW' is defined but never used  @typescript-eslint/no-unused-vars
+  14:51  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutHierarchy.tsx
+   2:18  warning  'AnimatePresence' is defined but never used                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  61:12  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutImmersive.tsx
+  4:25  warning  'TEXT_MUTED' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutInstitutionalMandate.tsx
+   3:10  warning  'ShieldCheck' is defined but never used  @typescript-eslint/no-unused-vars
+  14:77  warning  'image' is defined but never used        @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutInvestment.tsx
+    2:45  warning  'Server' is defined but never used        @typescript-eslint/no-unused-vars
+    2:74  warning  'BarChart3' is defined but never used     @typescript-eslint/no-unused-vars
+    4:60  warning  'DARK_BORDER' is defined but never used   @typescript-eslint/no-unused-vars
+  129:56  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutKOL.tsx
+  54:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  73:37  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutKPIMatrix.tsx
+    2:10  warning  'Target' is defined but never used        @typescript-eslint/no-unused-vars
+    2:18  warning  'Zap' is defined but never used           @typescript-eslint/no-unused-vars
+    2:35  warning  'Users' is defined but never used         @typescript-eslint/no-unused-vars
+    2:62  warning  'Share2' is defined but never used        @typescript-eslint/no-unused-vars
+    2:70  warning  'Award' is defined but never used         @typescript-eslint/no-unused-vars
+    2:87  warning  'BarChart3' is defined but never used     @typescript-eslint/no-unused-vars
+    4:10  warning  'PRIMARY' is defined but never used       @typescript-eslint/no-unused-vars
+   10:10  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   17:9   error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   23:14  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  125:39  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutMasterNarrative.tsx
+  3:49  warning  'Info' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutMediaTraining.tsx
+  2:67  warning  'ChevronRight' is defined but never used  @typescript-eslint/no-unused-vars
+  2:81  warning  'PlayCircle' is defined but never used    @typescript-eslint/no-unused-vars
+  4:10  warning  'PRIMARY' is defined but never used       @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutNewsRadar.tsx
+  2:18  warning  'AnimatePresence' is defined but never used  @typescript-eslint/no-unused-vars
+  3:34  warning  'MessageSquare' is defined but never used    @typescript-eslint/no-unused-vars
+  3:49  warning  'TrendingUp' is defined but never used       @typescript-eslint/no-unused-vars
+  3:86  warning  'Globe' is defined but never used            @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutOPDSync.tsx
+  3:70  warning  'Trees' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutOneGate.tsx
+    3:23  warning  'ChevronRight' is defined but never used                                                                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+    3:63  warning  'Users' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+    3:75  warning  'ArrowDownRight' is defined but never used                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+   17:9   warning  'icons' is assigned a value but never used                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+  117:16  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutOrgChart.tsx
+    2:10  warning  'ChevronRight' is defined but never used   @typescript-eslint/no-unused-vars
+    4:60  warning  'PRIMARY_LIGHT' is defined but never used  @typescript-eslint/no-unused-vars
+   23:19  error    Unexpected any. Specify a different type   @typescript-eslint/no-explicit-any
+   71:41  error    Unexpected any. Specify a different type   @typescript-eslint/no-explicit-any
+   93:41  error    Unexpected any. Specify a different type   @typescript-eslint/no-explicit-any
+  123:42  error    Unexpected any. Specify a different type   @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutPillars.tsx
+  24:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  47:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutRapidResponse.tsx
+    2:10  warning  'ShieldAlert' is defined but never used   @typescript-eslint/no-unused-vars
+    2:63  warning  'ArrowRight' is defined but never used    @typescript-eslint/no-unused-vars
+   59:34  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  114:34  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  143:34  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutReputationShield.tsx
+   3:18  warning  'Zap' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+   6:10  warning  'LineChart' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          @typescript-eslint/no-unused-vars
+   6:21  warning  'Line' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+  28:23  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutReputationShield.tsx:28:23
+  26 |     const list = [];
+  27 |     for (let i = 0; i < 30; i++) {
+> 28 |        const x = 15 + Math.random() * 70;
+     |                       ^^^^^^^^^^^^^ Cannot call impure function
+  29 |        const y = 15 + Math.random() * 70;
+  30 |        list.push({ 
+  31 |          id: i,   react-hooks/purity
+  29:23  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutReputationShield.tsx:29:23
+  27 |     for (let i = 0; i < 30; i++) {
+  28 |        const x = 15 + Math.random() * 70;
+> 29 |        const y = 15 + Math.random() * 70;
+     |                       ^^^^^^^^^^^^^ Cannot call impure function
+  30 |        list.push({ 
+  31 |          id: i, 
+  32 |          x,           react-hooks/purity
+  34:20  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutReputationShield.tsx:34:20
+  32 |          x, 
+  33 |          y, 
+> 34 |          size: 2 + Math.random() * 4,
+     |                    ^^^^^^^^^^^^^ Cannot call impure function
+  35 |          duration: 2 + Math.random() * 3
+  36 |        });
+  37 |     }                                                            react-hooks/purity
+  35:24  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutReputationShield.tsx:35:24
+  33 |          y, 
+  34 |          size: 2 + Math.random() * 4,
+> 35 |          duration: 2 + Math.random() * 3
+     |                        ^^^^^^^^^^^^^ Cannot call impure function
+  36 |        });
+  37 |     }
+  38 |     return list;                                                    react-hooks/purity
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutRoadmap.tsx
+  3:18  warning  'Trophy' is defined but never used       @typescript-eslint/no-unused-vars
+  3:54  warning  'ShieldCheck' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSNA.tsx
+   3:19  warning  'Search' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+   3:32  warning  'CheckCircle' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          @typescript-eslint/no-unused-vars
+  20:23  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSNA.tsx:20:23
+  18 |     const list = [];
+  19 |     for (let i = 0; i < 40; i++) {
+> 20 |        const x = 10 + Math.random() * 80; // 10% to 90%
+     |                       ^^^^^^^^^^^^^ Cannot call impure function
+  21 |        const y = 10 + Math.random() * 80; // 10% to 90%
+  22 |        // Initially, nodes closer to left (x < 50) are "infected" (Red), nodes closer to right are "neutral" (Gray)
+  23 |        list.push({   react-hooks/purity
+  21:23  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSNA.tsx:21:23
+  19 |     for (let i = 0; i < 40; i++) {
+  20 |        const x = 10 + Math.random() * 80; // 10% to 90%
+> 21 |        const y = 10 + Math.random() * 80; // 10% to 90%
+     |                       ^^^^^^^^^^^^^ Cannot call impure function
+  22 |        // Initially, nodes closer to left (x < 50) are "infected" (Red), nodes closer to right are "neutral" (Gray)
+  23 |        list.push({ 
+  24 |          id: i,       react-hooks/purity
+  28:16  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSNA.tsx:28:16
+  26 |          y, 
+  27 |          isRed: x < 50,
+> 28 |          size: Math.random() > 0.8 ? 6 : 3,
+     |                ^^^^^^^^^^^^^ Cannot call impure function
+  29 |          duration: 2 + Math.random()
+  30 |        });
+  31 |     }                                                                                                                                                                                  react-hooks/purity
+  29:24  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSNA.tsx:29:24
+  27 |          isRed: x < 50,
+  28 |          size: Math.random() > 0.8 ? 6 : 3,
+> 29 |          duration: 2 + Math.random()
+     |                        ^^^^^^^^^^^^^ Cannot call impure function
+  30 |        });
+  31 |     }
+  32 |     return list;                                                                                                                                                                      react-hooks/purity
+  82:24  warning  'target' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSOCSArchitecture.tsx
+  41:73  warning  'features' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSOCSChannels.tsx
+   7:3  warning  'Smartphone' is defined but never used   @typescript-eslint/no-unused-vars
+   9:3  warning  'Zap' is defined but never used          @typescript-eslint/no-unused-vars
+  10:3  warning  'MapPin' is defined but never used       @typescript-eslint/no-unused-vars
+  11:3  warning  'CheckCircle' is defined but never used  @typescript-eslint/no-unused-vars
+  12:3  warning  'Users' is defined but never used        @typescript-eslint/no-unused-vars
+  22:3  warning  'SHADOW_LG' is defined but never used    @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSOCSFlowchart.tsx
+  3:10  warning  'ArrowDown' is defined but never used   @typescript-eslint/no-unused-vars
+  3:21  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSOCSHero.tsx
+  39:18  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSWOT.tsx
+  2:18  warning  'AnimatePresence' is defined but never used  @typescript-eslint/no-unused-vars
+  3:76  warning  'ChevronRight' is defined but never used     @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSection.tsx
+   9:13  error  Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+  45:11  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  45:18  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSentimentPremium.tsx
+   3:29  warning  'BarChart3' is defined but never used        @typescript-eslint/no-unused-vars
+   3:48  warning  'PieChart' is defined but never used         @typescript-eslint/no-unused-vars
+  22:9   warning  'colors' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSocialHub.tsx
+    2:72  warning  'Activity' is defined but never used        @typescript-eslint/no-unused-vars
+    4:60  warning  'DARK_CARD' is defined but never used       @typescript-eslint/no-unused-vars
+    5:10  warning  'parseBoldLabel' is defined but never used  @typescript-eslint/no-unused-vars
+   25:58  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+  100:35  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+  140:60  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+  148:47  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+  169:59  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+  174:63  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSocialMedia.tsx
+   4:10  warning  'PRIMARY' is defined but never used       @typescript-eslint/no-unused-vars
+  54:27  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  64:37  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutSplit.tsx
+   3:25  warning  'TEXT_MUTED' is defined but never used    @typescript-eslint/no-unused-vars
+  10:10  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutStakeholderNetwork.tsx
+   3:10  warning  'Users' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   3:50  warning  'Tv' is defined but never used                                                                                                                                                                                                                                                           @typescript-eslint/no-unused-vars
+  50:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutStrategicPipeline.tsx
+  24:37  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutTechnical.tsx
+   69:9   warning  The 'keywords' array makes the dependencies of useMemo Hook (at line 80) change on every render. Move it inside the useMemo callback. Alternatively, wrap the initialization of 'keywords' in its own useMemo() Hook                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         react-hooks/exhaustive-deps
+   72:30  warning  'i' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+   74:11  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutTechnical.tsx:74:11
+  72 |     return keywords.map((kw, i) => ({
+  73 |       text: kw,
+> 74 |       x1: Math.random() * 500,
+     |           ^^^^^^^^^^^^^ Cannot call impure function
+  75 |       x2: Math.random() * 500,
+  76 |       y1: Math.random() * 400,
+  77 |       y2: Math.random() * 400,  react-hooks/purity
+   75:11  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutTechnical.tsx:75:11
+  73 |       text: kw,
+  74 |       x1: Math.random() * 500,
+> 75 |       x2: Math.random() * 500,
+     |           ^^^^^^^^^^^^^ Cannot call impure function
+  76 |       y1: Math.random() * 400,
+  77 |       y2: Math.random() * 400,
+  78 |       fontSize: 1 + Math.random() * 2  react-hooks/purity
+   76:11  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutTechnical.tsx:76:11
+  74 |       x1: Math.random() * 500,
+  75 |       x2: Math.random() * 500,
+> 76 |       y1: Math.random() * 400,
+     |           ^^^^^^^^^^^^^ Cannot call impure function
+  77 |       y2: Math.random() * 400,
+  78 |       fontSize: 1 + Math.random() * 2
+  79 |     }));         react-hooks/purity
+   77:11  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutTechnical.tsx:77:11
+  75 |       x2: Math.random() * 500,
+  76 |       y1: Math.random() * 400,
+> 77 |       y2: Math.random() * 400,
+     |           ^^^^^^^^^^^^^ Cannot call impure function
+  78 |       fontSize: 1 + Math.random() * 2
+  79 |     }));
+  80 |   }, [keywords]);                      react-hooks/purity
+   78:21  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutTechnical.tsx:78:21
+  76 |       y1: Math.random() * 400,
+  77 |       y2: Math.random() * 400,
+> 78 |       fontSize: 1 + Math.random() * 2
+     |                     ^^^^^^^^^^^^^ Cannot call impure function
+  79 |     }));
+  80 |   }, [keywords]);
+  81 |                                           react-hooks/purity
+  154:57  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/layouts/LayoutTrendChart.tsx
+  14:52  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/drefanmadiawan/Project/KOTA SUKABUMI/PAPARAN_WEB/src/app/slide/[category]/page.tsx
+    5:45   warning  'BarChart3' is defined but never used                                                                        @typescript-eslint/no-unused-vars
+    5:56   warning  'TrendingUp' is defined but never used                                                                       @typescript-eslint/no-unused-vars
+    5:68   warning  'Zap' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+    5:73   warning  'Database' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+    5:83   warning  'Building2' is defined but never used                                                                        @typescript-eslint/no-unused-vars
+    5:94   warning  'Heart' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+    5:101  warning  'Target' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+    5:109  warning  'AlertTriangle' is defined but never used                                                                    @typescript-eslint/no-unused-vars
+    5:124  warning  'Menu' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+    5:130  warning  'Layers' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+    7:8    warning  'styles' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+   81:14   error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+   97:42   error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  147:6    warning  React Hook useEffect has a missing dependency: 'navigate'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+✖ 213 problems (80 errors, 133 warnings)
+

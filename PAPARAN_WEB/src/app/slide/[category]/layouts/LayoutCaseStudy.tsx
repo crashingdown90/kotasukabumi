@@ -1,4 +1,6 @@
 import React from "react";
+import { Slide, Metric, Feature } from "../components/SlideTypes";
+
 import { motion } from "framer-motion";
 import { AlertTriangle, Lightbulb, TrendingUp, CheckCircle2, ArrowRight } from "lucide-react";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";

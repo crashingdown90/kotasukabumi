@@ -1,8 +1,11 @@
 import React from "react";
+import { Slide, Metric, Feature } from "../components/SlideTypes";
+
 import { Zap, ShieldAlert, Database, Smartphone, CheckSquare } from "lucide-react";
 import { motion } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, PRIMARY_LIGHT } from "../components/Constants";
 import { parseBoldLabel, InlineText, parseListItems } from "../components/Shared";
+import { getStaticRandom, RANDOM_POOL_XY, RANDOM_POOL_SIZE } from "../components/PurityUtils";
 
 interface LayoutProps {
   title: string;
@@ -68,6 +71,17 @@ export function LayoutBigData({ title, subtitle, body, metrics, features, highli
   const items = features || highlights || parseListItems(body);
   const keywords = ["#SukabumiMenyala", "Potensi PAD", "Infrastruktur", "PelayananPublik", "SmartCity", "IMAN", "AyepZaki", "BobbyMaulana", "Wisata", "EkonomiMandiri"];
 
+  const keywordData = React.useMemo(() => {
+    return keywords.map((kw, i) => ({
+      text: kw,
+      x1: getStaticRandom(i, RANDOM_POOL_XY) * 500,
+      x2: getStaticRandom(i + 10, RANDOM_POOL_XY) * 500,
+      y1: getStaticRandom(i + 20, RANDOM_POOL_XY) * 400,
+      y2: getStaticRandom(i + 30, RANDOM_POOL_XY) * 400,
+      fontSize: 1 + getStaticRandom(i, RANDOM_POOL_SIZE) * 2
+    }));
+  }, [keywords]);
+
   return (
     <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }} style={{ height: "100%", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
       <div>
@@ -79,18 +93,18 @@ export function LayoutBigData({ title, subtitle, body, metrics, features, highli
         <div style={{ ...GLASS_DARK, borderRadius: 32, padding: "3rem", display: "flex", flexDirection: "column", gap: "2rem", position: "relative", overflow: "hidden", border: "1px solid rgba(255,255,255,0.05)" }}>
            {/* Dynamic Keyword Cloud Simulation */}
            <div style={{ position: "absolute", inset: 0, opacity: 0.08, pointerEvents: "none" }}>
-              {keywords.map((kw, i) => (
+              {keywordData.map((kw, i) => (
                 <motion.div 
                   key={i}
                   animate={{ 
-                    x: [Math.random() * 500, Math.random() * 500], 
-                    y: [Math.random() * 400, Math.random() * 400],
+                    x: [kw.x1, kw.x2], 
+                    y: [kw.y1, kw.y2],
                     opacity: [0.2, 0.8, 0.2] 
                   }}
                   transition={{ duration: 10 + i * 2, repeat: Infinity, ease: "linear" }}
-                  style={{ position: "absolute", whiteSpace: "nowrap", fontSize: `${1 + Math.random() * 2}rem`, fontWeight: 900, color: GOLD }}
+                  style={{ position: "absolute", whiteSpace: "nowrap", fontSize: `${kw.fontSize}rem`, fontWeight: 900, color: GOLD }}
                 >
-                  {kw}
+                  {kw.text}
                 </motion.div>
               ))}
            </div>

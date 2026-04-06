@@ -1,59 +1,98 @@
 import React from "react";
-import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, PRIMARY_LIGHT } from "../components/Constants";
+
+import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, PRIMARY_LIGHT, SURFACE, BORDER_REFINED, SHADOW_SM, SHADOW_LG } from "../components/Constants";
 import { parseBoldLabel, InlineText, parseListItems } from "../components/Shared";
+import { motion } from "framer-motion";
 
 interface LayoutProps {
   title: string;
   subtitle: string;
   body: string;
   image?: string;
-  IconComp: any;
+  IconComp: React.ElementType;
 }
 
 export default function LayoutFeature({ title, subtitle, body, image, IconComp }: LayoutProps) {
-  const isList = body.startsWith("<ul>");
+  const isList = body.toLowerCase().includes("<li>") || body.toLowerCase().includes("<ul>");
   const items = isList ? parseListItems(body) : [];
 
   return (
-    <div className="feature-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem", alignItems: "center", animation: "animate-up 0.8s ease-out" }}>
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }} 
+      animate={{ opacity: 1, y: 0 }} 
+      transition={{ duration: 0.6 }}
+      style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem", alignItems: "center" }} 
+      className="grid-responsive"
+    >
       <div style={{ position: "relative" }}>
-        <div style={{ position:"absolute", inset:-20, borderRadius:32, background:`radial-gradient(circle, ${PRIMARY}15 0%, transparent 70%)`, animation: "orb-pulse 6s ease-in-out infinite" }} />
-        <div style={{ position: "relative", borderRadius: 24, overflow: "hidden", border: "1px solid rgba(255,255,255,0.1)", boxShadow: "0 25px 60px rgba(0,0,0,0.5)" }}>
+        <div style={{ 
+          position: "relative", 
+          borderRadius: 24, 
+          overflow: "hidden", 
+          border: `1px solid ${BORDER_REFINED}`, 
+          boxShadow: SHADOW_LG,
+          background: SURFACE
+        }}>
           {image ? (
-            <img src={image} alt={title} style={{ width: "100%", height: "auto", display: "block", filter: "brightness(1.1) contrast(1.1)" }} />
+            <img src={image} alt={title} style={{ width: "100%", height: "auto", display: "block" }} />
           ) : (
-            <div style={{ width: "100%", height: "300px", ...GLASS_DARK, display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <IconComp size={64} color="rgba(255,255,255,0.2)" />
+            <div style={{ width: "100%", height: "360px", background: "var(--slate-50)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <IconComp size={80} color="var(--slate-200)" strokeWidth={1} />
             </div>
           )}
-          <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "2px", background: "rgba(255,255,255,0.2)", animation: "scan-line 4s linear infinite" }} />
+        </div>
+        {/* Subtle Badge */}
+        <div style={{ position: "absolute", bottom: -15, right: 25, background: "white", padding: "0.6rem 1.25rem", borderRadius: 12, boxShadow: SHADOW_SM, border: `1px solid ${BORDER_REFINED}`, display: "flex", alignItems: "center", gap: "0.5rem" }}>
+           <div style={{ width: 6, height: 6, borderRadius: "50%", background: GOLD }} />
+           <span style={{ fontSize: "0.7rem", fontWeight: 850, color: TEXT_MAIN, letterSpacing: "0.1em", textTransform: "uppercase" }}>Strategic Asset</span>
         </div>
       </div>
+
       <div>
-        <p style={{ fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.22em", color: GOLD, textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.6rem)", fontWeight: 900, color: TEXT_MAIN, lineHeight: 1.1, marginBottom: "1.5rem", letterSpacing: "-0.02em" }}>{title}</h2>
-        <div style={{ fontSize: "1.05rem", color: TEXT_MUTED, lineHeight: 1.8 }}>
+        <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "var(--slate-50)", padding: "0.4rem 1.2rem", borderRadius: 99, border: `1px solid var(--slate-200)`, marginBottom: "1.25rem" }}>
+           <span style={{ fontSize: "0.75rem", fontWeight: 850, letterSpacing: "0.15em", color: GOLD, textTransform: "uppercase" }}>{subtitle}</span>
+        </div>
+        
+        <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 900, color: TEXT_MAIN, lineHeight: 1.15, marginBottom: "1.5rem", letterSpacing: "-0.03em" }}>{title}</h2>
+        
+        <div style={{ fontSize: "1.1rem", color: TEXT_MUTED, lineHeight: 1.75, marginBottom: isList ? "2.5rem" : 0 }}>
           <InlineText text={body.replace(/<ul>.*?<\/ul>/, "").trim()} />
         </div>
+
         {isList && (
-          <div style={{ marginTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {items.map((item, i) => {
               const { label, rest } = parseBoldLabel(item);
               return (
-                <div key={i} className="card-hover" style={{ display: "flex", gap: "0.85rem", alignItems: "flex-start", background: "rgba(255,255,255,0.02)", padding: "0.75rem 1rem", borderRadius: 12, border: "1px solid rgba(255,255,255,0.05)" }}>
-                  <div style={{ marginTop: "0.4rem", width: 18, height: 18, borderRadius: "50%", background: PRIMARY_LIGHT, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-                    <div style={{ width: 6, height: 6, borderRadius: "50%", background: PRIMARY }} />
+                <motion.div 
+                  key={i} 
+                  initial={{ opacity: 0, x: 20 }} 
+                  animate={{ opacity: 1, x: 0 }} 
+                  transition={{ delay: 0.3 + (i * 0.1) }}
+                  style={{ 
+                    display: "flex", 
+                    gap: "1.25rem", 
+                    alignItems: "flex-start", 
+                    padding: "1rem 1.5rem", 
+                    borderRadius: 16, 
+                    background: "white", 
+                    border: `1px solid ${BORDER_REFINED}`,
+                    boxShadow: "0 2px 5px rgba(0,0,0,0.02)"
+                  }}
+                >
+                  <div style={{ marginTop: "0.25rem", width: 24, height: 24, borderRadius: 8, background: PRIMARY_LIGHT, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                    <div style={{ width: 6, height: 6, borderRadius: "2px", background: PRIMARY, transform: "rotate(45deg)" }} />
                   </div>
-                  <p style={{ margin: 0, fontSize: "0.95rem", color: TEXT_MAIN }}>
-                    {label && <strong style={{ color: GOLD }}>{label}: </strong>}
+                  <div style={{ fontSize: "1rem", color: TEXT_MAIN, lineHeight: 1.6 }}>
+                    {label && <strong style={{ color: PRIMARY, fontWeight: 850, marginRight: "0.4rem" }}>{label}</strong>}
                     <InlineText text={rest} />
-                  </p>
-                </div>
+                  </div>
+                </motion.div>
               );
             })}
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }

@@ -116,7 +116,7 @@ export default function LayoutCommandMatrix({ title, subtitle, body }: LayoutPro
              border: "1px dashed rgba(212,175,55,0.2)", textAlign: "center" 
           }}>
              <p style={{ fontSize: "0.8rem", color: GOLD, fontWeight: 900, margin: 0, letterSpacing: "0.05em" }}>
-               "MATRIKS KOMANDO YANG RIGID MENJAMIN KECEPATAN EKSEKUSI TANPA BLUNDER."
+               &quot;MATRIKS KOMANDO YANG RIGID MENJAMIN KECEPATAN EKSEKUSI TANPA BLUNDER.&quot;
              </p>
           </div>
         </div>

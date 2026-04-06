@@ -1,14 +1,22 @@
 import React from "react";
+
 import { Users, PenTool, Award, Search, Sparkles, TrendingUp, CheckCircle2 } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";
 import { parseBoldLabel, InlineText, parseListItems } from "../components/Shared";
+
+interface KOLItem {
+  title: string;
+  desc: string;
+  metric?: string;
+  sub?: string;
+}
 
 interface LayoutProps {
   title: string;
   subtitle: string;
   body: string;
-  features?: {title: string, desc: string, metric?: string, sub?: string}[];
+  features?: KOLItem[];
   highlights?: string[];
 }
 
@@ -22,7 +30,7 @@ export default function LayoutKOL({ title, subtitle, body, features, highlights 
     show: { opacity: 1, transition: { staggerChildren: 0.2 } }
   };
 
-  const cardFade = {
+  const cardFade: Variants = {
     hidden: { opacity: 0, y: 50, scale: 0.95 },
     show: { opacity: 1, y: 0, scale: 1, transition: { type: "spring", stiffness: 70, damping: 15 } }
   };
@@ -51,7 +59,7 @@ export default function LayoutKOL({ title, subtitle, body, features, highlights 
         flex: 1,
         alignItems: "stretch"
       }}>
-        {items.map((item: any, i: number) => {
+        {items.map((item, i: number) => {
           let label = ""; let rest = ""; let metric = ""; let sub = "";
           
           if (typeof item === 'string') { 
@@ -70,7 +78,7 @@ export default function LayoutKOL({ title, subtitle, body, features, highlights 
           return (
             <motion.div 
               key={i} 
-              variants={cardFade as any} 
+              variants={cardFade} 
               whileHover={{ 
                 y: -15, 
                 boxShadow: `0 25px 50px ${cColor}33`,

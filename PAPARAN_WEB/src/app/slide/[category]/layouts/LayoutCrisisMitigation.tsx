@@ -1,6 +1,8 @@
 import React from "react";
+import { Slide, Metric, Feature } from "../components/SlideTypes";
+
 import { ShieldAlert, Users, TrendingUp, AlertTriangle, Search, ShieldCheck, Activity, Globe } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, DARK_BORDER } from "../components/Constants";
 import { InlineText, parseListItems } from "../components/Shared";
 
@@ -109,7 +111,7 @@ export default function LayoutCrisisMitigation({ title, subtitle, body }: Layout
         gap: "1.5rem",
         marginBottom: isMobile ? "2rem" : "0"
       }}>
-         {items.map((item: any, idx: number) => {
+         {items.map((item, idx: number) => {
            const label = typeof item === 'string' ? item.split(":")[0] : "Modul Kerjasama";
            const desc = typeof item === 'string' ? item.split(":")[1] : item;
            const icons = [ShieldCheck, ShieldAlert, Globe];
@@ -139,7 +141,13 @@ export default function LayoutCrisisMitigation({ title, subtitle, body }: Layout
   );
 }
 
-function BuzzerItem({ user, risk, probability }: any) {
+interface BuzzerItemProps {
+  user: string;
+  risk: string;
+  probability: string;
+}
+
+function BuzzerItem({ user, risk, probability }: BuzzerItemProps) {
   const isHigh = risk === "HIGH";
   return (
     <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 14px", background: "rgba(255,255,255,0.03)", borderRadius: 12, border: "1px solid rgba(255,255,255,0.05)" }}>
@@ -155,7 +163,11 @@ function BuzzerItem({ user, risk, probability }: any) {
   );
 }
 
-function RadarScanner({ isMobile }: any) {
+interface RadarScannerProps {
+  isMobile: boolean;
+}
+
+function RadarScanner({ isMobile }: RadarScannerProps) {
   const size = isMobile ? 240 : 320;
   return (
     <div style={{ width: size, height: size, position: "relative", display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -208,7 +220,14 @@ function RadarScanner({ isMobile }: any) {
   );
 }
 
-function Blip({ x, y, delay, color = PRIMARY }: any) {
+interface BlipProps {
+  x: string;
+  y: string;
+  delay: number;
+  color?: string;
+}
+
+function Blip({ x, y, delay, color = PRIMARY }: BlipProps) {
   return (
     <motion.div 
       initial={{ opacity: 0, scale: 0 }}

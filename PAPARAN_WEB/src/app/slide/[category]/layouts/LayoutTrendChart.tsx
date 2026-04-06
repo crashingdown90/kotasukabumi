@@ -11,9 +11,22 @@ interface LayoutProps {
   body: string;
 }
 
+const CustomTooltip = ({ active, payload, label }: any) => {
+  if (active && payload && payload.length) {
+    return (
+      <div style={{ background: "rgba(10, 15, 30, 0.95)", border: `1px solid ${PRIMARY}`, padding: "1rem", borderRadius: "12px", boxShadow: `0 10px 20px rgba(0,0,0,0.5)` }}>
+        <p style={{ color: TEXT_MAIN, fontWeight: 950, marginBottom: "0.5rem" }}>T+{label}</p>
+        <p style={{ color: PRIMARY, fontSize: "0.85rem", margin: 0, fontWeight: 700 }}>Volume Isu: {payload[0].value}</p>
+        <p style={{ color: "#10B981", fontSize: "0.85rem", margin: 0, fontWeight: 700 }}>Sentimen (+): {payload[1].value}%</p>
+      </div>
+    );
+  }
+  return null;
+};
+
 export default function LayoutTrendChart({ title, subtitle, body }: LayoutProps) {
   const items = parseListItems(body);
-  
+
   // Mock data representing a 120-minute crisis lifecycle with intervention at T=60
   const data = [
     { time: "0m", volume: 10, sentiment: 90 },
@@ -26,19 +39,6 @@ export default function LayoutTrendChart({ title, subtitle, body }: LayoutProps)
     { time: "105m", volume: 80, sentiment: 80 },
     { time: "120m", volume: 30, sentiment: 85 },
   ];
-
-  const CustomTooltip = ({ active, payload, label }: any) => {
-    if (active && payload && payload.length) {
-      return (
-        <div style={{ background: "rgba(10, 15, 30, 0.95)", border: `1px solid ${PRIMARY}`, padding: "1rem", borderRadius: "12px", boxShadow: `0 10px 20px rgba(0,0,0,0.5)` }}>
-          <p style={{ color: TEXT_MAIN, fontWeight: 900, marginBottom: "0.5rem" }}>T+{label}</p>
-          <p style={{ color: PRIMARY, fontSize: "0.85rem", margin: 0 }}>Volume Isu: {payload[0].value}</p>
-          <p style={{ color: "#10B981", fontSize: "0.85rem", margin: 0 }}>Sentimen (+): {payload[1].value}%</p>
-        </div>
-      );
-    }
-    return null;
-  };
 
   return (
     <div style={{ height: "100%", display: "flex", flexDirection: "column", animation: "animate-up 0.8s ease-out" }}>

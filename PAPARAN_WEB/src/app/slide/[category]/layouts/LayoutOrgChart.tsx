@@ -1,6 +1,7 @@
 import React from "react";
+
 import { ChevronRight, ArrowRight, ShieldCheck, Radio, Network, Component } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, PRIMARY_LIGHT } from "../components/Constants";
 import { parseBoldLabel, InlineText, parseListItems } from "../components/Shared";
 
@@ -20,7 +21,7 @@ export default function LayoutOrgChart({ title, subtitle, body, features, highli
     show: { opacity: 1, transition: { staggerChildren: 0.25, delayChildren: 0.2 } }
   };
 
-  const itemFade: any = {
+  const itemFade: Variants = {
     hidden: { opacity: 0, y: 30 },
     show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 80, damping: 15 } }
   };
@@ -68,10 +69,10 @@ export default function LayoutOrgChart({ title, subtitle, body, features, highli
         <div style={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", gap: "2rem", alignItems: "center", width: "100%", maxWidth: "1000px" }}>
           
           {/* Left Node */}
-          {items.slice(0, 1).map((item: any, i: number) => {
+          {items.slice(0, 1).map((item, i: number) => {
             let label = ""; let rest = "";
             if (typeof item === 'string') { const parsed = parseBoldLabel(item); label = parsed.label; rest = parsed.rest; } 
-            else { label = item.title || `Unit ${i+1}`; rest = item.desc || item; }
+            else { label = (item as any).title || `Unit ${i+1}`; rest = (item as any).desc || (item as any); }
 
             return (
               <motion.div key={i} variants={itemFade} whileHover={{ scale: 1.03 }} style={{ ...GLASS_DARK, borderRadius: 24, padding: "2rem", textAlign: "right", borderRight: `4px solid ${PRIMARY}`, position: "relative", overflow: "hidden" }}>
@@ -90,10 +91,10 @@ export default function LayoutOrgChart({ title, subtitle, body, features, highli
           </motion.div>
           
           {/* Right Node */}
-          {items.slice(1, 2).map((item: any, i: number) => {
+          {items.slice(1, 2).map((item, i: number) => {
             let label = ""; let rest = "";
             if (typeof item === 'string') { const parsed = parseBoldLabel(item); label = parsed.label; rest = parsed.rest; } 
-            else { label = item.title || `Unit ${i+2}`; rest = item.desc || item; }
+            else { label = (item as any).title || `Unit ${i+2}`; rest = (item as any).desc || (item as any); }
 
             return (
               <motion.div key={i} variants={itemFade} whileHover={{ scale: 1.03 }} style={{ ...GLASS_DARK, borderRadius: 24, padding: "2rem", textAlign: "left", borderLeft: `4px solid ${GOLD}`, position: "relative", overflow: "hidden" }}>
@@ -120,10 +121,10 @@ export default function LayoutOrgChart({ title, subtitle, body, features, highli
             </svg>
             
             <div style={{ display: "grid", gridTemplateColumns: `repeat(${items.length - 2}, 1fr)`, gap: "1.5rem", width: "100%" }}>
-              {items.slice(2).map((item: any, i: number) => {
+              {items.slice(2).map((item, i: number) => {
                 let label = ""; let rest = "";
                 if (typeof item === 'string') { const parsed = parseBoldLabel(item); label = parsed.label; rest = parsed.rest; } 
-                else { label = item.title || `Mekanisme ${i+3}`; rest = item.desc || item; }
+                else { label = (item as any).title || `Mekanisme ${i+3}`; rest = (item as any).desc || (item as any); }
 
                 return (
                   <motion.div key={i} whileHover={{ y: -5, backgroundColor: "rgba(255,255,255,0.06)" }} style={{ ...GLASS_DARK, borderRadius: 20, padding: "1.5rem", textAlign: "center", border: "1px solid rgba(255,255,255,0.1)", position: "relative" }}>

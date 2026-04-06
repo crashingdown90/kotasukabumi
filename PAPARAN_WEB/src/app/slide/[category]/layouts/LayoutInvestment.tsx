@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Monitor, Cpu, Users, CheckCircle2, Server, Globe2, ShieldCheck, BarChart3, Database } from "lucide-react";
 import { motion } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, DARK_BORDER } from "../components/Constants";
@@ -126,7 +127,14 @@ export default function LayoutInvestment({ title, subtitle, body }: LayoutProps)
   );
 }
 
-function StatItem({ icon: Icon, label, value, color }: any) {
+interface StatItemProps {
+  icon: React.ElementType;
+  label: string;
+  value: string;
+  color: string;
+}
+
+function StatItem({ icon: Icon, label, value, color }: StatItemProps) {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
        <Icon size={24} color={color} />

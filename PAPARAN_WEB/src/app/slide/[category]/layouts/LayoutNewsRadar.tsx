@@ -1,4 +1,6 @@
 import React from "react";
+import { Slide, Metric, Feature } from "../components/SlideTypes";
+
 import { motion, AnimatePresence } from "framer-motion";
 import { Monitor, AlertTriangle, MessageSquare, TrendingUp, Search, Radio, Database, Globe } from "lucide-react";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";

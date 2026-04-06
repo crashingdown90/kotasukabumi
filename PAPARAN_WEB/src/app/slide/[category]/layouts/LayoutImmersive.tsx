@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { AlertTriangle, Activity, Database, Radar } from "lucide-react";
-import { PRIMARY, GOLD, TEXT_MUTED } from "../components/Constants";
+import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, TEXT_SUBTLE, PRIMARY_LIGHT } from "../components/Constants";
 
 interface LayoutProps {
   title: string;

@@ -1,6 +1,5 @@
-"use client";
-
-import { useState, useEffect, use } from "react";
+import dynamic from "next/dynamic";
+import { useState, useEffect, use, useMemo } from "react";
 import Link from "next/link";
 import { FileText, Search, X, ChevronRight, BarChart3, TrendingUp, Zap, Database, Building2, Heart, Target, AlertTriangle, Menu, Layers } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -8,86 +7,79 @@ import styles from "./slide.module.css";
 import masterData from "../../master-data.json";
 
 // Components & UI
-import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED } from "./components/Constants";
-import { ProgressBar, FloatingNav } from "./components/SlideUI";
-import VideoBackground from "./components/VideoBackground";
+import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, SURFACE, BORDER_REFINED, SHADOW_LG } from "./components/Constants";
+import { ProgressBar, FloatingNav, AmbientBackground } from "./components/SlideUI";
+import { Slide, MasterData } from "./components/SlideTypes";
 
-// Layouts
-import LayoutChart from "./layouts/LayoutChart";
-import LayoutMap from "./layouts/LayoutMap";
-import LayoutFlowchart from "./layouts/LayoutFlowchart";
-import LayoutPillars from "./layouts/LayoutPillars";
-import LayoutAudienceGrid from "./layouts/LayoutAudienceGrid";
-import { LayoutHero, LayoutClosing, LayoutCards, LayoutResources } from "./layouts/LayoutBasic";
-import LayoutFeature from "./layouts/LayoutFeature";
-import LayoutOrgChart from "./layouts/LayoutOrgChart";
-import { LayoutTimeline, LayoutKPIGrid, LayoutSentiment } from "./layouts/LayoutAdvanced";
-import { LayoutService, LayoutBigData, LayoutChallenges, LayoutBudget } from "./layouts/LayoutTechnical";
-import LayoutBenchmarking from "./layouts/LayoutBenchmarking";
-import LayoutSection from "./layouts/LayoutSection";
-import LayoutOneGate from "./layouts/LayoutOneGate";
-import LayoutHierarchy from "./layouts/LayoutHierarchy";
-import LayoutTeam from "./layouts/LayoutTeam";
-import LayoutSNA from "./layouts/LayoutSNA";
-import LayoutTrendChart from "./layouts/LayoutTrendChart";
-import LayoutMatrix from "./layouts/LayoutMatrix";
-import LayoutImmersive from "./layouts/LayoutImmersive";
-import LayoutSplit from "./layouts/LayoutSplit";
-import LayoutReputationShield from "./layouts/LayoutReputationShield";
-import LayoutInstitutionalMandate from "./layouts/LayoutInstitutionalMandate";
-import LayoutAccountabilityDashboard from "./layouts/LayoutAccountabilityDashboard";
-import LayoutSentimentPremium from "./layouts/LayoutSentimentPremium";
-import LayoutNewsRadar from "./layouts/LayoutNewsRadar";
-import LayoutGoldenTime from "./layouts/LayoutGoldenTime";
-import LayoutCommandMatrix from "./layouts/LayoutCommandMatrix";
-import LayoutActionPlan from "./layouts/LayoutActionPlan";
-import LayoutCrisisMatrix from "./layouts/LayoutCrisisMatrix";
-import LayoutStakeholderNetwork from "./layouts/LayoutStakeholderNetwork";
-import LayoutSocialMedia from "./layouts/LayoutSocialMedia";
-import LayoutKOL from "./layouts/LayoutKOL";
-import LayoutCyberWatch from "./layouts/LayoutCyberWatch";
-import LayoutRapidResponse from "./layouts/LayoutRapidResponse";
-import LayoutCrisisSOP from "./layouts/LayoutCrisisSOP";
-import LayoutSocialHub from "./layouts/LayoutSocialHub";
-import LayoutCommFlow from "./layouts/LayoutCommFlow";
-import LayoutCrisisMitigation from "./layouts/LayoutCrisisMitigation";
-import LayoutMediaTraining from "./layouts/LayoutMediaTraining";
-import LayoutInvestment from "./layouts/LayoutInvestment";
-import LayoutKPIMatrix from "./layouts/LayoutKPIMatrix";
-import LayoutStrategicPipeline from "./layouts/LayoutStrategicPipeline";
-import LayoutSWOT from "./layouts/LayoutSWOT";
-import LayoutMasterNarrative from "./layouts/LayoutMasterNarrative";
-import LayoutMicroSegmentation from "./layouts/LayoutMicroSegmentation";
-import LayoutRoadmap from "./layouts/LayoutRoadmap";
-import LayoutFeedbackLoop from "./layouts/LayoutFeedbackLoop";
-import LayoutOPDSync from "./layouts/LayoutOPDSync";
-import LayoutCaseStudy from "./layouts/LayoutCaseStudy";
-import LayoutHeroStrakom from "./layouts/LayoutHeroStrakom";
-import LayoutSOCSHero from "./layouts/LayoutSOCSHero";
-import LayoutSOCSArchitecture from "./layouts/LayoutSOCSArchitecture";
-import LayoutSOCSTopology from "./layouts/LayoutSOCSTopology";
-import LayoutSOCSFlowchart from "./layouts/LayoutSOCSFlowchart";
-import LayoutSOCSDashboard from "./layouts/LayoutSOCSDashboard";
-import LayoutSOCSChannels from "./layouts/LayoutSOCSChannels";
+// Dynamic Layouts for optimization
+const LayoutChart = dynamic(() => import("./layouts/LayoutChart"));
+const LayoutMap = dynamic(() => import("./layouts/LayoutMap"));
+const LayoutFlowchart = dynamic(() => import("./layouts/LayoutFlowchart"));
+const LayoutPillars = dynamic(() => import("./layouts/LayoutPillars"));
+const LayoutAudienceGrid = dynamic(() => import("./layouts/LayoutAudienceGrid"));
+const LayoutFeature = dynamic(() => import("./layouts/LayoutFeature"));
+const LayoutOrgChart = dynamic(() => import("./layouts/LayoutOrgChart"));
+const LayoutBenchmarking = dynamic(() => import("./layouts/LayoutBenchmarking"));
+const LayoutSection = dynamic(() => import("./layouts/LayoutSection"));
+const LayoutOneGate = dynamic(() => import("./layouts/LayoutOneGate"));
+const LayoutHierarchy = dynamic(() => import("./layouts/LayoutHierarchy"));
+const LayoutTeam = dynamic(() => import("./layouts/LayoutTeam"));
+const LayoutSNA = dynamic(() => import("./layouts/LayoutSNA"));
+const LayoutTrendChart = dynamic(() => import("./layouts/LayoutTrendChart"));
+const LayoutMatrix = dynamic(() => import("./layouts/LayoutMatrix"));
+const LayoutImmersive = dynamic(() => import("./layouts/LayoutImmersive"));
+const LayoutSplit = dynamic(() => import("./layouts/LayoutSplit"));
+const LayoutReputationShield = dynamic(() => import("./layouts/LayoutReputationShield"));
+const LayoutInstitutionalMandate = dynamic(() => import("./layouts/LayoutInstitutionalMandate"));
+const LayoutAccountabilityDashboard = dynamic(() => import("./layouts/LayoutAccountabilityDashboard"));
+const LayoutSentimentPremium = dynamic(() => import("./layouts/LayoutSentimentPremium"));
+const LayoutNewsRadar = dynamic(() => import("./layouts/LayoutNewsRadar"));
+const LayoutGoldenTime = dynamic(() => import("./layouts/LayoutGoldenTime"));
+const LayoutCommandMatrix = dynamic(() => import("./layouts/LayoutCommandMatrix"));
+const LayoutActionPlan = dynamic(() => import("./layouts/LayoutActionPlan"));
+const LayoutCrisisMatrix = dynamic(() => import("./layouts/LayoutCrisisMatrix"));
+const LayoutStakeholderNetwork = dynamic(() => import("./layouts/LayoutStakeholderNetwork"));
+const LayoutSocialMedia = dynamic(() => import("./layouts/LayoutSocialMedia"));
+const LayoutKOL = dynamic(() => import("./layouts/LayoutKOL"));
+const LayoutCyberWatch = dynamic(() => import("./layouts/LayoutCyberWatch"));
+const LayoutRapidResponse = dynamic(() => import("./layouts/LayoutRapidResponse"));
+const LayoutCrisisSOP = dynamic(() => import("./layouts/LayoutCrisisSOP"));
+const LayoutSocialHub = dynamic(() => import("./layouts/LayoutSocialHub"));
+const LayoutCommFlow = dynamic(() => import("./layouts/LayoutCommFlow"));
+const LayoutCrisisMitigation = dynamic(() => import("./layouts/LayoutCrisisMitigation"));
+const LayoutMediaTraining = dynamic(() => import("./layouts/LayoutMediaTraining"));
+const LayoutInvestment = dynamic(() => import("./layouts/LayoutInvestment"));
+const LayoutKPIMatrix = dynamic(() => import("./layouts/LayoutKPIMatrix"));
+const LayoutStrategicPipeline = dynamic(() => import("./layouts/LayoutStrategicPipeline"));
+const LayoutSWOT = dynamic(() => import("./layouts/LayoutSWOT"));
+const LayoutMasterNarrative = dynamic(() => import("./layouts/LayoutMasterNarrative"));
+const LayoutMicroSegmentation = dynamic(() => import("./layouts/LayoutMicroSegmentation"));
+const LayoutRoadmap = dynamic(() => import("./layouts/LayoutRoadmap"));
+const LayoutFeedbackLoop = dynamic(() => import("./layouts/LayoutFeedbackLoop"));
+const LayoutOPDSync = dynamic(() => import("./layouts/LayoutOPDSync"));
+const LayoutCaseStudy = dynamic(() => import("./layouts/LayoutCaseStudy"));
+const LayoutHeroStrakom = dynamic(() => import("./layouts/LayoutHeroStrakom"));
+const LayoutSOCSHero = dynamic(() => import("./layouts/LayoutSOCSHero"));
+const LayoutSOCSArchitecture = dynamic(() => import("./layouts/LayoutSOCSArchitecture"));
+const LayoutSOCSTopology = dynamic(() => import("./layouts/LayoutSOCSTopology"));
+const LayoutSOCSFlowchart = dynamic(() => import("./layouts/LayoutSOCSFlowchart"));
+const LayoutSOCSDashboard = dynamic(() => import("./layouts/LayoutSOCSDashboard"));
+const LayoutSOCSChannels = dynamic(() => import("./layouts/LayoutSOCSChannels"));
 
-interface Slide {
-  id: number;
-  section?: string;
-  title: string;
-  subtitle: string;
-  body: string;
-  layout: string;
-  icon?: string;
-  image?: string;
-  features?: any[];
-  metrics?: {label: string, value: string, unit?: string, trend?: string}[];
-  highlights?: string[];
-}
+// Grouped Layouts (Basic, Advanced, Technical)
+const LayoutHero = dynamic(() => import("./layouts/LayoutBasic").then(m => m.LayoutHero));
+const LayoutClosing = dynamic(() => import("./layouts/LayoutBasic").then(m => m.LayoutClosing));
+const LayoutCards = dynamic(() => import("./layouts/LayoutBasic").then(m => m.LayoutCards));
+const LayoutResources = dynamic(() => import("./layouts/LayoutBasic").then(m => m.LayoutResources));
 
+const LayoutTimeline = dynamic(() => import("./layouts/LayoutAdvanced").then(m => m.LayoutTimeline));
+const LayoutKPIGrid = dynamic(() => import("./layouts/LayoutAdvanced").then(m => m.LayoutKPIGrid));
+const LayoutSentiment = dynamic(() => import("./layouts/LayoutAdvanced").then(m => m.LayoutSentiment));
 
-const iconMap: Record<string, any> = {
-  FileText, Search
-};
+const LayoutService = dynamic(() => import("./layouts/LayoutTechnical").then(m => m.LayoutService));
+const LayoutBigData = dynamic(() => import("./layouts/LayoutTechnical").then(m => m.LayoutBigData));
+const LayoutChallenges = dynamic(() => import("./layouts/LayoutTechnical").then(m => m.LayoutChallenges));
+const LayoutBudget = dynamic(() => import("./layouts/LayoutTechnical").then(m => m.LayoutBudget));
 
 export default function SlidePage({ params }: { params: Promise<{ category: string }> }) {
   const { category } = use(params);
@@ -100,16 +92,13 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
   const [showSearch, setShowSearch] = useState(false);
   const [activeStep, setActiveStep] = useState(0);
 
-  const slides: Slide[] = (masterData as any)[category] || [];
+  const slides: Slide[] = (masterData as unknown as MasterData)[category] || [];
   const totalSlides = slides.length;
-
-  useEffect(() => {
-    setActiveStep(0);
-  }, [currentSlide]);
 
   function navigate(dir: "next" | "prev") {
     setDirection(dir);
     setAnimKey((k) => k + 1);
+    setActiveStep(0); // Reset step animation
     if (dir === "next") setCurrentSlide((p) => Math.min(p + 1, totalSlides - 1));
     else setCurrentSlide((p) => Math.max(p - 1, 0));
   }
@@ -117,6 +106,7 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
   function jumpToSlide(index: number) {
     setDirection(index > currentSlide ? "next" : "prev");
     setAnimKey((k) => k + 1);
+    setActiveStep(0); // Reset step animation
     setCurrentSlide(index);
     setShowSidebar(false);
     setShowSearch(false);
@@ -158,9 +148,9 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
   if (slides.length === 0) {
     return (
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "100vh", gap: "1rem" }}>
-        <VideoBackground />
-        <h1 style={{ color: "white" }}>Kategori tidak ditemukan</h1>
-        <Link href="/" style={{ color: PRIMARY, fontWeight: 600 }}>← Kembali</Link>
+        <AmbientBackground />
+        <h1 style={{ color: TEXT_MAIN }}>Kategori tidak ditemukan</h1>
+        <Link href="/" style={{ color: PRIMARY, fontWeight: 800 }}>← Kembali</Link>
       </div>
     );
   }
@@ -173,7 +163,7 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
     const logo = (category === "media_center" || category === "strakom") 
       ? "/smc_official_logo.png" 
       : "/Logo_Sukabumi.png";
-    const props = { ...slide, logo, IconComp: FileText }; // Simplified for now
+    const props = { ...slide, logo, IconComp: FileText };
 
     switch (layout) {
       case "hero": return <LayoutHero {...props} />;
@@ -247,24 +237,26 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
     }
   }
 
-  const filteredSlides = slides.filter(s => 
-    s.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-    s.body.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const filteredSlides = useMemo(() => {
+    return slides.filter(s => 
+      s.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+      s.body.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }, [slides, searchQuery]);
 
   return (
-    <main style={{ position: "fixed", inset: 0, color: "var(--text-main)", overflow: "hidden", fontFamily: "var(--font-display)" }}>
-      <VideoBackground />
+    <main style={{ position: "fixed", inset: 0, color: "var(--text-main)", overflow: "hidden", fontFamily: "var(--font-display)", background: "var(--bg-color)" }}>
+      <AmbientBackground />
       <ProgressBar progress={progress} />
 
       {/* Main Content Area */}
       <AnimatePresence mode="wait">
         <motion.div 
           key={animKey}
-          initial={{ opacity: 0, x: direction === "next" ? 80 : -80, scale: 0.98 }}
-          animate={{ opacity: 1, x: 0, scale: 1 }}
-          exit={{ opacity: 0, x: direction === "next" ? -80 : 80, scale: 1.02 }}
-          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          initial={{ opacity: 0, x: direction === "next" ? 60 : -60 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: direction === "next" ? -60 : 60 }}
+          transition={{ duration: 0.4, ease: [0.2, 0.8, 0.2, 1] }}
           style={{ height: "100%", width: "100%", padding: "clamp(2rem, 5vh, 4rem) clamp(1rem, 6vw, 8vw) 8rem", overflowY: "auto", overflowX: "hidden" }}
         >
           {renderSlideBody(slide)}
@@ -282,122 +274,148 @@ export default function SlidePage({ params }: { params: Promise<{ category: stri
         onFullscreen={toggleFullscreen}
       />
 
-      {/* ── EXPANDED SIDEBAR ───────────────────────────────────── */}
-      {showSidebar && (
-        <div style={{ position: "fixed", inset: 0, zIndex: 2000, display: "flex" }}>
-          <div style={{ position: "absolute", inset: 0, background: "rgba(255,255,255,0.4)", backdropFilter: "blur(12px)" }} onClick={() => setShowSidebar(false)} />
-          <div style={{ position: "relative", width: "400px", maxWidth: "90vw", height: "100%", background: "rgba(255, 255, 255, 0.95)", borderLeft: "1px solid rgba(15,23,42,0.08)", padding: "2.5rem 1.5rem", display: "flex", flexDirection: "column", gap: "2rem", boxShadow: "-20px 0 60px rgba(0,0,0,0.05)", marginLeft: "auto" }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <h3 style={{ fontSize: "1.1rem", fontWeight: 800, color: "var(--primary)", margin: 0, textTransform: "uppercase", letterSpacing: "0.1em" }}>Dashboard Index</h3>
-              <button onClick={() => setShowSidebar(false)} style={{ background: "rgba(15,23,42,0.05)", border: "none", color: "var(--text-main)", padding: "0.6rem", borderRadius: "50%" }} className="card-hover"><X size={20} /></button>
-            </div>
-            
-            <div style={{ flex: 1, overflowY: "auto", display: "flex", flexDirection: "column", gap: "1.5rem", paddingRight: "0.5rem" }} className="custom-scroll">
-              {Object.entries(
-                slides.reduce((acc: Record<string, Slide[]>, s) => {
-                  const sec = s.section || "UMUM";
-                  if (!acc[sec]) acc[sec] = [];
-                  acc[sec].push(s);
-                  return acc;
-                }, {})
-              ).map(([section, sectionSlides]) => (
-                <div key={section} style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-                  <div style={{ fontSize: "0.65rem", fontWeight: 900, color: GOLD, letterSpacing: "0.2em", textTransform: "uppercase", marginBottom: "0.25rem", paddingLeft: "0.5rem", borderLeft: `2px solid ${GOLD}` }}>
-                    {section}
-                  </div>
-                  {sectionSlides.map((s) => {
-                    const idx = slides.indexOf(s);
-                    const isActive = idx === currentSlide;
-                    return (
-                      <button 
-                        key={idx} 
-                        onClick={() => jumpToSlide(idx)} 
-                        style={{ 
-                          display: "flex", 
-                          gap: "1rem", 
-                          alignItems: "center", 
-                          padding: "0.85rem 1rem", 
-                          borderRadius: 16, 
-                          border: isActive ? `1.5px solid var(--primary)` : "1px solid rgba(15,23,42,0.04)", 
-                          background: isActive ? "var(--primary-glass)" : "rgba(255,255,255,0.5)", 
-                          textAlign: "left", 
-                          transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)" 
-                        }} 
-                        className="card-hover"
-                      >
-                        <div style={{ 
-                          width: 28, 
-                          height: 28, 
-                          borderRadius: 8, 
-                          background: isActive ? GOLD : "rgba(255,255,255,0.04)", 
-                          color: isActive ? "black" : TEXT_MUTED, 
-                          display: "flex", 
-                          alignItems: "center", 
-                          justifyContent: "center", 
-                          fontSize: "0.7rem", 
-                          fontWeight: 900, 
-                          flexShrink: 0 
-                        }}>
-                          {idx + 1}
-                        </div>
-                        <div style={{ flex: 1, minWidth: 0 }}>
-                          <div style={{ 
-                            fontSize: "0.85rem", 
-                            fontWeight: isActive ? 800 : 600, 
-                            color: isActive ? "var(--primary)" : "var(--text-main)", 
-                            overflow: "hidden", 
-                            textOverflow: "ellipsis", 
-                            whiteSpace: "nowrap" 
-                          }}>
-                            {s.title}
-                          </div>
-                        </div>
-                      </button>
-                    );
-                  })}
+      {/* ── EXPANDED SIDEBAR (LIGHT VERSION) ─────────────────── */}
+      <AnimatePresence>
+        {showSidebar && (
+          <div style={{ position: "fixed", inset: 0, zIndex: 2000 }}>
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              style={{ position: "absolute", inset: 0, background: "rgba(15,23,42,0.1)", backdropFilter: "blur(4px)" }} 
+              onClick={() => setShowSidebar(false)} 
+            />
+            <motion.div 
+              initial={{ x: "100%" }}
+              animate={{ x: 0 }}
+              exit={{ x: "100%" }}
+              transition={{ type: "spring", damping: 25, stiffness: 200 }}
+              style={{ position: "relative", width: "420px", maxWidth: "90vw", height: "100%", background: SURFACE, borderLeft: `1px solid ${BORDER_REFINED}`, padding: "3rem 2rem", display: "flex", flexDirection: "column", gap: "2.5rem", boxShadow: "-20px 0 60px rgba(0,0,0,0.05)", marginLeft: "auto" }}
+            >
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <div>
+                  <h3 style={{ fontSize: "1.2rem", fontWeight: 900, color: PRIMARY, margin: 0, letterSpacing: "-0.01em" }}>Indeks Paparan</h3>
+                  <p style={{ fontSize: "0.75rem", color: TEXT_MUTED, fontWeight: 700, margin: "0.25rem 0 0", textTransform: "uppercase", letterSpacing: "0.05em" }}>Pemerintah Kota Sukabumi</p>
                 </div>
-              ))}
-            </div>
+                <button onClick={() => setShowSidebar(false)} style={{ background: "var(--slate-50)", border: `1px solid var(--slate-200)`, color: TEXT_MAIN, padding: "0.6rem", borderRadius: "12px", transition: "all 0.3s" }} className="card-hover"><X size={20} /></button>
+              </div>
+              
+              <div style={{ flex: 1, overflowY: "auto", display: "flex", flexDirection: "column", gap: "1.75rem" }} className="custom-scroll">
+                {Object.entries(
+                  slides.reduce((acc: Record<string, Slide[]>, s) => {
+                    const sec = s.section || "UMUM";
+                    if (!acc[sec]) acc[sec] = [];
+                    acc[sec].push(s);
+                    return acc;
+                  }, {})
+                ).map(([section, sectionSlides]) => (
+                  <div key={section} style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+                    <div style={{ fontSize: "0.65rem", fontWeight: 900, color: GOLD, letterSpacing: "0.2em", textTransform: "uppercase", marginBottom: "0.25rem", display: "flex", alignItems: "center", gap: "0.75rem" }}>
+                      <div style={{ flex: 1, height: "1px", background: "var(--slate-100)" }} />
+                      {section}
+                      <div style={{ flex: 1, height: "1px", background: "var(--slate-100)" }} />
+                    </div>
+                    {sectionSlides.map((s) => {
+                      const idx = slides.indexOf(s);
+                      const isActive = idx === currentSlide;
+                      return (
+                        <button 
+                          key={idx} 
+                          onClick={() => jumpToSlide(idx)} 
+                          style={{ 
+                            display: "flex", 
+                            gap: "1.25rem", 
+                            alignItems: "center", 
+                            padding: "0.85rem 1rem", 
+                            borderRadius: 14, 
+                            border: isActive ? `1.5px solid ${PRIMARY}` : "1px solid var(--slate-100)", 
+                            background: isActive ? "var(--slate-50)" : "transparent", 
+                            textAlign: "left", 
+                            transition: "all 0.3s" 
+                          }} 
+                          className="card-hover"
+                        >
+                          <div style={{ 
+                            width: 32, 
+                            height: 32, 
+                            borderRadius: 10, 
+                            background: isActive ? PRIMARY : "var(--slate-50)", 
+                            color: isActive ? "white" : TEXT_MUTED, 
+                            display: "flex", 
+                            alignItems: "center", 
+                            justifyContent: "center", 
+                            fontSize: "0.8rem", 
+                            fontWeight: 900, 
+                            flexShrink: 0 
+                          }}>
+                            {idx + 1}
+                          </div>
+                          <div style={{ flex: 1, minWidth: 0 }}>
+                            <div style={{ 
+                              fontSize: "0.9rem", 
+                              fontWeight: isActive ? 850 : 600, 
+                              color: isActive ? PRIMARY : TEXT_MAIN, 
+                              overflow: "hidden", 
+                              textOverflow: "ellipsis", 
+                              whiteSpace: "nowrap" 
+                            }}>
+                              {s.title}
+                            </div>
+                          </div>
+                        </button>
+                      );
+                    })}
+                  </div>
+                ))}
+              </div>
+            </motion.div>
           </div>
-        </div>
-      )}
+        )}
+      </AnimatePresence>
 
-      {/* ── QUICK JUMP SEARCH ──────────────────────────────────── */}
-      {showSearch && (
-        <div style={{ position: "fixed", inset: 0, zIndex: 3000, display: "flex", alignItems: "center", justifyContent: "center", padding: "1.5rem" }}>
-          <div style={{ position: "absolute", inset: 0, background: "rgba(248,250,252,0.85)", backdropFilter: "blur(16px)" }} onClick={() => setShowSearch(false)} />
-          <div style={{ position: "relative", width: "100%", maxWidth: "650px", background: "rgba(255, 255, 255, 0.98)", border: `1px solid rgba(142,21,64,0.2)`, borderRadius: 28, padding: "1.75rem", boxShadow: `0 40px 100px rgba(0,0,0,0.1)` }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "1.25rem", borderBottom: `1px solid rgba(15,23,42,0.1)`, paddingBottom: "1.25rem", marginBottom: "1.25rem" }}>
-              <Search size={26} color="var(--primary)" />
-              <input autoFocus placeholder="Search slides... (ESC to close)" style={{ flex: 1, background: "transparent", border: "none", outline: "none", color: "var(--text-main)", fontSize: "1.3rem", fontWeight: 600, width: "100%" }} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} onKeyDown={(e) => { if(e.key === "Enter" && filteredSlides[0]) jumpToSlide(slides.indexOf(filteredSlides[0])); }} />
-            </div>
-            <div style={{ maxHeight: "450px", overflowY: "auto", display: "flex", flexDirection: "column", gap: "0.6rem" }} className="custom-scroll">
-              {filteredSlides.map((s, i) => (
-                <button key={i} onClick={() => jumpToSlide(slides.indexOf(s))} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1.25rem", borderRadius: 16, border: "1px solid rgba(15,23,42,0.04)", background: "rgba(15,23,42,0.02)", textAlign: "left", transition: "all 0.2s" }} className="card-hover">
-                   <div style={{ fontSize: "1.05rem", fontWeight: 750, color: "var(--text-main)" }}>{s.title}</div>
-                   <ChevronRight size={20} color="var(--primary)" />
-                </button>
-              ))}
-              {filteredSlides.length === 0 && <div style={{ padding: "3rem", textAlign: "center", color: TEXT_MUTED, fontSize: "1.1rem" }}>No results found for "{searchQuery}"</div>}
-              {filteredSlides.length === 0 && <div style={{ padding: "3rem", textAlign: "center", color: "var(--text-muted)", fontSize: "1.1rem" }}>No results found for "{searchQuery}"</div>}
-            </div>
+      {/* ── QUICK JUMP SEARCH (LIGHT VERSION) ────────────────── */}
+      <AnimatePresence>
+        {showSearch && (
+          <div style={{ position: "fixed", inset: 0, zIndex: 3000, display: "flex", alignItems: "center", justifyContent: "center", padding: "1.5rem" }}>
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               style={{ position: "absolute", inset: 0, background: "rgba(248,250,252,0.6)", backdropFilter: "blur(12px)" }} 
+               onClick={() => setShowSearch(false)} 
+            />
+            <motion.div 
+               initial={{ opacity: 0, scale: 0.95 }}
+               animate={{ opacity: 1, scale: 1 }}
+               exit={{ opacity: 0, scale: 0.95 }}
+               style={{ position: "relative", width: "100%", maxWidth: "650px", background: SURFACE, border: `1px solid ${BORDER_REFINED}`, borderRadius: 28, padding: "2rem", boxShadow: SHADOW_LG }}
+            >
+              <div style={{ display: "flex", alignItems: "center", gap: "1.25rem", borderBottom: `1px solid var(--slate-100)`, paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+                <Search size={24} color={PRIMARY} />
+                <input autoFocus placeholder="Cari paparan..." style={{ flex: 1, background: "transparent", border: "none", outline: "none", color: TEXT_MAIN, fontSize: "1.4rem", fontWeight: 700, width: "100%" }} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} onKeyDown={(e) => { if(e.key === "Enter" && filteredSlides[0]) jumpToSlide(slides.indexOf(filteredSlides[0])); }} />
+                <button onClick={() => setShowSearch(false)} style={{ color: TEXT_MUTED }}>Esc</button>
+              </div>
+              <div style={{ maxHeight: "400px", overflowY: "auto", display: "flex", flexDirection: "column", gap: "0.75rem" }} className="custom-scroll">
+                {filteredSlides.map((s, i) => (
+                  <button key={i} onClick={() => jumpToSlide(slides.indexOf(s))} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1.25rem", borderRadius: 16, border: "1px solid var(--slate-50)", background: "var(--slate-50)", textAlign: "left", transition: "all 0.2s" }} className="card-hover">
+                     <div style={{ fontSize: "1.05rem", fontWeight: 800, color: TEXT_MAIN }}>{s.title}</div>
+                     <ChevronRight size={18} color={PRIMARY} />
+                  </button>
+                ))}
+                {filteredSlides.length === 0 && <div style={{ padding: "3rem", textAlign: "center", color: TEXT_MUTED, fontSize: "1.1rem", fontWeight: 500 }}>Tidak ada hasil untuk &quot;{searchQuery}&quot;</div>}
+              </div>
+            </motion.div>
           </div>
-        </div>
-      )}
+        )}
+      </AnimatePresence>
 
       <style>{`
         ::-webkit-scrollbar { width: 4px; }
-        ::-webkit-scrollbar-thumb { background: rgba(15,23,42,0.15); border-radius: 10px; }
+        ::-webkit-scrollbar-thumb { background: var(--slate-200); border-radius: 10px; }
         .grid-responsive { display: grid; gap: 1.5rem; }
         @media (max-width: 900px) {
            .grid-responsive { grid-template-columns: 1fr !important; }
            .feature-grid { grid-template-columns: 1fr !important; }
-           .flex-responsive { flex-direction: column !important; }
-        }
-        @media (max-width: 600px) {
-           main { padding-bottom: 9rem; }
-           h1 { font-size: 1.8rem !important; }
-           h2 { font-size: 1.5rem !important; }
         }
       `}</style>
     </main>

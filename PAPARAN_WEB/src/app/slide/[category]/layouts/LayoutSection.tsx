@@ -1,12 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { GOLD, TEXT_MUTED } from "../components/Constants";
-
+import { GOLD, TEXT_MUTED, TEXT_MAIN } from "../components/Constants";
 interface LayoutProps {
   title: string;
   subtitle: string;
   body: string;
-  IconComp: any;
+  IconComp: React.ElementType;
 }
 
 export default function LayoutSection({ title, subtitle, body, IconComp }: LayoutProps) {
@@ -42,7 +41,7 @@ export default function LayoutSection({ title, subtitle, body, IconComp }: Layou
         <div style={{ maxWidth: "600px", margin: "0 auto", height: "2px", background: `linear-gradient(90deg, transparent, ${GOLD}, transparent)`, marginBottom: "2rem" }} />
         
         <p style={{ fontSize: "1.4rem", color: TEXT_MUTED, maxWidth: "700px", margin: "0 auto", lineHeight: 1.6, fontWeight: 500, fontStyle: "italic" }}>
-          "{body}"
+          &quot;{body}&quot;
         </p>
       </motion.div>
     </motion.div>

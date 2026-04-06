@@ -73,7 +73,7 @@ export default function DigitalisasiMenu() {
   const [hovered, setHovered] = useState<string | null>(null);
 
   useEffect(() => {
-    setMounted(true);
+    setTimeout(() => setMounted(true), 0);
   }, []);
 
   return (
@@ -81,39 +81,49 @@ export default function DigitalisasiMenu() {
       
       {/* ── BACKGROUND ───────────────────────────────────── */}
       <div style={{ position:"fixed", inset:0, pointerEvents:"none", zIndex:0 }}>
-        <div style={{ position:"absolute", top:"-25%", left:"-10%", width:"80vw", height:"80vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(26,139,106,0.03) 0%, transparent 65%)" }} />
-        <div style={{ position:"absolute", inset:0, backgroundImage:"radial-gradient(rgba(15, 23, 42, 0.04) 1px, transparent 1px)", backgroundSize:"28px 28px" }} />
+        {/* Subtle Gradient Spot */}
+        <div style={{ position:"absolute", top:"-10%", right:"-5%", width:"50vw", height:"50vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(142,21,64,0.03) 0%, transparent 70%)" }} />
+        {/* Dot grid — Cleaner */}
+        <div style={{ position:"absolute", inset:0, backgroundImage:"radial-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px)", backgroundSize:"32px 32px" }} />
       </div>
 
       {/* ── NAV ──────────────────────────────────────────── */}
-      <nav style={{ position:"sticky", top:0, zIndex:100, padding:"0 5%", height:68, display:"flex", alignItems:"center", justifyContent:"space-between", background:"rgba(248,250,252,0.8)", backdropFilter:"blur(24px)", borderBottom:"1px solid rgba(15,23,42,0.05)" }}>
-        <Link href="/" style={{ display:"flex", alignItems:"center", gap:"0.75rem", textDecoration:"none" }}>
-          <div style={{ width:34, height:34, borderRadius:"50%", background:"rgba(255,255,255,0.8)", display:"flex", alignItems:"center", justifyContent:"center", border:"1px solid rgba(15,23,42,0.08)" }}>
-            <ArrowLeft size={16} color="var(--text-main)" />
-          </div>
-          <span style={{ fontSize:"0.85rem", fontWeight:700, color:"var(--text-muted)" }}>Kembali ke Beranda</span>
+      <nav style={{ position:"sticky", top:0, zIndex:100, padding:"0 6%", height:72, display:"flex", alignItems:"center", justifyContent:"space-between", background:"rgba(255,255,255,0.9)", backdropFilter:"blur(16px)", borderBottom:"1px solid var(--border-refined)", boxShadow:"0 1px 3px rgba(0,0,0,0.02)" }}>
+        <Link href="/" style={{ display:"flex", alignItems:"center", gap:"0.75rem", textDecoration:"none", padding:"0.4rem 1rem", borderRadius:99, background:"var(--slate-50)", border:"1px solid var(--slate-200)", transition:"all 0.3s" }}
+          onMouseEnter={e => { const el = e.currentTarget as HTMLElement; el.style.background="white"; el.style.boxShadow="var(--shadow-sm)"; }}
+          onMouseLeave={e => { const el = e.currentTarget as HTMLElement; el.style.background="var(--slate-50)"; el.style.boxShadow="none"; }}
+        >
+          <ArrowLeft size={16} color="var(--primary)" />
+          <span style={{ fontSize:"0.85rem", fontWeight:700, color:"var(--text-main)" }}>Beranda</span>
         </Link>
-        <div style={{ display:"flex", alignItems:"center", gap:"0.75rem" }}>
-          <Image src="/Logo_Sukabumi.png" alt="Logo" width={24} height={24} />
-          <span style={{ fontWeight:800, fontSize:"0.9rem", color:"var(--text-main)", letterSpacing:"-0.01em" }}>Digitalisasi SPBE</span>
+        <div style={{ display:"flex", alignItems:"center", gap:"1rem" }}>
+          <div style={{ position:"relative", width:36, height:36, display:"flex", alignItems:"center", justifyContent:"center" }}>
+            <div style={{ position:"absolute", inset:0, borderRadius:"8px", background:"var(--slate-50)", border:"1px solid var(--slate-200)" }} />
+            <Image src="/Logo_Sukabumi.png" alt="Logo" width={24} height={24} />
+          </div>
+          <span style={{ fontWeight:800, fontSize:"1rem", color:"var(--text-main)", letterSpacing:"-0.01em" }}>Digitalisasi</span>
         </div>
       </nav>
 
       {/* ── CONTENT ─────────────────────────────────────── */}
-      <section style={{ position:"relative", zIndex:1, padding:"4rem 5% 6rem", maxWidth:1200, margin:"0 auto" }}>
-        <div style={{ textAlign:"center", marginBottom:"4rem" }}>
-          <p style={{ fontSize:"0.7rem", fontWeight:900, letterSpacing:"0.2em", textTransform:"uppercase", color:"#1A8B6A", marginBottom:"0.75rem" }}>
-            ✦ KLUSTER DIGITALISASI ✦
-          </p>
-          <h1 style={{ fontSize:"clamp(2rem,5vw,3rem)", fontWeight:900, color:"var(--text-main)", letterSpacing:"-0.03em", marginBottom:"1rem" }}>
-            Pilih Sub-Materi Paparan
+      <section style={{ position:"relative", zIndex:1, padding:"5rem 6% 6rem", maxWidth:1300, margin:"0 auto" }}>
+        <div style={{ textAlign:"left", marginBottom:"4.5rem", maxWidth:800 }}>
+          <div style={{ display:"inline-flex", alignItems:"center", gap:"0.6rem", padding:"0.5rem 1.2rem", borderRadius:99, background:"var(--slate-50)", border:"1px solid var(--slate-200)", marginBottom:"1.5rem" }}>
+            <div style={{ width:8, height:8, borderRadius:"50%", background:"var(--primary)" }} />
+            <span style={{ fontSize:"0.7rem", fontWeight:850, color:"var(--primary)", letterSpacing:"0.1em", textTransform:"uppercase" }}>
+              Kluster Digitalisasi Unggulan
+            </span>
+          </div>
+          <h1 style={{ fontSize:"clamp(2.5rem,5vw,3.5rem)", fontWeight:900, color:"var(--text-main)", letterSpacing:"-0.04em", lineHeight:1.1, marginBottom:"1.25rem" }}>
+            Transformasi Digital & <br />
+            <span style={{ color:"var(--slate-400)" }}>Layanan Terpadu Kota</span>
           </h1>
-          <p style={{ fontSize: "1rem", color: "var(--text-muted)", maxWidth: 600, margin: "0 auto", lineHeight: 1.7 }}>
-            Silahkan pilih bidang digitalisasi untuk melihat paparan strategi dan pencapaian teknis Kota Sukabumi.
+          <p style={{ fontSize: "1.1rem", color: "var(--text-muted)", lineHeight: 1.7 }}>
+            Akselerasi Sistem Pemerintahan Berbasis Elektronik (SPBE) untuk mewujudkan tata kelola yang transparan, akuntabel, dan efisien bagi seluruh masyarakat.
           </p>
         </div>
 
-        <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(350px, 1fr))", gap:"1.25rem" }}>
+        <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(340px, 1fr))", gap:"1.5rem" }}>
           {SUB_MENU_ITEMS.map((item, index) => {
             const isHov = hovered === item.id;
             return (
@@ -124,38 +134,48 @@ export default function DigitalisasiMenu() {
                   position:"relative", 
                   display:"flex", 
                   flexDirection:"column",
-                  padding:"2rem", 
+                  padding:"2.25rem", 
                   borderRadius:24, 
-                  background: isHov ? "rgba(255,255,255,0.85)" : "rgba(255,255,255,0.5)", 
-                  border: `1px solid ${isHov ? "rgba(26,139,106,0.2)" : "rgba(15,23,42,0.06)"}`, 
-                  transition:"all 0.4s cubic-bezier(0.34,1.2,0.64,1)", 
+                  background: isHov ? "white" : "rgba(255,255,255,0.6)", 
+                  border: `1px solid ${isHov ? "var(--primary)" : "var(--border-refined)"}`, 
+                  transition:"all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1)", 
                   textDecoration:"none",
-                  transform: isHov ? "translateY(-8px)" : "none",
-                  boxShadow: isHov ? `0 30px 60px rgba(0,0,0,0.06), 0 0 0 1px ${item.glow}22` : "none"
+                  animation: mounted ? `slide-up-in 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) ${index * 0.05 + 0.3}s both` : "none",
+                  transform: isHov ? "translateY(-5px)" : "none",
+                  boxShadow: isHov ? "var(--shadow-lg)" : "var(--shadow-sm)"
                 }}
                 onMouseEnter={() => setHovered(item.id)}
                 onMouseLeave={() => setHovered(null)}
               >
-                {/* Glow Accent */}
-                <div style={{ position:"absolute", top:0, right:0, width:100, height:100, background:`radial-gradient(circle at top right, ${item.glow}, transparent 70%)`, opacity: isHov ? 0.6 : 0.2, transition:"opacity 0.3s" }} />
-
-                <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:"1.5rem" }}>
-                  <div style={{ width:54, height:54, borderRadius:16, background:item.gradient, display:"flex", alignItems:"center", justifyContent:"center", boxShadow:`0 8px 24px ${item.glow}44` }}>
-                    <item.Icon size={24} color="white" />
+                <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:"1.75rem" }}>
+                  <div style={{ 
+                    width:58, 
+                    height:58, 
+                    borderRadius:16, 
+                    background:item.gradient, 
+                    display:"flex", 
+                    alignItems:"center", 
+                    justifyContent:"center", 
+                    boxShadow: isHov ? `0 10px 25px ${item.glow}44` : "none",
+                    transition:"transform 0.4s ease"
+                  }}>
+                    <item.Icon size={28} color="white" />
                   </div>
-                  <span style={{ fontSize:"0.65rem", fontWeight:800, padding:"0.3rem 0.7rem", borderRadius:6, background:"rgba(15,23,42,0.03)", border:"1px solid rgba(15,23,42,0.08)", color:"var(--text-subtle)", textTransform:"uppercase", letterSpacing:"0.1em" }}>
+                  <span style={{ fontSize:"0.6rem", fontWeight:900, padding:"0.35rem 0.75rem", borderRadius:8, background:"var(--slate-50)", border:"1px solid var(--slate-200)", color:"var(--text-subtle)", textTransform:"uppercase", letterSpacing:"0.1em" }}>
                     {item.tag}
                   </span>
                 </div>
 
-                <h3 style={{ fontSize:"1.25rem", fontWeight:800, marginBottom:"0.6rem", color:"var(--text-main)" }}>{item.title}</h3>
-                <p style={{ fontSize:"0.9rem", color:"var(--text-muted)", lineHeight:1.6, marginBottom:"2rem", flexGrow:1 }}>
+                <h3 style={{ fontSize:"1.35rem", fontWeight:850, marginBottom:"0.75rem", color:"var(--text-main)", letterSpacing:"-0.02em" }}>{item.title}</h3>
+                <p style={{ fontSize:"0.95rem", color:"var(--text-muted)", lineHeight:1.6, marginBottom:"2.5rem", flexGrow:1 }}>
                   {item.desc}
                 </p>
 
-                <div style={{ display:"flex", alignItems:"center", gap:"0.6rem", color: isHov ? "var(--primary)" : "var(--text-subtle)", transition:"color 0.3s" }}>
-                  <span style={{ fontSize:"0.85rem", fontWeight:700 }}>Buka Paparan</span>
-                  <ArrowRight size={16} />
+                <div style={{ display:"flex", alignItems:"center", gap:"0.6rem", marginTop:"auto" }}>
+                  <span style={{ fontSize:"0.8rem", fontWeight:800, color: isHov ? "var(--primary)" : "var(--text-subtle)", textTransform:"uppercase", letterSpacing:"0.05em", transition:"all 0.3s" }}>
+                    Lihat Progres & Strategis
+                  </span>
+                  <ArrowRight size={16} color={isHov ? "var(--primary)" : "var(--text-subtle)"} style={{ transition:"transform 0.4s", transform: isHov ? "translateX(4px)" : "none" }} />
                 </div>
               </Link>
             );
@@ -164,14 +184,16 @@ export default function DigitalisasiMenu() {
       </section>
 
       {/* ── FOOTER ───────────────────────────────────────── */}
-      <footer style={{ textAlign:"center", padding:"3rem 5%", borderTop:"1px solid rgba(15,23,42,0.05)", opacity:0.4 }}>
-        <p style={{ fontSize:"0.75rem", color:"var(--text-muted)" }}>© 2026 Pemerintah Kota Sukabumi · Strategic Communication Command Center</p>
+      <footer style={{ textAlign:"center", padding:"4rem 6%", borderTop:"1px solid var(--border-refined)", background:"white" }}>
+        <p style={{ fontSize:"0.8rem", color:"var(--text-subtle)", fontWeight:500 }}>
+          © 2026 Pemerintah Kota Sukabumi · Tim Transformasi Digital SPBE
+        </p>
       </footer>
 
       <style jsx global>{`
-        @keyframes orb-drift {
-          0%,100% { transform: translate(0,0); }
-          50% { transform: translate(2%, 2%); }
+        @keyframes slide-up-in {
+          from { opacity:0; transform:translateY(30px); }
+          to   { opacity:1; transform:translateY(0); }
         }
       `}</style>
     </main>

@@ -1,14 +1,22 @@
 import React from "react";
+
 import { Radar, Activity, Eye, ShieldAlert, Cpu, SearchCode, Lock } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";
 import { InlineText } from "../components/Shared";
+
+interface CyberFeature {
+  title: string;
+  desc: string;
+  metric?: string;
+  sub?: string;
+}
 
 interface LayoutProps {
   title: string;
   subtitle: string;
   body: string;
-  features?: {title: string, desc: string, metric?: string, sub?: string}[];
+  features?: CyberFeature[];
 }
 
 export default function LayoutCyberWatch({ title, subtitle, body, features }: LayoutProps) {
@@ -20,7 +28,7 @@ export default function LayoutCyberWatch({ title, subtitle, body, features }: La
     show: { opacity: 1, transition: { staggerChildren: 0.2, delayChildren: 0.1 } }
   };
 
-  const itemFade = {
+  const itemFade: Variants = {
     hidden: { opacity: 0, x: 20 },
     show: { opacity: 1, x: 0, transition: { type: "spring", stiffness: 80, damping: 15 } }
   };
@@ -99,7 +107,7 @@ export default function LayoutCyberWatch({ title, subtitle, body, features }: La
             return (
               <motion.div 
                 key={i} 
-                variants={itemFade as any}
+                variants={itemFade}
                 whileHover={{ x: -10, backgroundColor: "rgba(255,255,255,0.04)" }}
                 style={{ 
                   ...GLASS_DARK, 

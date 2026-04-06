@@ -1,4 +1,6 @@
 import React from "react";
+import { Slide, Metric, Feature } from "../components/SlideTypes";
+
 import { motion } from "framer-motion";
 import { Smartphone, Zap, CheckSquare, BarChart3, Users, Clock, ArrowUpRight } from "lucide-react";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";

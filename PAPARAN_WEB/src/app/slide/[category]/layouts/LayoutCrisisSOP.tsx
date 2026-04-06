@@ -1,6 +1,6 @@
 import React from "react";
 import { ShieldCheck, Search, Zap, Send, LayoutList, UserCheck, ArrowRight, Settings } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";
 import { InlineText } from "../components/Shared";
 
@@ -27,7 +27,7 @@ export default function LayoutCrisisSOP({ title, subtitle, body, features }: Lay
     show: { opacity: 1, transition: { staggerChildren: 0.15 } }
   };
 
-  const itemFade = {
+  const itemFade: Variants = {
     hidden: { opacity: 0, y: 30 },
     show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 80, damping: 15 } }
   };
@@ -71,7 +71,7 @@ export default function LayoutCrisisSOP({ title, subtitle, body, features }: Lay
           return (
             <motion.div 
               key={i} 
-              variants={itemFade as any}
+              variants={itemFade}
               whileHover={{ y: -8, backgroundColor: "rgba(255,255,255,0.03)", borderColor: `${accent}44` }}
               style={{ 
                 ...GLASS_DARK, 
@@ -110,7 +110,7 @@ export default function LayoutCrisisSOP({ title, subtitle, body, features }: Lay
                      <LayoutList size={12} /> ACTION ITEM
                   </div>
                   <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-                    {(item.checklist || []).map((check, ci) => (
+                    {(item.checklist || []).map((check: string, ci: number) => (
                       <div key={ci} style={{ display: "flex", alignItems: "flex-start", gap: "8px" }}>
                          <div style={{ width: 14, height: 14, borderRadius: 4, border: `1px solid ${accent}66`, marginTop: 2, display: "flex", alignItems: "center", justifyContent: "center" }}>
                             <div style={{ width: 6, height: 6, borderRadius: 1, background: accent, opacity: 0.8 }} />

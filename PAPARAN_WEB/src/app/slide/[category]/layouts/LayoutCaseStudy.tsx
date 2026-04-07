@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { Slide, Metric, Feature } from "../components/SlideTypes";
 

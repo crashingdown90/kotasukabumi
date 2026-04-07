@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, PRIMARY_LIGHT, SURFACE, BORDER_REFINED, SHADOW_SM, SHADOW_LG } from "../components/Constants";

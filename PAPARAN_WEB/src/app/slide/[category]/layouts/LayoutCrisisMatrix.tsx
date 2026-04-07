@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import { AlertCircle, ShieldAlert, Zap, User, Users, Globe, MessageSquare, Megaphone } from "lucide-react";

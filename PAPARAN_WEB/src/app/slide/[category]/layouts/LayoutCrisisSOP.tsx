@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { ShieldCheck, Search, Zap, Send, LayoutList, UserCheck, ArrowRight, Settings } from "lucide-react";
 import { motion, Variants } from "framer-motion";

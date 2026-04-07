@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { GraduationCap, Mic2, MessageSquare, Heart, CheckCircle2, ChevronRight, PlayCircle, Star, Target } from "lucide-react";
 import { motion } from "framer-motion";

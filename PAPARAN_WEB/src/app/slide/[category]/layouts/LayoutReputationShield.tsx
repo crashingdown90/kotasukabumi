@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useMemo } from "react";
 import { Slide, Metric, Feature } from "../components/SlideTypes";
 

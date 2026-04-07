@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 import { Monitor, Cpu, Users, CheckCircle2, Server, Globe2, ShieldCheck, BarChart3, Database } from "lucide-react";

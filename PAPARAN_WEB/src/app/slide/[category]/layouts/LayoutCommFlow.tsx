@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { Users, ShieldCheck, Building2, Radio, Zap, ChevronDown, Activity, CheckCircle, MessageSquare } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";

@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { Timer, Search, Zap, Send, CheckCircle2, AlertCircle, Clock } from "lucide-react";
 import { motion, Variants } from "framer-motion";

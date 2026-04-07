@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 import { Users, PenTool, Award, Search, Sparkles, TrendingUp, CheckCircle2 } from "lucide-react";

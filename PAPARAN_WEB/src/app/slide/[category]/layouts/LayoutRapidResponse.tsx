@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { ShieldAlert, Users, RadioTower, Mic, Siren, Hexagon, ArrowRight, Zap } from "lucide-react";
 import { motion, Variants } from "framer-motion";

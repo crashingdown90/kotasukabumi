@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import { Rocket, Trophy, ChevronRight, CheckCircle2, ShieldCheck, Zap } from "lucide-react";

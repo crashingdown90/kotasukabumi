@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import { Users, Globe, Share2, Megaphone, Radio, Tv, Smartphone, Newspaper } from "lucide-react";

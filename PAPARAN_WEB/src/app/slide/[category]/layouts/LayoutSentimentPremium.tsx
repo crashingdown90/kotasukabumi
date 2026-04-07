@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import { Heart, ThumbsDown, BarChart3, Target, PieChart, TrendingUp, Search } from "lucide-react";

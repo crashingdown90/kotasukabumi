@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 import { Camera, MonitorPlay, MessageCircle, Users, Smartphone, Globe, ShieldCheck } from "lucide-react";

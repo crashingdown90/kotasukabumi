@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import { UserCheck, Search, Palette, Share2, MessageSquare, Plus } from "lucide-react";

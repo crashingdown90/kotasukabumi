@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 import { ChevronRight, ArrowRight, ShieldCheck, Radio, Network, Component } from "lucide-react";

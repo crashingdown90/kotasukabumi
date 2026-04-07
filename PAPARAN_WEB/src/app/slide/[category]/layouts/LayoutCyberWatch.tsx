@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 import { Radar, Activity, Eye, ShieldAlert, Cpu, SearchCode, Lock } from "lucide-react";

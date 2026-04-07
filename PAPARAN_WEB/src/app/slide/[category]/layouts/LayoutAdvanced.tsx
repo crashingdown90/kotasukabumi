@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { Star, TrendingUp, AlertTriangle, Target, Zap } from "lucide-react";
 import { motion } from "framer-motion";

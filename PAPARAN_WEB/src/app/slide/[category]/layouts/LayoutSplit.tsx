@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import { PRIMARY, GOLD, TEXT_MUTED, TEXT_MAIN } from "../components/Constants";

@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import { ShieldAlert, HardHat, HeartPulse, GraduationCap, Building2, Trees, LayoutGrid, Zap } from "lucide-react";

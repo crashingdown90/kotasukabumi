@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { Plus, Minus } from "lucide-react";
 import { PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK } from "../components/Constants";

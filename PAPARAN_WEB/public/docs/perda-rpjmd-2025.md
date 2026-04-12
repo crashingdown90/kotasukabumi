@@ -1,9 +1,9 @@
           LEMBARAN DAERAH
-           KOTA SUKABUMI
+           KOTA CIREBON
 
 # TAHUN 2025 NOMOR 5
 
-     PERATURAN DAERAH KOTA SUKABUMI
+     PERATURAN DAERAH KOTA CIREBON
 
 TANGGAL : 20 AGUSTUS 2025
 
@@ -12,7 +12,7 @@ NOMOR    : 5 TAHUN 2025
 TENTANG : RENCANA PEMBANGUNAN       JANGKA   MENENGAH
           DAERAH TAHUN 2025-2029
 
-        Sekretariat Daerah Kota Sukabumi
+        Sekretariat Daerah Kota Cirebon
                      Bagian Hukum
                           2025
 
@@ -20,11 +20,11 @@ TENTANG : RENCANA PEMBANGUNAN       JANGKA   MENENGAH
 
 # SALINAN
 
-# WALI KOTA SUKABUMI
+# WALI KOTA CIREBON
 
 # PROVINSI JAWA BARAT
 
-# PERATURAN DAERAH KOTA SUKABUMI
+# PERATURAN DAERAH KOTA CIREBON
 
 # NOMOR 5 TAHUN 2025
 
@@ -35,7 +35,7 @@ TENTANG : RENCANA PEMBANGUNAN       JANGKA   MENENGAH
 
             DENGAN RAHMAT TUHAN YANG MAHA ESA
 
-# WALI KOTA SUKABUMI,
+# WALI KOTA CIREBON,
 
 **Menimbang** : a.    bahwa pembangunan daerah harus dilaksanakan
                   melalui perencanaan yang berkelanjutan berdasarkan
@@ -102,21 +102,21 @@ TENTANG : RENCANA PEMBANGUNAN       JANGKA   MENENGAH
 
            - **6.** Peraturan Daerah Nomor 1 Tahun 2022 tentang
                 Rencana Tata Ruang Wilayah Tahun 2022-2042
-                (Lembaran Daerah Kota Sukabumi Tahun 2022 Nomor
-                1, Tambahan Lembaran Daerah Kota Sukabumi
+                (Lembaran Daerah Kota Cirebon Tahun 2022 Nomor
+                1, Tambahan Lembaran Daerah Kota Cirebon
                 Nomor 68);
 
-           - **7.** Peraturan Daerah Kota Sukabumi Nomor 5 Tahun 2024
+           - **7.** Peraturan Daerah Kota Cirebon Nomor 5 Tahun 2024
                 tentang Rencana Pembangunan Jangka Panjang
-                Daerah Kota Sukabumi Tahun 2025-2045 (Lembaran
-                Daerah Kota Sukabumi Tahun 2024 Nomor 5,
-                Tambahan    Lembaran     Daerah  Kota   Sukabumi
+                Daerah Kota Cirebon Tahun 2025-2045 (Lembaran
+                Daerah Kota Cirebon Tahun 2024 Nomor 5,
+                Tambahan    Lembaran     Daerah  Kota   Cirebon
                 Nomor 75);
 
                      Dengan Persetujuan Bersama
-           DEWAN PERWAKILAN RAKYAT DAERAH KOTA SUKABUMI
+           DEWAN PERWAKILAN RAKYAT DAERAH KOTA CIREBON
                                 dan
-# WALI KOTA SUKABUMI
+# WALI KOTA CIREBON
 
 **Memutuskan** : 
 
@@ -131,9 +131,9 @@ TENTANG : RENCANA PEMBANGUNAN       JANGKA   MENENGAH
            Dalam peraturan Daerah ini yang dimaksud dengan:
 
            - **1.** Daerah Kota yang selanjutnya disebut Daerah adalah
-                Daerah Kota Sukabumi.
+                Daerah Kota Cirebon.
 
-           - **2.** Wali Kota adalah Wali Kota Sukabumi.
+           - **2.** Wali Kota adalah Wali Kota Cirebon.
 
            - **3.** Pemerintah Daerah adalah Wali Kota sebagai unsur
                 penyelenggara pemerintahan daerah yang memimpin
@@ -319,35 +319,35 @@ diundangkan.
 
               Agar  setiap  orang mengetahuinya,    memerintahkan
               pengundangan    Peraturan Wali   Kota    ini dengan
-              penempatannya dalam Lembaran Daerah Kota Sukabumi.
+              penempatannya dalam Lembaran Daerah Kota Cirebon.
 
-                                          Ditetapkan di Sukabumi
+                                          Ditetapkan di Cirebon
                                           pada tanggal 20 Agustus 2025
 
-# WALI KOTA SUKABUMI,
+# WALI KOTA CIREBON,
 
                                                      cap.ttd.
 
 # AYEP ZAKI
 
-Diundangkan di Sukabumi
+Diundangkan di Cirebon
 pada tanggal 20 Agustus 2025
 
 SEKRETARIS DAERAH
-  KOTA SUKABUMI,
+  KOTA CIREBON,
 
        cap.ttd.
 
 ANDANG TJAHJANDI
 
-LEMBARAN DAERAH KOTA SUKABUMI TAHUN 2025 NOMOR 5
+LEMBARAN DAERAH KOTA CIREBON TAHUN 2025 NOMOR 5
 
-NOREG PERATURAN DAERAH KOTA SUKABUMI PROVINSI JAWA BARAT:
+NOREG PERATURAN DAERAH KOTA CIREBON PROVINSI JAWA BARAT:
 (5/140/2025)
 
 Salinan sesuai dengan aslinya
  KEPALA BAGIAN HUKUM
- SETDA KOTA SUKABUMI,
+ SETDA KOTA CIREBON,
 
     YUDI PEBRIANSYAH
 NIP. 19830207 200604 1 010
@@ -358,7 +358,7 @@ NIP. 19830207 200604 1 010
 
 # ATAS
 
-# PERATURAN DAERAH KOTA SUKABUMI
+# PERATURAN DAERAH KOTA CIREBON
 
 # NOMOR 5 TAHUN 2025
 
@@ -415,11 +415,11 @@ II.   PASAL DEMI PASAL
 #### Pasal 5
         Cukup jelas.
 
- TAMBAHAN LEMBARAN DAERAH KOTA SUKABUMI NOMOR 79
+ TAMBAHAN LEMBARAN DAERAH KOTA CIREBON NOMOR 79
 
 ---
 
-LAMPIRAN : PERATURAN DAERAH KOTA SUKABUMI
+LAMPIRAN : PERATURAN DAERAH KOTA CIREBON
             NOMOR     : 5 TAHUN 2025
             TENTANG : RENCANA PEMBANGUNAN JANGKA MENENGAH
 # DAERAH TAHUN 2025-2029
@@ -543,11 +543,11 @@ antara lain:
    Pembangunan Jangka Menengah Nasional Tahun 2025-2029 (Lembaran
    Negara Republik Indonesia Tahun 2025 Nomor 19);
 - **6.** Peraturan Daerah Nomor 1 Tahun 2022 tentang Rencana Tata Ruang
-   Wilayah Tahun 2022-2042 (Lembaran Daerah Kota Sukabumi Tahun
+   Wilayah Tahun 2022-2042 (Lembaran Daerah Kota Cirebon Tahun
    2022 Nomor 1);
 - **7.** Peraturan Daerah Nomor 5 Tahun 2024 tentang Rencana Pembangunan
-   Jangka Panjang Daerah Kota Sukabumi Tahun 2025-2045 (Lembaran
-   Daerah Kota Sukabumi Tahun 2024 Nomor 5).
+   Jangka Panjang Daerah Kota Cirebon Tahun 2025-2045 (Lembaran
+   Daerah Kota Cirebon Tahun 2024 Nomor 5).
 
 ### 1.3 HUBUNGAN ANTAR DOKUMEN PERENCANAAN
     Rencana Pembangunan Daerah merupakan satu kesatuan dalam sistem
@@ -663,18 +663,18 @@ terletak pada posisi 106 ˚45’50” Bujur Timur dan 106˚45’10” Bujur Timu
 ketinggiannya 584 meter di atas permukaan laut, dan berjarak 120 Km dari
 Jakarta serta 96 Km dari Ibukota Provinsi Jawa Barat (Kota Bandung).
 Adapun batas wilayahnya adalah sebagai berikut:
-- **1.** Sebelah utara berbatasan dengan Kecamatan Sukabumi, Kabupaten
-   Sukabumi;
+- **1.** Sebelah utara berbatasan dengan Kecamatan Cirebon, Kabupaten
+   Cirebon;
 - **2.** Sebelah selatan berbatasan dengan Kecamatan Nyalindung, Kabupaten
-   Sukabumi;
+   Cirebon;
 - **3.** Sebelah barat berbatasan dengan Kecamatan Cisaat, Kabupaten
-   Sukabumi;
+   Cirebon;
 - **4.** Sebelah timur berbatasan dengan Kecamatan Sukaraja, Kabupaten
-   Sukabumi.
+   Cirebon.
                                 Gambar 2.1
-                      Peta Administrasi Kota Sukabumi
+                      Peta Administrasi Kota Cirebon
 
-                       Sumber: Bappeda Kota Sukabumi, 2025
+                       Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
@@ -726,7 +726,7 @@ sebelumnya.
 
                                     Gambar 2.2
                         Produksi Padi dan Luas Panen Sawah
-                        di Kota Sukabumi Tahun 2020-2024
+                        di Kota Cirebon Tahun 2020-2024
 
                                      • Produksi       • Luas
 
@@ -735,7 +735,7 @@ sebelumnya.
                                                                1.221
 
         2020              2021               2022              2023    2024
-  Sumber: BPS kota Sukabumi, 2025 (diolah)
+  Sumber: BPS kota Cirebon, 2025 (diolah)
 
     Meskipun mengalami kenaikan produksi, ancaman penurunan luas
 lahan sawah di Daerah cukup besar sebagai akibat dari pembangunan kota
@@ -776,7 +776,7 @@ terlampaui berada pada bagian barat, tengah, serta timur. Secara
 keseluruhan status daya dukung air di Daerah sebagian besar masih belum
 terlampaui (3.037,44 Ha).
                                  Tabel 2.1
-     Status Daya Dukung dan Daya Tampung Air Kota Sukabumi Tahun 2022
+     Status Daya Dukung dan Daya Tampung Air Kota Cirebon Tahun 2022
 # STATUS DAYA DUKUNG DAN
      KECAMATAN                     TAMPUNG AIR (Ha)            TOTAL (Ha)
 # BELUM TERLMPAUI       SUDAH TERLAMPAUI
@@ -787,13 +787,13 @@ terlampaui (3.037,44 Ha).
  Warudoyong                 449,76                  306,62        756
  Gunung Puyuh               426,31                   87,30        513
  Cikole                     542,34                   78,46        621
- Kota Sukabumi            3.037,44                1.795,49       4.831
-Sumber: RPPLH Kota Sukabumi Tahun 2022-2052
+ Kota Cirebon            3.037,44                1.795,49       4.831
+Sumber: RPPLH Kota Cirebon Tahun 2022-2052
 
 ---
 
                                    Tabel 2.2
-     Status Daya Dukung dan Daya Tampung Pangan Kota Sukabumi Tahun 2022
+     Status Daya Dukung dan Daya Tampung Pangan Kota Cirebon Tahun 2022
 # STATUS DAYA DUKUNG DAN
                                      TAMPUNG PANGAN (Ha)
          KECAMATAN                                                 TOTAL (Ha)
@@ -806,8 +806,8 @@ Sumber: RPPLH Kota Sukabumi Tahun 2022-2052
  Warudoyong                        205,13            551,79           756
  Gunung Puyuh                      76,18             435,93           513
  Cikole                            44,67             573,19           621
- Kota Sukabumi                    1.475,72          3.357,22         4.831
-Sumber: RPPLH Kota Sukabumi Tahun 2022-2052
+ Kota Cirebon                    1.475,72          3.357,22         4.831
+Sumber: RPPLH Kota Cirebon Tahun 2022-2052
 
        Status daya dukung lingkungan hidup pangan dianalisis berdasarkan
 hasil perhitungan selisih antara ambang batas dengan jumlah penduduk di
@@ -848,7 +848,7 @@ layak.
 
                                    Gambar 2.3
                 Persentase RT yang Memiliki Akses Air Minum Layak
-                    di Kota Sukabumi Tahun 2021-2024 (Persen)
+                    di Kota Cirebon Tahun 2021-2024 (Persen)
 
 ### 97.82                98,74          99.46
 
@@ -892,7 +892,7 @@ perlu terus dilakukan terutama pada aspek pemanfaatan yang angkanya
 masih di bawah angka indeks ketahanan pangan.
 
                                 Gambar 2.4
-       Indeks Ketahanan Pangan Kota Sukabumi Tahun 2021-2024 (Poin)
+       Indeks Ketahanan Pangan Kota Cirebon Tahun 2021-2024 (Poin)
 
                             - _:::..;;-=
                                                     82,19      82,97
@@ -923,7 +923,7 @@ mengukur tingkat kerawanan pangan dan gizi.
 
                                      Gambar 2.5
                      Prevalensi Ketidacukupan Konsumsi Pangan
-                      Kota Sukabumi Tahun 2020-2023 (Persen)
+                      Kota Cirebon Tahun 2020-2023 (Persen)
                                                            8,46
 
            3,65
@@ -1058,7 +1058,7 @@ jumlah curah hujan 530 mm. Sementara jumlah hari hujan terbanyak adalah
 25 hari yang terjadi di bulan maret dan desember.
 
                                               Gambar 2.8
-                                         Iklim Kota Sukabumi
+                                         Iklim Kota Cirebon
                            IKLIM                  SeJarah· 2024 2023 2022 2021 2020 2019 2018 2017 2016
 
                                                                     36%
@@ -1089,7 +1089,7 @@ pengaturan iklim per kecamatan dapat dilihat pada tabel di bawah ini.
 ---
 
                                   Tabel 2.3
-       Luas Jasa Lingkungan Pengaturan Iklim Kota Sukabumi Tahun 2022
+       Luas Jasa Lingkungan Pengaturan Iklim Kota Cirebon Tahun 2022
      KECAMATAN               JASA LINGKUNGAN PENGATURAN IKLIM (Ha)                          TOTAL (Ha)
 # RENDAH            SEDANG                  TINGGI
  Baros                      508,32           42,51                      7,39                   558
@@ -1099,8 +1099,8 @@ pengaturan iklim per kecamatan dapat dilihat pada tabel di bawah ini.
  Warudoyong                 670,76           68,97                      16,65                  756
  Gunung Puyuh               419,90           87,13                      6,57                   513
  Cikole                     537,80           78,73                      4,28                   621
- Kota Sukabumi            4.155,16          605,62                      72,14                 4.831
-Sumber: RPPLH Kota Sukabumi Tahun 2022-2052
+ Kota Cirebon            4.155,16          605,62                      72,14                 4.831
+Sumber: RPPLH Kota Cirebon Tahun 2022-2052
 
      Wilayah Daerah berisiko terhadap berbagai ancaman bencana. Nilai
 indeks risiko bencana Daerah tahun 2020-2024 menunjukkan tren
@@ -1111,7 +1111,7 @@ menurun, yaitu dari angka 114,40 di tahun 2020 menjadi 77,56 di tahun
                                                131,62        123,16                                   114,15
           Indeks Risiko
                   145,81 Bencana Kota
-                                 134,94 Sukabumi Tahun 2020-2024 (Poin)
+                                 134,94 Cirebon Tahun 2020-2024 (Poin)
 
                      114,4            102,67                                      84,55                 77,56
                                                             92,91
@@ -1173,7 +1173,7 @@ tersebut    dimungkinkan        karena      adanya   pandemi      Covid-19      
 penduduk yang merantau kembali ke Daerah dengan berbagai pertimbangan.
 
                                 Gambar 2.10
-            Jumlah Penduduk Kota Sukabumi Tahun 2017-2024 (Jiwa)
+            Jumlah Penduduk Kota Cirebon Tahun 2017-2024 (Jiwa)
 
 ### 370.000                                                                           6,00%
                                                                        360.644
@@ -1191,7 +1191,7 @@ penduduk yang merantau kembali ke Daerah dengan berbagai pertimbangan.
 
 ### 300.000                                                                           0,00%
                2017      2018      2019       2020   2021      2022     2023
- Sumber: BPS Kota Sukabumi, 2025 (diolah)
+ Sumber: BPS Kota Cirebon, 2025 (diolah)
 
      Laju pertumbuhan penduduk Daerah tahun 2020-2024 sebesar 1,46
 - **persen.** Kecamatan       Cibeureum,        Kecamatan      Baros,    dan   Kecamatan
@@ -1201,7 +1201,7 @@ kondisi geografis, dimana tiga kecamatan tersebut masih memiliki banyak
 area yang bisa dikembangkan sebagai wilayah pemukiman.
                                      Tabel 2.4
               Jumlah (Jiwa) dan Laju Pertumbuhan Penduduk (Persen)
-                 Per Kecamatan Kota Sukabumi Tahun 2020-2024
+                 Per Kecamatan Kota Cirebon Tahun 2020-2024
      KECAMATAN                      JUMLAH PENDUDUK (RIBU)                     LPP TAHUN
                         2020         2021     2022     2023        2024        2020-2024
  Baros                 37,734       38,576   39,548    40,38       41,32          2,45
@@ -1211,8 +1211,8 @@ area yang bisa dikembangkan sebagai wilayah pemukiman.
  Warudoyong            58,972       59,511   60,236    60,72       61,34          1,06
  Gunung Puyuh          48,292       48,685   49,230    49,58       50,03          0,95
  Cikole                61,885       62,294   62,897    63,24       63,73          0,79
- Kota Sukabumi        346,325      350,804   356,410  360,64      365,74          1,46
-Sumber: BPS Kota Sukabumi, 2025 (diolah)
+ Kota Cirebon        346,325      350,804   356,410  360,64      365,74          1,46
+Sumber: BPS Kota Cirebon, 2025 (diolah)
 
 ---
 
@@ -1236,7 +1236,7 @@ Jumlah penduduk bekerja tahun 2024 tercatat sebanyak 159.828 jiwa, yang
 mana 47,10 persen di antaranya bekerja sebagai buruh/ karyawan/pegawai.
 
                                       Gambar 2.11
-                   Komposisi Penduduk Kota Sukabumi Tahun 2024 (Jiwa)
+                   Komposisi Penduduk Kota Cirebon Tahun 2024 (Jiwa)
                                                • Laki-laki    Perempuan
 
                   .."' .... .... "'"........"'"' ~;
@@ -1255,7 +1255,7 @@ mana 47,10 persen di antaranya bekerja sebagai buruh/ karyawan/pegawai.
                                                               ":::
 
  0-4    5-9   10-14 15-19 20-24 25-29 30-34 35-39 40-44 45-49 50-54       55-59 60-64 65-69 70-74   75•
- Sumber: BPS Kota Sukabumi, 2024 (diolah)
+ Sumber: BPS Kota Cirebon, 2024 (diolah)
 
 ---
 
@@ -1270,7 +1270,7 @@ pemenuhan layanan dasar perkotaan, meningkatnya kemacetan, degradasi
 lingkungan, dan lainnya.
 
                                    Gambar 2.12
-               Jumlah Penduduk Kota Sukabumi Tahun 2025-2030 (Jiwa)
+               Jumlah Penduduk Kota Cirebon Tahun 2025-2030 (Jiwa)
 
       t
 
@@ -1279,13 +1279,13 @@ lingkungan, dan lainnya.
 
 ### 197.483                    197.138
 
-       Sumber: RPJPD Kota Sukabumi Tahun 2025-2045 (diolah)
+       Sumber: RPJPD Kota Cirebon Tahun 2025-2045 (diolah)
 
-     Pada tahun 2025-2030, jumlah penduduk Kota Sukabumi diperkirakan
+     Pada tahun 2025-2030, jumlah penduduk Kota Cirebon diperkirakan
 akan bertambah sebesar 23.940 jiwa atau sekitar 6,46 persen. Pertambahan
 penduduk tersebut akan menyebabkan kepadatan penduduk bertambah
 menjadi 8.165 jiwa/km² di tahun 2030 dari sebelumnya 7.670 jiwa/km² di
-tahun 2025. Komposisi penduduk Kota Sukabumi tahun 2030 akan
+tahun 2025. Komposisi penduduk Kota Cirebon tahun 2030 akan
 didominasi penduduk usia produktif (15-64 tahun) yaitu sekitar 254.691 jiwa
 (64,54 persen). Penduduk usia lanjut (65+ tahun) akan bertambah sekitar
 
@@ -1324,7 +1324,7 @@ otoritas dalam menjaga stabilitas dan percepatan pemulihan ekonomi
 menjadi faktor utama terjaganya keberlanjutan pemulihan ekonomi.
 
                                     Gambar 2.13
-                     LPE Kota Sukabumi Tahun 2020-2024 (Persen)
+                     LPE Kota Cirebon Tahun 2020-2024 (Persen)
                   ~Target~Realisasi
 
      -:
@@ -1335,7 +1335,7 @@ menjadi faktor utama terjaganya keberlanjutan pemulihan ekonomi.
 
    1,48
 
-Sumber: Bappeda dan BPS Kota Sukabumi, 2025 (diolah)
+Sumber: Bappeda dan BPS Kota Cirebon, 2025 (diolah)
 
           Di tahun 2024, perekonomian di Daerah tetap tumbuh positif dengan
 laju pertumbuhan ekonomi sebesar 5,11 persen. Meskipun sedikit melambat
@@ -1374,7 +1374,7 @@ dalam menurunkan tingkat kemiskinan cukup baik terutama di tahun 2024
 karena realisasinya melebihi target yang ditetapkan.
 
                                    Gambar 2.14
-            Tingkat Kemiskinan Kota Sukabumi Tahun 2020-2024 (Persen)
+            Tingkat Kemiskinan Kota Cirebon Tahun 2020-2024 (Persen)
 
  7,90
 
@@ -1386,16 +1386,16 @@ karena realisasinya melebihi target yang ditetapkan.
                                                    7,40
                                                      0
 
-Sumber: Bappeda dan BPS Kota Sukabumi, 2025 (diolah)
+Sumber: Bappeda dan BPS Kota Cirebon, 2025 (diolah)
 
 ---
 
-          Capaian penurunan kemiskinan di Kota Sukabumi tahun 2024 lebih
+          Capaian penurunan kemiskinan di Kota Cirebon tahun 2024 lebih
 baik jika dibandingkan tahun 2023. Adapun penurunan kemiskinan yang
 dicapai tersebut tidak lepas dengan geliat ekonomi yang terjadi pasca Covid-
-- **19.** Penurunan kemiskinan di Kota Sukabumi tahun 2024 masih lebih baik
+- **19.** Penurunan kemiskinan di Kota Cirebon tahun 2024 masih lebih baik
 jika dibandingkan angka kemiskinan Provinsi Jawa Barat dan Nasional.
-          Kemiskinan di Kota Sukabumi perlu untuk terus dikurangi dengan
+          Kemiskinan di Kota Cirebon perlu untuk terus dikurangi dengan
 meningkatkan akses masyarakat miskin ke pendidikan, kesehatan, dan
 layanan air bersih serta sanitasi. Pemberdayaan masyarakat yang bertujuan
 untuk mengembangkan potensi dan memperkuat kapasitas kelompok
@@ -1403,7 +1403,7 @@ masyarakat miskin untuk terlibat dalam pembangunan juga perlu untuk
 - **ditingkatkan.** Selain itu, perlunya peningkatan pemberdayaan usaha
 ekonomi mikro dan kecil untuk memberikan akses dan penguatan ekonomi
 pelaku usaha berskala mikro dan kecil. Jika hal-hal itu dilaksanakan secara
-tepat sasaran, penanggulangan kemiskinan di Kota Sukabumi tentunya
+tepat sasaran, penanggulangan kemiskinan di Kota Cirebon tentunya
 dapat mencapai hasil yang optimal.
 
 A. Pengurangan Ketimpangan Pendapatan
@@ -1411,13 +1411,13 @@ A. Pengurangan Ketimpangan Pendapatan
           Indeks Gini atau Gini Ratio adalah ukuran ketidakmerataan atau
 ketimpangan agregat (secara keseluruhan) yang angkanya berkisar antara
 nol (pemerataan sempurna) hingga satu (ketimpangan yang sempurna).
-Indeks Gini Kota Sukabumi dalam 5 tahun terakhir cenderung fluktuatif.
+Indeks Gini Kota Cirebon dalam 5 tahun terakhir cenderung fluktuatif.
 Namun pada tahun 2020 merupakan pencapaian yang terbaik mengingat
-target yang ditetapkan yaitu sebesar 0,412 tetapi Kota Sukabumi berhasil
+target yang ditetapkan yaitu sebesar 0,412 tetapi Kota Cirebon berhasil
 mencapai poin 0,397.
 
                                          Gambar 2.15
-                      Indeks Gini Kota Sukabumi Tahun 2020-2024 (Poin)
+                      Indeks Gini Kota Cirebon Tahun 2020-2024 (Poin)
 
                                0,482                                                              0,482
 
@@ -1442,21 +1442,21 @@ mencapai poin 0,397.
 
                 -e-Target (poin) -e-Realisasi (pain)                        -e-Kota 5ukabumi   -e-Provinsi Jabar   -e-Nasional
 
- Sumber: Bappeda dan BPS Kota Sukabumi, 2025 (diolah)
+ Sumber: Bappeda dan BPS Kota Cirebon, 2025 (diolah)
 
 ---
 
-        Meskipun LPE Kota Sukabumi tahun 2024 mencapai 5,11 persen,
+        Meskipun LPE Kota Cirebon tahun 2024 mencapai 5,11 persen,
 namun Indeks Gini berkurang secara signifikan. Hal ini menunjukkan
 pertumbuhan ekonomi tidak serta merta membawa pemerataan pendapatan
-- **masyarakat.** Indeks Gini Kota Sukabumi tahun 2024 masih dalam
+- **masyarakat.** Indeks Gini Kota Cirebon tahun 2024 masih dalam
 ketimpangan moderat (0,30 – 0,50), hal ini harus menjadi perhatian.
 Ketimpangan yang tinggi menyimpan potensi terjadinya gesekan dan gejolak
 di masyarakat karena ketimpangan sosial dan ekonomi yang makin jauh.
-        Indeks Gini Kota Sukabumi dibandingkan dengan Provinsi dan Nasional
-tahun 2024 menunjukkan bahwa ketimpangan di Kota Sukabumi masih di
+        Indeks Gini Kota Cirebon dibandingkan dengan Provinsi dan Nasional
+tahun 2024 menunjukkan bahwa ketimpangan di Kota Cirebon masih di
 atas Provinsi Jawa Barat dan Nasional. Hal ini menunjukkan bahwa di Kota
-Sukabumi masih menghadapi permasalahan seperti konsentrasi kekayaan
+Cirebon masih menghadapi permasalahan seperti konsentrasi kekayaan
 yang      hanya        dimiliki         oleh   sebagian           kecil       masyarakat,   kesenjangan
 produktivitas tenaga kerja, akses ekonomi bagi masyarakat miskin masih
 terbatas, dan masyarakat masih mengalami kesenjangan dalam menghadapi
@@ -1474,7 +1474,7 @@ pembangunan manusia. Sementara status pencapaian IPM merefleksikan
 tingkatan pencapaian pembangunan manusia dalam satu periode.
 
                                           Gambar 2.16
-                            IPM Kota Sukabumi Tahun 2020-2024 (Poin)
+                            IPM Kota Cirebon Tahun 2020-2024 (Poin)
                                                   77,69                                             77,69
 
                                                           75,06
@@ -1490,18 +1490,18 @@ tingkatan pencapaian pembangunan manusia dalam satu periode.
 
                     -Target-Realisasi
 
-Sumber: Bappeda dan BPS Kota Sukabumi, 2025 (diolah)
+Sumber: Bappeda dan BPS Kota Cirebon, 2025 (diolah)
 
 ---
 
-     IPM Kota Sukabumi di tahun 2024 masuk dalam kategori tinggi (interval
+     IPM Kota Cirebon di tahun 2024 masuk dalam kategori tinggi (interval
 70-79 poin). Naik cukup signifikan sekitar 0,53 poin dari 77,16 di tahun 2023
 menjadi 77,69 di tahun 2024. Kenaikan IPM terjadi pada semua komponen
 yaitu usia harapan hidup, harapan lama sekolah, rata-rata lama sekolah,
 dan pengeluaran per kapita disesuaikan.
 
                                     Tabel 2.5
-                   Komponen IPM Kota Sukabumi Tahun 2020-2024
+                   Komponen IPM Kota Cirebon Tahun 2020-2024
        INDIKATOR          SATUAN   2020        2021     2022     2023     2024
 
  Usia Harapan Hidup       Tahun    74,23       74,38    74,64    74,89    75,11
@@ -1515,20 +1515,20 @@ dan pengeluaran per kapita disesuaikan.
 
            IPM            Indeks   75,06       75,44    76,24    77,16    77,69
 
-Sumber: BPS Kota Sukabumi, 2025
+Sumber: BPS Kota Cirebon, 2025
 
-     Jika dilihat perkembangan dari tahun 2020-2024, IPM Kota Sukabumi
+     Jika dilihat perkembangan dari tahun 2020-2024, IPM Kota Cirebon
 masih lebih baik jika dibandingkan IPM Provinsi Jawa Barat dan Nasional.
-Di antara kota/kabupaten di Provinsi Jawa Barat, IPM Kota Sukabumi tahun
+Di antara kota/kabupaten di Provinsi Jawa Barat, IPM Kota Cirebon tahun
 2024 berada di peringkat 7. Namun jika dilihat hanya kategori kota, dari 9
-kota di Provinsi Jawa Barat, peringkat IPM Kota Sukabumi hanya lebih baik
-dari IPM Kota Tasikmalaya dan Kota Banjar. IPM Kota Sukabumi masih bisa
+kota di Provinsi Jawa Barat, peringkat IPM Kota Cirebon hanya lebih baik
+dari IPM Kota Tasikmalaya dan Kota Banjar. IPM Kota Cirebon masih bisa
 lebih baik lagi asalkan 4 komponen pembentuk IPM diintervensi dengan tepat
 dan dilaksanakan oleh lintas urusan.
 
 C.   Pengurangan Pengangguran
 
-     Tingkat Pengangguran Terbuka (TPT) Kota Sukabumi tahun 2024
+     Tingkat Pengangguran Terbuka (TPT) Kota Cirebon tahun 2024
 mengalami penurunan sebesar 0,19 persen dari 8,53 persen (14.619 jiwa) di
 tahun 2023 menjadi 8,34 persen (14.547 jiwa) di tahun 2024. Angka tersebut
 juga melebihi target yang ditetapkan yaitu sebesar 1,06 persen. Menurunnya
@@ -1541,7 +1541,7 @@ sendiri (status pekerjaan utama) yang mencapai 28,02 persen di tahun 2024.
 ---
 
                                            Gambar 2.17
-                            TPT Kota Sukabumi Tahun 2020-2024 (Persen)
+                            TPT Kota Cirebon Tahun 2020-2024 (Persen)
                                                                              12,17
   12,17
 
@@ -1557,12 +1557,12 @@ sendiri (status pekerjaan utama) yang mencapai 28,02 persen di tahun 2024.
                                                                                                                  2022
                                                                                2020
    2020
-                                                                                        _....Kota Sukabumi ....,._Provinsi Jabar   -e-Nasional
+                                                                                        _....Kota Cirebon ....,._Provinsi Jabar   -e-Nasional
                       ...-Target(%)...-Realisasi(%)
 
-Sumber: Bappeda dan BPS Kota Sukabumi, 2025 (diolah)
+Sumber: Bappeda dan BPS Kota Cirebon, 2025 (diolah)
 
-          TPT Kota Sukabumi mengalami penurunan di tahun 2024, namun
+          TPT Kota Cirebon mengalami penurunan di tahun 2024, namun
 masih        berada           di             atas   angka       TPT             Provinsi          dan           Nasional.                Hal        ini
 mengindikasikan masih ada permasalahan seperti jumlah lapangan kerja
 tidak sebanding dengan jumlah angkatan kerja dan belum terintegrasinya
@@ -1581,7 +1581,7 @@ tetap bermakna dalam kehidupan masyarakat.
 Desember 2023 sebanyak 52.402 dari 99.038 jiwa angkatan kerja. Capaian
 ini lebih besar 3.94 persen daripada tahun 2022. Sehingga, persentase
 coverage kepesertaannya sama dengan 52,91 persen di tahun 2023.
-Pemerintah Daerah Kota Sukabumi bersama BPJS Ketenagakerjaan terus
+Pemerintah Daerah Kota Cirebon bersama BPJS Ketenagakerjaan terus
 melakukan sosialisasi, edukasi, dan program pengembangan jaminan sosial
 - **ketenagakerjaan.** Hal ini dilakukan untuk mendorong peran aktif berbagai
 pihak        dalam              mendukung                    pelaksanaan                     program                    jaminan                  sosial
@@ -1603,7 +1603,7 @@ keluarga sehat menurut Kemenkes, maka diharapkan banyak dari keluarga
 yang ada di Indonesia memiliki standar kesehatan yang optimal.
 
                                   Gambar 2.18                 0.367
-          Indeks Keluarga Sehat Kota~ Sukabumi Tahun 2020-2024 (Poin)
+          Indeks Keluarga Sehat Kota~ Cirebon Tahun 2020-2024 (Poin)
                                                           ---.:--::,...._...                   0,350
 
 ### 0.291        I               0,341
@@ -1617,9 +1617,9 @@ yang ada di Indonesia memiliki standar kesehatan yang optimal.
 
                                                                                          2024
 
-           Sumber: Dinkes Kota Sukabumi, 2025 (diolah)
+           Sumber: Dinkes Kota Cirebon, 2025 (diolah)
 
-       Secara umum status kesehatan keluarga di Kota Sukabumi cenderung
+       Secara umum status kesehatan keluarga di Kota Cirebon cenderung
 mengalami perbaikan. Hal ini juga tercermin dengan jumlah keluarga tidak
 sehat dan pra sehat yang berkurang. Selain itu, meningkatnya pelayanan
 puskesmas juga menjadi salah satu faktor yang mendukung peningkatan
@@ -1635,10 +1635,10 @@ B.   Peningkatan Usia Harapan Hidup
 
      Usia Harapan Hidup (UHH) didefinisikan sebagai rata-rata perkiraan
 banyak tahun yang dapat ditempuh oleh seseorang sejak lahir. UHH
-mencerminkan derajat kesehatan suatu masyarakat. UHH di Kota Sukabumi
+mencerminkan derajat kesehatan suatu masyarakat. UHH di Kota Cirebon
 dalam kurun waktu 5 tahun terakhir menunjukkan tren yang meningkat dan
 mencapai angka 75,11 di tahun 2024.
-     Semakin membaiknya derajat kesehatan masyarakat Kota Sukabumi
+     Semakin membaiknya derajat kesehatan masyarakat Kota Cirebon
 yang ditunjukkan dengan UHH merupakan salah satu indikator yang
 menentukan IPM. Hal ini juga menunjukkan bahwa telah terjadi perbaikan
 kualitas kesehatan penduduk utamanya pada kalangan bayi, balita, wanita
@@ -1650,7 +1650,7 @@ berusia subur, dan lansia.
 ### 2.19        74,65                                            74,9J                7S,J6
 
                  UHH Kota
-                       74.23Sukabumi Tahun
+                       74.23Cirebon Tahun
                                          I
                                        74,37
 # 2020-2024  I
@@ -1678,11 +1678,11 @@ berusia subur, dan lansia.
                                                                                             -..._"'••lon•I
                                                                                                                   ,,,,,,
 
-        Sumber: BPS Kota Sukabumi, 2025 (diolah)
+        Sumber: BPS Kota Cirebon, 2025 (diolah)
 
-     Meskipun capaian UHH Kota Sukabumi cenderung meningkat setiap
+     Meskipun capaian UHH Kota Cirebon cenderung meningkat setiap
 tahun, namun masih di bawah UHH Provinsi Jawa Barat. Karena itu, upaya
-untuk lebih meningkatkan UHH Kota Sukabumi perlu terus dilakukan.
+untuk lebih meningkatkan UHH Kota Cirebon perlu terus dilakukan.
 Upaya tersebut seperti dengan meningkatkan kemudahan mengakses sarana
 prasarana kesehatan, peningkatan kualitas asupan gizi, serta berkurangnya
 angka warga yang sakit.
@@ -1700,7 +1700,7 @@ serius dalam pemenuhan gizi pada anak-anak. Stunting pada dasarnya
 terjadi diakibatkan berbagai macam faktor tidak hanya persoalan gizi semata.
 Faktor lainnya disebabkan oleh usia dini pernikahan, lingkungan yang tidak
 sehat hingga pola asuh terhadap anak.
-    Stunting di Kota Sukabumi yang cenderung meningkat memerlukan
+    Stunting di Kota Cirebon yang cenderung meningkat memerlukan
 kesadaran kolektif, saling kolaborasi dari semua pihak, penyusunan strategi
 yang tepat komprehensif, dan bergerak dengan cepat turun ke wilayah
 - **berisiko.** Beberapa hal yang menjadi tantangan penanganan stunting seperti
@@ -1711,7 +1711,7 @@ buruk, serta pola makan yang belum dapat dikategorikan sebagai makanan
 sehat dan bergizi berimbang.
 
                                  Gambar 2.20
-         Prevalensi Stunting Kota Sukabumi Tahun 2019-2023 (Persen)
+         Prevalensi Stunting Kota Cirebon Tahun 2019-2023 (Persen)
                                                            26,9
 
                                  19,16
@@ -1727,7 +1727,7 @@ cakupan intervensi berbasis bukti perlu terus dilakukan. Salah satunya
 dengan memastikan warga mendapatkan asupan gizi terbaik dan dalam
 pendataan terdeteksi tidak ada masalah. Selain itu, upaya kolaborasi dengan
 intervensi kasus secara tepat akan mempercepat penurunan stunting di Kota
-Sukabumi.
+Cirebon.
 
 ---
 
@@ -1742,13 +1742,13 @@ pola konsumsi pangan yang beraneka ragam, bergizi, seimbang, aman dan
 halal (B2SAH) dalam jumlah dan komposisi yang cukup. Semakin mendekati
 skor ideal (maksimum 100), semakin baik kualitas pola konsumsi pangan
 masyarakat.
-     Skor PPH Kota Sukabumi dalam kurun waktu 5 tahun terakhir
+     Skor PPH Kota Cirebon dalam kurun waktu 5 tahun terakhir
 menunjukkan tren yang meningkat. Pada tahun 2024, Skor PPH-nya
 mencapai 91,91 poin yang artinya bahwa kualitas pola konsumsi pangan
 masyarakat berada pada kategori sangat baik (ideal).
 
                                  Gambar 2.21
-        Skor Pola Pangan Harapan Kota Sukabumi Tahun 2020-2024 (Poin)
+        Skor Pola Pangan Harapan Kota Cirebon Tahun 2020-2024 (Poin)
 
                                                                            91,91
 
@@ -1769,12 +1769,12 @@ masyarakat berada pada kategori sangat baik (ideal).
                                                2022
 
                                                        Realisasi
-     Sumber: Bappeda dan BPS Kota Sukabumi, 2025 (diolah)
+     Sumber: Bappeda dan BPS Kota Cirebon, 2025 (diolah)
                                                                    80,30
 
                                                                    2023    2024
 
-     Upaya untuk menjaga dan meningkatkan Skor PPH Kota Sukabumi
+     Upaya untuk menjaga dan meningkatkan Skor PPH Kota Cirebon
 perlu dilakukan secara berkelanjutan dengan menyusun analisis PPH
 Konsumsi, pelatihan pengolahan pangan lokal, distribusi bibit/benih
 tanaman hortikultura yang mendukung peningkatan penganekaragaman
@@ -1785,7 +1785,7 @@ peningkatan ketahanan pangan daerah.
 
      Sosialisasi gerakan konsumsi pangan B2SAH, pembinaan/fasilitasi
 dalam rangka pemanfaatan pekarangan untuk peningkatan ketahanan
-pangan, subsidi harga pada acara Gelar Pangan Murah Kota Sukabumi,
+pangan, subsidi harga pada acara Gelar Pangan Murah Kota Cirebon,
 subsidi harga dan dipasarkan melalui PMT (Pasar Mitra Tani),                                              rapat
 koordinasi distribusi pangan, vaksinasi pada Hewan Penular Rabies (HPR)
 dan AI untuk mencegah penularan zoonosis, dan fasilitasi pelaku olahan
@@ -1797,17 +1797,17 @@ A.   Perluasan Akses Pendidikan
      Indeks Pendidikan adalah salah satu komponen yang menyusun IPM. Indeks
 Pendidikan terdiri dari komponen Rata-Rata Lama Sekolah (RLS) dan Harapan
 Lama Sekolah (HLS). Jika dibandingkan dengan Indeks Kesehatan dan Indeks
-Pengeluaran, Indeks Pendidikan Kota Sukabumi termasuk terendah. Di mana kedua
+Pengeluaran, Indeks Pendidikan Kota Cirebon termasuk terendah. Di mana kedua
 indeks lainnya berada di atas angka 80.00 poin.
-     Jika dilihat trennya, Indeks Pendidikan Kota Sukabumi setiap tahunnya
+     Jika dilihat trennya, Indeks Pendidikan Kota Cirebon setiap tahunnya
 mengalami     peningkatan.        Kenaikan                ini      berkorelasi             dengan       variabel
-pembentuknya yaitu RLS dan HLS. RLS Kota Sukabumi pada tahun 2024
-adalah 10,38. Artinya rata-rata masyarakat Kota Sukabumi pendidikan
+pembentuknya yaitu RLS dan HLS. RLS Kota Cirebon pada tahun 2024
+adalah 10,38. Artinya rata-rata masyarakat Kota Cirebon pendidikan
 terakhirnya adalah setara dengan tamatan Sekolah Menengah Pertama (SMP)
 atau sederajat.
 
                                  Gambar 2.22
-          Indeks Pendidikan Kota Sukabumi Tahun 2020-2024 (Tahun)
+          Indeks Pendidikan Kota Cirebon Tahun 2020-2024 (Tahun)
                                                                                      •
                                                                                    72.34
                                                                                                  ..
@@ -1828,14 +1828,14 @@ atau sederajat.
 
 ---
 
-     Sementara itu, HLS Kota Sukabumi pada tahun 2024 mencapai 13,62
+     Sementara itu, HLS Kota Cirebon pada tahun 2024 mencapai 13,62
 tahun, meningkat 0,02 poin dari angka HLS tahun 2023. Angka HLS sebesar
 13,62 tahun menunjukkan bahwa harapan lama sekolah anak di Kota
-Sukabumi sudah masuk pada jenjang pendidikan tinggi. Kondisi demikian
+Cirebon sudah masuk pada jenjang pendidikan tinggi. Kondisi demikian
 menunjukkan bahwa kinerja urusan pendidikan sudah makin membaik.
 
                                     Gambar 2.23
-                 RLS dan HLS Kota Sukabumi Tahun 2020-2024 (Tahun)
+                 RLS dan HLS Kota Cirebon Tahun 2020-2024 (Tahun)
 
                                                                                                        10,38
 
@@ -1847,9 +1847,9 @@ menunjukkan bahwa kinerja urusan pendidikan sudah makin membaik.
 
           HLS~Kot11Suk11buml            ~ProvinllJ11b11r
 
-Sumber: BPS Kota Sukabumi, 2025 (diolah)
+Sumber: BPS Kota Cirebon, 2025 (diolah)
 
-     Untuk lebih meningkatkan Indeks Pendidikan di Kota Sukabumi
+     Untuk lebih meningkatkan Indeks Pendidikan di Kota Cirebon
 tentunya harus ditingkatkan juga RLS dan HLS. Peningkatan akses dan
 mutu pendidikan menjadi kunci yang sangat penting untuk meningkatkan
 angka Indeks Pendidikan. Karena itu, upaya yang perlu dilakukan antara lain
@@ -1857,7 +1857,7 @@ pemenuhan Standar Pelayanan Minimal (SPM) pendidikan dasar formal
 maupun nonformal/kesetaraan, bantuan bagi siswa yang kurang mampu,
 dan pemberdayaan satuan pendidikan nonformal berbasis kemasyarakatan.
 Jika hal tersebut dilakukan dengan tepat maka Indeks Pendidikan Kota
-Sukabumi akan tetap berada di atas Indeks Pendidikan Provinsi Jawa Barat.
+Cirebon akan tetap berada di atas Indeks Pendidikan Provinsi Jawa Barat.
 
 B.   Peningkatan Mutu Pendidikan
 
@@ -1872,13 +1872,13 @@ sebagai masyarakat.
 
 ---
 
-     Dari Rapor Pendidikan Kota Sukabumi, rata-rata kemampuan literasi
+     Dari Rapor Pendidikan Kota Cirebon, rata-rata kemampuan literasi
 siswa berdasarkan hasil asesmen Nasional menunjukkan peningkatan dan
 masuk dalam kategori BAIK. Itu artinya sebagian besar peserta didik telah
 mencapai batas kompetensi minimum untuk literasi membaca.
                                         Tabel 2.6
                         Rata-rata Kemampuan Literasi/Numerasi Siswa
-                           Kota Sukabumi Tahun 2021-2023 (Poin)
+                           Kota Cirebon Tahun 2021-2023 (Poin)
   URAIAN       TAHUN 2021               TAHUN 2022            TAHUN 2023                 TAHUN 2024
 
              Literasi    Numerasi     Literasi   Numerasi   Literasi    Numerasi     Literasi     Numerasi
@@ -1888,20 +1888,20 @@ mencapai batas kompetensi minimum untuk literasi membaca.
  Sekolah     59.24     53.20    68.64     55.98             69.92        57.83        77,59        66,66
  Menengah
  Pertama
-Sumber: Rapor Pendidikan Kota Sukabumi, 2024
+Sumber: Rapor Pendidikan Kota Cirebon, 2024
 
      Numerasi merupakan kemampuan yang dimiliki oleh seseorang dalam
 menggunakan              pengetahuan             matematika            yang        dimilikinya      dalam
 menjelaskan kejadian, memecahkan masalah, atau mengambil keputusan
-dalam kehidupan sehari-hari. Dari Rapor Pendidikan Kota Sukabumi seperti
-pada tabel di atas, rata-rata kemampuan numerasi siswa Kota Sukabumi
+dalam kehidupan sehari-hari. Dari Rapor Pendidikan Kota Cirebon seperti
+pada tabel di atas, rata-rata kemampuan numerasi siswa Kota Cirebon
 berdasarkan hasil asesmen Nasional menunjukkan tren meningkat dan
 masuk dalam kategori SEDANG. Itu artinya 40-70 persen peserta didik telah
 mencapai batas kompetensi minimum untuk numerasi.
 
                                       Gambar 2.24
                           Indeks Pembangunan Literasi Masyarakat
-                           Kota Sukabumi Tahun 2020-2024 (Poin)
+                           Kota Cirebon Tahun 2020-2024 (Poin)
 
                                                     96,85
                                                                                            87,81
@@ -1912,17 +1912,17 @@ mencapai batas kompetensi minimum untuk numerasi.
 
             2020               2021                 2022                2023               2024
 
-                                    ~Kota Sukabumi           ProvinsiJabar
+                                    ~Kota Cirebon           ProvinsiJabar
 
            Sumber: Perpusnas, 2025 (diolah)
 
 ---
 
      Seiring     meningkatnya       literasi/numerasi             peserta   didik,    Indeks
-Pembangunan Literasi Masyarakat (IPLM) Kota Sukabumi juga menunjukkan
+Pembangunan Literasi Masyarakat (IPLM) Kota Cirebon juga menunjukkan
 hasil yang makin membaik meskipun di tahun 2023 mengalami penurunan
 dibandingkan tahun 2022. Permasalahan pembangunan literasi di Kota
-Sukabumi yang perlu terus menjadi perhatian yaitu terkait dengan
+Cirebon yang perlu terus menjadi perhatian yaitu terkait dengan
 peningkatan budaya literasi masyarakat di tengah gempuran media sosial,
 sarana perpustakaan yang belum ideal, dan terbatasnya pustakawan.
 
@@ -1934,12 +1934,12 @@ etika dan moral. Idealnya semakin etika dan moral masyarakat membaik
 kerukunan umat beragama juga turut membaik. Dengan demikian,
 kerukunan umat beragama dapat menjadi modal dasar dalam pembangunan.
 Kerukunan Umat Beragama (KUB) yang diukur dengan Indeks KUB telah
-menjadi salah satu indikator capaian pembangunan di Kota Sukabumi dalam
+menjadi salah satu indikator capaian pembangunan di Kota Cirebon dalam
 beberapa tahun terakhir.
 
                                   Gambar 2.25
                         Indeks Kerukunan Umat Beragama
-                      Kota Sukabumi Tahun 2020-2024 (Poin)
+                      Kota Cirebon Tahun 2020-2024 (Poin)
 
                                                                80,09
                                                                               78,16
@@ -1953,9 +1953,9 @@ beberapa tahun terakhir.
 
                                   ~Tr.-c•t      ~Re.-lis.-si
 
-          Sumber: Bappeda Kota Sukabumi, 2025 (diolah)
+          Sumber: Bappeda Kota Cirebon, 2025 (diolah)
 
-     Capaian Indeks Kerukunan Umat Beragama di Kota Sukabumi
+     Capaian Indeks Kerukunan Umat Beragama di Kota Cirebon
 cenderung mengalami peningkatan meskipun tidak signifikan. Namun
 demikian, masih terdapat beberapa hal yang perlu ditingkatkan seperti
 partisipasi masyarakat dalam menjaga keamanan dan ketenteraman serta
@@ -1965,15 +1965,15 @@ mengoptimalkan Forum Kerukunan Umat Beragama.
 
 B.   Pengembangan Kebudayaan
 
-     Pengembangan kebudayaan di Kota Sukabumi yang ditunjukkan
+     Pengembangan kebudayaan di Kota Cirebon yang ditunjukkan
 dengan    indikator   terlestarikannya    cagar   budaya   masih   memerlukan
 peningkatan untuk ke depannya. Meskipun capaiannya menunjukkan
 peningkatan dari tahun 2021 yang sebesar 73,33 persen menjadi 100 persen
 di tahun 2024. Hal ini penting sebagai salah satu bentuk kepedulian
-terhadap warisan budaya yang mewarnai perkembangan Kota Sukabumi
+terhadap warisan budaya yang mewarnai perkembangan Kota Cirebon
 hingga seperti sekarang ini. Selain itu, pelestarian ini juga untuk menunjang
 perkembangan wisata budaya.
-     Saat ini, terdapat 21 objek diduga cagar budaya di Kota Sukabumi yang
+     Saat ini, terdapat 21 objek diduga cagar budaya di Kota Cirebon yang
 sedang dikaji, dan tiga di antaranya (Balai Kota, Rumah Pengasingan Bung
 Hatta, dan Gereja Sidang Kristus) dalam proses penetapan. Proses ini
 menunjukkan adanya keseriusan dalam meningkatkan nilai warisan budaya,
@@ -1984,7 +1984,7 @@ peningkatan pendidikan dan regenerasi, peningkatan pelestarian dan
 digitalisasi, peningkatan ekspresi dan event budaya, serta pengembangan
 ekonomi kreatif dan teknologi. Dengan dukungan lintas sektor (pemerintah,
 komunitas, sekolah, pelaku budaya, dan swasta), budaya lokal tidak hanya
-lestari tapi juga menjadi pilar ekonomi dan jati diri Kota Sukabumi
+lestari tapi juga menjadi pilar ekonomi dan jati diri Kota Cirebon
 
 ### 2.1.2.6   KELUARGA       BERKUALITAS,        KESETARAAN        GENDER,     DAN
           MASYARAKAT INKLUSIF
@@ -2000,12 +2000,12 @@ tepat untuk menghitung capaian pembangunan perlindungan anak.
 ---
 
      Berdasarkan data dari Kementerian Pemberdayaan Perempuan dan
-Anak, IPA di Kota Sukabumi tahun 2022 yaitu 65,70. Angka ini termasuk
+Anak, IPA di Kota Cirebon tahun 2022 yaitu 65,70. Angka ini termasuk
 terendah jika dibandingkan kota-kota lain di Provinsi Jawa Barat. Jika
 ditelusuri per kluster, dari 5 kluster yang ada terdapat 2 kluster nilainya yang
 masih rendah yaitu kluster hak sipil dan kebebasan (48,00) dan kluster
 pendidikan, pemanfaatan waktu luang dan kegiatan budaya (41,13).
-     Untuk meningkatkan upaya perlindungan anak di Kota Sukabumi
+     Untuk meningkatkan upaya perlindungan anak di Kota Cirebon
 diperlukan        pelaksanaan          strategi       yang             dibarengi    pelaksanaan
 program/kegiatan yang lebih disesuaikan dengan karakteristik wilayah (level
 kecamatan). Kebutuhan akan pemenuhan dan perlindungan anak antara
@@ -2023,7 +2023,7 @@ menjadi tangguh, berkembang, dan rentan.
 
                                   Gambar 2.26
                       Indeks Pembangunan Keluarga (iBangga)
-                      Kota Sukabumi Tahun 2021-2024 (Poin)
+                      Kota Cirebon Tahun 2021-2024 (Poin)
                                                                                    61,23
 
                                                                                    58,70
@@ -2036,9 +2036,9 @@ menjadi tangguh, berkembang, dan rentan.
 
 ---
 
-          iBangga Kota Sukabumi tahun 2024 sebesar 58,70, menurun jika
+          iBangga Kota Cirebon tahun 2024 sebesar 58,70, menurun jika
 dibandingkan tahun sebelumnya yang mencapai 58,95. Dengan angka
-tersebut, Kota Sukabumi masuk dalam kategori “berkembang”. Perlu
+tersebut, Kota Cirebon masuk dalam kategori “berkembang”. Perlu
 dilakukan upaya intervensi terhadap tiga dimensi pembentuknya agar
 capaiannya dapat meningkat menjadi “tangguh”.
 
@@ -2051,7 +2051,7 @@ Semakin kecil jarak angka IPG dengan nilai 100, maka semakin setara
 pembangunan antara perempuan dengan laki-laki.
 
                                         Gambar 2.27
-                      IKG dan IPG Kota Sukabumi Tahun 2020-2024 (Poin)
+                      IKG dan IPG Kota Cirebon Tahun 2020-2024 (Poin)
 
  0,4119       04<J)          Q.4'IO
                                                                                         .....   9),24
@@ -2062,17 +2062,17 @@ pembangunan antara perempuan dengan laki-laki.
               "" .............."" .......... , ""
              IKG
 
-Sumber: Bappeda dan BPS Kota Sukabumi, 2025 (diolah)
+Sumber: Bappeda dan BPS Kota Cirebon, 2025 (diolah)
                                                     "" ""     ""
                                                              IPG   Kot,S\I~
                                                                               ""
                                                                                  ----   ""      ""
 
-          Tren IPG di Kota Sukabumi menunjukkan peningkatan setiap tahunnya.
-IPG Kota Sukabumi tahun 2024 sebesar 92,24 poin. Ini berarti bahwa
-pembangunan antara perempuan dengan laki-laki di Kota Sukabumi
+          Tren IPG di Kota Cirebon menunjukkan peningkatan setiap tahunnya.
+IPG Kota Cirebon tahun 2024 sebesar 92,24 poin. Ini berarti bahwa
+pembangunan antara perempuan dengan laki-laki di Kota Cirebon
 semakin mendekati setara (setara jika nilai IPG 100). Perkembangan IPG Kota
-Sukabumi dari tahun ke tahun juga masih lebih baik dari capaian IPG
+Cirebon dari tahun ke tahun juga masih lebih baik dari capaian IPG
 Provinsi Jawa Barat dan Nasional.
           Indeks Ketimpangan Gender (IKG) menunjukkan adanya potensi
 capaian pembangunan manusia yang hilang akibat adanya kesenjangan
@@ -2081,11 +2081,11 @@ tenaga kerja.
 
 ---
 
-        IKG Kota Sukabumi tahun 2023 menunjukkan hasil yang baik yaitu
+        IKG Kota Cirebon tahun 2023 menunjukkan hasil yang baik yaitu
 0,221 yang artinya masuk dalam kategori rendah. Namun pada tahun 2024,
-IKG Kota Sukabumi menunjukkan kenaikan yang cukup signifikan.
+IKG Kota Cirebon menunjukkan kenaikan yang cukup signifikan.
         Mencermati kondisi di atas, upaya yang perlu dilakukan dalam rangka
-pengarusutamaan gender di Kota Sukabumi supaya lebih baik salah satunya
+pengarusutamaan gender di Kota Cirebon supaya lebih baik salah satunya
 yaitu dengan mengoptimalkan peran posyandu atau kader posyandu
 menyusuri rumah warga, Homecare atau perawat yang di tempatkan di 33
 kelurahan untuk mendatangi rumah warga yang alami gangguan kesehatan,
@@ -2102,7 +2102,7 @@ periode penting pertumbuhan dan perkembangan yang berusia 16 (enam
 belas) sampai 30 (tiga puluh) tahun.
 
                                        Gambar 2.28
-            Tingkat Partisipasi Pemuda Kota SukabumiTahun 2019-2023 (Persen)
+            Tingkat Partisipasi Pemuda Kota CirebonTahun 2019-2023 (Persen)
 
                                                                                        ...
                                                                                        25.40
@@ -2114,15 +2114,15 @@ belas) sampai 30 (tiga puluh) tahun.
 
      2019                  2020                 2021                  2022             2023
 
-              Sumber: Bappeda Kota Sukabumi, 2024 (diolah)
+              Sumber: Bappeda Kota Cirebon, 2024 (diolah)
 
 ---
 
-    Tingkat partisipasi pemuda Kota Sukabumi dalam pembangunan
+    Tingkat partisipasi pemuda Kota Cirebon dalam pembangunan
 menunjukkan angka di atas 20 persen dalam kurun waktu 5 tahun terakhir.
 Tingkat partisipasi tersebut mencakup dalam kegiatan ekonomi mandiri
 serta organisasi kepemudaan dan organisasi sosial kemasyarakatan.
-Mengingat jumlah pemuda di Kota Sukabumi saat ini jumlahnya paling besar
+Mengingat jumlah pemuda di Kota Cirebon saat ini jumlahnya paling besar
 maka upaya optimalisasi peran pemuda dalam pembangunan perlu menjadi
 - **perhatian.** Upaya tersebut meliputi peningkatan partisipasi pemuda dan
 peningkatan kepemimpinan pemuda dalam pembangunan.
@@ -2140,7 +2140,7 @@ tingginya beban yang ditanggung penduduk produktif untuk membiayai
 hidup penduduk yang belum produktif dan tidak produktif lagi.
 
                                    Tabel 2.7
-             Rasio Ketergantungan Kota Sukabumi Tahun 2020-2024
+             Rasio Ketergantungan Kota Cirebon Tahun 2020-2024
    JUMLAH PENDUDUK           TAHUN           TAHUN     TAHUN     TAHUN     TAHUN
                               2020            2021      2022      2023      2024
           0-14               86.687          86.882    87.056    87.402    87.721
@@ -2150,15 +2150,15 @@ hidup penduduk yang belum produktif dan tidak produktif lagi.
           >65                20.942          22.609    24.198    24.951    26.374
 
  Rasio Ketergantungan (%)    45,37            45,37     45,38     45,25     45,34
- Sumber: BPS Kota Sukabumi, 2025 (diolah)
+ Sumber: BPS Kota Cirebon, 2025 (diolah)
 
-    Rasio Ketergantungan Kota Sukabumi pada tahun 2024 sebesar 45,34
+    Rasio Ketergantungan Kota Cirebon pada tahun 2024 sebesar 45,34
 persen, di mana setiap 100 orang yang berusia produktif menanggung
 sebanyak 45 orang yang belum produktif dan tidak produktif lagi. Hal itu
-menandakan bahwa Kota Sukabumi sedang memasuki periode terbaik bonus
+menandakan bahwa Kota Cirebon sedang memasuki periode terbaik bonus
 - **demografi.** Melimpahnya penduduk usia produktif tentu harus dimanfaatkan
 bagi peningkatan kesejahteraan masyarakat. Ini merupakan peluang bagi
-Kota Sukabumi untuk bagaimana meningkatkan kualitas dan produktivitas
+Kota Cirebon untuk bagaimana meningkatkan kualitas dan produktivitas
 SDM menjadi lebih unggul dan berdaya saing.
 
 ---
@@ -2168,16 +2168,16 @@ B.   Peningkatan Angkatan Kerja
      Tingkat Partisipasi Angkatan Kerja (TPAK) merupakan ukuran proporsi
 penduduk usia kerja suatu daerah yang bergerak aktif di pasar tenaga kerja
 dan menjadi faktor penting dalam menggerakkan pembangunan. TPAK di
-Kota Sukabumi cenderung meningkat seiring pemulihan ekonomi pasca
+Kota Cirebon cenderung meningkat seiring pemulihan ekonomi pasca
 Covid-19. TPAK ini berkorelasi dengan TPT, di mana ketika TPAK mengalami
 peningkatan TPT cenderung menurun.
      Jika dicermati lebih dalam, gap antara TPAK laki-laki dengan
-perempuan di Kota Sukabumi cukup lebar. Tren TPAK laki-laki dalam kurun
+perempuan di Kota Cirebon cukup lebar. Tren TPAK laki-laki dalam kurun
 5 tahun terakhir selalu di atas 70 persen, sementara TPAK perempuan hanya
 di bawah 45 persen. Hal ini mengindikasikan bahwa keterlibatan perempuan
 dalam aktivitas perekonomian masih kurang.
                                      Gambar 2.29
-                 TPAK dan TPT Kota Sukabumi Tahun 2020-2024 (Persen)
+                 TPAK dan TPT Kota Cirebon Tahun 2020-2024 (Persen)
 
 # I           I            I
                                                           62,57        62,58
@@ -2190,13 +2190,13 @@ dalam aktivitas perekonomian masih kurang.
          2020               2021            2022          2023         2024
 
 # -TPAK          TPT
-     Sumber: BPS Kota Sukabumi, 2025 (diolah)
+     Sumber: BPS Kota Cirebon, 2025 (diolah)
 
-     Sementara itu, jumlah penduduk Kota Sukabumi yang bekerja pada
+     Sementara itu, jumlah penduduk Kota Cirebon yang bekerja pada
 lapangan usaha utama cenderung mengalami peningkatan. Dari tiga
-lapangan usaha utama, penduduk Kota Sukabumi banyak bekerja di sektor
+lapangan usaha utama, penduduk Kota Cirebon banyak bekerja di sektor
 jasa yaitu mencapai 70,76 persen pada tahun 2024. Hal ini menegaskan
-bahwa lapangan usaha dominan yang ada di Kota Sukabumi berada pada
+bahwa lapangan usaha dominan yang ada di Kota Cirebon berada pada
 sektor perdagangan dan jasa.
 
 ---
@@ -2207,14 +2207,14 @@ C.   Produktivitas Per Kapita
 suatu wilayah juga menggambarkan produktivitas masyarakatnya. Semakin
 tinggi produktivitas masyarakat yang ditunjukkan dengan PDRB Per Kapita
 mencerminkan juga daya saing wilayah tersebut dengan wilayah lainnya.
-     PDRB Per Kapita Kota Sukabumi ADHB menunjukkan tren meningkat
+     PDRB Per Kapita Kota Cirebon ADHB menunjukkan tren meningkat
 sejak tahun 2020. Angka tersebut menurun jika dibandingkan tahun
 sebelumnya karena adanya Covid-19 yang melanda yang menyebabkan LPE
-Kota Sukabumi terkontraksi hingga -1,48 persen. Seiring membaiknya
+Kota Cirebon terkontraksi hingga -1,48 persen. Seiring membaiknya
 kondisi ekonomi, PDRB Per Kapita juga semakin meningkat.
 
                                     Gambar 2.30
-                      PDRB Per Kapita ADHB Kota Sukabumi
+                      PDRB Per Kapita ADHB Kota Cirebon
                        42,23Tahun 2020-2024
 
 ### 45.23 (Juta Rupiah)
@@ -2229,7 +2229,7 @@ kondisi ekonomi, PDRB Per Kapita juga semakin meningkat.
                                                             2023
                                                                            2024
 
-        Sumber: BPS Kota Sukabumi, 2025 (diolah)
+        Sumber: BPS Kota Cirebon, 2025 (diolah)
 
      Untuk meningkatkan secara signifikan PDRB Per Kapita, upaya-upaya
 yang dapat dilakukan seperti: meningkatkan nilai output produksi barang
@@ -2246,7 +2246,7 @@ D.   Pengeluaran Per Kapita
 konsumsi semua anggota rumah tangga selama sebulan baik yang berasal
 dari pembelian, pemberian maupun produksi sendiri dibagi dengan
 banyaknya        anggota   rumah       tangga              dalam       rumah    tangga      tersebut.
-Pengeluaran per kapita masyarakat Kota Sukabumi mengalami penurunan
+Pengeluaran per kapita masyarakat Kota Cirebon mengalami penurunan
 di masa pandemi Covid-19. Seiring dengan membaiknya perekonomian,
 pengeluaran per kapita masyarakat mengalami kenaikan di tahun 2021 dan
 sedikit menurun kembali di tahun 2022. Namun angka tersebut meningkat
@@ -2255,7 +2255,7 @@ menunjukkan bahwa kesejahteraan masyarakat mengalami peningkatan
 dibandingkan tahun sebelumnya.
      Konsumsi masyarakat secara garis besar dapat dibedakan menjadi dua
 macam, yaitu pengeluaran konsumsi untuk kelompok makanan dan non
-- **makanan.** Pada tahun 2023, masyarakat Kota Sukabumi mengalokasikan
+- **makanan.** Pada tahun 2023, masyarakat Kota Cirebon mengalokasikan
 anggarannya sebanyak 38,86 persen untuk konsumsi makanan dan
 sebanyak 61,14 persen untuk pengeluaran konsumsi non makanan. Namun
 pada tahun 2024, menunjukkan hal yang berbeda dimana konsumsi untuk
@@ -2263,7 +2263,7 @@ nonmakanan menurun signifikan tetapi konsumsi makan meningkat.
 
                                    Gambar 2.31
                       Rata-Rata Pengeluaran Per Kapita Sebulan
-                  di Kota Sukabumi Tahun 2020-2024 (Juta Rupiah)
+                  di Kota Cirebon Tahun 2020-2024 (Juta Rupiah)
                                                                         2,273
 
                                               !=~
@@ -2280,13 +2280,13 @@ nonmakanan menurun signifikan tetapi konsumsi makan meningkat.
 
          2020              2021               2022                      2023        2024
 
-                                   Kota Sukabumi     --.    Provlnsi Jab1r
-         Sumber: BPS Kota Sukabumi, 2025 (diolah)
+                                   Kota Cirebon     --.    Provlnsi Jab1r
+         Sumber: BPS Kota Cirebon, 2025 (diolah)
 
 ---
 
        Adapun lima jenis komoditas makanan yang paling banyak dikonsumsi
-oleh masyarakat Kota Sukabumi adalah makanan dan minuman jadi, rokok,
+oleh masyarakat Kota Cirebon adalah makanan dan minuman jadi, rokok,
 padi-padian, daging, dan telur dan susu. Sementara kelompok non makanan
 yang paling banyak dikonsumsi adalah subkelompok perumahan dan
 fasilitas rumah tangga serta subkelompok aneka barang dan jasa.
@@ -2304,16 +2304,16 @@ yang tidak saja semakin efisien, namun mengedepankan inovasi dengan
 mendayagunakan Iptekin.
 
                                        Tabel 2.8
-                Indeks Inovasi Daerah Kota Sukabumi Tahun 2020-2024
+                Indeks Inovasi Daerah Kota Cirebon Tahun 2020-2024
           URAIAN            TAHUN         TAHUN         TAHUN         TAHUN         TAHUN
                              2020          2021          2022          2023          2024
             Target           550        Terinovatif   Terinovatif   Terinovatif   Terinovatif
       (persen/predikat)                  (≥ 1001)      (≥ 1001)      (≥ 1001)      (≥ 1001)
            Capaian           4675         Sangat       Inovatif       Sangat        Sangat
       (persen/predikat)                  Inovatif                    Inovatif      Inovatif
-     Sumber: Bapppeda Kota Sukabumi, 2025
+     Sumber: Bapppeda Kota Cirebon, 2025
 
-         Dalam hal inovasi, Kota Sukabumi masuk dalam kategori sangat
+         Dalam hal inovasi, Kota Cirebon masuk dalam kategori sangat
 - **inovatif.** Pertumbuhan aspek ekosistem inovasi didukung oleh pertumbuhan
 pilar dinamika bisnis serta pertumbuhan pilar kapasitas inovasi. Meskipun
 kondisi pilar kesiapan teknologi tidak bertumbuh, namun pertumbuhan pilar
@@ -2328,20 +2328,20 @@ pengembangan.
      B.   Peningkatan PDRB
 
           Berdasarkan perhitungan Produk Domestik Regional Bruto (PDRB) Atas
-     Dasar Harga Berlaku (ADHB), PDRB Kota Sukabumi pada tahun 2020
+     Dasar Harga Berlaku (ADHB), PDRB Kota Cirebon pada tahun 2020
      sebesar Rp12,401 triliun, meningkat sebesar 32 persen menjadi Rp16,370
      triliun di tahun 2024. Adapun distribusi PDRB tertinggi tahun 2024 yaitu
      dari lapangan usaha perdagangan besar dan eceran (36,83 persen),
      transportasi dan pergudangan (11,78 persen), serta jasa keuangan dan
      asuransi (11,67 persen),.
-          Dalam konteks Provinsi Jawa Barat, kontribusi PDRB Kota Sukabumi
+          Dalam konteks Provinsi Jawa Barat, kontribusi PDRB Kota Cirebon
      terhadap PDRB Provinsi Jawa Barat dalam kurun waktu 5 tahun terakhir
      berada pada kisaran 0,58 persen. Kontribusi tersebut masih lebih baik jika
      dibandingkan Kabupaten Pangandaran (0,54 persen) dan Kota Banjar (0,2
      persen).
 
                                         Tabel 2.9
-                   PDRB ADHB Kota Sukabumi Tahun 2020-2024 (Miliar Rupiah)
+                   PDRB ADHB Kota Cirebon Tahun 2020-2024 (Miliar Rupiah)
 # LAPANGAN USAHA                2020        2021        2022        2023        2024
 
      Pertanian, Kehutanan, dan Perikanan           274,97      277,05      286,97      307,55       591,88
@@ -2364,12 +2364,12 @@ pengembangan.
 - **j.** Jasa Lainnya                                  403,13      405,09      472,64      531,37       583,60
      TOTAL PDRB                                  12.401,54   13.053,04   14.192,25   15.349,71   16.370,38
 
-      Sumber: BPS Kota Sukabumi, 2025
+      Sumber: BPS Kota Cirebon, 2025
 
 ---
 
                                         Tabel 2.10
-                   PDRB ADHK Kota Sukabumi Tahun 2020-2024 (Miliar Rupiah)
+                   PDRB ADHK Kota Cirebon Tahun 2020-2024 (Miliar Rupiah)
 # LAPANGAN USAHA                2020           2021           2022           2023           2024
 
      Pertanian, Kehutanan, dan Perikanan          274,97         277,07         286,97         307,55           329,00
@@ -2392,7 +2392,7 @@ pengembangan.
 - **t.** Jasa Lainnya                                 295,94         300,15         335,16         360,99           394,66
      TOTAL PDRB                                  8.534,72       8.851,05       9.324,16       9.801,88       10.303,16
 
-      Sumber: BPS Kota Sukabumi, 2025
+      Sumber: BPS Kota Cirebon, 2025
 
           Jika dilihat dari lapangan usaha, seluruh lapangan usaha mengalami
      pertumbuhan yang positif di tahun 2024. Adapun 3 lapangan usaha
@@ -2405,7 +2405,7 @@ pengembangan.
      akomodasi dan makan minum. Perkembangan kedua lapangan usaha
      tersebut menunjukkan tren yang terus bertumbuh dalam kurun waktu 5
      tahun terakhir. Rasio lapangan usaha industri pengolahan terhadap PDRB
-     Kota Sukabumi tahun 2024 yaitu 5,97 persen. Sementara itu, rasio lapangan
+     Kota Cirebon tahun 2024 yaitu 5,97 persen. Sementara itu, rasio lapangan
      usaha penyediaan akomodasi dan makan minum terhadap PDRB sebesar
      5,67 persen.
 
@@ -2416,20 +2416,20 @@ C.   Pengembangan Lapangan Usaha Unggulan dan Potensial
       Berdasarkan Tipologi Klassen yang digunakan untuk mengetahui
 posisi masing-masing kabupaten/kota di Provinsi Jawa Barat berdasarkan
 tingkat pertumbuhan ekonomi dan jumlah tenaga kerja dalam empat
-- **kuadran.** Kota Sukabumi berada di posisi kuadran II, hal ini menunjukkan
+- **kuadran.** Kota Cirebon berada di posisi kuadran II, hal ini menunjukkan
 masuk pada daerah berkembang yaitu daerah yang memiliki tingkat
 pertumbuhan tinggi tetapi tingkat pendapatan per kapita lebih rendah
 dibanding rata-rata kabupaten/kota.
       Berdasarkan analisis LQ pada periode tahun 2017-2021, Kota
-Sukabumi memiliki 11 sektor basis yang dapat mendorong perekonomian
-- **daerah.** Sektor basis, artinya kontribusi sektor tersebut di wilayah Sukabumi
+Cirebon memiliki 11 sektor basis yang dapat mendorong perekonomian
+- **daerah.** Sektor basis, artinya kontribusi sektor tersebut di wilayah Cirebon
 lebih besar kontribusinya dibandingkan dengan sektor yang sama di wilayah
 lain di Jawa Barat, di mana sektor tersebut mampu mencukupi kebutuhan
 - **daerahnya.** Adapun sektor yang paling potensial dalam meningkatkan
-pertumbuhan ekonomi di Kota Sukabumi yaitu sektor Konstruksi serta Jasa
+pertumbuhan ekonomi di Kota Cirebon yaitu sektor Konstruksi serta Jasa
 Keuangan dan Asuransi.
      Berdasarkan analisis Shift Share pada periode tahun 2017–2021, Kota
-Sukabumi memiliki 10 sektor yang termasuk kompetitif dapat bersaing
+Cirebon memiliki 10 sektor yang termasuk kompetitif dapat bersaing
 dengan sektor lainnya. Sektor yang memiliki nilai kompetitif tertinggi yaitu
 sektor perdagangan besar dan eceran, reparasi mobil dan penjualan motor.
 
@@ -2457,15 +2457,15 @@ sektor perdagangan besar dan eceran, reparasi mobil dan penjualan motor.
 
 D.   Pengembangan Ekonomi Kreatif
 
-     Ekonomi kreatif Kota Sukabumi menunjukkan kemajuan dalam
+     Ekonomi kreatif Kota Cirebon menunjukkan kemajuan dalam
 beberapa tahun terakhir. Didukung dengan generasi produktif Kota
-Sukabumi sebesar 53,33 persen, maka jumlah pelaku ekonomi kreatif sudah
+Cirebon sebesar 53,33 persen, maka jumlah pelaku ekonomi kreatif sudah
 meningkat lebih dari 500 pelaku yang terdata. Dari 17 subsektor ekonomi
 kreatif yang teraktivasi, terdapat 4 subsektor yang paling potensial, yaitu
 kuliner, musik, seni pertunjukan, dan kriya.
-     Sektor ekonomi kreatif di Kota Sukabumi masih perlu diperkuat agar
+     Sektor ekonomi kreatif di Kota Cirebon masih perlu diperkuat agar
 menjadi solusi bagi permasalahan kesejahteraan dan kesenjangan di Kota
-Sukabumi. Karena itu, keberadaan Sukabumi Creative Hub yang merupakan
+Cirebon. Karena itu, keberadaan Cirebon Creative Hub yang merupakan
 komite akselerasi, penataan, dan pengembangan ekonomi kreatif diharapkan
 dapat mendorong kolaborasi pemangku kepentingan ekonomi kreatif dalam
 melahirkan kreativitas dan inovasi untuk memberikan nilai tambah dan
@@ -2473,7 +2473,7 @@ meningkatkan kualitas hidup masyarakat. Ke depannya, ekonomi kreatif
 juga diharapkan dapat menjadi tulang punggung ekonomi baru.
 
                                  Gambar 2.33
-       Spider Chart Indeks Kota Kreatif Kota Sukabumi Tahun 2022-2023
+       Spider Chart Indeks Kota Kreatif Kota Cirebon Tahun 2022-2023
                                       Budaya, Rekreasi &
                                           Parfwtsata
                                              •100'4
@@ -2503,7 +2503,7 @@ terbuka dengan hal-hal baru serta mudah menyesuaikan diri dengan ide-ide
 kontemporer.
 
                                  Gambar 2.34
-          Indeks Kota Kreatif Kota Sukabumi Tahun 2021-2024 (Poin)
+          Indeks Kota Kreatif Kota Cirebon Tahun 2021-2024 (Poin)
 
                                                                                       87.86
                                  80,3l,__                          85,59               ,.
@@ -2514,19 +2514,19 @@ kontemporer.
 
             2021                 2022                               2023               202A
 
-         Sumber: Bapppeda Kota Sukabumi, 2025 (diolah)
+         Sumber: Bapppeda Kota Cirebon, 2025 (diolah)
 
-     Indeks Kota Kreatif mulai diterapkan di Kota Sukabumi sejak tahun
-- **2021.** Hal ini didasarkan pada pertimbangan bahwa Kota Sukabumi memiliki
+     Indeks Kota Kreatif mulai diterapkan di Kota Cirebon sejak tahun
+- **2021.** Hal ini didasarkan pada pertimbangan bahwa Kota Cirebon memiliki
 potensi industri kreatif yang menjanjikan. Pengembangan Kota Kreatif di
-Kota Sukabumi dilakukan dengan kolaborasi Penta Helix yang terdiri dari
+Kota Cirebon dilakukan dengan kolaborasi Penta Helix yang terdiri dari
 akademisi, pelaku usaha, komunitas, pemerintah dan media.
-     Agar Indeks Kota Kreatif Kota Sukabumi lebih baik lagi, maka perlu
+     Agar Indeks Kota Kreatif Kota Cirebon lebih baik lagi, maka perlu
 upaya   kolaborasi      berbagai        pihak           seperti            dengan   akademisi   untuk
 pengembangan SDM melalui riset dan pengembangan ilmu pengetahuan,
 kolaborasi dengan pelaku usaha atau bisnis yang memiliki peranan sebagai
 pencipta produk dan jasa kreatif, kolaborasi dengan komunitas kreatif seperti
-Sukabumi Creative Hub (SCH) untuk mewadahi pemasaran produk dan jasa
+Cirebon Creative Hub (SCH) untuk mewadahi pemasaran produk dan jasa
 kreatif melalui kegiatan yang diadakan oleh komunitas.
 
 E.   Penerapan Ekonomi Hijau
@@ -2544,27 +2544,27 @@ energi terbarukan. Ekonomi hijau menekankan pada pengurangan emisi
 karbon, pengelolaan limbah yang lebih baik, dan pemanfaatan sumber daya
 alam secara berkelanjutan.
      Berdasarkan data dari Provinsi Jawa Barat, Indeks Ekonomi Hijau (Pilar
-Ekonomi) Kota Sukabumi tahun 2023 yaitu 41,15 poin, naik menjadi 41,43
-- **poin.** Capian ini menunjukkan bahwa Kota Sukabumi masih dalam kategori
+Ekonomi) Kota Cirebon tahun 2023 yaitu 41,15 poin, naik menjadi 41,43
+- **poin.** Capian ini menunjukkan bahwa Kota Cirebon masih dalam kategori
 “Sedang Tier 2”. Perlu upaya lanjutan agar penerapan ekonomi hijau di Kota
-Sukabumi lebih masif lagi, seperti meningkatkan penerapan urban farming,
+Cirebon lebih masif lagi, seperti meningkatkan penerapan urban farming,
 penerapan energi terbarukan, pemanfaatan kendaraan listrik, penerapan
 green building, dan sebagainya.
 
 F.   Penerapan Ekonomi Syariah
 
-     Pemerintah Kota Sukabumi terus mendorong tumbuhnya ekonomi
+     Pemerintah Kota Cirebon terus mendorong tumbuhnya ekonomi
 syariah dengan membangun perekonomian umat yang berbasis pada nilai-
 nilai keislaman dan semangat kebersamaan. Hal ini juga didukung dengan
 mayoritas warganya yang beragama Islam dan kotanya yang identik dengan
-Kota Santri. Adapun upaya yang dilakukan Pemerintah Kota Sukabumi yaitu
+Kota Santri. Adapun upaya yang dilakukan Pemerintah Kota Cirebon yaitu
 dengan mendorong penguatan ekosistem dekonomi syariah melalui sinergi
 antara koperasi, Baznas, lembaga wakaf, zakat, dan sedekah.
-     Pemerintah Kota Sukabumi juga menginisiasi dana abadi Kota
-Sukabumi berbasis wakaf. Di mana, dana wakaf yang ada di Kota Sukabumi
+     Pemerintah Kota Cirebon juga menginisiasi dana abadi Kota
+Cirebon berbasis wakaf. Di mana, dana wakaf yang ada di Kota Cirebon
 yang nilainya Rp 284 juta, sekitar Rp 200 juta dibelikan ke sukuk BJB
 Syariah. Meski masih relatif kecil, namun potensi pengembangannya cukup
-- **besar.** Sementara, jika dilihat dari Indeks Zakat Kota Sukabumi tahun 2024
+- **besar.** Sementara, jika dilihat dari Indeks Zakat Kota Cirebon tahun 2024
 yang mencapai 0,53 dan masuk dalam kategori "Stabil", mengindikasikan
 bahwa potensi zakat masih juga cukup besar untuk dikembangkan.
 
@@ -2572,7 +2572,7 @@ bahwa potensi zakat masih juga cukup besar untuk dikembangkan.
 
 G.   Peningkatan Investasi
 
-     Hingga November 2024, jumlah perusahaan di Kota Sukabumi
+     Hingga November 2024, jumlah perusahaan di Kota Cirebon
 mencapai 23.631 perusahaan, terdiri dari perusahaan kecil (PK) mencapai
 753, perusahaan menengah (PM) 36, mikro 22.754 dan sebanyak 88
 merupakan perusahaan besar (PB), dengan penyerapan tenaga kerja
@@ -2580,12 +2580,12 @@ sebanyak 36.283 orang.
      Jumlah            tersebut   perlu   terus   ditingkatkan,   terlebih   pengurusan
 perizinan dipermudah dengan adanya sistem Online Single Submission (OSS)
 berbasis risiko. Untuk mendukung hal itu, berbagai inovasi kemudahan
-layanan terus diluncurkan oleh Pemerintah Kota Sukabumi. Salah satunya
+layanan terus diluncurkan oleh Pemerintah Kota Cirebon. Salah satunya
 melalui aplikasi Si Jimat Boss (sistem jemput perijinan masyarakat bersama
 OSS).
 
                                     Gambar 2.35
-        Realisasi Investasi Kota Sukabumi Tahun 2021-2024 (Triliun Rupiah)
+        Realisasi Investasi Kota Cirebon Tahun 2021-2024 (Triliun Rupiah)
            _________
          3,41                      3.32
 
@@ -2593,15 +2593,15 @@ OSS).
 
         2021                       2022                 2023                  2024
 
-        Sumber: DPMPTSP Kota Sukabumi, 2025 (diolah)\
+        Sumber: DPMPTSP Kota Cirebon, 2025 (diolah)\
 
      Meskipun tren investasi menunjukkan penurunan, adanya mega proyek
 yang tengah dilakukan pemerintah pusat, yaitu pembangunan Tol Bogor-
-Ciawi-Sukabumi (Bocimi), ini tentunya akan sangat berdampak kepada laju
-investasi ke depanya. Peluang investasi di Kota Sukabumi tergolong cukup
+Ciawi-Cirebon (Bocimi), ini tentunya akan sangat berdampak kepada laju
+investasi ke depanya. Peluang investasi di Kota Cirebon tergolong cukup
 besar, terutama dibidang properti, hotel dan restoran, kuliner serta industri.
      Karena itu, dengan fondasi pelayanan publik yang semakin baik dan
-kolaborasi antarlembaga yang diperkuat, Kota Sukabumi akan meneguhkan
+kolaborasi antarlembaga yang diperkuat, Kota Cirebon akan meneguhkan
 diri sebagai salah satu kota yang siap menjadi pusat pertumbuhan ekonomi
 baru di Jawa Barat.
 
@@ -2617,14 +2617,14 @@ adopsi TIK atau tingkat difusi pemanfaatan teknologi informasi dan
 komunikasi dari suatu daerah.
     Berdasarkan data Indeks Daya Saing Daerah yang diterbitkan Badan
 Riset dan Inovasi Nasional, pada pilar ketiga disebutkan tentang adopsi TIK.
-Untuk Kota Sukabumi, skor adopsi TIK mengalami kenaikan signifikan di
+Untuk Kota Cirebon, skor adopsi TIK mengalami kenaikan signifikan di
 tahun 2024 yaitu sebesar 1,04 poin dari tahun 2023. Skor adopsi TIK Kota
-Sukabumi di tahun 2024 juga lebih baik dari Provinsi Jawa Barat dan
+Cirebon di tahun 2024 juga lebih baik dari Provinsi Jawa Barat dan
 Nasional. Bahkan di antara kabupaten/kota di Provinsi Jawa Barat, skor
 tersebut berada pada peringkat kelima.
 
                                  Gambar 2.36
-      Adopsi Teknologi Informasi Kota Sukabumi Tahun 2022-2024 (Poin)
+      Adopsi Teknologi Informasi Kota Cirebon Tahun 2022-2024 (Poin)
 
                                                                                         4,80
 
@@ -2662,7 +2662,7 @@ tentang PMTB, tidak terlepas dari upaya mengetahui besaran investasi yang
 dilakukan di suatu wilayah dari tahun ke tahun. Manfaatnya bagi
 pemerintah daerah adalah sebagai acuan mengambil kebijakan untuk
 menjaga dan meningkatkan iklim investasi.
-     PMBT          Kota   Sukabumi     dalam    kurun         waktu   5       tahun   terakhir
+     PMBT          Kota   Cirebon     dalam    kurun         waktu   5       tahun   terakhir
 menunjukkan peningkatan dan selalu melebihi target yang telah ditetapkan.
 Hal ini mengindikasikan bahwa pengeluaran untuk barang modal yang
 mempunyai umur pemakaian lebih dari satu tahun, mencakup bangunan
@@ -2670,7 +2670,7 @@ tempat tinggal dan bukan tempat tinggal, bangunan lain seperti jalan dan
 bandara, serta mesin dan peralatan cenderung meningkat.
 
                                   Gambar 2.37
-                 PMTB Kota Sukabumi Tahun 2020-2024 (Miliar Rupiah)
+                 PMTB Kota Cirebon Tahun 2020-2024 (Miliar Rupiah)
 
 ### 1.913               2.122                                         2.459               2.614
                                                       2.218
@@ -2688,7 +2688,7 @@ bandara, serta mesin dan peralatan cenderung meningkat.
                                                                       2023
                                                                                           2024
 
-Sumber: BPS Kota Sukabumi, 2025 (diolah)
+Sumber: BPS Kota Cirebon, 2025 (diolah)
 
 ---
 
@@ -2697,13 +2697,13 @@ A.   Peningkatan Kualitas Infrastruktur
       Indeks Kepuasan Layanan Infrastruktur (IKLI) merupakan ukuran
 yang digunakan untuk mengetahui tingkat kepuasan masyarakat atas
 pembangunan infrastruktur oleh Pemerintah Pusat dan Pemerintah Daerah,
-yang dalam hal ini adalah Pemerintah Kota Sukabumi. Selain untuk
+yang dalam hal ini adalah Pemerintah Kota Cirebon. Selain untuk
 mengukur         kepuasan   masyarakat,          IKLI         dapat   digunakan     untuk
 mengakomodasi keinginan dan harapan masyarakat terhadap pembangunan
-infrastruktur di Kota Sukabumi.
+infrastruktur di Kota Cirebon.
 
                                 Gambar 2.38
-             Indeks Kepuasan Layanan Infrastruktur Kota Sukabumi
+             Indeks Kepuasan Layanan Infrastruktur Kota Cirebon
                           Tahun 2021-2024 (Persen)
 
            ..
@@ -2720,9 +2720,9 @@ infrastruktur di Kota Sukabumi.
 
          2021                  2022                      2023               2024
 
-         Sumber: Dinas PUPR Kota Sukabumi, 2025 (diolah)
+         Sumber: Dinas PUPR Kota Cirebon, 2025 (diolah)
 
-     IKLI Kota Sukabumi sudah masuk ke dalam kategori B atau memiliki
+     IKLI Kota Cirebon sudah masuk ke dalam kategori B atau memiliki
 mutu pelayanan baik. Namun demikian, layanan infrastruktur tetap harus
 - **ditingkatkan.** Jika dicermati lebih dalam, layanan infrastruktur yang sudah
 termasuk baik adalah infrastruktur listrik, jalur pedestrian, taman kota dan
@@ -2738,13 +2738,13 @@ bagi kehidupan manusia. Kondisi jalan yang baik akan memperlancar lalu
 lintas barang dan jasa. Sehingga keadaan jalan dan jaringan-jaringan jalan
 bisa dijadikan acuan tentang tingginya kebudayaan dan kemajuan ekonomi
 suatu daerah.
-     Tingkat kemantapan jalan milik Kota Sukabumi saat ini tergolong cukup
+     Tingkat kemantapan jalan milik Kota Cirebon saat ini tergolong cukup
 baik, dengan persentase mencapai sekitar 81 persen. Ada sekitar 154 ruas
-jalan Kota Sukabumi kondisinya tergolong cukup baik. Sedangkan untuk
+jalan Kota Cirebon kondisinya tergolong cukup baik. Sedangkan untuk
 sisanya saat ini masih terus dalam perbaikan.
                                     Tabel 2.11
                       Panjang Jalan Berdasarkan Kewenangan
-                      di Kota Sukabumi Tahun 2020-2024 (Km)
+                      di Kota Cirebon Tahun 2020-2024 (Km)
 
         JALAN          TAHUN       TAHUN      TAHUN      TAHUN    TAHUN
                            2020    2021        2022       2023    2024
@@ -2761,7 +2761,7 @@ Sumber: Dinas PUPR, 2025
 
      Meskipun saat ini secara persentase kemantapan jalan belum bisa 100
 - **persen.** Tapi, upaya pemeliharaan dan perbaikan terhadap jalan rusak
-kewenangan Kota Sukabumi terus dilakukan sesuai dengan anggaran yang
+kewenangan Kota Cirebon terus dilakukan sesuai dengan anggaran yang
 - **ada.** Kondisi sarana jalan itu sendiri banyak dipengaruhi oleh faktor alam
 maupun faktor manusia dalam hal ini kendaraan. Kondisi jalan itu sendiri
 tidak akan mungkin bisa 100 persen. Tapi, setidaknya bisa mendekati ke
@@ -2770,7 +2770,7 @@ angka tersebut.
 ---
 
                                          Gambar 2.39
-                    Kondisi Jalan di Kota Sukabumi Tahun 2022-2024 (Km)
+                    Kondisi Jalan di Kota Cirebon Tahun 2022-2024 (Km)
 
       Rusak Berat       ~
 
@@ -2794,7 +2794,7 @@ dan meningkatkan kualitas hidup masyarakat.
 
                                        Gambar 2.40
                       Persentase RT yang Memiliki Akses Sanitasi Layak
-                        di Kota Sukabumi Tahun 2020-2024 (Persen)
+                        di Kota Cirebon Tahun 2020-2024 (Persen)
 
                                                                         74,02                        74,88
             71,40                        71,66
@@ -2810,7 +2810,7 @@ dan meningkatkan kualitas hidup masyarakat.
 
                                                                                                       •
 
-                                     ~         Kota Sukabumi   ~    Provins! Jabar
+                                     ~         Kota Cirebon   ~    Provins! Jabar
 
             2020                         2021                           2022                         2023
 
@@ -2818,14 +2818,14 @@ dan meningkatkan kualitas hidup masyarakat.
 
 ---
 
-     Akses sanitasi layak di Kota Sukabumi meskipun menunjukkan
+     Akses sanitasi layak di Kota Cirebon meskipun menunjukkan
 peningkatan namun capaiannya masih jauh di bawah Provinsi Jawa Barat.
-Capaian akses sanitasi layak Kota Sukabumi tahun 2023 yang hanya 44,76
+Capaian akses sanitasi layak Kota Cirebon tahun 2023 yang hanya 44,76
 persen mengindikasikan bahwa permasalahan ini perlu mendapat perhatian
 serius ke depannya. Penggunaan sanitasi yang tidak layak tentunya akan
 berdampak pada kualitas kesehatan masyarakat.
      Perlu upaya besar untuk meningkatkan akses sanitasi layak di Kota
-Sukabumi. Pemerintah dan pihak terkait perlu meningkatkan pembangunan
+Cirebon. Pemerintah dan pihak terkait perlu meningkatkan pembangunan
 dan perbaikan fasilitas sanitasi di daerah yang kurang terlayani. Edukasi dan
 kesadaran masyarakat tentang pentingnya sanitasi layak dan perilaku hidup
 bersih harus terus digalakkan. Kerja sama dan partisipasi pemangku
@@ -2838,7 +2838,7 @@ D.   Peningkatan Rumah Layak Huni
 
      Rumah layak huni adalah rumah yang memenuhi standar minimum
 kesehatan, kenyamanan, dan keamanan untuk penghuninya. Rumah layak
-huni di Kota Sukabumi cenderung meningkat dalam kurun 4 tahun terakhir
+huni di Kota Cirebon cenderung meningkat dalam kurun 4 tahun terakhir
 meskipun capaiannya masih 34,02 persen di tahun 2023. Capaian ini masih
 di bawah Provinsi Jawa Barat yang capaiannya sebesar 54,17 persen.
 
@@ -2864,7 +2864,7 @@ dinding, atap, dan lantai yang memadai. Namun, sebagian rumah masih
 menggunakan bahan yang kurang tahan lama seperti bambu atau kayu
 tanpa perlakuan khusus. Selain itu, sebagian rumah masih menghadapi
 masalah kepadatan, terutama di area dengan populasi tinggi.
-     Upaya untuk meningkatkan rumah layak huni di Kota Sukabumi perlu
+     Upaya untuk meningkatkan rumah layak huni di Kota Cirebon perlu
 dilakukan     berkesinambungan.               Pembangunan                          dan   renovasi    melalui
 intervensi pemerintah dan pihak terkait perlu ditingkatkan. Intervensi
 tersebut dapat berupa menyediakan bantuan dan subsidi bagi keluarga yang
@@ -2881,7 +2881,7 @@ yang perlu diperhatikan dalam rangka menjaga stabilitas ekonomi makro yaitu
 terkait dengan inflasi.
 
                                     Gambar 2.42
-                  Inflasi Kota Sukabumi Tahun 2020-2024 (Persen)
+                  Inflasi Kota Cirebon Tahun 2020-2024 (Persen)
 
                                                   5,45
 
@@ -2889,7 +2889,7 @@ terkait dengan inflasi.
 
                               .-e-,   Kot1 Suk1bumi      .-e-,   Provinsi J1b11r
 
-         Sumber: BPS Kota Sukabumi, 2025 (diolah)
+         Sumber: BPS Kota Cirebon, 2025 (diolah)
 
 ---
 
@@ -2898,7 +2898,7 @@ Inflasi yang tinggi akan menggerus nilai uang dari waktu ke waktu, sehingga
 daya beli masyarakat akan menurun, dan demikian halnya investasi. Hal
 tersebut akan mempengaruhi kesejahteraan masyarakat. Namun demikian
 inflasi yang terkendali merupakan indikasi adanya pertumbuhan ekonomi.
-    Secara year on year (y-o-y), pada tahun 2024 inflasi di Kota Sukabumi
+    Secara year on year (y-o-y), pada tahun 2024 inflasi di Kota Cirebon
 sebesar 2,59 persen dan termasuk tertinggi di Provinsi Jawa Barat. Kondisi
 ini perlu disikapi dengan berbagai cara seperti pemantauan harga secara
 berkala untuk deteksi dini potensi kenaikan harga, stabilisasi pasokan
@@ -2921,7 +2921,7 @@ tantangan       dalam   mengatasi       masalah      kemiskinan,   pengangguran,
 ketimpangan dan kesenjangan.
 
                                  Gambar 2.43
-      Indeks Reformasi Birokrasi Kota Sukabumi Tahun 2020-2024 (Poin)
+      Indeks Reformasi Birokrasi Kota Cirebon Tahun 2020-2024 (Poin)
 
             68,88
               I
@@ -2941,7 +2941,7 @@ ketimpangan dan kesenjangan.
 
             2020           2021            2022         2023        2024
 
-        Sumber: Setda Kota Sukabumi, 2025 (diolah)
+        Sumber: Setda Kota Cirebon, 2025 (diolah)
 
 ---
 
@@ -2950,9 +2950,9 @@ diperlukan untuk dapat meningkatkan daya saing daerah, peningkatan
 kualitas     pelayanan      dengan      birokrasi     yang   efisien   melayani       akan
 menumbuhkan iklim investasi agar ekonomi tetap tumbuh dan mampu
 menciptakan lapangan kerja.
-     Capaian Indeks Reformasi Birokrasi Kota Sukabumi dalam kurun waktu
+     Capaian Indeks Reformasi Birokrasi Kota Cirebon dalam kurun waktu
 2020-2024 menunjukkan kenaikan yang signifikan dan masuk dalam
-kategori “Memuaskan” di tahun 2024. Artinya, Pemerintah Kota Sukabumi
+kategori “Memuaskan” di tahun 2024. Artinya, Pemerintah Kota Cirebon
 telah menerapkan sebagian besar prinsip reformasi birokrasi dengan cukup
 - **baik.** Struktur, tata kelola, dan pelayanan publiknya sudah mengalami
 peningkatan signifikan. Namun masih ada beberapa area yang perlu
@@ -2971,7 +2971,7 @@ depannya akan semakin kompleks. Kecepatan dan kemudahan pelayanan
 menjadi tuntutan masyarakat seiring dengan kemajuan teknologi informasi.
 
                                     Gambar 2.44
-           Indeks Pelayanan Publik Kota Sukabumi Tahun 2020-2024 (Poin)
+           Indeks Pelayanan Publik Kota Cirebon Tahun 2020-2024 (Poin)
                                                4,08                            4.18
 
               3.28
@@ -2981,11 +2981,11 @@ menjadi tuntutan masyarakat seiring dengan kemajuan teknologi informasi.
 
              2020            2021            2022            2023             2024
 
-             Sumber: Setda Kota Sukabumi, 2025 (diolah)
+             Sumber: Setda Kota Cirebon, 2025 (diolah)
 
 ---
 
-     Indeks Pelayanan Publik Kota Sukabumi dalam kurun waktu 5 tahun
+     Indeks Pelayanan Publik Kota Cirebon dalam kurun waktu 5 tahun
 terakhir    terus     menunjukkan             peningkatan.               Namun       demikian,     upaya
 peningkatan standar pelayanan publik agar makin ditingkatkan dari waktu
 ke waktu. Standar pelayanan tersebut mencakup kecepatan, kemudahan,
@@ -2998,14 +2998,14 @@ suatu sistem yang digunakan oleh instansi pemerintah untuk merencanakan
 kinerja, mengukur dan melaporkan kinerja, serta mengevaluasi kinerja
 dalam rangka mewujudkan akuntabilitas kinerja yang transparan, efisien,
 dan berorientasi pada hasil (outcome).
-     Selama        lima   tahun          berturut-turut,               Kota        Sukabumi       berhasil
+     Selama        lima   tahun          berturut-turut,               Kota        Cirebon       berhasil
 mempertahankan            predikat          BB,         menunjukkan                konsistensi     dalam
 akuntabilitas kinerja. Meskipun predikat tetap, terdapat fluktuasi nilai,
 dengan puncak pada tahun 2022 (79,54) dan penurunan pada tahun 2023
 dan 2024.
 
                                       Gambar 2.45
-                   Nilai SAKIP Kota Sukabumi Tahun 2020-2024 (Poin)
+                   Nilai SAKIP Kota Cirebon Tahun 2020-2024 (Poin)
                                                                                           88,89
 
                             85,01                  85,21
@@ -3016,10 +3016,10 @@ dan 2024.
 
            2020             2021                   2022                     2023          2024
 
-                                    ~   Kota Sukabumi      ~   Provlnsi Jabar
-           Sumber: Setda Kota Sukabumi, 2025 (diolah)
+                                    ~   Kota Cirebon      ~   Provlnsi Jabar
+           Sumber: Setda Kota Cirebon, 2025 (diolah)
 
-     Tantangan dalam meningkatkan capaian SAKIP Kota Sukabumi antara
+     Tantangan dalam meningkatkan capaian SAKIP Kota Cirebon antara
 lain masih adanya perangkat daerah yang belum sepenuhnya melengkapi
 data kinerja, menyebabkan ketidaksinkronan antara serapan anggaran dan
 realisasi kinerja. selanjutnya, diperlukan perbaikan dalam perencanaan,
@@ -3032,7 +3032,7 @@ D.   Peningkatan Kualitas Pemerintahan Berbasis Digital
      Sistem     Pemerintahan         Berbasis          Elektronik      (SPBE)   merupakan
 penyelenggaraan pemerintahan yang memanfaatkan teknologi informasi dan
 komunikasi untuk memberikan layanan kepada Pengguna SPBE. Untuk
-memastikan pelaksanaan SPBE pada Pemerintah Daerah Kota Sukabumi
+memastikan pelaksanaan SPBE pada Pemerintah Daerah Kota Cirebon
 selaras dengan prinsip terintegrasi dan terpadu, maka diharapkan dapat
 menerapkan unsur-unsur SPBE sesuai dengan kerangka kerja Tata Kelola
 SPBE dan Manajemen SPBE agar penerapan SPBE dapat berjalan efektif,
@@ -3040,7 +3040,7 @@ efisien, dan berkesinambungan, serta dapat menghasilkan layanan SPBE
 yang berkualitas dan optimal.
 
                                  Gambar 2.46
-               Indeks SPBE Kota Sukabumi Tahun 2020-2024 (Poin)
+               Indeks SPBE Kota Cirebon Tahun 2020-2024 (Poin)
                                                                                    3.79
 
                 .
@@ -3058,18 +3058,18 @@ yang berkualitas dan optimal.
                              2021               2022
                                                                     2023         2024
 
-         Sumber: Diskominfo Kota Sukabumi, 2025 (diolah)
+         Sumber: Diskominfo Kota Cirebon, 2025 (diolah)
 
      Berdasarkan pemantauan dan evaluasi yang dilaksanakan oleh
 Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi
-bersama Tim Koordinasi SPBE Nasional, Pemerintah Daerah Kota Sukabumi
+bersama Tim Koordinasi SPBE Nasional, Pemerintah Daerah Kota Cirebon
 mendapatkan nilai Indeks SPBE Tahun 2021-2023 sebesar 2,98 dan
 meningkat menjadi 3,79 dengan kategori “Baik” di tahun 2024. Dengan
-demikian implementasi SPBE pada Pemerintah Daerah Kota Sukabumi
+demikian implementasi SPBE pada Pemerintah Daerah Kota Cirebon
 mengalami perkembangan yang signifikan dari tahun ke tahun. Hal ini dapat
 terlaksana berkat kerja sama dan kolaborasi yang baik antar-PD yang
 tergabung dalam Tim Koordinasi Implementasi SPBE Pemerintah Daerah
-Kota Sukabumi.
+Kota Cirebon.
 
 ---
 
@@ -3079,13 +3079,13 @@ Kota Sukabumi.
 ketertiban yang ada serta kemudahan regulasi. Tingkat keamanan dan
 ketertiban dapat dilihat dari upaya penanggulangan pelanggaran perda dan
 unjuk rasa yang mencapai 100 persen. Artinya walaupun terdapat
-pelanggaran perda dan unjuk rasa, pemerintah Kota Sukabumi dapat
+pelanggaran perda dan unjuk rasa, pemerintah Kota Cirebon dapat
 menanggulanginya sehingga kondusifitas tetap terjaga.
-    Selain itu, tingkat keamanan Kota Sukabumi yang diukur dari Indeks
+    Selain itu, tingkat keamanan Kota Cirebon yang diukur dari Indeks
 Rasa Aman dan Indeks Kerukunan Umat Beragama juga menunjukkan hasil
 yang dapat mendukung iklim investasi. Untuk Indeks Rasa Aman Kota
-Sukabumi cenderung mengalami penurunan tiap tahunnya. Walaupun
-tingkat rasa aman di Kota Sukabumi ini berada pada level “Aman” ada
+Cirebon cenderung mengalami penurunan tiap tahunnya. Walaupun
+tingkat rasa aman di Kota Cirebon ini berada pada level “Aman” ada
 beberapa hal yang harus diperhatikan dan ditingkatkan, yaitu terkait
 partisipasi warga dalam kegiatan simulasi bencana, sosialisasi dan
 optimalisasi petunjuk keselamatan bencana, peningkatan akses warga
@@ -3094,7 +3094,7 @@ kejadian     kriminalitas         (pencurian,        perampasan,      penganiaya
 kekerasan komunal (tawuran, perkelahian Ormas).
 
                                   Gambar 2.47
-             Indeks Rasa Aman Kota Sukabumi Tahun 2020-2024 (Poin)
+             Indeks Rasa Aman Kota Cirebon Tahun 2020-2024 (Poin)
            8S,3S
 
             ~75,31                          75,91             76.33           75,40
@@ -3104,7 +3104,7 @@ kekerasan komunal (tawuran, perkelahian Ormas).
 
            2020             2021                2022          2023            2024
 
-           Sumber: Bapppeda Kota Sukabumi, 2024 (diolah)
+           Sumber: Bapppeda Kota Cirebon, 2024 (diolah)
 
 ---
 
@@ -3115,15 +3115,15 @@ berkelanjutan sangat penting. Dalam konteks ini, Indeks Daya Saing Daerah
 (IDSD) dapat dijadikan alat untuk memahami kondisi daya saing suatu
 daerah, yaitu kondisi lingkungan pendukung, sumber daya manusia, tingkat
 efisiensi pasar, dan ekosistem inovasi.
-    IDSD Kota Sukabumi menunjukkan peningkatan di tahun 2024 dengan
-capaian 3,93 poin. Dari 12 pilar yang membentuk IDSD Kota Sukabumi,
+    IDSD Kota Cirebon menunjukkan peningkatan di tahun 2024 dengan
+capaian 3,93 poin. Dari 12 pilar yang membentuk IDSD Kota Cirebon,
 terdapat 1 pilar yang capaiannya masih di bawah 3,00, yaitu pilar kapabilitas
-inovasi (2,64). Agar daya saing daerah Kota Sukabumi meningkat diperlukan
+inovasi (2,64). Agar daya saing daerah Kota Cirebon meningkat diperlukan
 intervensi yang spesifik terhadap pilar-pilar yang capaiannya masih rendah
 tersebut.
 
                                     Gambar 2.48
-                      IDSD Kota Sukabumi Tahun 2022-2024 (Poin)
+                      IDSD Kota Cirebon Tahun 2022-2024 (Poin)
                                                                        3,93
                                            3,76
             3,64
@@ -3159,7 +3159,7 @@ pendidikan; kesehatan; pekerjaan umum dan penataan ruang; perumahan
 rakyat dan kawasan pemukiman; ketenteraman, ketertiban umum dan
 perlindungan masyarakat; dan sosial.
                                     Tabel 2.40
-                    Capaian SPM Kota Sukabumi Tahun 2020-2024
+                    Capaian SPM Kota Cirebon Tahun 2020-2024
 NO   JENIS PELAYANAN                  INDIKATOR                            CAPAIAN TAHUN
           DASAR                      PENCAPAIAN               2020     2021     2022    2023      2024
 PENDIDIKAN
@@ -3320,12 +3320,12 @@ NO     JENIS PELAYANAN                     INDIKATOR                           C
        korban bencana
        kab/kota
 
-Sumber: Setda Kota Sukabumi, 2025
+Sumber: Setda Kota Cirebon, 2025
 
        Berdasarkan tabel di atas, capaian untuk masing-masing jenis
 pelayanan dasar dapat dijelaskan, sebagai berikut:
 - **1.** Pendidikan
-     Capaian SPM Bidang Pendidikan di Kota Sukabumi tertinggi pada jenjang
+     Capaian SPM Bidang Pendidikan di Kota Cirebon tertinggi pada jenjang
      Pendidikan Dasar. Kondisi ini disebabkan pada jenjang Pendidikan Dasar
      baik secara jumlah lembaga dan kualitas layanan sudah relatif lebih baik
      dibandingkan dengan jenjang pendidikan yang lainnya dan adanya
@@ -3333,11 +3333,11 @@ pelayanan dasar dapat dijelaskan, sebagai berikut:
      Pendidikan Anak Usia Dini merupakan yang terendah dibandingkan
      dengan jenjang lainnya. Hal ini disebabkan dari sisi daya tampung belum
      sebanding dengan jumlah penduduk usia PAUD yang ada di Kota
-     Sukabumi. Selain itu belum adanya pemahaman orang tua yang memiliki
+     Cirebon. Selain itu belum adanya pemahaman orang tua yang memiliki
      anak usia dini terkait pentingnya memberikan bekal pendidikan sedini
      mungkin kepada putra-putrinya.
 - **2.** Kesehatan
-     Dari 12 indikator capaian SPM Bidang Kesehatan di Kota Sukabumi, 10
+     Dari 12 indikator capaian SPM Bidang Kesehatan di Kota Cirebon, 10
      indikator sudah mencapai target 100 persen. Adapun indikator yang
      capaiannya belum mencapai 100 persen dapat dijelaskan sebagai berikut:
 
@@ -3352,11 +3352,11 @@ pelayanan dasar dapat dijelaskan, sebagai berikut:
       tidak mencapai target dikarenakan sasaran tidak ditemukan oleh
       petugas dan keluarga sasaran menyembunyikan pasien.
 - **3.** Pekerjaan Umum dan Penataan Ruang
-  Penyediaan air minum dan sanitasi yang layak di Kota Sukabumi pada
+  Penyediaan air minum dan sanitasi yang layak di Kota Cirebon pada
   tahun 2024 telah mencapai 100 persen. Jumlah yang sudah terlayani
   sebanyak 450 SR untuk air minum serta sebanyak 570 RT untuk sanitasi.
 - **4.** Perumahan Rakyat
-  Penyediaan dan rehabilitasi rumah layak huni di Kota Sukabumi pada
+  Penyediaan dan rehabilitasi rumah layak huni di Kota Cirebon pada
   tahun 2024 telah dilakukan dengan capaian 100 persen, Terdapat 30 unit
   rumah yang dilakukan rehabilitasi dan pembangunan baru yang tersebar
   di 7 kecamatan. Pelaksanaan penyediaan dan rehabilitasi rumah layak
@@ -3364,16 +3364,16 @@ pelayanan dasar dapat dijelaskan, sebagai berikut:
   pemberian bantuan melalui anggaran APBD.
 - **5.** Ketenteraman dan Ketertiban Umum serta Perlindungan Masyarakat
   Capaian      SPM   Bidang   Ketenteraman     dan   Ketertiban   Umum   serta
-  Perlindungan Masyarakat di Kota Sukabumi sudah mencapai target yang
+  Perlindungan Masyarakat di Kota Cirebon sudah mencapai target yang
   ditetapkan.
 - **6.** Sosial
-  Capaian SPM Bidang Sosial di Kota Sukabumi sudah mencapai target yang
+  Capaian SPM Bidang Sosial di Kota Cirebon sudah mencapai target yang
   ditetapkan.
 
 ### 2.1.6 KINERJA PER URUSAN
 
 ### 2.1.6.1 URUSAN PENDIDIKAN
-     Kinerja    urusan   pendidikan    Kota    Sukabumi   yang    menunjukkan
+     Kinerja    urusan   pendidikan    Kota    Cirebon   yang    menunjukkan
 peningkatan yaitu pada indikator tingkat partisipasi warga negara usia 5-6
 tahun yang berpartisipasi dalam PAUD serta tingkat partisipasi warga negara
 usia 13-15 tahun yang berpartisipasi dalam pendidikan menengah pertama.
@@ -3390,7 +3390,7 @@ dalam pendidikan kesetaraan capaiannya menurun di tahun 2024. Hal ini
 mengindikasikan        perlunya      memperluas           akses     pendidikan       serta
 meningkatkan kesadaran orang tua akan pentingnya pendidikan bagi anak.
                                    Tabel 2.12
-           Kinerja Urusan Pendidikan Kota Sukabumi Tahun 2020-2024
+           Kinerja Urusan Pendidikan Kota Cirebon Tahun 2020-2024
 NO         INDIKATOR          SATUAN                  CAPAIAN TAHUN
                                          2020     2021      2022     2023    2024
  1  Tingkat partisipasi warga  Persen     80,7    70,17      79      81,21   82,59
@@ -3412,10 +3412,10 @@ NO         INDIKATOR          SATUAN                  CAPAIAN TAHUN
     menengah yang
     berpartisipasi dalam
     pendidikan kesetaraan
- Sumber: Disdikbud Kota Sukabumi, 2025
+ Sumber: Disdikbud Kota Cirebon, 2025
 
 ### 2.1.5.2 URUSAN KESEHATAN
-     Kinerja urusan kesehatan di Kota Sukabumi menunjukkan bahwa 6
+     Kinerja urusan kesehatan di Kota Cirebon menunjukkan bahwa 6
 indikator capaiannya meningkat dan 8 indikator capaiannya tetap 100
 - **persen.** Untuk indikator yang capaiannya meningkat namun belum mencapai
 100 persen diperlukan upaya untuk meningkatkan kesadaran masyarakat
@@ -3427,7 +3427,7 @@ berat.
 ---
 
                                   Tabel 2.13
-           Kinerja Urusan Kesehatan Kota Sukabumi Tahun 2020-2024
+           Kinerja Urusan Kesehatan Kota Cirebon Tahun 2020-2024
 NO          INDIKATOR          SATUAN                 CAPAIAN TAHUN
                                          2020     2021     2022   2023      2024
  1  Rasio Daya Tampung          Angka     0,4      0,45    3,17   3,23       3,30
@@ -3480,10 +3480,10 @@ NO          INDIKATOR          SATUAN                 CAPAIAN TAHUN
     mendapatkan pelayanan
     deteksi dini HIV sesuai
     standar
- Sumber: Dinkes Kota Sukabumi, 2025
+ Sumber: Dinkes Kota Cirebon, 2025
 
 ### 2.1.5.3 URUSAN PEKERJAAN UMUM DAN PENATAAN RUANG
-     Kinerja urusan pekerjaan umum dan penataan ruang di Kota Sukabumi
+     Kinerja urusan pekerjaan umum dan penataan ruang di Kota Cirebon
 secara umum menunjukkan peningkatan di tahun 2024.
 
 ---
@@ -3492,7 +3492,7 @@ Namun terdapat beberapa indikator yang perlu menjadi perhatian agar
 capaiannya meningkat yaitu berkaitan dengan pengendali banjir, layanan
 pengolahan air limbah domestik, dan kemantapan jalan. Rasio luas kawasan
 permukiman rawan banjir yang terlindungi oleh infrastruktur pengendalian banjir
-perlu ditingkatkan karena Kota Sukabumi rawan akan bencana banjir. Layanan
+perlu ditingkatkan karena Kota Cirebon rawan akan bencana banjir. Layanan
 pengolahan air limbah domestik perlu ditingkatkan agar air limbah yang berasal
 dari aktivitas rumah tangga tidak mencemari lingkungan dan aman bagi kesehatan
 - **masyarakat.** Sementara untuk tingkat kemantapan jalan masih perlu peningkatan
@@ -3500,7 +3500,7 @@ agar memudahkan mobilitas orang dan kendaraan sehingga dapat meningkatkan
 produktivitasnya.
                                    Tabel 2.14
               Kinerja Urusan Pekerjaan Umum dan Penataan Ruang
-                        Kota Sukabumi Tahun 2020-2024
+                        Kota Cirebon Tahun 2020-2024
  NO        INDIKATOR          SATUAN                 CAPAIAN TAHUN
                                         2020     2021    2022    2023      2024
  1  Rasio luas kawasan         Persen   478,95   57,32   57,32   18,45     18,45
@@ -3537,13 +3537,13 @@ produktivitasnya.
     kewenangan
     pengawasannya tanpa
     kecelakaan konstruksi
- Sumber: DPUPR Kota Sukabumi, 2025
+ Sumber: DPUPR Kota Cirebon, 2025
 
 ---
 
 ### 2.1.5.4 URUSAN PERUMAHAN RAKYAT DAN KAWASAN PERMUKIMAN
          Kinerja urusan perumahan dan kawasan permukiman di Kota
-Sukabumi yang masih perlu peningkatan terutama berkaitan dengan
+Cirebon yang masih perlu peningkatan terutama berkaitan dengan
 permukiman kumuh, jumlah rumah tidak layak huni (RTLH), dan PSU. Hal
 ini didasarkan pada realisasi capaian untuk masing-masing indikator yang
 belum sepenuhnya mencapai 100 persen. Hal ini penting agar produktivitas
@@ -3551,7 +3551,7 @@ masyarakat makin meningkat karena lingkungan tempat tinggalnya bersih
 dan sehat.
                                       Tabel 2.15
                Kinerja Urusan Perumahan Rakyat dan Kawasan Permukiman
-                            Kota Sukabumi Tahun 2020-2024
+                            Kota Cirebon Tahun 2020-2024
     NO          INDIKATOR         SATUAN                          CAPAIAN TAHUN
                                                 2020          2021       2022       2023        2024
     1  Penyediaan dan rehabilitasi Persen       24,49         100        100            100     100
@@ -3568,19 +3568,19 @@ dan sehat.
        sudah dilengkapi PSU
        (Prasarana, Sarana dan
        Utilitas Umum)
-    Sumber: DPUPR Kota Sukabumi, 2025
+    Sumber: DPUPR Kota Cirebon, 2025
 
 ### 2.1.5.5 URUSAN KETENTERAMAN DAN KETERTIBAN UMUM SERTA
               PERLINDUNGAN MASYARAKAT
          Capaian kinerja urusan ketenteraman dan ketertiban umum serta
-perlindungan masyarakat di Kota Sukabumi rata-rata sudah berada pada
+perlindungan masyarakat di Kota Cirebon rata-rata sudah berada pada
 kategori sangat tinggi (91-100). Namun indikator layanan pencegahan dan
 kesiapsiagaan terhadap bencana yang realisasinya mengalami penurunan.
-Kondisi ini perlu menjadi perhatian mengingat Kota Sukabumi masih rawan
+Kondisi ini perlu menjadi perhatian mengingat Kota Cirebon masih rawan
 terhadap ancaman bencana seperti banjir, longsor, dan gempa bumi.
                                      Tabel 2.16
          Kinerja Urusan Ketenteraman dan Ketertiban Umum serta Perlindungan
-                     Masyarakat Kota Sukabumi Tahun 2020-2024
+                     Masyarakat Kota Cirebon Tahun 2020-2024
     NO           INDIKATOR             SATUAN                         CAPAIAN TAHUN
                                                     2020          2021       2022        2023       2024
     1    Persentase gangguan           Persen           100       100        100          100       100
@@ -3611,16 +3611,16 @@ NO            INDIKATOR            SATUAN                     CAPAIAN TAHUN
     korban kebakaran
  7 Waktu tanggap (response time)   Menit      15         15        8,9     10,34    10,21
     penanganan kebakaran
- Sumber: Satpol PP dan Damkar Kota Sukabumi, 2025
+ Sumber: Satpol PP dan Damkar Kota Cirebon, 2025
 
 ### 2.1.5.6 URUSAN SOSIAL
-     Kinerja urusan sosial Kota Sukabumi sudah sangat tinggi dengan
+     Kinerja urusan sosial Kota Cirebon sudah sangat tinggi dengan
 realisasi mencapai 100 persen dalam kurun waktu 5 tahun terakhir. Capaian
 ini agar tetap dapat dipertahankan untuk ke depannya dengan lebih
 mengoptimalkan upaya mitigasi potensi-potensi yang dapat menyebabkan
 permasalahan sosial.
                                     Tabel 2.17
-              Kinerja Urusan Sosial Kota Sukabumi Tahun 2020-2024
+              Kinerja Urusan Sosial Kota Cirebon Tahun 2020-2024
 NO            INDIKATOR            SATUAN                     CAPAIAN TAHUN
                                                 2020    2021      2022     2023     2024
  1  Persentase penyandang            Persen      100    100        100        100   100
@@ -3635,10 +3635,10 @@ NO            INDIKATOR            SATUAN                     CAPAIAN TAHUN
     pada saat dan setelah tanggap
     darurat bencana daerah
     kab/kota
- Sumber: Dinsos Kota Sukabumi, 2025
+ Sumber: Dinsos Kota Cirebon, 2025
 
 ### 2.1.5.7 URUSAN TENAGA KERJA
-     Kinerja urusan tenaga kerja Kota Sukabumi yang masih memerlukan
+     Kinerja urusan tenaga kerja Kota Cirebon yang masih memerlukan
 peningkatan       terutama      terkait       dengan   peningkatan       kompetensi     dan
 penempatan tenaga kerja. Jika kedua indikator ini meningkat, tentunya akan
 
@@ -3651,7 +3651,7 @@ memperkuat sistem pendataan tenaga kerja hingga level terendah misalnya
 - **kelurahan.** Dengan demikian, intervensi yang dilakukan akan lebih tepat
 sasaran.
                                     Tabel 2.18
-           Kinerja Urusan Tenaga Kerja Kota Sukabumi Tahun 2020-2024
+           Kinerja Urusan Tenaga Kerja Kota Cirebon Tahun 2020-2024
 NO           INDIKATOR           SATUAN                    CAPAIAN TAHUN
                                            2020     2021       2022     2023   2024
  1  Persentase kegiatan yang     Persen    100       100        100     100     100
@@ -3672,18 +3672,18 @@ NO           INDIKATOR           SATUAN                    CAPAIAN TAHUN
     negeri) melalui mekanisme
     layanan antarkerja dalam
     wilayah kab/kota
- Sumber: Disnaker Kota Sukabumi, 2025
+ Sumber: Disnaker Kota Cirebon, 2025
 
 ### 2.1.5.8 PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK
      Kinerja urusan pemberdayaan perempuan dan perlindungan anak di
-Kota Sukabumi sudah menunjukkan peningkatan yang signifikan terutama
+Kota Cirebon sudah menunjukkan peningkatan yang signifikan terutama
 berkaitan rasio kekerasan terhadap perempuan. Namun pada capaian
 indikator belanja APBD yang responsif gender mengalami penurunan. Untuk
 itu, upaya untuk mengarusutamakan gender dalam pembangunan yang
 terefleksi dari belanja langsung perlu untuk ditingkatkan.
                                      Tabel 2.19
                   Kinerja Urusan Perempuan dan Perlindungan Anak
-                           Kota Sukabumi Tahun 2020-2024
+                           Kota Cirebon Tahun 2020-2024
 NO          INDIKATOR            SATUAN                CAPAIAN TAHUN
                                           2020     2021       2022     2023    2024
  1   Persentase ARG pada         Persen   63,92    77,369     78,94    58,55   41,75
@@ -3701,11 +3701,11 @@ NO          INDIKATOR            SATUAN                CAPAIAN TAHUN
        TPPO (per 100.000
 I        I
        penduduk perempuan)                  I
-    Sumber: Dalduk KB dan P3A Kota Sukabumi, 2025
+    Sumber: Dalduk KB dan P3A Kota Cirebon, 2025
 # I            I            I             I            I
 
 ### 2.1.5.9 URUSAN PANGAN
-             Kinerja ketahanan pangan Kota Sukabumi tahun 2024 berada pada
+             Kinerja ketahanan pangan Kota Cirebon tahun 2024 berada pada
 kondisi yang tahan. Namun persentase ketersediaan pangan (beras/jagung)
 menunjukkan angka yang menurun. Kondisi ini dapat disebabkan karena
 luas lahan pertanian yang menghasilkan kedua komoditas berkurang akibat
@@ -3713,22 +3713,22 @@ alih fungsi laham. Untuk mengatasi ketersediaan pangan tersebut dapat
 dilakukan           upaya      intensifikasi           lahan         pertanian           yang          ada      dan
 mengembangkan urban farming.
                                         Tabel 2.20
-                  Kinerja Urusan Pangan Kota Sukabumi Tahun 2020-2024
+                  Kinerja Urusan Pangan Kota Cirebon Tahun 2020-2024
     NO             INDIKATOR           SATUAN                               CAPAIAN TAHUN
                                                         2020          2021        2022          2023         2024
     1 Persentase ketersediaan pangan Persen             116,59       133,08       133,08        116,90       106,80
       (tersedianya cadangan
 I    Iberas/jagung sesuai kebutuhan) I
-  Sumber: DKP3 Kota Sukabumi, 2025
+  Sumber: DKP3 Kota Cirebon, 2025
 # I             I            I             I            I            I
 
 ### 2.1.5.10 URUSAN PERTANAHAN
-             Dari 3 indikator kinerja urusan pertanahan Kota Sukabumi yang
+             Dari 3 indikator kinerja urusan pertanahan Kota Cirebon yang
 diukur, hanya 1 indikator yang capaiannya sudah 100 persen. Pada indikator
 persentase          penetapan      tanah        untuk          pembangunan                 fasilitas         umum
 capaiannya 0 karena memang tidak ada rencana untuk itu.
                                          Tabel 2.21
-                 Kinerja Urusan Pertanahan Kota Sukabumi Tahun 2020-2024
+                 Kinerja Urusan Pertanahan Kota Cirebon Tahun 2020-2024
     NO             INDIKATOR           SATUAN                               CAPAIAN TAHUN
                                                         2020          2021        2022          2023         2024
     1  Persentase pemanfaatan tanah      Persen         26,65          -          85,37          100          100
@@ -3742,12 +3742,12 @@ capaiannya 0 karena memang tidak ada rencana untuk itu.
     3 Tersedianya lokasi                 Persen         26,65          -          85,37          100         65,80
        pembangunan dalam rangka
        penanaman modal
-    Sumber: DPUPR Kota Sukabumi, 2025
+    Sumber: DPUPR Kota Cirebon, 2025
 
 ---
 
 ### 2.1.5.11 URUSAN LINGKUNGAN HIDUP
-     Kinerja    urusan      lingkungan        hidup         Kota     Sukabumi      menghadapi
+     Kinerja    urusan      lingkungan        hidup         Kota     Cirebon      menghadapi
 permasalahan        yang    kompleks         terutama        berkaitan     dengan       kualitas
 lingkungan hidup dan pengelolaan persampahan.
 Sebagai kota yang sedang berkembang dengan segala aktivitasnya, ancaman
@@ -3758,7 +3758,7 @@ perlunya perubahan paradigma pengelolaan sampah secara terintegrasi dari
 hulu hingga hilir. Hal ini diharapkan dapat mengurangi timbulan sampah
 yang cenderung meningkat setiap tahunnya.
                                   Tabel 2.22
-       Kinerja Urusan Lingkungan Hidup Kota Sukabumi Tahun 2020-2024
+       Kinerja Urusan Lingkungan Hidup Kota Cirebon Tahun 2020-2024
 NO             INDIKATOR             SATUAN                        CAPAIAN TAHUN
                                                  2020         2021     2022     2023      2024
  1  Indeks Kualitas Lingkungan        Poin       59,58       60,30     59,71    60,00     62,53
@@ -3771,12 +3771,12 @@ NO             INDIKATOR             SATUAN                        CAPAIAN TAHUN
     PPLH dan PUU LH yang
     diterbitkan oleh Pemerintah
     Daerah kab/kota
- Sumber: DLH Kota Sukabumi, 2025
+ Sumber: DLH Kota Cirebon, 2025
 
 ### 2.1.5.12 URUSAN ADMINISTRASI KEPENDUDUKAN DAN PENCATATAN
            SIPIL
      Kinerja urusan administrasi kependudukan dan pencatatan sipil Kota
-Sukabumi pada indikator perekaman KTP elektronik dan kepemilikan akta
+Cirebon pada indikator perekaman KTP elektronik dan kepemilikan akta
 kelahiran sudah sangat tinggi. Namun perlu upaya peningkatan dengan
 memperluas         akses    dan      membuka              kesadaran     masyarakat       untuk
 meningkatkan kepemilikan Kartu Identitas Anak yang capaiannya masih
@@ -3787,7 +3787,7 @@ kependudukan oleh perangkat daerah.
 
                                    Tabel 2.23
          Kinerja Urusan Administrasi Kependudukan dan Pencatatan Sipil
-                        Kota Sukabumi Tahun 2020-2024
+                        Kota Cirebon Tahun 2020-2024
 
 NO             INDIKATOR            SATUAN                   CAPAIAN TAHUN
                                               2020        2021    2022    2023    2024
@@ -3800,11 +3800,11 @@ NO             INDIKATOR            SATUAN                   CAPAIAN TAHUN
     memanfaatkan data
     kependudukan berdasarkan
     perjanjian kerja sama
- Sumber: Disdukcapil Kota Sukabumi, 2025
+ Sumber: Disdukcapil Kota Cirebon, 2025
 
 ### 2.1.5.13     URUSAN          PENGENDALIAN              PENDUDUK     DAN      KELUARGA
              BERENCANA
-     Komposisi penduduk berdasarkan kelompok umur Kota Sukabumi
+     Komposisi penduduk berdasarkan kelompok umur Kota Cirebon
 cenderung muda, dengan mayoritas penduduk berada dalam rentang usia
 - **produktif.** Dengan kondisi demikian, urusan pengendalian penduduk dan
 keluarga berencana menjadi sangat penting agar komposisi penduduk tetap
@@ -3813,7 +3813,7 @@ kontrasepsi dan kebutuhan KB perlu menjadi perhatian mengingat keduanya
 merupakan hal penting yang mempengaruhi laju pertumbuhan penduduk.
                                      Tabel 2.24
            Kinerja Urusan Pengendalian Penduduk dan Keluarga Berencana
-                         Kota Sukabumi Tahun 2020-2024
+                         Kota Cirebon Tahun 2020-2024
 
 NO             INDIKATOR            SATUAN                   CAPAIAN TAHUN
                                               2020        2021    2022    2023    2024
@@ -3825,10 +3825,10 @@ NO             INDIKATOR            SATUAN                   CAPAIAN TAHUN
  3 Persentase kebutuhan ber-KB      Persen     8,11       9,33    9,24    10,89   7,54
     yang tidak terpenuhi (unmet
     need)
- Sumber: Dalduk KB dan P3A Kota Sukabumi, 2025
+ Sumber: Dalduk KB dan P3A Kota Cirebon, 2025
 
 ### 2.1.5.14 URUSAN PERHUBUNGAN
-     Kinerja urusan perhubungan Kota Sukabumi yang diukur dengan rasio
+     Kinerja urusan perhubungan Kota Cirebon yang diukur dengan rasio
 konektivitas menunjukkan bahwa seluruh wilayah sudah terkoneksi. Namun
 pada derajat kejenuhan (v/c rasio) menunjukkan angka yang menurun
 dalam 5 tahun terakhir. Hal ini menunjukkan bahwa kinerja lalu lintas
@@ -3838,14 +3838,14 @@ dalam 5 tahun terakhir. Hal ini menunjukkan bahwa kinerja lalu lintas
 menunjukkan perbaikan meskipun pada titik-titik tertentu sangat rawan
 terjadi kemacetan.
                                         Tabel 2.25
-                Kinerja Urusan Perhubungan Kota Sukabumi Tahun 2020-2024
+                Kinerja Urusan Perhubungan Kota Cirebon Tahun 2020-2024
     NO             INDIKATOR           SATUAN                         CAPAIAN TAHUN
                                                     2020           2021         2022        2023        2024
     1    Rasio konektivitas kab/kota   Angka        80,8           100           1           1          0.9
 
 I        I
     2 V/C Ratio di Jalan kab/kota
-    Sumber: Dishub Kota Sukabumi, 2025
+    Sumber: Dishub Kota Cirebon, 2025
                                        Angka
 # I   0,48
 # I   0,38
@@ -3855,14 +3855,14 @@ I        I
                                                                                                                 I
 
 ### 2.1.5.15 URUSAN KOMUNIKASI DAN INFORMATIKA
-             Kinerja urusan komunikasi dan informatika Kota Sukabumi yang
+             Kinerja urusan komunikasi dan informatika Kota Cirebon yang
 diukur dari 3 indikator sebagaimana pada tabel di bawah sudah
 menunjukkan capaian yang menurun di tahun 2024. Untuk itu diperlukan
 upaya percepatan transformasi digital di pemerintahan agar capaian
 indikator kinerja ke depannya semakin meningkat.
                                           Tabel 2.26
                           Kinerja Urusan Komunikasi dan Informatika
-                               Kota Sukabumi Tahun 2020-2024
+                               Kota Cirebon Tahun 2020-2024
     NO              INDIKATOR           SATUAN                            CAPAIAN TAHUN
                                                         2020        2021         2022       2023        2024
     1
@@ -3878,55 +3878,55 @@ indikator kinerja ke depannya semakin meningkat.
     kebijakan dan program prioritas
     pemerintah dan pemerintah
     kab/kota
-Sumber: Diskominfo Kota Sukabumi, 2025
+Sumber: Diskominfo Kota Cirebon, 2025
 
 ### 2.1.5.16 URUSAN KOPERASI, USAHA KECIL DAN MENENGAH
-             Kinerja urusan koperasi, usaha kecil dan menengah Kota Sukabumi
+             Kinerja urusan koperasi, usaha kecil dan menengah Kota Cirebon
 menunjukkan tren yang meningkat. Meskipun demikian perlu upaya yang
 signifikan agar keberadaan koperasi semakin berkualitas dan pemenuhan
-jumlah wirausaha dapat mencapai minimal 4 persen agar Kota Sukabumi
+jumlah wirausaha dapat mencapai minimal 4 persen agar Kota Cirebon
 makin berkembang.
 
 ---
 
                                          Tabel 2.27
                      Kinerja Urusan Koperasi, Usaha Kecil dan Menengah
-                              Kota Sukabumi Tahun 2020-2024
+                              Kota Cirebon Tahun 2020-2024
     NO             INDIKATOR                  SATUAN                              CAPAIAN TAHUN
                                                                2020          2021          2022          2023          2024
     1 Meningkatnya koperasi yang      Persen                  13,16         14,83        18,98          21,70        27,04
       berkualitas
    2 Meningkatnya usaha mikro yang    Persen                   100           100           100           100           100
 11    menjadi wirausaha            I                     I             I             I             I             I            I
-   Sumber: Diskumindag Kota Sukabumi, 2025
+   Sumber: Diskumindag Kota Cirebon, 2025
 
 ### 2.1.5.17 URUSAN PENANAMAN MODAL
-             Kinerja urusan penanaman modal Kota Sukabumi mengalami perbaikan
+             Kinerja urusan penanaman modal Kota Cirebon mengalami perbaikan
 meskipun masih minus di tahun 2024. Kondisi demikian memerlukan upaya
 terutama berkaitan dengan pemetaan potensi investasi dan promosi investasi
 yang masif serta meningkatkan dinamisme bisnis (kemudahan berinvestasi).
                                            Tabel 2.28
                                 Kinerja Urusan Penanaman Modal
-                                Kota Sukabumi Tahun 2020-2024
+                                Kota Cirebon Tahun 2020-2024
     NO           INDIKATOR                SATUAN                           CAPAIAN TAHUN
                                                        2020          2021          2022           2023          2024
     1  Persentase peningkatan   Persen                 50,05        451,16         -2,60           -1           0,34
 I        I
        investasi di kab/kota          I
-    Sumber: DPMPTSP Kota Sukabumi, 2025
+    Sumber: DPMPTSP Kota Cirebon, 2025
 # I            I             I             I              I             I
 
 ### 2.1.5.18 URUSAN KEPEMUDAAN DAN OLAH RAGA
-             Kinerja urusan kepemudaan dan olah raga Kota Sukabumi memerlukan
+             Kinerja urusan kepemudaan dan olah raga Kota Cirebon memerlukan
 peningkatan yang signifikan. Hal ini dikarenakan tingkat partisipasi pemuda
 dalam kegiatan ekonomi mandiri dan partisipasi pemuda dalam organisasi
 kepemudaan masih rendah. Mengingat potensi ekonomi kreatif Kota
-Sukabumi cukup besar maka diperlukan pemberdayaan pemuda dalam
+Cirebon cukup besar maka diperlukan pemberdayaan pemuda dalam
 ekosistem kreatif sehingga dapat berkontribusi bagi pengembangan ekonomi
 lokal.
                                           Tabel 2.29
                           Kinerja Urusan Kepemudaan dan Olah Raga
-                               Kota Sukabumi Tahun 2020-2024
+                               Kota Cirebon Tahun 2020-2024
     NO           INDIKATOR                SATUAN                           CAPAIAN TAHUN
                                                        2020          2021          2022          2023           2024
     1    Tingkat partisipasi pemuda       Persen       17,6          25,59         24.19         25,40         27,39
@@ -3945,15 +3945,15 @@ lokal.
     3  Peningkatan prestasi        Jenis      9        15        17         36      43
 I        I
        olahraga
-    Sumber: Disporapar Kota Sukabumi, 2025
+    Sumber: Disporapar Kota Cirebon, 2025
 
 ### 2.1.5.19 URUSAN STATISTIK
-             Kinerja urusan statistik Kota Sukabumi sudah sangat tinggi. Meski
+             Kinerja urusan statistik Kota Cirebon sudah sangat tinggi. Meski
 demikian upaya untuk meningkatkan pelayanan kepada pengguna eksternal
 (selain perangkat daerah) perlu ditingkatkan mengingat data statistik sebagai
 salah satu bentuk informasi yang perlu diketahui banyak pihak.
                                            Tabel 2.30
-                   Kinerja Urusan Statistik Kota Sukabumi Tahun 2020-2024
+                   Kinerja Urusan Statistik Kota Cirebon Tahun 2020-2024
     NO            INDIKATOR       SATUAN                    CAPAIAN TAHUN
                                              2020     2021      2022    2023       2024
     1  Persentase OPD yang        Persen     71,87    100        50         100    100
@@ -3965,35 +3965,35 @@ salah satu bentuk informasi yang perlu diketahui banyak pihak.
        menggunakan data statistik
        dalam melakukan evaluasi
        pembangunan daerah
-    Sumber: Diskominfo Kota Sukabumi, 2025
+    Sumber: Diskominfo Kota Cirebon, 2025
 
 ### 2.1.5.20 URUSAN PERSANDIAN
-             Kinerja   urusan   persandian     Kota    Sukabumi        sudah      mengalami
+             Kinerja   urusan   persandian     Kota    Cirebon        sudah      mengalami
 peningkatan dalam kurun 5 tahun terakhir. Namun demikian, upaya untuk
 memperkuat sistem keamanan perlu ditingkatkan mengingat ancaman
 serangan cyber semakin masif.
                                          Tabel 2.31
-                 Kinerja Urusan Persandian Kota Sukabumi Tahun 2020-2024
+                 Kinerja Urusan Persandian Kota Cirebon Tahun 2020-2024
     NO            INDIKATOR       SATUAN                    CAPAIAN TAHUN
                                              2020     2021      2022    2023       2024
     1
     Tingkat keamanan           Persen         0       62,95      20     70,69     61,24
 I        I
     informasi pemerintah
-Sumber: Diskominfo Kota Sukabumi, 2025
+Sumber: Diskominfo Kota Cirebon, 2025
 
 ### 2.1.5.21 URUSAN KEBUDAYAAN
-             Kinerja urusan kebudayaan Kota Sukabumi yang ditunjukkan dengan
+             Kinerja urusan kebudayaan Kota Cirebon yang ditunjukkan dengan
 indikator terlestarikannya cagar budaya masih memerlukan peningkatan
 untuk ke depannya. Hal ini penting sebagai salah satu bentuk kepedulian
-terhadap warisan budaya yang mewarnai perkembangan Kota Sukabumi
+terhadap warisan budaya yang mewarnai perkembangan Kota Cirebon
 
 ---
 
 hingga seperti sekarang ini. Selain itu, pelestarian ini juga untuk menunjang
 perkembangan wisata budaya.
                                         Tabel 2.32
-                Kinerja Urusan Kebudayaan Kota Sukabumi Tahun 2020-2024
+                Kinerja Urusan Kebudayaan Kota Cirebon Tahun 2020-2024
     NO           INDIKATOR            SATUAN                              CAPAIAN TAHUN
                                                      2020           2021          2022         2023          2024
     1
@@ -4001,34 +4001,34 @@ perkembangan wisata budaya.
 I        I
     Budaya                        I
                                Persen
-Sumber: Disdikbud Kota Sukabumi, 2025
+Sumber: Disdikbud Kota Cirebon, 2025
 # I              I             I            I             I             I
 
 ### 2.1.5.22 URUSAN PERPUSTAKAAN
-             Kinerja urusan perpustakaan Kota Sukabumi menghadapi tantangan
+             Kinerja urusan perpustakaan Kota Cirebon menghadapi tantangan
 yang serius. Hal ini erat terkait dengan perkembangan teknologi informasi
 yang serba digital dan cenderung menonjolkan visual. Untuk itu perlu upaya
 ekstra untuk meningkatkan literasi masyarakat dengan menyesuaikan
 perilaku masyarakat saat ini dan ke depannya mengingat tingkat kegemaran
-membaca masyarakat Kota Sukabumi mengalami penurunan di tahun 2024.
+membaca masyarakat Kota Cirebon mengalami penurunan di tahun 2024.
                                          Tabel 2.33
-                Kinerja Urusan Perpustakaan Kota Sukabumi Tahun 2020-2024
+                Kinerja Urusan Perpustakaan Kota Cirebon Tahun 2020-2024
     NO             INDIKATOR             SATUAN                                 CAPAIAN TAHUN
                                                             2020          2021         2022          2023          2024
     1 Nilai tingkat kegemaran          Nilai                61,49         65,34        70,10         70,42         69,27
       membaca masyarakat
    2 Indeks Pembangunan Literasi      Indeks                55,06         39,68        96,85         82,15         87,81
 11    Masyarakat                    I                 I              I             I             I            I            I
-   Sumber: Dispusip Kota Sukabumi, 2025
+   Sumber: Dispusip Kota Cirebon, 2025
 
 ### 2.1.5.23 URUSAN KEARSIPAN
-             Kinerja urusan kearsipan Kota Sukabumi masih memerlukan upaya
+             Kinerja urusan kearsipan Kota Cirebon masih memerlukan upaya
 perbaikan meskipun capaiannya cenderung meningkat. Seiring dengan
 transformasi digital yang akan mempengaruhi sistem kearsipan ke depannya
 maka diperlukan juga upaya untuk menerapkan arsip digital sehingga lebih
 menghemat tempat dan lebih tersistem.
                                         Tabel 2.34
-                 Kinerja Urusan Kearsipan Kota Sukabumi Tahun 2020-2024
+                 Kinerja Urusan Kearsipan Kota Cirebon Tahun 2020-2024
     NO               INDIKATOR                 SATUAN                             CAPAIAN TAHUN
                                                                   2020      2021         2022         2023          2024
     1    Tingkat ketersediaan arsip sebagai        Persen         55,03     56,03        63,12        64,61        64,79
@@ -4048,29 +4048,29 @@ menghemat tempat dan lebih tersistem.
     pemerintahan, pelayanan publik dan
 I        I
     kesejahteraan rakyat
-Sumber: Dispusip Kota Sukabumi, 2025
+Sumber: Dispusip Kota Cirebon, 2025
 # I            I
 
 ### 2.1.5.24 URUSAN KELAUTAN DAN PERIKANAN
-             Kota Sukabumi tidak memiliki garis pantai sehingga produksi perikanan
+             Kota Cirebon tidak memiliki garis pantai sehingga produksi perikanan
 yang dihasilkan lebih bersumber dari perikanan budidaya. Mengingat
 karakteristik wilayah yang berkarakter kota maka diperlukan intensifikasi
 budidaya perikanan agar produksinya makin meningkat.
                                            Tabel 2.35
                              Kinerja Urusan Kelautan dan Perikanan
-                                Kota Sukabumi Tahun 2020-2024
+                                Kota Cirebon Tahun 2020-2024
     NO              INDIKATOR           SATUAN                           CAPAIAN TAHUN
                                                       2020            2021       2022     2023          2024
     1
     Jumlah Total Produksi Perikanan Jumlah            1.243,         1.388,     1.368,    102,89       100,20
 I        I
     (Tangkap dan Budidaya) Kab/kota
-Sumber: DKP3 Kota Sukabumi, 2025
+Sumber: DKP3 Kota Cirebon, 2025
                                      (ton)        I     83       I
 # 07         95               I            I
 
 ### 2.1.5.25 URUSAN PARIWISATA
-             Kinerja urusan pariwisata Kota Sukabumi cenderung fluktuatif dan
+             Kinerja urusan pariwisata Kota Cirebon cenderung fluktuatif dan
 menunjukkan kinerja positif di tahun 2024. Kondisi ini masih memerlukan
 peningkatan mengingat potensi wisata belum sepenuhnya dioptimalkan dan
 dukungan industri kreatif juga cukup besar. Pengembangan ini perlu
@@ -4078,7 +4078,7 @@ dilakukan           secara      berkelanjutan     sehingga               dapat  
 pertumbuhan ekonomi baru selain sektor industri pengolahan, perdagangan,
 dan transportasi.
                                           Tabel 2.36
-                  Kinerja Urusan Pariwisata Kota Sukabumi Tahun 2020-2024
+                  Kinerja Urusan Pariwisata Kota Cirebon Tahun 2020-2024
     NO              INDIKATOR          SATUAN                            CAPAIAN TAHUN
                                                       2020            2021       2022      2023         2024
     1
@@ -4093,18 +4093,18 @@ dan transportasi.
     terhadap PDRB harga berlaku
   5 Kontribusi sektor pariwisata    Rupiah        13.419.            46.861.    22.448.    6,03         5,71
     terhadap PAD                                  712.356            100.000    213.698     (%)          (%)
-Sumber: Disporapar Kota Sukabumi, 2025
+Sumber: Disporapar Kota Cirebon, 2025
 
 ---
 
 ### 2.1.5.26 URUSAN PERTANIAN
-      Kota Sukabumi memiliki lahan pertanian yang semakin berkurang
+      Kota Cirebon memiliki lahan pertanian yang semakin berkurang
 seiring dengan alih fungsi lahan yang masif. Untuk tetap menjaga dan
 meningkatkan produktivitas pertaniannya perlu dilakukan berbagai upaya,
 di antaranya dengan meningkatkan intensifikasi dan menerapkan sistem
 urban farming.
                                      Tabel 2.37
-             Kinerja Urusan Pertanian Kota Sukabumi Tahun 2020-2024
+             Kinerja Urusan Pertanian Kota Cirebon Tahun 2020-2024
  NO            INDIKATOR              SATUAN                           CAPAIAN TAHUN
                                                     2020         2021         2022         2023         2024
   1 Produktivitas pertanian per        Ton          664,65       664,65       664,65       668,58       666,44
@@ -4112,17 +4112,17 @@ urban farming.
   2 Persentase penurunan kejadian     Persen        26,87          0            0           100           0
     dan jumlah kasus penyakit
 11 hewan menular
-Sumber: DKP3 Kota Sukabumi, 2025
+Sumber: DKP3 Kota Cirebon, 2025
 # I             I            I            I            I            I            I
 
 ### 2.1.5.27 URUSAN PERDAGANGAN
-      Kinerja urusan perdagangan Kota Sukabumi sudah sangat tinggi, hanya
+      Kinerja urusan perdagangan Kota Cirebon sudah sangat tinggi, hanya
 pada indikator persentase kinerja realisasi pupuk yang hanya 67,00 persen.
-Kondisi ini dapat dimaklumi mengingat Kota Sukabumi tidak mengandalkan
+Kondisi ini dapat dimaklumi mengingat Kota Cirebon tidak mengandalkan
 pertanian sebagai mesin pertumbuhan ekonomi dan keberadaan lahan
 pertanian yang semakin berkurang.
                                    Tabel 2.38
-           Kinerja Urusan Perdagangan Kota Sukabumi Tahun 2020-2024
+           Kinerja Urusan Perdagangan Kota Cirebon Tahun 2020-2024
  NO            INDIKATOR              SATUAN                           CAPAIAN TAHUN
                                                     2020         2021         2022         2023         2024
   1 Persentase pelaku usaha yang      Persen         6,19         100           -           100          100
@@ -4137,12 +4137,12 @@ pertanian yang semakin berkurang.
     timbang, dan perlengkapannya                                                75
     (UTTP) bertanda tera sah yang
     berlaku
-Sumber: Diskumindag Kota Sukabumi, 2025
+Sumber: Diskumindag Kota Cirebon, 2025
 
 ### 2.1.5.28 URUSAN PERINDUSTRIAN
-      Perkembangan kinerja urusan perindustrian Kota Sukabumi sangat
+      Perkembangan kinerja urusan perindustrian Kota Cirebon sangat
 positif terutama pada indikator pertambahan jumlah industri kecil dan
-- **menengah.** Mengingat Kota Sukabumi sudah tidak memungkinkan menjadi
+- **menengah.** Mengingat Kota Cirebon sudah tidak memungkinkan menjadi
 
 ---
 
@@ -4151,7 +4151,7 @@ ini penting dilakukan untuk mendukung perekonomian kota. Selain itu,
 pengembangan industri kecil dan menengah ini agar diarahkan untuk
 mendukung pengembangan industri kreatif.
                                      Tabel 2.39
-           Kinerja Urusan Perindustrian Kota Sukabumi Tahun 2020-2024
+           Kinerja Urusan Perindustrian Kota Cirebon Tahun 2020-2024
  NO            INDIKATOR             SATUAN                      CAPAIAN TAHUN
                                                     2020   2021      2022        2023    2024
   1 Pertambahan jumlah industri        Persen       3,88   0,42      3,19        2,21    2,66
@@ -4176,7 +4176,7 @@ mendukung pengembangan industri kreatif.
     oleh instansi terkait
   5 Tersedianya informasi industri     Buku          85     85           1       95 %    55
     secara lengkap dan terkini
-Sumber: Diskumindag Kota Sukabumi, 2025
+Sumber: Diskumindag Kota Cirebon, 2025
 
 ### 2.1.7 CAPAIAN TUJUAN PEMBANGUNAN BERKELANJUTAN
       Tujuan       Pembangunan           Berkelanjutan           (TPB)        adalah    agenda
@@ -4195,14 +4195,14 @@ ekonomi sehingga mencapai kesejahteraan ekonomi yang berkelanjutan.
                                 Gambar 2.49
                             Keterkaitan Pilar TPB
 
-Sumber: KLHS RPJMD Kota Sukabumi, 2025
+Sumber: KLHS RPJMD Kota Cirebon, 2025
     Terdapat 5 TPB yang termasuk dalam pilar ekonomi, yaitu TPB 7 (Energi
 Bersih dan Terjangkau), TPB 8 (Pekerjaan Layak dan Pertumbuhan
 Ekonomi), TPB 9 (Industri, Inovasi, dan Infrastruktur), TPB 10 (Berkurangnya
 Kesenjangan), dan TPB 17 (Kemitraan untuk Mencapai Tujuan). Jumlah
 indikator TPB dalam Pilar Ekonomi yang menjadi kewenangan Kota
-Sukabumi berjumlah 45 indikator. Sebagian indikator TPB Pilar Ekonomi di
-Kota Sukabumi didominasi dengan indikator sudah dilaksanakan dan sudah
+Cirebon berjumlah 45 indikator. Sebagian indikator TPB Pilar Ekonomi di
+Kota Cirebon didominasi dengan indikator sudah dilaksanakan dan sudah
 mencapai target nasional (SS) sebanyak 22 (48,89 persen) indikator, lalu
 indikator belum dilaksanakan dan belum mencapai target nasional (BB)
 sebanyak 11 (24,44 persen) indikator, lalu sudah dilaksanakan tetapi belum
@@ -4215,7 +4215,7 @@ perlu menjadi perhatian karena merupakan gap/permasalahan.
 Kelembagaan yang Tangguh) merupakan satu-satunya TPB yang termasuk
 dalam pilar hukum dan tata kelola kelembagaan. TPB 16 ini terdiri dari 21
 - **indikator.** Sebagian indikator TPB Pilar Hukum dan Tata Kelola di Kota
-Sukabumi didominasi dengan indikator sudah dilaksanakan dan sudah
+Cirebon didominasi dengan indikator sudah dilaksanakan dan sudah
 mencapai target nasional (SS) sebanyak 9 (42,86 persen) indikator, lalu
 indikator tidak/belum ada data (NA) sebanyak 6 (28,57 persen) indikator, lalu
 sudah dilaksanakan tetapi belum mencapai target nasional (SB) sebanyak 4
@@ -4232,11 +4232,11 @@ dan Sanitasi Layak), TPB, 11 (Kota dan Permukiman Berkelanjutan), TPB 12
 (Konsumsi dan Produksi yang Bertanggung Jawab), TPB 13 (Penanganan
 Perubahan Iklim), TPB 14 (Ekosistem Lautan), dan TPB 15 (Ekosistem
 Daratan).
-    Namun, TPB 14 tidak menjadi kewenangan Kota Sukabumi, melainkan
+    Namun, TPB 14 tidak menjadi kewenangan Kota Cirebon, melainkan
 merupakan     kewenangan      provinsi     sehingga   indikatornya     tidak
 diperhitungkan dalam analisis ini. Jumlah indikator TPB dalam Pilar
-Lingkungan Hidup yang menjadi kewenangan Kota Sukabumi berjumlah 31
-- **indikator.** Sebagian indikator TPB Pilar Lingkungan Hidup di Kota Sukabumi
+Lingkungan Hidup yang menjadi kewenangan Kota Cirebon berjumlah 31
+- **indikator.** Sebagian indikator TPB Pilar Lingkungan Hidup di Kota Cirebon
 didominasi dengan indikator sudah dilaksanakan dan sudah mencapai target
 nasional (SS) sebanyak 21 (67,74 persen) indikator, lalu sudah dilaksanakan
 tetapi belum mencapai target nasional (SB) sebanyak 6 (19,35 persen)
@@ -4250,11 +4250,11 @@ perlu menjadi perhatian karena merupakan gap/permasalahan.
 ### 2.1.8 PROYEKSI SARANA PRASARANA PELAYANAN PUBLIK
 
 ### 2.1.8.1 RUMAH/TEMPAT TINGGAL
-    Kebutuhan rumah di Kota Sukabumi menunjukkan tren meningkat
+    Kebutuhan rumah di Kota Cirebon menunjukkan tren meningkat
 seiring dengan pertambahan penduduk dan perkembangan kota. Kesenjangan
 ketersediaan eksisting dengan kebutuhan rumah sekitar 3.500 unit di tahun
 2025 dan akan meningkat terus hingga tahun 2030.
-    Berdasarkan RTRW Kota Sukabumi Tahun 2022-2042, peruntukan
+    Berdasarkan RTRW Kota Cirebon Tahun 2022-2042, peruntukan
 kawasan permukiman dialokasikan seluas kurang lebih 2.761 hektar terdiri
 atas kawasan perumahan, kawasan fasilitas umum dan fasilitas sosial, dan
 
@@ -4264,14 +4264,14 @@ kawasan ruang terbuka non hijau. kondisi wilayah yang terbatas dan rawan
 terhadap bencana maka penyediaan rumah dengan konsep vertikal dan
 tahan terhadap bencana perlu mulai diterapkan untuk 5 tahun ke depan.
                                     Gambar 2.50
-                    Kebutuhan Rumah Kota Sukabumi Tahun 2025-2030
+                    Kebutuhan Rumah Kota Cirebon Tahun 2025-2030
 
 ### 92.670                                               98.655
               unit                                                 unit
-      Sumber: RPJPD Kota Sukabumi Tahun 2025-2045 (diolah)
+      Sumber: RPJPD Kota Cirebon Tahun 2025-2045 (diolah)
 
 ### 2.1.8.2 AIR MINUM
-    Kebutuhan air di Kota Sukabumi tahun 2025 diperkirakan sudah
+    Kebutuhan air di Kota Cirebon tahun 2025 diperkirakan sudah
 mencapai 46.335.125 liter/hari. Angka tersebut akan meningkat menjadi
 
 ### 49.327.625 liter/hari di tahun 2030. Kebutuhan air yang meningkat tersebut
@@ -4282,11 +4282,11 @@ seiring dengan perkembangan kota dan aktivitas masyarakat yang juga
 5 tahun ke depan.
 
                                 Gambar 2.51
-             Kebutuhan Air Minum Kota Sukabumi Tahun 2025-2030
+             Kebutuhan Air Minum Kota Cirebon Tahun 2025-2030
 
 ### 46.335.125                                               J l l49.327.625
          lt/detik                                              jll- lt/detik
-      Sumber: RPJPD Kota Sukabumi Tahun 2025-2045 (diolah)
+      Sumber: RPJPD Kota Cirebon Tahun 2025-2045 (diolah)
 
     Untuk      memenuhi        kebutuhan      air   tersebut    diarahkan    dengan
 menggunakan sistem jaringan perpipaan dan bukan jaringan perpipaan.
@@ -4303,19 +4303,19 @@ hujan di seluruh kecamatan dan terminal air di Kecamatan Cikole.
 
 ### 2.1.8.3 LISTRIK
      Seiring dengan bertambahnya jumlah penduduk dan aktivitas ekonomi
-yang terus meningkat, kebutuhan akan energi listrik di Kota Sukabumi di
-proyeksikan juga akan makin besar. Kebutuhan energi listrik di Kota Sukabumi
+yang terus meningkat, kebutuhan akan energi listrik di Kota Cirebon di
+proyeksikan juga akan makin besar. Kebutuhan energi listrik di Kota Cirebon
 tahun 2030 diperkirakan mencapai 67.085.570 kVA. Sementara itu, pasokan
 listrik saat ini sebesar 60.589.700 kVA.
 
                                      Gambar 2.52
-                  Kebutuhan Listrik Kota Sukabumi Tahun 2025-2030
+                  Kebutuhan Listrik Kota Cirebon Tahun 2025-2030
 
 ### 63.015.770                                          67.085.570
                   kVA                                            kVA
-       Sumber: RPJPD Kota Sukabumi Tahun 2025-2045 (diolah)
+       Sumber: RPJPD Kota Cirebon Tahun 2025-2045 (diolah)
 
-     Untuk memenuhi kebutuhan listrik di Kota Sukabumi yang makin
+     Untuk memenuhi kebutuhan listrik di Kota Cirebon yang makin
 meningkat diperlukan infrastruktur pembangkitan tenaga listrik dan sarana
 pendukung serta jaringan infrastruktur penyaluran tenaga listrik dan sarana
 - **pendukungnya.** Infrastruktur pembangkitan tenaga listrik dan sarana
@@ -4325,7 +4325,7 @@ Kecamatan Cikole serta Pembangkit Listrik Tenaga Mikro Hidro (PLTMH) di
 Kelurahan Karangtengah Kecamatan Gunungpuyuh.
 
 ### 2.1.8.4 PERSAMPAHAN
-     Seiring dengan bertambahnya jumlah penduduk Kota Sukabumi, maka
+     Seiring dengan bertambahnya jumlah penduduk Kota Cirebon, maka
 timbulan sampah akan terus bertambah. Jika diproyeksikan, jumlah sampah
 yang dihasilkan diperkirakan mencapai 73.458.699 liter/hari di tahun 2030.
 Kondisi ini meningkat jika dibandingkan tahun 2022 yang sebesar 66.345.722
@@ -4334,7 +4334,7 @@ liter per hari.
 ---
 
                                Gambar 2.53
-              Timbulan Sampah Kota Sukabumi Tahun 2025-2030
+              Timbulan Sampah Kota Cirebon Tahun 2025-2030
 
              •            2025
 
@@ -4343,12 +4343,12 @@ liter per hari.
               lt/hari
                                                             73.458.699
                                                               lt/hari
-     Sumber: RPJPD Kota Sukabumi Tahun 2025-2045 (diolah)
+     Sumber: RPJPD Kota Cirebon Tahun 2025-2045 (diolah)
     Jika mengacu pada pola business as usual, yakni dengan mengangkut
 mayoritas sampah ke TPA, maka persoalan selanjutnya akan muncul.
 Setidaknya ada sekitar 83 persen timbulan sampah yang dikirimkan ke TPA.
 Sisanya diolah secara mandiri di rumah, diolah secara komunitas, serta
-dilakukan 3R. Oleh karena itu, sistem jaringan persampahan Kota Sukabumi
+dilakukan 3R. Oleh karena itu, sistem jaringan persampahan Kota Cirebon
 direncanakan terdiri atas stasiun peralihan antara di Kelurahan Citamiang
 Kecamatan Citamiang, tempat pengelolaan sampah reuse, reduce, recycle yang
 tersebar di seluruh kecamatan, tempat penampungan sementara yang tersebar
@@ -4357,13 +4357,13 @@ Kecamatan Lembursitu.
 
 ### 2.1.8.5 PENDIDIKAN
     Dari semua jenjang pendidikan, ketersediaan sarana pendidikan di Kota
-Sukabumi hingga tahun 2030 masih memerlukan penambahan. Hal ini perlu
+Cirebon hingga tahun 2030 masih memerlukan penambahan. Hal ini perlu
 diantisipasi meskipun kemajuan teknologi informasi dan perkembangan
 sistem belajar mengajar akan berpengaruh terhadap perlu atau tidaknya
 penambahan sarana pendidikan tersebut.
 
                                Gambar 2.54
-        Kebutuhan Sarana Pendidikan Kota Sukabumi Tahun 2025-2030
+        Kebutuhan Sarana Pendidikan Kota Cirebon Tahun 2025-2030
 
 # PAUD; 840
 
@@ -4373,19 +4373,19 @@ penambahan sarana pendidikan tersebut.
 
    SMA/SMK/MA;    1.023                                      SMA/SMK/MA;     1.023
 
-   Sumber: RPJPD Kota Sukabumi Tahun 2025-2045 (diolah)
+   Sumber: RPJPD Kota Cirebon Tahun 2025-2045 (diolah)
 
 ---
 
 ### 2.1.8.6 KESEHATAN
-       Di Kota Sukabumi sudah terdapat berbagai pelayanan kesehatan primer
+       Di Kota Cirebon sudah terdapat berbagai pelayanan kesehatan primer
 yang merupakan pelayanan kesehatan terdekat dari masyarakat dan menjadi
 tonggak utama di bidang kesehatan masyarakat. Jumlah puskesmas di Kota
-Sukabumi tahun 2022 sebanyak 15 puskesmas. Adapun jumlah rumah sakit
+Cirebon tahun 2022 sebanyak 15 puskesmas. Adapun jumlah rumah sakit
 tahun 2022 sebanyak 6 Rumah Sakit dengan status milik Pemerintah Daerah
 sebanyak 2 rumah sakit, swasta 3 rumah sakit dan 1 rumah sakit milik Polri.
                                   Tabel 2.41
-          Kebutuhan Sarana Kesehatan Kota Sukabumi Tahun 2025-2030
+          Kebutuhan Sarana Kesehatan Kota Cirebon Tahun 2025-2030
    NO                FASILITAS KESEHATAN                2025       2030
 # (UNIT)     (UNIT)
 
@@ -4405,9 +4405,9 @@ sebanyak 2 rumah sakit, swasta 3 rumah sakit dan 1 rumah sakit milik Polri.
           ▪ Laboraturium Kesehatan                      6          7
           ▪ Apotik                                      77         78
           ▪ Unit Transfusi                              1          1
-Sumber: RPJPD Kota Sukabumi Tahun 2025-2045 (diolah)
+Sumber: RPJPD Kota Cirebon Tahun 2025-2045 (diolah)
 
-        Meskipun sarana kesehatan di Kota Sukabumi relatif sudah memadai,
+        Meskipun sarana kesehatan di Kota Cirebon relatif sudah memadai,
 namun terdapat beberapa fasilitas kesehatan yang perlu ditambahkan untuk
 5 tahun ke depan. Kebutuhan penambahan fasilitas kesehatan tersebut
 seperti pada tabel di atas.
@@ -4432,16 +4432,16 @@ Penjelasan untuk masing-masing komponen adalah sebagai berikut:
   dana darurat, dana bagi hasil pajak dari provinsi dan pemerintah daerah
   lainnya, dana penyesuaian dan otonomi khusus serta bantuan keuangan
   dari pemerintah provinsi atau daerah lainnya.
-     Capaian realisasi Pendapatan Daerah Kota Sukabumi atas target yang
+     Capaian realisasi Pendapatan Daerah Kota Cirebon atas target yang
 ditetapkan           pada       periode       2020-2024             cenderung     fluktuatif.         Rata-rata
 capaiannya dalam kurun waktu itu sebesar 85,64 persen. Kinerja
-Pendapatan Daerah Kota Sukabumi pada saat Pandemi Covid-19 (tahun
+Pendapatan Daerah Kota Cirebon pada saat Pandemi Covid-19 (tahun
 2020-2021) menunjukkan penurunan yang tajam dan berada pada angka
 67,40 persen di tahun 2021. Kinerja Pendapatan Daerah yang kurang dari
-100 persen tersebut menunjukkan bahwa Pemerintah Kota Sukabumi belum
+100 persen tersebut menunjukkan bahwa Pemerintah Kota Cirebon belum
 berhasil menghimpun sumber-sumber pendapatannya untuk memenuhi
 target yang ditetapkannya pada awal tahun rencana.
-     Pada tahun 2022-2024, Kinerja Pendapatan Daerah Kota Sukabumi
+     Pada tahun 2022-2024, Kinerja Pendapatan Daerah Kota Cirebon
 menunjukkan kinerja yang positif dan realisasinya melampaui target yang
 - **ditetapkan.** Kinerja pada periode ini                             dipengaruhi oleh beberapa faktor,
 seperti kondisi ekonomi regional dan nasional yang makin membaik, tingkat
@@ -4449,7 +4449,7 @@ konsumsi masyarakat yang meningkat, kebijakan pemerintah yang tepat,
 dan pengelolaan keuangan yang efektif dan efisien.
 
                                       Gambar 2.55
-               Capaian Kinerja Pendapatan Kota Sukabumi Tahun 2020-2024
+               Capaian Kinerja Pendapatan Kota Cirebon Tahun 2020-2024
 
                                                           108,56%
 
@@ -4457,25 +4457,25 @@ dan pengelolaan keuangan yang efektif dan efisien.
 
            ._._.   Pendapatan   -+--- PAD   ._._.   Pendapatan Transfer    Ullin-Lain Pe:ndapatan yanc: Sah
 
-Sumber: BPKPD Kota Sukabumi, 2025 (diolah)
+Sumber: BPKPD Kota Cirebon, 2025 (diolah)
 
 ---
 
      Jika dicermati per komponen pendapatan, realisasi Pendapatan Transfer
 selalu lebih tinggi dibandingkan komponen lainnya. Hal ini menunjukkan
-bahwa Kota Sukabumi dalam memenuhi kebutuhan pembangunan masih
+bahwa Kota Cirebon dalam memenuhi kebutuhan pembangunan masih
 mengandalkan dana transfer dari pemerintah pusat dan/atau pemerintah
 daerah lainnya.
-     Meskipun demikian, PAD Kota Sukabumi yang pada tahun 2021
+     Meskipun demikian, PAD Kota Cirebon yang pada tahun 2021
 mengalami penurunan signifikan, secara bertahap meningkat di tahun
 - **berikutnya.** Meningkatnya         proporsi      PAD      ini    berarti     meningkatnya
-kemandirian daerah. Semakin tinggi kemampuan daerah Kota Sukabumi
+kemandirian daerah. Semakin tinggi kemampuan daerah Kota Cirebon
 dalam menghasilkan PAD, maka semakin besar pula diskresi Pemerintah
-Kota Sukabumi untuk menggunakan PAD tersebut sesuai dengan aspirasi,
+Kota Cirebon untuk menggunakan PAD tersebut sesuai dengan aspirasi,
 kebutuhan, dan prioritas pembangunan daerah.
                                        Tabel 2.42
                             Target dan Realisasi Pendapatan
-                     Kota Sukabumi Tahun 2020-2024 (Miliar Rupiah)
+                     Kota Cirebon Tahun 2020-2024 (Miliar Rupiah)
          Komponen            2020       2021        2022       2023           2024   Rata-rata
 
  Target Pendapatan         1.593,754 1.845,889 1.190,541 1.242,719       1.307,949 1.436,170
@@ -4496,9 +4496,9 @@ kebutuhan, dan prioritas pembangunan daerah.
  ▪ Lain-lain Pendapatan      40,302    39,409     12,082       15,443     16,320      24,711
    yang sah
  Kinerja Pendapatan         76,51%    67,40%     94,19%      101,11%     101,80%     85,96%
-Sumber: BPKPD Kota Sukabumi, 2025
+Sumber: BPKPD Kota Cirebon, 2025
 
-     Selama periode 2020-2024, Pendapatan Daerah Kota Sukabumi rata-
+     Selama periode 2020-2024, Pendapatan Daerah Kota Cirebon rata-
 rata tumbuh sebesar 0,04 persen. Untuk masing-masing komponen
 pendapatan daerah, terlihat bahwa PAD tumbuh paling tinggi dibandingkan
 rata-rata    pertumbuhan        komponen         lainnya.          Pertumbuhan       rata-rata
@@ -4512,17 +4512,17 @@ pertumbuhan masing-masing komponennya dapat dilihat pada gambar di
 atas.
 
                                 Gambar 2.56
-            Pertumbuhan Pendapatan Kota Sukabumi Tahun 2020-2024
+            Pertumbuhan Pendapatan Kota Cirebon Tahun 2020-2024
 
                                                             27,82%
 
      -Pendapat:an-PAD -              Pendapat:an
                                                Transfer-lain-lain PendapatanyangSah
 
-Sumber: BPKPD Kota Sukabumi, 2025 (diolah)
+Sumber: BPKPD Kota Cirebon, 2025 (diolah)
 
 ### 2.2.1.2 KINERJA BELANJA
-     Belanja Daerah Kota Sukabumi terdiri dari komponen Belanja Operasi,
+     Belanja Daerah Kota Cirebon terdiri dari komponen Belanja Operasi,
 Belanja Modal, Belanja Tidak Terduga, dan Belanja Transfer. Belanja Operasi
 terdiri dari belanja pegawai, belanja barang dan jasa, belanja bunga, belanja
 hibah, belanja bantuan sosial, yang manfaatnya hanya sampai satu tahun
@@ -4539,7 +4539,7 @@ diprediksi sebelumnya.
 ---
 
                                        Gambar 2.57
-                 Capaian Kinerja Belanja Kota Sukabumi Tahun 2020-2024
+                 Capaian Kinerja Belanja Kota Cirebon Tahun 2020-2024
 
                        1283,51%
 
@@ -4555,9 +4555,9 @@ diprediksi sebelumnya.
 
                      -+-Belanja -+-Operasi -+-Modal -+-TakTerduga
 
-Sumber: BPKPD Kota Sukabumi, 2025 (diolah)
+Sumber: BPKPD Kota Cirebon, 2025 (diolah)
 
-         Kinerja Belanja Daerah Kota Sukabumi pada kurun waktu 2020-2024
+         Kinerja Belanja Daerah Kota Cirebon pada kurun waktu 2020-2024
 menunjukkan kecenderungan bahwa realisasi Belanja Daerah selalu berada
 di bawah pagu atau targetnya. Realisasi belanja yang lebih kecil dari
 target/pagu anggarannya ini menunjukkan adanya efisiensi anggaran. Tetapi
@@ -4565,12 +4565,12 @@ disisi lain, realisasi belanja yang lebih kecil dari pagu ini bisa jadi karena
 kelemahan dalam perencanaan anggaran, sehingga kurang tepat dalam
 mengestimasi belanja, atau adanya program dan kegiatan yang tidak
 terlaksana.
-         Realisasi Belanja Daerah Kota Sukabumi, yang mengalami penurunan
+         Realisasi Belanja Daerah Kota Cirebon, yang mengalami penurunan
 signifikan akibat Pandemi Covid-19 di tahun 2020-2021, mulai meningkat di
 tahun-tahun berikutnya. Adapun rata-rata komponen Belanja Daerah
 terbesar masih didominasi Belanja Operasi yaitu mencapai Rp 1.140,578
 - **miliar.** Meningkatnya realisasi Belanja Operasi terhadap total belanja daerah
-Kota Sukabumi berarti meningkatnya biaya operasional rutin daerah.
+Kota Cirebon berarti meningkatnya biaya operasional rutin daerah.
 Sementara itu, Belanja Modal berfluktuatif dan rata-ratanya sebesar Rp
 117,799 miliar. Belanja Tak Terduga juga fluktuatif, terutama pada masa
 pandemi Covid-19 pata tahun 2020-2021, yang mengalami lonjakan belanja.
@@ -4578,7 +4578,7 @@ pandemi Covid-19 pata tahun 2020-2021, yang mengalami lonjakan belanja.
 ---
 
                                     Tabel 2.43
-  Target dan Realisasi Belanja Kota Sukabumi Tahun 2020-2024 (Miliar Rupiah)
+  Target dan Realisasi Belanja Kota Cirebon Tahun 2020-2024 (Miliar Rupiah)
              Komponen             2020       2021       2022      2023      2024    Rata-rata
 
  Target Belanja                 1.628,973 1.883,023 1.304,258 1.314,794 1.357,513 1.497,712
@@ -4599,10 +4599,10 @@ pandemi Covid-19 pata tahun 2020-2021, yang mengalami lonjakan belanja.
 
  Kinerja Belanja                 80,28%    63,78%      95,97%    97,13%    98,04%   85,04%
 
-Sumber: BPKPD Kota Sukabumi, 2025
+Sumber: BPKPD Kota Cirebon, 2025
 
                                         Gambar 2.58
-                     Pertumbuhan Belanja Kota Sukabumi Tahun 2020-2024
+                     Pertumbuhan Belanja Kota Cirebon Tahun 2020-2024
 
  678,53%
 
@@ -4617,7 +4617,7 @@ Sumber: BPKPD Kota Sukabumi, 2025
 
                       -Belanja -Operasi -Modal                     TakTerduga
 
-Sumber: BPKPD Kota Sukabumi, 2025 (diolah)
+Sumber: BPKPD Kota Cirebon, 2025 (diolah)
 
       Pada periode tahun 2020-2024 itu, pertumbuhan tertinggi realisasi
 Belanja Daerah terjadi pada tahun 2024 yakni sebesar 4,22 persen dan
@@ -4633,14 +4633,14 @@ Covid-19 sehingga rata-ratanya menjadi tinggi yaitu mencapai 111,41
 persen.
 
 ### 2.2.1.3 KINERJA PEMBIAYAAN
-         Pembiayaan Daerah Kota Sukabumi terdiri dari komponen Penerimaan
+         Pembiayaan Daerah Kota Cirebon terdiri dari komponen Penerimaan
 Pembiayaan dan Pengeluaran Pembiayaan. Penerimaan Pembiayaan, berupa
 Sisa Lebih Perhitungan Anggaran Tahun Anggaran Sebelumnya. Adapun
 Pengeluaran Pembiayaan, terutama untuk Penyertaan Modal/Investasi
 Pemerintah Daerah.
 
                                    Gambar 2.59
-            Capaian Kinerja Pembiayaan Kota Sukabumi Tahun 2020-2024
+            Capaian Kinerja Pembiayaan Kota Cirebon Tahun 2020-2024
 
                       313,69%
 
@@ -4654,12 +4654,12 @@ Pemerintah Daerah.
                                  _....... Penerim1an
                                                    P•mbi1ya1n    _._Pen1•lu1ranPembiayHn
 
-Sumber: BPKPD Kota Sukabumi, 2025 (diolah)
+Sumber: BPKPD Kota Cirebon, 2025 (diolah)
 
-         Capaian kinerja Pembiayaan Daerah Kota Sukabumi selama kurun
+         Capaian kinerja Pembiayaan Daerah Kota Cirebon selama kurun
 waktu 2019-2023 menunjukkan bahwa realisasi kinerjanya selalu berada di
 atas pagu atau target yang sudah ditetapkan. Jika dilihat per komponen,
-kinerja     Penerimaan          Pembiayaan        Kota          Sukabumi          tahun     2020-2024
+kinerja     Penerimaan          Pembiayaan        Kota          Cirebon          tahun     2020-2024
 cenderung fluktuatif setiap tahunnya. Kondisi ini berbeda dengan kinerja
 Pengeluaran Pembiayaan yang cenderung stabil dalam kurun waktu
 tersebut.
@@ -4672,7 +4672,7 @@ tersebut.
 sebesar 243,59 persen di tahun 2022 dan terendah sebesar -5772, persen di
 tahun 2020.
                                    Tabel 2.44
-                Target dan Realisasi Pembiayaan Kota Sukabumi
+                Target dan Realisasi Pembiayaan Kota Cirebon
                         Tahun 2020-2024 (Miliar Rupiah)
           Komponen             2020     2021      2022      2023      2024    Rata-rata
 
@@ -4693,14 +4693,14 @@ tahun 2020.
  Pengeluaran Pembiayaan       2,000     2,000     6,871     3,500     2,000    3,274
  Kinerja Pembiayaan          230,85%   313,67%   101,55%   100,01%   100%     135,18%
 
-Sumber: BPKPD Kota Sukabumi, 2025
+Sumber: BPKPD Kota Cirebon, 2025
 
 ### 2.2.1.4 KAPASITAS FISKAL
      Mencermati tren rasio PAD dan Pendapatan Transfer dari Pusat tahun
-2020-2024 menunjukkan bahwa Rasio PAD Kota Sukabumi cenderung
+2020-2024 menunjukkan bahwa Rasio PAD Kota Cirebon cenderung
 meningkat sementara Rasio Pendapatan Transfer dari Pusat cenderung
 - **menurun.** Kondisi ini mencerminkan bahwa upaya Pemerintah Kota
-Sukabumi untuk mengurangi ketergantungan pendapatan dari transfer
+Cirebon untuk mengurangi ketergantungan pendapatan dari transfer
 Pemerintah Pusat menunjukkan kemajuan.
      Untuk mengukur kapasitas fiskal daerah, Kementerian Dalam Negeri
 membagi kategori daerah berdasarkan kapasitas fiskalnya menjadi 3, yaitu:
@@ -4718,7 +4718,7 @@ membagi kategori daerah berdasarkan kapasitas fiskalnya menjadi 3, yaitu:
 
                                    Gambar 2.60
                  Persentase PAD dan Pendapatan Transfer terhadap
-                 Total Pendapatan Kota Sukabumi Tahun 2020-2024
+                 Total Pendapatan Kota Cirebon Tahun 2020-2024
 
                                -PAD     ~       Pend•p•UI n Transfer
 
@@ -4738,12 +4738,12 @@ membagi kategori daerah berdasarkan kapasitas fiskalnya menjadi 3, yaitu:
 
    2020                2021                   2022                     2023               2024
 
-Sumber: BPKPD Kota Sukabumi, 2025 (diolah)
+Sumber: BPKPD Kota Cirebon, 2025 (diolah)
 
        Mencermati gambar di atas, terlihat bahwa Pendapatan Daerah Kota
-Sukabumi masih sangat bergantung dengan Pendapatan Transfer. Jika
+Cirebon masih sangat bergantung dengan Pendapatan Transfer. Jika
 dikategorikan sesuai klasifikasi kapasitas fiskal, dapat disimpulkan bahwa
-kapasitas fiskal Kota Sukabumi masih berada pada kategori “lemah”. Untuk
+kapasitas fiskal Kota Cirebon masih berada pada kategori “lemah”. Untuk
 itu,   diperlukan     berbagai     upaya        untuk      mengurangi         ketergantungan
 pendapatan transfer dan lebih mengoptimalkan dan melakukan diversifikasi
 sumber-sumber PAD.
@@ -4798,7 +4798,7 @@ daerah, belanja daerah, serta pengelolaan aset pemerintah.
 
 ### 2.2.2.1 KEBIJAKAN PENDAPATAN DAERAH
      Efektivitas penyelenggaraan pemerintah tidak terlepas dari kapasitas
-keuangan yang dikelola oleh Pemerintah D a e r a h            Kota Sukabumi.
+keuangan yang dikelola oleh Pemerintah D a e r a h            Kota Cirebon.
 Kebijakan      belanja   pembangunan      daerah    akan    mempertimbangkan
 kapasitas fiskal yang dimiliki. Dalam upaya peningkatan pendapatan daerah,
 perumusan kebijakan pendapatan daerah merupakan hal yang sangat
@@ -4810,7 +4810,7 @@ daerah yang sah, serta dana perimbangan dalam rangka mendukung
 pembangunan daerah dengan optimalisasi pemanfaatan sumber-sumber
 pendapatan dan aset-aset pemerintah daerah.
     Arah kebijakan keuangan daerah dalam              kerangka peningkatan
-penerimaan pendapatan daerah Kota Sukabumi Tahun 2025-2029 antara
+penerimaan pendapatan daerah Kota Cirebon Tahun 2025-2029 antara
 lain adalah:
 - **1.** Mengoptimalkan penerimaan pendapatan asli daerah melalui:
      a) Ekstensifikasi dan intensifikasi pajak daerah, terutama pajak
@@ -4882,7 +4882,7 @@ juga harus memperhatikan isu strategis dan prioritas pembangunan yang
 - **2.** Pemenuhan pencapaian Program Prioritas dan Indikator Kinerja Utama;
 - **3.** Pemenuhan belanja prioritas dalam rangka menjalankan program
    unggulan Kepala Daerah;
-- **4.** Pemenuhan belanja prioritas pembangunan daerah Kota Sukabumi;
+- **4.** Pemenuhan belanja prioritas pembangunan daerah Kota Cirebon;
 - **5.** Pemenuhan      implementasi      Standar    Pelayanan    Minimal   (SPM)
    kewenangan Kab/Kota yaitu sebanyak 29 jenis pelayanan dasar;
 - **6.** Pelaksanaan tujuan pembangunan berkelanjutan atau Suistanable
@@ -4941,7 +4941,7 @@ pinjaman atau penerimaan piutang.
 akan digunakan untuk penyertaan modal perusahaan daerah, pembayaran
 atas layanan yang didapatkan serta pengeluaran lainnya sesuai ketentuan
 peraturan perundang-undangan yang berlaku. Penyertaan modal akan
-dilakukan kepada Bank Perkreditan Rakyat (BPR) Kota Sukabumi, PDAM
+dilakukan kepada Bank Perkreditan Rakyat (BPR) Kota Cirebon, PDAM
 Tirta Bumi Wibawa serta Bank Jabar Banten yang besaran penyertaan
 modal tersebut berpedoman pada peraturan daerah yang terkait.
     Selanjutnya perlu diperhatikan bahwa perencanaan penganggaran
@@ -4956,13 +4956,13 @@ direncanakan.
 terutama    pada     program     prioritas    dan    unggulan,        maka       diperlukan
 pembiayaan yang cukup besar. Karena besarnya kebutuhan anggaran
 tersebut dan terbatasnya sumber-sumber penerimaan yang ada, maka Kota
-Sukabumi dituntut untuk senantiasa terus mencari alternatif pembiayaan
+Cirebon dituntut untuk senantiasa terus mencari alternatif pembiayaan
 anggaran dalam rangka pembangunan daerah.
 
-    Besarnya kebutuhan dana untuk pembangunan di Kota Sukabumi dan
+    Besarnya kebutuhan dana untuk pembangunan di Kota Cirebon dan
 terbatasnya     sumber–sumber             penerimaan      konvensional           mendorong
 Pemerintah Daerah untuk mencari alternatif pembiayaan anggaran dalam
-membangun Kota Sukabumi. Sumber-sumber pendanaan pembangunan
+membangun Kota Cirebon. Sumber-sumber pendanaan pembangunan
 non-APBD      yang   dapat     dimanfaatkan         sebagai    alternatif    pembiayaan
 pembangunan        antara    lain:   1)    APBN;    2)   APBD        Provinsi;    3)    Dana
 Masyarakat/Umat; 4) Corporate Social Responsibility atau Tanggung Jawab
@@ -4976,10 +4976,10 @@ Negeri; serta 11) Pendanaan lainnya sesuai ketentuan perundang-undangan.
 ### 2.2.3 PROYEKSI KEUANGAN LIMA TAHUN KE DEPAN
     Dalam    penyusunan      proyeksi   Pendapatan      Daerah   ini   perlu
 mempertimbangkan      beberapa   asumsi     terkait   dengan   pertumbuhan
-pendapatan Kota Sukabumi selama beberapa tahun ke belakang, potensi
-pendapatan daerah yang dapat diperoleh Pemerintah Kota Sukabumi selama
+pendapatan Kota Cirebon selama beberapa tahun ke belakang, potensi
+pendapatan daerah yang dapat diperoleh Pemerintah Kota Cirebon selama
 lima tahun ke depan, dan kebijakan keuangan pemerintah pusat, serta
-kondisi ekonomi makro Kota Sukabumi. Dalam penyusunan proyeksi
+kondisi ekonomi makro Kota Cirebon. Dalam penyusunan proyeksi
 pendapatan lima tahun kedepan fokus utamanya adalah bagaimana
 optimalisasi pendapatan asli daerah dengan tetap mempertimbangkan dana
 transfer yang sifatnya pasti. Khusus untuk transfer pusat bersumber Dana
@@ -4988,16 +4988,16 @@ sebagai proyeksi pendapatan karena sifatnya yang belum pasti serta
 disesuaikan dengan menu dan usulan yang disampaikan untuk selanjutnya
 dilakukan proses verifikasi sesuai ketentuan yang berlaku.
     Proyeksi Belanja Daerah dilakukan dengan memperhatikan proyeksi
-Pendapatan Daerah Kota Sukabumi selama 6 (enam) tahun ke depan dan
-kemampuan keuangan Pemerintah Daerah Kota Sukabumi dalam menutup
+Pendapatan Daerah Kota Cirebon selama 6 (enam) tahun ke depan dan
+kemampuan keuangan Pemerintah Daerah Kota Cirebon dalam menutup
 kemungkinan terjadinya defisit anggaran. Akan tetapi, kebijakan pengelolaan
-keuangan daerah Kota Sukabumi selama ini berpegang pada prinsip
+keuangan daerah Kota Cirebon selama ini berpegang pada prinsip
 keseimbangan antara pendapatan dan belanja daerah.
 
 ---
 
                                                                      Tabel 2.45
-                                               Proyeksi APBD Kota Sukabumi Tahun 2025-2030 (Rupiah)
+                                               Proyeksi APBD Kota Cirebon Tahun 2025-2030 (Rupiah)
          URAIAN             APBD 2025         P-RAPBD 2025                                                  PROYEKSI TAHUN
                                                                       2026                  2027                   2028                2029                 2030
  Pendapatan Daerah        1.271.650.168.050   1.308.126.749.114   1.175.691.490.983     1.203.285.096.566      1.241.753.259.023   1.290.756.518.783   1.350.330.835.786
@@ -5018,7 +5018,7 @@ keseimbangan antara pendapatan dan belanja daerah.
  Pembiayaan Netto           22.199.373.077      47.677.699.306      10.861.728.263        17.339.723.566         11.399.491.622      18.121.048.398      12.196.442.951
  Sisa Lebih Pembiayaan                    -                   -                   -                     -                      -                   -                   -
  Anggaran
-Sumber: BPKPD Kota Sukabumi, 2025
+Sumber: BPKPD Kota Cirebon, 2025
 
 ---
 
@@ -5028,7 +5028,7 @@ Sumber: BPKPD Kota Sukabumi, 2025
        Permasalahan pembangunan merupakan pernyataan kondisi (realita)
 yang      dapat           disimpulkan   dari     kesenjangan   antara    realita/capaian
 pembangunan dengan kondisi ideal yang seharusnya tersedia. Permasalahan
-pembangunan Kota Sukabumi akan disajikan sesuai dengan 4 aspek
+pembangunan Kota Cirebon akan disajikan sesuai dengan 4 aspek
 pembangunan yang masing-masingnya akan diuraikan seperti pada gambar
 di bawah ini.
 
@@ -5052,11 +5052,11 @@ di bawah ini.
            Ekonomi    •
        Sosial Budaya •
 
-       Sumber: Hasil Analisis Bappeda Kota Sukabumi, 2025
+       Sumber: Hasil Analisis Bappeda Kota Cirebon, 2025
 
 ### 2.3.1.1 ASPEK GEOGRAFI DAN DEMOGRAFI
        Berdasarkan kondisi umum daerah, permasalahan pembangunan
-berkaitan dengan kondisi fisik geografi di Kota Sukabumi, antara lain:
+berkaitan dengan kondisi fisik geografi di Kota Cirebon, antara lain:
 - **a.** alih fungsi lahan untuk permukiman dan pusat perdagangan cukup
    besar yang ditunjukkan dengan berkurangnya luas lahan pertanian
    mencapai 150 hektar;
@@ -5077,25 +5077,25 @@ berkaitan dengan kondisi fisik geografi di Kota Sukabumi, antara lain:
      infrastruktur seperti drainase mengalami tantangan;
 - **g.** risiko bencana sudah masuk dalam kategori sedang (skor 107,44 di tahun
      2024) namun risiko gempa bumi, banjir, dan tanah longsor masih cukup
-     besar mengingat Kota Sukabumi masuk dalam lintasan Sesar Cimandiri;
+     besar mengingat Kota Cirebon masuk dalam lintasan Sesar Cimandiri;
      dan
 - **h.** kapasitas daerah dalam penyelenggaraan penanggulangan bencana
      masuk ke dalam kelas kapasitas sedang (0,57 di tahun 2023) sehingga
      masih memerlukan peningkatan.
       Permasalahan demografi berdasarkan kondisi umum daerah dan
-proyeksi yang telah dilakukan di Kota Sukabumi, antara lain:
+proyeksi yang telah dilakukan di Kota Cirebon, antara lain:
 - **a.** distribusi penduduk yang belum merata yang ditunjukkan dengan
      konsentrasi jumlah penduduk di Kecamatan Cikole (63,24 ribu jiwa),
      Warudoyong (60,72 ribu jiwa), dan Citamiang (54,57 ribu jiwa);
 - **b.** dengan luas wilayah yang kecil (±48 km²), jumlah penduduk Kota
-     Sukabumi terus meningkat menyebabkan munculnya permukiman
+     Cirebon terus meningkat menyebabkan munculnya permukiman
      kumuh di beberapa wilayah;
 - **c.** belum adanya perubahan paradigma terkait bonus demografi yang
      seharusnya lebih menekankan pada konfigurasi tingkat pendidikan
      penduduk    yang      ditunjukkan   dengan   jumlah   penduduk   bekerja
      didominasi lulusan SMP ke bawah yaitu sebanyak 71.712 jiwa;
-- **d.** Kota Sukabumi menjadi tujuan migrasi dari daerah pedesaan di
-     Kabupaten Sukabumi maupun dari daerah lain;
+- **d.** Kota Cirebon menjadi tujuan migrasi dari daerah pedesaan di
+     Kabupaten Cirebon maupun dari daerah lain;
 - **e.** belum optimalnya pengelolaan SDM terintegrasi, baik dari sektor publik
      maupun swasta; dan
 - **f.** keberlangsungan kehidupan masyarakat adat di tengah arus globalisasi
@@ -5105,7 +5105,7 @@ proyeksi yang telah dilakukan di Kota Sukabumi, antara lain:
 
 ### 2.3.1.2 ASPEK KESEJAHTERAAN MASYARAKAT
     Berdasarkan kondisi umum daerah, permasalahan kesejahteraan
-ekonomi di Kota Sukabumi, antara lain:
+ekonomi di Kota Cirebon, antara lain:
 - **a.** adanya kesenjangan distribusi kekayaan di masyarakat yang relatif tinggi
    ditunjukkan dengan rasio gini yaitu 0,436 di tahun 2024 dan masih
    berada di atas angka Provinsi Jawa Barat serta nasional;
@@ -5122,7 +5122,7 @@ ekonomi di Kota Sukabumi, antara lain:
    lain di Provinsi Jawa Barat karena hanya lebih baik dari Kota
    Tasikmalaya dan Kota Banjar.
     Permasalahan kesejahteraan sosial budaya berdasarkan kondisi umum
-di Kota Sukabumi, antara lain:
+di Kota Cirebon, antara lain:
 - **a.** Indeks Keluarga Sehat cenderung meningkat namun masih memerlukan
    penguatan dan pendampingan di beberapa puskesmas serta kerja sama
    pelaksanaan program;
@@ -5150,10 +5150,10 @@ di Kota Sukabumi, antara lain:
 
 ### 2.3.1.3 ASPEK DAYA SAING DAERAH
       Berdasarkan kondisi umum daerah, permasalahan daya saing ekonomi
-di Kota Sukabumi, antara lain:
-- **a.** masih rendahnya kontribusi PDRB ADHB Kota Sukabumi terhadap
+di Kota Cirebon, antara lain:
+- **a.** masih rendahnya kontribusi PDRB ADHB Kota Cirebon terhadap
      Provinsi Jawa Barat yang hanya 0,58 persen di tahun 2024;
-- **b.** PDRB per Kapita ADHB Kota Sukabumi tahun 2024 termasuk rendah
+- **b.** PDRB per Kapita ADHB Kota Cirebon tahun 2024 termasuk rendah
      dibandingkan kota-kota lain di Provinsi Jawa Barat yaitu Rp44,76 juta;
 - **c.** belum optimalnya kontribusi sektor pariwisata, ekonomi kreatif, dan
      ekonomi digital dalam perekonomian kota;
@@ -5163,11 +5163,11 @@ di Kota Sukabumi, antara lain:
 - **e.** belum optimalnya pola kemitraan koperasi dan UMKM dengan pengusaha
      besar; dan
 - **f.** realisasi investasi yang cenderung meningkat tidak serta menurunkan
-     angka pengangguran secara signifikan, di mana TPT Kota Sukabumi
+     angka pengangguran secara signifikan, di mana TPT Kota Cirebon
      masih berada di angka 8,34 persen di tahun 2024.
       Berdasarkan kondisi umum daerah, permasalahan daya saing SDM di
-Kota Sukabumi, antara lain:
-- **a.** rata-rata masyarakat Kota Sukabumi tahun 2024 pendidikan terakhirnya
+Kota Cirebon, antara lain:
+- **a.** rata-rata masyarakat Kota Cirebon tahun 2024 pendidikan terakhirnya
      setara dengan tamatan Sekolah Menengah Pertama (SMP) atau sederajat;
 - **b.** kemampuan numerasi siswa masih dalam kategori sedang di tahun 2023
      (berkisar di angka 55 persen);
@@ -5177,14 +5177,14 @@ Kota Sukabumi, antara lain:
 - **c.** belum optimalnya kolaborasi berbagai pihak dalam pengembangan SDM
      kreatif;
 - **d.** ekosistem digital belum terbangun dengan baik meskipun skor adopsi TIK
-     Kota Sukabumi sudah mencapai 4,80 di tahun 2024;
+     Kota Cirebon sudah mencapai 4,80 di tahun 2024;
 - **e.** kesenjangan TPAK laki-laki dan perempuan tahun 2024 yang cukup
      besar dimana TPAK laki-laki sekitar 70 persen, sementara TPAK
      perempuan hanya 45 persen; dan
 - **f.** rasio ketergantungan yang stabil berada di angka 45 menunjukkan
      perlunya memanfaatkan bonus demografi untuk lebih meningkatkan
      produktivitas masyarakat.
-      Permasalahan daya saing infrastruktur di Kota Sukabumi berdasarkan
+      Permasalahan daya saing infrastruktur di Kota Cirebon berdasarkan
 kondisi umum daerah, antara lain:
 - **a.** konektivitas antarwilayah agar memperhatikan daya dukung dan daya
      tampung lingkungan;
@@ -5195,11 +5195,11 @@ kondisi umum daerah, antara lain:
 ### 44.551.250     liter/hari),   pengelolaan   air   limbah,   dan   pengelolaan
      persampahan (produksi sampah mencapai 66.345.722 liter per hari).
       Berdasarkan kondisi umum daerah, permasalahan daya saing iklim
-investasi di Kota Sukabumi, antara lain:
+investasi di Kota Cirebon, antara lain:
 - **a.** dinamisme bisnis masih belum optimal, ditunjukkan dengan skor pilar
      11 IDSD yang hanya 2,48 di tahun 2024;
 - **b.** belum optimalnya partisipasi masyarakat dalam menjaga keamanan dan
-     ketertiban meskipun Indeks Rasa Aman Kota Sukabumi sudah mencapai
+     ketertiban meskipun Indeks Rasa Aman Kota Cirebon sudah mencapai
      75,40 di tahun 2024;
 - **c.** masih adanya pelanggaran Perda dan unjuk rasa yang dilakukan; dan
 - **d.** konflik sosial di masyarakat masih sering terjadi terutama berkaitan
@@ -5209,7 +5209,7 @@ investasi di Kota Sukabumi, antara lain:
 
 ### 2.3.1.4 ASPEK PELAYANAN UMUM
     Berdasarkan kondisi umum daerah, permasalahan pelayanan umum di
-Kota Sukabumi, antara lain:
+Kota Cirebon, antara lain:
 - **a.** penerapan Reformasi Birokrasi masih bersifat formal dan secara
    substansi belum mampu mendorong perbaikan kinerja organisasi (nilai
    Indeks RB berada di angka 87,10 di tahun 2024);
@@ -5240,7 +5240,7 @@ dapat dilihat pada gambar di bawah ini.
 # DISRUPSI
      KRISISSDA                                                         TEKNOLOGI
 
-    Sumber: Hasil Analisis Bappeda Kota Sukabumi, 2025
+    Sumber: Hasil Analisis Bappeda Kota Cirebon, 2025
 
 ---
 
@@ -5307,7 +5307,7 @@ seperti pada gambar di bawah ini.
 # MAKRO-SEKTORAL
 # AGING
 # POPULATION
-          Sumber: Hasil Analisis Bappeda Kota Sukabumi, 2024
+          Sumber: Hasil Analisis Bappeda Kota Cirebon, 2024
 
 • Penerapan standar sustainability adalah usaha untuk memastikan bahwa
   pembangunan ekonomi, sosial, dan lingkungan dapat berlangsung
@@ -5386,7 +5386,7 @@ ini.
 # _/         I                  •,      DEGRADASI
 # LINGKUNGAN
 
- Sumber: Hasil Analisis Bappeda Kota Sukabumi, 2025
+ Sumber: Hasil Analisis Bappeda Kota Cirebon, 2025
 
 • Kesenjangan pembangunan antarwilayah di Provinsi Jawa Barat hingga
   saat ini masih terjadi. Pembangunan tersebut lebih berorientasi di wilayah
@@ -5441,12 +5441,12 @@ ini.
   Jawa Barat tentunya akan dapat mengurangi risiko bencana dan
   meningkatkan ketahanan terhadap bencana dalam lima tahun ke depan.
 
-### 2.3.3 ISU STRATEGIS JANGKA PANJANG (2025-2045) KOTA SUKABUMI
-     Berdasarkan RPJPD Kota Sukabumi Tahun 2025-2045, isu strategis
-jangka panjang Kota Sukabumi seperti pada gambar berikut.
+### 2.3.3 ISU STRATEGIS JANGKA PANJANG (2025-2045) KOTA CIREBON
+     Berdasarkan RPJPD Kota Cirebon Tahun 2025-2045, isu strategis
+jangka panjang Kota Cirebon seperti pada gambar berikut.
 
                                          Gambar 2.65
-                         Isu Strategis Jangka Panjang Kota Sukabumi
+                         Isu Strategis Jangka Panjang Kota Cirebon
     INVESTASI   DAN OPTDIALISASI
 # POTENSI EKONOMI
 
@@ -5457,46 +5457,46 @@ jangka panjang Kota Sukabumi seperti pada gambar berikut.
 # TATA KELOLAPEMERINTAHAN
 # MODERN DAN INOVATIF
 
- Sumber: RPJPD Kota Sukabumi Tahun 2025-2045
+ Sumber: RPJPD Kota Cirebon Tahun 2025-2045
 
 • Investasi dan optimalisasi potensi ekonomi. Perubahan peran Jakarta
-  sebagai kota global akan membawa pengaruh terhadap Kota Sukabumi.
+  sebagai kota global akan membawa pengaruh terhadap Kota Cirebon.
   Aksesibilitas yang memadai dan terkoneksi langsung dengan Jakarta akan
   menjadi pilihan menarik bagi pengembangan investasi terutama di sektor
   riset dan teknologi serta pusat agrobisnis dan perdagangan. Potensi
   pariwisata dan ekonomi kreatif merupakan sektor yang potensial untuk
   dikembangkan ke depannya.
 • Penduduk usia produktif dan kualitas SDM. Meningkatnya jumlah
-  penduduk usia produktif di Kota Sukabumi perlu disikapi dengan berbagai
+  penduduk usia produktif di Kota Cirebon perlu disikapi dengan berbagai
   upaya untuk membuka kesempatan kerja yang lebih besar.
 
 ---
 
-  Hal ini merupakan tantangan besar bagi Kota Sukabumi untuk dapat
+  Hal ini merupakan tantangan besar bagi Kota Cirebon untuk dapat
   mengoptimalkan bonus demografi dengan perbaikan kualitas SDM
   eksisting, penyiapan SDM (usia dini, anak-anak, dan remaja) yang akan
   mengambil peran ke depannya dan penyediaan layanan sosial bagi
   penduduk usia lanjut.
 • Ketimpangan wilayah dan pembangunan infrastruktur. Pembangunan
-  Kota Sukabumi yang lebih berorientasi di wilayah utara menyebabkan
+  Kota Cirebon yang lebih berorientasi di wilayah utara menyebabkan
   wilayah selatan belum berkembang optimal. Adanya rencana pemindahan
   pusat pemerintahan dan adanya Tol Bocimi khususnya seksi-4 merupakan
   peluang untuk mengembangkan wilayah. Infrastruktur kota yang ramah
   lingkungan, terintegrasi, dan memanfaatkan teknologi menjadi tuntutan
   yang harus disediakan sebagai antisipasi perkembangan kota yang masif.
-• Pengelolaan lingkungan hidup dan ketahanan bencana. Kota Sukabumi
+• Pengelolaan lingkungan hidup dan ketahanan bencana. Kota Cirebon
   yang berada di kaki gunung dan tekanan pembangunan yang makin masif
   memerlukan pengelolaan lingkungan hidup yang komprehensif. Ancaman
   perubahan iklim dan ketahanan pangan perlu diantisipasi sejak dini.
   Ketahanan daerah dalam menghadapi bencana juga perlu peningkatan.
 • Perlindungan sosial dan penguatan budaya lokal. Modernisasi dan
-  urbanisasi di Kota Sukabumi berimplikasi pada persoalan sosial
+  urbanisasi di Kota Cirebon berimplikasi pada persoalan sosial
   masyarakat yang makin meningkat. Kondisi demikian diperparah dengan
   perkembangan teknologi informasi yang sudah menyasar seluruh wilayah
   sehingga ancaman degradasi moral dan budaya lokal tak dapat
   dihindarkan.
 • Tata kelola pemerintahan modern dan inovatif. Tuntutan perkembangan
-  Kota Sukabumi berimplikasi pada pengelolaan pelayanan publik yang
+  Kota Cirebon berimplikasi pada pengelolaan pelayanan publik yang
   semakin kompleks. Birokrasi yang terikat dengan seperangkat regulasi
   juga dihadapkan dengan tuntutan perubahan yang cepat dan responsif
   terhadap pelayanan kepada masyarakat. Kolaborasi dan partisipasi akan
@@ -5505,13 +5505,13 @@ jangka panjang Kota Sukabumi seperti pada gambar berikut.
 
 ---
 
-### 2.3.4 ISU STRATEGIS JANGKA MENENGAH (2025-2029) KOTA SUKABUMI
+### 2.3.4 ISU STRATEGIS JANGKA MENENGAH (2025-2029) KOTA CIREBON
       Berdasarkan permasalahan pembangunan, isu sesuai konteks, isu
-RPJPD Kota Sukabumi Tahun 2025-2045 dan mempertimbangkan potensi
+RPJPD Kota Cirebon Tahun 2025-2045 dan mempertimbangkan potensi
 daerah, maka rumusan isu strategis untuk 5 tahun ke depan seperti berikut:
 
                                    Gambar 2.66
-                  Isu Strategis Jangka Menengah Kota Sukabumi
+                  Isu Strategis Jangka Menengah Kota Cirebon
 
                                             PENOEMBANCAN         SDM   DAN   KETERAMPl.LAN
                                             MASYARAKATBERBASIS           VOKASl
@@ -5528,11 +5528,11 @@ daerah, maka rumusan isu strategis untuk 5 tahun ke depan seperti berikut:
 # TATA KELOLA    PEMERINTAHAN
 # BERKUALITAS
 
-          Sumber: Hasil Analisis Bappeda Kota Sukabumi, 2025
+          Sumber: Hasil Analisis Bappeda Kota Cirebon, 2025
 
  - **1.** Pengembangan SDM dan Keterampilan Masyarakat Berbasis Vokasi
 
-Kota Sukabumi tidak memiliki sumber daya alam sehingga modalitas utama
+Kota Cirebon tidak memiliki sumber daya alam sehingga modalitas utama
 dalam pembangunan bertumpu pada SDM yang dimilikinya. SDM yang ada
 saat ini rata-rata masih setara dengan lulusan SMP/sederajat dan kondisi
 kesehatan masyarakat yang diukur dari UHH capaiannya masih di bawah
@@ -5544,7 +5544,7 @@ SDM.
 
  - **2.** Masyarakat Inklusif, Berbudaya, dan Religius
 
-Sebagai kota yang masyarakatnya heterogen, Kota Sukabumi perlu untuk
+Sebagai kota yang masyarakatnya heterogen, Kota Cirebon perlu untuk
 meningkatkan inklusivitas masyarakatnya. Penghargaan dan pengakuan
 atas keberadaan atau eksistensi dari perbedaan dan keberagaman itu
 membutuhkan perlakuan yang setara, tidak diskriminasi, dan tidak
@@ -5554,7 +5554,7 @@ diperlakukan semena-mena.
 
 Perlakuan tersebut terutama ditujukan bagi anak, perempuan, pemuda,
 penyandang disabilitas, dan lansia. Di sisi lain, modernisasi dan urbanisasi
-di Kota Sukabumi berimplikasi pada persoalan sosial masyarakat yang makin
+di Kota Cirebon berimplikasi pada persoalan sosial masyarakat yang makin
 - **meningkat.** Kondisi demikian diperburuk dengan perkembangan teknologi
 informasi yang sudah menyasar seluruh wilayah sehingga ancaman
 degradasi moral dan budaya lokal tak dapat dihindarkan. Untuk itu
@@ -5563,7 +5563,7 @@ sebagai Kota Santri dapat dipertahankan.
 
  - **3.** Ekonomi Kreatif dan Perluasan Lapangan Kerja
 
-Kota Sukabumi dapat meningkatkan kesejahteraan masyarakat dengan
+Kota Cirebon dapat meningkatkan kesejahteraan masyarakat dengan
 mendorong pertumbuhan ekonomi yang inklusif dan berkelanjutan. Untuk
 mencapai itu diperlukan iklim investasi yang kondusif sehingga dapat
 menarik investor, pengembangan ekonomi lokal yang bertumpu pada
@@ -5574,7 +5574,7 @@ lebih merata.
  - **4.** Lingkungan dan Infrastruktur Perkotaan
 
 Optimalisasi tata kelola perlindungan dan pengelolaan lingkungan hidup di
-Kota Sukabumi sangat diperlukan di tengah perkembangan kota yang masif
+Kota Cirebon sangat diperlukan di tengah perkembangan kota yang masif
 disertai dengan ancaman bencana dan perubahan iklim. Kondisi tersebut
 tentunya akan berpengaruh pada daya dukung lingkungan terutama air dan
 - **pangan.** Sementara     pembangunan         kota   terutama   pengembangan
@@ -5597,12 +5597,12 @@ kemajuan teknologi informasi. Kemajuan teknologi informasi ini perlu
 dioptimalkan dalam sistem pemerintahan mengingat penerapannya masih di
 bawah kota-kota lain di Provinsi Jawa Barat. Selain itu, peningkatan tata
 kelola pemerintahan perlu dilakukan secara simultan dengan penguatan
-peran Pemerintah Daerah Kota Sukabumi dalam mewujudkan kehidupan
+peran Pemerintah Daerah Kota Cirebon dalam mewujudkan kehidupan
 demokrasi yang sehat.
 
-### 2.3.5 KETERKAITAN ISU STRATEGIS KOTA SUKABUMI DENGAN HASIL
+### 2.3.5 KETERKAITAN ISU STRATEGIS KOTA CIREBON DENGAN HASIL
        REKOMENDASI KLHS
-      Isu   strategis   Kota   Sukabumi    Tahun   2025-2029,    dalam   proses
+      Isu   strategis   Kota   Cirebon    Tahun   2025-2029,    dalam   proses
 perumusannya juga mempertimbangkan hasil rekomendasi KLHS yang telah
 - **dilakukan.** Isu rekomendasi KLHS tersebut antara lain:
 - **1.** Belum efektifnya pengendalian dan penyelenggaraan pemanfaatan ruang,
@@ -5622,7 +5622,7 @@ perumusannya juga mempertimbangkan hasil rekomendasi KLHS yang telah
 
 ---
 
-Keterkaitan isu hasil rekomendasi KLHS dengan isu strategis Kota Sukabumi
+Keterkaitan isu hasil rekomendasi KLHS dengan isu strategis Kota Cirebon
 seperti pada gambar di bawah ini.
 
                                          Gambar 2.67
@@ -5657,15 +5657,15 @@ S. BELUM OPTIMALNYA PENGELOLMN SANITASI                     LAPANGAN KERJA
    PEMERINTAHANOAN KERJA SAMA DENGAN
    OAERAH BERBATASAN
 
-Sumber: Hasil Analisis Bappeda Kota Sukabumi, 2025
+Sumber: Hasil Analisis Bappeda Kota Cirebon, 2025
 
 ---
 
                                                                      Tabel 2.46
-                                                        Pemetaan Isu Strategis Kota Sukabumi
+                                                        Pemetaan Isu Strategis Kota Cirebon
 # ISU SESUAI KONTEKS                        ISU STRATEGIS       ISU STRATEGIS
       PERMASALAHAN PEMBANGUNAN                                                                                JANGKA PANJANG     JANGKA MENENGAH
-# GLOBAL             NASIONAL           REGIONAL        KOTA SUKABUMII      KOTA SUKABUMII
+# GLOBAL             NASIONAL           REGIONAL        KOTA CIREBONI      KOTA CIREBONI
 
 ▪ Distribusi penduduk belum merata               Polarisasi sosial    Aging population    Mismatch pendidikan- ▪ Penduduk usia   Pengembangan SDM
 ▪ Belum adanya perubahan paradigma terkait                                                DUDI                   produktif dan   dan Ketrampilan
@@ -5704,10 +5704,10 @@ Sumber: Hasil Analisis Bappeda Kota Sukabumi, 2025
 
 # ISU SESUAI KONTEKS                            ISU STRATEGIS           ISU STRATEGIS
       PERMASALAHAN PEMBANGUNAN                                                                                        JANGKA PANJANG         JANGKA MENENGAH
-# GLOBAL                NASIONAL              REGIONAL         KOTA SUKABUMII          KOTA SUKABUMII
+# GLOBAL                NASIONAL              REGIONAL         KOTA CIREBONI          KOTA CIREBONI
 ▪ Belum optimalnya partisipasi masyarakat
   dalam menjaga keamanan dan ketertiban
-▪ Rendahnya kontribusi PDRB Kota Sukabumi         ▪ Krisis sumber daya    Dampak hilirisasi     Pemanfaatan teknologi Investasi dan          Ekonomi kreatif dan
+▪ Rendahnya kontribusi PDRB Kota Cirebon         ▪ Krisis sumber daya    Dampak hilirisasi     Pemanfaatan teknologi Investasi dan          Ekonomi kreatif dan
   terhadap Provinsi Jawa Barat                      alam                                                              optimalisasi potensi   perluasan lapangan
 ▪ PDRB per Kapita termasuk rendah                                                                                     ekonomi                kerja
   dibandingkan kota-kota lain di Provinsi Jawa    ▪ Cyber insecurity
@@ -5746,7 +5746,7 @@ Sumber: Hasil Analisis Bappeda Kota Sukabumi, 2025
 
 # ISU SESUAI KONTEKS               ISU STRATEGIS     ISU STRATEGIS
       PERMASALAHAN PEMBANGUNAN                                                                 JANGKA PANJANG   JANGKA MENENGAH
-# GLOBAL        NASIONAL        REGIONAL   KOTA SUKABUMII    KOTA SUKABUMII
+# GLOBAL        NASIONAL        REGIONAL   KOTA CIREBONI    KOTA CIREBONI
 ▪ Penerapan Reformasi Birokrasi masih bersifat                  Sinkronisasi                                    Tata kelola
   formal dan secara substansi belum mampu                       kebijakan makro-                                pemerintahan
   mendorong perbaikan kinerja organisasi                        sektoral                                        berkualitas
@@ -5754,7 +5754,7 @@ Sumber: Hasil Analisis Bappeda Kota Sukabumi, 2025
   kota-kota lain di Provinsi Jawa Barat
 ▪ Perlunya peningkatan pelayanan publik karena
   Indeks Pelayanan Publik mengalami penurunan
- Sumber: Hasil Analisis Bappeda Kota Sukabumi, 2025
+ Sumber: Hasil Analisis Bappeda Kota Cirebon, 2025
 
 ---
 
@@ -5765,18 +5765,18 @@ Sumber: Hasil Analisis Bappeda Kota Sukabumi, 2025
        RPJMD merupakan penjabaran dari visi, misi dan program kepala
 daerah dengan berpedoman pada RPJPD. Selaras dengan Visi Pembangunan
 Jangka Panjang Nasional dan Visi Pembangunan Jangka Panjang Jawa
-Barat, Visi Pembangunan Jangka Panjang Kota Sukabumi Tahun 2025-2045
-yaitu: “Kota Sukabumi Kreatif, Unggul, Berbudaya dan Berkelanjutan”
-       Visi Pembangunan Jangka Panjang Kota Sukabumi Tahun 2025-2045
+Barat, Visi Pembangunan Jangka Panjang Kota Cirebon Tahun 2025-2045
+yaitu: “Kota Cirebon Kreatif, Unggul, Berbudaya dan Berkelanjutan”
+       Visi Pembangunan Jangka Panjang Kota Cirebon Tahun 2025-2045
 dimaknai sebagai berikut:
-              Kreatif. Kota Sukabumi tidak dianugerahi kekayaan alam yang
+              Kreatif. Kota Cirebon tidak dianugerahi kekayaan alam yang
 
     KREATIF
               - **melimpah.** Potensi yang dapat dioptimalkan tentunya bertumpu
               pada sumber daya manusianya. Kota yang sumber daya
 manusianya memiliki kreativitas yang tinggi dapat menciptakan atau
 mengembangkan sesuatu dalam rangka menangani permasalahan dan
-tantangan kehidupan. Di tahun 2045, Kota Sukabumi diharapkan sudah
+tantangan kehidupan. Di tahun 2045, Kota Cirebon diharapkan sudah
 menjadi kota yang menekankan pengembangan dan promosi ekonomi kreatif,
 seni, budaya, dan inovasi. Ini tentunya melibatkan pembangunan ekosistem
 yang      mendukung   pertumbuhan    industri   kreatif.   Tujuannya   adalah
@@ -5784,19 +5784,19 @@ menciptakan kota yang dinamis, beragam, dan inovatif, yang mendorong
 pertumbuhan ekonomi dan meningkatkan kualitas hidup masyarakat
 melalui penciptaan lapangan kerja, ekspresi budaya, dan kolaborasi antar
 sektor.
-   ••••       Unggul. Kota Sukabumi diharapkan menjadi kota yang maju
+   ••••       Unggul. Kota Cirebon diharapkan menjadi kota yang maju
               dengan sumber daya manusia, infrastruktur, layanan, dan
    UNGGUL
               ekonomi yang mempunyai kelebihan atau lebih baik dibanding
-dengan daerah lainnya. Dengan keunggulan itu, Kota Sukabumi            dapat
+dengan daerah lainnya. Dengan keunggulan itu, Kota Cirebon            dapat
 menawarkan kesempatan kerja yang variatif, sistem pendidikan yang bagus,
 infrastruktur transportasi yang memadai, serta layanan kesehatan dan
-fasilitas umum yang berkualitas tinggi. Dengan demikian, Kota Sukabumi
+fasilitas umum yang berkualitas tinggi. Dengan demikian, Kota Cirebon
 akan menjadi pusat ekonomi, budaya, dan inovasi bagi wilayah sekitar.
 
 ---
 
-                  Berbudaya. Kota Sukabumi diharapkan menjadi kota berbudaya
+                  Berbudaya. Kota Cirebon diharapkan menjadi kota berbudaya
       *
    ®
   BERBUDAYA
@@ -5807,7 +5807,7 @@ arsitektur, seni dan budaya kontemporer, pendidikan dan literasi yang
 mendukung perkembangan budaya, keragaman kuliner, partisipasi yang
 tinggi dari berbagai komunitas serta masyarakatnya yang kental dengan
 perilaku religius.
-                  Berkelanjutan. Kota Sukabumi diharapkan mengusung konsep
+                  Berkelanjutan. Kota Cirebon diharapkan mengusung konsep
                   pembangunan      kota    yang     berfokus        pada        kelestarian,
  BERKELANJUT AN   keseimbangan antara aspek ekonomi, lingkungan, dan sosial.
 Tujuannya adalah menciptakan kota yang mampu meningkatkan kualitas
@@ -5818,7 +5818,7 @@ transportasi berkelanjutan, mengelola sumber daya alam dengan bijaksana,
 dan menciptakan lingkungan yang sehat dan inklusif bagi masyarakat.
 
                                       Gambar 3.1
-                  Sasaran Visi RPJPD Kota Sukabumi Tahun 2025-2045
+                  Sasaran Visi RPJPD Kota Cirebon Tahun 2025-2045
 
 # MENINGKATNYA
 # KESEJAHTERAAN    MASYARAKAT
@@ -5831,12 +5831,12 @@ dan menciptakan lingkungan yang sehat dan inklusif bagi masyarakat.
 # MENINGKATNYA KUALITAS
 # LINGKUNGAN HIDUP
 
-  Sumber: RPJPD Kota Sukabumi Tahun 2025-2045 (diolah)
+  Sumber: RPJPD Kota Cirebon Tahun 2025-2045 (diolah)
 
 ---
 
                                               Gambar 3.2
-                          Sasaran Pokok RPJPD Kota Sukabumi Tahun 2025-2045
+                          Sasaran Pokok RPJPD Kota Cirebon Tahun 2025-2045
                           Terw\ljudny•pendidibn            Terwujudny•pel•y•n•n          Terkend•liny•st.abilit..s      Meningbtny11kerjil,
                            berlualit<1sy•ngml'l'<1t<I      kHRh<1Ununtuksemu•                   ekonomi m•kro
 
@@ -5879,25 +5879,25 @@ produktivit..sekonomi -
                                                                                                                         e   T-ujudny•ket..h•n•n
                                                                                                                             p;1ng11n,<1ir, &enet>gi
 
-Sumber: RPJPD Kota Sukabumi Tahun 2025-2045 (diolah)
+Sumber: RPJPD Kota Cirebon Tahun 2025-2045 (diolah)
 
-         Sasaran Visi dan Sasaran Pokok RPJPD Kota Sukabumi Tahun 2025-
+         Sasaran Visi dan Sasaran Pokok RPJPD Kota Cirebon Tahun 2025-
 2045 seperti pada gambar di atas merupakan gambaran ketercapaian Visi
-RPJPD Kota Sukabumi Tahun 2025-2045. Berdasarkan kedua hal tersebut
-dan disandingkan dengan isu strategis jangka menengah Kota Sukabumi
-maka rumusan keadaan/kondisi Kota Sukabumi tahun 2029 sebagaimana
-tertuang dalam Visi Wali Kota dan Wakil Wali Kota Sukabumi adalah:
-“Terwujudnya Masyarakat Kota Sukabumi yang Inovatif, Mandiri, Agamis,
+RPJPD Kota Cirebon Tahun 2025-2045. Berdasarkan kedua hal tersebut
+dan disandingkan dengan isu strategis jangka menengah Kota Cirebon
+maka rumusan keadaan/kondisi Kota Cirebon tahun 2029 sebagaimana
+tertuang dalam Visi Wali Kota dan Wakil Wali Kota Cirebon adalah:
+“Terwujudnya Masyarakat Kota Cirebon yang Inovatif, Mandiri, Agamis,
 Nasionalis”.
 
                                                               Gambar 3.3
-                                                 Visi Kota Sukabumi Tahun 2025-2029
+                                                 Visi Kota Cirebon Tahun 2025-2029
 
-# MASYARAKAT                      KOTA SUKABUMI
+# MASYARAKAT                      KOTA CIREBON
 
 # INOVATIF                                                                                                                              NASIONALIS
 
-         Sumber: Naskah Visi Wali Kota dan Wakil Wali Kota Sukabumi, 2025 (diolah)
+         Sumber: Naskah Visi Wali Kota dan Wakil Wali Kota Cirebon, 2025 (diolah)
 
 ---
 
@@ -5963,11 +5963,11 @@ Penjelasan visi di atas adalah sebagai berikut:
     ▪ Teredukasinya masyarakat tentang pentingnya Pancasila dan nilai-
       nilai kebangsaan dalam kehidupan sehari-hari.
 
-    Korelasi antara Visi Wali Kota dan Wakil Wali Kota Sukabumi dengan
-Visi Kota Sukabumi Tahun 2025-2045 terletak pada masing-masing aspek
+    Korelasi antara Visi Wali Kota dan Wakil Wali Kota Cirebon dengan
+Visi Kota Cirebon Tahun 2025-2045 terletak pada masing-masing aspek
 yang saling melengkapi dan memperkuat. Visi Wali Kota dan Wakil Wali Kota
-“Terwujudnya Masyarakat Kota Sukabumi yang Inovatif, Mandiri, Agamis,
-dan Nasionalis” mendukung pencapaian visi jangka panjang “Kota Sukabumi
+“Terwujudnya Masyarakat Kota Cirebon yang Inovatif, Mandiri, Agamis,
+dan Nasionalis” mendukung pencapaian visi jangka panjang “Kota Cirebon
 Kreatif, Unggul, Berbudaya, dan Berkelanjutan”.
 
 ---
@@ -5981,14 +5981,14 @@ pelaksanaan kebijakan berkelanjutan dalam menjaga sumber daya untuk
 generasi mendatang. Karena itu, semua elemen ini bekerja secara sinergis
 untuk menciptakan kota yang unggul dan sejahtera. Selanjutnya melalui
 pencapaian-pencapaian tersebut akan bisa mewujudkan mimpi besar
-bersama yaitu “Sukabumi Kota Bercahaya”.
-     Sinergitas Visi RPJPD Kota Sukabumi Tahun 2025-2045 dengan Visi
-Wali Kota dan Wakil Wali Kota Sukabumi Tahun 2025-2029 dapat dilihat
+bersama yaitu “Cirebon Kota Bercahaya”.
+     Sinergitas Visi RPJPD Kota Cirebon Tahun 2025-2045 dengan Visi
+Wali Kota dan Wakil Wali Kota Cirebon Tahun 2025-2029 dapat dilihat
 pada gambar di bawah ini.
 
                                   Gambar 3.4
-Sinkronisasi Visi RPJPD Kota Sukabumi Tahun 2025-2045 dengan Visi Wali Kota
-                dan Wakil Wali Kota Sukabumi Tahun 2025-2029
+Sinkronisasi Visi RPJPD Kota Cirebon Tahun 2025-2045 dengan Visi Wali Kota
+                dan Wakil Wali Kota Cirebon Tahun 2025-2029
 # VISI    RPJPD   2025-2045
 
                                •••
@@ -5999,13 +5999,13 @@ Sinkronisasi Visi RPJPD Kota Sukabumi Tahun 2025-2045 dengan Visi Wali Kota
           INOVATIF             MANDIRI                 AGAMIS            NASIONALIS
 
 # VISI   RPJMD    2025-2029
-Sumber: Bappeda Kota Sukabumi, 2025 (diolah)
+Sumber: Bappeda Kota Cirebon, 2025 (diolah)
 
 ### 3.2 MISI
      Misi merupakan rumusan umum mengenai upaya-upaya yang akan
 dilaksanakan oleh daerah untuk mewujudkan visi. Rumusan Misi Wali Kota
-dan Wakil Wali Kota Sukabumi untuk mencapai Visi “Terwujudnya
-Masyarakat Kota Sukabumi yang Inovatif, Mandiri, Agamis, dan Nasionalis”
+dan Wakil Wali Kota Cirebon untuk mencapai Visi “Terwujudnya
+Masyarakat Kota Cirebon yang Inovatif, Mandiri, Agamis, dan Nasionalis”
 adalah:
 
 ---
@@ -6066,38 +6066,38 @@ nyata terjadi.
 mencapai Visi RPJMD. Misi RPJMD tersebut juga mempunyai korelasi
 dengan misi RPJPD yang telah ditetapkan sebelumnya. Dengan demikian
 maka sebenarnya seluruh upaya yang nantinya akan dijalankan oleh
-Pemerintah Kota Sukabumi mempunyai keselarasan dan keterhubungan
+Pemerintah Kota Cirebon mempunyai keselarasan dan keterhubungan
 sehingga diharapkan dapat saling mendukung dalam mewujudkan Visi
 RPJPD maupun RPJMD. Keselarasan misi tersebut dapat dilihat pada
 gambar di bawah ini.
 
                                   Gambar 3.5
-Sinkronisasi Misi RPJPD Kota Sukabumi Tahun 2025-2045 dengan Misi Wali Kota
-                dan Wakil Wali Kota Sukabumi Tahun 2025-2029
+Sinkronisasi Misi RPJPD Kota Cirebon Tahun 2025-2045 dengan Misi Wali Kota
+                dan Wakil Wali Kota Cirebon Tahun 2025-2029
 # MISI RPJPD                                                  MISI RPJMD
-# TRANSFORMASI KOTA SUKABUMI
+# TRANSFORMASI KOTA CIREBON
   1   lleqemb&D(bn    Sumber Daf1llunwa   yan&Beruhlak du. Berdaya Saine
 
  II
 # LA.NDASAN TRANSFORMASJ
 
-Sumber: Bappeda Kota Sukabumi, 2025 (diolah)
+Sumber: Bappeda Kota Cirebon, 2025 (diolah)
 
 ---
 
 ### 3.3 TUJUAN DAN SASARAN
     Tujuan diturunkan dari Visi dan Misi Wali Kota dan Wakil Wali Kota
-Sukabumi yang merupakan rangkaian kinerja yang menggambarkan
+Cirebon yang merupakan rangkaian kinerja yang menggambarkan
 tercapainya visi selama 5 (lima) tahun. Sedangkan sasaran diturunkan dari
 tujuan   yang   merupakan     rangkaian    kinerja   yang   berupa   hasil
 penyelenggaraan pembangunan daerah menuju tercapainya tujuan RPJMD.
-Tujuan dan sasaran pembangunan Kota Sukabumi selama lima tahun ke
+Tujuan dan sasaran pembangunan Kota Cirebon selama lima tahun ke
 depan dapat dilihat pada gambar di bawah ini.
 
 ---
 
                                                                   Gambar 3.6
-                                         Tujuan dan Sasaran Pembangunan Kota Sukabumi Tahun 2025-2030
+                                         Tujuan dan Sasaran Pembangunan Kota Cirebon Tahun 2025-2030
 
                MIS!l                                    MISI2                                                         MISI4                           MISI5
   Pe,.i:;~b,u e:ru cumber da,,a                 Penganrn..lan1ulru n1lm                                        Pemngkaten kualrt.as           Penguetrui   tata   Y.elolft
@@ -6131,20 +6131,20 @@ depan dapat dilihat pada gambar di bawah ini.
                                                                                   kota dalam ~gU>la.an                                          ) ang berint.,gntas n«ral
                                                                                          keuangan                                                  d.an berkine')a tmggi
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
                                                                          Tabel 3.1
-                                     Target Kinerja Tujuan dan Sasaran Pembangunan Kota Sukabumi Tahun 2025-2030
+                                     Target Kinerja Tujuan dan Sasaran Pembangunan Kota Cirebon Tahun 2025-2030
 
 # BASELINE                  TARGET TAHUN
      VISI/MISI                  TUJUAN                      SASARAN                  INDIKATOR            2024                                                          KET
                                                                                                                    2025     2026    2027     2028     2029     2030
 Visi:                     Terwujudnya SDM Kota                                     Indeks                77,69     78,19    78,31   79,82    80,58    81,36    82,17
-“Terwujudnya              Sukabumi yang unggul                                     Pembangunan
+“Terwujudnya              Cirebon yang unggul                                     Pembangunan
 Masyarakat Kota           dan berkarakter                                          Manusia (Poin)
-Sukabumi yang Inovatif,
+Cirebon yang Inovatif,
 Mandiri, Agamis,
 Nasionalis”
                                                     Terwujudnya pendidikan         Indeks Pendidikan     72,43     73,63    74,41   75,19    75,98    76,76    77,54
@@ -6171,7 +6171,7 @@ Misi:
                           Terwujudnya                                              Indeks Rasa Aman      75,40     77,43    77,98   78,53    79,08    79,63    80,18
 - **2.** Pengamalan nilai-
    nilai agama, sosial,   masyarakat Kota                                          (Poin)
-   budaya, dan            Sukabumi yang agamis,     Terwujudnya masyarakat         Indeks Kerukunan      78,16     79,00    79,27   79,55    79,82    80,09    80,36
+   budaya, dan            Cirebon yang agamis,     Terwujudnya masyarakat         Indeks Kerukunan      78,16     79,00    79,27   79,55    79,82    80,09    80,36
    memperkuat             toleran, berbudaya, dan   kota yang agamis dan toleran   Umat Beragama
    toleransi,             inklusif                                                 (Poin)
    ketenteraman serta                               Terwujudnya masyarakat         Indeks                  75       76       77      78       79       80       81
@@ -6199,7 +6199,7 @@ Misi:
                           pertumbuhan dan                                          (Juta Rp)                           -       -       –       –       –       -
    publik berkualitas
                           produktivitas ekonomi                                                                      45,65   51,02   55,77   60,72   66,24   72,99
-                          Kota Sukabumi yang        Meningkatnya ekonomi           Indeks Kota Kreatif     87,86     87,86   88,53   89,21   89,88   90.56   91,23
+                          Kota Cirebon yang        Meningkatnya ekonomi           Indeks Kota Kreatif     87,86     87,86   88,53   89,21   89,88   90.56   91,23
                           inklusif                  kreatif kota                   (Poin)
                                                     Berkembangnya industri         Rasio Penyediaan         3,26     3,29    3,36    3,44    3,53    3,61    3,70
                                                     pariwisata MICE (Meeting,      Akomodasi Makan
@@ -6218,7 +6218,7 @@ Misi:
                                                                                    (Persen)
                           Terwujudnya                                              Indeks Kota Layak       65,74     66,75   67,74   68,75   69,74   70,75   71,74
                           infrastruktur Kota                                       Huni (Poin)
-                          Sukabumi yang             Meningkatnya kualitas          Indeks Kepuasan         87,37     88,37   88,4    88,43   88,48   88,53   88,58
+                          Cirebon yang             Meningkatnya kualitas          Indeks Kepuasan         87,37     88,37   88,4    88,43   88,48   88,53   88,58
                           berkualitas dan           infrastruktur dan lingkungan   Layanan
                           berkelanjutan             hidup kota                     Infrastruktur (Poin)
                                                     Meningkatnya resilensi kota    Indeks Risiko           77,56     75,56   73,56   71,55   70,53   69,51   68,50
@@ -6232,7 +6232,7 @@ Misi:
 # BASELINE                      TARGET TAHUN
     VISI/MISI               TUJUAN                   SASARAN                 INDIKATOR              2024                                                                        KET
                                                                                                               2025       2026       2027       2028       2029       2030
-                      Sukabumi yang adaptif   Terwujudnya tata kelola      Indeks Sistem            3,79       3,83       3,87       3,90       3,94       3,97       4,00
+                      Cirebon yang adaptif   Terwujudnya tata kelola      Indeks Sistem            3,79       3,83       3,87       3,90       3,94       3,97       4,00
                       dan inovatif            pemerintahan kota berbasis   Pemerintahan
                                               digital                      Berbasis Elektronik
                                                                            (SPBE) (Poin)
@@ -6250,7 +6250,7 @@ Misi:
                                               Terwujudnya ASN kota yang    Indeks Sistem Merit      0,78       0,80       0,81       0,82       0,83       0,84       0,85
                                               berintegritas, netral dan    (Poin)
                                               berkinerja tinggi
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
@@ -6263,11 +6263,11 @@ RPJMD. Penahapan pembangunan adalah prioritas pembangunan tahunan
 dalam rangka pencapaian tujuan dan sasaran.
     Dalam menyusun strategi dan penahapan pembangunan, selain
 memperhatikan visi, misi, tujuan dan sasaran pembangunan RPJMD juga
-memedomani arah kebijakan dan fokus penahapan RPJPD Kota Sukabumi
+memedomani arah kebijakan dan fokus penahapan RPJPD Kota Cirebon
 Tahun 2025-2045 terutama pada tahap pertama yaitu pemantapan fondasi.
 
                               Gambar 3.7
-      Pentahapan Pembangunan RPJPD Kota Sukabumi Tahun 2025-2045
+      Pentahapan Pembangunan RPJPD Kota Cirebon Tahun 2025-2045
 
        TAHAPI              TAHAP II               I    TAHAP III      TAHAPIV
 
@@ -6281,7 +6281,7 @@ Tahun 2025-2045 terutama pada tahap pertama yaitu pemantapan fondasi.
 
        (2030-2034)        (2035-2039)                  (2040-2045)
 
-    Sumber: RPJPD Kota Sukabumi Tahun 2025-2045
+    Sumber: RPJPD Kota Cirebon Tahun 2025-2045
 
     Tahap pertama adalah pemantapan fondasi. Pemantapan fondasi ini
 merupakan upaya untuk menjaga kesinambungan pembangunan yang telah
@@ -6305,7 +6305,7 @@ bawah ini.
                                                                                                              p,tm.nub.n in&astN.bu.r
                                                                                                                 btabanan bencana
 
-       Sumber: RPJPD Kota Sukabumi Tahun 2025-2045
+       Sumber: RPJPD Kota Cirebon Tahun 2025-2045
 
        Berdasarkan data-data di atas, maka telah disusun penahapan
  pembangunan selama lima tahun ke depan yang dimulai dari tahun 2026
@@ -6313,7 +6313,7 @@ bawah ini.
  dijadikan prioritas pembangunan dalam setiap tahun anggaran selama lima
  tahun ke depan.
                                       Tabel 3.2
-                 Penahapan Pembangunan Kota Sukabumi Tahun 2026-2030
+                 Penahapan Pembangunan Kota Cirebon Tahun 2026-2030
     TAHAP I                       TAHAP II                    TAHAP III                       TAHAP IV                       TAHAP V
      (2026)                        (2027)                      (2028)                          (2029)                         (2030)
 • Perluasan akses           • Peningkatan                 • Perluasan                     • Peningkatan                  • Peningkatan
@@ -6356,9 +6356,9 @@ bawah ini.
                                         inovasi dalam       transparan dan
                                         tata kelola         akuntabel
                                         pemerintahan
- Sumber: Bappeda Kota Sukabumi, 2025
+ Sumber: Bappeda Kota Cirebon, 2025
 
-      Lokus pengembangan Kota Sukabumi berdasarkan RTRW Tahun 2022-
+      Lokus pengembangan Kota Cirebon berdasarkan RTRW Tahun 2022-
  2042, terdiri dari:
  - **1.** Pengembangan struktur ruang kota, dengan fokus pada:
    - **a.** Perwujudan pusat kegiatan yang memperkuat kegiatan pendidikan,
@@ -6490,13 +6490,13 @@ bawah ini.
 ### 3.5 ARAH KEBIJAKAN
     Arah    kebijakan   merupakan    rangkaian   kerja   yang   merupakan
 penjabaran misi yang selaras dengan strategi dalam rangka mencapai target
-tujuan dan sasaran RPJMD. Arah kebijakan pembangunan Kota Sukabumi
+tujuan dan sasaran RPJMD. Arah kebijakan pembangunan Kota Cirebon
 Tahun 2026-2030 dapat dilihat pada tabel di bawah ini.
 
 ---
 
                                 Tabel 3.3
-        Arah Kebijakan Pembangunan Kota Sukabumi Tahun 2026-2030
+        Arah Kebijakan Pembangunan Kota Cirebon Tahun 2026-2030
 NO              MISI                                  ARAH KEBIJAKAN
 - **1.** Pengembangan sumber daya        ▪ Meningkatkan fasilitas pendidikan seperti sekolah dan
      manusia dan keterampilan          pusat pelatihan dengan memastikan kondisi yang
@@ -6826,19 +6826,19 @@ NO   MISI                     ARAH KEBIJAKAN
                                         untuk memotivasi pegawai dan mendorong kinerja yang
                                         baik
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
 ### 3.6 PROGRAM PRIORITAS
 
-### 3.6.1 PROGRAM PRIORITAS KOTA SUKABUMI
+### 3.6.1 PROGRAM PRIORITAS KOTA CIREBON
     Program prioritas dihasilkan dari cascading kinerja yang dimulai dari
 visi sampai dengan outcome. Pada perumusannya, penentuan program
 prioritas juga mempertimbangkan program unggulan Wali Kota dan Wakil
-Wali Kota Sukabumi sebagaimana yang disampaikan pada saat kampanye.
+Wali Kota Cirebon sebagaimana yang disampaikan pada saat kampanye.
     Berdasarkan hasil analisis terhadap program unggulan Wali Kota dan
-Wakil Wali Kota Sukabumi yang telah dijanjikan saat kampanye, maka telah
+Wakil Wali Kota Cirebon yang telah dijanjikan saat kampanye, maka telah
 disepakati dan dikelompokkan menjadi 14 (empat belas) program unggulan
 sebagai berikut:
 A. Misi 1: Pengembangan Sumber Daya Manusia dan Keterampilan
@@ -6848,7 +6848,7 @@ A. Misi 1: Pengembangan Sumber Daya Manusia dan Keterampilan
                       Disabilitas)
                     Program    unggulan          pemberian       beasiswa    sarjana
         merupakan program beasiswa yang ditujukan untuk masyarakat
-        Kota Sukabumi yang berkeinginan melanjutkan pendidikan ke
+        Kota Cirebon yang berkeinginan melanjutkan pendidikan ke
         tingkat Sarjana, namun memiliki keterbatasan dari sisi ekonomi.
         Penentuan penerima beasiswa akan diatur dengan mekanisme yang
         sederhana, tepat sasaran dan selektif dengan melibatkan berbagai
@@ -6913,11 +6913,11 @@ senantiasa meningkatkan kualitas pelayanan di Puskesmas. Kondisi
 saat ini, masih ada masyarakat yang belum memiliki jaminan
 kesehatan, maka ketika mereka ingin mendapatkan pelayanan
 kesehatan dasar memerlukan pembiayaan. Ke depan, pemerintah
-harus hadir dalam memastikan warga Kota Sukabumi dapat
+harus hadir dalam memastikan warga Kota Cirebon dapat
 mengakses pelayanan kesehatan tanpa biaya walaupun belum
 memiliki jaminan kesehatan, dengan catatan masyarakat tersebut
 dijadikan prioritas untuk menjadi peserta Penerima Bantuan Iuran
-(PBI) Jaminan Kesehatan Nasional di Kota Sukabumi.
+(PBI) Jaminan Kesehatan Nasional di Kota Cirebon.
 Selain itu melalui program unggulan ini pemerintah daerah juga
 harus bisa memastikan bahwa pelayanan kesehatan dapat di akses
 oleh masyarakat yang punya keterbatasan datang langsung ke
@@ -6954,7 +6954,7 @@ peralatan kesehatan, dan biaya operasional lainnya.
 
 B. Misi 2: Pengamalan Nilai-Nilai Agama, Sosial, Budaya dan Memperkuat
    Toleransi, Ketenteraman serta Ketertiban Umum
-                  - **1.** Sukabumi Kota Wakaf
+                  - **1.** Cirebon Kota Wakaf
                   Wakaf adalah salah satu konsep dalam Islam yang
                   memiliki      peran     penting      dalam         meningkatkan
        kesejahteraan       masyarakat.     Tujuan      wakaf    adalah     untuk
@@ -6964,7 +6964,7 @@ B. Misi 2: Pengamalan Nilai-Nilai Agama, Sosial, Budaya dan Memperkuat
        bergerak selain uang yang dapat digunakan untuk kepentingan
        umum, seperti pembangunan masjid, sekolah, rumah sakit, bantuan
        modal usaha dan lain-lain.
-       Program unggulan “Sukabumi Kota Wakaf” adalah suatu konsep
+       Program unggulan “Cirebon Kota Wakaf” adalah suatu konsep
        yang mengintegrasikan prinsip-prinsip Islam dalam pengelolaan
        kota, dengan tujuan meningkatkan kualitas hidup masyarakat dan
        menciptakan masyarakat yang lebih adil dan sejahtera. Program
@@ -6975,7 +6975,7 @@ B. Misi 2: Pengamalan Nilai-Nilai Agama, Sosial, Budaya dan Memperkuat
 
 ---
 
-Dalam rangka menjadikan Sukabumi sebagai Kota Wakaf, maka
+Dalam rangka menjadikan Cirebon sebagai Kota Wakaf, maka
 pemerintah daerah haruslah melakukan berbagai langkah dalam
 menuju cita-cita tersebut. Salah satu yang akan dilakukan sebagai
 tahap awal, adalah program Gerakan Wakaf Uang, dimana seluruh
@@ -6983,25 +6983,25 @@ lapisan masyarakat termasuk Aparatur Sipil Negara dan dunia
 usaha dihimbau untuk melakukan wakaf uang sesuai kemampuan
 - **masyarakat.** Gerakan Wakaf Uang ini dilaksanakan dengan tidak ada
 - **paksaan.** Gerakan wakaf uang inilah yang nanti akan menjadi salah
-satu prasyarat utama dalam menjadikan Sukabumi sebagai Kota
+satu prasyarat utama dalam menjadikan Cirebon sebagai Kota
 Wakaf, dimana dalam implementasinya akan diatur lebih lanjut
 dengan aturan pelaksanaan.
 Pengelolaan wakaf uang nantinya akan dilakukan oleh lembaga
 Nazhir Wakaf Uang yang kredibel dan menghindari terjadinya conflict
 of interest. Selanjutnya Nazhir Wakaf Uang akan melakukan
 pengelolaan yang hasilnya akan disalurkan manfaatnya kepada
-masyarakat Kota Sukabumi sesuai dengan akta ikrar dan ketentuan
+masyarakat Kota Cirebon sesuai dengan akta ikrar dan ketentuan
 yang berlaku.
 
           - **2.** Optimalisasi        Peran    Masyarakat      dalam
           Pembangunan (Insentif Marbot, Guru Ngaji, RT, RW, dan
           Linmas)
-Pembangunan di Kota Sukabumi tidak hanya menjadi tanggung
+Pembangunan di Kota Cirebon tidak hanya menjadi tanggung
 jawab pemerintah, tetapi juga memerlukan peranan aktif dari
 seluruh lapisan masyarakat. Masyarakat memiliki peran yang sangat
 penting dalam pelaksanaan pembangunan, karena mereka adalah
 subjek dan objek pembangunan itu sendiri. Dengan peranan
-masyarakat, pembangunan di Kota Sukabumi dapat menjadi lebih
+masyarakat, pembangunan di Kota Cirebon dapat menjadi lebih
 efektif dan efisien. Masyarakat dapat memberikan kontribusi dalam
 bentuk   ide,   sumber   daya,   dan    tenaga   untuk   mendukung
 pelaksanaan pembangunan.
@@ -7014,21 +7014,21 @@ dan penguatan akan peran masyarakat dalam pembangunan.
 Implementasinya adalah pemberian insentif kepada para RT, RW,
 Marbot/Pengurus Masjid, Guru Ngaji, serta Linmas yang selama ini
 senantiasa aktif memberikan sumbangsih kepada keberhasilan
-pembangunan di Kota Sukabumi.
+pembangunan di Kota Cirebon.
 Pemberian insentif ini dilakukan setiap bulan, dengan catatan unsur
 masyarakat tersebut mempunyai tugas dan tanggung jawab dalam
 membantu pemerintah sesuai bidangnya dan berdasarkan arahan
 atau ketentuan yang akan disampaikan dalam sebuah regulasi
 - **khusus.** Sebagai salah satu contoh adalah keterlibatan para RT dan
 RW dalam mendukung program strategis peningkatan Pendapatan
-Asli Daerah (PAD) di Kota Sukabumi.
+Asli Daerah (PAD) di Kota Cirebon.
 
           - **3.** Pusat Konseling Keluarga Ayeuna (Ponsel Ayeuna)
           (Konseling Ibu, Ayah, Anak, Remaja)
           Pusat Konseling Keluarga Ayeuna merupakan sebuah
 program unggulan yang memfokuskan pada ketahanan keluarga
 dengan memberikan konsultasi gratis serta solusi-solusi bagi
-permasalahan keluarga untuk penduduk Kota Sukabumi. Melalui
+permasalahan keluarga untuk penduduk Kota Cirebon. Melalui
 Pusat Konseling Keluarga Ayeuna, diharapkan dapat berperan
 penting dalam membantu menyelesaikan permasalahan keluarga.
 Melalui program ini akan didapatkan hal-hal sebagai berikut:
@@ -7076,7 +7076,7 @@ daerah akan bekerja sama dengan organisasi kemasyarakatan atau
 lembaga yang menampung para pemuda di dalamnya.
 Selanjutnya     ke   depannya   diharapkan   peran    pemuda     dalam
 pembangunan dapat membawa dampak yang signifikan terhadap
-kemajuan Kota Sukabumi, serta dapat membantu meningkatkan
+kemajuan Kota Cirebon, serta dapat membantu meningkatkan
 kualitas    hidup     masyarakat,      memajukan      ekonomi,    dan
 mempromosikan nilai-nilai demokrasi dan keadilan sosial.
 
@@ -7099,7 +7099,7 @@ C. Misi 3: Pengembangan Ekonomi Kreatif dan Pariwisata
        Melalui program ini masyarakat atau komunitas yang mempunyai
        produk unggulan dan memerlukan pemasaran lebih jauh dapat
        dibantu untuk lebih diperkenalkan kepada masyarakat luas baik
-       Kota Sukabumi maupun di luar Kota Sukabumi.
+       Kota Cirebon maupun di luar Kota Cirebon.
        Selain itu program-program unggulan dari Wali Kota dan Wakil Wali
        Kota serta program-program prioritas lainnya di setiap Perangkat
        daerah ataupun dari lembaga lain dapat juga diperkenalkan melalui
@@ -7135,7 +7135,7 @@ C. Misi 3: Pengembangan Ekonomi Kreatif dan Pariwisata
 D. Misi 4: Peningkatan Kualitas Lingkungan dan Infrastruktur Publik
                  1.Infrastruktur Ayeuna (Stadion Bertaraf Nasional dan
                    Infrastruktur Publik lainnya)
-                 Pembangunan          infrastruktur     di    Kota       Sukabumi
+                 Pembangunan          infrastruktur     di    Kota       Cirebon
        merupakan salah satu prioritas utama dalam meningkatkan kualitas
        hidup   masyarakat      dan    pertumbuhan       ekonomi     di   kota    ini.
        Infrastruktur   utama    yang     harus   jadi   prioritas    adalah     yang
@@ -7149,7 +7149,7 @@ D. Misi 4: Peningkatan Kualitas Lingkungan dan Infrastruktur Publik
        pembangunan sebuah stadion olahraga berstandar nasional menjadi
        kebutuhan mendesak untuk mendukung perkembangan dunia
        olahraga, serta mengakomodir kebutuhan infrastruktur pelayanan
-       publik di Kota Sukabumi.
+       publik di Kota Cirebon.
 
 ---
 
@@ -7162,7 +7162,7 @@ menggunakan berbagai pendekatan pembiayaan mulai dari PAD,
 dana transfer, investor, CSR serta dari berbagai sumber lain sesuai
 ketentuan perundang-undangan.
 Dengan perencanaan yang matang dan dukungan dari pemerintah,
-swasta, serta masyarakat, Sukabumi dapat memiliki stadion yang
+swasta, serta masyarakat, Cirebon dapat memiliki stadion yang
 menjadi kebanggaan bersama dan memberikan manfaat besar bagi
 semua pihak.
 
@@ -7187,7 +7187,7 @@ tertentu, ambulans jenazah menjadi solusi yang sangat dibutuhkan.
 
 E. Misi 5: Penguatan Tata Kelola Pemerintah untuk Pelayanan Publik
    Berkualitas
-       .• • •    •    1. Sukabumi Menyala (Layanan Publik Terintegrasi)
+       .• • •    •    1. Cirebon Menyala (Layanan Publik Terintegrasi)
 
        .•• •.         Di era digital saat ini, masyarakat menginginkan layanan
                       yang cepat, efisien, dan mudah diakses. Namun, sering
@@ -7199,8 +7199,8 @@ E. Misi 5: Penguatan Tata Kelola Pemerintah untuk Pelayanan Publik
        Dengan demikian, masyarakat dapat mengakses semua layanan
        publik        yang   dibutuhkan   dalam     satu    tempat,   tanpa    harus
        mengunjungi beberapa tempat yang berbeda.
-       Program unggulan Sukabumi Menyala difokuskan pada integrasi
-       pelayanan publik yang ada di Kota Sukabumi sehingga terciptanya
+       Program unggulan Cirebon Menyala difokuskan pada integrasi
+       pelayanan publik yang ada di Kota Cirebon sehingga terciptanya
        beberapa manfaat yaitu kemudahan akses, meningkatkan efisiensi
        dan efektivitas pelayanan publik, meningkatkan kualitas pelayanan
        publik,        peningkatan   transparansi     dan      akuntabilitas   serta
@@ -7236,19 +7236,19 @@ E. Misi 5: Penguatan Tata Kelola Pemerintah untuk Pelayanan Publik
 
      Berdasarkan      cascading     kinerja   yang     dimulai    visi     dan
 mempertimbangkan program unggulan di atas, maka program prioritas Kota
-Sukabumi untuk 5 (lima) tahun ke depan seperti pada tabel di bawah ini.
+Cirebon untuk 5 (lima) tahun ke depan seperti pada tabel di bawah ini.
 
 ---
 
                                                                          Tabel 3.4
-                                                    Program Prioritas Kota Sukabumi Tahun 2026-2030
+                                                    Program Prioritas Kota Cirebon Tahun 2026-2030
 
 # PROGRAM
       VISI/MISI                   TUJUAN                SASARAN                 OUTCOME                     INDIKATOR                                       KET
 # PRIORITAS
 Visi:                        Terwujudnya SDM Kota                                                     Indeks Pembangunan
-“Mewujudkan Masyarakat       Sukabumi yang unggul                                                     Manusia
-Kota Sukabumi yang           dan berkarakter        Terwujudnya                                       Indeks Pendidikan
+“Mewujudkan Masyarakat       Cirebon yang unggul                                                     Manusia
+Kota Cirebon yang           dan berkarakter        Terwujudnya                                       Indeks Pendidikan
 Inovatif, Mandiri, Agamis,                          pendidikan masyarakat
                                                                             Meningkatnya Partisipasi Jumlah Anak Usia 7-15       Program Pengelolaan
 Nasionalis”                                         kota yang berkualitas
@@ -7315,10 +7315,10 @@ Misi:                                                                           
                                                                              kerja
                            Terwujudnya                                                                 Indeks Rasa Aman
                            masyarakat Kota
-                           Sukabumi yang agamis,     Terwujudnya                                       Indeks Kerukunan Umat
+                           Cirebon yang agamis,     Terwujudnya                                       Indeks Kerukunan Umat
                            toleran, tentram,         masyarakat kota yang                              Beragama
                            berbudaya, dan inklusif   agamis dan toleran      Meningkatnya kualitas     Indeks Zakat Nasional Kota   Program Pemerintahan dan
-                                                                             masyarakat kota yang      Sukabumi                     Kesejahteraan Rakyat
+                                                                             masyarakat kota yang      Cirebon                     Kesejahteraan Rakyat
                                                                              agamis
                                                                              Meningkatnya              Persentase Konflik antar     Program Pembinaan dan
                                                                              pembinaan kerukunan       Inter Umat Beragama yang     Pengembangan Ketahanan
@@ -7328,7 +7328,7 @@ Misi:                                                                           
                                                                              lainnya
                                                      Terwujudnya                                       Indeks Penyelenggaraan
                                                      Masyarakat Kota                                   Trantibumlinmas
-                                                     Sukabumi yang
+                                                     Cirebon yang
                                                      Tentram dan Tertib
                                                                              Meningkatnya              Persentase Gangguan          Program Peningkatan
                                                                              Penanganan Gangguan       Trantibumlinmas yang         Ketentraman dan Ketertiban
@@ -7340,7 +7340,7 @@ Misi:                                                                           
 VISI/MISI         TUJUAN                SASARAN                OUTCOME                     INDIKATOR                                          KET
 # PRIORITAS
                                                            Trantibumlinmas di
-                                                           Kota Sukabumi
+                                                           Kota Cirebon
                                     Terwujudnya                                      Indeks Warisan Budaya
                                     masyarakat kota yang
                                                            Meningkatnya peran        Tingkat Partisipasi         Program Pengembangan
@@ -7374,7 +7374,7 @@ VISI/MISI         TUJUAN                SASARAN                OUTCOME          
             Terwujudnya                                                              PDRB Per Kapita
             pertumbuhan dan
             produktivitas ekonomi   Meningkatnya                                     Indeks Kota Kreatif
-            Kota Sukabumi yang      ekonomi kreatif kota
+            Kota Cirebon yang      ekonomi kreatif kota
                                                            Meningkatnya kualitas     Persentase Pelaku Ekonomi   Program Pengembangan
             inklusif                                       ekosistem kreatif         Kreatif yang Memiliki       Ekonomi Kreatif melalui
                                                                                      Kekayaan Intelektual        Pemanfaatan dan
@@ -7420,7 +7420,7 @@ VISI/MISI         TUJUAN              SASARAN                OUTCOME            
                                                          asli daerah
             Terwujudnya                                                             Indeks Kota Layak Huni
             infrastruktur Kota
-            Sukabumi yang        Meningkatnya kualitas                              Indeks Kepuasan Layanan
+            Cirebon yang        Meningkatnya kualitas                              Indeks Kepuasan Layanan
             berkualitas dan      infrastruktur dan                                  Infrastruktur
             berkelanjutan        lingkungan hidup kota   Meningkatnya kualitas      Tingkat Kemantapan Jalan   Program
                                                          jalan dan jembatan         Kota                       Penyelenggaraan Jalan
@@ -7483,7 +7483,7 @@ VISI/MISI         TUJUAN                   SASARAN                OUTCOME       
                                                                                                                      Kerusakan Lingkungan Hidup
             Terwujudnya tata kelola                                                     Indeks Reformasi Birokrasi
             pemerintahan Kota
-            Sukabumi yang adaptif     Terwujudnya tata                                  Indeks Sistem
+            Cirebon yang adaptif     Terwujudnya tata                                  Indeks Sistem
             dan inovatif              kelola pemerintahan                               Pemerintahan Berbasis
                                       kota berbasis digital                             Elektronik (SPBE)
                                                               Meningkatnya              Persentase Pengelolaan       Program Pengelolaan Aplikasi
@@ -7534,7 +7534,7 @@ VISI/MISI         TUJUAN                   SASARAN                OUTCOME       
                                                                  Iptek
                                          Terwujudnya birokrasi                             Indeks Reformasi Birokrasi
                                          pemerintahan kota                                 General (IRB General) Kota
-                                         yang transparan dan                               Sukabumi
+                                         yang transparan dan                               Cirebon
                                          akuntabel               Meningkatnya kualitas     ⚫ Persentase Keselarasan     Program Perencanaan,
                                                                  perencanaan,                RPJMD dengan RKPD          Pengendalian dan Evaluasi
                                                                  pengendalian dan          ⚫ Persentase Keselarasan     Pembangunan Daerah
@@ -7557,20 +7557,20 @@ VISI/MISI         TUJUAN                   SASARAN                OUTCOME       
                                          tinggi                  kelola pengembangan       Karir ASN sesuai dengan
                                                                  karir ASN                 Kompetensinya
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
       Berdasarkan uraian dan pembahasan pada bab III di atas, maka dapat
 disimpulkan logical framework dalam pencapaian visi dan misi Wali Kota dan
-Wakil Wali Kota Sukabumi Periode Tahun 2025 - 2030 adalah sebagaimana
+Wakil Wali Kota Cirebon Periode Tahun 2025 - 2030 adalah sebagaimana
 gambar di bawah ini.
 
                                     Gambar 3.9
                      Logical Framework Pencapaian Visi dan Misi
-         Wali Kota dan Wakil Wali Kota Sukabumi Periode Tahun 2025 - 2030
+         Wali Kota dan Wakil Wali Kota Cirebon Periode Tahun 2025 - 2030
 
-                   Visi: Terwujudnya Masyarakat Kota Sukabumi yang Inovatif, Mandiri,
+                   Visi: Terwujudnya Masyarakat Kota Cirebon yang Inovatif, Mandiri,
                                          Agamis dan Nasionalis
 
  Misi:
@@ -7592,11 +7592,11 @@ gambar di bawah ini.
                                                                            Terwujudnya
    Terwujudnya SDM         masyarakat Kota       pertumbuhan dan                                  Terwujudnya tata
                                                                         infrastruktur Kota
-  Kota Sukabumi yang       Sukabumi yang           produktivitas                                kelola pemerintahan
-                                                                          Sukabumi yang
-      unggul dan           agamis, toleran,        ekonomi Kota                                 Kota Sukabumi yang
+  Kota Cirebon yang       Cirebon yang           produktivitas                                kelola pemerintahan
+                                                                          Cirebon yang
+      unggul dan           agamis, toleran,        ekonomi Kota                                 Kota Cirebon yang
                                                                           berkualitas dan
-      berkarakter          berbudaya, dan         Sukabumi yang                                  adaptif dan inovatif
+      berkarakter          berbudaya, dan         Cirebon yang                                  adaptif dan inovatif
                                                                            berkelanjutan
                                inklusif               inklusif
 
@@ -7607,7 +7607,7 @@ gambar di bawah ini.
  berkualitas dan         Sasaran 2.2:           Berkembangnya          hidup kota               Sasaran 5.2:
  merata                  Terwujudnya            industri pariwisata    Sasaran 4.2:             Meningkatnya
  Sasaran 1.2:            Masyarakat Kota        MICE                   Meningkatnya             kualitas pelayanan
- Terwujudnya             Sukabumi yang          Sasaran                resilensi kota           publik kota
+ Terwujudnya             Cirebon yang          Sasaran                resilensi kota           publik kota
  kesehatan               Tentram dan Tertib     3.3:Meningkatnya       terhadap bencana         Sasaran 5.3:
  masyarakat kota yang    Sasaran 2.3:           kualitas dan           dan perubahan iklim      Meningkatnya inovasi
  berkualitas             Terwujudnya            keterjangkauan                                  kota dalam
@@ -7641,7 +7641,7 @@ Nonformal/Kesetaraan     Outcome 2.2.1:            Meningkatnya             minu
 Outcome 1.1.3:           Meningkatnya              diversifikasi dan        Outcome 4.1.4:           reformasi birokrasi dan
 Meningkatnya layanan     Penanganan Gangguan       ketahanan pangan         Meningkatnya kualitas    pelayanan publik
 perpustakaan sesuai      Trantibumlinmas di        masyarakat               perumahan dan            Outcome 5.2.2:
-standar nasional         Kota Sukabumi             Outcome 3.3.2:           permukiman               Meningkatkan kualitas
+standar nasional         Kota Cirebon             Outcome 3.3.2:           permukiman               Meningkatkan kualitas
 Outcome 1.2.1:           Outcome                   Meningkatnya             Outcome 4.1.5:           peraturan daerah yang
 Meningkatnya kualitas    2.3.1:Meningkatnya        pengawasan mutu dan      Menigkatnya kualitas     ditetapkan
 kesehatan masyarakat     peran serta masyarakat    keamanan pangan          ruang publik             Outcome 5.2.3:
@@ -7685,21 +7685,21 @@ kerja                                                                           
                                                                                                      kelola pengembangan
                                                                                                      karir ASN
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
              Secara rinci logical framework dalam pencapaian visi dan misi Wali
-Kota dan Wakil Wali Kota Sukabumi periode tahun 2025 - 2030 per tujuan
+Kota dan Wakil Wali Kota Cirebon periode tahun 2025 - 2030 per tujuan
 dapat dilihat pada gambar di bawah ini.
 
 ---
 
                                                                                               Gambar 3.10
-                                                           Logical Framework Pencapaian Visi dan Misi Wali Kota dan Wakil Wali Kota Sukabumi
+                                                           Logical Framework Pencapaian Visi dan Misi Wali Kota dan Wakil Wali Kota Cirebon
                                                                         Periode Tahun 2025 - 2030 Berdasarkan Tujuan Pertama
 # TUJUAN
 
 TUJUAN
-                                                                                                        Terwujudnya SDM Kota Sukabumi yang unggul dan berkarakter
+                                                                                                        Terwujudnya SDM Kota Cirebon yang unggul dan berkarakter
 # INDIKATOR TUJUAN
                                                                                                                        Indeks Pembangunan Manusia
 # SASARAN
@@ -7749,17 +7749,17 @@ OUTCOMES - PROGRAM
                        pendidikan kesetaraan
 # (APS)
 PD              Urusan Pendidikan             Urusan Perpustakaan                               Urusan Kesehatan                                   Urusan Kesehatan    Urusan Sosial                       Urusan Tenaga Kerja    Urusan Tenaga Kerja
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
                                                                                         Gambar 3.11
-                                                     Logical Framework Pencapaian Visi dan Misi Wali Kota dan Wakil Wali Kota Sukabumi
+                                                     Logical Framework Pencapaian Visi dan Misi Wali Kota dan Wakil Wali Kota Cirebon
                                                                    Periode tahun 2025 - 2030 Berdasarkan Tujuan Kedua
 # TUJUAN
 
 TUJUAN
-                                                                    Terwujudnya masyarakat Kota Sukabumi yang agamis, toleran, tentram, berbudaya, dan inklusif
+                                                                    Terwujudnya masyarakat Kota Cirebon yang agamis, toleran, tentram, berbudaya, dan inklusif
 # INDIKATOR TUJUAN
                                                                                                         Indeks Rasa Aman
 # SASARAN
@@ -7767,7 +7767,7 @@ TUJUAN
                                    dan toleran                         Masyarakat Kota      masyarakat kota yang
 
 SASARAN
-                                                                        Sukabumi yang            berbudaya
+                                                                        Cirebon yang            berbudaya
                                                                       Tentram dan Tertib
 # INDIKATOR SASARAN
                           Indeks Kerukunan Umat Beragama                    Indeks             Indeks Warisan                      Indeks Pembangunan Berwawasan Kependudukan (IPBK)
@@ -7777,12 +7777,12 @@ SASARAN
                      masyarakat kota yang pembinaan kerukunan             Penanganan          serta masyarakat   pemberdayaan dan      dan efektivitas              pemenuhan hak      saing kepemudaan
                             agamis          antar suku dan intra           Gangguan         dalam pengembangan      peran serta     penyelenggaraan PUG           semua anak secara
                                            suku, umat beragama,       Trantibumlinmas di         kebudayaan      masyarakat dalam   dan peran perempuan              komprehensif
-                                             ras, dan golongan          Kota Sukabumi                           mewujudkan Keluarga dalam pembangunan
+                                             ras, dan golongan          Kota Cirebon                           mewujudkan Keluarga dalam pembangunan
                                                   lainnya                                                          Sejahtera (KS)
 
 # INDIKATOR OUTCOMES
                      Indeks Zakat Nasional    Persentase konflik     Persentase Gangguan     Tingkat Partisipasi Persentase Keluarga     Persentase Anggaran      Indeks Pemenuhan      Rasio Wirausaha
-                        Kota Sukabumi          antar inter umat      Trantibumlinmas yang   Masyarakat Terhadap    yang mengikuti         Responsif Gender          Hak Anak (IPHA)         Pemuda
+                        Kota Cirebon          antar inter umat      Trantibumlinmas yang   Masyarakat Terhadap    yang mengikuti         Responsif Gender          Hak Anak (IPHA)         Pemuda
 
 OUTCOMES - PROGRAM
                                                 beragama yang            terselesaikan         Pengembangan       Kelompok Kegiatan             (ARG)
@@ -7799,7 +7799,7 @@ OUTCOMES - PROGRAM
                                                     Sosial
 # INDIKATOR PROGRAM
                      Indeks Zakat Nasional    Persentase konflik     Persentase Gangguan     Tingkat Partisipasi Persentase Keluarga     Persentase Anggaran      Indeks Pemenuhan      Rasio Wirausaha
-                        Kota Sukabumi          antar inter umat      Trantibumlinmas yang   Masyarakat Terhadap    yang mengikuti         Responsif Gender          Hak Anak (IPHA)         Pemuda
+                        Kota Cirebon          antar inter umat      Trantibumlinmas yang   Masyarakat Terhadap    yang mengikuti         Responsif Gender          Hak Anak (IPHA)         Pemuda
                                                 beragama yang            terselesaikan         Pengembangan       Kelompok Kegiatan             (ARG)
                                                   diantisipasi                                  Kebudayaan       Ketahanan Keluarga       Tingkat Partisipasi
                                                                                                                                         Angkatan Kerja (TPAK)
@@ -7812,17 +7812,17 @@ PD                                                                              
                                                                                                                   Keluarga Berencana     Perlindungan Anak   Perlindungan Anak
                                                                           Masyarakat
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
                                                                                         Gambar 3.12
-                                                     Logical Framework Pencapaian Visi dan Misi Wali Kota dan Wakil Wali Kota Sukabumi
+                                                     Logical Framework Pencapaian Visi dan Misi Wali Kota dan Wakil Wali Kota Cirebon
                                                                    Periode Tahun 2025 - 2030 Berdasarkan Tujuan Ketiga
 # TUJUAN
 
  TUJUAN
-                                                                          Terwujudnya pertumbuhan dan produktivitas ekonomi Kota Sukabumi yang inklusif
+                                                                          Terwujudnya pertumbuhan dan produktivitas ekonomi Kota Cirebon yang inklusif
 # INDIKATOR TUJUAN
                                                                                                           PDRB Per Kapita
 # SASARAN
@@ -7875,12 +7875,12 @@ Sumber: Bappeda Kota Sukabumi, 2025
  PD                     Urusan Pariwisata                                     Urusan Pariwisata            Urusan Pangan            Urusan Pangan         Urusan Penanaman Modal        Urusan Keuangan
                                                  Kecil, dan Menengah
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
                                                                                                Gambar 3.13
-                                                            Logical Framework Pencapaian Visi dan Misi Wali Kota dan Wakil Wali Kota Sukabumi
+                                                            Logical Framework Pencapaian Visi dan Misi Wali Kota dan Wakil Wali Kota Cirebon
                                                                          Periode Tahun 2025 - 2030 Berdasarkan Tujuan Keempat
 # TUJUAN
 
@@ -7940,17 +7940,17 @@ PD                       Umum dan                           Umum dan Penataan   
                                                                                        Permukiman
                                                                                                                                                                                                    Masyarakat         Masyarakat
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
                                                                                                     Gambar 3.14
-                                                                 Logical Framework Pencapaian Visi dan Misi Wali Kota dan Wakil Wali Kota Sukabumi
+                                                                 Logical Framework Pencapaian Visi dan Misi Wali Kota dan Wakil Wali Kota Cirebon
                                                                                Periode Tahun 2025 - 2030 Berdasarkan Tujuan Kelima
 # TUJUAN
 
 TUJUAN
-                                                                                                                 Terwujudnya tata kelola pemerintahan Kota Sukabumi yang adaptif dan inovatif
+                                                                                                                 Terwujudnya tata kelola pemerintahan Kota Cirebon yang adaptif dan inovatif
 # INDIKATOR TUJUAN
                                                                                                                                           Indeks Reformasi Birokrasi
 # SASARAN
@@ -7962,7 +7962,7 @@ SASARAN
                                                                                                                                                                                                                                                                             Netral, dan
                                                                                                                                                                                                                                                                          Berkinerja Tinggi
 # INDIKATOR SASARAN
-                          Indeks Sistem Pemerintahan                                                * Indeks Pelayanan Publik                                              Indeks               Indeks Reformasi Birokrasi General (IRB General) Kota Sukabumi             Indeks Sistem
+                          Indeks Sistem Pemerintahan                                                * Indeks Pelayanan Publik                                              Indeks               Indeks Reformasi Birokrasi General (IRB General) Kota Cirebon             Indeks Sistem
                               Berbasis Elektronik                                          * Indeks kepuasan Masyarakat Tingkat Kota                                   Inovasi Daerah                                                                                          Merit
 
 # OUTCOMES
@@ -8010,7 +8010,7 @@ OUTCOMES - PROGRAM
 PD                   Komunikasi dan     Urusan Perpustakaan
                        Informatika
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
@@ -8020,7 +8020,7 @@ cukup mendapat perhatian khusus dalam rangka mendukung pencapaian
 visi,     misi   serta   meningkatkan     kesejahteraan   masyarakat.     Agenda
 pembangunan tersebut berupa prioritas pembangunan selama lima tahun ke
 depan yang juga harus diperhatikan oleh seluruh perangkat daerah dan
-stakeholder yang ada di Kota Sukabumi.
+stakeholder yang ada di Kota Cirebon.
 Prioritas Pembangunan tersebut adalah sebagai berikut:
 
 - **1.** Peningkatan PAD (Pendapatan Asli Daerah)
@@ -8040,7 +8040,7 @@ Prioritas Pembangunan tersebut adalah sebagai berikut:
         pusat pertumbuhan ekonomi baru.
 
 - **3.** Penciptaan Lapangan Kerja
-                 Salah   satu   masalah    besar   di   Kota   Sukabumi    selain
+                 Salah   satu   masalah    besar   di   Kota   Cirebon    selain
     fit*         ketimpangan adalah masih tingginya angka pengangguran,
                  maka prioritas penciptaan lapangan kerja merupakan hal yang
         harus dilakukan. Program yang dapat dilakukan di antaranya melalui:
@@ -8077,22 +8077,22 @@ saran dan masukan unsur legislatif melalui sinkronisasi dengan pokok
 pikiran DPRD.
 
 ### 3.6.2   INDIKASI   INTERVENSI      PROYEK     DAN   PROGRAM       STRATEGIS
-        NASIONAL DI KOTA SUKABUMI
+        NASIONAL DI KOTA CIREBON
     RPJMN Tahun 2025-2029 juga terdapat beberapa indikasi intervensi
-berupa proyek strategis yang akan dilaksanakan di Kota Sukabumi. Berbagai
+berupa proyek strategis yang akan dilaksanakan di Kota Cirebon. Berbagai
 indikasi intervensi tersebut antara lain:
 - **1.** Pembangunan rumah murah bersanitasi baik bagi pekeria, MBR, Gen Z,
-  dan milenial di kawasan perkotaan Bogor-Sukabumi (PHTC).
+  dan milenial di kawasan perkotaan Bogor-Cirebon (PHTC).
 
 ---
 
 - **2.** Pengembangan layanan unggulan kesehatan ibu-anak, kanker, jantung,
      stroke, dan sistem rujukan berbasis kompetensi di RSUD Provinsi dan
-     Kab/Kota, khususnya pada RSUD R. Syamsudin, SH Sukabumi (PHTC).
-- **3.** Pembangunan Jalan Tol Ciawi-Sukabumi.
-- **4.** Pembangunan Jalan Tol Sukabumi-Cianjur-Ciranjang-Padalarang.
-- **5.** Pembangunan TPST Regional Bogor-Sukabumi.
-- **6.** Urban renewal pada kota-kota wisata antara lain di Bogor dan Sukabumi.
+     Kab/Kota, khususnya pada RSUD R. Syamsudin, SH Cirebon (PHTC).
+- **3.** Pembangunan Jalan Tol Ciawi-Cirebon.
+- **4.** Pembangunan Jalan Tol Cirebon-Cianjur-Ciranjang-Padalarang.
+- **5.** Pembangunan TPST Regional Bogor-Cirebon.
+- **6.** Urban renewal pada kota-kota wisata antara lain di Bogor dan Cirebon.
         Selain itu telah ditetapkan pula program stretegis nasional yang harus
 dilaksanakan oleh seluruh Kepala Daerah dan Wakil Kepala Daerah di
 Indonesia sebagaimana yang tertuang dalam Peraturan Menteri Dalam Negeri
@@ -8126,28 +8126,28 @@ V. Perumbuhan Ekonomi
        9) Percepatan Pembentukan Koperasi Merah Putih
        10) Kemudahan Perizinan di Daerah
 
-### 3.6.3 PROGRAM/PROYEK PRIORITAS JAWA BARAT DI KOTA SUKABUMI
+### 3.6.3 PROGRAM/PROYEK PRIORITAS JAWA BARAT DI KOTA CIREBON
        Dalam RPJMD Provinsi Jawa Barat Tahun 2025-2029 terdapat beberapa
 program/proyek strategis provinsi yang akan dilaksanakan di Kota
-Sukabumi. Keberadaan program/proyek strategis ini diharapkan dapat lebih
-mendorong pembangunan di Kota Sukabumi. Selain itu, program/proyek
+Cirebon. Keberadaan program/proyek strategis ini diharapkan dapat lebih
+mendorong pembangunan di Kota Cirebon. Selain itu, program/proyek
 strategis ini diharapkan juga dapat memberikan kontribusi terhadap
-pencapaian target-target pembangunan Kota Sukabumi. Program/proyek
+pencapaian target-target pembangunan Kota Cirebon. Program/proyek
 strategis provinsi tersebut antara lain:
-- **1.** Lanjutan Pembangunan Jalan Lingkar Sukabumi
-- **2.** Lanjutan Pembangunan Jalan Lingkar Sukabumi
-- **3.** Pembangunan Jalan Tol Sukabumi-Ciranjang
-- **4.** TPPAS Bersama Sukabumi
+- **1.** Lanjutan Pembangunan Jalan Lingkar Cirebon
+- **2.** Lanjutan Pembangunan Jalan Lingkar Cirebon
+- **3.** Pembangunan Jalan Tol Cirebon-Ciranjang
+- **4.** TPPAS Bersama Cirebon
 
-### 3.6.4 RENCANA PROYEK STRATEGIS KOTA SUKABUMI
+### 3.6.4 RENCANA PROYEK STRATEGIS KOTA CIREBON
        Dalam lima tahun ke depan terdapat beberapa proyek strategis daerah
-yang rencananya akan dilakukan di wilayah Kota Sukabumi. Proyek tersebut
+yang rencananya akan dilakukan di wilayah Kota Cirebon. Proyek tersebut
 tentunya      dalam   mendukung    implementasi   program    unggulan   serta
 peningkatan kualitas pelayanan publik dan kesejahteraan masyarakat.
 Rencana proyek strategis tersebut adalah sebagaimana pada tabel di bawah
 ini.
                                      Tabel 3.5
-             Rencana Proyek Strategis Kota Sukabumi Tahun 2025-2030
+             Rencana Proyek Strategis Kota Cirebon Tahun 2025-2030
 # RENCANA SUMBER
  NO                PROYEK STRATEGIS
 # PEMBIAYAAN
@@ -8205,7 +8205,7 @@ ini.
        kesehatan lainnya
   15   Pembangunan/rehabilitasi     sarana             APBD Kota/DAK Fisik/Bankeu
        pendidikan                                             Provinsi/CSR
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
@@ -8219,13 +8219,13 @@ Sumber: Bappeda Kota Sukabumi, 2025
      Program prioritas adalah program strategis yang dilaksanakan oleh Perangkat
 Daerah sebagai instrumen untuk mewujudkan tujuan dan sasaran RPJMD yang
 diperoleh dengan teknik cascading (penurunan) kinerja. Program prioritas Kota
-Sukabumi beserta pagu indikatif (sigma pagu subkegiatan yang dominan
+Cirebon beserta pagu indikatif (sigma pagu subkegiatan yang dominan
 berkontribusi terhadap program prioritas) dapat dilihat pada tabel di bawah ini.
 
 ---
 
                                                                              Tabel 4.1
-                                                   Program Prioritas Pembangunan Kota Sukabumi Tahun 2025-2030
+                                                   Program Prioritas Pembangunan Kota Cirebon Tahun 2025-2030
 # PAGU INDIKATIF TAHUN
                                                                                            (Juta Rupiah)                                               PD PENGAMPU
                PROGRAM PRIORITAS
@@ -8429,24 +8429,24 @@ Program Pengelolaan Keuangan Daerah             7.519.301.268   17.495.876.235  
 
  Program Kepegawaian Daerah            652.000.000     662.735.787        662.432.000     572.368.480     572.341.635     Kepegawaian
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
 ### 4.1.2 PROGRAM DUKUNGAN TERHADAP PENCAPAIAN ASTA CITA
      Dalam rangka mendukung Asta Cita, dengan mempertimbangkan kondisi,
-karakteristik, dan otonomi daerah maka Kota Sukabumi melalui Perangkat Daerah
+karakteristik, dan otonomi daerah maka Kota Cirebon melalui Perangkat Daerah
 akan berkontribusi terhadap kegiatan prioritas utama dan proyek strategis nasional
-(Lampiran I) RPJMN Tahun 2025-2029. Kontribusi Kota Sukabumi terhadap
+(Lampiran I) RPJMN Tahun 2025-2029. Kontribusi Kota Cirebon terhadap
 pencapaian Asta Cita seperti pada tabel di bawah ini.
 
 ---
 
                                                              Tabel 4.2
-                       Program Dukungan Kota Sukabumi Terhadap Pencapaian Asta Cita dan Program Prioritas Nasional
+                       Program Dukungan Kota Cirebon Terhadap Pencapaian Asta Cita dan Program Prioritas Nasional
 
      KEGIATAN          PROGRAM KOTA                                              PAGU INDIKATIF TAHUN                                           PD
-    PRIORITAS            SUKABUMI
+    PRIORITAS            CIREBON
   UTAMA/PROYEK
     STRATEGIS                                    2026            2027                   2028            2029            2030
      NASIONAL
@@ -8489,7 +8489,7 @@ Hilir                  Penyediaan Air Minum                                     
 ---
 
       KEGIATAN               PROGRAM KOTA                                            PAGU INDIKATIF TAHUN                                          PD
-      PRIORITAS                SUKABUMI
+      PRIORITAS                CIREBON
     UTAMA/PROYEK
       STRATEGIS                                      2026            2027                   2028            2029            2030
        NASIONAL
@@ -8537,7 +8537,7 @@ Dini
 ---
 
       KEGIATAN                PROGRAM KOTA                                              PAGU INDIKATIF TAHUN                                            PD
-      PRIORITAS                 SUKABUMI
+      PRIORITAS                 CIREBON
    UTAMA/PROYEK
       STRATEGIS                                        2026             2027                   2028             2029             2030
        NASIONAL
@@ -8587,7 +8587,7 @@ Menyusui, dan Balita
 ---
 
      KEGIATAN                PROGRAM KOTA                                             PAGU INDIKATIF TAHUN                                                PD
-     PRIORITAS                 SUKABUMI
+     PRIORITAS                 CIREBON
   UTAMA/PROYEK
      STRATEGIS                                      2026              2027                    2028              2029              2030
       NASIONAL
@@ -8627,7 +8627,7 @@ dan Inovasi
 ---
 
      KEGIATAN               PROGRAM KOTA                                           PAGU INDIKATIF TAHUN                                          PD
-     PRIORITAS                SUKABUMI
+     PRIORITAS                CIREBON
   UTAMA/PROYEK
      STRATEGIS                                     2026            2027                   2028            2029            2030
       NASIONAL
@@ -8636,7 +8636,7 @@ PN 5
 Tidak ada kegiatan
 prioritas utama yang
 relevan dengan Kota
-Sukabumi
+Cirebon
 
 PN 6
 
@@ -8668,7 +8668,7 @@ Pidana Korupsi          Kebijakan, Pendampingan                                 
 ---
 
       KEGIATAN                PROGRAM KOTA                                             PAGU INDIKATIF TAHUN                                             PD
-      PRIORITAS                 SUKABUMI
+      PRIORITAS                 CIREBON
   UTAMA/PROYEK
      STRATEGIS                                        2026             2027                   2028             2029             2030
       NASIONAL
@@ -8714,7 +8714,7 @@ Sekolah Unggul
 ---
 
       KEGIATAN              PROGRAM KOTA                                              PAGU INDIKATIF TAHUN                                               PD
-      PRIORITAS               SUKABUMI
+      PRIORITAS               CIREBON
   UTAMA/PROYEK
       STRATEGIS                                     2026              2027                    2028              2029              2030
        NASIONAL
@@ -8762,7 +8762,7 @@ Rumah                 Permukiman                                                
 ---
 
      KEGIATAN             PROGRAM KOTA                                                  PAGU INDIKATIF TAHUN                                            PD
-     PRIORITAS              SUKABUMI
+     PRIORITAS              CIREBON
   UTAMA/PROYEK
      STRATEGIS                                         2026             2027                   2028             2029             2030
       NASIONAL
@@ -8817,7 +8817,7 @@ Kelurahan Merah Putih                                                           
 ---
 
        KEGIATAN            PROGRAM KOTA                                      PAGU INDIKATIF TAHUN                                       PD
-      PRIORITAS              SUKABUMI
+      PRIORITAS              CIREBON
     UTAMA/PROYEK
       STRATEGIS                                2026           2027                  2028            2029           2030
        NASIONAL
@@ -8828,22 +8828,22 @@ Kelurahan Merah Putih                                                           
                        Pelaksanaan Penanaman                                                                                            Modal
                        Modal
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
 ### 4.1.3 PROGRAM DUKUNGAN TERHADAP PENCAPAIAN JABAR ISTIMEWA
-       Selain melaksanakan prioritas pembangunan, Kota Sukabumi juga berupaya
+       Selain melaksanakan prioritas pembangunan, Kota Cirebon juga berupaya
 untuk berkontribusi terhadap pencapaian Jabar Istimewa. Kontribusi Kota
-Sukabumi terhadap pencapaian Jabar Istimewa dapat dilihat pada tabel di bawah
+Cirebon terhadap pencapaian Jabar Istimewa dapat dilihat pada tabel di bawah
 ini.
 
 ---
 
                                                                                Tabel 4.3
-                                                        Program Dukungan Kota Sukabumi Terhadap Jabar Istimewa
+                                                        Program Dukungan Kota Cirebon Terhadap Jabar Istimewa
 # PAGU INDIKATIF TAHUN                                     PD PENGAMPU BIDANG
-    JABAR ISTIMEWA               PROGRAM KOTA SUKABUMI
+    JABAR ISTIMEWA               PROGRAM KOTA CIREBON
 # 2026             2027              2028             2029             2030                 URUSAN
 
                                                                                                                                                           Pekerjaan Umum dan
@@ -8897,7 +8897,7 @@ Pengembangan Lapangan
 ---
 
 # PAGU INDIKATIF TAHUN                                   PD PENGAMPU BIDANG
-   JABAR ISTIMEWA            PROGRAM KOTA SUKABUMI
+   JABAR ISTIMEWA            PROGRAM KOTA CIREBON
 # 2026            2027             2028             2029            2030                 URUSAN
 
                         Program Pengembangan Ekonomi
@@ -8950,7 +8950,7 @@ Gizi Buruk serta Penataan
 ---
 
 # PAGU INDIKATIF TAHUN                                    PD PENGAMPU BIDANG
-  JABAR ISTIMEWA            PROGRAM KOTA SUKABUMI
+  JABAR ISTIMEWA            PROGRAM KOTA CIREBON
 # 2026            2027             2028             2029            2030                  URUSAN
 
                         Program Pemberdayaan Masyarakat
@@ -8999,7 +8999,7 @@ Lingkungan Jawa Barat   Program Pengelolaan Keanekaragaman
 ---
 
 # PAGU INDIKATIF TAHUN                                      PD PENGAMPU BIDANG
-    JABAR ISTIMEWA             PROGRAM KOTA SUKABUMI
+    JABAR ISTIMEWA             PROGRAM KOTA CIREBON
 # 2026             2027             2028                2029            2030                 URUSAN
 
    Langkah Kadalapan
@@ -9035,7 +9035,7 @@ Pengembangan Pengelolaan Program Pengelolaan Persampahan         3.050.994.460  
 ### 701.980.000      691.450.300      691.450.300         701.822.055     701.822.055         Pengawasan
                            Pendampingan Dan Asistensi
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
@@ -9052,7 +9052,7 @@ yang akan menjadi tanggung jawab kepala daerah periode 2030-2034.
 ---
 
                                                                                                           Tabel 4.4
-                                                                                  Program Perangkat Daerah Kota Sukabumi Tahun 2025-2030
+                                                                                  Program Perangkat Daerah Kota Cirebon Tahun 2025-2030
 BIDANG URUSAN/             INDIKATOR          SATUAN   BASELINE            TARGET TAHUN                      TARGET TAHUN                     TARGET TAHUN                    TARGET TAHUN                    TARGET TAHUN                      TARGET TAHUN              PD
    PROGRAM                                              TAHUN
                                                          2024
@@ -9231,8 +9231,8 @@ Outcome:               Tingkat kepuasan      Angka     83.62        0           
 Meningkatnya           pasien terhadap
 kualitas layanan       layanan kesehatan
 kesehatan di           Puskesmas
-Puskesmas              Sukabumi
-Sukabumi
+Puskesmas              Cirebon
+Cirebon
 
 Outcome:               Tingkat kepuasan      Angka     89.77        0                             85            953.500.000         85          1.100.000.000      85         1.500.000.000      85           1.800.000.000      85           2.000.000.000
 Meningkatnya           pasien terhadap
@@ -9294,8 +9294,8 @@ Outcome:              Tingkat kepuasan       Angka     83.62      85,00         
 Meningkatnya          pasien terhadap
 kualitas layanan      layanan kesehatan
 kesehatan di          Puskesmas
-Puskesmas             Sukabumi
-Sukabumi
+Puskesmas             Cirebon
+Cirebon
 
 ---
 
@@ -9709,7 +9709,7 @@ Meningkatnya           Gangguan
 Penanganan             Trantibumlinmas
 Gangguan               yang Terselesaikan
 Trantibumlinmas di
-Kota Sukabumi
+Kota Cirebon
 
 Program Pencegahan, Penanggulangan,                                                                                                                                                                                                                                        Urusan
 Penyelamatan Kebakaran dan                                                                                                                                                                                                                                            Ketentraman dan
@@ -11009,7 +11009,7 @@ Rakyat                                                                          
 
 Outcome:             Indeks Zakat          Nilai     0.53      0,55          9.473.901.808    0,57           8.741.479.471     0,59         8.881.343.142     0,61        8.881.343.142     0,63          9.014.563.290     0,65          9.014.563.290
 Meningkatnya         Nasional Kota
-Kualitas             Sukabumi
+Kualitas             Cirebon
 Masyarakat Kota      Persentase           Persen     9,4        10                             11                               12                             13                            14                              15
 yang Agamis          pembinaan lembaga
                      keagamaan
@@ -11349,7 +11349,7 @@ Outcome:             Persentase Konflik     Persen     100        93          2.
 Meningkatnya         Sosial yang
 kondusivitas         Diselesaikan
 wilayah kota
-sukabumi
+cirebon
 
 Program Peningkatan Peran Partai Politik                                                                                                                                                                                                                    Urusan
 dan Lembaga Pendidikan Melalui                                                                                                                                                                                                                             Kesatuan
@@ -11812,7 +11812,7 @@ Kapasitas               Kapasitas
 masyarakat dalam        Masyarakat dalam
 Bidang Keamanan         Bidang Keamanan
 
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
@@ -11820,15 +11820,15 @@ Sumber: Bappeda Kota Sukabumi, 2025
 
 ### 4.2.1 INDIKATOR KINERJA UTAMA
     Indikator Kinerja Utama (IKU) adalah ukuran keberhasilan pencapaian
-tujuan dan sasaran RPJMD Kota Sukabumi Tahun 2025-2029 dan diperoleh
+tujuan dan sasaran RPJMD Kota Cirebon Tahun 2025-2029 dan diperoleh
 dari indikator tujuan/sasaran yang terseleksi. Dalam rangka pencapaian
-tujuan dan sasaran Kota Sukabumi tersebut, maka target IKU Kota
-Sukabumi seperti pada tabel berikut.
+tujuan dan sasaran Kota Cirebon tersebut, maka target IKU Kota
+Cirebon seperti pada tabel berikut.
 
 ---
 
                                                              Tabel 4.5
-                                                IKU Kota Sukabumi Tahun 2025-2030
+                                                IKU Kota Cirebon Tahun 2025-2030
 NO          INDIKATOR KINERJA UTAMA              SATUAN     BASELINE                       TARGET TAHUN
                                                               2024
                                                                          2025     2026     2027      2028      2029      2030
@@ -11891,7 +11891,7 @@ NO          INDIKATOR KINERJA UTAMA              SATUAN     BASELINE            
  25    Indeks Reformasi Birokrasi General (IRB    Poin       76,36         78         80         81         82         83         84
        General)
  26    Indeks Sistem Merit                        Poin        0,78        0,80       0,81       0,82       0,83       0,84       0,85
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
@@ -11900,13 +11900,13 @@ Sumber: Bappeda Kota Sukabumi, 2025
 penyelenggaraan pemerintahan daerah yang mencakup indikator makro
 pembangunan dan Indikator Kinerja Kunci (IKK). IKK adalah indikator
 kinerja yang menggambarkan keberhasilan penyelenggaraan suatu urusan
-pemerintahan sesuai dengan kewenangan daerah. IKD Kota Sukabumi
+pemerintahan sesuai dengan kewenangan daerah. IKD Kota Cirebon
 Tahun 2025-2030 disajikan sebagaimana pada tabel berikut.
 
 ---
 
                                                                       Tabel 4.6
-                                                         IKD Kota Sukabumi Tahun 2025-2030
+                                                         IKD Kota Cirebon Tahun 2025-2030
 NO         INDIKATOR KINERJA DAERAH            SATUAN      BASELINE                               TARGET TAHUN                                    PD PENGAMPU
 # 2024                                                                                    URUSAN
                                                                           2025        2026        2027        2028        2029        2030
@@ -12088,12 +12088,12 @@ ASPEK DAYA SAING DAERAH
 
   5   Indeks Kepuasan Masyarakat                 Poin       87,20      87,50      88,00      88,30      88,50      89,00      90,00      Sekretariat Daerah
   6   Nilai SAKIP                                Poin       76,36        78         80         81         82         83         84       Sekretariat Daerah
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
                                                                        Tabel 4.7
-                                                          IKD Kota Sukabumi Tahun 2025-2030
+                                                          IKD Kota Cirebon Tahun 2025-2030
 NO                         INDIKATOR KINERJA KUNCI                      SATUAN     BASELINE                   TARGET TAHUN                    KET
                                                                                      2024
                                                                                               2025    2026    2027    2028    2029    2030
@@ -12385,7 +12385,7 @@ PERINDUSTRIAN
  3  Persentase Pameran yang dilaksanakan dan Informasi Industri    Persen        100        100       100       100       100       100       100
     secara Lengkap dan Terkini
 SEKRETARIAT DAERAH
- 1   Indeks Zakat Nasional Kota Sukabumi                            Nilai        0,53       0,55      0,57      0,59      0,61      0,63      0,65
+ 1   Indeks Zakat Nasional Kota Cirebon                            Nilai        0,53       0,55      0,57      0,59      0,61      0,63      0,65
  2   Persentase pembinaan lembaga keagamaan                        Persen        9,4         10        11        12        13        14        15
  3   Indeks Reformasi Hukum                                         Nilai       87,32      88,50     89,90     89,50     91,00     92,00     93,00
  4   Nilai EKPPD                                                    Nilai       3,27        3,32      3,37      3,42      3,47      3,52      3,57
@@ -12506,22 +12506,22 @@ KECAMATAN CIBEUREUM
       Penyelenggaraan Pemerintahan Umum di Kecamatan
   4   Persentase Peningkatan Kapasitas Masyarakat Dalam Bidang    Persen       100      100     100     100     100    100     100
       Keamanan
-Sumber: Bappeda Kota Sukabumi, 2025
+Sumber: Bappeda Kota Cirebon, 2025
 
 ---
 
 ## BAB V
 ### PENUTUP
 
-    RPJMD Kota Sukabumi Tahun 2025-2029 ini disusun dengan berbagai
+    RPJMD Kota Cirebon Tahun 2025-2029 ini disusun dengan berbagai
 pendekatan yaitu teknokratik, partisipatif, politis, bottom up - top down,
-holistik - tematik, integratif dan spasial. RPJMD Kota Sukabumi Tahun 2025-
+holistik - tematik, integratif dan spasial. RPJMD Kota Cirebon Tahun 2025-
 2029 ini disusun untuk mengoperasionalkan visi, misi, dan program prioritas
-Wali Kota dan Wakil Wali Kota Sukabumi dengan berpedoman pada RPJPD
-Kota Sukabumi Tahun 2025-2045 dan RTRW Kota Sukabumi Tahun 2022-
-- **2042.** RPJMD Kota Sukabumi ini menjadi dasar bagi Perangkat Daerah
+Wali Kota dan Wakil Wali Kota Cirebon dengan berpedoman pada RPJPD
+Kota Cirebon Tahun 2025-2045 dan RTRW Kota Cirebon Tahun 2022-
+- **2042.** RPJMD Kota Cirebon ini menjadi dasar bagi Perangkat Daerah
 untuk menyusun Renstra Perangkat Daerah Tahun 2025-2029. Selain itu,
-RPJMD Kota Sukabumi juga akan dijabarkan secara lebih rinci dalam RKPD
+RPJMD Kota Cirebon juga akan dijabarkan secara lebih rinci dalam RKPD
 setiap tahunnya.
     Pada pelaksanaannya seluruh target kinerja dalam dokumen RPJMD
 perlu dilakukan pengendalian dan evaluasi secara rutin dan berkala untuk
@@ -12530,19 +12530,19 @@ pemutakhiran target yang akan dituangkan ke dalam dokumen RKPD setiap
 - **tahunnya.** Pelaksanaan semua kebijakan dalam RPJMD ini diharapkan
 melibatkan   multi-pihak     baik   pemerintah   daerah,   instansi   vertikal,
 akademisi, sektor swasta, organisasi kemasyarakatan, dan seluruh elemen
-masyarakat di Kota Sukabumi. Adapun pembiayaan pelaksanaan program
-RPJMD Kota Sukabumi ini diharapkan dapat dilaksanakan dengan
+masyarakat di Kota Cirebon. Adapun pembiayaan pelaksanaan program
+RPJMD Kota Cirebon ini diharapkan dapat dilaksanakan dengan
 dukungan sumber pembiayaan yang baik dan dapat dipertanggungjawabkan.
 Oleh karena itu, sumber pembiayaan pembangunan yang dapat digunakan,
 antara lain bersumber dari APBN, APBD Provinsi Jawa Barat, dan APBD Kota
-Sukabumi. Selain itu, dimungkinkan untuk pembiayaan pembangunan
+Cirebon. Selain itu, dimungkinkan untuk pembiayaan pembangunan
 dilakukan dengan menggunakan sumber lain sesuai dengan ketentuan
 peraturan perundangan.
     Guna mengoptimalkan pemanfaatan barang produksi dalam negeri
 maka    menjadi    penting     dalam     pelaksanaan   pembangunan        agar
-memanfaatkan produk dari Kota Sukabumi khususnya. Hal ini untuk
+memanfaatkan produk dari Kota Cirebon khususnya. Hal ini untuk
 mewujudkan peningkatan dampak berganda dan nilai tambah dari hasil
-produk ekonomi Kota Sukabumi.
+produk ekonomi Kota Cirebon.
 
 ---
 
@@ -12558,7 +12558,7 @@ potensi risiko. Seperti adanya risiko terkait kebijakan, risiko kepatuhan atau
 risiko legal. Karena itu, diperlukan upaya preventif sehingga ketika risiko
 terjadi, tidak berdampak besar bagi pencapaian sasaran pembangunan.
 
-# WALI KOTA SUKABUMI,
+# WALI KOTA CIREBON,
 
                                                      cap.ttd.
 

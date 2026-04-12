@@ -140,8 +140,8 @@ const MENU_ITEMS = [
     title: "Dokumen Referensi",
     desc: "Landasan Hukum & RPJMD 2025–2029",
     Icon: IconReferensi,
-    gradient: "linear-gradient(135deg, #8E1540 0%, #C41E5B 100%)",
-    glow: "rgba(142,21,64,0.5)",
+    gradient: "linear-gradient(135deg, #047857 0%, #059669 100%)",
+    glow: "rgba(4,120,87,0.5)",
     particle: "rgba(196,30,91,0.8)",
     slug: "dokumen_referensi",
     label: "01",
@@ -200,8 +200,8 @@ const MENU_ITEMS = [
     title: "Strategi Komunikasi (STRAKOM)",
     desc: "Protokol Respons Cepat & Amplifikasi Isu",
     Icon: IconStrakom,
-    gradient: "linear-gradient(135deg, #1E1B4B 0%, #8E1540 100%)",
-    glow: "rgba(142,21,64,0.5)",
+    gradient: "linear-gradient(135deg, #1E1B4B 0%, #047857 100%)",
+    glow: "rgba(4,120,87,0.5)",
     particle: "rgba(196,30,91,0.8)",
     slug: "strakom",
     label: "06",
@@ -212,7 +212,7 @@ const MENU_ITEMS = [
     title: "Political Branding",
     desc: "Persona & Sinergi Duo Dinamis Pemimpin",
     Icon: IconBranding,
-    gradient: "linear-gradient(135deg, #D4AF37 0%, #8E1540 100%)",
+    gradient: "linear-gradient(135deg, #D4AF37 0%, #047857 100%)",
     glow: "rgba(212,175,55,0.4)",
     particle: "rgba(212,175,55,0.8)",
     slug: "political_branding",
@@ -303,7 +303,7 @@ export default function Home() {
       {/* ── AMBIENT BACKGROUND ───────────────────────────── */}
       <div style={{ position:"fixed", inset:0, pointerEvents:"none", zIndex:0 }}>
         {/* Subtle Gradient Spot */}
-        <div style={{ position:"absolute", top:"-10%", right:"-5%", width:"50vw", height:"50vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(142,21,64,0.03) 0%, transparent 70%)" }} />
+        <div style={{ position:"absolute", top:"-10%", right:"-5%", width:"50vw", height:"50vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(4,120,87,0.03) 0%, transparent 70%)" }} />
         {/* Dot grid — Cleaner */}
         <div style={{ position:"absolute", inset:0, backgroundImage:"radial-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px)", backgroundSize:"32px 32px" }} />
       </div>
@@ -370,7 +370,7 @@ export default function Home() {
           </div>
 
           {/* Stats with counter animation */}
-          <div style={{ display:"flex", gap:"2.5rem", paddingTop:"1.25rem", borderTop:"1px solid rgba(15,23,42,0.06)" }}>
+          <div className="rsp-stats-container" style={{ display:"flex", gap:"2.5rem", flexWrap:"wrap", paddingTop:"1.25rem", borderTop:"1px solid rgba(15,23,42,0.06)" }}>
             {STATS.map((s, i) => (
               <div key={i} style={{ animation: mounted ? `slide-up-in 0.5s cubic-bezier(0.34,1.2,0.64,1) ${0.2 + i * 0.1}s both` : "none" }}>
                 <p style={{ fontSize:"clamp(1.4rem,2.5vw,1.9rem)", fontWeight:900, color:"var(--text-main)", letterSpacing:"-0.03em", lineHeight:1 }}>
@@ -507,7 +507,7 @@ export default function Home() {
           © 2026 Pemerintah Kota Sukabumi · Tim Transformasi Digital
         </p>
         <div style={{ display:"flex", alignItems:"center", gap:"0.4rem" }}>
-          <div style={{ width:6, height:6, borderRadius:"50%", background:"rgba(142,21,64,0.4)" }} />
+          <div style={{ width:6, height:6, borderRadius:"50%", background:"rgba(4,120,87,0.4)" }} />
           <span style={{ fontSize:"0.68rem", color:"var(--text-subtle)", fontWeight:700, letterSpacing:"0.08em", opacity:0.5 }}>RAHASIA</span>
         </div>
       </footer>

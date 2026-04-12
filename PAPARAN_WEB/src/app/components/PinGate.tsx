@@ -143,7 +143,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
       position: "fixed",
       inset: 0,
       zIndex: 9999,
-      background: "linear-gradient(135deg, #0F172A 0%, #1E1B3A 50%, #2D1040 100%)",
+      background: "linear-gradient(135deg, #F8FAFC 0%, #FFFFFF 50%, #F1F5F9 100%)",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
@@ -155,7 +155,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
       <div style={{
         position: "absolute",
         inset: 0,
-        backgroundImage: "radial-gradient(rgba(142, 21, 64, 0.15) 1px, transparent 1px)",
+        backgroundImage: "radial-gradient(rgba(4, 120, 87, 0.15) 1px, transparent 1px)",
         backgroundSize: "32px 32px",
         pointerEvents: "none",
       }} />
@@ -166,23 +166,22 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
         transform: "translateX(-50%)",
         width: "600px",
         height: "600px",
-        background: "radial-gradient(circle, rgba(142, 21, 64, 0.12) 0%, transparent 70%)",
+        background: "radial-gradient(circle, rgba(4, 120, 87, 0.12) 0%, transparent 70%)",
         pointerEvents: "none",
       }} />
 
-      {/* Card */}
       <div style={{
         position: "relative",
         zIndex: 2,
-        background: "rgba(255,255,255,0.04)",
-        border: "1px solid rgba(255,255,255,0.1)",
+        background: "rgba(255,255,255,0.9)",
+        border: "1px solid rgba(15,23,42,0.1)",
         borderRadius: "28px",
         padding: "3rem 3.5rem",
         backdropFilter: "blur(20px)",
         maxWidth: "420px",
         width: "100%",
         textAlign: "center",
-        boxShadow: "0 32px 80px rgba(0,0,0,0.5)",
+        boxShadow: "0 32px 80px rgba(0,0,0,0.08)",
       }}>
         {/* Seal / Logo */}
         <div style={{
@@ -211,7 +210,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
           fontWeight: 800,
           letterSpacing: "0.2em",
           textTransform: "uppercase",
-          color: "#D4AF37",
+          color: "#047857",
           marginBottom: "0.5rem",
         }}>
           AKSES TERBATAS
@@ -220,7 +219,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
         <h1 style={{
           fontSize: "1.5rem",
           fontWeight: 800,
-          color: "white",
+          color: "#0F172A",
           marginBottom: "0.4rem",
           letterSpacing: "-0.02em",
         }}>
@@ -229,7 +228,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
 
         <p style={{
           fontSize: "0.85rem",
-          color: "rgba(255,255,255,0.45)",
+          color: "rgba(15,23,42,0.6)",
           marginBottom: "2.5rem",
           lineHeight: 1.5,
         }}>
@@ -265,14 +264,14 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
                 border: `2px solid ${
                   status === "error" ? "rgba(239, 68, 68, 0.7)" :
                   status === "success" ? "rgba(34, 197, 94, 0.7)" :
-                  digit ? "rgba(212, 175, 55, 0.6)" : "rgba(255,255,255,0.12)"
+                  digit ? "rgba(4, 120, 87, 0.5)" : "rgba(15,23,42,0.15)"
                 }`,
                 background: `${
-                  status === "error" ? "rgba(239, 68, 68, 0.1)" :
-                  status === "success" ? "rgba(34, 197, 94, 0.1)" :
-                  "rgba(255,255,255,0.06)"
+                  status === "error" ? "rgba(239, 68, 68, 0.05)" :
+                  status === "success" ? "rgba(34, 197, 94, 0.05)" :
+                  "rgba(255,255,255,0.6)"
                 }`,
-                color: "white",
+                color: "#0F172A",
                 textAlign: "center",
                 fontSize: "2rem",
                 fontWeight: 800,
@@ -321,9 +320,9 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
             borderRadius: "14px",
             border: "none",
             background: pin.join("").length === 4 && !locked
-              ? "linear-gradient(135deg, #8E1540, #701032)"
-              : "rgba(255,255,255,0.06)",
-            color: pin.join("").length === 4 && !locked ? "white" : "rgba(255,255,255,0.25)",
+              ? "linear-gradient(135deg, #047857, #064E3B)"
+              : "rgba(15,23,42,0.06)",
+            color: pin.join("").length === 4 && !locked ? "white" : "rgba(15,23,42,0.3)",
             fontSize: "0.95rem",
             fontWeight: 700,
             cursor: pin.join("").length === 4 && !locked ? "pointer" : "not-allowed",
@@ -348,7 +347,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
                 width: "8px",
                 height: "8px",
                 borderRadius: "50%",
-                background: n <= attempts ? "#EF4444" : "rgba(255,255,255,0.15)",
+                background: n <= attempts ? "#EF4444" : "rgba(15,23,42,0.15)",
                 transition: "background 0.3s ease",
               }} />
             ))}
@@ -373,7 +372,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
           </p>
           <p style={{
             fontSize: "0.72rem",
-            color: "rgba(255,255,255,0.35)",
+            color: "rgba(15,23,42,0.5)",
             lineHeight: 1.6,
             maxWidth: "300px",
             margin: "0 auto"
@@ -389,7 +388,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
         zIndex: 2,
         marginTop: "2rem",
         fontSize: "0.75rem",
-        color: "rgba(255,255,255,0.2)",
+        color: "rgba(15,23,42,0.4)",
         textAlign: "center",
         letterSpacing: "0.05em",
       }}>

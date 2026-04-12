@@ -5,11 +5,11 @@
    ============================================================ */
 
 :root {
-  /* Core Palette — Batik & Government */
-  --primary: #8E1540;        /* Batik Maroon */
-  --primary-hover: #701032;
-  --primary-glow: rgba(142, 21, 64, 0.08);
-  --primary-glass: rgba(142, 21, 64, 0.03);
+  /* Core Palette — Sukabumi Emerald & Ocean Blue */
+  --primary: #047857;        /* Sukabumi Emerald */
+  --primary-hover: #065F46;
+  --primary-glow: rgba(4, 120, 87, 0.08);
+  --primary-glass: rgba(4, 120, 87, 0.03);
   
   --gold: #D4AF37;           /* State Gold */
   --gold-dark: #A07820;
@@ -100,7 +100,7 @@ button {
 
 /* ── GRADIENT UTILITIES ─────────────────────────────────── */
 .text-gradient {
-  background: linear-gradient(135deg, var(--primary) 0%, #C41E5B 60%, var(--gold) 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #0284C7 60%, var(--gold) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -149,11 +149,135 @@ button {
 .animate-next { animation: slideInRight 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) forwards; }
 .animate-prev { animation: slideInLeft 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) forwards; }
 
+/* ── PORTAL SPECIFIC UTILITIES (Tailwind Replacement) ────── */
+.portal-container {
+  min-height: 100vh;
+  background-color: #F8FAFC; /* Light Slate BG */
+  color: #0F172A;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.portal-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  padding: 1.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.05);
+}
+
+.portal-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 4rem 4rem;
+  width: 100%;
+}
+
+.slide-wrapper {
+  width: 100%;
+  max-width: 1400px;
+  height: 100%;
+}
+
+.portal-controls {
+  position: fixed;
+  bottom: 2.5rem;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  pointer-events: none;
+}
+
+.portal-btn {
+  pointer-events: auto;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: white;
+  color: #0F172A;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portal-btn:hover:not(:disabled) {
+  background: #F1F5F9;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.06);
+}
+
+.portal-btn:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
+.portal-btn-primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+  box-shadow: 0 8px 20px rgba(4, 120, 87, 0.2);
+}
+
+.portal-btn-primary:hover:not(:disabled) {
+  background: var(--primary-hover);
+  box-shadow: 0 12px 24px rgba(4, 120, 87, 0.3);
+}
+
+.progress-track {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: rgba(15, 23, 42, 0.05);
+  z-index: 50;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--primary);
+  box-shadow: 0 0 10px rgba(4, 120, 87, 0.4);
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.indicator-dot {
+  width: 12px;
+  height: 6px;
+  border-radius: 99px;
+  background: rgba(15, 23, 42, 0.25); /* High contrast gray for inactive */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+}
+
+.indicator-dot.active {
+  width: 42px;
+  background: #047857; /* Solid Maroon */
+  box-shadow: 0 4px 12px rgba(4, 120, 87, 0.4);
+  border: none;
+}
+
 /* ── SCROLLBAR ──────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: rgba(142,21,64,0.15); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: rgba(142,21,64,0.3); }
+::-webkit-scrollbar-thumb { background: rgba(4, 120, 87, 0.15); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(4, 120, 87, 0.3); }
 
 /* ── GLASS CARD ─────────────────────────────────────────── */
 .glass {
@@ -181,3 +305,105 @@ button {
   transform: translateY(-6px);
   box-shadow: var(--shadow-glow), var(--shadow-lg);
 }
+
+/* ── RESPONSIVE UTILITIES ───────────────────────────────── */
+@media (max-width: 768px) {
+  /* Safely override internal inline grid layouts globally */
+  *[style*='display: grid'] {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto !important;
+    gap: 1.5rem !important;
+  }
+
+  /* Safely catch missed horizontal flex layouts (Major Wrappers) */
+  .slide-wrapper div[style*='display: flex'][style*='gap: 1.5rem'],
+  .slide-wrapper div[style*='display: flex'][style*='gap: 2rem'],
+  .slide-wrapper div[style*='display: flex'][style*='gap: 1rem'] {
+    flex-direction: column !important;
+  }
+  
+  /* Text adjustments */
+  h1, h2, h3 {
+    line-height: 1.2 !important;
+  }
+  h1, h2 {
+    font-size: clamp(2rem, 8vw, 2.5rem) !important;
+  }
+  h3 {
+    font-size: 1.3rem !important;
+  }
+
+  /* Fix Home Page specific clipping */
+  nav[style*='position: sticky'] {
+    padding: 0 1rem !important;
+  }
+  
+  nav > div > div > p {
+    text-align: left !important;
+  }
+
+  /* Make sure the floating badge doesn't burst the screen width */
+  div[style*='right: -1rem'] {
+    right: 1rem !important;
+    top: 1rem !important;
+  }
+
+  /* Fix the nested flex row of Mayor labels */
+  div[style*='bottom: 1.5rem'][style*='display: flex'] {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+
+  /* Fix missing Slide buttons pushed offscreen by dots */
+  .portal-controls {
+    justify-content: space-between !important;
+    padding: 0 1.5rem !important;
+    bottom: 1.5rem !important;
+  }
+  
+  /* Hide the 22+ indicator dots on mobile to fit the screen */
+  .portal-controls > div {
+    display: none !important;
+  }
+
+  /* Shrink Next/Prev buttons slightly for mobile */
+  .portal-btn {
+    padding: 0.8rem !important;
+  }
+
+  /* Padding Adjustments */
+  .portal-main {
+    padding: 6rem 1.25rem 2.5rem !important;
+  }
+  .portal-header {
+    padding: 1rem 1.25rem !important;
+  }
+
+  /* Hide massive decorative elements on mobile */
+  div[style*='border-radius: 50%'][style*='position: absolute'][style*='width: 360px'],
+  div[style*='border-radius: 50%'][style*='position: absolute'][style*='width: 420px'],
+  div[style*='border-radius: 50%'][style*='position: absolute'][style*='width: 120%'] {
+    display: none !important;
+  }
+  
+  /* Override the main hero flex wrapper specifically to column-reverse */
+  .portal-main .slide-wrapper > div > div[style*='height: 100%'][style*='display: flex'] {
+    flex-direction: column-reverse !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    gap: 2rem !important;
+  }
+
+  /* Make sure right-panel images don't overflow */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  /* Center text nodes safely in mobile hero layouts */
+  .portal-main .slide-wrapper p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+

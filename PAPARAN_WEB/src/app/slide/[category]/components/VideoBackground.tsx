@@ -23,7 +23,7 @@ export default function VideoBackground() {
           left: "-10%",
           width: "70%",
           height: "70%",
-          background: "radial-gradient(circle, rgba(142, 21, 64, 0.05) 0%, transparent 70%)",
+          background: "radial-gradient(circle, rgba(4, 120, 87, 0.05) 0%, transparent 70%)",
           filter: "blur(60px)",
         }}
       />
@@ -70,7 +70,7 @@ export default function VideoBackground() {
       <motion.div 
         animate={{ opacity: [0, 0.06, 0], y: ["100vh", "0vh"] }}
         transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-        style={{ position: "absolute", inset: 0, background: `linear-gradient(to top, rgba(142,21,64,0.05), transparent)`, pointerEvents: "none" }}
+        style={{ position: "absolute", inset: 0, background: `linear-gradient(to top, rgba(4,120,87,0.05), transparent)`, pointerEvents: "none" }}
       />
     </div>
   );

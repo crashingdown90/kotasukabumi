@@ -31,8 +31,8 @@ const SUB_MENU_ITEMS = [
     title: "Integrasi Data (Inter)",
     desc: "Interoperabilitas Data Lintas Sektoral & OPD",
     Icon: Database,
-    gradient: "linear-gradient(135deg, #8E1540 0%, #C41E5B 100%)",
-    glow: "rgba(142,21,64,0.5)",
+    gradient: "linear-gradient(135deg, #047857 0%, #059669 100%)",
+    glow: "rgba(4,120,87,0.5)",
     slug: "digitalisasi_integrasi",
     tag: "DATA",
   },
@@ -82,7 +82,7 @@ export default function DigitalisasiMenu() {
       {/* ── BACKGROUND ───────────────────────────────────── */}
       <div style={{ position:"fixed", inset:0, pointerEvents:"none", zIndex:0 }}>
         {/* Subtle Gradient Spot */}
-        <div style={{ position:"absolute", top:"-10%", right:"-5%", width:"50vw", height:"50vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(142,21,64,0.03) 0%, transparent 70%)" }} />
+        <div style={{ position:"absolute", top:"-10%", right:"-5%", width:"50vw", height:"50vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(4,120,87,0.03) 0%, transparent 70%)" }} />
         {/* Dot grid — Cleaner */}
         <div style={{ position:"absolute", inset:0, backgroundImage:"radial-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px)", backgroundSize:"32px 32px" }} />
       </div>

@@ -8,7 +8,7 @@ export function AmbientBackground() {
   return (
     <div style={{ position: "fixed", inset: 0, zIndex: -1, overflow: "hidden", background: "var(--bg-color)" }}>
       {/* Subtle Gradient Spot */}
-      <div style={{ position:"absolute", top:"-10%", right:"-5%", width:"50vw", height:"50vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(142,21,64,0.03) 0%, transparent 70%)" }} />
+      <div style={{ position:"absolute", top:"-10%", right:"-5%", width:"50vw", height:"50vw", borderRadius:"50%", background:"radial-gradient(circle, rgba(4,120,87,0.03) 0%, transparent 70%)" }} />
       {/* Dot grid — Cleaner */}
       <div style={{ position:"absolute", inset:0, backgroundImage:"radial-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px)", backgroundSize:"32px 32px" }} />
     </div>

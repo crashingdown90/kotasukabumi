@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id" className={inter.className}>
+    <html lang="id" className={inter.className} suppressHydrationWarning>
       <body style={{ fontFamily: inter.style.fontFamily }} suppressHydrationWarning>
         <PinGate>{children}</PinGate>
       </body>

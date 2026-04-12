@@ -6,7 +6,7 @@ import {
   Share2, MessageCircle, Camera, Video, Send, Smartphone, 
   MessageSquare, Users, Star, Target, Zap, ShieldCheck, TrendingUp,
   Radio, Newspaper, ArrowRight, GraduationCap, Mic2, Heart, CheckCircle2,
-  ChevronRight, PlayCircle, Eye, Activity
+  ChevronRight, PlayCircle, Eye, Activity, Settings, Database, Globe
 } from "lucide-react";
 import { 
   PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, SURFACE, 
@@ -86,40 +86,60 @@ export function LayoutSocialHub({ title, subtitle, body, features }: LayoutProps
   );
 }
 
-/* ── KOL LAYOUT ────────────────────────────────────────────── */
+/* ── KOL & HOMELESS MEDIA LAYOUT ────────────────────────────── */
 export function LayoutKOL({ title, subtitle, body, features }: LayoutProps) {
   const kols = features || [];
-  const icons = [Users, Star, Target, Activity];
+  const icons = [Users, Target, Activity, Share2]; 
+  const colors = ["#8B5CF6", "#F59E0B", "#10B981", "#3B82F6"];
+
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ height: "100%", display: "flex", flexDirection: "column" }}>
-      <div style={{ textAlign: "center", marginBottom: "3rem" }}>
-         <p style={{ fontSize: "0.85rem", fontWeight: 850, color: GOLD, letterSpacing: "0.25em", textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-         <h2 style={{ fontSize: "clamp(2.5rem, 5vw, 3.5rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
-         <p style={{ fontSize: "1.05rem", color: TEXT_MUTED, maxWidth: "800px", margin: "1rem auto 0", lineHeight: 1.6 }}>{body}</p>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ height: "100%", display: "flex", flexDirection: "column", paddingBottom: "1.5rem" }}>
+      
+      {/* Background Subtle Gradient */}
+      <div style={{ position: "absolute", inset: 0, backgroundImage: "radial-gradient(circle at 50% 0%, rgba(212,175,55,0.04) 0%, transparent 60%)", zIndex: -1, pointerEvents: "none" }} />
+
+      {/* Bureaucratic Header (Compressed Margins) */}
+      <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
+         <div style={{ width: 80, height: 3, background: GOLD, margin: "0 auto 1.25rem", borderRadius: "2px", boxShadow: `0 0 12px ${GOLD}60` }} />
+         <p style={{ fontSize: "0.85rem", fontWeight: 850, color: GOLD, letterSpacing: "0.25em", textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
+         <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 2.7rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
+         {body && <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, maxWidth: "1050px", margin: "1rem auto 0", lineHeight: 1.5, fontWeight: 500 }}>{body}</p>}
       </div>
 
-      <div style={{ flex: 1, display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2rem", alignContent: "center", maxWidth: "1150px", margin: "0 auto", width: "100%" }}>
+      <div style={{ flex: 1, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))", gap: "1.25rem", alignContent: "start", maxWidth: "1150px", margin: "0 auto", width: "100%" }}>
         {kols.map((k: any, i: number) => {
           const Icon = icons[i % icons.length];
+          const ringColor = colors[i % colors.length];
           return (
-            <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.1 * i }} key={i} style={{ padding: "2.5rem", borderRadius: 32, background: SURFACE, border: `1px solid ${BORDER_REFINED}`, position: "relative", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "space-between", boxShadow: SHADOW_SM }}>
-              <div style={{ position: "absolute", right: "-5%", top: "-10%", opacity: 0.03 }}>
-                <Icon size={180} color="#0F172A" />
-              </div>
-              
-              <div style={{ zIndex: 1 }}>
-                <div style={{ width: 56, height: 56, borderRadius: 16, background: "rgba(212, 175, 55, 0.1)", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "1.5rem", border: "1px solid rgba(212, 175, 55, 0.3)" }}>
-                  <Icon size={28} color={GOLD} />
-                </div>
-                <h3 style={{ fontSize: "1.35rem", fontWeight: 900, marginBottom: "0.75rem", color: TEXT_MAIN, lineHeight: 1.3 }}>{k.title}</h3>
-                <p style={{ color: TEXT_MUTED, marginBottom: "2rem", lineHeight: 1.6, fontSize: "0.95rem", fontWeight: 500 }}>{k.desc}</p>
-              </div>
+             <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.1 * i }} key={i} 
+                style={{ padding: "1.5rem", borderRadius: 20, background: SURFACE, border: `1px solid ${BORDER_REFINED}`, position: "relative", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "space-between", boxShadow: SHADOW_SM, zIndex: 1 }}>
+                
+                {/* Thin Colored Edge Marker in GOLD */}
+                <div style={{ position: "absolute", top: 0, bottom: 0, left: 0, width: "5px", background: ringColor }} />
 
-              <div style={{ zIndex: 1, borderTop: "1px solid rgba(0,0,0,0.05)", paddingTop: "1.5rem", display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
-                 <span style={{ fontWeight: 800, color: GOLD, fontSize: "0.95rem", textTransform: "uppercase", letterSpacing: "0.1em" }}>{k.metric}</span>
-                 <span style={{ fontWeight: 950, fontSize: "1.3rem", color: TEXT_MAIN }}>{k.sub}</span>
-              </div>
-            </motion.div>
+                <div style={{ position: "absolute", right: "-5%", bottom: "-15%", opacity: 0.03, zIndex: 0 }}>
+                  <Icon size={160} color={ringColor} />
+                </div>
+                
+                <div style={{ zIndex: 2, flex: 1 }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "1rem" }}>
+                     <div style={{ width: 44, height: 44, borderRadius: 12, background: `${ringColor}10`, display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid ${ringColor}30`, flexShrink: 0 }}>
+                       <Icon size={22} color={ringColor} strokeWidth={2.5} />
+                     </div>
+                     <h3 style={{ fontSize: "1.2rem", fontWeight: 900, color: TEXT_MAIN, lineHeight: 1.3 }}>{k.title}</h3>
+                  </div>
+                  <div style={{ width: "100%", height: "1px", background: "#F1F5F9", marginBottom: "0.75rem" }} />
+                  <p style={{ color: TEXT_MUTED, margin: 0, lineHeight: 1.5, fontSize: "0.9rem", fontWeight: 500 }}>{k.desc}</p>
+                </div>
+
+                <div style={{ zIndex: 2, borderTop: `1px dashed ${BORDER_REFINED}`, paddingTop: "1rem", marginTop: "1rem", display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
+                   <div style={{ display: "flex", flexDirection: "column", gap: "0.25rem" }}>
+                      <span style={{ fontWeight: 850, color: ringColor, fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.1em" }}>Parametrik Pengukuran:</span>
+                      <span style={{ fontWeight: 700, color: TEXT_MUTED, fontSize: "0.85rem" }}>{k.metric}</span>
+                   </div>
+                   <span style={{ fontWeight: 950, fontSize: "1.1rem", color: TEXT_MAIN, textAlign: "right" }}>{k.sub}</span>
+                </div>
+              </motion.div>
           );
         })}
       </div>
@@ -237,41 +257,214 @@ export function LayoutCommFlow({ title, subtitle, body }: LayoutProps) {
                )}
              </React.Fragment>
            );
-         })}
+        })}
       </div>
     </motion.div>
+  );
+}
+
+/* ── DISTRIBUTION PLAN LAYOUT (Modern Hierarchical Flow) ───────────────── */
+export function LayoutDistributionPlan({ title, subtitle, body, features }: LayoutProps) {
+  const nodes = features || [];
+
+  return (
+    <div style={{ height: "100%", width: "100%", display: "flex", flexDirection: "column", padding: "2rem 4rem" }}>
+      <div style={{ textAlign: "center", marginBottom: "3rem", position: "relative", zIndex: 1 }}>
+         <p style={{ fontSize: "0.85rem", fontWeight: 850, color: "#047857", letterSpacing: "0.25em", textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
+         <h2 style={{ fontSize: "2.8rem", fontWeight: 950, color: "#0F172A", letterSpacing: "-0.03em", marginBottom: "1.5rem" }}>{title}</h2>
+         <p style={{ fontSize: "1.05rem", color: "#475569", maxWidth: "900px", margin: "0 auto", lineHeight: 1.6 }}>{body}</p>
+      </div>
+
+      <div style={{ flex: 1, display: "flex", alignItems: "stretch", justifyContent: "center", position: "relative", marginBottom: "2rem", background: "#FFFFFF", borderRadius: "24px", border: "1px solid #E2E8F0", boxShadow: "0 10px 40px rgba(15,23,42,0.04)", padding: "1.5rem" }}>
+         
+         {nodes.map((node: any, i: number) => {
+           const icons = [Star, ShieldCheck, Zap, Users];
+           const Icon = icons[i] || Share2;
+           return (
+             <React.Fragment key={i}>
+               <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: i * 0.15 }} 
+                 style={{ flex: 1, padding: "2rem 1.5rem", display: "flex", flexDirection: "column", position: "relative" }}>
+                  
+                  {/* Step Badge & Icon Header */}
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "2rem" }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", background: "#F0FDF4", padding: "0.4rem 1rem", borderRadius: "24px", border: "1px solid #A7F3D0" }}>
+                      <div style={{ width: "24px", height: "24px", borderRadius: "50%", background: "#047857", color: "#FFF", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 900, fontSize: "0.85rem" }}>
+                        {i + 1}
+                      </div>
+                      <div style={{ fontWeight: 800, color: "#047857", fontSize: "0.75rem", letterSpacing: "0.15em" }}>TAHAP {i + 1}</div>
+                    </div>
+                    <div style={{ color: "#047857", opacity: 0.8 }}>
+                       <Icon size={28} strokeWidth={2} />
+                    </div>
+                  </div>
+                  
+                  <h3 style={{ fontSize: "1.15rem", fontWeight: 900, color: "#0F172A", marginBottom: "1rem", lineHeight: 1.4, paddingRight: "1rem" }}>{node.title}</h3>
+                  <p style={{ fontSize: "0.95rem", color: "#64748B", fontWeight: 500, lineHeight: 1.6, margin: 0 }}>{node.desc}</p>
+               </motion.div>
+               
+               {/* Vertical Divider / Flow Arrow */}
+               {i < nodes.length - 1 && (
+                  <div style={{ width: "1px", background: "linear-gradient(to bottom, transparent, #E2E8F0, #E2E8F0, transparent)", display: "flex", alignItems: "center", justifyContent: "center", margin: "1rem 0", position: "relative" }}>
+                     <div style={{ position: "absolute", width: "28px", height: "28px", borderRadius: "50%", background: "#FFFFFF", border: "1px solid #E2E8F0", display: "flex", alignItems: "center", justifyContent: "center", color: "#A0AEC0", boxShadow: "0 2px 10px rgba(0,0,0,0.02)", zIndex: 2 }}>
+                       <ChevronRight size={16} strokeWidth={2.5} />
+                     </div>
+                  </div>
+               )}
+             </React.Fragment>
+           );
+         })}
+      </div>
+    </div>
+  );
+}
+
+/* ── COMMUNICATION ARCHITECTURE LAYOUT (Brand Target Demographics) ──────── */
+export function LayoutCommArchitecture({ title, subtitle, body, features }: LayoutProps) {
+  const nodes = features || [];
+  
+  const getBrandConf = (label: string) => {
+    const l = label.toLowerCase();
+    if (l.includes("instagram")) return { 
+      icon: Camera, 
+      bg: "linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)", 
+      shadow: "rgba(220, 39, 67, 0.2)",
+      solid: "#dc2743"
+    };
+    if (l.includes("tiktok")) return { 
+      icon: Video, 
+      bg: "#000000", 
+      shadow: "rgba(0, 0, 0, 0.2)",
+      accent: "#00f2fe",
+      solid: "#000000"
+    };
+    if (l.includes("facebook")) return { 
+      icon: Users, 
+      bg: "#1877F2", 
+      shadow: "rgba(24, 119, 242, 0.2)",
+      solid: "#1877F2"
+    };
+    if (l.includes("twitter") || l.includes("kanal x") || l.includes("platform x")) return { 
+      icon: MessageSquare, 
+      bg: "#000000", 
+      shadow: "rgba(0, 0, 0, 0.2)",
+      solid: "#000000"
+    };
+    return { 
+      icon: Globe, 
+      bg: "#047857", 
+      shadow: "rgba(4, 120, 87, 0.2)",
+      solid: "#047857"
+    };
+  };
+
+  return (
+    <div style={{ height: "100%", width: "100%", padding: "1.5rem 3rem", display: "flex", flexDirection: "column" }}>
+      {/* Tactical Header */}
+      <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
+         <p style={{ fontSize: "0.75rem", fontWeight: 850, color: "#047857", letterSpacing: "0.25em", textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
+         <h2 style={{ fontSize: "2.4rem", fontWeight: 950, color: "#0F172A", letterSpacing: "-0.03em", marginBottom: "0.75rem" }}>{title}</h2>
+         <p style={{ fontSize: "0.95rem", color: "#475569", maxWidth: "950px", margin: "0 auto", lineHeight: 1.5 }}>{body}</p>
+      </div>
+
+      {/* Modern Compact 5-Column Grid */}
+      <div style={{ flex: 1, display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "1rem", zIndex: 2, alignItems: "stretch" }}>
+         {nodes.map((node: any, i: number) => {
+           const brand = getBrandConf(node.title);
+           const Icon = brand.icon;
+           
+           // Extracting Target and Fokus cleanly
+           const descParts = node.desc.split("\n");
+           const targetPart = descParts[0] || "";
+           const fokusPart = descParts.slice(1).join(" ") || node.desc;
+           
+           return (
+             <motion.div key={i} initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: i * 0.1 }}
+                style={{ background: "#FFFFFF", borderRadius: "14px", padding: "1.25rem", boxShadow: `0 8px 25px ${brand.shadow}`, border: "1px solid #E2E8F0", display: "flex", flexDirection: "column", position: "relative" }}>
+                
+                {/* Top Brand Accent Line */}
+                <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "4px", background: brand.bg, borderTopLeftRadius: "14px", borderTopRightRadius: "14px" }} />
+                
+                {/* Brand Logo & Name Header */}
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "0.75rem", marginBottom: "1rem" }}>
+                   <div style={{ width: "38px", height: "38px", borderRadius: "10px", background: brand.icon === Camera ? brand.bg : brand.solid, display: "flex", alignItems: "center", justifyContent: "center", color: "#FFF", boxShadow: `0 4px 15px ${brand.shadow}` }}>
+                      <Icon size={20} color="#FFF" strokeWidth={2.5} />
+                   </div>
+                   <h3 style={{ fontSize: "0.95rem", fontWeight: 900, color: "#0F172A", margin: 0, lineHeight: 1.3 }}>{node.title}</h3>
+                </div>
+
+                {/* Target Audience Pill */}
+                <div style={{ background: "#F8FAFC", borderRadius: "8px", padding: "0.75rem", marginBottom: "1rem", borderLeft: `3px solid ${brand.solid}` }}>
+                   <div style={{ fontSize: "0.55rem", fontWeight: 900, color: brand.solid, textTransform: "uppercase", letterSpacing: "0.15em", marginBottom: "0.25rem" }}>TARGET AUDIENCE</div>
+                   <div style={{ fontSize: "0.80rem", fontWeight: 800, color: "#0F172A", lineHeight: 1.4 }}>
+                      {targetPart.replace("Target: ", "").trim()}
+                   </div>
+                </div>
+
+                {/* Strategy / Focus */}
+                <div style={{ flex: 1 }}>
+                   <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", marginBottom: "0.4rem" }}>
+                      <Target size={12} color="#64748B" />
+                      <div style={{ fontSize: "0.55rem", fontWeight: 900, color: "#64748B", textTransform: "uppercase", letterSpacing: "0.15em" }}>STRATEGI & VOICE</div>
+                   </div>
+                   <p style={{ fontSize: "0.75rem", color: "#475569", lineHeight: 1.5, fontWeight: 500, margin: 0 }}>
+                      {fokusPart.replace("Fokus: ", "").trim()}
+                   </p>
+                </div>
+
+             </motion.div>
+           );
+         })}
+      </div>
+    </div>
   );
 }
 
 /* ── STAKEHOLDER NETWORK LAYOUT ────────────────────────────── */
 export function LayoutStakeholderNetwork({ title, subtitle, body, features }: LayoutProps) {
   const items = features || [];
-  const icons = [Mic2, Smartphone, Newspaper, Target];
-  
+  const icons = [Newspaper, Radio, Smartphone, Users]; // Better dynamic bureaucratic mapping
+  const colors = ["#10B981", "#3B82F6", "#F59E0B", "#8B5CF6"]; // Matrix quartet
+
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ height: "100%", display: "flex", flexDirection: "column" }}>
-      <div style={{ textAlign: "center", marginBottom: "3rem" }}>
-         <p style={{ fontSize: "0.85rem", fontWeight: 850, color: GOLD, letterSpacing: "0.25em", textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
-         <h2 style={{ fontSize: "clamp(2.5rem, 5vw, 3.5rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
-         <p style={{ fontSize: "1.05rem", color: TEXT_MUTED, maxWidth: "800px", margin: "1rem auto 0", lineHeight: 1.6 }}>{body}</p>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ height: "100%", display: "flex", flexDirection: "column", paddingBottom: "1.5rem" }}>
+      
+      {/* Background Subtle Gradient */}
+      <div style={{ position: "absolute", inset: 0, backgroundImage: "radial-gradient(circle at 50% 10%, rgba(4,120,87,0.03) 0%, transparent 60%)", zIndex: -1, pointerEvents: "none" }} />
+
+      {/* Bureaucratic Header (No-Scroll Optimized) */}
+      <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+         <div style={{ width: 80, height: 3, background: PRIMARY, margin: "0 auto 1.25rem", borderRadius: "2px", boxShadow: `0 0 12px ${PRIMARY}60` }} />
+         <p style={{ fontSize: "0.85rem", fontWeight: 850, color: PRIMARY, letterSpacing: "0.25em", textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
+         <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 2.7rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
+         {body && <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, maxWidth: "1050px", margin: "1rem auto 0", lineHeight: 1.5, fontWeight: 500 }}>{body}</p>}
       </div>
 
-      <div style={{ flex: 1, display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2rem", alignContent: "center", maxWidth: "1150px", margin: "0 auto", width: "100%" }}>
+      {/* Corporate Grid Segmentation */}
+      <div style={{ flex: 1, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))", gap: "1.5rem", alignContent: "start", maxWidth: "1150px", margin: "0 auto", width: "100%" }}>
         {items.map((it: any, i: number) => {
            const Icon = icons[i % icons.length];
+           const ringColor = colors[i % colors.length];
            return (
-             <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.1 * i }} key={i} style={{ background: SURFACE, borderRadius: 32, padding: "2.5rem", border: `1px solid ${BORDER_REFINED}`, boxShadow: SHADOW_SM, position: "relative", overflow: "hidden", display: "flex", gap: "1.5rem" }}>
-                <div style={{ position: "absolute", right: "-5%", bottom: "-10%", opacity: 0.03 }}>
-                   <Icon size={160} color="#0F172A" />
+             <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.1 * i }} key={i} 
+                style={{ background: SURFACE, borderRadius: 20, padding: "2rem 1.75rem", border: `1px solid ${BORDER_REFINED}`, boxShadow: SHADOW_SM, position: "relative", overflow: "hidden", display: "flex", gap: "1.25rem", alignItems: "flex-start", zIndex: 1 }}>
+                
+                {/* Thin Colored Edge Marker */}
+                <div style={{ position: "absolute", top: 0, bottom: 0, left: 0, width: "6px", background: ringColor }} />
+
+                {/* Cybernetic Background Watermark Icon */}
+                <div style={{ position: "absolute", right: "-5%", bottom: "-15%", opacity: 0.03, zIndex: 0 }}>
+                   <Icon size={160} color={ringColor} />
                 </div>
                 
-                <div style={{ width: 64, height: 64, flexShrink: 0, borderRadius: 20, background: i % 2 === 0 ? "rgba(4, 120, 87, 0.1)" : "rgba(212, 175, 55, 0.1)", display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid ${i % 2 === 0 ? "rgba(4, 120, 87, 0.3)" : "rgba(212, 175, 55, 0.3)"}` }}>
-                   <Icon size={32} color={i % 2 === 0 ? "#047857" : GOLD} />
+                {/* Institutional Icon Box */}
+                <div style={{ width: 56, height: 56, flexShrink: 0, borderRadius: 16, background: `${ringColor}10`, display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid ${ringColor}30`, position: "relative", zIndex: 2 }}>
+                   <Icon size={26} color={ringColor} strokeWidth={2.5} />
                 </div>
                 
-                <div style={{ zIndex: 1, paddingTop: "0.25rem" }}>
-                   <h3 style={{ fontSize: "1.3rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.75rem", lineHeight: 1.3 }}>{it.title}</h3>
-                   <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.6, fontWeight: 500 }}>{it.desc}</p>
+                <div style={{ zIndex: 2, paddingTop: "0.25rem" }}>
+                   <h3 style={{ fontSize: "1.2rem", fontWeight: 900, color: TEXT_MAIN, marginBottom: "0.5rem", lineHeight: 1.3 }}>{it.title}</h3>
+                   <div style={{ width: "2rem", height: "3px", background: `${ringColor}50`, marginBottom: "0.75rem", borderRadius: "2px" }} />
+                   <p style={{ fontSize: "0.9rem", color: TEXT_MUTED, lineHeight: 1.5, fontWeight: 500, margin: 0 }}>{it.desc}</p>
                 </div>
              </motion.div>
            );

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { ArrowLeft, ArrowRight, Cpu, Database, Bell, Globe, Smartphone, Zap } from "lucide-react";
+import { ArrowLeft, ArrowRight, Cpu, Database, Bell, Globe, Smartphone, Zap, Briefcase } from "lucide-react";
 
 const SUB_MENU_ITEMS = [
   {
@@ -65,6 +65,16 @@ const SUB_MENU_ITEMS = [
     glow: "rgba(255,255,255,0.2)",
     slug: "digitalisasi_chatbot",
     tag: "AI TECH",
+  },
+  {
+    id: "egovernment",
+    title: "SSO (Single Sign On)",
+    desc: "Akses Terintegrasi Seluruh Layanan Tata Kelola Internal",
+    Icon: Briefcase,
+    gradient: "linear-gradient(135deg, #1E293B 0%, #475569 100%)",
+    glow: "rgba(71,85,105,0.5)",
+    slug: "digitalisasi",
+    tag: "SSO",
   },
 ];
 

@@ -196,18 +196,6 @@ const MENU_ITEMS = [
     tag: "MEDIA",
   },
   {
-    id: "strakom",
-    title: "Strategi Komunikasi (STRAKOM)",
-    desc: "Protokol Respons Cepat & Amplifikasi Isu",
-    Icon: IconStrakom,
-    gradient: "linear-gradient(135deg, #1E1B4B 0%, #047857 100%)",
-    glow: "rgba(4,120,87,0.5)",
-    particle: "rgba(196,30,91,0.8)",
-    slug: "strakom",
-    label: "06",
-    tag: "STRATEGI",
-  },
-  {
     id: "branding",
     title: "Political Branding",
     desc: "Persona & Sinergi Duo Dinamis Pemimpin",
@@ -216,7 +204,7 @@ const MENU_ITEMS = [
     glow: "rgba(212,175,55,0.4)",
     particle: "rgba(212,175,55,0.8)",
     slug: "political_branding",
-    label: "07",
+    label: "06",
     tag: "BRANDING",
   },
   {
@@ -228,7 +216,7 @@ const MENU_ITEMS = [
     glow: "rgba(34,197,94,0.4)",
     particle: "rgba(34,197,94,0.8)",
     slug: "investasi_daerah",
-    label: "08",
+    label: "07",
     tag: "INVESTASI",
   },
   {
@@ -240,7 +228,7 @@ const MENU_ITEMS = [
     glow: "rgba(123,47,190,0.5)",
     particle: "rgba(168,85,247,0.8)",
     slug: "sukabumi_technopark",
-    label: "09",
+    label: "08",
     tag: "INOVASI",
   },
 ];

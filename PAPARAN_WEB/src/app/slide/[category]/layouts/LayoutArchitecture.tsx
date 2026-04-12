@@ -6,7 +6,7 @@ import Image from "next/image";
 import { 
   Users, Building2, LayoutGrid, Zap, Flag, ShieldCheck, 
   Globe, Target, ChevronRight, HardHat, HeartPulse, 
-  Layers, Database, Star, CheckCircle2, Hexagon, Mic
+  Layers, Database, Star, CheckCircle2, Hexagon, Mic, MapPin
 } from "lucide-react";
 import { 
   PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, SURFACE, 
@@ -179,16 +179,53 @@ export function LayoutPillars({ title, subtitle, body }: LayoutProps) {
 /* ── ONE GATE LAYOUT ───────────────────────────────────────── */
 export function LayoutOneGate({ title, subtitle, body }: LayoutProps) {
     const items = parseListItems(body);
+    const ICONS = [Globe, Target, Star]; 
     return (
-        <div style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "center" }}>
-            <h2 style={{ fontSize: "2.8rem", fontWeight: 1000, textAlign: "center", marginBottom: "3rem" }}>{title}</h2>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1.5rem" }}>
-                {items.map((it, i) => (
-                    <div key={i} style={{ padding: "1.5rem", borderRadius: 20, background: "#FFFFFF", border: `1px solid ${BORDER_REFINED}`, textAlign: "center", boxShadow: SHADOW_SM }}>
-                        <Zap size={24} color="#D4AF37" style={{ margin: "0 auto 1rem" }} />
-                        <div style={{ fontSize: "1.1rem", fontWeight: 800, color: "#0F172A" }}><InlineText text={it} /></div>
-                    </div>
-                ))}
+        <div style={{ height: "100%", display: "flex", flexDirection: "column" }}>
+            <div style={{ marginBottom: "3rem", textAlign: "center" }}>
+                <p style={{ fontSize: "0.85rem", fontWeight: 900, color: GOLD, letterSpacing: "0.25em", textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
+                <h2 style={{ fontSize: "clamp(2.5rem, 4vw, 3.5rem)", fontWeight: 1000, textAlign: "center", color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
+            </div>
+            
+            <div style={{ flex: 1, display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "2rem", alignItems: "center" }}>
+                {items.map((it, i) => {
+                    let label = ""; let rest = "";
+                    if (typeof it === 'string') {
+                        const parsed = parseBoldLabel(it);
+                        label = parsed.label || `Benchmarking ${i + 1}`;
+                        rest = parsed.rest || it;
+                    }
+                    const Icon = ICONS[i % ICONS.length];
+                    const isCenter = i === 1;
+
+                    return (
+                        <motion.div key={i} initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: i * 0.2, duration: 0.5 }} 
+                            style={{ 
+                                padding: "2.5rem", 
+                                borderRadius: 32, 
+                                background: isCenter ? `linear-gradient(135deg, ${PRIMARY}, #065F46)` : SURFACE, 
+                                color: isCenter ? "#FFFFFF" : TEXT_MAIN,
+                                border: isCenter ? "none" : `1px solid ${BORDER_REFINED}`,
+                                boxShadow: isCenter ? SHADOW_LG : SHADOW_SM,
+                                transform: isCenter ? "scale(1.05)" : "scale(0.98)", 
+                                zIndex: isCenter ? 10 : 1,
+                                display: "flex", 
+                                flexDirection: "column",
+                                position: "relative",
+                                overflow: "hidden"
+                            }}>
+                            
+                            <div style={{ position: "absolute", top: -20, right: -20, width: 200, height: 200, borderRadius: "50%", background: isCenter ? "rgba(255,255,255,0.05)" : `${PRIMARY}05` }} />
+
+                            <div style={{ width: 64, height: 64, borderRadius: 20, background: isCenter ? "rgba(255,255,255,0.15)" : PRIMARY_LIGHT, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "2.5rem" }}>
+                                <Icon size={32} color={isCenter ? "#FFF" : PRIMARY} />
+                            </div>
+                            
+                            <h3 style={{ fontSize: "1.3rem", fontWeight: 900, marginBottom: "1rem", lineHeight: 1.3 }}>{label}</h3>
+                            <p style={{ fontSize: "1.05rem", color: isCenter ? "rgba(255,255,255,0.8)" : TEXT_MUTED, lineHeight: 1.6 }}>{rest}</p>
+                        </motion.div>
+                    );
+                })}
             </div>
         </div>
     );
@@ -197,14 +234,41 @@ export function LayoutOneGate({ title, subtitle, body }: LayoutProps) {
 /* ── HIERARCHY LAYOUT ──────────────────────────────────────── */
 export function LayoutHierarchy({ title, subtitle, body }: LayoutProps) {
     const items = parseListItems(body);
+    const ICONS = [Globe, Layers, Database, Target, MapPin];
+    
     return (
-        <div style={{ height: "100%", textAlign: "center" }}>
-             <h2 style={{ fontSize: "2.8rem", fontWeight: 950, marginBottom: "3rem" }}>{title}</h2>
-             <div style={{ display: "flex", flexDirection: "column", gap: "1rem", alignItems: "center" }}>
-                 {items.map((it, i) => (
-                     <div key={i} style={{ padding: "1.25rem 3rem", borderRadius: 12, background: i === 0 ? PRIMARY : SURFACE, color: i === 0 ? "white" : TEXT_MAIN, border: `1px solid ${BORDER_REFINED}`, width: 300 + (i * 100) }}>{it}</div>
-                 ))}
-             </div>
+        <div style={{ height: "100%", display: "flex", flexDirection: "column" }}>
+            <div style={{ marginBottom: "2rem", textAlign: "center" }}>
+                <p style={{ fontSize: "0.85rem", fontWeight: 900, color: GOLD, letterSpacing: "0.25em", textTransform: "uppercase", marginBottom: "0.75rem" }}>{subtitle}</p>
+                <h2 style={{ fontSize: "clamp(2.5rem, 4vw, 3.5rem)", fontWeight: 1000, color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
+            </div>
+            
+            <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: "1.5rem", alignItems: "center", justifyContent: "center", position: "relative" }}>
+                <div style={{ position: "absolute", top: "10%", bottom: "10%", left: "50%", width: "4px", marginLeft: "-2px", background: `linear-gradient(180deg, ${PRIMARY}33, ${GOLD}33)`, zIndex: 0 }} />
+
+                {items.map((item, i) => {
+                    const parsed = parseBoldLabel(item);
+                    const label = parsed.label || `Lapis ${i + 1}`;
+                    const rest = parsed.rest || item;
+                    const Icon = ICONS[i % ICONS.length];
+                    const w = 600 + (i * 120); 
+
+                    return (
+                        <motion.div key={i} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.2, duration: 0.5 }} 
+                            style={{ width: `${w}px`, maxWidth: "90%", background: SURFACE, border: `1px solid ${BORDER_REFINED}`, borderRadius: 24, padding: "1.5rem 2rem", boxShadow: SHADOW_LG, position: "relative", zIndex: 1, display: "flex", alignItems: "center", gap: "2rem" }}>
+                            
+                            <div style={{ width: 64, height: 64, borderRadius: 16, background: i === 0 ? PRIMARY : i === items.length - 1 ? TEXT_MAIN : `${PRIMARY}11`, color: i === 1 ? PRIMARY : "#FFF", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, border: i === 1 ? `1px solid ${PRIMARY}44` : "none" }}>
+                                <Icon size={32} />
+                            </div>
+
+                            <div style={{ flex: 1, textAlign: "left" }}>
+                                <h3 style={{ fontSize: "1.2rem", fontWeight: 850, color: TEXT_MAIN, marginBottom: "0.5rem" }}>{label}</h3>
+                                <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.5 }}>{rest}</p>
+                            </div>
+                        </motion.div>
+                    );
+                })}
+            </div>
         </div>
     );
 }

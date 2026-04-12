@@ -192,6 +192,119 @@
   "digitalisasi": [
     {
       "id": 1,
+      "title": "SSO (Single Sign On)",
+      "subtitle": "Akses Terintegrasi Seluruh Layanan Tata Kelola Internal",
+      "body": "Transformasi digital pada tata kelola internal daerah guna mengakselerasi Reformasi Birokrasi dan mewujudkan penyelenggaraan roda pemerintahan yang transparan, efektif, efisien, serta akuntabel.",
+      "layout": "sso_hero"
+    },
+    {
+      "id": 2,
+      "title": "Transformasi Digital Kota Sukabumi",
+      "subtitle": "Implementasi SSO SIMPONI Terintegrasi Pusat, Kepatuhan Regulasi SPBE, dan Executive Dashboard",
+      "body": "<ul><li><b>Implementasi SSO SIMPONI:</b> Integrasi autentikasi tunggal (Single Sign-On) berbasis Sistem Informasi Manajemen Pegawai (SIMPONI) yang terhubung langsung dengan portal pusat guna akselerasi dan keamanan layanan ASN.</li><li><b>Kepatuhan Regulasi SPBE:</b> Pemenuhan arsitektur Sistem Pemerintahan Berbasis Elektronik (SPBE) sesuai regulasi nasional guna menjamin tata kelola yang transparan, efektif, dan akuntabel.</li><li><b>Executive Dashboard Terpadu:</b> Penyediaan instrumen panel pemantauan data analitik (Executive Dashboard) secara komprehensif bagi pimpinan daerah untuk mendukung pengambilan keputusan strategis berbasis bukti.</li></ul>",
+      "layout": "sso_cards",
+      "icon": "Cpu"
+    },
+    {
+      "id": 3,
+      "title": "Mewujudkan Ekosistem Pemerintahan Digital Terpadu",
+      "subtitle": "Arsitektur Integrasi Layanan Publik & Tata Kelola Internal",
+      "body": "<ul><li><b>Visi Terpadu:</b> Mewujudkan pemerintahan digital Kota Sukabumi yang cerdas, terpadu, serta berorientasi penuh pada pelayanan yang adaptif.</li><li><b>Misi Keterpaduan (SSO SIMPONI):</b> Mengakhiri era \"aplikasi tercecer\" dengan menyatukan seluruh layanan publik dan administrasi birokrasi ke dalam satu portal utama melalui teknologi Single Sign-On (SSO).</li><li><b>Pendekatan Strategis:</b> Berbagi pakai infrastruktur dari pemerintah pusat, kepatuhan penuh pada regulasi nasional, dan implementasi tata kelola berbasis data (evidence-based policy) melalui Executive Dashboard.</li></ul>",
+      "layout": "sso_vision",
+      "icon": "Network"
+    },
+    {
+      "id": 4,
+      "title": "Latar Belakang & Tantangan Saat Ini",
+      "subtitle": "Mengapa Integrasi SSO Dibutuhkan?",
+      "body": "<ul><li><b>Silo Sistem Informasi:</b> Banyak aplikasi dan layanan di berbagai Organisasi Perangkat Daerah (OPD) yang berjalan sendiri-sendiri. Hal ini menyulitkan kontrol pimpinan dan membingungkan pengguna.</li><li><b>Duplikasi Data dan Anggaran:</b> OPD seringkali membangun aplikasi yang fungsinya sama dengan yang disediakan oleh kebijakan terpusat, menyebabkan inefisiensi pada APBD.</li><li><b>Kelelahan Autentikasi:</b> Pegawai ASN dan masyarakat dituntut untuk mengingat begitu banyak *username* dan *password* berbeda demi mengakses berbagai layanan.</li><li><b>Solusi Utama Berbasis Portal:</b> Diperlukan penyatuan pintu *login* melalui SIMPONI agar operasional layanan birokrasi jauh lebih praktis, efisien, dan transparan bagi semua pihak.</li></ul>",
+      "layout": "sso_challenge",
+      "icon": "Settings"
+    },
+    {
+      "id": 5,
+      "title": "Landasan Hukum - Kewajiban Integrasi & SSO",
+      "subtitle": "Kompilasi Payung Hukum Perundang-Undangan Pusat",
+      "body": "<ul>\n<li><b>SPBE Nasional (Perpres 95/2018, 132/2022, 82/2023):</b> Mewajibkan arsitektur tata kelola pemerintahan yang terpadu, berbasis elektronik, dan dilarang mementingkan ego sektoral instansi.</li>\n<li><b>Keterpaduan Satu Data (Perpres 39/2019 SDI):</b> Memandatkan bagi-pakai antarsistem secara otomatis (machine-to-machine) demi keseragaman informasi pimpinan.</li>\n<li><b>Aplikasi Umum Bidang Pemerintahan (SIPD & SPSE):</b> Daerah dilarang membangun aplikasi sendiri; wajib gunakan SIPD (Kemendagri) untuk keuangan dan SPSE (LKPP) untuk pengadaan.</li>\n<li><b>Aplikasi Umum Persuratan & Aduan (Srikandi & LAPOR):</b> Penyelenggaraan kearsipan ditautkan pada portal pusat SRIKANDI dan keluhan warga difasilitasi penuh lewat SP4N-LAPOR!.</li>\n<li><b>Pelindungan Data Pribadi (UU 27/2022):</b> SSO yang mensentralisasi data ASN/Publik mewajibkan penilaian dampak (Impact Assessment) serta pembatasan mutlak pengumpulan data.</li>\n<li><b>Tanggung Jawab Integrasi & Renteng Hukum:</b> Pemakaian platform bersama menciptakan status Pengendali Data Joint Controllers yang mengikat Pemda dan Pusat secara hukum (tanggung renteng tingkat tinggi).</li>\n</ul>",
+      "layout": "sso_legal",
+      "icon": "Scale"
+    },
+    {
+      "id": 6,
+      "title": "Konsep Transformasi SSO Pada Portal SIMPONI",
+      "subtitle": "Sistem Informasi Manajemen Pemerintahan Online (SIMPONI) bertransformasi jadi gerbang utama penataan Kota Sukabumi.",
+      "body": "<ul><li><b>Simponi Sebagai Super App:</b> Bertransformasi dari sekadar aplikasi urusan internal OPD menjadi gerbang (super-app) yang menjembatani seluruh pilar smart city dan birokrasi kota.</li><li><b>One-Time Authentication (SSO):</b> Masyarakat atau ASN hanya butuh *login* satu kali. Sistem secara presisi memverifikasi rute sesi untuk membuka akses ke SIPD, Srikandi, dan aplikasi publik tanpa perlu sandi ulang manual.</li><li><b>Transparansi Publik:</b> Mengakomodasi pemajangan data sektoral pemerintah daerah secara riil terbuka (*Open Data*) bagi partisipasi warga yang progresif.</li></ul>",
+      "layout": "sso_podium",
+      "icon": "Cpu"
+    },
+    {
+      "id": 7,
+      "title": "Arsitektur Teknis - Mesin Penghubung SPLP",
+      "subtitle": "Bagaimana Sukabumi menyambungkan domain *login* daerah dengan server Kementerian tanpa hambatan?",
+      "body": "<ul><li><b>Infrastruktur Integrasi Pusat:</b> Pemkot berlandaskan operasional Sistem Penghubung Layanan Pemerintah (SPLP) garapan Kemenkominfo sebagai koridor *SSO* data yang aman.</li><li><b>Teknologi API & ESB:</b> Melalui standar *Application Programming Interface* di atas fondasi *Enterprise Service Bus*, data dapat mendarat mulus antar server dengan standar \"mesin-ke-mesin\" tanpa migrasi *database* raksasa.</li><li><b>SSO Nasional Terenkripsi:</b> SPLP menyiapkan mekanisme manajemen kunci identitas agar kerahasiaan lalu lintas token akun portal birokrasi diakui kesahihannya oleh negara.</li></ul>",
+      "layout": "sso_cards",
+      "icon": "Network"
+    },
+    {
+      "id": 8,
+      "title": "Pemenuhan Evaluasi SPBE Level Tertinggi",
+      "subtitle": "Penggunaan rel integrasi SPLP menargetkan lonjakan skor Indeks SPBE Sukabumi dari zona \"Baik\" (2.98).",
+      "body": "<ul><li><b>Target Penilaian Level 4 (Kolaboratif):</b> Merobohkan ego \"silo\" server individu lalu mengonversinya menjadi model partisipasi *open-service* (repo API nasional) bersama.</li><li><b>Target Penilaian Level 5 (Optimal):</b> Menjamin sistem digital Sukabumi berada pada puncak kematangan SPBE\u2014terintegrasi, berinovasi, tersertifikasi ISO 27001, serta menyajikan kontrol audit pimpinan lewat dasbor interaktif harian.</li></ul>",
+      "layout": "sso_cards",
+      "icon": "Cpu"
+    },
+    {
+      "id": 9,
+      "title": "Ekosistem Layanan Administrasi Internal (G2G/G2E)",
+      "subtitle": "Gerbang SIMPONI merangkai alur fungsi lintas kementerian yang langsung bisa dimanfaatkan ASN Sukabumi:",
+      "body": "<ul><li><b>Perencanaan, Anggaran & Pengadaan:</b> SIPD RI (Kemendagri) menyatukan APBD paripurna, ditunjang agregasi proyek publik via SPSE & SiRUP (LKPP).</li><li><b>Kepegawaian Berbasis Kinerja Terpusat:</b> Penyelarasan matriks aparatur daerah ke SIASN (BKN) sekaligus menautkan laporan Sasaran Kinerja via aplikasi gabungan e-Kinerja Sipeka.</li><li><b>Aset dan Administrasi Persuratan:</b> Korespondensi nir-kertas (paperless) melalui SRIKANDI (ANRI), disusul audit presisi pencatatan siklus benda mati lewat fasilitas aplikasi E-BMD.</li></ul>",
+      "layout": "sso_cards",
+      "icon": "Network"
+    },
+    {
+      "id": 10,
+      "title": "Ekosistem Layanan Publik & Sektoral (G2C/G2B)",
+      "subtitle": "Akselerasi kepuasan bisnis serta warga lokal kota lewat format Mal Pelayanan Publik (MPP) digital yang menyatu:",
+      "body": "<ul><li><b>Portal Tunggal Keluhan & Pengaduan Warga:</b> Aplikasi *SP4N-LAPOR!* menjadi lokomotif penarik rincian keluhan infrastruktur warga agar meluncur ke target disposisi Dinas secara cepat-jawab (responsif).</li><li><b>Ekosistem Investasi Bebas Calo:</b> Pertalian status kewirausahaan (izin) berbalut koneksi OSS yang dikolerasikan pada rute pendukung semacam Sicantik Cloud.</li><li><b>Transparansi Big Data Kota:</b> Menampilkan ragam informasi krusial masyarakat (geoportal spasial, fasilitas *e-tax* terenkripsi, demografi kependudukan) menjadi ruang huni *Open Data Informasi*.</li></ul>",
+      "layout": "sso_cards",
+      "icon": "Cpu"
+    },
+    {
+      "id": 11,
+      "title": "Executive Information System (EIS) - Panel Eksekutif",
+      "subtitle": "Koneksi Single Sign-On (SSO) membuka keran maha data (*Big Data*) langsung ke ujung jari Wali Kota.",
+      "body": "<ul><li><b>Intervensi APBD Defisit (Real-Time):</b> Pemimpin daerah tidak perlu lagi menunggu laporan cetak akhir bulan. Dasbor memvisualisasikan serapan anggaran per-OPD secara *live*. Jika sebuah dinas lamban menyerap pagu, teguran digital bisa diterbitkan saat itu juga.</li><li><b>Pelacakan Rapor Kinerja Kepala Dinas:</b> Matriks *Business Intelligence* menyedot data e-Kinerja BKN. Wali Kota dapat memantau grafik produktivitas tiap aparatur secara akurat sebagai landasan rotasi atau intervensi manajerial yang sepenuhnya *Evidence-Based*.</li><li><b>Analitika Geospasial 'Zona Merah' Kota:</b> Dasbor memetakan keluhan warga (*SP4N LAPOR!*) langsung di atas peta interaktif Sukabumi. Wali Kota bisa melihat konsentrasi masalah aktual (contoh: jalan rusak persis di kecamatan X) beserta metrik kelambanan penanganan dinas terkait.</li><li><b>Kemudi Kendali Krisis & Inflasi:</b> Berkat *API* terpusat (SPLP), komando peringatan kedaruratan mulai dari fluktuasi harga sembako, tingkat kemacetan, hingga ketersediaan bed rumah sakit terpampang utuh di satu layar kokpit utama.</li></ul>",
+      "layout": "sso_dashboard",
+      "icon": "Monitor"
+    },
+    {
+      "id": 12,
+      "title": "Arsitektur Ketahanan Siber (Security Standard)",
+      "subtitle": "Kompensasi sentralisasi SSO: Implementasi kubu keamanan absolut Kota Sukabumi demi melumpuhkan invasi ancaman:",
+      "body": "<ul><li><b>Sertifikasi Tata Laksana Global:</b> Konsistensi kepatuhan perisai informasi (Sistem Manajemen Keamanan Informasi ISO/IEC 27001) guna pencegahan siber, rekayasa pelindungan staf, & manajemen krisis berkepanjangan.</li><li><b>Rute Komunikasi Defensif JIP Terisolir:</b> Membelokkan arus *API* ke struktur Jaringan Intra Pemerintah eksklusif (Anti-Internet Publik), ditambah mitigasi agresi lewat instalasi perisai web (*Web Application Firewall*) & tokenisasi *Digital Signature* yang bermarkas pada server negara pelindung pusat (PDN).</li></ul>",
+      "layout": "sso_cards",
+      "icon": "Lock"
+    },
+    {
+      "id": 13,
+      "title": "Target Manfaat Utama Ekosistem Bagi Sukabumi",
+      "subtitle": "Keuntungan holistik reformasi birokrasi atas adopsi integrasi aplikasi mutakhir (SIMPONI):",
+      "body": "<ul><li><b>Reduksi Beban Administrasi Staf (ASN Lincah):</b> Menyingkirkan dogma berulang pengetikan data kependudukan manual lintas mesin. Menjadikan SDM birokrasi kota punya kapasitas luang memprioritaskan fungsi pokok layanan tatap muka krusial warga.</li><li><b>Disrupsi Penyelamatan APBD Skala Masif:</b> Melenyapkan keutamaan pelelangan projek aplikasi IT internal perangkat daerah yang terisolasi akibat \"egosektoral\". Konvergensi mutakhir berarsitektur Aplikasi Umum ini meliberasi potensi komersial APBD miliaran rupiah menjadi wujud pembangunan nyata lainnya di lapangan.</li></ul>",
+      "layout": "sso_cards",
+      "icon": "Cpu"
+    },
+    {
+      "id": 14,
+      "title": "Kesimpulan & Langkah Tindak Lanjut",
+      "subtitle": "Strategi membumihanguskan mental pelaporan usang. SIMPONI *SSO* adalah nyawa digitalisasi total Kota Sukabumi.",
+      "body": "<ul><li><b>Konklusi Penertiban Ekosistem:</b> Pemkot Sukabumi memposisikan pilar administrasi IT yang paling lincah & patuh tata hukum di kancah daerah\u2014memusatkan kemudahan masuk aplikasi via satu ketukan (*SSO SIMPONI*) melalui kolaborasi legal berinstrumen konektor integrasi (SPLP) dan kerangka Aplikasi Umum murni.</li><li><b>Langkah Intervensi Nyata:</b> Perumusan regulasi wajib Kepala Daerah membongkar budaya sistem terpisah; penandatangan konkrit akses data lintas entitas sentral; juga pengesahan distribusi kendali purna (*EIS Dashboard*) untuk peluncuran pergeseran gaya operasi *Evidence-Based* oleh pemimpin kota Sukabumi secepatnya.</li></ul>",
+      "layout": "sso_conclusion",
+      "icon": "ShieldCheck"
+    }
+  ],
+  "digitalisasi_spbe": [
+    {
+      "id": 1,
       "title": "Arsitektur Digital & SPBE Daerah",
       "subtitle": "Transformasi Birokrasi Menuju Tata Kelola Berbasis Elektronik",
       "body": "Penyelenggaraan SPBE di Pemerintah Kota Sukabumi merupakan instrumen strategis untuk mewujudkan tata kelola yang bersih, efektif, dan akuntabel melalui pemanfaatan teknologi informasi tingkat lanjut.",
@@ -239,10 +352,132 @@
       "icon": "Cpu"
     }
   ],
+  "digitalisasi_aduan": [
+    {
+      "id": 1,
+      "title": "Sukabumi Omnichannel Complaint System (SOCS)",
+      "subtitle": "Transformasi Digital Layanan Pengaduan Menuju Smart City yang Responsif dan Akuntabel.",
+      "body": "Mewujudkan layanan pengaduan masyarakat yang inklusif, responsif, dan terintegrasi lintas sektoral. Berlandaskan komitmen pelayanan prima, kami menjamin setiap aspirasi masyarakat dituntaskan sepenuhnya tanpa terhalang oleh sekat kewenangan antar instansi.",
+      "image": "/images/asn_aduan_dashboard.png",
+      "layout": "socs_hero",
+      "icon": "MessageSquare"
+    },
+    {
+      "id": 2,
+      "title": "Latar Belakang & Pergeseran Paradigma",
+      "subtitle": "Kebutuhan Kritis Ekosistem Pelaporan Terpusat",
+      "body": "<ul><li><b>Evolusi Ekspektasi Pelayanan Publik:</b> Dinamika era digital menuntut penyelenggara daerah untuk mengadaptasi kecepatan respons atas aspirasi dan aduan masyarakat yang kini masif didistribusikan melalui medium agregasi sosial (Facebook, Instagram, Twitter) sebagai instrumen pengawasan publik.</li><li><b>Kendala Tata Kelola Konvensional:</b> Belum terintegrasinya pengelolaan data secara terpusat berimplikasi pada ketimpangan tata laksana tindak lanjut pengaduan antar Perangkat Daerah. Kondisi ini secara struktural menghambat efisiensi kinerja birokrasi dan menurunkan jaminan kepastian pelayanan publik.</li><li><b>Reformasi Birokrasi Berbasis SOCS:</b> Pemerintah Kota Sukabumi menyelenggarakan pembaruan tata laksana layanan publik melalui sistem <b>Omnichannel</b> terpadu. Implementasi ini mensinergikan ragam kanal pelaporan masyarakat ke dalam satu pangkalan data eksekutif guna menjamin akuntabilitas dan percepatan daya tanggap institusi.</li></ul>",
+      "layout": "socs_paradigm",
+      "icon": "AlertTriangle"
+    },
+    {
+      "id": 3,
+      "title": "Dasar Hukum dan Instrumen Perundang-undangan",
+      "subtitle": "Landasan Kepatuhan Terhadap Kebijakan Transformasi Nasional",
+      "body": "<ul><li><b>UU No. 25/2009 (Pelayanan Publik):</b> Memandatkan penyelenggara pemerintah menyelesaikan aduan dengan kaidah kecepatan maksimum, tepat rute, dan tuntas melayani sampai akar.</li><li><b>UU No. 14/2008 (Keterbukaan Informasi):</b> Menggaransi perolehan penyampaian hak aspirasi warga negara akan rekam jejak tata kelola eksekutif publik.</li><li><b>Perpres No. 76/2013 (Pengelolaan Aduan):</b> Pedoman penggarisan standar intervensi manajemen aduan masyarakat untuk lembaga pemerintahan.</li><li><b>PermenPANRB 3/2015 & 46/2020:</b> Kewajiban mutlak pelibatan tiap daerah mensinkronisasi rute pengaduannya menjadi bagian Sistem Pengelolaan Pelayanan Publik Nasional (SP4N).</li></ul>",
+      "layout": "matrix",
+      "icon": "Scale"
+    },
+    {
+      "id": 4,
+      "title": "Manfaat Strategis Implementasi SOCS",
+      "subtitle": "Dampak Konvergensi Reformasi Kanal Administrasi",
+      "body": "<ul><li><b>Aksesibilitas Publik Terintegrasi:</b> Memfasilitasi kemudahan bagi masyarakat untuk menyampaikan aspirasi dan pengaduan secara inklusif melalui integrasi ragam platform digital tanpa hambatan administratif.</li><li><b>Eliminasi Duplikasi Kewenangan:</b> Mereduksi kemunculan tumpang tindih tugas pokok dan fungsi (Tupoksi) antar instansi, sekaligus mengoptimalkan efisiensi waktu saat proses verifikasi tindak lanjut layanan.</li><li><b>Peningkatan Regulasi Akuntabilitas Publik:</b> Memberikan jaminan kepastian pelayanan melalui fitur transparansi status penanganan aduan secara terbuka, guna mengembalikan dan memelihara indeks kepercayaan masyarakat terhadap institusi.</li></ul>",
+      "layout": "cards",
+      "icon": "Target"
+    },
+    {
+      "id": 5,
+      "title": "Kewajiban Interkoneksi SP4N-LAPOR!",
+      "subtitle": "Sinergitas Infrastruktur Keluhan Masyarakat Pusat Daerah",
+      "body": "Penyelenggaraan tata kelola pengaduan daerah berkedudukan sebagai sub-sistem yang wajib diintegrasikan secara komprehensif ke dalam Pangkalan Data Nasional (SP4N-LAPOR!) di bawah pengawasan KemenPANRB, KSP, dan Ombudsman RI.\n\nKewajiban keterpaduan penyelenggaraan layanan ini memiliki kedudukan determinan bagi institusi; di mana kalkulasi rasio persentase dan kecepatan tindak lanjut aduan Kota Sukabumi direkam sebagai indikator penilaian mutlak terstruktur pada lokus evaluasi Indeks Kepatuhan Pelayanan Publik (IKPP) serta tingkat maturitas Reformasi Birokrasi pimpinan di tingkat pusat.",
+      "layout": "split",
+      "image": "/images/Span_lapor.png",
+      "icon": "Network"
+    },
+    {
+      "id": 6,
+      "title": "SOP Integrasi Terpusat SP4N-LAPOR!",
+      "subtitle": "Prosedur Teknis Interoperabilitas Modul Pelayanan (SPLP)",
+      "body": "<ul><li><b>Penyampaian Surat Resmi & Pengajuan Interkoneksi:</b> Pemerintah Kota Sukabumi menyampaikan surat permohonan resmi beserta dokumen pendukung interkoneksi kepada Deputi Bidang Pelayanan Publik Kementerian PAN-RB sebagai landasan legalitas awal penyelenggaraan integrasi.</li><li><b>Evaluasi Asesmen & Verifikasi Penyelarasan Sistem:</b> Tim teknis gabungan instansi bersama arsitektur infrastruktur Diskominfo melaksanakan harmonisasi parameter teknis agar arus data omnichannel daerah dapat diakomodasi secara presisi oleh pangkalan data pusat SP4N-LAPOR!.</li><li><b>Simulasi Uji Kapasitas Transmisi Data (API Testing):</b> Aparatur penyelenggara melaksanakan serangkaian uji coba pengiriman data sampel pada lingkungan simulasi tertutup (Staging Environment) guna memitigasi hambatan teknis pertukaran data dua arah.</li><li><b>Pengesahan Penyelenggaraan Layanan (Go-Live):</b> Pasca-verifikasi dan penerbitan sertifikat kelayakan uji transmisi, platform SOCS diresmikan beroperasi secara utuh guna memantau serta menindaklanjuti aspirasi masyarakat secara waktu-nyata (real-time).</li></ul>",
+      "layout": "socs_flowchart",
+      "icon": "Workflow"
+    },
+    {
+      "id": 7,
+      "title": "Infrastruktur Perlindungan Keamanan Pelapor SOCS",
+      "subtitle": "Pemenuhan Standar Instrumen Kerahasiaan Sesuai Asas Pelindungan Data Pribadi",
+      "body": "<ul><li><b>Penerbitan Kode Registrasi Eksklusif (Tracking ID):</b> Pemberian instrumen identifikasi pelaporan guna memfasilitasi pelacakan progres penanganan aduan secara transparan dari loket penerimaan awal hingga tahap penyelesaian akhir.</li><li><b>Karantina Akses Terbatas (Private View):</b> Mekanisme restriksi visibilitas publik terhadap substansi pengaduan berklasifikasi sensitif, ditujukan guna mencegah distorsi informasi dan memelihara kondusivitas stabilitas daerah.</li><li><b>Perlindungan Identitas Anonim (Incognito Mode):</b> Jaminan hak prerogatif pelapor untuk menyamarkan identitas pribadinya, di mana sistem secara otomatis memberlakukan enkripsi visual yang tidak dapat diakses masyarakat dan terkontrol berlapis bagi figur administrator.</li><li><b>Integrasi Aksesibilitas Lintas Kanal (Omnichannel):</b> Penyelenggaraan fasilitas penerimaan aspirasi berbasis ragam platform terpadu (Portal Daring, Aplikasi WhatsApp, maupun SMS) demi menjamin hak inklusivitas pelayanan bagi seluruh struktur demografi masyarakat.</li></ul>",
+      "layout": "cards",
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": 8,
+      "title": "SOP Penanganan Pengaduan (SLA)",
+      "subtitle": "Mekanisme Tata Kelola dan Koordinasi Lintas Perangkat Daerah",
+      "body": "<ul><li><b>Skrining dan Verifikasi Faktual:</b> Pengaduan masyarakat yang masuk pada sistem terpusat menjalani tahapan validasi oleh Administrator Fasilitator (Diskominfo) guna memastikan kelengkapan administratif dan substansi materiel sebelum diteruskan ke unit terkait atau disposisi.</li><li><b>Distribusi Disposisi Terarah:</b> Administrator Fasilitator mengalokasikan pengaduan terverifikasi kepada Pejabat Penghubung pada Organisasi Perangkat Daerah (OPD) teknis terkait. Sistem menerbitkan notifikasi otomatis guna mengeskalasi tingkat kepatuhan penanganan.</li><li><b>Prosedur Pengembalian dan Realokasi Wewenang:</b> Dalam hal substansi aduan berada di luar ruang lingkup atau yurisdiksi instansi penerima, Pejabat Penghubung diwajibkan melakukan retur disposisi kepada Fasilitator untuk dikaji ulang dan direalokasikan secara tepat sasaran.</li><li><b>Penyampaian Respon Pendahuluan:</b> Instansi teknis pengampu mandat berkewajiban merespons pendelegasian laporan dengan rancangan tindak lanjut, sebagai bentuk jaminan kepastian penyelenggaraan tata usaha pelayanan publik.</li><li><b>Penetapan Status Penyelesaian Akhir:</b> Organisasi Perangkat Daerah (OPD) pelaksana berkewajiban menyampaikan laporan pertanggungjawaban berupa dokumen administratif dan/atau bukti penyelesaian teknis lapangan ke dalam sistem. Status aduan secara resmi diotentikasi pada tahap penyelesaian akhir (Closed).</li></ul>",
+      "layout": "socs_sla_timeline",
+      "icon": "Clock"
+    },
+
+    {
+      "id": 10,
+      "title": "Studi Komparasi Tata Kelola Pengaduan Publik Daerah",
+      "subtitle": "Analisis Praktik Terbaik Ekosistem Pelayanan Responsif Terpadu",
+      "body": "<ul><li><b>Pemerintah Kota Surakarta (ULAS):</b> Pelembagaan Unit Reaksi Cepat (URC) lintas Organisasi Perangkat Daerah yang diatur melalui pendelegasian kewenangan ketat berbasis Standar Operasional Prosedur (SOP) dan Instruksi Wali Kota yang mengikat secara yuridis.</li><li><b>Pemprov DKI Jakarta (CRM):</b> Pengonsolidasian belasan kanal keluhan masyarakat ke dalam basis data tunggal *Citizen Relation Management* (CRM), dioptimalisasi dengan presisi pelacakan geospasial kelurahan yang terpetakan secara komprehensif.</li><li><b>Pemkab Kutai Timur (Respon Siaga):</b> Formulasi standardisasi keluhan nirlacak dari kanal media sosial untuk direkonstruksi menjadi aduan tata usaha resmi, disusul dengan interoperabilitas pangkalan data menuju simpul layanan SP4N-LAPOR! tingkat pusat.</li></ul>",
+      "layout": "one_gate",
+      "icon": "Award"
+    },
+    {
+      "id": 11,
+      "title": "Struktur Kelembagaan Ekosistem Pengaduan Publik",
+      "subtitle": "Sinergi Hierarkis Lintas Perangkat Daerah Berbasis Standar Operasional Prosedur",
+      "layout": "socs_hierarchy",
+      "icon": "Users",
+      "features": [
+        {
+          "title": "Dinas Komunikasi dan Informatika (Koordinator Pusat)",
+          "desc": "Berkedudukan selaku Leading Sector dan Pejabat Pengelola Pengaduan, mengemban mandat administratif dan manajerial dalam memvalidasi, mendisposisikan, serta menyinkronisasikan rekam aduan publik sebagai instrumen dasar perumusan kebijakan pimpinan daerah."
+        },
+        {
+          "title": "Pejabat Penghubung / Fasilitator (Tingkat Instansi / OPD)",
+          "desc": "Penunjukan pejabat definitif pada tiap Organisasi Perangkat Daerah hingga struktur Pemerintah Kelurahan, guna merealisasikan penyelesaian administratif maupun tindak lanjut fisik operasional."
+        },
+        {
+          "title": "Sistem Evaluasi Kinerja Terpadu (Reward & Punishment)",
+          "desc": "Mekanisme pengawasan ketat Service Level Agreement (SLA). Menerbitkan rekomendasi apresiasi bagi aparatur berkinerja tinggi serta sanksi teguran manajerial atas ketidakpatuhan prosedur."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Strategi Lanjutan: Eksplorasi Kecerdasan Buatan (AI)",
+      "subtitle": "Transformasi Total Birokrasi Bersifat Proaktif (Citizen-centric)",
+      "body": "Penerapan **Machine Learning** pada ekosistem SOCS dikhususkan untuk mengotomatisasi klasifikasi aduan dan mendisposisikan laporan secara langsung kepada OPD terkait, mereduksi *human error* secara signifikan pada layar administratif.\n\nSebagai instrumen pelengkap, **Generative Tracker** akan dihidupkan selaku *Early Warning System* siber. Instrumen pintar ini difokuskan memantau opini publik riil pada kanal media sosial (*real-time monitoring*), mendeteksi dini keluhan warga agar Pimpinan Daerah dapat mengeksekusi intervensi layanan terpadu **sebelum** keluhan tersebut memuncak menjadi pengaduan resmi.",
+      "layout": "split",
+      "icon": "Cpu",
+      "image": "/images/smc_sna_visual.webp"
+    },
+    {
+      "id": 13,
+      "title": "Monitoring Analitik Aduan Terpadu",
+      "subtitle": "Command Center Executive Dashboard",
+      "body": "Pusat Kendali Pengaduan terintegrasi menyediakan pemantauan resolusi laporan lintas sektoral secara *real-time* dan presisi.",
+      "layout": "socs_dashboard"
+    },
+    {
+      "id": 14,
+      "title": "Tata Kelola Berbasis Data Partisipatif",
+      "subtitle": "Partisipasi Publik Sebagai Landasan Formulasi Kebijakan Kota Sukabumi",
+      "body": "Sukabumi Omnichannel Complaint System (SOCS) mengakhiri fragmentasi pelayanan publik melalui sistem pengaduan terpusat, memastikan setiap aspirasi diselesaikan di bawah pengawasan langsung Pimpinan Daerah.\n\nKe depan, akumulasi data pengaduan akan bertransformasi menjadi instrumen analitik strategis. Basis data ini akan dijadikan landasan perumusan kebijakan berbasis bukti (*Evidence-Based Policy*), untuk memastikan arah pembangunan Kota Sukabumi berjalan tanggap, presisi, dan berorientasi penuh pada masyarakat.",
+      "layout": "closing",
+      "icon": "CheckCircle2"
+    }
+  ],
   "media_center": [
     {
       "id": 1,
-      "title": "Pusat Diseminasi Informasi Media Center",
+      "title": "Transformasi Komunikasi Publik<span style='font-size: 0.65em; display: block; margin-top: -0.1em; color: #64748B;'>Pemerintah Kota Sukabumi</span>",
       "subtitle": "Orkestrasi Komunikasi Publik dan Citra Institusional",
       "body": "Penyelenggaraan pusat informasi terpadu sebagai kanal resmi pemerintah daerah dalam mendistribusikan kebijakan, program kerja, dan narasi strategis kepada masyarakat melalui berbagai platform media.",
       "layout": "hero",
@@ -250,41 +485,459 @@
     },
     {
       "id": 2,
-      "title": "Redaksi Utama \"Menata Kebaikan\"",
-      "subtitle": "Produksi Konten Kreatif dan Narasi Otoritatif",
-      "body": "<ul><li><b>Produksi Konten Multimedia:</b> Penyelenggaraan tim kreatif khusus untuk memproduksi infografis, videografis, and liputan pimpinan daerah secara profesional.</li><li><b>Manajemen Portal Berita Resmi:</b> Pengelolaan website berita pemerintah sebagai sumber rujukan utama informasi daerah yang akurat and terpercaya.</li><li><b>Distribusi Narasi Strategis:</b> Penyelarasan narasi tunggal pimpinan daerah guna menjamin konsistensi pesan pembangunan di seluruh kanal media.</li></ul>",
-      "layout": "service",
-      "icon": "Layout"
+      "title": "Landasan Regulasi & Transformasi Keterbukaan Informasi Publik",
+      "subtitle": "Mandat Konstitusional Tata Kelola Komunikasi Otoritatif",
+      "body": "<ul><li><b>UU No. 14 Tahun 2008 (KIP):</b> Jaminan hukum atas hak dasar masyarakat dalam memperoleh informasi publik secara transparan, serta kewajiban Pemerintah Kota Sukabumi untuk memberikan akses informasi yang akuntabel.</li><li><b>Permendagri No. 3 Tahun 2017:</b> Pedoman operasional pembentukan dan tata kelola Pejabat Pengelola Informasi dan Dokumentasi (PPID) guna memastikan standarisasi pelayanan informasi daerah.</li><li><b>Perpres No. 82 Tahun 2023:</b> Akselerasi Transformasi Digital dan Keterpaduan Layanan Digital Nasional yang mewajibkan peleburan portal-portal birokrasi menjadi satu ekosistem (GovTech) terpadu bagi masyarakat.</li><li><b>Inpres No. 9 Tahun 2015:</b> Instruksi Presiden tentang Pengelolaan Komunikasi Publik yang mengamanatkan sinergi seluruh instansi pemerintah dalam diseminasi narasi tunggal kebijakan dan mitigasi krisis disinformasi.</li></ul>",
+      "layout": "cards",
+      "icon": "ShieldCheck"
     },
     {
       "id": 3,
-      "title": "Sinergitas Kemitraan Media",
-      "subtitle": "Kolaborasi Strategis dengan Insan Pers Daerah",
-      "body": "<ul><li><b>Kemitraan Perusahaan Pers:</b> Fasilitasi kerjasama publikasi dengan media massa lokal and nasional guna memperluas jangkauan diseminasi kebijakan.</li><li><b>Fasilitasi Ruang Press Center:</b> Penyediaan sarana pendukung bagi jurnalis dalam melaksanakan peliputan di lingkungan pemerintah daerah.</li><li><b>Penyelenggaraan Konferensi Pers:</b> Koordinasi rutin pertemuan pimpinan daerah dengan media guna transparansi penyelenggaraan pemerintahan.</li></ul>",
-      "layout": "cards",
-      "icon": "Newspaper"
+      "title": "Tantangan Komunikasi Modern",
+      "subtitle": "Dinamika Ekosistem Informasi Digital Era Kiwari",
+      "body": "<ul><li><b>Eskalasi Hoaks & Disinformasi:</b> Penyebaran berita bohong secara masif dan terstruktur di media sosial berpotensi mendistorsi citra dan kebijakan pimpinan serta memicu instabilitas publik.</li><li><b>Fragmentasi Atensi Masyarakat:</b> Fenomena luapan informasi (*information overload*) yang menyebabkan narasi strategis pemerintah harus bersaing ketat dengan jutaan konten hiburan setiap detiknya.</li><li><b>Kecepatan vs Akurasi Data:</b> Ekspektasi dan tuntutan publik akan respon yang serba instan seringkali berbenturan dengan prinsip birokrasi untuk memverifikasi keakuratan informasi.</li><li><b>Kesenjangan Literasi Digital:</b> Ketimpangan kemampuan sebagian masyarakat dalam menyaring sumber informasi yang kredibel dengan opini atau hasutan yang tidak berdasar.</li></ul>",
+      "layout": "challenges",
+      "icon": "AlertTriangle"
     },
     {
       "id": 4,
-      "title": "Manajemen Kanal Media Sosial",
-      "subtitle": "Engagement Publik dan Layanan Informasi Responsif",
-      "body": "<ul><li><b>Kultivasi Akun Resmi Daerah:</b> Optimalisasi akun Instagram, TikTok, and YouTube sebagai sarana komunikasi dua arah dengan masyarakat.</li><li><b>Monitor & Analisis Opini:</b> Penggunaan instrumen analisis media sosial guna memantau sentimen publik terhadap kinerja pemerintah.</li><li><b>Respon Cepat Aduan Digital:</b> Penanganan awal komentar and aspirasi warga di media sosial sebagai bagian dari layanan responsif pimpinan.</li></ul>",
-      "layout": "sentiment",
-      "icon": "Share2"
+      "title": "Narasi Utama Pemerintah Kota Sukabumi",
+      "subtitle": "Fokus Amplifikasi Prioritas Strategis Kepemimpinan",
+      "body": "Seluruh struktur diseminasi informasi dan konstruksi komunikasi publik yang dikelola secara kelembagaan harus berpedoman teguh pada dua identitas filosofis utama.",
+      "layout": "master_narrative",
+      "icon": "Flag",
+      "features": [
+        {
+          "title": "IMAN (Inovasi, Mandiri, Agamis, Nyaman)",
+          "desc": "Landasan Filosofis Pembangunan",
+          "detail": "IMAN merupakan fondasi tata kelola pemerintahan yang berorientasi pada daya cipta terbarukan, kemandirian sektoral, implementasi religiositas berwawasan kebangsaan, serta penataan ruang kota yang inklusif dan humanis.",
+          "points": [
+            "Akselerasi Layanan Publik Berbasis Digital",
+            "Kemandirian Fundamental Ekonomi & UMKM",
+            "Pembangunan Ekosistem Masyarakat Agamis",
+            "Peningkatan Tata Kota yang Berkelanjutan"
+          ]
+        },
+        {
+          "title": "MENATA KEBAIKAN",
+          "desc": "Spirit Komunikasi & Tata Kelola",
+          "detail": "Sebuah komitmen transformatif yang mengakar pada tindakan nyata untuk merapikan, mempertahankan, dan melipatgandakan dampak kebijakan pro-rakyat demi menghadirkan peradaban kota yang lebih unggul.",
+          "points": [
+            "Transparansi & Akuntabilitas Anggaran",
+            "Kolaborasi Strategis Antar Perangkat Daerah",
+            "Cepat Tanggap terhadap Aspirasi Masyarakat",
+            "Harmonisasi Keberagaman dan Anti-Disinformasi"
+          ]
+        }
+      ]
     },
     {
       "id": 5,
-      "title": "Diseminasi Program Pimpinan",
-      "subtitle": "Amplifikasi Kebijakan Prioritas H. Ayep Zaki & Bobby Maulana",
-      "body": "<ul><li><b>Liputan Agenda Strategis:</b> Dokumentasi and publikasi intensif kegiatan Wali Kota and Wakil Wali Kota dalam program pembangunan infrastruktur ekonomi.</li><li><b>Podcast \"Bincang Sukabumi\":</b> Ruang dialog informatif pimpinan daerah dengan tokoh masyarakat yang disiarkan secara digital.</li><li><b>Publikasi Capaian Kinerja:</b> Penyajian data keberhasilan pembangunan dalam format yang mudah dipahami oleh seluruh lapisan masyarakat.</li></ul>",
-      "layout": "cards",
-      "icon": "Video"
+      "title": "Protokol Komunikasi Krisis Daerah",
+      "subtitle": "Pedoman Teknis Penanggulangan Gangguan Informasi Publik",
+      "body": "Mekanisme komando dan tata laksana komunikasi terpadu Pemerintah Daerah, yang diimplementasikan guna meredam eskalasi keresahan masyarakat akibat situasi tata pemerintahan tak terduga maupun penyebaran konten tidak dapat dipertanggungjawabkan.",
+      "layout": "crisis_sop",
+      "icon": "ShieldAlert",
+      "features": [
+        {
+          "time": "TAHAP 01 - DETEKSI INISIAL",
+          "title": "Pengawasan & Pemetaan Isu Publik",
+          "desc": "Pengaktifan unit pemantauan informasi Media Center secara intensif untuk melakukan identifikasi awal terhadap sentimen masyarakat yang memiliki indikasi mendisrupsi pelayanan dan ketertiban daerah."
+        },
+        {
+          "time": "TAHAP 02 - KOORDINASI SEKTORAL",
+          "title": "Sinkronisasi Data Gugus Tugas",
+          "desc": "Penyelarasan konfirmasi fakta lintas instansi melalui Satuan Kerja Perangkat Daerah (SKPD) terkait, guna menghasilkan rekonsiliasi satu data berpedoman pada asas kepastian hukum dan kehati-hatian."
+        },
+        {
+          "time": "TAHAP 03 - MITIGASI & TINDAKAN",
+          "title": "Diseminasi Penjelasan Kelembagaan",
+          "desc": "Penerbitan hak koreksi, siaran pers, maupun maklumat secara tersistematis dan berjenjang melalui kanal resmi instansi sebagai wujud representasi pertanggungjawaban informasi pimpinan kepada publik."
+        }
+      ]
     },
     {
       "id": 6,
-      "title": "Manifestasi Kedaulatan Informasi",
-      "subtitle": "Membangun Kepercayaan Melalui Kebenaran",
-      "body": "Media Center Kota Sukabumi berkomitmen menjadi garda terdepan dalam memerangi berita bohong (hoaks) serta memastikan setiap warga mendapatkan hak atas informasi yang benar and mencerahkan.",
+      "title": "Mekanisme Pemantauan Siber 24/7",
+      "subtitle": "Instrumen Pengawasan Dini (Early Warning System)",
+      "body": "Penggelaran operasi pemantauan ruang siber secara komprehensif dan berkelanjutan (24 jam) guna mengaktifkan mitigasi presisi atas anomali diskursus publik yang menyasar kelembagaan Pemerintah Daerah.",
+      "layout": "cyber_watch",
+      "icon": "Eye",
+      "features": [
+        {
+          "title": "Social Media Listening",
+          "desc": "Perekaman dan ekstraksi analisis otomatis terhadap seluruh spektrum perbincangan publik lintas platform digital, dikerahkan untuk mendeteksi sentimen pro/kontra masyarakat secara terukur.",
+          "metric": "Real-time"
+        },
+        {
+          "title": "Patroli Siber Media Daring",
+          "desc": "Observasi sistematis terhadap pemberitaan di portal media lokal maupun nasional guna mendeteksi kecenderungan pembingkaian (framing) opini yang mendisrupsi komunikasi pemerintah.",
+          "metric": "Sistematis"
+        },
+        {
+          "title": "Pemantauan Grup Komunitas",
+          "desc": "Pemetaan proaktif arus wacana di dalam medium percakapan tertutup (seperti WhatsApp dan Telegram) untuk mengunci embrio disinformasi sebelum mencapai eskalasi publik bebas.",
+          "metric": "Taktis"
+        },
+        {
+          "title": "Deteksi Kata Kunci Sensitif",
+          "desc": "Implementasi mesin pencari algoritmis (crawling system) berskala besar yang dikondisikan memicu alarm atas pergerakan masif kosakata dan narasi bermuatan fitnah struktural.",
+          "metric": "Otomatis"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Strategi Komunikasi",
+      "subtitle": "Kajian Taktis & Resolusi Dinamika Publik",
+      "body": "Transisi pembahasan menuju kerangka kerja operasional dalam mengelola manajemen reputasi, advokasi kebijiakan strategis pimpinan, serta proteksi narasi institusional Pemerintah Kota Sukabumi.",
+      "layout": "hero",
+      "icon": "Shield"
+    },
+    {
+      "id": 8,
+      "title": "One-Gate Communication Policy",
+      "subtitle": "Sentralisasi Diseminasi & Mitigasi Bias Informasi",
+      "body": "Penerapan sistem komunikasi satu pintu yang diorientasikan untuk mengeliminasi asimetri informasi antar instansi, menjamin bahwa setiap kebijakan dirilis di bawah satu payung narasi pemerintahan yang otoritatif.<ul><li><b>Pemusatan Kewenangan:</b> Penetapan Media Center sebagai otoritas representatif tunggal untuk perilisan pernyataan strategis Pemerintah Daerah.</li><li><b>Sinkronisasi Ekosistem SKPD:</b> Filterisasi berlapis seluruh rancangan rilis kedinasan sekunder demi memastikan ketunggalan visi tanpa distorsi.</li><li><b>Reduksi Anomali Informasi:</b> Penutupan ruang spekulasi publik akibat silang sengketa pernyataan (blunder) dari pejabat yang tidak memiliki kompetensi juru bicara.</li><li><b>Amplifikasi Narasi Tunggal:</b> Pengerahan gelombang kampanye publik yang solid, tersistem, dan pararel di seluruh kanal media milik pemerintah.</li></ul>",
+      "layout": "cards",
+      "icon": "Layers"
+    },
+    {
+      "id": 9,
+      "title": "Arsitektur Komunikasi Kebijakan Satu Pintu",
+      "subtitle": "Tata Kelola dan Harmonisasi Informasi Pemerintah Daerah",
+      "body": "Skema sistematis aliran informasi dari tingkat pimpinan kepala daerah menuju tingkat teknis guna mewujudkan kesatuan narasi publik dan menghindari disonansi komunikasi institusional.",
+      "layout": "orchestration",
+      "icon": "BringToFront",
+      "features": [
+        {
+          "title": "Wali Kota & Wakil Wali Kota",
+          "desc": "Pemegang otoritas eksekutif tertinggi yang menetapkan rancangan strategis, visi pembangunan, serta pedoman makro implementasi kebijakan daerah.",
+          "metric": "Pimpinan Daerah"
+        },
+        {
+          "title": "Sukabumi Media Center",
+          "desc": "Satuan tim khusus beserta tenaga ahli pengolahan informasi yang bertugas merumuskan, menyelaraskan, dan mempublikasikan arahan pimpinan menjadi satu produk komunikasi resmi yang terpusat."
+        },
+        {
+          "title": "Sekretaris Daerah (Sekda)",
+          "desc": "Koordinator utama aparatur pemerintahan yang berwenang memastikan integrasi lintas sektoral sekaligus merelai instruksi eksekutif ke seluruh jajaran birokrasi."
+        },
+        {
+          "title": "Jajaran SKPD Seluruh Kota",
+          "desc": "Satuan Kerja Perangkat Daerah selaku pelaksana operasional yang diwajibkan untuk menginduk pada satu narasi tunggal pemerintah kota dalam proses pelayanan dan penyuluhan publik."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Manajemen Komunikasi",
+      "subtitle": "Hierarki Orkestrasi Komunikasi dan Publikasi Terpusat",
+      "body": "Rantai komando strategis yang melintasi jenjang eksekutif hingga teknis, menjamin kesesuaian narasi pemerintah daerah dan mengamankan distribusi informasi publik agar tersalurkan secara sinkron, utuh, dan terverifikasi.",
+      "layout": "command_chain",
+      "icon": "Sitemap",
+      "features": [
+        {
+          "title": "Kepala Daerah",
+          "desc": ""
+        },
+        {
+          "title": "DINAS KOMUNIKASI DAN INFORMATIKA",
+          "desc": "Instansi Koordinator Utama & Walidata Daerah (Perpres No. 39 Tahun 2019).\nPenanggung Jawab Keterbukaan Informasi Publik (UU No. 14 Tahun 2008).\nMengoordinasikan dan mendistribusikan narasi kebijakan pimpinan secara terpusat."
+        },
+        {
+          "title": "Seluruh SKPD Kota Sukabumi",
+          "desc": "Satuan kerja operasional yang diwajibkan untuk menginduk secara mutlak pada instruksi penyuluhan satu pintu dari orkestrator."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Penetapan Agen Pengelola Informasi Sektoral",
+      "subtitle": "Kewajiban Pengukuhan 1 (Satu) Personel Komunikasi Terpadu Tingkat SKPD",
+      "body": "Dalam rangka menunjang arsitektur komunikasi satu pintu, Kepala SKPD diwajibkan menerbitkan instrumen hukum (Surat Keputusan) guna menunjuk 1 (satu) Person In Charge (PIC) sebagai Agen Pengelola Informasi Sektoral. Personel yang ditunjuk akan mengemban penugasan rangkap terintegrasi yang mencakup:",
+      "features": [
+        {
+          "title": "Fungsi Komunikasi Publik",
+          "desc": "Bertindak selaku narahubung resmi kedinasan dalam menyelenggarakan penyediaan data bahan baku sektoral dan menyelaraskan perumusan narasi strategis urusan dinas bersama Dinas Komunikasi dan Informatika."
+        },
+        {
+          "title": "Fungsi Pengelolaan Media Sosial",
+          "desc": "Menyelenggarakan kegiatan diseminasi informasi digital tingkat SKPD dengan memedomani standarisasi desain komunikasi visual serta mengamplifikasi program pimpinan daerah secara serentak."
+        },
+        {
+          "title": "Fungsi Layanan Aduan Masyarakat",
+          "desc": "Berkedudukan sebagai garda terdepan (first-responder) dalam memetakan, memitigasi, dan merespons keluhan warga maupun krisis pelayanan publik berskala sektoral secara cepat dan terukur."
+        }
+      ],
+      "layout": "agent_integration",
+      "icon": "UserCheck"
+    },
+    {
+      "id": 12,
+      "title": "Rencana Induk Pendistribusian Informasi Sektoral",
+      "subtitle": "Pedoman Tata Laksana Integrasi Alur Diseminasi Lintas Hierarki",
+      "body": "Mekanisme pendistribusian informasi publik diamanatkan beroperasi dengan memedomani alur hierarkis yang bermuara dari Pimpinan Daerah, divalidasi pembakuannya oleh Dinas Komunikasi dan Informatika selaku Walidata, untuk selanjutnya dideseminasikan secara serentak oleh konstelasi Person In Charge (PIC) di setiap Satuan Kerja Perangkat Daerah melalui instrumen multi-kanal.",
+      "features": [
+        {
+          "title": "Pengesahan Kebijakan Pimpinan",
+          "desc": "Instruksi maupun edaran strategis ditetapkan secara linier oleh Pimpinan Daerah (Wali Kota/Wakil Wali Kota/Sekretaris Daerah) selaku pemegang otoritas absolut."
+        },
+        {
+          "title": "Standardisasi Narasi Konsep dan Verifikasi",
+          "desc": "Dinas Komunikasi dan Informatika merumuskan instruksi tersebut menjadi instrumen publikasi terstandar (infografis, videografis, siaran pers) yang berlandaskan legalitas data sektoral."
+        },
+        {
+          "title": "Sinkronisasi Inter-SKPD",
+          "desc": "Bahan publikasi disalurkan melalui kanal komando kedinasan internal untuk kemudian direplikasi secara serempak oleh seluruh PIC di tingkat Dinas, Badan, hingga Kecamatan."
+        },
+        {
+          "title": "Penyebarluasan Informasi Terpadu",
+          "desc": "Eskalasi peliputan dan publikasi yang terstruktur pada ruang publik digital guna memperkokoh hegemoni narasi positif pemerintah daerah serta mereduksi potensi disinformasi secara sistemik."
+        }
+      ],
+      "layout": "distribution_plan",
+      "icon": "Share2"
+    },
+    {
+      "id": 13,
+      "title": "Arsitektur Media Terpusat",
+      "subtitle": "Kategorisasi Kanal Publikasi & Demografi Sasaran Kota Sukabumi",
+      "body": "Pola komunikasi birokrasi tidak dapat disamaratakan. Mengacu pada pedoman kehumasan modern, tata laksana Arsitektur Media mensyaratkan seluruh Satuan Kerja untuk menyesuaikan format bahasa, intensitas, dan kemasan visual secara taktis sesuai dengan spesifikasi karakteristik platform dan basis demografinya.",
+      "features": [
+        {
+          "title": "Kanal Instagram",
+          "desc": "Target: Milenial & Komunitas Urban (18-35th).\nFokus: Visual estetis infografis, interaksi kuis/QnA responsif, dan dokumentasi program elegan. Memerlukan bahasa semi-formal yang inklusif."
+        },
+        {
+          "title": "Video Vertikal TikTok",
+          "desc": "Target: Gen-Z (13-25th) & Pengguna Dinamis.\nFokus: Konten kinetik durasi sangat singkat (B-Roll), pemanfaatan tren audio, dan edukasi super kasual yang melunakkan kekakuan institusi."
+        },
+        {
+          "title": "Halaman Resmi Facebook",
+          "desc": "Target: Kelompok Dewasa & Tokoh Lintas Batas (35-55th+).\nFokus: Rilis pers naratif memanjang, galeri foto operasional komprehensif, dan sentuhan interaksi forum komunal bergaya kekeluargaan."
+        },
+        {
+          "title": "Kanal X (Twitter)",
+          "desc": "Target: Jurnalis, Tokoh Kritis, & Pemerhati Kebijakan Publik.\nFokus: Tanggapan krisis proaktif (Real-time mitigasi), utas (thread) edukasi analitis ringkas, dan penyataan tegas tanpa basa-basi."
+        },
+        {
+          "title": "Portal Website Resmi",
+          "desc": "Target: Media Massa Nasional, Peneliti/Akademisi, & Investor.\nFokus: Validitas mutlak perundang-undangan (Data Statis), rilis harian pimpinan (Open Data), bertata naskah baku dan resmi."
+        }
+      ],
+      "layout": "comm_architecture",
+      "icon": "Network"
+    },
+    {
+      "id": 14,
+      "title": "Sistem Pelacakan Sentimen & Social Media Listening",
+      "subtitle": "Pemetaan Persepsi Siber Berbasis Kecerdasan Buatan (AI Analytics)",
+      "body": "Penerapan instrumen pemantauan percakapan publik (Social Media Listening) secara real-time untuk mendeteksi, mengkategorikan, dan mengakumulasi jutaan perbincangan siber yang berkaitan dengan kebijakan Pemerintah Kota Sukabumi. Ekstraksi data ini menjadi landasan strategis intelijen untuk peringatan dini, mencegah eskalasi disinformasi (hoax), serta memvalidasi tingkat kepuasan layanan di mata warga wilayah Sukabumi.",
+      "layout": "sentiment",
+      "icon": "Activity"
+    },
+    {
+      "id": 15,
+      "title": "Rekomendasi Kebijakan Berbasis Big Data",
+      "subtitle": "Formulasi Regulasi Kepemerintahan Melalui Komputasi Data Sentral",
+      "body": "Tujuan akhir dari tata kelola komunikasi strategis adalah perumusan kebijakan publik yang komprehensif, terukur, dan akuntabel. Melalui optimalisasi Pangkalan Data Terpadu (Big Data), Pemerintah Daerah bertransisi dari pendekatan asumtif menuju tata laksana administrasi berbasis bukti (Evidence-Based Policy). Transformasi ini memastikan setiap intervensi program dieksekusi secara presisi, proporsional, serta berorientasi penuh pada pemenuhan hak-hak pelayanan masyarakat Kota Sukabumi.",
+      "features": [
+        {
+          "title": "Perumusan Kebijakan Berbasis Pangkalan Data",
+          "desc": "Peralihan metode penyusunan program dari pendekatan konvensional menuju kerangka perencanaan strategis yang sepenuhnya divalidasi oleh analisis pangkalan data aspirasi masyarakat terpadu."
+        },
+        {
+          "title": "Pemetaan Dini Potensi Krisis Sektoral",
+          "desc": "Sistem deteksi dini terhadap eskalasi aduan lintas isu (infrastruktur, layanan sosial) guna memfasilitasi percepatan langkah intervensi oleh Satuan Kerja Perangkat Daerah (SKPD) secara tepat sasaran."
+        },
+        {
+          "title": "Proyeksi & Mitigasi Sentimen Publik",
+          "desc": "Kajian prediktif untuk memetakan tren resistensi masyarakat sebelum regulasi daerah disahkan, sebagai instrumen dasar penyusunan strategi mitigasi komunikasi kepemerintahan yang terukur."
+        },
+        {
+          "title": "Evaluasi Komprehensif Realisasi Program",
+          "desc": "Pemanfaatan sistem analitik untuk meninjau serapan Indeks Kepuasan Masyarakat (IKM) secara kontinu, yang berfungsi sebagai landasan kalibrasi ulang efektivitas sosialisasi program strategis instansi."
+        }
+      ],
+      "layout": "big_data",
+      "icon": "Database"
+    },
+    {
+      "id": 16,
+      "title": "Protokol Golden Time Penanganan Krisis",
+      "subtitle": "Standar Operasional Prosedur (SOP) Eskalasi Mitigasi Informasi",
+      "body": "Kecepatan merespons isu publik merupakan indikator supremasi pelayan masyarakat. Protokol 'Golden Time' memetakan resolusi krisis berdasarkan klasifikasi kedaruratan (Severity Level), mewajibkan seluruh instansi vertikal Pemerintah Kota mematuhi Service Level Agreement (SLA) demi netralisasi potensi krisis secara presisi.",
+      "features": [
+        {
+          "metric": "< 2 Jam",
+          "title": "SLA Krisis Infrastruktur / Taktis",
+          "desc": "Respons cepat berupa konfirmasi aduan dan pengerahan personel darurat ke titik insiden. Berlaku untuk masalah fisik sektoral yang langsung memengaruhi mobilitas warga.",
+          "issues": [
+            "Infrastruktur Darurat (Pohon tumbang, lampu mati)",
+            "Layanan Publik Minor (Antrean, penumpukan sampah)",
+            "Disinformasi sektoral berdaya ledak sentimen rendah"
+          ]
+        },
+        {
+          "metric": "< 6 Jam",
+          "title": "SLA Krisis Layanan (Menengah)",
+          "desc": "Aksi wajib berupa penerbitan klarifikasi interaktif, permohonan maaf manajerial, dan transparansi jadwal perbaikan. Diaplikasikan pada kendala layanan yang memicu sentimen organik.",
+          "issues": [
+            "Gangguan Esensial Terpusat (Bocor PDAM, listrik mati)",
+            "Keluhan birokratis / administratif yang terus berulang",
+            "Indikasi kelalaian prosedural oknum petugas layanan"
+          ]
+        },
+        {
+          "metric": "< 12 Jam",
+          "title": "SLA Krisis Reputasional (Tinggi)",
+          "desc": "Intervensi proaktif lintas-media untuk menetralisir spekulasi terorganisir. Membutuhkan verifikasi ketat berjenjang dan otorisasi narasi langsung dari Kepala SKPD.",
+          "issues": [
+            "Resistensi kebijakan daerah (Tarif, rekayasa lalin)",
+            "Pemberitaan negatif massif atau terstruktur",
+            "Dugaan serius maladministrasi institusi/oknum"
+          ]
+        },
+        {
+          "metric": "Maks. 24 Jam",
+          "title": "SLA Krisis Strategis (Tertinggi)",
+          "desc": "Otorisasi Pusat Komando Darurat secara sepihak oleh Pimpinan Daerah. Eksekusi pelibatan lintas-instansi dan hukum untuk pemulihan stabilitas komprehensif Kota.",
+          "issues": [
+            "Bencana Alam & Keadaan Mendesak (Force Majeure)",
+            "Skandal Integritas yang berdampak tingkat Regional",
+            "Insiden pelaporan hukum berskala Nasional"
+          ]
+        }
+      ],
+      "layout": "golden_time",
+      "icon": "Clock"
+    },
+    {
+      "id": 17,
+      "title": "Kemitraan Ekosistem Media Massa",
+      "subtitle": "Optimalisasi Hubungan Kelembagaan Bersama Insan Pers Publik",
+      "body": "Institusi Pemerintahan Daerah mengedepankan implementasi Keterbukaan Informasi Publik (KIP). Tata kelola komunikasi strategis mewajibkan terjalinnya kemitraan proporsional dengan elemen kepartaian dan media massa. Sinergi komprehensif ini dikerahkan guna menjamin setiap arah perumusan kebijakan Wali Kota tersosialisasi secara faktual, akuntabel, dan menyentuh seluruh lapisan hak sipil masyarakat.",
+      "features": [
+        {
+          "title": "Kehumasan Media Cetak & Konvensional",
+          "desc": "Kerjasama penerbitan administratif untuk laporan komprehensif bertarget spesifik yang menyasar segmentasi instansi formal, korporasi, serta pemangku kepentingan (stakeholders) struktural."
+        },
+        {
+          "title": "Jaringan Penyiaran Televisi & Radio",
+          "desc": "Optimalisasi saluran lembaga penyiaran publik daerah untuk penyebarluasan agenda prioritas kepemerintahan, imbauan darurat terpusat, dan forum serapan aspirasi masyarakat."
+        },
+        {
+          "title": "Afiliasi Portal Jurnalistik Siber",
+          "desc": "Pembentukan konvergensi mitra media dalam jaringan (daring) guna mengakselerasi diseminasi progres kerja Satuan Kerja, berorientasi pada kecepatan distribusi informasi massal seketika."
+        },
+        {
+          "title": "Katalisator Aspirasi & Warga Jurnalis",
+          "desc": "Pelibatan tokoh pemengaruh opini kultural (opinion leaders) untuk mensosialisasikan narasi program pemerintah ke lingkup akar rumput dengan pendekatan humanis dan kearifan lokal."
+        }
+      ],
+      "layout": "stakeholder_network",
+      "icon": "Share2"
+    },
+    {
+      "id": 18,
+      "title": "Sinergitas Pengelola Informasi & Tokoh Kultural Daerah",
+      "subtitle": "Optimalisasi Diseminasi Komunikasi Sub-Struktural Akar Rumput",
+      "body": "Dinamika penyebaran informasi menuntut penyesuaian strategis institusional. Pelibatan tokoh pemengaruh opini publik (Key Opinion Leaders/KOL) serta jejaring komunitas pengelola informasi siber (City Info / Info Daerah) ditetapkan sebagai pilar percepatan sosialisasi. Afiliasi taktis ini dikonstruksi guna mereduksi sekat formalitas birokrasi menuju interaksi partisipatif masyarakat madani (Bottom-Up Approach).",
+      "features": [
+        {
+          "title": "Jejaring Informasi Independen Terpusat (City Info)",
+          "desc": "Kemitraan strategis dengan akun agregator lokal non-formal yang secara empiris menguasai pemusatan interaksi masalah keseharian warga secara aktual dan seketika (Real-Time).",
+          "metric": "Fokus Advokasi Sektoral",
+          "sub": "Pelayanan Keseharian Sipil"
+        },
+        {
+          "title": "Pemberdayaan Ketokohan Figur Publik (Influencer / KOL)",
+          "desc": "Pengintegrasian elemen tokoh masyarakat digital sebagai duta sosialisasi guna mentranslasikan capaian pelaporan kinerja Pemda menjadi narasi organik dan membumi (Relatable).",
+          "metric": "Pemetaan Sasaran Komunikasi",
+          "sub": "Kelompok Demografi Gen-Z"
+        },
+        {
+          "title": "Partisipasi Aktif Pewarta Warga Lokal (Citizen Journalism)",
+          "desc": "Pemanfaatan laporan empiris berbasis inisiatif warga maya (Netizen Report) sebagai lini intelijen lapangan utama instansi, menopang respons tindak lanjut kedaruratan secara utuh.",
+          "metric": "Model Pelaporan Partisipatif",
+          "sub": "Agregasi Aduan Independen"
+        },
+        {
+          "title": "Sinkronisasi Validasi Rilis Independen (Fact-Checking)",
+          "desc": "Penyediaan fasilitas pembinaan (Bimtek) berkala kepada wadah pelaporan mandiri guna mengukuhkan kerangka verifikasi data (Clearing House) dan meredam laju misinformasi (Hoax).",
+          "metric": "Standar Evaluasi Pengawasan",
+          "sub": "Pembinaan Kehumasan Terpadu"
+        }
+      ],
+      "layout": "kol",
+      "icon": "Users"
+    },
+    {
+      "id": 19,
+      "title": "Indikator Kinerja Utama (IKU)",
+      "subtitle": "Parameter Valuasi Keberhasilan Strategi Kehumasan (KPI)",
+      "body": "Pemerintah Kota Sukabumi menetapkan instrumen pengukuran kinerja persentual (metrics) untuk mengkalibrasi efektivitas ekosistem komunikasi publik lintas sektoral. Standar operasional ini didasarkan pada objektivitas evaluasi pengawasan, reduksi drastis aduan residu kritis sentimen, serta rasio transparansi progres birokrasi di ruang diskusi masyarakat maya maupun nyata.",
+      "features": [
+        {
+          "title": "Predikat SAKIP Komunikasi",
+          "metric": "A",
+          "desc": "Pencapaian Sistem Akuntabilitas Kinerja Instansi Pemerintah (SAKIP) yang tervalidasi melalui rasio mitigasi transparansi publik predikat Paripurna."
+        },
+        {
+          "title": "Indeks Kepercayaan Sipil",
+          "metric": "95%",
+          "desc": "Volume persentase peningkatan keterikatan (Public Trust Index) buah hasil konsistensi responsibilitas aduan di kanal komunikasi satu pintu Kota."
+        },
+        {
+          "title": "Tingkat Penetrasi Publikasi",
+          "metric": "60%",
+          "desc": "Eskalator konversi literasi publik (Engagement Rate Margin) di triwulan akhir melalui distribusi informasi masif pada medium-medium afirmatif lokal."
+        },
+        {
+          "title": "Toleransi Waktu Residu",
+          "metric": "< 2J",
+          "desc": "Verifikasi tindak taktis penanganan krisis fisik maupun digital wajib terealisasi secara mutlak di bawah 2 jam kerja (Strict SLA / Golden Time Protocol)."
+        }
+      ],
+      "layout": "kpi_matrix",
+      "icon": "Target"
+    },
+    {
+      "id": 20,
+      "title": "Peta Jalan Strategis Terpadu",
+      "subtitle": "Rencana Induk Jangka Menengah Daerah (2026 - 2029)",
+      "body": "Konstruksi kerangka kerja linimasa ini mendefinisikan capaian indikator prioritas (Milestones) bagi tata kelola implementasi infrastruktur layanan kehumasan. Setiap penetapan arah kebijakan telah dikalkulasikan secara rasional demi menjamin perwujudan ekosistem Kota Sukabumi sebagai tolok ukur transparansi birokrasi pemerintahan berskala nasional.",
+      "features": [
+        {
+          "title": "2026",
+          "metric": "Konsolidasi Terpusat",
+          "desc": "Pembentukan landasan operasional Pusat Komando Kendali (Command Center) dan pengesahan Satuan Tugas Kehumasan Terpadu guna mewujudkan sistem penanganan aduan responsif tersentralisasi (Single-Window System)."
+        },
+        {
+          "title": "2027",
+          "metric": "Esksilari Sinergi Kultural",
+          "desc": "Perluasan kemitraan berkelanjutan bersama entitas pengelola informasi independen dan tokoh pemengaruh opini publik (KOL) dalam rangka penetrasi wacana strategis pemerintah daerah hingga ke tataran masyarakat akar rumput terbawah."
+        },
+        {
+          "title": "2028",
+          "metric": "Maturitas Pelayanan",
+          "desc": "Integrasi seluruh instrumen serapan aspirasi publik lintas-SKPD secara sistematis dan langsung (Real-Time), demi menjamin rasio percepatan tindak lanjut aparat penindak sesuai dengan target tenggat waktu ideal kedaruratan (Golden Time)."
+        },
+        {
+          "title": "2029",
+          "metric": "Ekselensi Birokrasi Paripurna",
+          "desc": "Pencapaian tingkat kematangan percontohan kelembagaan yang berlandaskan pada komputasi analisis cerdas (Big Data Analysis), menjadikan sentral instrumen mutlak untuk perumusan program kerja dan intervensi kewilayahan yang terukur."
+        }
+      ],
+      "layout": "timeline",
+      "icon": "Map"
+    },
+    {
+      "id": 21,
+      "title": "Terima Kasih",
+      "subtitle": "Sukabumi Media Center",
+      "body": "Pemaparan Rencana Strategis ini disusun sebagai wujud akuntabilitas kinerja Pemerintah Kota Sukabumi dalam penyelenggaraan tata kelola keterbukaan informasi publik. Melalui optimalisasi dan sinergitas lintas instansi yang terpadu, Pemerintah Kota Sukabumi senantiasa berkomitmen untuk meningkatkan kapabilitas pelayanan dasar bagi seluruh lapisan masyarakat.",
       "layout": "closing",
       "icon": "ShieldCheck"
     }

@@ -7,7 +7,7 @@ import {
   Users, HardHat, HeartPulse, Building2, LayoutGrid, Zap,
   Flag, Award, Star, Compass, Map, Radio, ShieldAlert, ShieldCheck,
   ChevronRight, ArrowRight, Circle, Smartphone, Briefcase, Heart,
-  ShoppingBag, Landmark
+  ShoppingBag, Landmark, CheckSquare
 } from "lucide-react";
 import { 
   PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, SURFACE, 
@@ -25,46 +25,81 @@ interface LayoutProps {
 /* ── MASTER NARRATIVE LAYOUT (ARCHITECTURAL PILLARS) ────────── */
 export function LayoutMasterNarrative({ title, subtitle, features, body }: LayoutProps) {
   const pillars = features || [];
+  const icons = [Flag, Compass];
+  
   return (
-    <div style={{ height: "100%", display: "flex", flexDirection: "column" }}>
-      <div style={{ marginBottom: "3.5rem", textAlign: "center" }}>
-        <p style={{ fontSize: "0.85rem", fontWeight: 900, color: GOLD, letterSpacing: "0.4em", textTransform: "uppercase", marginBottom: "1rem" }}>{subtitle}</p>
-        <h2 style={{ fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 1000, color: TEXT_MAIN, letterSpacing: "-0.04em" }}>{title}</h2>
-        {body && <div style={{ maxWidth: "800px", margin: "1.5rem auto 0", fontSize: "1.1rem", color: TEXT_MUTED, lineHeight: 1.6 }}><InlineText text={body} /></div>}
+    <div style={{ height: "100%", display: "flex", flexDirection: "column", position: "relative" }}>
+      {/* Ambient Canvas Glows */}
+      <div style={{ position: "absolute", top: "-10%", left: "5%", width: 500, height: 500, background: `radial-gradient(circle, ${PRIMARY}05 0%, transparent 60%)`, zIndex: -1, pointerEvents: "none" }} />
+      <div style={{ position: "absolute", bottom: "-10%", right: "5%", width: 500, height: 500, background: `radial-gradient(circle, ${GOLD}05 0%, transparent 60%)`, zIndex: -1, pointerEvents: "none" }} />
+      
+      <div style={{ marginBottom: "2rem", textAlign: "center", position: "relative", zIndex: 1 }}>
+        <p style={{ fontSize: "0.8rem", fontWeight: 900, color: GOLD, letterSpacing: "0.3em", textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
+        <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 2.8rem)", fontWeight: 1000, color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
+        <div style={{ width: 60, height: 3, background: `linear-gradient(90deg, transparent, ${GOLD}, transparent)`, margin: "1rem auto 0", borderRadius: 2 }} />
+        {body && <div style={{ maxWidth: "800px", margin: "1rem auto 0", fontSize: "1rem", color: TEXT_MUTED, lineHeight: 1.6, fontWeight: 500 }}><InlineText text={body} /></div>}
       </div>
       
-      <div style={{ display: "flex", gap: "1rem", alignItems: "stretch", flex: 1 }}>
-        {pillars.map((p: any, i: number) => (
-          <motion.div 
-            key={i} 
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: i * 0.15 }}
-            style={{ 
-              flex: 1, padding: "2.5rem 1.5rem", borderRadius: 32, background: SURFACE, 
-              border: `1px solid ${BORDER_REFINED}`, boxShadow: SHADOW_SM,
-              display: "flex", flexDirection: "column", position: "relative", overflow: "hidden"
-            }}>
-            <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 6, background: PRIMARY }} />
-            <div style={{ marginBottom: "2rem" }}>
-               <h3 style={{ fontSize: "1.4rem", fontWeight: 950, color: PRIMARY, letterSpacing: "-0.02em", marginBottom: "0.25rem" }}>{p.title.split("(")[0].trim()}</h3>
-               <div style={{ fontSize: "0.75rem", fontWeight: 1000, color: GOLD, textTransform: "uppercase", letterSpacing: "0.15em" }}>{p.desc}</div>
-            </div>
-            
-            <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.6, marginBottom: "2.5rem", flex: 1 }}>{p.detail}</p>
-            
-            {p.points && (
-              <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-                {p.points.map((pt: string, j: number) => (
-                  <div key={j} style={{ display: "flex", alignItems: "center", gap: "0.75rem", background: PRIMARY_LIGHT, padding: "0.75rem", borderRadius: 12, border: `1px solid ${PRIMARY}11` }}>
-                    <Circle size={6} fill={PRIMARY} color={PRIMARY} />
-                    <span style={{ fontSize: "0.8rem", fontWeight: 800, color: PRIMARY, letterSpacing: "0.02em" }}>{pt}</span>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.5rem", alignItems: "stretch", flex: 1, zIndex: 1, paddingBottom: "2rem" }}>
+        {pillars.map((p: any, i: number) => {
+           const PillarIcon = icons[i % icons.length];
+           const mainTitle = p.title.split("(")[0].trim();
+           const subTitle = p.title.includes("(") ? "(" + p.title.split("(")[1] : "";
+           
+           return (
+            <motion.div 
+              key={i} 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: i * 0.15 + 0.1 }}
+              whileHover={{ y: -4, boxShadow: `0 15px 35px rgba(0,0,0,0.06)`, borderColor: `${GOLD}66` }}
+              style={{ 
+                padding: "2rem", borderRadius: 24, background: GLASS_DARK, 
+                border: `1px solid rgba(255,255,255,0.7)`, boxShadow: SHADOW_SM,
+                display: "flex", flexDirection: "column", position: "relative", overflow: "hidden",
+                transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)"
+              }}>
+              
+              {/* Premium Gradient Top Line */}
+              <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 5, background: `linear-gradient(90deg, ${PRIMARY}, ${GOLD})` }} />
+              
+              <div style={{ display: "flex", alignItems: "center", gap: "1.25rem", marginBottom: "1.5rem", zIndex: 1 }}>
+                  <div style={{ width: 52, height: 52, borderRadius: 16, background: PRIMARY, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, boxShadow: `0 8px 16px ${PRIMARY}40` }}>
+                      <PillarIcon size={24} color="#FFFFFF" strokeWidth={2.5} />
                   </div>
-                ))}
+                  <div>
+                     <h3 style={{ fontSize: "1.5rem", fontWeight: 1000, color: PRIMARY, letterSpacing: "-0.02em", lineHeight: 1 }}>{mainTitle}</h3>
+                     {subTitle && <div style={{ fontSize: "0.8rem", fontWeight: 800, color: GOLD, marginTop: "0.4rem" }}>{subTitle}</div>}
+                  </div>
               </div>
-            )}
-          </motion.div>
-        ))}
+              
+              <div style={{ fontSize: "0.75rem", fontWeight: 900, color: TEXT_MAIN, textTransform: "uppercase", letterSpacing: "0.15em", marginBottom: "0.75rem", zIndex: 1 }}>
+                 {p.desc}
+              </div>
+              
+              <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.6, marginBottom: "1.5rem", flex: 1, zIndex: 1, fontWeight: 500 }}>
+                 {p.detail}
+              </p>
+              
+              {p.points && (
+                <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem", zIndex: 1 }}>
+                  {p.points.map((pt: string, j: number) => (
+                    <motion.div 
+                      key={j}
+                      whileHover={{ x: 4, background: `${GOLD}0A` }}
+                      style={{ display: "flex", alignItems: "center", gap: "0.75rem", background: `rgba(15, 23, 42, 0.02)`, padding: "0.75rem 1rem", borderRadius: 12, border: `1px solid rgba(15, 23, 42, 0.04)`, transition: "all 0.2s" }}
+                    >
+                      <div style={{ padding: "0.2rem", background: PRIMARY_LIGHT, borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                         <CheckSquare size={14} color={PRIMARY} strokeWidth={2.5} />
+                      </div>
+                      <span style={{ fontSize: "0.85rem", fontWeight: 700, color: TEXT_MAIN, letterSpacing: "-0.01em" }}>{pt}</span>
+                    </motion.div>
+                  ))}
+                </div>
+              )}
+            </motion.div>
+          );
+        })}
       </div>
     </div>
   );
@@ -128,32 +163,49 @@ export function LayoutRoadmap({ title, subtitle, features }: LayoutProps) {
 /* ── STRATEGIC PIPELINE LAYOUT (COMMATER FLOW) ──────────────── */
 export function LayoutStrategicPipeline({ title, subtitle, features, body }: LayoutProps) {
   const steps = features || [];
-  const icons = [Target, ShieldCheck, Zap, Star];
+  const icons = [Star, Target, Zap, ShieldCheck];
   return (
-    <div style={{ height: "100%", display: "flex", flexDirection: "column" }}>
-       <div style={{ marginBottom: "4rem", textAlign: "center" }}>
-          <h2 style={{ fontSize: "3rem", fontWeight: 1000, color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
-          <div style={{ width: 60, height: 4, background: PRIMARY, borderRadius: 2, margin: "1.5rem auto 0" }} />
-          {body && <p style={{ maxWidth: "800px", margin: "1.5rem auto 0", color: TEXT_MUTED }}>{body}</p>}
+    <div style={{ height: "100%", display: "flex", flexDirection: "column", position: "relative" }}>
+       
+       {/* Ambient Flowchart Background */}
+       <div style={{ position: "absolute", top: "50%", left: 0, width: "100%", height: "2px", background: `linear-gradient(90deg, transparent, ${GOLD}33, transparent)`, zIndex: 0 }} />
+       <div style={{ position: "absolute", inset: 0, backgroundImage: `radial-gradient(circle at 50% 100%, ${PRIMARY}05 0%, transparent 60%)`, zIndex: 0, pointerEvents: "none" }} />
+
+       <div style={{ marginBottom: "3rem", textAlign: "center", position: "relative", zIndex: 1 }}>
+          <p style={{ fontSize: "0.85rem", fontWeight: 900, color: GOLD, letterSpacing: "0.45em", textTransform: "uppercase", marginBottom: "1rem" }}>{subtitle}</p>
+          <h2 style={{ fontSize: "clamp(2.5rem, 4vw, 3.5rem)", fontWeight: 1000, color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
+          <div style={{ width: 80, height: 4, background: `linear-gradient(90deg, transparent, ${GOLD}, transparent)`, borderRadius: 2, margin: "1.5rem auto 0" }} />
+          {body && <p style={{ maxWidth: "800px", margin: "1.5rem auto 0", color: TEXT_MUTED, fontSize: "1.15rem", lineHeight: 1.7, fontWeight: 500 }}>{body}</p>}
        </div>
-       <div style={{ display: "flex", justifyContent: "center", alignItems: "stretch", gap: "1rem", flex: 1 }}>
+
+       <div style={{ display: "flex", justifyContent: "center", alignItems: "stretch", gap: "1rem", flex: 1, paddingBottom: "2rem", zIndex: 1, position: "relative" }}>
           {steps.map((s: any, i: number) => {
             const Icon = icons[i % icons.length];
             return (
               <React.Fragment key={i}>
                   <motion.div 
-                     initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: i * 0.15 }}
-                     style={{ flex: 1, padding: "2.5rem 1.5rem", borderRadius: 28, background: SURFACE, border: `1px solid ${BORDER_REFINED}`, textAlign: "center", boxShadow: SHADOW_SM, display: "flex", flexDirection: "column" }}>
-                     <div style={{ width: 64, height: 64, borderRadius: 20, background: PRIMARY_LIGHT, margin: "0 auto 2rem", display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid ${PRIMARY}11` }}>
-                         <Icon size={32} color={PRIMARY} />
+                     initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.15 + 0.2, type: "spring", stiffness: 100 }}
+                     whileHover={{ y: -10, boxShadow: `0 20px 40px rgba(0,0,0,0.08)`, borderColor: `${GOLD}88` }}
+                     style={{ flex: 1, padding: "2.5rem 1.5rem", borderRadius: 28, background: "rgba(255, 255, 255, 0.8)", backdropFilter: "blur(20px)", border: `1px solid rgba(0,0,0,0.05)`, borderTop: `4px solid ${PRIMARY}`, textAlign: "center", boxShadow: SHADOW_SM, display: "flex", flexDirection: "column", position: "relative", overflow: "hidden", transition: "all 0.4s" }}>
+                     
+                     {/* Internal Subtle Highlight */}
+                     <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "50%", background: `linear-gradient(180deg, ${PRIMARY}05 0%, transparent 100%)`, zIndex: 0 }} />
+
+                     <div style={{ position: "relative", zIndex: 1, width: 70, height: 70, borderRadius: 24, background: SURFACE, margin: "0 auto 2rem", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: `0 10px 20px rgba(0,0,0,0.05)`, border: `1px solid ${BORDER_REFINED}` }}>
+                         <Icon size={34} color={PRIMARY} strokeWidth={2.5} />
                      </div>
-                     <h3 style={{ fontSize: "1.2rem", fontWeight: 900, marginBottom: "1rem", lineHeight: 1.3, color: TEXT_MAIN }}>{s.title}</h3>
-                     <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, fontWeight: 500, lineHeight: 1.6 }}>{s.desc}</p>
+                     <h3 style={{ fontSize: "1.25rem", fontWeight: 950, marginBottom: "1.25rem", lineHeight: 1.3, color: TEXT_MAIN, zIndex: 1 }}>{s.title}</h3>
+                     <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, fontWeight: 500, lineHeight: 1.6, zIndex: 1 }}>{s.desc}</p>
+                     
+                     {/* Connector Node Dot */}
+                     <div style={{ position: "absolute", bottom: -6, left: "50%", transform: "translateX(-50%)", width: 12, height: 12, borderRadius: "50%", background: GOLD, boxShadow: `0 0 10px ${GOLD}AA` }} />
                   </motion.div>
+                  
                   {i < steps.length - 1 && (
-                     <div style={{ display: "flex", alignItems: "center" }}>
-                        <ArrowRight size={24} color={GOLD} opacity={0.3} />
-                     </div>
+                     <motion.div initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: i * 0.15 + 0.4 }} style={{ display: "flex", alignItems: "center", position: "relative" }}>
+                        <div style={{ width: "30px", height: "3px", background: `linear-gradient(90deg, ${GOLD}AA, ${PRIMARY}AA)`, borderRadius: 2 }} />
+                        <ArrowRight size={28} color={PRIMARY} style={{ margin: "0 -8px", filter: `drop-shadow(0 0 5px ${PRIMARY}44)` }} />
+                     </motion.div>
                   )}
               </React.Fragment>
             );

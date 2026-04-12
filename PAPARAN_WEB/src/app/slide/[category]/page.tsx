@@ -14,11 +14,22 @@ import * as Defense from "./layouts/LayoutDefense";
 import * as Strategic from "./layouts/LayoutStrategic";
 import * as Architecture from "./layouts/LayoutArchitecture";
 import * as SOCS from "./layouts/LayoutSOCS";
+import * as SSO from "./layouts/LayoutSSO";
 
 import masterData from "../../master-data.json";
 
 // Mapping of layout string IDs to their corresponding component across groups
 const LAYOUT_MAP: Record<string, any> = {
+  // SSO Group
+  sso_hero: SSO.LayoutSSOHero,
+  sso_cards: SSO.LayoutSSOCards,
+  sso_vision: SSO.LayoutSSOVision,
+  sso_challenge: SSO.LayoutSSOChallenge,
+  sso_legal: SSO.LayoutSSOLegal,
+  sso_podium: SSO.LayoutSSOPodium,
+  sso_dashboard: SSO.LayoutSSODashboard,
+  sso_conclusion: SSO.LayoutSSOConclusion,
+
   // Core Group
   hero: Core.LayoutHero,
   closing: Core.LayoutClosing,
@@ -53,15 +64,20 @@ const LAYOUT_MAP: Record<string, any> = {
   comm_flow: Communication.LayoutCommFlow,
   media_training: Communication.LayoutMediaTraining,
   stakeholder_network: Communication.LayoutStakeholderNetwork,
+  distribution_plan: Communication.LayoutDistributionPlan,
+  comm_architecture: Communication.LayoutCommArchitecture,
 
   // Defense Group
   reputation_shield: Defense.LayoutReputationShield,
   crisis_matrix: Defense.LayoutCrisisMatrix,
   crisis_sop: Defense.LayoutCrisisSOP,
+  agent_integration: Defense.LayoutAgentIntegration,
   crisis_mitigation: Defense.LayoutCrisisMitigation,
   golden_time: Defense.LayoutGoldenTime,
   cyber_watch: Defense.LayoutCyberWatch,
   rapid_response: Defense.LayoutRapidResponse,
+  orchestration: Defense.LayoutOrchestration,
+  command_chain: Defense.LayoutCommandChain,
 
   // Strategic Group
   swot: Strategic.LayoutSWOT,
@@ -91,6 +107,9 @@ const LAYOUT_MAP: Record<string, any> = {
   socs_flowchart: SOCS.LayoutSOCSFlowchart,
   socs_dashboard: SOCS.LayoutSOCSDashboard,
   socs_channels: SOCS.LayoutSOCSChannels,
+  socs_paradigm: SOCS.LayoutSOCSParadigm,
+  socs_sla_timeline: SOCS.LayoutSOCS_SLA,
+  socs_hierarchy: SOCS.LayoutSOCSHierarchy,
 };
 
 function SlideContent() {

@@ -30,9 +30,11 @@ export function InlineText({ text }: { text: string | undefined }) {
 }
 
 export function parseListItems(html: string): string[] {
-  return html
-    .replace(/^<ul>|<\/ul>$/g, "")
+  const match = html.match(/<ul>([\s\S]*?)<\/ul>/);
+  const listHtml = match ? match[1] : html;
+  
+  return listHtml
     .split("</li>")
-    .map((s) => s.replace(/^<li>/, "").trim())
+    .map((s) => s.replace(/[\s\S]*?<li>/, "").trim())
     .filter(Boolean);
 }

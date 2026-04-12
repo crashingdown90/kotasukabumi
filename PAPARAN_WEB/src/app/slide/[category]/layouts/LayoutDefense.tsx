@@ -311,7 +311,7 @@ export function LayoutCyberWatch({ title, subtitle, body, features }: LayoutProp
                  whileHover={{ y: -5, boxShadow: "0 20px 40px rgba(0,0,0,0.06)", borderColor: `${GOLD}66` }}
                  key={i} 
                  style={{ 
-                   padding: "2rem", borderRadius: 24, background: GLASS_DARK, 
+                   padding: "2rem", borderRadius: 24, ...GLASS_DARK, 
                    border: `1px solid rgba(255,255,255,0.7)`, position: "relative", 
                    display: "flex", flexDirection: "column", boxShadow: SHADOW_SM, overflow: "hidden",
                    transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)"

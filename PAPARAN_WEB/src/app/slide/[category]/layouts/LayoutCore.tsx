@@ -18,6 +18,7 @@ interface LayoutProps {
   body: string;
   image?: string;
   icon?: any;
+  features?: any[];
 }
 
 /* ── EXECUTIVE HERO LAYOUT (MODERN GOV) ────────────────────────── */

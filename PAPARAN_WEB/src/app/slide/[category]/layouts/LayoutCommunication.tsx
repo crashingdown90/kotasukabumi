@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { 
   PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, SURFACE, 
-  BORDER_REFINED, SHADOW_SM, PRIMARY_LIGHT 
+  BORDER_REFINED, SHADOW_SM, SHADOW_LG, PRIMARY_LIGHT 
 } from "../components/Constants";
 import { parseListItems, parseBoldLabel, InlineText } from "../components/Shared";
 

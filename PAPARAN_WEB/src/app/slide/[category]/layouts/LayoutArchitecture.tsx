@@ -6,7 +6,7 @@ import Image from "next/image";
 import { 
   Users, Building2, LayoutGrid, Zap, Flag, ShieldCheck, 
   Globe, Target, ChevronRight, HardHat, HeartPulse, 
-  Layers, Database, Star, CheckCircle2, Hexagon, Mic, MapPin
+  Layers, Database, Star, CheckCircle2, Hexagon, Mic, MapPin, ShieldAlert
 } from "lucide-react";
 import { 
   PRIMARY, GOLD, TEXT_MAIN, TEXT_MUTED, GLASS_DARK, SURFACE, 

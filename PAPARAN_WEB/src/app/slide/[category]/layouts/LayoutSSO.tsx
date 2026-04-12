@@ -345,7 +345,7 @@ export function LayoutSSOVision({ title, subtitle, body }: LayoutProps) {
 }
 
 /* ── SSO CHALLENGE & SOLUTION LAYOUT ──────────────────────────────────────── */
-import { AlertTriangle, Database, LinkBreak, Zap } from "lucide-react"; // Import appropriate icons, keeping existing valid ones from Lucide
+import { AlertTriangle, Database, Unlink, Zap } from "lucide-react"; // Import appropriate icons, keeping existing valid ones from Lucide
 
 export function LayoutSSOChallenge({ title, subtitle, body }: LayoutProps) {
   const items = parseListItems(body);
@@ -359,7 +359,7 @@ export function LayoutSSOChallenge({ title, subtitle, body }: LayoutProps) {
   const challenges = items.slice(0, 3);
   const solution = items[3];
 
-  const challengeIcons = [LinkBreak, Database, AlertTriangle];
+  const challengeIcons = [Unlink, Database, AlertTriangle];
 
   return (
     <div style={{ height: "100%", width: "100%", backgroundColor: "#f8fafc", position: "relative", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>

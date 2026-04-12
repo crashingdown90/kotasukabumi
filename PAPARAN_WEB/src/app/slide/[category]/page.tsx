@@ -80,7 +80,6 @@ const LAYOUT_MAP: Record<string, any> = {
   command_chain: Defense.LayoutCommandChain,
 
   // Strategic Group
-  swot: Strategic.LayoutSWOT,
   master_narrative: Strategic.LayoutMasterNarrative,
   roadmap: Strategic.LayoutRoadmap,
   feedback_loop: Strategic.LayoutFeedbackLoop,

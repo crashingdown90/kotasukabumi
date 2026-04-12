@@ -54,7 +54,7 @@ export function LayoutMasterNarrative({ title, subtitle, features, body }: Layou
               transition={{ delay: i * 0.15 + 0.1 }}
               whileHover={{ y: -4, boxShadow: `0 15px 35px rgba(0,0,0,0.06)`, borderColor: `${GOLD}66` }}
               style={{ 
-                padding: "2rem", borderRadius: 24, background: GLASS_DARK, 
+                padding: "2rem", borderRadius: 24, ...GLASS_DARK, 
                 border: `1px solid rgba(255,255,255,0.7)`, boxShadow: SHADOW_SM,
                 display: "flex", flexDirection: "column", position: "relative", overflow: "hidden",
                 transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)"

@@ -699,3 +699,137 @@ export function LayoutSentiment({ title, subtitle, body }: LayoutProps) {
     </motion.div>
   );
 }
+
+/* ── DATA FLOWCHART LAYOUT ───────────────────────────────────── */
+export function LayoutDataFlowchart({ title, subtitle, body }: LayoutProps) {
+  // A sleek animated diagram showing OPD -> API Gateway -> Database
+  return (
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ height: "100%", display: "flex", flexDirection: "column" }}>
+      <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+         <p style={{ fontSize: "0.85rem", fontWeight: 850, color: GOLD, letterSpacing: "0.25em", textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
+         <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 2.8rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
+         <p style={{ fontSize: "1.05rem", color: TEXT_MUTED, maxWidth: "800px", margin: "1rem auto 0", lineHeight: 1.6 }}>{body}</p>
+      </div>
+
+      <div style={{ flex: 1, position: "relative", display: "flex", alignItems: "center", justifyContent: "center", minHeight: "400px" }}>
+         {/* Simple custom DOM Flowchart using framer motion */}
+         <div style={{ display: "flex", width: "100%", maxWidth: "1000px", justifyContent: "space-between", alignItems: "center", position: "relative" }}>
+            
+            {/* Connecting Lines */}
+            <div style={{ position: "absolute", top: "50%", left: "15%", right: "15%", height: "4px", background: `linear-gradient(90deg, ${PRIMARY}40, ${GOLD}80, ${PRIMARY}40)`, zIndex: 0 }}>
+               <motion.div animate={{ x: ["0%", "100%"] }} transition={{ repeat: Infinity, duration: 2, ease: "linear" }} style={{ width: "50px", height: "100%", background: "white", filter: "blur(4px)", opacity: 0.8 }} />
+            </div>
+
+            {/* Left Nodes: OPDs */}
+            <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem", zIndex: 1 }}>
+               {["Dinas DUKCAPIL", "Dinas Kesehatan", "BAPENDA", "Dinas Perhubungan"].map((opd, i) => (
+                  <motion.div key={i} initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: i * 0.1 }} style={{ background: SURFACE, border: `1px solid ${BORDER_REFINED}`, padding: "1rem 1.5rem", borderRadius: "12px", boxShadow: SHADOW_SM, fontWeight: 800, color: TEXT_MAIN, display: "flex", alignItems: "center", gap: "10px", width: "230px" }}>
+                     <Database size={16} color={PRIMARY} /> {opd}
+                  </motion.div>
+               ))}
+            </div>
+
+            {/* Center Node: API Gateway */}
+            <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.6 }} style={{ zIndex: 1, padding: "2rem", background: `linear-gradient(135deg, ${PRIMARY}, #1e3a8a)`, borderRadius: "24px", color: "white", textAlign: "center", boxShadow: `0 15px 30px ${PRIMARY}40`, border: "1px solid rgba(255,255,255,0.2)", minWidth: "250px" }}>
+               <Server size={40} color={GOLD} style={{ margin: "0 auto 1rem" }} />
+               <div style={{ fontSize: "1.2rem", fontWeight: 900, textTransform: "uppercase", letterSpacing: "0.1em" }}>API Gateway</div>
+               <div style={{ fontSize: "0.8rem", color: "rgba(255,255,255,0.8)", marginTop: "0.5rem" }}>Interoperabilitas Data</div>
+            </motion.div>
+
+            {/* Right Node: Executive Dashboard / Unified DB */}
+            <motion.div initial={{ x: 20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 0.8 }} style={{ zIndex: 1, padding: "2rem", background: SURFACE, border: `2px solid ${GOLD}`, borderRadius: "24px", textAlign: "center", boxShadow: SHADOW_LG, minWidth: "250px" }}>
+               <BarChart3 size={40} color={PRIMARY} style={{ margin: "0 auto 1rem" }} />
+               <div style={{ fontSize: "1.2rem", fontWeight: 900, color: TEXT_MAIN }}>Executive Dashboard</div>
+               <div style={{ fontSize: "0.8rem", color: TEXT_MUTED, marginTop: "0.5rem" }}>Analitik & Basis Data Tunggal</div>
+            </motion.div>
+         </div>
+      </div>
+    </motion.div>
+  );
+}
+
+/* ── DATA DASHBOARD LAYOUT ───────────────────────────────────── */
+export function LayoutDataDashboard({ title, subtitle, body }: LayoutProps) {
+  const pieData = [
+    { name: 'Kesehatan (SIMRS)', value: 45, color: '#047857' },
+    { name: 'Kependudukan', value: 30, color: PRIMARY },
+    { name: 'Pajak & Retribusi', value: 15, color: GOLD },
+    { name: 'Lain-lain', value: 10, color: '#3B82F6' }
+  ];
+  const barData = [
+    { name: 'Senin', API: 1200 }, { name: 'Selasa', API: 1900 }, { name: 'Rabu', API: 1500 }, { name: 'Kamis', API: 2200 }, { name: 'Jumat', API: 2800 }, { name: 'Sabtu', API: 3500 }, { name: 'Minggu', API: 3200 }
+  ];
+
+  return (
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ height: "100%", display: "flex", flexDirection: "column" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: "2rem" }}>
+         <div style={{ maxWidth: "600px" }}>
+             <p style={{ fontSize: "0.85rem", fontWeight: 850, color: GOLD, letterSpacing: "0.25em", textTransform: "uppercase", marginBottom: "0.5rem" }}>{subtitle}</p>
+             <h2 style={{ fontSize: "clamp(2rem, 3.5vw, 2.6rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.03em" }}>{title}</h2>
+         </div>
+         <div style={{ textAlign: "right", maxWidth: "450px" }}>
+            <p style={{ fontSize: "0.95rem", color: TEXT_MUTED, lineHeight: 1.6 }}>{body}</p>
+         </div>
+      </div>
+
+      <div style={{ flex: 1, display: "grid", gridTemplateColumns: "1fr 1fr", gridTemplateRows: "auto 1fr", gap: "1.5rem" }}>
+         
+         {/* Top KPIs */}
+         <div style={{ gridColumn: "1 / -1", display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1.5rem" }}>
+            {[
+               { t: "Total Request API", v: "142.5K", c: PRIMARY },
+               { t: "Gateway Uptime", v: "99.9%", c: "#047857" },
+               { t: "SKPD Terintegrasi", v: "24", c: GOLD },
+               { t: "Volume Data (GB)", v: "845.2", c: "#3B82F6" }
+            ].map((kpi, i) => (
+                <motion.div key={i} initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: i * 0.1 }} style={{ background: SURFACE, border: `1px solid ${BORDER_REFINED}`, borderRadius: "16px", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.5rem", boxShadow: SHADOW_SM }}>
+                   <div style={{ color: TEXT_MUTED, fontSize: "0.8rem", fontWeight: 800, textTransform: "uppercase" }}>{kpi.t}</div>
+                   <div style={{ color: kpi.c, fontSize: "2.5rem", fontWeight: 900, fontFamily: "monospace" }}>{kpi.v}</div>
+                </motion.div>
+            ))}
+         </div>
+
+         {/* Pie Chart: Distribusi Data */}
+         <div style={{ background: SURFACE, border: `1px solid ${BORDER_REFINED}`, borderRadius: "24px", padding: "1.5rem", boxShadow: SHADOW_SM, display: "flex", flexDirection: "column" }}>
+            <h3 style={{ fontSize: "1.1rem", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1rem" }}>Distribusi Jenis Data Sektoral</h3>
+            <div style={{ flex: 1 }}>
+               <ResponsiveContainer width="100%" height="100%">
+                  <PieChart>
+                     <Pie data={pieData} cx="50%" cy="50%" innerRadius={80} outerRadius={120} paddingAngle={5} dataKey="value">
+                        {pieData.map((entry, index) => ( <Cell key={`cell-${index}`} fill={entry.color} /> ))}
+                     </Pie>
+                     <Tooltip contentStyle={{ background: SURFACE, border: `1px solid ${BORDER_REFINED}`, borderRadius: "8px" }} />
+                  </PieChart>
+               </ResponsiveContainer>
+            </div>
+            <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap", marginTop: "1rem" }}>
+               {pieData.map((d, i) => (
+                  <div key={i} style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.8rem", fontWeight: 700, color: TEXT_MUTED }}>
+                     <div style={{ width: 10, height: 10, borderRadius: "50%", background: d.color }} /> {d.name}
+                  </div>
+               ))}
+            </div>
+         </div>
+
+         {/* Bar Chart: Trafik API */}
+         <div style={{ background: SURFACE, border: `1px solid ${BORDER_REFINED}`, borderRadius: "24px", padding: "1.5rem", boxShadow: SHADOW_SM, display: "flex", flexDirection: "column" }}>
+            <h3 style={{ fontSize: "1.1rem", fontWeight: 800, color: TEXT_MAIN, marginBottom: "1rem" }}>Trafik API Interoperabilitas (Mingguan)</h3>
+            <div style={{ flex: 1 }}>
+               <ResponsiveContainer width="100%" height="100%">
+                  <BarChart data={barData}>
+                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="rgba(0,0,0,0.05)" />
+                     <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fontSize: 12, fill: TEXT_MUTED }} />
+                     <YAxis hide />
+                     <Tooltip cursor={{ fill: "rgba(0,0,0,0.02)" }} contentStyle={{ background: SURFACE, border: `1px solid ${BORDER_REFINED}`, borderRadius: "8px" }} />
+                     <Bar dataKey="API" fill={PRIMARY} radius={[6,6,0,0]}>
+                        {barData.map((entry, index) => <Cell key={index} fill={index === barData.length - 1 ? GOLD : PRIMARY} />)}
+                     </Bar>
+                  </BarChart>
+               </ResponsiveContainer>
+            </div>
+         </div>
+
+      </div>
+    </motion.div>
+  );
+}

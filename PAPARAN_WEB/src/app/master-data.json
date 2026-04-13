@@ -352,6 +352,34 @@
       "icon": "Cpu"
     }
   ],
+  "digitalisasi_superapp": [
+    {
+      "id": 1,
+      "title": "SUPER APP",
+      "subtitle": "Penyelenggaraan Portal Terintegrasi Layanan Publik Dasar",
+      "body": "Platform strategis terpadu yang mengonsolidasikan seluruh ekosistem pelayanan Pemerintah Kota Sukabumi. Sistem tata kelola ini menaungi pilar-pilar esensial lintas sektoral, meliputi: Integrasi Administrasi Kependudukan, Transparansi Informasi Fasilitas Kesehatan (e-Kesehatan), Kanalisasi Pengaduan Masyarakat (SOCS), hingga manajemen UMKM dan Retribusi Pajak, guna mewujudkan implementasi simplifikasi birokrasi yang responsif, akuntabel, dan berorientasi pada pelayanan prima.",
+      "layout": "superapp_mockup",
+      "icon": "Smartphone"
+    }
+  ],
+  "digitalisasi_integrasi": [
+    {
+      "id": 1,
+      "title": "Interoperabilitas Data Daerah",
+      "subtitle": "Arsitektur Integrasi Data Lintas Sektoral & OPD",
+      "body": "Pemetaan arsitektur pengiriman dan konsolidasi data antar Satuan Kerja Perangkat Daerah (SKPD) melalui jalur layanan API Gateway terpusat, memastikan ketersediaan basis data tunggal yang valid, mutakhir, dan dapat dipertanggungjawabkan.",
+      "layout": "data_flowchart",
+      "icon": "Database"
+    },
+    {
+      "id": 2,
+      "title": "Executive Data Dashboard",
+      "subtitle": "Pusat Kendali Analitik Berbasis Big Data",
+      "body": "Visualisasi analitik komprehensif dari hasil integrasi seluruh sektor data yang memungkinkan pimpinan untuk memonitor capaian strategis, demografi, potensi pendapatan, hingga volume lalu lintas integrasi secara presisi dan real-time.",
+      "layout": "data_dashboard",
+      "icon": "PieChart"
+    }
+  ],
   "digitalisasi_aduan": [
     {
       "id": 1,

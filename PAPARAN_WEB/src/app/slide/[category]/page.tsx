@@ -29,6 +29,7 @@ const LAYOUT_MAP: Record<string, any> = {
   sso_podium: SSO.LayoutSSOPodium,
   sso_dashboard: SSO.LayoutSSODashboard,
   sso_conclusion: SSO.LayoutSSOConclusion,
+  superapp_mockup: SSO.LayoutSuperAppMockup,
 
   // Core Group
   hero: Core.LayoutHero,
@@ -55,6 +56,8 @@ const LAYOUT_MAP: Record<string, any> = {
   service: Analytics.LayoutService,
   challenges: Analytics.LayoutChallenges,
   sentiment: Analytics.LayoutSentiment,
+  data_flowchart: Analytics.LayoutDataFlowchart,
+  data_dashboard: Analytics.LayoutDataDashboard,
 
   // Communication Group
   social_hub: Communication.LayoutSocialHub,

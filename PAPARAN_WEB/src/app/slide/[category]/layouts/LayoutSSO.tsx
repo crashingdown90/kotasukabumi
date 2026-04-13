@@ -1023,3 +1023,274 @@ export function LayoutSSOConclusion({ title, subtitle, body }: LayoutProps) {
     </div>
   )
 }
+
+/* ── SUPER APP MOCKUP LAYOUT (DYNAMIC) ──────────────────────────────────────── */
+import { Smartphone, LayoutGrid, ShoppingBag, Landmark, Stethoscope, Shield, CreditCard, ChevronRight, Home as HomeIcon, User, MessageSquare } from "lucide-react";
+
+export function LayoutSuperAppMockup({ title, subtitle, body }: LayoutProps) {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  const primary = "#1e3a8a"; // Navy
+  const secondary = "#b45309"; // Gold
+  const accent = "#0f766e"; // Teal
+
+  return (
+    <div style={{ height: "100%", width: "100%", backgroundColor: "#f8fafc", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden" }}>
+      {/* Background Ambience */}
+      {mounted && (
+        <>
+          <motion.div animate={{ opacity:[0.1, 0.3, 0.1], scale:[1, 1.1, 1] }} transition={{ repeat: Infinity, duration: 10, ease: "linear" }} style={{ position: "absolute", top: "10%", left: "10%", width: "40vw", height: "40vw", background: `radial-gradient(circle, ${primary}15 0%, transparent 70%)`, filter: "blur(60px)", zIndex: 0 }} />
+          <motion.div animate={{ opacity:[0.1, 0.25, 0.1], scale:[1, 1.2, 1] }} transition={{ repeat: Infinity, duration: 15, ease: "linear", delay: 1 }} style={{ position: "absolute", bottom: "10%", right: "10%", width: "50vw", height: "50vw", background: `radial-gradient(circle, ${accent}15 0%, transparent 70%)`, filter: "blur(80px)", zIndex: 0 }} />
+        </>
+      )}
+      
+      {/* Grid Pattern */}
+      <div style={{ position: "absolute", inset: 0, backgroundImage: `linear-gradient(rgba(15, 23, 42, 0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(15, 23, 42, 0.02) 1px, transparent 1px)`, backgroundSize: "40px 40px", zIndex: 0 }} />
+
+      <div style={{ zIndex: 1, display: "flex", width: "100%", maxWidth: "1400px", padding: "0 4rem", gap: "5rem", alignItems: "center", justifyContent: "space-between" }}>
+        
+        {/* Text Section */}
+        <motion.div initial={{ opacity: 0, x: -40 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }} style={{ flex: "0.85", display: "flex", flexDirection: "column", gap: "1.5rem", zIndex: 20 }}>
+          <div style={{ display: "inline-flex", alignItems: "center", gap: "10px", padding: "8px 20px", borderRadius: "99px", background: `linear-gradient(90deg, ${primary}15, transparent)`, borderLeft: `3px solid ${primary}`, width: "fit-content" }}>
+            <Smartphone size={16} color={primary} />
+            <span style={{ fontSize: "0.85rem", fontWeight: 850, letterSpacing: "0.2em", color: primary, textTransform: "uppercase" }}>{subtitle}</span>
+          </div>
+          <h2 style={{ fontSize: "clamp(2.8rem, 3.8vw, 4rem)", fontWeight: 950, color: TEXT_MAIN, letterSpacing: "-0.04em", lineHeight: 1.1 }}>{title}</h2>
+          <p style={{ fontSize: "1.15rem", color: TEXT_MUTED, lineHeight: 1.8, fontWeight: 500, maxWidth: "550px" }}>{body}</p>
+          
+          <div style={{ display: "flex", gap: "1.5rem", marginTop: "2rem" }}>
+            <motion.div whileHover={{ scale: 1.05 }} style={{ padding: "0.9rem 1.8rem", borderRadius: "12px", background: `linear-gradient(135deg, ${primary}, #1e40af)`, color: "white", fontWeight: 700, boxShadow: `0 10px 20px ${primary}40`, cursor: "pointer", display: "flex", alignItems: "center", gap: "10px" }}>
+              Live Demo <ChevronRight size={18} />
+            </motion.div>
+          </div>
+        </motion.div>
+
+        {/* Mockup Section (3 Screens) */}
+        <div style={{ flex: "1.15", display: "flex", justifyContent: "center", alignItems: "center", position: "relative", perspective: "1500px", minHeight: "750px" }}>
+          
+          {/* Decorative glowing rings behind phones */}
+          {mounted && (
+            <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 0 }}>
+              <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 40, ease: "linear" }} style={{ position: "absolute", width: "600px", height: "600px", borderRadius: "50%", border: `1px dashed ${primary}30` }} />
+            </div>
+          )}
+
+          {/* === LEFT SCREEN: HOSPITAL QUEUE === */}
+          <motion.div 
+            initial={{ opacity: 0, x: -100, scale: 0.8, rotateY: 25, zIndex: 1 }}
+            animate={{ opacity: 0.8, x: -220, scale: 0.8, rotateY: 25, zIndex: 1 }}
+            whileHover={{ opacity: 1, x: -280, scale: 0.9, rotateY: 10, zIndex: 10 }}
+            transition={{ duration: 0.6, type: "spring", stiffness: 100 }}
+            style={{ position: "absolute", width: "320px", height: "650px", background: "#0f172a", borderRadius: "44px", padding: "10px", boxShadow: "0 20px 40px rgba(15,23,42,0.3), inset 0 0 10px rgba(255,255,255,0.1), 0 0 0 3px #cbd5e1", transformStyle: "preserve-3d" }}
+          >
+            <div style={{ width: "100%", height: "100%", background: "#f8fafc", borderRadius: "34px", overflow: "hidden", position: "relative", display: "flex", flexDirection: "column" }}>
+              {/* Notch */}
+              <div style={{ position: "absolute", top: 10, left: "50%", transform: "translateX(-50%)", width: 100, height: 26, background: "black", borderRadius: 20, zIndex: 20 }} />
+              {/* Header */}
+              <div style={{ padding: "3rem 1.5rem 1.5rem", background: `linear-gradient(135deg, ${primary}, #0284c7)`, color: "white", borderBottomLeftRadius: 20, borderBottomRightRadius: 20 }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
+                  <div>
+                    <div style={{ fontSize: "1.1rem", fontWeight: 800 }}>e-Kesehatan</div>
+                    <div style={{ fontSize: "0.75rem", color: "rgba(255,255,255,0.8)" }}>RSUD R. Syamsudin, SH.</div>
+                  </div>
+                  <div style={{ width: 32, height: 32, borderRadius: 8, background: "rgba(255,255,255,0.2)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <Stethoscope size={16} color="white" />
+                  </div>
+                </div>
+              </div>
+              {/* Body */}
+              <div style={{ flex: 1, padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+                
+                {/* Active Queue Card */}
+                <div style={{ background: "white", borderRadius: 16, padding: "1.2rem", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", border: `1px solid ${primary}15` }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.5rem" }}>
+                    <div style={{ fontSize: "0.75rem", fontWeight: 700, color: "#64748b" }}>Status Antrean</div>
+                    <div style={{ fontSize: "0.7rem", fontWeight: 800, color: "#059669", background: "#d1fae5", padding: "2px 8px", borderRadius: 12 }}>Aktif</div>
+                  </div>
+                  
+                  <div style={{ display: "flex", flexDirection: "column", alignItems: "center", margin: "1rem 0" }}>
+                    <div style={{ fontSize: "2.5rem", fontWeight: 900, color: primary, lineHeight: 1 }}>A-312</div>
+                    <div style={{ fontSize: "0.8rem", fontWeight: 700, color: "#475569", marginTop: "4px" }}>Poli Gigi & Mulut</div>
+                  </div>
+                  
+                  <div style={{ padding: "0.8rem", background: "#f1f5f9", borderRadius: 12, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                    <div style={{ fontSize: "0.75rem", fontWeight: 600, color: "#64748b" }}>Estimasi dipanggil:</div>
+                    <div style={{ fontSize: "0.85rem", fontWeight: 800, color: "#0f172a" }}>10:45 WIB</div>
+                  </div>
+                </div>
+                
+                {/* Info Box */}
+                <div style={{ background: `linear-gradient(135deg, ${primary}10, ${primary}05)`, borderRadius: 12, padding: "1rem", border: `1px solid ${primary}20` }}>
+                  <div style={{ fontSize: "0.75rem", fontWeight: 700, color: primary, marginBottom: "4px" }}>Informasi</div>
+                  <div style={{ fontSize: "0.7rem", color: "#475569", lineHeight: 1.5 }}>
+                    Ada <b>3 pasien</b> lagi sebelum giliran Anda. Silakan menuju ruang tunggu Poli Gigi di Lantai 2.
+                  </div>
+                </div>
+
+                {/* Quick Actions Grid */}
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.8rem", marginTop: "auto" }}>
+                  {["Daftar Poli", "Riwayat Medis"].map((label, i) => (
+                    <div key={i} style={{ height: 44, background: "white", borderRadius: 10, border: "1px solid rgba(15,23,42,0.05)", display: "flex", alignItems: "center", justifyContent: "center", gap: 6, boxShadow: "0 2px 5px rgba(0,0,0,0.02)" }}>
+                      <div style={{ fontSize: "0.75rem", fontWeight: 700, color: "#475569" }}>{label}</div>
+                    </div>
+                  ))}
+                </div>
+
+              </div>
+            </div>
+          </motion.div>
+
+          {/* === RIGHT SCREEN: SOCS (Pengaduan Masyarakat) === */}
+          <motion.div 
+            initial={{ opacity: 0, x: 100, scale: 0.8, rotateY: -25, zIndex: 1 }}
+            animate={{ opacity: 0.8, x: 220, scale: 0.8, rotateY: -25, zIndex: 1 }}
+            whileHover={{ opacity: 1, x: 280, scale: 0.9, rotateY: -10, zIndex: 10 }}
+            transition={{ duration: 0.6, type: "spring", stiffness: 100 }}
+            style={{ position: "absolute", width: "320px", height: "650px", background: "#0f172a", borderRadius: "44px", padding: "10px", boxShadow: "0 20px 40px rgba(15,23,42,0.3), inset 0 0 10px rgba(255,255,255,0.1), 0 0 0 3px #cbd5e1", transformStyle: "preserve-3d" }}
+          >
+            <div style={{ width: "100%", height: "100%", background: "#f8fafc", borderRadius: "34px", overflow: "hidden", position: "relative", display: "flex", flexDirection: "column" }}>
+              {/* Notch */}
+              <div style={{ position: "absolute", top: 10, left: "50%", transform: "translateX(-50%)", width: 100, height: 26, background: "black", borderRadius: 20, zIndex: 20 }} />
+              {/* Header */}
+              <div style={{ padding: "3rem 1.5rem 1.5rem", background: `linear-gradient(135deg, ${secondary}, #78350f)`, color: "white", borderBottomLeftRadius: 20, borderBottomRightRadius: 20 }}>
+                <div style={{ fontSize: "1.1rem", fontWeight: 800 }}>SOCS Mobile</div>
+                <div style={{ fontSize: "0.75rem", color: "rgba(255,255,255,0.8)" }}>Sukabumi Omnichannel Complaint</div>
+              </div>
+              {/* Body */}
+              <div style={{ flex: 1, padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+                <div style={{ background: "white", borderRadius: 16, padding: "1.2rem", boxShadow: "0 4px 15px rgba(0,0,0,0.03)" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.5rem" }}>
+                    <div style={{ fontSize: "0.75rem", fontWeight: 700, color: "#dc2626" }}>Laporan Mendesak</div>
+                    <div style={{ fontSize: "0.6rem", color: "#64748b" }}>2 jam lalu</div>
+                  </div>
+                  <div style={{ fontWeight: 800, fontSize: "0.9rem", color: "#0f172a", marginBottom: "0.5rem" }}>Pohon Tumbang Jl. Sudirman</div>
+                  <div style={{ fontSize: "0.75rem", color: "#475569", lineHeight: 1.4 }}>Pohon besar menutupi separuh jalan, menyebabkan kemacetan parah...</div>
+                  <div style={{ marginTop: "1rem", display: "flex", gap: "8px" }}>
+                    <div style={{ padding: "4px 8px", background: "#fef08a", color: "#854d0e", borderRadius: 4, fontSize: "0.6rem", fontWeight: 800 }}>DIPROSES</div>
+                    <div style={{ padding: "4px 8px", background: "#f1f5f9", color: "#475569", borderRadius: 4, fontSize: "0.6rem", fontWeight: 800 }}>Dinas PUTR</div>
+                  </div>
+                </div>
+                {/* Submit button mock */}
+                <div style={{ marginTop: "auto", height: 48, background: secondary, borderRadius: 12, display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontWeight: 700, fontSize: "0.85rem" }}>
+                  + Buat Laporan Baru
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* === CENTER SCREEN: Main KTP & Services === */}
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9, y: 50, zIndex: 5 }}
+            animate={{ opacity: 1, scale: 1, y: 0, zIndex: 5 }}
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            style={{ position: "absolute", width: "350px", height: "690px", background: "#0f172a", borderRadius: "48px", padding: "12px", boxShadow: "0 40px 80px rgba(15,23,42,0.4), inset 0 0 10px rgba(255,255,255,0.2), 0 0 0 5px #e2e8f0", transformStyle: "preserve-3d" }}
+          >
+            {/* Screen */}
+            <div style={{ width: "100%", height: "100%", background: "#f8fafc", borderRadius: "36px", overflow: "hidden", position: "relative", display: "flex", flexDirection: "column" }}>
+              
+              {/* Status Bar */}
+              <div style={{ height: "40px", background: "transparent", display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 24px", color: "#64748b", fontSize: "0.8rem", fontWeight: 700, zIndex: 10 }}>
+                <span>9:41</span>
+                <div style={{ display: "flex", gap: "4px", alignItems: "center" }}>
+                  <div style={{ width: 14, height: 10, background: "#64748b", borderRadius: 2 }} />
+                </div>
+              </div>
+
+              {/* Dynamic Island Notch */}
+              <div style={{ position: "absolute", top: 10, left: "50%", transform: "translateX(-50%)", width: 110, height: 30, background: "black", borderRadius: 20, zIndex: 20 }} />
+
+              {/* App UI Header */}
+              <div style={{ padding: "1.5rem 1.5rem 2rem", background: `linear-gradient(135deg, ${primary}, #0f172a)`, color: "white", borderBottomLeftRadius: 24, borderBottomRightRadius: 24, position: "relative", overflow: "hidden" }}>
+                <div style={{ position: "absolute", top: -20, right: -20, width: 150, height: 150, background: `radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%)` }} />
+                
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.5rem" }}>
+                  <div>
+                    <div style={{ fontSize: "0.8rem", color: "rgba(255,255,255,0.7)", marginBottom: 2 }}>Selamat Datang,</div>
+                    <div style={{ fontSize: "1.2rem", fontWeight: 800 }}>Warga Sukabumi</div>
+                  </div>
+                  <div style={{ width: 44, height: 44, borderRadius: 12, background: "rgba(255,255,255,0.2)", backdropFilter: "blur(10px)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <User size={20} color="white" />
+                  </div>
+                </div>
+
+                {/* ID Card Mockup inside app */}
+                <div style={{ width: "100%", height: 160, background: `linear-gradient(90deg, #ffffff 0%, rgba(255,255,255,0.95) 100%)`, borderRadius: 16, padding: "1rem", color: "#0f172a", position: "relative", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "space-between", boxShadow: "0 10px 20px rgba(0,0,0,0.2)" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                    <div style={{ fontWeight: 800, fontSize: "0.9rem", color: primary }}>KTP DIGITAL</div>
+                    <Shield size={18} color={accent} />
+                  </div>
+                  <div style={{ letterSpacing: "3px", fontWeight: 800, fontSize: "1.1rem", fontFamily: "monospace", opacity: 0.8 }}>3272 01** **** ****</div>
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
+                    <div style={{ fontSize: "0.75rem", fontWeight: 700, color: "#059669" }}>Status: Aktif terverifikasi</div>
+                    <div style={{ width: 34, height: 34, background: `${primary}15`, borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                      <div style={{ width: 20, height: 20, background: primary, borderRadius: 4, opacity: 0.2 }} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* App Content Body */}
+              <div style={{ flex: 1, padding: "1.5rem", overflowY: "auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+                
+                {/* Search / Action Bar */}
+                <div style={{ display: "flex", gap: "10px" }}>
+                  <div style={{ flex: 1, height: 46, background: "white", borderRadius: 12, display: "flex", alignItems: "center", padding: "0 1rem", border: "1px solid rgba(15,23,42,0.05)", boxShadow: "0 4px 10px rgba(15,23,42,0.02)", color: "#94a3b8" }}>
+                    <Search size={18} style={{ marginRight: 10 }} />
+                    <span style={{ fontSize: "0.9rem" }}>Cari layanan e-Gov...</span>
+                  </div>
+                </div>
+
+                {/* Service Grid */}
+                <div>
+                  <div style={{ fontSize: "0.95rem", fontWeight: 800, color: "#0f172a", marginBottom: "1rem" }}>Layanan Publik Integrasi</div>
+                  <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1rem" }}>
+                    {[
+                      { icon: Stethoscope, label: "Kesehatan", color: "#059669" },
+                      { icon: Landmark, label: "Pajak", color: "#b45309" },
+                      { icon: ShoppingBag, label: "UMKM", color: "#d97706" },
+                      { icon: CreditCard, label: "Retribusi", color: "#2563eb" }
+                    ].map((item, i) => (
+                      <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "6px" }}>
+                        <div style={{ width: 50, height: 50, borderRadius: 14, background: "white", border: "1px solid rgba(15,23,42,0.05)", boxShadow: "0 4px 10px rgba(15,23,42,0.02)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                          <item.icon size={22} color={item.color} />
+                        </div>
+                        <div style={{ fontSize: "0.65rem", fontWeight: 700, color: "#475569" }}>{item.label}</div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Banner / Info Card */}
+                <div style={{ marginTop: "auto", width: "100%", height: 80, background: `linear-gradient(135deg, ${accent}15, ${accent}30)`, borderRadius: 16, border: `1px solid ${accent}40`, display: "flex", alignItems: "center", padding: "0 1rem", gap: "1rem" }}>
+                  <div style={{ width: 44, height: 44, borderRadius: 12, background: accent, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <MessageSquare size={20} color="white" />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: "0.85rem", fontWeight: 800, color: "#0f172a" }}>Lapor via SOCS</div>
+                    <div style={{ fontSize: "0.7rem", color: "#475569", fontWeight: 500 }}>Aduan anda segera direspon</div>
+                  </div>
+                </div>
+
+              </div>
+
+              {/* Bottom Nav */}
+              <div style={{ height: "70px", background: "white", borderTop: "1px solid rgba(15,23,42,0.05)", display: "flex", alignItems: "center", justifyContent: "space-around", paddingBottom: "10px", zIndex: 10 }}>
+                {([HomeIcon, LayoutGrid, User]).map((Icon, i) => (
+                  <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4, color: i === 0 ? primary : "#94a3b8" }}>
+                    <Icon size={24} />
+                    {i === 0 && <div style={{ width: 4, height: 4, borderRadius: "50%", background: primary }} />}
+                  </div>
+                ))}
+              </div>
+
+            </div>
+          </motion.div>
+
+        </div>
+
+      </div>
+    </div>
+  );
+}

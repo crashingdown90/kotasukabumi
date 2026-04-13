@@ -18,7 +18,7 @@ const SUB_MENU_ITEMS = [
   },
   {
     id: "superapp",
-    title: "Super App Sukabumi",
+    title: "SUPER APP",
     desc: "Single Portal Layanan Terpadu dalam Satu Genggaman",
     Icon: Smartphone,
     gradient: "linear-gradient(135deg, #1A3A6B 0%, #2E5FA8 100%)",
